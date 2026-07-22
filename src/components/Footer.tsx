@@ -4,7 +4,7 @@ export default function Footer({ currentLocale = "en" }: { currentLocale?: strin
 
   return (
     <footer className="w-full neo-border border-b-0 border-x-0 bg-cream dark:bg-retro-navy py-12 px-6 md:px-12 mt-auto transition-colors text-retro-navy dark:text-cream">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 mb-8">
         {/* Branding */}
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-2.5 font-display text-2xl font-black">
@@ -18,6 +18,33 @@ export default function Footer({ currentLocale = "en" }: { currentLocale?: strin
           <p className="text-sm font-semibold max-w-sm opacity-80 leading-relaxed">
             Fast, accessible, and neobrutalist-designed decision wheels, randomizers, and productivity timers. Settle choices instantly.
           </p>
+        </div>
+
+        {/* Wheel Games */}
+        <div className="flex flex-col gap-3">
+          <h4 className="font-extrabold text-sm uppercase tracking-widest text-retro-navy/55 dark:text-cream/55">
+            Wheel Games
+          </h4>
+          <div className="flex flex-col gap-2 text-sm font-bold">
+            <a href={`${localePrefix}/food-wheels`} className="hover:text-retro-orange transition-colors">
+              Food Wheels
+            </a>
+            <a href={`${localePrefix}/sports-wheels`} className="hover:text-retro-orange transition-colors">
+              Sports Wheels
+            </a>
+            <a href={`${localePrefix}/anime-fandom-wheels`} className="hover:text-retro-orange transition-colors">
+              Anime & Fandom
+            </a>
+            <a href={`${localePrefix}/character-creator`} className="hover:text-retro-orange transition-colors">
+              Character Creator
+            </a>
+            <a href={`${localePrefix}/video-game-wheels`} className="hover:text-retro-orange transition-colors">
+              Video Games
+            </a>
+            <a href={`${localePrefix}/games`} className="hover:text-retro-orange transition-colors">
+              Browse All
+            </a>
+          </div>
         </div>
 
         {/* Use Cases */}
