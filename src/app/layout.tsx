@@ -34,6 +34,19 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        {/* Google Analytics (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2GR1MX35P" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-K2GR1MX35P');
+            `
+          }}
+        />
+        {/* End Google Analytics (gtag.js) */}
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
