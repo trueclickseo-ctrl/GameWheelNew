@@ -55,7 +55,6 @@ body {
 }
 
 .neo-card {
-  background-color: var(--card-bg);
   border: 3px solid var(--border);
   box-shadow: 5px 5px 0px var(--card-shadow);
   border-radius: 12px;
