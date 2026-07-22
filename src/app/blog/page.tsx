@@ -11,6 +11,13 @@ export const metadata = {
 export default function BlogIndexPage() {
   const articles = [
     {
+      title: "The Mathematics & History of the Spin Wheel: Friction, Easing & Rota Fortunae",
+      desc: "Delve into the science of spin wheels. Explore classical rotational mechanics, the Golden Ratio fractional math for wedge colors, and historical roots from Rome's Rota Fortunae to broadcast game shows.",
+      href: "/blog/science-and-history-of-spin-wheels",
+      category: "Science & Math",
+      date: "July 21, 2026",
+    },
+    {
       title: "Best Icebreaker Games for Work: Boost Corporate Team Bond",
       desc: "Dread morning syncs? Check out these quick, energetic corporate icebreaker games using random name wheels and spinners to kickstart your meetings.",
       href: "/blog/best-icebreaker-games-for-work",

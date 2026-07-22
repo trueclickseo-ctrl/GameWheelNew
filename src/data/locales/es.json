@@ -1,0 +1,2498 @@
+{
+  "/about": {
+    "route": "/about",
+    "type": "general",
+    "title": "Acerca de GameWheelClub",
+    "metaDescription": "",
+    "h1": "Acerca de GameWheelClub",
+    "description": "Hacer que la toma de decisiones sea divertida, rápida y completamente imparcial.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/farm-animals-wheel": {
+    "route": "/animal-wheels/farm-animals-wheel",
+    "type": "wheel",
+    "title": "Rueda de animales de granja",
+    "metaDescription": "",
+    "h1": "Rueda de animales de granja",
+    "description": "Gire para elegir animales típicos de corral y granja. Excelente para el aprendizaje de los niños pequeños.",
+    "options": [
+      "Vaca lechera",
+      "Oveja lanuda",
+      "Cerdo rosado",
+      "Caballo al galope",
+      "Pollo que cloquea",
+      "Pato graznante",
+      "Cabra",
+      "Llama esponjosa",
+      "Perro de granja"
+    ],
+    "faqs": [
+      {
+        "q": "¿Se incluyen sonidos?",
+        "a": "La ruleta reproduce un sonido limpio de tictac, ¡haz tú mismo los ruidos de los animales para divertirte más!"
+      }
+    ]
+  },
+  "/animal-wheels": {
+    "route": "/animal-wheels",
+    "type": "general",
+    "title": "Ruedas aleatorias de animales y naturaleza | GameWheelClub",
+    "metaDescription": "Selecciona animales al azar para juegos, educación y dibujos. Gira las ruedas de los animales para descubrir qué animal eres o elige criaturas de la granja.",
+    "h1": "Animales y naturaleza",
+    "description": "Seleccione animales al azar para juegos, educación y dibujos. Gira las ruedas de los animales para descubrir qué animal eres o elige criaturas de la granja.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/random-animal-generator": {
+    "route": "/animal-wheels/random-animal-generator",
+    "type": "wheel",
+    "title": "Rueda generadora de animales aleatorios",
+    "metaDescription": "",
+    "h1": "Rueda generadora de animales aleatorios",
+    "description": "Gira para obtener un animal salvaje aleatorio. Precargado con majestuosas bestias terrestres y marinas.",
+    "options": [
+      "León",
+      "Tigre",
+      "Delfín",
+      "Elefante",
+      "Canguro",
+      "Panda",
+      "Pingüino",
+      "Lobo",
+      "Oso grizzly",
+      "Chimpancé",
+      "Águila",
+      "Perezoso"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo agregar insectos o dinosaurios?",
+        "a": "Sí, agrega insectos, pájaros o bestias prehistóricas en las opciones."
+      }
+    ]
+  },
+  "/animal-wheels/what-animal-are-you": {
+    "route": "/animal-wheels/what-animal-are-you",
+    "type": "wheel",
+    "title": "Rueda de qué animal eres",
+    "metaDescription": "",
+    "h1": "Rueda de qué animal eres",
+    "description": "Descubre tu personalidad animal espiritual con esta divertida rueda de animales espirituales.",
+    "options": [
+      "Un búho sabio",
+      "Un golden retriever leal",
+      "Un gato juguetón",
+      "Un panda perezoso",
+      "Un águila voladora",
+      "Un guepardo veloz",
+      "Una tortuga marina tranquila",
+      "Una abeja ocupada",
+      "Un león valiente"
+    ],
+    "faqs": [
+      {
+        "q": "¿Esto se basa en la ciencia?",
+        "a": "No, este es un divertido juego de personalidad diseñado para entretener."
+      }
+    ]
+  },
+  "/anime-fandom-wheels/aesthetics-wheel": {
+    "route": "/anime-fandom-wheels/aesthetics-wheel",
+    "type": "wheel",
+    "title": "Rueda de estética | Spin para la moda y la estética de las habitaciones | GameWheelClub",
+    "metaDescription": "Gira la rueda de la estética para elegir un tema de estilo aleatorio como Cottagecore, Vaporwave o Dark Academia. Selector de estilo interactivo y gratuito.",
+    "h1": "Rueda giratoria estética",
+    "description": "¿No estás seguro de qué estilo de moda probar a continuación o cómo decorar tu habitación? ¡Gira la rueda para reclamar tu estilo estético aleatorio!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-characters": {
+    "route": "/anime-fandom-wheels/anime-characters",
+    "type": "wheel",
+    "title": "Rueda de personajes de anime | Girar personajes de anime aleatorios | GameWheelClub",
+    "metaDescription": "Gira la rueda de personajes de anime gratuita para seleccionar al azar a héroes y villanos populares de las mejores series como DBZ, Naruto, One Piece, MHA y Demon Slayer.",
+    "h1": "Rueda de personajes de anime",
+    "description": "¡Resuelve debates de anime, selecciona enfrentamientos de personajes o elige tu próximo avatar haciendo girar la rueda!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-to-watch": {
+    "route": "/anime-fandom-wheels/anime-to-watch",
+    "type": "wheel",
+    "title": "Rueda de anime para ver | Generador de anime aleatorio | GameWheelClub",
+    "metaDescription": "¿Puede",
+    "h1": "Anime to Watch Wheel",
+    "description": "estar abrumado por tu enorme lista de seguimiento? ¡Gira la rueda y deja que el destino seleccione tu próxima serie de anime!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/bfdi-contestants": {
+    "route": "/anime-fandom-wheels/bfdi-contestants",
+    "type": "wheel",
+    "title": "Rueda de concursantes de BFDI | Batalla por el aleatorizador de la isla de los sueños | GameWheelClub",
+    "metaDescription": "Gira la rueda de concursantes de BFDI para seleccionar personajes al azar de Battle for Dream Island. Gratis, interactivo y personalizable.",
+    "h1": "Rueda de concursantes de BFDI",
+    "description": "¡Gira para seleccionar un concursante aleatorio de la serie web Battle for Dream Island!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/cartoon-characters": {
+    "route": "/anime-fandom-wheels/cartoon-characters",
+    "type": "wheel",
+    "title": "Rueda de personajes de dibujos animados | Girar dibujos animados al azar | GameWheelClub",
+    "metaDescription": "Gira la rueda de personajes de dibujos animados para seleccionar un ícono aleatorio de series animadas clásicas y modernas. Selector de personajes gratuito, divertido y personalizable.",
+    "h1": "Rueda de personajes de dibujos animados",
+    "description": "¡Gira para seleccionar personajes de clásicos nostálgicos, gigantes de Cartoon Network y favoritos de Disney!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world": {
+    "route": "/anime-fandom-wheels/dandys-world",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Gira el Dandy",
+    "h1": "Rueda de personajes del mundo de Dandy",
+    "description": "¿No puedes decidir con qué personaje jugar en tu próxima carrera en el Jardín? ¡Gira la rueda para aleatorizar tu elección!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-oc-generator": {
+    "route": "/anime-fandom-wheels/dandys-world-oc-generator",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Gira el Dandy",
+    "h1": "Rueda generadora de Dandy's World OC",
+    "description": "¡Da rienda suelta a tu creatividad! Gira la rueda para asignar aleatoriamente un arquetipo, un rol de clase o una restricción de diseño para tu caricatura original de Dandy's World.",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-trinkets": {
+    "route": "/anime-fandom-wheels/dandys-world-trinkets",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Gira el Dandy",
+    "h1": "Rueda de baratijas del mundo de Dandy",
+    "description": "¿No estás seguro de qué baratijas equipar para tu próxima carrera? ¡Gira la rueda para aleatorizar tu equipamiento!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/demon-slayer-characters": {
+    "route": "/anime-fandom-wheels/demon-slayer-characters",
+    "type": "wheel",
+    "title": "Rueda de personajes de Demon Slayer | Girar al azar Demon Slayer | GameWheelClub",
+    "metaDescription": "Gira la rueda de personajes de Demon Slayer para seleccionar un personaje aleatorio de Kimetsu no Yaiba. Elige Hashira, Slayers o Demons al instante.",
+    "h1": "Rueda de personajes de Demon Slayer",
+    "description": "¡Gira para seleccionar personajes de Kimetsu no Yaiba, incluidos los Slayers principales, Hashiras de élite y Upper Moon Demons!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/disney-movie-generator": {
+    "route": "/anime-fandom-wheels/disney-movie-generator",
+    "type": "wheel",
+    "title": "Rueda generadora de películas de Disney | Gira una película aleatoria | GameWheelClub",
+    "metaDescription": "Gira la rueda generadora de películas de Disney para seleccionar al azar una película clásica o moderna de Disney/Pixar para tu próxima noche de cine familiar. Gratis e interactivo.",
+    "h1": "Rueda generadora de películas de Disney",
+    "description": "¿No estás seguro de qué clásico de Disney o obra maestra de Pixar mirar? ¡Gira la rueda y deja que elija!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dti-theme-wheel": {
+    "route": "/anime-fandom-wheels/dti-theme-wheel",
+    "type": "wheel",
+    "title": "Rueda temática Vístete para impresionar | Aleatorizador DTI | GameWheelClub",
+    "metaDescription": "Gira la rueda temática Dress To Impress (DTI) para seleccionar al azar un estilo de moda o un desafío de vestimenta para tu próxima pasarela de Roblox. Gratis e interactivo.",
+    "h1": "Rueda temática Dress To Impress (DTI)",
+    "description": "¿Aburrido de las categorías de pasarela estándar? ¡Gira la rueda para conseguir una estética de moda aleatoria para tu próxima sesión de modelaje!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/fnaf-characters": {
+    "route": "/anime-fandom-wheels/fnaf-characters",
+    "type": "wheel",
+    "title": "Rueda de personajes de FNAF | Girar animatrónicos aleatorios | GameWheelClub",
+    "metaDescription": "Gira la rueda de personajes de FNAF para elegir un animatrónico aleatorio de Five Nights at Freddy",
+    "h1": "Rueda de personajes de FNAF",
+    "description": "¡Gira para seleccionar un animatrónico aleatorio de la legendaria franquicia de terror de Scott Cawthon!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jjk-cursed-techniques": {
+    "route": "/anime-fandom-wheels/jjk-cursed-techniques",
+    "type": "wheel",
+    "title": "Rueda de Técnicas Malditas JJK | Giro para técnicas malditas | GameWheelClub",
+    "metaDescription": "Gira la rueda de técnicas malditas de JJK para seleccionar aleatoriamente qué poder de Jujutsu Kaisen heredarías. Gratis, personalizable y divertido.",
+    "h1": "Rueda de Técnicas Malditas de JJK",
+    "description": "¿Qué técnica heredada corre por tu sangre? ¡Gira la rueda para reclamar tu legendaria técnica JJK!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jujutsu-kaisen-characters": {
+    "route": "/anime-fandom-wheels/jujutsu-kaisen-characters",
+    "type": "wheel",
+    "title": "Rueda de personajes de Jujutsu Kaisen | Girar al azar JJK Hechicero | GameWheelClub",
+    "metaDescription": "Gira la rueda de personajes de Jujutsu Kaisen para seleccionar al azar hechiceros, espíritus malditos o personajes estudiantiles. Aleatorizador JJK gratuito e interactivo.",
+    "h1": "Rueda de personajes de Jujutsu Kaisen",
+    "description": "¡Gira para seleccionar personajes de JJK, incluidos estudiantes de Tokyo Jujutsu High, hechiceros de élite y espíritus malditos!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/marvel-superheroes": {
+    "route": "/anime-fandom-wheels/marvel-superheroes",
+    "type": "wheel",
+    "title": "Rueda de superhéroes Marvel | Girar Vengadores aleatorios | GameWheelClub",
+    "metaDescription": "Gira la rueda de los superhéroes de Marvel para elegir al azar un héroe del Universo Marvel. Gratis, personalizable y perfecto para los fanáticos de los cómics y del MCU.",
+    "h1": "Rueda de superhéroes de Marvel",
+    "description": "¡Selecciona un Vengador, un miembro de X-Men o un héroe callejero al azar del vasto Universo Marvel!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/mha-characters": {
+    "route": "/anime-fandom-wheels/mha-characters",
+    "type": "wheel",
+    "title": "Rueda de personajes de MHA | Girar personajes aleatorios de My Hero Academia | GameWheelClub",
+    "metaDescription": "Gira la rueda de personajes de MHA para seleccionar al azar héroes y villanos de My Hero Academia. Selector de personajes gratuito, personalizable y rápido.",
+    "h1": "Rueda de personajes de MHA",
+    "description": "¡Gira para seleccionar personajes de My Hero Academia, incluidos los héroes de Clase 1-A y la Liga de Villanos!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/naruto-characters": {
+    "route": "/anime-fandom-wheels/naruto-characters",
+    "type": "wheel",
+    "title": "Rueda de personajes de Naruto | Gira al azar Naruto Ninja | GameWheelClub",
+    "metaDescription": "Gira la rueda de personajes de Naruto para elegir un shinobi aleatorio de Konoha o Akatsuki. Selector ninja gratuito e interactivo.",
+    "h1": "Rueda de personajes de Naruto",
+    "description": "¡Gira para seleccionar ninjas de los clanes Hidden Leaf, Akatsuki o shinobi históricos!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-characters": {
+    "route": "/anime-fandom-wheels/one-piece-characters",
+    "type": "wheel",
+    "title": "Rueda de personajes de One Piece | Girar piratas aleatorios | GameWheelClub",
+    "metaDescription": "Gira la rueda de personajes de One Piece para seleccionar un pirata al azar de la tripulación de Sombrero de Paja, Yonko o Marines. Gratis, rápido y personalizable.",
+    "h1": "Rueda de personajes de One Piece",
+    "description": "¡Embarca en Grand Line y gira la rueda para seleccionar un personaje aleatorio de la obra maestra de Eiichiro Oda!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-devil-fruits": {
+    "route": "/anime-fandom-wheels/one-piece-devil-fruits",
+    "type": "wheel",
+    "title": "Rueda de frutas del diablo de una pieza | Giro para las frutas del diablo | GameWheelClub",
+    "metaDescription": "Gira la rueda de las frutas del diablo de One Piece para seleccionar al azar qué poder de la fruta del diablo heredarías en el mundo del anime. Gratis y personalizable.",
+    "h1": "Rueda de frutas del diablo de One Piece",
+    "description": "¿Qué fruta mística consumirás? ¡Gira la rueda para reclamar tu legendario poder pirata!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels": {
+    "route": "/anime-fandom-wheels",
+    "type": "general",
+    "title": "Ruedas de personajes de anime y fandom | GameWheelClub",
+    "metaDescription": "Gira 19 ruedas de decisión gratuitas para el fandom. Aleatoriza personajes de anime, películas de Disney, íconos de dibujos animados, animatrónicos FNAF y frutas del diablo de One Piece.",
+    "h1": "Anime & Fandom Wheels",
+    "description": "Elige tu próxima lista de seguimiento, resuelve enfrentamientos de debate o elige personajes de fandom al azar usando nuestras opciones preestablecidas prediseñadas.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/best-icebreaker-games-for-work": {
+    "route": "/blog/best-icebreaker-games-for-work",
+    "type": "general",
+    "title": "Los mejores juegos para romper el hielo en el trabajo: aumentar el vínculo del equipo corporativo",
+    "metaDescription": "¿Sincronizaciones matutinas aterradoras? Eche un vistazo a estos rápidos y enérgicos juegos corporativos para romper el hielo que utilizan ruedas giratorias y con nombres aleatorios para impulsar sus reuniones.",
+    "h1": "Rompehielos enérgicos en el lugar de trabajo que no dan vergüenza",
+    "description": "Los temidos rompehielos corporativos se encuentran con la aleatoriedad moderna. Descubra cómo iniciar reuniones stand-up y híbridas con actividades intensas que generen conexiones reales.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/classroom-incentive-rewards": {
+    "route": "/blog/classroom-incentive-rewards",
+    "type": "general",
+    "title": "Recompensas de incentivos en el aula: sistemas de motivación justos",
+    "metaDescription": "¡Deshazte de las estrellas doradas! Aprenda a crear un sistema de recompensas aleatorio e interactivo utilizando ruedas giratorias para motivar a los estudiantes y mantener un alto nivel de participación.",
+    "h1": "Creación de mejores recompensas de incentivo en el aula",
+    "description": "Los gráficos y pegatinas de comportamiento estáticos están perdiendo su eficacia. Descubra cómo agregar dinámicas de juego y premios aleatorios mantiene a los estudiantes motivados y con un comportamiento positivo.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-generators-help-coding": {
+    "route": "/blog/how-generators-help-coding",
+    "type": "general",
+    "title": "Cómo los generadores aleatorios ayudan a la codificación: pruebas y simulacros de desarrollo",
+    "metaDescription": "Explore cómo los generadores aleatorios ayudan a los desarrolladores de software en las pruebas de código, la creación de datos simulados, la simulación UI/UX y el diseño de algoritmos de juegos.",
+    "h1": "Cómo los generadores aleatorios mejoran la codificación y las pruebas",
+    "description": "La aleatoriedad es la salsa secreta de una programación sólida. Descubra cómo los desarrolladores utilizan generadores pseudoaleatorios (PRNG) para crear sistemas resistentes, simular el tráfico del mundo real y probar casos extremos.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-to-customize-spin-wheels": {
+    "route": "/blog/how-to-customize-spin-wheels",
+    "type": "general",
+    "title": "Cómo personalizar ruedas giratorias para cualquier ocasión",
+    "metaDescription": "Aprenda a personalizar sus ruedas giratorias con colores, etiquetas, distribución de peso y efectos de sonido personalizados para adaptarse a aulas, fiestas o eventos comerciales.",
+    "h1": "Cómo personalizar las ruedas giratorias según sus necesidades",
+    "description": "Una rueda genérica puede resultar aburrida. Descubra cómo ajustar los colores, ajustar los pesos, elegir efectos de sonido y crear paletas temáticas eleva sus eventos, clases y obsequios.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/math-activities-using-random-generators": {
+    "route": "/blog/math-activities-using-random-generators",
+    "type": "general",
+    "title": "Actividades matemáticas que utilizan generadores aleatorios: ideas interactivas",
+    "metaDescription": "¡Haga que las matemáticas sean interactivas! Descubra 6 interesantes actividades matemáticas, juegos de probabilidad y ejercicios numéricos que utilizan generadores de números aleatorios y dados digitales.",
+    "h1": "Actividades y juegos matemáticos que utilizan generadores aleatorios",
+    "description": "Las matemáticas no tienen por qué ser un deporte para espectadores. Descubra cómo convertir ejercicios aritméticos, estadísticas y teoría de probabilidades en juegos activos y prácticos utilizando generadores de números aleatorios.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog": {
+    "route": "/blog",
+    "type": "general",
+    "title": "Blog de GameWheelClub | Decisiones aleatorias, juegos e información educativa",
+    "metaDescription": "Lea nuestros últimos artículos sobre toma de decisiones aleatorias, plantillas de juegos interactivos para el aula, técnicas de time-boxing y actividades para romper el hielo en fiestas.",
+    "h1": "Ideas, guías y trucos de productividad",
+    "description": "Lea consejos de expertos sobre cómo ludificar las aulas, implementar time-boxing estructurados, organizar juegos sociales y configurar mecanismos de decisión.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/party-games-for-adults": {
+    "route": "/blog/party-games-for-adults",
+    "type": "general",
+    "title": "Divertidos juegos de fiesta para adultos: ideas interactivas y aleatorias",
+    "metaDescription": "¡Deshazte de las aburridas conversaciones durante la cena! Explora 8 juegos de fiesta interactivos y aleatorios para adultos, incluidos los hilanderos de Verdad o Reto, juegos de dados y desafíos de trivia.",
+    "h1": "Sube de nivel tus reuniones con juegos de fiesta para adultos",
+    "description": "¿Estás cansado de los juegos de mesa estándar o de las incómodas pausas silenciosas? Aprenda a integrar ruedas giratorias digitales y generadores aleatorios para organizar una noche de juegos inolvidable.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/pomodoro-technique-for-students": {
+    "route": "/blog/pomodoro-technique-for-students",
+    "type": "general",
+    "title": "Técnica Pomodoro para estudiantes: mejor estrategia de concentración",
+    "metaDescription": "Aprenda cómo la técnica Pomodoro ayuda a los estudiantes a mejorar la concentración, superar la procrastinación y gestionar el tiempo de estudio con intervalos y descansos estructurados.",
+    "h1": "La técnica Pomodoro: una guía para estudiantes ocupados",
+    "description": "¿Tiene dificultades para estudiar para los exámenes sin revisar su teléfono cada cinco minutos? Descubra cómo los intervalos de estudio estructurados pueden ayudarle a concentrarse, retener información y reducir el agotamiento.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-for-decision-making": {
+    "route": "/blog/spin-wheels-for-decision-making",
+    "type": "general",
+    "title": "Ruedas giratorias para la toma de decisiones: curar la parálisis de las decisiones",
+    "metaDescription": "¿Tiene problemas para pensar demasiado? Descubra cómo las ruedas giratorias y los generadores de elecciones aleatorias simplifican la toma de decisiones, eliminan la carga cognitiva y hacen que elegir sea divertido.",
+    "h1": "Cómo las ruedas giratorias curan la parálisis de las decisiones cotidianas",
+    "description": "¿Alguna vez pasaste 45 minutos navegando por Netflix solo para irte a la cama sin ver nada? He aquí por qué dejar las decisiones de bajo riesgo en manos de una rueda giratoria aleatoria es el truco de productividad definitivo.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-in-modern-education": {
+    "route": "/blog/spin-wheels-in-modern-education",
+    "type": "general",
+    "title": "Ruedas giratorias en la educación moderna: Gamificar las aulas",
+    "metaDescription": "Impulsar la participación de los estudiantes mediante ruedas giratorias. Explore ideas activas para el aula, revisiones de cuestionarios gamificados y métodos de selección justos utilizando ruedas giratorias digitales.",
+    "h1": "Ruedas giratorias en la educación moderna: ludificación del aula",
+    "description": "Cómo un sencillo selector de nombres visual está transformando las tasas de participación de los estudiantes, reduciendo la ansiedad ante los exámenes y construyendo un entorno inclusivo en la educación K-12 y superior.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/time-boxing-to-prevent-burnout": {
+    "route": "/blog/time-boxing-to-prevent-burnout",
+    "type": "general",
+    "title": "Time Boxing para prevenir el agotamiento: estrategia de programación diaria",
+    "metaDescription": "Aprenda cómo el Time Boxing ayuda a gestionar las cargas de trabajo, establecer límites claros entre el trabajo y la vida personal y prevenir el agotamiento a través de bloques de tiempo estructurados.",
+    "h1": "Cómo el Time Boxing previene el agotamiento profesional",
+    "description": "¿Sus horas de trabajo se extienden hasta la noche? Descubra cómo establecer límites de tiempo difíciles para sus tareas puede reconstruir límites saludables, aumentar el rendimiento y restaurar la tranquilidad.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/age-spinner": {
+    "route": "/character-creator/age-spinner",
+    "type": "wheel",
+    "title": "Rueda giratoria de edad",
+    "metaDescription": "",
+    "h1": "Rueda giratoria de edad",
+    "description": "Elige aleatoriamente las edades de los personajes y las etapas de desarrollo.",
+    "options": [
+      "Niño (5-10)",
+      "Preadolescente (11-12)",
+      "Adolescente (13-17)",
+      "Adulto joven (18-25)",
+      "Adulto (26-45)",
+      "Mediana edad (46-60)",
+      "Mayor (60+)"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo configurar números específicos?",
+        "a": "Sí, escriba edades específicas como \\\"21 años\\\" o \\\"84 años\\\" para afinar."
+      }
+    ]
+  },
+  "/character-creator/boy-or-girl-oc": {
+    "route": "/character-creator/boy-or-girl-oc",
+    "type": "wheel",
+    "title": "Niño o Niña OC Spinner",
+    "metaDescription": "",
+    "h1": "Niño o Niña OC Spinner",
+    "description": "¿Atrapado en decidir la identidad de género de tu próximo personaje? Gira el puntero para decidir al instante.",
+    "options": [
+      "Niño",
+      "Niña",
+      "No binario",
+      "Género fluido",
+      "Agender"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo agregar identidades de género personalizadas?",
+        "a": "¡Sí! Simplemente use el panel del editor para agregar, eliminar o cambiar el nombre de las opciones para que coincidan con el mundo de su personaje."
+      }
+    ]
+  },
+  "/character-creator/clothing-style": {
+    "route": "/character-creator/clothing-style",
+    "type": "wheel",
+    "title": "Rueda de estilo de ropa",
+    "metaDescription": "",
+    "h1": "Rueda de estilo de ropa",
+    "description": "Obtén ideas de moda y estética de vestimenta para creadores de personajes.",
+    "options": [
+      "Ropa informal",
+      "Gótico victoriano",
+      "Ropa tecnológica futurista",
+      "Kimono tradicional",
+      "Uniforme de escuela secundaria",
+      "Esmoquin/vestido formal",
+      "Cyberpunk Rebel",
+      "Armadura de fantasía"
+    ],
+    "faqs": [
+      {
+        "q": "¿Cómo combino estilos?",
+        "a": "¡Gira dos veces y combina los resultados, como Cyberpunk Victorian!"
+      }
+    ]
+  },
+  "/character-creator/create-an-oc": {
+    "route": "/character-creator/create-an-oc",
+    "type": "wheel",
+    "title": "Crea una rueda OC",
+    "metaDescription": "",
+    "h1": "Crea una rueda OC",
+    "description": "Gira esta rueda para generar un trasfondo, una raza o una clase aleatoria para tu próximo personaje original.",
+    "options": [
+      "Guerrero",
+      "Mago",
+      "Ladrón",
+      "Clérigo",
+      "Elfo",
+      "Enano",
+      "Orco",
+      "Demonio",
+      "Ángel",
+      "Cyborg",
+      "Alien"
+    ],
+    "faqs": [
+      {
+        "q": "¿Cómo puedo ampliar la clase/raza seleccionada?",
+        "a": "Una vez que selecciones un arquetipo, gira las ruedas de estilo de cabello, ojos y ropa para construir el diseño completo."
+      }
+    ]
+  },
+  "/character-creator/eye-color": {
+    "route": "/character-creator/eye-color",
+    "type": "wheel",
+    "title": "Rueda de colores de ojos",
+    "metaDescription": "",
+    "h1": "Rueda de colores de ojos",
+    "description": "Decide sombras de ojos y estilos de iris de fantasía para tu OC al instante.",
+    "options": [
+      "Azul océano",
+      "Verde bosque",
+      "Ámbar dorado",
+      "Rojo carmesí",
+      "Avellana",
+      "Marrón oscuro",
+      "Violeta amatista",
+      "Heterocromía (azul/verde)",
+      "Negro puro"
+    ],
+    "faqs": [
+      {
+        "q": "¿Cómo represento ojos brillantes de fantasía?",
+        "a": "Simplemente agregue \\\"(Brillante)\\\" a cualquiera de los colores en el panel de edición."
+      }
+    ]
+  },
+  "/character-creator/gacha-character-generator": {
+    "route": "/character-creator/gacha-character-generator",
+    "type": "wheel",
+    "title": "Rueda generadora de personajes de Gacha",
+    "metaDescription": "",
+    "h1": "Rueda generadora de personajes de Gacha",
+    "description": "Gira para temas de estilo, estética y conceptos de moda para construir tu próximo personaje de Gacha Life o Gacha Club.",
+    "options": [
+      "Estilo Sweet Candy",
+      "Estilo gótico oscuro",
+      "Estilo Steampunk",
+      "Cyberpunk retro",
+      "Pastel Soft Girl",
+      "Sporty Chic",
+      "Royal Knight"
+    ],
+    "faqs": [
+      {
+        "q": "¿Funciona esto para Gacha Club?",
+        "a": "Sí, estas indicaciones se ajustan a Gacha Life, Gacha Club y a los creadores de avatares en general."
+      }
+    ]
+  },
+  "/character-creator/gender-randomizer": {
+    "route": "/character-creator/gender-randomizer",
+    "type": "wheel",
+    "title": "Rueda de aleatorización de género",
+    "metaDescription": "",
+    "h1": "Rueda de aleatorización de género",
+    "description": "Aleatoriza pronombres, identidades de género y estilos de presentación.",
+    "options": [
+      "Masculino",
+      "Femenino",
+      "No binario",
+      "Andrógino",
+      "Genderqueer",
+      "Demiboy",
+      "Demigirl"
+    ],
+    "faqs": [
+      {
+        "q": "¿Están los pronombres precargados?",
+        "a": "Puedes escribir pronombres personalizados junto a los géneros en el menú de opciones."
+      }
+    ]
+  },
+  "/character-creator/hair-color": {
+    "route": "/character-creator/hair-color",
+    "type": "wheel",
+    "title": "Rueda de color de cabello",
+    "metaDescription": "",
+    "h1": "Rueda de color de cabello",
+    "description": "Gira para elegir un tinte de cabello al azar o un color de cabello OC. Precargado con tonos naturales y tintes neón vibrantes.",
+    "options": [
+      "Marrón",
+      "Negro",
+      "Rubio",
+      "Jengibre",
+      "Rubio platino",
+      "Verde neón",
+      "Rosa pastel",
+      "Púrpura lila",
+      "Azul cian",
+      "Rojo intenso"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo agregar estilos multicolores?",
+        "a": "Por supuesto, escriba \\\"Split Dye (Rosa/Azul)\\\" en la lista de opciones para obtener resultados personalizados."
+      }
+    ]
+  },
+  "/character-creator/hair-style": {
+    "route": "/character-creator/hair-style",
+    "type": "wheel",
+    "title": "Rueda de peinado",
+    "metaDescription": "",
+    "h1": "Rueda de peinado",
+    "description": "Selecciona un peinado al azar para hojas de personajes, dibujos o diseños de modelos.",
+    "options": [
+      "Pixie corto",
+      "Bob rizado",
+      "Ondas largas",
+      "Corte lateral",
+      "Coletas gemelas",
+      "Cola de caballo alta",
+      "Moño desordenado",
+      "Anime puntiagudo",
+      "Afro Puff",
+      "Rastas"
+    ],
+    "faqs": [
+      {
+        "q": "¿Es adecuado para personajes masculinos y femeninos?",
+        "a": "Sí, todos los estilos son unisex y se ajustan a cualquier arquetipo de OC."
+      }
+    ]
+  },
+  "/character-creator/nationality-generator": {
+    "route": "/character-creator/nationality-generator",
+    "type": "wheel",
+    "title": "Rueda generadora de nacionalidad",
+    "metaDescription": "",
+    "h1": "Rueda generadora de nacionalidad",
+    "description": "Elija orígenes nacionales y ciudadanías aleatorias para los personajes globales.",
+    "options": [
+      "Estadounidense",
+      "Japonés",
+      "Británico",
+      "Brasileño",
+      "Francés",
+      "Alemán",
+      "Australiano",
+      "Canadiense",
+      "Surcoreano",
+      "Indio",
+      "Mexicano",
+      "Español"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo agregar regiones específicas?",
+        "a": "Sí, modifique la lista de ruedas para especificar ciudades o subregiones."
+      }
+    ]
+  },
+  "/character-creator": {
+    "route": "/character-creator",
+    "type": "general",
+    "title": "Creador de personajes y generadores de ruedas OC | GameWheelClub",
+    "metaDescription": "Diseña personajes, OC y avatares aleatorios al instante. Gire para peinados, atuendos, ojos, géneros, tonos de piel e ideas de gacha.",
+    "h1": "Creador de personajes y OC Wheels",
+    "description": "Diseña personajes, OC y avatares aleatorios al instante. Gire para peinados, atuendos, ojos, géneros, tonos de piel e ideas de gacha.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/skin-tone": {
+    "route": "/character-creator/skin-tone",
+    "type": "wheel",
+    "title": "Rueda de tonos de piel",
+    "metaDescription": "",
+    "h1": "Rueda de tonos de piel",
+    "description": "Seleccione tonos de piel, matices y texturas de criaturas al azar.",
+    "options": [
+      "Melocotón justo",
+      "Beige cálido",
+      "Oliva dorado",
+      "Bronce rico",
+      "Cacao intenso",
+      "Blanco alabastro",
+      "Gris pálido (Alien/Undead)",
+      "Azul neón"
+    ],
+    "faqs": [
+      {
+        "q": "¿La paleta es ajustable?",
+        "a": "Sí, personalice todos los tonos o nombres hexadecimales en el área de texto masivo."
+      }
+    ]
+  },
+  "/compare/best-random-picker-tools": {
+    "route": "/compare/best-random-picker-tools",
+    "type": "general",
+    "title": "GameWheelClub vs. Rueda de nombres vs. Wheel Decider vs. Tiny Decisions | Las mejores herramientas de selección aleatoria",
+    "metaDescription": "Lea nuestra comparación completa e imparcial de las principales herramientas de selección aleatoria: GameWheelClub, Wheel of Names, Wheel Decider y Tiny Decisions. Descubra la mejor rueda giratoria para su salón de clases, evento o elecciones cotidianas.",
+    "h1": "Comparación de las mejores herramientas de selección aleatoria",
+    "description": "¿Atascado entre GameWheelClub, Wheel of Names, Wheel Decider y Tiny Decisions? Analizamos características, privacidad, estilo y UX para encontrar la rueda de elección definitiva para usted.",
+    "options": [],
+    "faqs": []
+  },
+  "/contact": {
+    "route": "/contact",
+    "type": "general",
+    "title": "Contáctenos",
+    "metaDescription": "",
+    "h1": "Contáctenos",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/arrow-spin": {
+    "route": "/creative-wheels/arrow-spin",
+    "type": "wheel",
+    "title": "Rueda giratoria de flechas",
+    "metaDescription": "",
+    "h1": "Rueda giratoria de flechas",
+    "description": "Gira el puntero de una brújula para elegir una dirección cardinal u ordinal aleatoria.",
+    "options": [
+      "Norte ⬆️",
+      "Noreste ↗️",
+      "Este ➡️",
+      "Sudeste ↘️",
+      "Sur ⬇️",
+      "Suroeste ↙️",
+      "Oeste ⬅️",
+      "Noroeste ↖️"
+    ],
+    "faqs": [
+      {
+        "q": "¿Actúa como brújula?",
+        "a": "Elige direcciones matemáticamente, actuando como una guía direccional aleatoria."
+      }
+    ]
+  },
+  "/creative-wheels/drawing-idea-wheel": {
+    "route": "/creative-wheels/drawing-idea-wheel",
+    "type": "wheel",
+    "title": "Rueda de ideas para dibujar",
+    "metaDescription": "",
+    "h1": "Rueda de ideas para dibujar",
+    "description": "Genere sugerencias extrañas, lindas y divertidas para su próximo boceto.",
+    "options": [
+      "Un gato con sombrero de mago",
+      "Un café ciberpunk futurista",
+      "Una casa en un árbol flotando en el espacio",
+      "Un caballero medieval montado en una tortuga",
+      "Un simpático dragón horneando galletas",
+      "Una floristería de robots steampunk"
+    ],
+    "faqs": [
+      {
+        "q": "¿Es bueno para desafíos de dibujo rápido?",
+        "a": "¡Sí, gira un mensaje y configura un cronómetro de 5 minutos!"
+      }
+    ]
+  },
+  "/creative-wheels/movie-picker": {
+    "route": "/creative-wheels/movie-picker",
+    "type": "wheel",
+    "title": "Rueda de selección de películas",
+    "metaDescription": "",
+    "h1": "Rueda de selección de películas",
+    "description": "Resuelva qué ver esta noche girando los géneros de películas.",
+    "options": [
+      "Éxito de taquilla de acción",
+      "Suspense de ciencia ficción",
+      "Noche de comedia",
+      "Drama romántico",
+      "Terror espeluznante",
+      "Misterio alucinante",
+      "Épica histórica",
+      "Clásico animado",
+      "Obra maestra independiente"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo agregar títulos de películas específicos?",
+        "a": "¡Sí! Reemplace los géneros con los nombres reales de su lista de seguimiento en el editor."
+      }
+    ]
+  },
+  "/creative-wheels/music-genre-wheel": {
+    "route": "/creative-wheels/music-genre-wheel",
+    "type": "wheel",
+    "title": "Rueda de género musical",
+    "metaDescription": "",
+    "h1": "Rueda de género musical",
+    "description": "Gire para elegir qué estilo musical tocar o investigar.",
+    "options": [
+      "Synthwave / Lo-Fi",
+      "Rock & Roll clásico",
+      "Hip Hop de los 90",
+      "Piano neoclásico",
+      "Pop moderno",
+      "Smooth Jazz",
+      "Indie Folk y acústico",
+      "Heavy Metal / Hard Rock",
+      "Música electrónica de baile"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo agregar artistas específicos?",
+        "a": "Sí, ingresa tus cantantes o bandas favoritas en el editor."
+      }
+    ]
+  },
+  "/creative-wheels": {
+    "route": "/creative-wheels",
+    "type": "general",
+    "title": "Ruedas de decisiones creativas y de entretenimiento | GameWheelClub",
+    "metaDescription": "Desbloquea la inspiración creativa al instante. Gire para elegir un género de película o un selector, obtenga ideas de dibujos aleatorios, gire un puntero de flecha u obtenga indicaciones de libros TBR.",
+    "h1": "Creatividad y entretenimiento",
+    "description": "Desbloquea la inspiración creativa al instante. Gire para elegir un género de película o un selector, obtenga ideas de dibujos aleatorios, gire un puntero de flecha u obtenga indicaciones de libros TBR.",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/tbr-prompts": {
+    "route": "/creative-wheels/tbr-prompts",
+    "type": "wheel",
+    "title": "Rueda de indicaciones de TBR",
+    "metaDescription": "",
+    "h1": "Rueda de indicaciones de TBR",
+    "description": "Seleccione su siguiente opción de lectura de libro utilizando las indicaciones de To-Be-Read (TBR).",
+    "options": [
+      "Un libro con tapa azul",
+      "Un libro recomendado por un amigo",
+      "Un libro que ha estado en su estantería más de 1 año",
+      "Un thriller o misterio",
+      "Un libro de una autora",
+      "Un libro con un animal"
+    ],
+    "faqs": [
+      {
+        "q": "¿Es compatible con las listas de Goodreads?",
+        "a": "Copie y pegue títulos directamente desde sus listas de lectura para obtener selecciones personalizadas."
+      }
+    ]
+  },
+  "/decision-wheel": {
+    "route": "/decision-wheel",
+    "type": "wheel",
+    "title": "Rueda de decisión aleatoria | Gire la rueda de elección",
+    "metaDescription": "Ingrese sus elecciones personalizadas, gire la rueda de decisión y resuelva las opciones al instante. Creador de decisiones completamente gratuito, personalizable e imparcial.",
+    "h1": "Rueda de decisiones aleatorias",
+    "description": "¿No puedes elegir entre opciones para cenar, lugares de vacaciones o proyectos de trabajo? ¡Personaliza las rebanadas y gira!",
+    "options": [
+      "Sí",
+      "No",
+      "Tal vez",
+      "Pregúntale a un amigo",
+      "Gira otra vez",
+      "Duerme sobre él"
+    ],
+    "faqs": []
+  },
+  "/dice-roller": {
+    "route": "/dice-roller",
+    "type": "dice-roller",
+    "title": "Rodillo de dados | Tira dados virtuales en línea",
+    "metaDescription": "Tira 1, 2 o 3 dados virtuales al instante. Perfecto para juegos de mesa, estadísticas, lecciones de probabilidad y decisiones aleatorias.",
+    "h1": "Rodillo de dados virtual",
+    "description": "¿Perdiste los dados de tu juego de mesa? Lanza hasta tres dados virtuales con animaciones y diseños de puntos realistas.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/bulk-edit": {
+    "route": "/features/bulk-edit",
+    "type": "general",
+    "title": "Edición masiva e importación de listas | Herramientas de GameWheelClub",
+    "metaDescription": "Aprenda a importar y editar miles de elementos al instante. Explore el análisis de cadenas, la compatibilidad con CSV y los motores de saneamiento de listas que impulsan GameWheelClub",
+    "h1": "Edición masiva e importación de listas: administración de grandes conjuntos de datos",
+    "description": "La entrada manual es lenta. Descubra cómo GameWheelClub le permite pegar, formatear y desinfectar cientos de entradas de listas de Excel, Google Sheets o texto sin formato en un solo segundo.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/custom-colors": {
+    "route": "/features/custom-colors",
+    "type": "general",
+    "title": "Colores personalizados y temas neobrutalistas | GameWheelClub",
+    "metaDescription": "Personaliza los colores, la tipografía y el estilo de tus ruedas de decisión. Descubra cómo los diseños neobrutalistas, el contraste accesible y las paletas CSS potencian las herramientas visuales de GameWheelClub.",
+    "h1": "Colores personalizados y temas neobrutalistas: estiliza tus decisiones",
+    "description": "Da rienda suelta a tu creatividad. Configure colores personalizados, aplique ajustes preestablecidos retro y aproveche temas accesibles de alto contraste diseñados para profesores, presentadores y jugadores.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/elimination-mode": {
+    "route": "/features/elimination-mode",
+    "type": "general",
+    "title": "Modo de eliminación | Selección exhaustiva de opciones | GameWheelClub",
+    "metaDescription": "Descubra cómo el modo Eliminación convierte las ruedas de decisión estándar en sistemas de rifa interactivos y tableros de dibujo secuenciales al eliminar a los ganadores en cada giro.",
+    "h1": "Modo de eliminación: la física de la selección exhaustiva de ganadores",
+    "description": "Elimine duplicados, seleccione varios ganadores distintos o reduzca una lista enorme de opciones utilizando nuestra lógica dinámica de eliminación de sectores.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/local-storage": {
+    "route": "/features/local-storage",
+    "type": "general",
+    "title": "Almacenamiento local y privacidad de datos | Funciones de GameWheelClub",
+    "metaDescription": "Aprenda cómo GameWheelClub utiliza el almacenamiento local del navegador nativo para guardar sus ruedas, nombres y plantillas sin conexión. Lea acerca de nuestra arquitectura de privacidad de datos sin servidor.",
+    "h1": "Almacenamiento local y diseño sin conexión: arquitectura que prioriza la privacidad",
+    "description": "Sus listas, opciones y ruedas son sólo suyas. Descubra cómo almacenamos datos de configuración directamente en su navegador, lo que permite una carga con latencia cero y una funcionalidad completa sin conexión.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/sound-effects": {
+    "route": "/features/sound-effects",
+    "type": "general",
+    "title": "Audio Efectos de sonido y sintetizadores | GameWheelClub",
+    "metaDescription": "Descubra cómo la generación de audio procedimental y la API de audio web del navegador crean efectos de sonido retro de alta fidelidad, interactivos y responsivos para las herramientas de GameWheelClub.",
+    "h1": "Efectos de sonido: la tecnología del audio web procedimental",
+    "description": "Descubra cómo utilizamos matemáticas puras y generadores de sintetizadores nativos del navegador para crear deliciosos sonidos táctiles de clics y fanfarrias que imitan ruedas mecánicas.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/weighted-wheel": {
+    "route": "/features/weighted-wheel",
+    "type": "general",
+    "title": "Ruedas de decisión ponderadas | Hilanderos basados ​​en probabilidades | GameWheelClub",
+    "metaDescription": "Explora las matemáticas y la lógica de las ruedas de decisión ponderadas. Descubra cómo la distribución de probabilidad, los pesos acumulativos y la selección de la ruleta impulsan las ruedas de elección personalizadas.",
+    "h1": "Ruedas de decisión ponderadas: las matemáticas y la lógica de la probabilidad personalizada",
+    "description": "No todas las opciones son iguales. Descubra cómo GameWheelClub le permite asignar valores de peso específicos a los elementos, cambiando el equilibrio del azar con rigurosa precisión matemática.",
+    "options": [],
+    "faqs": []
+  },
+  "/flip-a-coin": {
+    "route": "/flip-a-coin",
+    "type": "flip-a-coin",
+    "title": "Lanza una moneda | Generador de cara o cruz en línea",
+    "metaDescription": "Lanza una moneda virtual en línea. Un generador de decisiones simple e instantáneo de cara o cruz con animaciones inspiradas en 3D.",
+    "h1": "Lanza una moneda en línea",
+    "description": "¿No puedes resolver una discusión simple? ¡Lanza una moneda virtual y deja que la probabilidad decida cara o cruz al instante!",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/dessert": {
+    "route": "/food-wheels/dessert",
+    "type": "wheel",
+    "title": "Rueda de postres",
+    "metaDescription": "",
+    "h1": "Rueda de postres",
+    "description": "Gírela para obtener una idea dulce. Cubre pasteles, tartas y galletas horneadas.",
+    "options": [
+      "Pastel de chocolate",
+      "Helado de vainilla",
+      "Pastel de manzana tibio",
+      "Galletas con chispas de chocolate recién horneadas",
+      "Pastel de queso con fresas",
+      "Donuts glaseados",
+      "Crème Brûlée",
+      "Sundae de brownie"
+    ],
+    "faqs": [
+      {
+        "q": "¿Son estas recetas?",
+        "a": "Estas son categorías de postres dulces que inspirarán su próxima decisión de hornear o realizar un pedido."
+      }
+    ]
+  },
+  "/food-wheels/fast-food-restaurants": {
+    "route": "/food-wheels/fast-food-restaurants",
+    "type": "wheel",
+    "title": "Rueda de restaurantes de comida rápida",
+    "metaDescription": "",
+    "h1": "Rueda de restaurantes de comida rápida",
+    "description": "Gire para elegir entre cadenas de comida rápida populares para un almuerzo rápido.",
+    "options": [
+      "McDonalds",
+      "Burger King",
+      "Wendys",
+      "Subway",
+      "Taco Bell",
+      "KFC",
+      "Popeyes",
+      "Chick-fil-A",
+      "Dominos",
+      "Pizza Hut",
+      "Starbucks",
+      "Dunkin"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo personalizarlo para tiendas cercanas?",
+        "a": "Sí, elimina cadenas que no estén disponibles en tu ciudad."
+      }
+    ]
+  },
+  "/food-wheels/fruit": {
+    "route": "/food-wheels/fruit",
+    "type": "wheel",
+    "title": "Rueda de frutas",
+    "metaDescription": "",
+    "h1": "Rueda de frutas",
+    "description": "Gire para elegir una fruta saludable para comer.",
+    "options": [
+      "Manzana roja",
+      "Plátano",
+      "Fresa dulce",
+      "Naranja jugosa",
+      "Arándanos",
+      "Uvas verdes",
+      "Rebanada de sandía",
+      "Piña fresca",
+      "Melocotón",
+      "Mango"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo agregar frutas tropicales?",
+        "a": "¡Sí! Agregue pitahaya, kiwi o papaya en las opciones."
+      }
+    ]
+  },
+  "/food-wheels": {
+    "route": "/food-wheels",
+    "type": "general",
+    "title": "Ruedas giratorias para decidir alimentos y cenas | GameWheelClub",
+    "metaDescription": "¿Puedes",
+    "h1": "Food Wheels",
+    "description": "No puedes ponerte de acuerdo sobre el almuerzo, la cena o los refrigerios? Gira las ruedas de comida para elegir un tipo de restaurante aleatorio, una cadena de comida rápida, un postre dulce o un refrigerio saludable.",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/snacks": {
+    "route": "/food-wheels/snacks",
+    "type": "wheel",
+    "title": "Rueda de refrigerios",
+    "metaDescription": "",
+    "h1": "Rueda de refrigerios",
+    "description": "Seleccione al azar un refrigerio saludable o una bolsa de papas fritas saladas.",
+    "options": [
+      "Papas fritas",
+      "Barra de chocolate",
+      "Rebanadas de manzana con mantequilla de maní",
+      "Nueces mixtas",
+      "Yogur griego",
+      "Palomitas de maíz",
+      "Pretzels",
+      "Barra de queso",
+      "Barra de granola"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo agregar restricciones dietéticas?",
+        "a": "Sí, agregue refrigerios cetogénicos, veganos o sin gluten al menú."
+      }
+    ]
+  },
+  "/food-wheels/what-to-eat": {
+    "route": "/food-wheels/what-to-eat",
+    "type": "wheel",
+    "title": "Rueda de qué comer",
+    "metaDescription": "",
+    "h1": "Rueda de qué comer",
+    "description": "Resuelva el debate sobre la cena al instante eligiendo una cocina al azar.",
+    "options": [
+      "Pizza",
+      "Tacos y comida mexicana",
+      "Hamburguesas y papas fritas",
+      "Sushi y comida japonesa",
+      "Pasta e italiana",
+      "Curry tailandés",
+      "Masala india",
+      "Ensalada saludable",
+      "Sándwiches y delicatessen"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo agregar restaurantes locales?",
+        "a": "¡Sí! Reemplace las cocinas genéricas con sus lugares locales en el editor personalizado."
+      }
+    ]
+  },
+  "/for-business": {
+    "route": "/for-business",
+    "type": "general",
+    "title": "Herramientas de decisión aleatoria para empresas | GameWheelClub",
+    "metaDescription": "Mejore las reuniones y las interacciones del equipo con aleatorizadores y cronómetros. Establezca el orden de los presentadores, las tareas preliminares y las actividades para romper el hielo del equipo anfitrión.",
+    "h1": "Herramientas de elección aleatoria para empresas",
+    "description": "Establezca el orden de las reuniones del equipo, redacte tareas, administre bloques de sprint y rompa el hielo con rápidas utilidades digitales.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-events": {
+    "route": "/for-events",
+    "type": "general",
+    "title": "Herramientas de elección aleatoria para eventos y fiestas | GameWheelClub",
+    "metaDescription": "Organice fiestas, obsequios y eventos sociales memorables. Resuelve juegos grupales, gira para los ganadores de la rifa y elige temas de trivia al instante.",
+    "h1": "Herramientas de elección aleatoria para eventos",
+    "description": "Lleve emoción y energía a su próxima fiesta, reunión social o rifa en línea con selectores de eventos prediseñados.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-teachers": {
+    "route": "/for-teachers",
+    "type": "general",
+    "title": "Herramientas de decisión aleatoria para profesores | GameWheelClub",
+    "metaDescription": "Descubra ruedas giratorias gratuitas y herramientas de cronómetro para la gestión del aula. Elija estudiantes al azar, elija materias y otorgue privilegios de manera justa.",
+    "h1": "Herramientas de elección aleatoria para profesores",
+    "description": "Gamifica tus lecciones y haz que la participación sea 100% justa. Gire ruedas aleatorias para elegir voluntarios, asignar equipos de grupo y seleccionar temas de lecciones.",
+    "options": [],
+    "faqs": []
+  },
+  "/games": {
+    "route": "/games",
+    "type": "general",
+    "title": "Ruedas de juego de elección aleatoria Hub | GameWheelClub",
+    "metaDescription": "Explora ruedas de juego aleatorias divertidas, interactivas y prediseñadas. Resuelve borradores de equipo, debates de fans, creación de personajes y desafíos de grupo al instante.",
+    "h1": "Ruedas de juegos de aleatorización",
+    "description": "Ruedas preestablecidas interactivas diseñadas para deportes, simuladores de juegos, fandoms, fiestas para romper el hielo y aleatorizadores creativos.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/alphabet-wheel": {
+    "route": "/generators/alphabet-wheel",
+    "type": "wheel",
+    "title": "Rueda giratoria del alfabeto",
+    "metaDescription": "",
+    "h1": "Rueda giratoria del alfabeto",
+    "description": "Gire para seleccionar una letra aleatoria de la A a la Z.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "faqs": [
+      {
+        "q": "¿Contiene caracteres extranjeros?",
+        "a": "Puede agregar acentos (como É, Ö, Ñ) en el menú personalizado."
+      }
+    ]
+  },
+  "/generators/color-wheel": {
+    "route": "/generators/color-wheel",
+    "type": "wheel",
+    "title": "Rueda giratoria de color",
+    "metaDescription": "",
+    "h1": "Rueda giratoria de color",
+    "description": "Gire para seleccionar un código hexadecimal de color aleatorio para diseños u opciones.",
+    "options": [
+      "Rojo (#EF4444)",
+      "Azul (#3B82F6)",
+      "Verde (#10B981)",
+      "Amarillo (#F59E0B)",
+      "Púrpura (#8B5CF6)",
+      "Rosa (#EC4899)",
+      "Naranja (#F97316)",
+      "Verde azulado (#14B8A6)"
+    ],
+    "faqs": [
+      {
+        "q": "¿Los colores son compatibles con CSS?",
+        "a": "Sí, los valores hexadecimales se enumeran junto con los nombres de los colores."
+      }
+    ]
+  },
+  "/generators/number-wheel": {
+    "route": "/generators/number-wheel",
+    "type": "wheel",
+    "title": "Rueda numérica giratoria",
+    "metaDescription": "",
+    "h1": "Rueda numérica giratoria",
+    "description": "Rueda de rango numérico configurable. Reemplaza las variantes estándar de números aleatorios.",
+    "options": [],
+    "faqs": [
+      {
+        "q": "¿A qué altura puede llegar el alcance?",
+        "a": "Puede configurarlo hasta 100 o más, aunque los números inferiores a 50 se muestran mejor en la pantalla."
+      }
+    ]
+  },
+  "/generators": {
+    "route": "/generators",
+    "type": "general",
+    "title": "Ruedas generadoras aleatorias y selectores matemáticos | GameWheelClub",
+    "metaDescription": "Haga girar generadores de decisiones puramente matemáticos y de utilidad. Incluye la rueda numérica personalizable, el generador de colores hexadecimales, la rueda de porcentaje y el alfabeto giratorio.",
+    "h1": "Generadores aleatorios",
+    "description": "Generadores de decisiones de utilidad y matemáticas puras. Incluye la rueda numérica personalizable, el generador de colores hexadecimales, la rueda de porcentaje y el alfabeto giratorio.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/percent-wheel": {
+    "route": "/generators/percent-wheel",
+    "type": "wheel",
+    "title": "Rueda de porcentaje",
+    "metaDescription": "",
+    "h1": "Rueda de porcentaje",
+    "description": "Gire para obtener un valor porcentual aleatorio entre 10% y 100%.",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+      "50%",
+      "60%",
+      "70%",
+      "80%",
+      "95%",
+      "100%"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo agregar pasos más pequeños?",
+        "a": "Sí, agregue pasos como \\\"1%\\\", \\\"5%\\\" o \\\"99%\\\" al editor."
+      }
+    ]
+  },
+  "/generators/periodic-table-picker": {
+    "route": "/generators/periodic-table-picker",
+    "type": "wheel",
+    "title": "Selector de tabla periódica",
+    "metaDescription": "",
+    "h1": "Selector de tabla periódica",
+    "description": "Gira para seleccionar un elemento químico aleatorio de la tabla periódica.",
+    "options": [
+      "Hidrógeno (H)",
+      "Helio (He)",
+      "Litio (Li)",
+      "Berilio (Be)",
+      "Boro (B)",
+      "Carbono (C)",
+      "Nitrógeno (N)",
+      "Oxígeno (O)",
+      "Flúor (F)",
+      "Neón (Ne)",
+      "Sodio (Na)",
+      "Magnesio (Mg)"
+    ],
+    "faqs": [
+      {
+        "q": "¿Se incluyen los gases nobles?",
+        "a": "Sí, se incluyen helio y neón. Agregue más elementos pesados ​​según sea necesario."
+      }
+    ]
+  },
+  "/geography-wheels/64-country-roulette": {
+    "route": "/geography-wheels/64-country-roulette",
+    "type": "wheel",
+    "title": "Ruleta de 64 países",
+    "metaDescription": "",
+    "h1": "Ruleta de 64 países",
+    "description": "La rueda de ruleta de 64 países definitiva para desafíos y categorías de juego.",
+    "options": [
+      "Estados Unidos",
+      "Canadá",
+      "México",
+      "Brasil",
+      "Argentina",
+      "Reino Unido",
+      "Francia",
+      "Alemania",
+      "Italia",
+      "España",
+      "Rusia",
+      "Egipto",
+      "Sudáfrica",
+      "Nigeria",
+      "Kenia",
+      "India",
+      "China",
+      "Japón",
+      "Corea del Sur",
+      "Australia",
+      "Nueva Zelanda",
+      "Arabia Saudita",
+      "Turquía",
+      "Grecia",
+      "Suecia",
+      "Noruega",
+      "Países Bajos",
+      "Suiza",
+      "Polonia",
+      "Ucrania",
+      "Vietnam",
+      "Tailandia",
+      "Indonesia",
+      "Filipinas",
+      "Colombia",
+      "Perú",
+      "Chile",
+      "Venezuela",
+      "Marruecos",
+      "Ghana",
+      "Etiopía",
+      "Pakistán",
+      "Bangladesh",
+      "Irán",
+      "Irak",
+      "Israel",
+      "Singapur",
+      "Malasia",
+      "Nueva Zelanda",
+      "Portugal",
+      "Austria",
+      "Dinamarca",
+      "Finlandia",
+      "Irlanda",
+      "Bélgica",
+      "Chequia",
+      "Hungría",
+      "Rumania",
+      "Cuba",
+      "Jamaica",
+      "Costa Rica",
+      "Panamá",
+      "Ecuador",
+      "Bolivia"
+    ],
+    "faqs": [
+      {
+        "q": "¿Es difícil leer 64 cortes?",
+        "a": "¡Gira limpiamente! Puede alternar las vistas de lista para verificar el resultado final."
+      }
+    ]
+  },
+  "/geography-wheels/country-wheel": {
+    "route": "/geography-wheels/country-wheel",
+    "type": "wheel",
+    "title": "Country Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Country Wheel Spinner",
+    "description": "Elija una nación aleatoria en todo el mundo para trivia, regiones de juegos o proyectos.",
+    "options": [
+      "Estados Unidos",
+      "Japón",
+      "Brasil",
+      "Alemania",
+      "Australia",
+      "Canadá",
+      "India",
+      "Sudáfrica",
+      "Reino Unido",
+      "Francia",
+      "Italia",
+      "China",
+      "Egipto",
+      "México",
+      "Rusia",
+      "Argentina"
+    ],
+    "faqs": [
+      {
+        "q": "¿Están incluidos todos los países?",
+        "a": "Esta rueda presenta una selección equilibrada de las principales naciones del mundo. Edite para agregar cualquier país específico."
+      }
+    ]
+  },
+  "/geography-wheels/europe-countries": {
+    "route": "/geography-wheels/europe-countries",
+    "type": "wheel",
+    "title": "Rueda de países de Europa",
+    "metaDescription": "",
+    "h1": "Rueda de países de Europa",
+    "description": "Elija al azar un país europeo para planes de viaje o investigación educativa.",
+    "options": [
+      "Reino Unido",
+      "Francia",
+      "Alemania",
+      "Italia",
+      "España",
+      "Países Bajos",
+      "Bélgica",
+      "Suiza",
+      "Austria",
+      "Suecia",
+      "Noruega",
+      "Dinamarca",
+      "Finlandia",
+      "Irlanda",
+      "Portugal",
+      "Grecia",
+      "Polonia",
+      "Chequia"
+    ],
+    "faqs": [
+      {
+        "q": "¿Están incluidos microestados como la Ciudad del Vaticano?",
+        "a": "Puedes agregar Mónaco, Andorra o San Marino manualmente en las opciones."
+      }
+    ]
+  },
+  "/geography-wheels": {
+    "route": "/geography-wheels",
+    "type": "general",
+    "title": "Ruedas giratorias de geografía y países | GameWheelClub",
+    "metaDescription": "Gira para seleccionar países aleatorios, estados de EE. UU., naciones europeas o participa en el desafío de la ruleta de 64 países. Ideal para trivia de geografía y planificación de viajes.",
+    "h1": "Ruedas de geografía",
+    "description": "Gire para seleccionar países aleatorios, estados de EE. UU., naciones europeas o ejecute el desafío de la ruleta de 64 países. Ideal para trivia de geografía y planificación de viajes.",
+    "options": [],
+    "faqs": []
+  },
+  "/geography-wheels/us-states": {
+    "route": "/geography-wheels/us-states",
+    "type": "wheel",
+    "title": "Rueda de los Estados de EE. UU.",
+    "metaDescription": "",
+    "h1": "Rueda de los Estados de EE. UU.",
+    "description": "Gira para elegir entre los 50 estados de América al azar.",
+    "options": [
+      "California",
+      "Texas",
+      "Florida",
+      "Nueva York",
+      "Illinois",
+      "Pensilvania",
+      "Ohio",
+      "Georgia",
+      "Carolina del Norte",
+      "Michigan",
+      "Washington",
+      "Arizona",
+      "Massachusetts",
+      "Virginia",
+      "Colorado",
+      "Tennessee"
+    ],
+    "faqs": [
+      {
+        "q": "¿Están los 50 estados precargados?",
+        "a": "Este ajuste preestablecido presenta estados principales. Puede copiar y pegar la lista completa de 50 estados en el cuadro Edición masiva en segundos."
+      }
+    ]
+  },
+  "/guides/classroom-spin-wheel-ideas": {
+    "route": "/guides/classroom-spin-wheel-ideas",
+    "type": "general",
+    "title": "Ideas de ruedas giratorias en el aula: estrategias de enseñanza interactivas",
+    "metaDescription": "Aumente la participación de los estudiantes con 15 ideas creativas de ruedas giratorias en el aula. Aprenda a realizar sorteos de nombres justos, asignar tareas y gamificar lecciones con ruedas aleatorias.",
+    "h1": "15 ideas creativas de ruedas giratorias para el aula",
+    "description": "Convierta la escucha pasiva en participación activa y enérgica. Descubra estrategias estructuradas y probadas en el campo para gamificar lecciones, distribuir trabajos y mantener a cada estudiante al borde de su asiento.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/decision-making-methods": {
+    "route": "/guides/decision-making-methods",
+    "type": "general",
+    "title": "Métodos de toma de decisiones: marcos, heurísticas y aleatorización",
+    "metaDescription": "Explorar marcos estructurados de toma de decisiones. Desde la Matriz de Eisenhower hasta modelos analíticos y herramientas de selección aleatoria, descubra cómo superar la fatiga por elegir.",
+    "h1": "Una clase magistral sobre métodos de toma de decisiones",
+    "description": "¿Deberías analizar, confiar en tu instinto o delegar en la probabilidad? Aprenda los modelos formales de la teoría de la elección, los sesgos cognitivos y cómo saber cuándo dejar que un lanzamiento de moneda ajuste el puntaje.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/how-random-wheels-work": {
+    "route": "/guides/how-random-wheels-work",
+    "type": "general",
+    "title": "Cómo funcionan las ruedas aleatorias: matemáticas, algoritmos y física",
+    "metaDescription": "Sumérgete en la ciencia detrás de las ruedas giratorias virtuales. Explore los generadores de números pseudoaleatorios (PRNG), la física de desaceleración por fricción y la equidad algorítmica.",
+    "h1": "Detrás del giro: cómo funcionan realmente las ruedas aleatorias",
+    "description": "¿Alguna vez te has preguntado cómo calcula una rueda virtual su ganador? Descubra las matemáticas de los generadores de números pseudoaleatorios, las ecuaciones de fricción simulada y los principios de programación que garantizan una selección imparcial.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/icebreaker-games-guide": {
+    "route": "/guides/icebreaker-games-guide",
+    "type": "general",
+    "title": "Guía de juegos para romper el hielo: formación de equipos y reuniones virtuales",
+    "metaDescription": "Aprenda a organizar juegos para romper el hielo de alta energía. Descubra elementos creativos, mensajes de preguntas y estrategias de creación de equipos para equipos físicos y virtuales.",
+    "h1": "La guía definitiva para juegos para romper el hielo",
+    "description": "¿Estás cansado de silencios incómodos en reuniones de equipo o eventos sociales? Aprenda la ciencia de romper el hielo, cómo establecer una atmósfera social de baja presión y cómo utilizar eficazmente los hilanderos de juegos aleatorios.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/productivity-timeboxing": {
+    "route": "/guides/productivity-timeboxing",
+    "type": "general",
+    "title": "Timeboxing de productividad: la guía definitiva para bloques de tiempo",
+    "metaDescription": "Aprenda a utilizar técnicas de timeboxing y Pomodoro para aumentar la concentración. Combata el Parkinson",
+    "h1": "Timeboxing: venza las distracciones con límites estrictos",
+    "description": "¿Por qué una tarea toma tres horas cuando te dan un plazo de tres horas, pero solo treinta minutos cuando tienes poco tiempo? Descubra cómo aprovechar la Ley de Parkinson y los sistemas de cronómetro ludificados para recuperar el control de su día.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/random-giveaway-rules": {
+    "route": "/guides/random-giveaway-rules",
+    "type": "general",
+    "title": "Reglas de sorteos aleatorios y pautas de cumplimiento legal",
+    "metaDescription": "Cumpla con las normas cuando realice sorteos en línea. Comprenda las leyes de sorteos, la regla de no necesidad de compra y las pautas de la plataforma para concursos justos.",
+    "h1": "Cómo realizar sorteos aleatorios de forma legal y justa",
+    "description": "¿Sorteos, concursos o loterías? Navegar por las leyes de los sorteos promocionales es fundamental para proteger tu marca y respetar a tu audiencia. Conozca las reglas de cumplimiento de la selección aleatoria.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/spin-wheel-psychology": {
+    "route": "/guides/spin-wheel-psychology",
+    "type": "general",
+    "title": "La psicología de las ruedas giratorias: suspenso, recompensas y opciones",
+    "metaDescription": "Explore los desencadenantes psicológicos detrás de las ruedas giratorias. Comprenda cómo la fatiga por tomar decisiones, la anticipación y las recompensas visuales hacen que los selectores aleatorios sean tan atractivos.",
+    "h1": "Psicología de la rueda giratoria: por qué nos encanta el giro",
+    "description": "¿Qué hace que una rueda giratoria de objetos sea tan irresistible? Descubra los mecanismos neuronales de la anticipación, el alivio de la descarga de opciones y los patrones de diseño gamificados que captan nuestra atención.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/unbiased-selection-importance": {
+    "route": "/guides/unbiased-selection-importance",
+    "type": "general",
+    "title": "La importancia de una selección imparcial: equidad y estadísticas",
+    "metaDescription": "Descubra por qué la selección imparcial es crucial. Explore las matemáticas de las elecciones justas, los sesgos cognitivos en los selectores humanos y las aplicaciones de clasificación en el mundo real.",
+    "h1": "Por qué es importante la selección imparcial",
+    "description": "La elección humana está plagada de sesgos cognitivos implícitos. Explore cómo las matemáticas aleatorias protegen las estadísticas, restauran la justicia, garantizan la equidad educativa y generan confianza.",
+    "options": [],
+    "faqs": []
+  },
+  "/": {
+    "route": "/",
+    "type": "wheel",
+    "title": "Gira la rueda de las decisiones",
+    "metaDescription": "",
+    "h1": "Gira la rueda de las decisiones",
+    "description": "¿No puedes decidirte? ¡Ingresa tus opciones, gira la rueda y deja que el destino decida al instante! Rápido, justo y divertido.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/adult-truth-or-dare": {
+    "route": "/party-games/adult-truth-or-dare",
+    "type": "wheel",
+    "title": "Rueda de verdad o desafío para adultos",
+    "metaDescription": "",
+    "h1": "Rueda de verdad o desafío para adulto",
+    "description": "Gira para elegir especias, secretos maduros y desafíos provocativos. Intersticial con restricción de edad incluido.",
+    "options": [
+      "Verdad: ¿Cuál es tu fantasía secreta?",
+      "Atrevimiento: Darle un masaje sensual a la persona que está a tu lado",
+      "Verdad: Cuéntale al grupo tu encuentro romántico más vergonzoso",
+      "Atrevimiento: Susurrar algo provocativo al oído de alguien"
+    ],
+    "faqs": [
+      {
+        "q": "¿Requiere registro?",
+        "a": "No es necesario registrarse ni tener cuentas. Usamos una puerta de verificación de edad simple para proteger a los menores."
+      }
+    ]
+  },
+  "/party-games/charades-topics": {
+    "route": "/party-games/charades-topics",
+    "type": "wheel",
+    "title": "Rueda de temas de charadas",
+    "metaDescription": "",
+    "h1": "Rueda de temas de charadas",
+    "description": "Obtenga temas divertidos y creativos para juegos de charadas familiares.",
+    "options": [
+      "Imita a un T-Rex comiendo",
+      "Finge ser un robot que falla",
+      "Actúa jugando al golf",
+      "Imita cocinar un hot dog",
+      "Finge que estás caminando sobre hielo",
+      "Actúa como un astronauta flotando"
+    ],
+    "faqs": [
+      {
+        "q": "¿Son los temas difíciles?",
+        "a": "Son equilibrados para que disfruten tanto niños como adultos."
+      }
+    ]
+  },
+  "/party-games/extreme-truth-or-dare": {
+    "route": "/party-games/extreme-truth-or-dare",
+    "type": "wheel",
+    "title": "Rueda de verdad o desafío extremo",
+    "metaDescription": "",
+    "h1": "Rueda de verdad o desafío extremo",
+    "description": "Gira para verdades y desafíos altamente desafiantes, intensivos y locos.",
+    "options": [
+      "Verdad: ¿Alguna vez has hecho trampa en un examen?",
+      "Atrevimiento: Llama a un contacto aleatorio y canta feliz cumpleaños",
+      "Verdad: ¿Cuál es tu mayor arrepentimiento?",
+      "Atrevimiento: Deja que el grupo publique una historia en tu Instagram"
+    ],
+    "faqs": [
+      {
+        "q": "¿Es seguro realizarlas?",
+        "a": "Sí, son seguros pero muy entretenidos. Omite siempre cualquier desafío con el que te sientas incómodo."
+      }
+    ]
+  },
+  "/party-games/funny-dares": {
+    "route": "/party-games/funny-dares",
+    "type": "wheel",
+    "title": "Rueda de desafíos divertidos",
+    "metaDescription": "",
+    "h1": "Rueda de desafíos divertidos",
+    "description": "Obtén desafíos físicos ridículos, simples y divertidos.",
+    "options": [
+      "Habla con acento británico durante 3 rondas",
+      "Haz tu mejor imitación del pollo",
+      "Equilibra una cuchara sobre tu nariz",
+      "Actúa como una reina del drama",
+      "Habla con una planta de interior durante 1 minuto"
+    ],
+    "faqs": [
+      {
+        "q": "¿Se pueden hacer estos desafíos en el interior?",
+        "a": "Sí, todos los desafíos están diseñados para realizarse de forma segura en el interior."
+      }
+    ]
+  },
+  "/party-games": {
+    "route": "/party-games",
+    "type": "general",
+    "title": "Ruedas de juegos sociales y para fiestas | GameWheelClub",
+    "metaDescription": "Ruedas interactivas para eventos sociales, pijamadas y fiestas. Gira para preguntas de Verdad o Reto, Gira la Botella, Charadas y desafíos divertidos.",
+    "h1": "Juegos sociales y de fiesta",
+    "description": "Ruedas interactivas para eventos sociales, pijamadas y fiestas. Gira para preguntas de Verdad o Reto, Gira la Botella, Charadas y desafíos divertidos.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/punishment-wheel": {
+    "route": "/party-games/punishment-wheel",
+    "type": "wheel",
+    "title": "Rueda de castigo",
+    "metaDescription": "",
+    "h1": "Rueda de castigo",
+    "description": "Gire para asignar tareas tontas, pérdidas o sanciones a los perdedores de los juegos de mesa.",
+    "options": [
+      "Comprar bocadillos para todos",
+      "Lavar los platos",
+      "Cantar una canción elegida por el grupo",
+      "Publicar una selfie vergonzosa",
+      "Hacer 20 saltos",
+      "Hablar solo en susurros en el siguiente turno"
+    ],
+    "faqs": [
+      {
+        "q": "¿Son graves?",
+        "a": "No, son alegres y perfectos para juegos amistosos."
+      }
+    ]
+  },
+  "/party-games/questions-wheel": {
+    "route": "/party-games/questions-wheel",
+    "type": "wheel",
+    "title": "Rueda de preguntas",
+    "metaDescription": "",
+    "h1": "Rueda de preguntas",
+    "description": "Gire para preguntas para romper el hielo, temas para conocerlo e indicaciones de conversación.",
+    "options": [
+      "¿Cuál es tu superpoder?",
+      "Si ganaste $1 millón",
+      "¿cuál es la primera compra?",
+      "¿Dónde están las vacaciones de tus sueños?",
+      "¿Cuál es tu mayor miedo?",
+      "¿Quién te inspira más?",
+      "¿Cuál es tu recuerdo favorito de la infancia?"
+    ],
+    "faqs": [
+      {
+        "q": "¿Están limpias las preguntas?",
+        "a": "Sí, adecuado para actividades rompehielos corporativas y clases escolares."
+      }
+    ]
+  },
+  "/party-games/scattergories-letters": {
+    "route": "/party-games/scattergories-letters",
+    "type": "wheel",
+    "title": "Rueda de letras Scattergories",
+    "metaDescription": "",
+    "h1": "Rueda de letras Scattergories",
+    "description": "Gire para seleccionar una letra aleatoria para Scattergories y juegos de vocabulario.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "R",
+      "S",
+      "T",
+      "W"
+    ],
+    "faqs": [
+      {
+        "q": "¿Por qué faltan algunas letras?",
+        "a": "Excluimos las letras duras (Q, X, Y, Z) para que los juegos sigan siendo divertidos y dinámicos."
+      }
+    ]
+  },
+  "/party-games/song-association": {
+    "route": "/party-games/song-association",
+    "type": "wheel",
+    "title": "Rueda de asociación de canciones",
+    "metaDescription": "",
+    "h1": "Rueda de asociación de canciones",
+    "description": "Gire una palabra clave e intente cantar una canción que contenga esa palabra en 10 segundos.",
+    "options": [
+      "Palabra: AMOR",
+      "Palabra: FUEGO",
+      "Palabra: CIELO",
+      "Palabra: BAILE",
+      "Palabra: NOCHE",
+      "Palabra: MUNDO",
+      "Palabra: AZUL",
+      "Palabra: FELIZ",
+      "Palabra: LLORAR"
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuáles son las reglas?",
+        "a": "Un jugador tiene 10 segundos para cantar al menos una línea de una canción real que contenga la palabra."
+      }
+    ]
+  },
+  "/party-games/spin-the-bottle": {
+    "route": "/party-games/spin-the-bottle",
+    "type": "wheel",
+    "title": "Gira la rueda de la botella",
+    "metaDescription": "",
+    "h1": "Gira la rueda de la botella",
+    "description": "Una ruleta virtual que reemplaza las configuraciones físicas de las botellas en los juegos clásicos.",
+    "options": [
+      "Jugador A",
+      "Jugador B",
+      "Jugador C",
+      "Jugador D",
+      "Jugador E",
+      "Jugador F"
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuántos jugadores pueden jugar?",
+        "a": "Admite hasta 100 jugadores. Agregue nombres a la lista de opciones fácilmente."
+      }
+    ]
+  },
+  "/party-games/things-to-do-when-bored": {
+    "route": "/party-games/things-to-do-when-bored",
+    "type": "wheel",
+    "title": "Cosas que hacer cuando estás aburrido Rueda",
+    "metaDescription": "",
+    "h1": "Cosas que hacer cuando estás aburrido Rueda",
+    "description": "Gira para curar el aburrimiento con indicaciones productivas, creativas y de actividad física.",
+    "options": [
+      "Leer el capítulo de un libro",
+      "Organiza el cajón de tu escritorio",
+      "Aprenda un truco de cartas de 5 minutos",
+      "Salga a caminar a paso ligero",
+      "Intente dibujar un autorretrato",
+      "Estírese durante 10 minutos",
+      "Escuche un nuevo álbum"
+    ],
+    "faqs": [
+      {
+        "q": "¿Requieren suministros?",
+        "a": "La mayoría de las actividades son completamente gratuitas y no requieren ninguna preparación."
+      }
+    ]
+  },
+  "/party-games/truth-or-dare": {
+    "route": "/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Rueda de Verdad o Reto",
+    "metaDescription": "",
+    "h1": "Rueda de Verdad o Reto",
+    "description": "Gire la rueda para obtener indicaciones clásicas de Verdad o Reto para niños, adolescentes y familias.",
+    "options": [
+      "Verdad: ¿Cuál es tu mayor secreto?",
+      "Atrevimiento: Haz 10 flexiones",
+      "Verdad: ¿Quién es tu amor platónico?",
+      "Atrevimiento: comer un trozo de ajo crudo",
+      "Verdad: decir una mentira graciosa que hayas dicho",
+      "Atrevimiento: dejar que alguien envíe mensajes de texto desde tu teléfono"
+    ],
+    "faqs": [
+      {
+        "q": "¿Está limpio para las familias?",
+        "a": "Sí, esta rueda contiene mensajes alegres, perfectos para reuniones familiares."
+      }
+    ]
+  },
+  "/privacy": {
+    "route": "/privacy",
+    "type": "general",
+    "title": "Política de privacidad",
+    "metaDescription": "",
+    "h1": "Política de privacidad",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/random-number-generator": {
+    "route": "/random-number-generator",
+    "type": "number-generator",
+    "title": "Generador de números aleatorios | Herramienta RNG rápida",
+    "metaDescription": "Genere números aleatorios únicos o múltiples en cualquier rango personalizado. Selector de números aleatorios gratuito, seguro y personalizable.",
+    "h1": "Generador de números aleatorios",
+    "description": "Elija números aleatorios al instante. ¡Establece tus límites mínimo y máximo, selecciona la cantidad y genera!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/best-teams": {
+    "route": "/sports-wheels/best-teams",
+    "type": "wheel",
+    "title": "Rueda giratoria de los mejores equipos deportivos | Selector de equipo legendario",
+    "metaDescription": "Gira la rueda de los mejores equipos para elegir un equipo legendario en la historia del deporte. Precargado con el Dream Team de 1992, los Chicago Bulls de 1996, los Dolphins de 1972 y más.",
+    "h1": "Los mejores equipos deportivos Wheel Spinner",
+    "description": "¿Qué equipo fue realmente el mejor de todos los tiempos? Gira la rueda para seleccionar al azar un equipo deportivo legendario de baloncesto, fútbol americano, fútbol americano y béisbol.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/college-teams": {
+    "route": "/sports-wheels/college-teams",
+    "type": "wheel",
+    "title": "Rueda giratoria para equipos universitarios | Selector aleatorio de equipos de la NCAA",
+    "metaDescription": "Gire la rueda de equipos universitarios para seleccionar al azar uno de los mejores equipos universitarios de la NCAA. Perfecto para simulación de fútbol universitario (CFB), categorías de baloncesto y ligas pick'em.",
+    "h1": "Rueda giratoria de equipos universitarios",
+    "description": "Elija un equipo universitario al azar de la división NCAA FBS. ¡Excelente para las elecciones de College Football 25 Dynasty o las predicciones del grupo de baloncesto de la NCAA!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/fifa-world-cup-2026": {
+    "route": "/sports-wheels/fifa-world-cup-2026",
+    "type": "wheel",
+    "title": "Rueda giratoria de la Copa Mundial de la FIFA 2026 | Selector aleatorio de países",
+    "metaDescription": "Gire la rueda de la Copa Mundial 2026 para seleccionar al azar una nación futbolística clasificada. Ideal para barridos de torneos, predicciones de grupos y simulaciones de partidos.",
+    "h1": "Rueda de la Copa Mundial de la FIFA 2026",
+    "description": "Prepárate para el evento deportivo más grande de la historia en América del Norte. ¡Gira la rueda para seleccionar al azar una nación calificada!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/football-players": {
+    "route": "/sports-wheels/football-players",
+    "type": "wheel",
+    "title": "Rueda giratoria para jugadores de fútbol | Selector aleatorio de estrellas del fútbol",
+    "metaDescription": "Gira la rueda de jugadores de fútbol para elegir una estrella del fútbol mundial al azar como Messi, Ronaldo, Mbappé o Haaland. Perfecto para los desafíos de draft del FC 24/FC 25.",
+    "h1": "Rueda giratoria de jugadores de fútbol",
+    "description": "Gira para seleccionar al azar entre las superestrellas de fútbol de asociación más selectas del mundo. ¡Resuelve debates, elige objetivos de FC o desafía a tus amigos!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/golf-wheel": {
+    "route": "/sports-wheels/golf-wheel",
+    "type": "wheel",
+    "title": "Rueda giratoria para palos de golf | Desafío de selección aleatoria de palos",
+    "metaDescription": "Gire la rueda de golf para elegir aleatoriamente un palo de golf como Driver, Hierro 7, Pitching Wedge o Putter. Perfecto para desafíos de campo y juegos de campo.",
+    "h1": "Rueda giratoria para palos de golf",
+    "description": "¿Listo para darle vida a tu práctica de golf o desafiar a tus amigos en el campo? ¡Gira la rueda de golf para determinar qué palo debes golpear a continuación!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/mlb-teams": {
+    "route": "/sports-wheels/mlb-teams",
+    "type": "wheel",
+    "title": "Rueda giratoria de equipos de la MLB | Selector aleatorio de equipos de béisbol de las Grandes Ligas",
+    "metaDescription": "Gire la rueda de equipos de las Grandes Ligas para seleccionar aleatoriamente una franquicia de béisbol. Perfecto para ligas de fantasía, videojuegos de béisbol y predicciones de playoffs.",
+    "h1": "Rueda giratoria de equipos de la MLB",
+    "description": "Elija una franquicia aleatoria de la Liga Mayor de Béisbol al instante. ¡Ideal para desafíos de MLB The Show, selecciones de draft de fantasía y viajes por carretera a estadios!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-players": {
+    "route": "/sports-wheels/nba-players",
+    "type": "wheel",
+    "title": "Rueda giratoria para jugadores de la NBA | Selector aleatorio de jugadores de la NBA",
+    "metaDescription": "Gira la rueda de jugadores de la NBA para elegir una superestrella del baloncesto activa al azar. Perfecto para deportes de fantasía, noches de trivia y debates de comparación de jugadores.",
+    "h1": "Jugadores de la NBA Wheel Spinner",
+    "description": "Decide aleatoriamente entre los talentos de baloncesto de élite absoluta de la NBA actual. Resuelve comparaciones, selecciona el enfoque del jugador o inicia debates.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-teams": {
+    "route": "/sports-wheels/nba-teams",
+    "type": "wheel",
+    "title": "Rueda giratoria de equipos de la NBA | Selector aleatorio de franquicias de la NBA",
+    "metaDescription": "Gire la rueda de equipos de la NBA para elegir una franquicia de baloncesto profesional aleatoria. Ideal para desafíos de NBA 2K, selecciones de draft de fantasía y trivia deportiva.",
+    "h1": "Rueda giratoria de equipos de la NBA",
+    "description": "Elige una franquicia de la NBA al azar. Perfecto para partidos improvisados ​​en NBA 2K, definir listas de orden de draft o decidir qué equipo construir en los modos carrera.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-players": {
+    "route": "/sports-wheels/nfl-players",
+    "type": "wheel",
+    "title": "Rueda giratoria para jugadores de la NFL | Selector aleatorio de jugadores de la NFL",
+    "metaDescription": "Gire la rueda de jugadores de la NFL para seleccionar un jugador de fútbol americano estrella activo al azar. Ideal para borradores de fantasía, trivia y desafíos de formación de equipos.",
+    "h1": "Rueda giratoria de jugadores de la NFL",
+    "description": "Gira para elegir al azar entre los jugadores más elitistas de la liga. ¡Excelente para desafíos de trivia, selecciones de fantasía y debates de jugadores!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-positions": {
+    "route": "/sports-wheels/nfl-positions",
+    "type": "wheel",
+    "title": "Rueda giratoria de posiciones de la NFL | Selector aleatorio de posiciones de fútbol",
+    "metaDescription": "Gire la rueda de posiciones de la NFL para elegir un rol de fútbol aleatorio como mariscal de campo, corredor, receptor abierto o apoyador. Perfecto para entrenar y entrenar.",
+    "h1": "Rueda giratoria de posiciones de la NFL",
+    "description": "¿Necesitas asignar posiciones en la lista, configurar ejercicios de entrenamiento o aleatorizar un desafío en el modo carrera? ¡Gira la rueda de posiciones para elegir!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-teams": {
+    "route": "/sports-wheels/nfl-teams",
+    "type": "wheel",
+    "title": "Rueda giratoria de equipos de la NFL | Selector aleatorio de equipos de la NFL",
+    "metaDescription": "Gire la rueda de equipos de la NFL para elegir una franquicia aleatoria de la NFL. Perfecto para pedidos de draft de fútbol de fantasía, elegir un equipo para jugar en Madden o elegir un nuevo equipo favorito.",
+    "h1": "Rueda giratoria de equipos de la NFL",
+    "description": "¿Estás atascado al elegir con qué equipo jugar o necesitas un selector imparcial para tu liga de fútbol de fantasía? ¡Gira la rueda para decidir!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nhl-teams": {
+    "route": "/sports-wheels/nhl-teams",
+    "type": "wheel",
+    "title": "Rueda giratoria de equipos de la NHL | Selector aleatorio de equipos de hockey de la NHL",
+    "metaDescription": "Gire la rueda de equipos de la NHL para seleccionar una franquicia de hockey profesional aleatoria. Ideal para videojuegos de la NHL, configuraciones de soporte y trivia.",
+    "h1": "Rueda giratoria de equipos de la NHL",
+    "description": "Elige un equipo profesional de la NHL al azar al instante. Perfecto para desafíos del modo franquicia de la NHL, partidos de exhibición y grupos de playoffs.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels": {
+    "route": "/sports-wheels",
+    "type": "general",
+    "title": "Ruedas giratorias deportivas | GameWheelClub",
+    "metaDescription": "Explore 12 ruedas de decisiones deportivas precargadas, incluidos seleccionadores de equipos de la NFL, aleatorizadores de jugadores de la NBA, grupos de la Copa Mundial y clubes de golf.",
+    "h1": "Ruedas de aleatorización de deportes",
+    "description": "Herramientas interactivas preconfiguradas creadas para ligas de fantasía, simuladores de selección de draft, desafíos y debates en equipo.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/brain-break": {
+    "route": "/templates/classroom/brain-break",
+    "type": "wheel",
+    "title": "Rueda para romper el cerebro en el aula | Ideas de ejercicios para estudiantes",
+    "metaDescription": "Gire la rueda Brain Break para elegir ejercicios rápidos para los estudiantes: estiramiento, saltos, respiraciones profundas, baile o garabatos.",
+    "h1": "Rueda de descanso para el cerebro en el aula",
+    "description": "Ayude a los estudiantes a reenfocarse y recargar su energía durante las lecciones largas. ¡Gira para una actividad rápida!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom": {
+    "route": "/templates/classroom",
+    "type": "general",
+    "title": "Plantillas de ruedas para el aula | GameWheelClub",
+    "metaDescription": "Explora ruedas de decisiones gratuitas para profesores. Elija grupos de estudiantes aleatorios, materias, recompensas o ejercicios de descanso mental en el aula.",
+    "h1": "Classroom & Teaching Wheels",
+    "description": "Herramientas diseñadas específicamente para que los educadores aleatoricen la participación, recompensen los logros de los estudiantes y dirija los bloques de materias.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/rewards-wheel": {
+    "route": "/templates/classroom/rewards-wheel",
+    "type": "wheel",
+    "title": "Rueda de recompensas en el aula | Selector aleatorio de ideas de recompensas",
+    "metaDescription": "Gire la rueda de recompensas para elegir premios aleatorios para los estudiantes: tiempo libre, calcomanías, elección del líder de fila o pases sin tarea.",
+    "h1": "Rueda de recompensas del aula",
+    "description": "Motiva a tus alumnos. ¡Gira la rueda de recompensas para elegir al azar un premio o privilegio en el aula!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/student-grouping": {
+    "route": "/templates/classroom/student-grouping",
+    "type": "wheel",
+    "title": "Rueda de agrupación de estudiantes | Selector de equipo aleatorio",
+    "metaDescription": "Gire la rueda de agrupación de estudiantes. Seleccione instantáneamente equipos o grupos aleatorios (Grupo A, Grupo B, Grupo C) para proyectos y juegos en el aula.",
+    "h1": "Agrupación de estudiantes y rueda de selección de equipos",
+    "description": "¿Necesita asignar estudiantes a grupos al azar, elegir equipos presentadores o establecer asientos en el salón de clases? ¡Gira la rueda de agrupación!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/subject-picker": {
+    "route": "/templates/classroom/subject-picker",
+    "type": "wheel",
+    "title": "Rueda selectora de sujetos | Selector de temas de estudio de lecciones",
+    "metaDescription": "Gire la rueda de selección de temas para seleccionar aleatoriamente los temas de estudio: Matemáticas, Ciencias, Historia, Inglés, Arte y Música. Genial para la planificación de lecciones.",
+    "h1": "Rueda de selección de temas",
+    "description": "Elija qué tema revisar a continuación o deje que la rueda seleccione bloques de estudio al azar durante la educación en el hogar o en clase.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dessert-spinner": {
+    "route": "/templates/food/dessert-spinner",
+    "type": "wheel",
+    "title": "Rueda de elección de postres | Selector aleatorio de dulces",
+    "metaDescription": "Lata",
+    "h1": "Rueda giratoria de postres",
+    "description": "Elija su próximo dulce sin la culpa de elegir. ¡Gira la rueda de los postres!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dinner-picker": {
+    "route": "/templates/food/dinner-picker",
+    "type": "wheel",
+    "title": "Rueda recogedora de cenas | ¿Qué debo comer en la cena?",
+    "metaDescription": "Resuelva el debate de la cena al instante. Gire la rueda de la cena precargada con opciones de comidas populares: pizza, tacos, hamburguesas, pasta, ensalada y comida china.",
+    "h1": "Rueda para recoger la cena",
+    "description": "¿Atascado al decidir sobre la cena? Eliminar los argumentos alimentarios. Gire la rueda para seleccionar una opción de comida al instante.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/drink-decider": {
+    "route": "/templates/food/drink-decider",
+    "type": "wheel",
+    "title": "Rueda para decidir bebidas | ¿Qué debo beber?",
+    "metaDescription": "Gire la rueda selectora de bebidas precargada con refrescos: agua, café, té, refrescos, jugos y batidos.",
+    "h1": "Rueda para decidir bebidas",
+    "description": "¿Necesita un refrigerio pero no puede elegir entre cafeína, hidratación o jugo? ¡Gira la rueda de la bebida!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/lunch-ideas": {
+    "route": "/templates/food/lunch-ideas",
+    "type": "wheel",
+    "title": "Rueda de decisión del almuerzo | Selector de ideas para almuerzos rápidos",
+    "metaDescription": "Gire para seleccionar un almuerzo rápido: sándwiches, ensaladas, sobras, sopa, wraps o comida rápida. Resuelve tu menú de pausa para el almuerzo al instante.",
+    "h1": "Rueda de decisiones sobre ideas para el almuerzo",
+    "description": "¿Atrapado en medio de un ajetreado día de trabajo o sesión de estudio tratando de elegir el almuerzo? Deja que la rueda decida tu menú.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food": {
+    "route": "/templates/food",
+    "type": "general",
+    "title": "Plantillas de ruedas de comida y comedor | GameWheelClub",
+    "metaDescription": "Explore ruedas de decisión gratuitas para elegir alimentos, almuerzos, postres y bebidas. Resuelva sus debates gastronómicos al instante.",
+    "h1": "Ruedas de decisión sobre alimentos y comidas",
+    "description": "Resuelva el antiguo debate de \"¿qué debemos comer?\" en segundos usando nuestros centrifugadores de alimentos prefabricados.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates": {
+    "route": "/templates",
+    "type": "general",
+    "title": "Centro de plantillas de rueda de decisiones | GameWheelClub",
+    "metaDescription": "Explore docenas de plantillas gratuitas de ruedas de decisiones prediseñadas. Categorizado por alimentos, juegos de fiesta y servicios públicos para el aula.",
+    "h1": "Plantillas de rueda de decisiones",
+    "description": "No construya desde cero. ¡Seleccione una de nuestras listas de opciones preconfiguradas y comience a girar de inmediato!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/charades-ideas": {
+    "route": "/templates/party-games/charades-ideas",
+    "type": "wheel",
+    "title": "Rueda de ideas de charadas | Selector de temas de actuación aleatorios",
+    "metaDescription": "Gire la rueda de Charadas para obtener ideas de actuación aleatorias: películas, programas de televisión, acciones, animales y personajes famosos. Resuelve temas de juegos de mesa al instante.",
+    "h1": "Rueda de ideas de charadas",
+    "description": "¿Atrapado tratando de pensar en algo que representar? ¡Gira la rueda para elegir tu categoría o tema al instante!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games": {
+    "route": "/templates/party-games",
+    "type": "general",
+    "title": "Plantillas de ruedas para juegos de fiesta | GameWheelClub",
+    "metaDescription": "Explore ruedas de decisión gratuitas para juegos grupales, desafíos de grupo, temas de trivia y tarjetas de verdad o desafío. Resuelva sus opciones al instante.",
+    "h1": "Juegos de fiesta y rompehielos",
+    "description": "Haga que su próxima reunión, fiesta o juego en el aula avance en segundos con estas plantillas prediseñadas.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/party-trivia": {
+    "route": "/templates/party-games/party-trivia",
+    "type": "wheel",
+    "title": "Rueda de temas de trivia para fiestas | Categorías de cuestionarios aleatorios",
+    "metaDescription": "Gire la rueda de Trivia para elegir temas de cuestionarios aleatorios: ciencia, cultura pop, historia, deportes y geografía. Perfecto para noches de juegos.",
+    "h1": "Rueda de categorías de trivia para fiestas",
+    "description": "Decida qué categoría jugar a continuación durante las noches de preguntas familiares. ¡Gira la rueda de trivia!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/truth-or-dare": {
+    "route": "/templates/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Generador de Verdad o Reto | Rueda de elección aleatoria",
+    "metaDescription": "Gire la rueda de Verdad o Reto para romper el hielo en la fiesta. Selecciona Verdad o Reto al azar y haz que los grupos hablen al instante.",
+    "h1": "Generador de rueda de verdad o desafío",
+    "description": "Dale vida a tu próxima fiesta o pasa el rato. ¡Gira la rueda para decidir entre Verdad, Reto o Doble Reto!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/would-you-rather": {
+    "route": "/templates/party-games/would-you-rather",
+    "type": "wheel",
+    "title": "¿Preferirías Rueda? Selector aleatorio de juegos de fiesta",
+    "metaDescription": "Gira la rueda ¿Qué preferirías? Haga que las conversaciones grupales avancen con opciones de preguntas hipotéticas aleatorias.",
+    "h1": "¿Preferirías girar?",
+    "description": "Resuelva hipótesis difíciles o elija quién responde qué. ¡Gira la rueda del juego!",
+    "options": [],
+    "faqs": []
+  },
+  "/terms": {
+    "route": "/terms",
+    "type": "general",
+    "title": "Términos de servicio",
+    "metaDescription": "",
+    "h1": "Términos de servicio",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/timer": {
+    "route": "/timer",
+    "type": "timer",
+    "title": "Temporizador en línea | Temporizador de cuenta regresiva gratuito",
+    "metaDescription": "Establezca minutos y segundos para cualquier cuenta regresiva. Temporizador en línea gratuito, hermoso y accesible con alertas de alarma.",
+    "h1": "Temporizador de cuenta regresiva en línea",
+    "description": "Establezca tiempos de cuenta regresiva personalizados para sesiones de estudio, reuniones o juegos, y reciba una alarma de audio clara al finalizar.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/fortnite-challenges": {
+    "route": "/video-game-wheels/fortnite-challenges",
+    "type": "wheel",
+    "title": "Rueda de desafíos de Fortnite",
+    "metaDescription": "",
+    "h1": "Rueda de desafíos de Fortnite",
+    "description": "Gira para completar un desafío divertido durante tu próxima partida de Battle Royale.",
+    "options": [
+      "Solo ganan las pistolas",
+      "Desafío sin escudo",
+      "Solo la primera arma que ves",
+      "Sin coincidencia de construcción (construcción cero)",
+      "Aterriza solo en lugares designados",
+      "Carrera pacifista (sin muertes)",
+      "Solo armas míticas",
+      "Desafío Skybase"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo hacer esto con escuadrones?",
+        "a": "¡Sí! Desafía a todo tu equipo a seguir la regla seleccionada."
+      }
+    ]
+  },
+  "/video-game-wheels/league-of-legends-champions": {
+    "route": "/video-game-wheels/league-of-legends-champions",
+    "type": "wheel",
+    "title": "Rueda de campeones de League of Legends",
+    "metaDescription": "",
+    "h1": "Rueda de campeones de League of Legends",
+    "description": "Elige al azar un campeón de Liga para tu próximo draft o juego de ARAM.",
+    "options": [
+      "Yasuo",
+      "Ahri",
+      "Lux",
+      "Jinx",
+      "Lee Sin",
+      "Thresh",
+      "Garen",
+      "Teemo",
+      "Ezreal",
+      "Zed",
+      "Katarina",
+      "Akali",
+      "Master Yi",
+      "Darius",
+      "Ashe",
+      "Vayne",
+      "KaiSa",
+      "Ekko"
+    ],
+    "faqs": [
+      {
+        "q": "¿Admite carriles?",
+        "a": "Puedes personalizar opciones para agrupar campeones por rol (Superior, Medio, Selva, ADC, Soporte)."
+      }
+    ]
+  },
+  "/video-game-wheels/overwatch-2-characters": {
+    "route": "/video-game-wheels/overwatch-2-characters",
+    "type": "wheel",
+    "title": "Rueda de personajes de Overwatch 2",
+    "metaDescription": "",
+    "h1": "Rueda de personajes de Overwatch 2",
+    "description": "Selecciona un héroe aleatorio de tanque, daño o apoyo para tu próxima partida de Overwatch.",
+    "options": [
+      "Tracer",
+      "Reaper",
+      "Genji",
+      "Hanzo",
+      "Cassidy",
+      "Soldado: 76",
+      "Widowmaker",
+      "Pharah",
+      "Mei",
+      "Bastion",
+      "Junkrat",
+      "Sombra",
+      "Doomfist",
+      "D.Va",
+      "Winston",
+      "Reinhardt",
+      "Roadhog",
+      "Zarya",
+      "Mercy",
+      "Lucio",
+      "Ana",
+      "Kiriko",
+      "Lifeweaver",
+      "Illari",
+      "Juno"
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo? ¿filtrar por rol?",
+        "a": "Sí, simplemente edite la lista para que contenga solo tanques, DPS o soportes."
+      }
+    ]
+  },
+  "/video-game-wheels": {
+    "route": "/video-game-wheels",
+    "type": "general",
+    "title": "Ruedas aleatorias de videojuegos | GameWheelClub",
+    "metaDescription": "Gira para elegir configuraciones de juego, agentes, campeones, tipos, desafíos y estilos de juego. Cubre Valorant, LoL, Pokémon, Roblox y Fortnite.",
+    "h1": "Ruedas de videojuegos",
+    "description": "Gira para elegir configuraciones de juego, agentes, campeones, tipos, desafíos y estilos de juego. Cubre Valorant, LoL, Pokémon, Roblox y Fortnite.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/pokemon-types": {
+    "route": "/video-game-wheels/pokemon-types",
+    "type": "wheel",
+    "title": "Rueda de tipos de Pokémon",
+    "metaDescription": "",
+    "h1": "Rueda de tipos de Pokémon",
+    "description": "Gira para seleccionar un tipo de Pokémon aleatorio. Perfecto para carreras de desafío monotipo.",
+    "options": [
+      "Normal",
+      "Fuego",
+      "Agua",
+      "Hierba",
+      "Eléctrico",
+      "Hielo",
+      "Lucha",
+      "Veneno",
+      "Tierra",
+      "Volador",
+      "Psíquico",
+      "Insecto",
+      "Roca",
+      "Fantasma",
+      "Dragón",
+      "Acero",
+      "Oscuro",
+      "Hada"
+    ],
+    "faqs": [
+      {
+        "q": "¿Se admiten tipos duales?",
+        "a": "Gire la rueda dos veces para obtener una combinación de escritura dual."
+      }
+    ]
+  },
+  "/video-game-wheels/rainbow-six-operators": {
+    "route": "/video-game-wheels/rainbow-six-operators",
+    "type": "wheel",
+    "title": "Rueda de operadores de Rainbow Six",
+    "metaDescription": "",
+    "h1": "Rueda de operadores de Rainbow Six",
+    "description": "Gira para elegir un operador de ataque o defensa aleatorio en Siege.",
+    "options": [
+      "Sledge",
+      "Thatcher",
+      "Ash",
+      "Thermite",
+      "Twitch",
+      "Montagne",
+      "Glaz",
+      "Fuze",
+      "Blitz",
+      "IQ",
+      "Buck",
+      "Barbanegra",
+      "Capitao",
+      "Hibana",
+      "Smoke",
+      "Mute",
+      "Castle",
+      "Pulse",
+      "Doc",
+      "Torre",
+      "Kapkan",
+      "Tachanka",
+      "Jager",
+      "Bandit",
+      "Frost",
+      "Valkyrie",
+      "Caveira",
+      "Echo"
+    ],
+    "faqs": [
+      {
+        "q": "Separa Ataque y ¿Defensa?",
+        "a": "Puedes eliminar a los defensores cuando estás en ataque o conservar a ambos para una sorpresa total."
+      }
+    ]
+  },
+  "/video-game-wheels/roblox-games": {
+    "route": "/video-game-wheels/roblox-games",
+    "type": "wheel",
+    "title": "Rueda de juegos de Roblox",
+    "metaDescription": "",
+    "h1": "Rueda de juegos de Roblox",
+    "description": "Gira para elegir un juego de Roblox divertido para jugar cuando estés aburrido.",
+    "options": [
+      "¡Adoptame!",
+      "Blox Fruits",
+      "Brookhaven RP",
+      "Tower of Hell",
+      "Murder Mystery 2",
+      "Piggy",
+      "Royale High",
+      "Arsenal",
+      "Pet Simulator 99",
+      "BedWars"
+    ],
+    "faqs": [
+      {
+        "q": "¿Cómo agrego mis juegos favoritos?",
+        "a": "Escriba los títulos del juego en el cuadro de texto de opción y presione actualizar."
+      }
+    ]
+  },
+  "/video-game-wheels/smash-bros-characters": {
+    "route": "/video-game-wheels/smash-bros-characters",
+    "type": "wheel",
+    "title": "Rueda de personajes de Smash Bros",
+    "metaDescription": "",
+    "h1": "Rueda de personajes de Smash Bros",
+    "description": "Aleatoriza a tu luchador para las batallas de Super Smash Bros. Ultimate.",
+    "options": [
+      "Mario",
+      "Donkey Kong",
+      "Link",
+      "Samus",
+      "Yoshi",
+      "Kirby",
+      "Fox",
+      "Pikachu",
+      "Luigi",
+      "Ness",
+      "Captain Falcon",
+      "Jigglypuff",
+      "Peach",
+      "Bowser",
+      "Zelda",
+      "Sheik",
+      "Marth",
+      "Mewtwo",
+      "Sonic",
+      "Steve",
+      "Sephiroth",
+      "Sora"
+    ],
+    "faqs": [
+      {
+        "q": "¿Se admiten todos los personajes DLC?",
+        "a": "Incluimos los mejores personajes DLC como Steve y Sora. Puedes agregar el resto manualmente."
+      }
+    ]
+  },
+  "/video-game-wheels/starter-pokemon": {
+    "route": "/video-game-wheels/starter-pokemon",
+    "type": "wheel",
+    "title": "Rueda de Pokémon inicial",
+    "metaDescription": "",
+    "h1": "Rueda de Pokémon inicial",
+    "description": "Elige un Pokémon inicial aleatorio de Gen 1 a Gen 9 para tu próximo desafío.",
+    "options": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Chikorita",
+      "Cyndaquil",
+      "Totodile",
+      "Treecko",
+      "Torchic",
+      "Mudkip",
+      "Turtwig",
+      "Chimchar",
+      "Piplup",
+      "Snivy",
+      "Tepig",
+      "Oshawott",
+      "Chespin",
+      "Fennekin",
+      "Froakie",
+      "Rowlet",
+      "Litten",
+      "Popplio",
+      "Grookey",
+      "Scorbunny",
+      "Sobble",
+      "Sprigatito",
+      "Fuecoco",
+      "Quaxly"
+    ],
+    "faqs": [
+      {
+        "q": "¿Está Pikachu en la lista?",
+        "a": "¡Puedes agregar Pikachu o Eevee manualmente si estás jugando Yellow/Let's Go!"
+      }
+    ]
+  },
+  "/video-game-wheels/valorant-agents": {
+    "route": "/video-game-wheels/valorant-agents",
+    "type": "wheel",
+    "title": "Rueda de agentes de Valorant",
+    "metaDescription": "",
+    "h1": "Rueda de agentes de Valorant",
+    "description": "Gira para elegir un agente de Valorant aleatorio para jugar en tu próxima partida.",
+    "options": [
+      "Jett",
+      "Raze",
+      "Phoenix",
+      "Reyna",
+      "Yoru",
+      "Neon",
+      "Sage",
+      "Cypher",
+      "Killjoy",
+      "Chamber",
+      "Fade",
+      "Sova",
+      "Breach",
+      "Omen",
+      "Viper",
+      "Astra",
+      "Harbor",
+      "Gekko",
+      "Deadlock",
+      "Iso",
+      "Clove"
+    ],
+    "faqs": [
+      {
+        "q": "¿Está actualizada la lista de agentes?",
+        "a": "Sí, incluimos agentes recientes. Puede agregar otros nuevos a través del editor."
+      }
+    ]
+  },
+  "/wheel-of-names": {
+    "route": "/wheel-of-names",
+    "type": "wheel",
+    "title": "Rueda de selección de nombres aleatorios | Gira la rueda de los nombres",
+    "metaDescription": "Elige un nombre al azar de una lista. Perfecto para profesores, rifas, juegos y obsequios. Guarde nombres y gire para ganar al instante.",
+    "h1": "Rueda de selección de nombres al azar",
+    "description": "¿Necesita elegir un estudiante, elegir un ganador de la rifa o seleccionar un voluntario al azar? ¡Pegue su lista de nombres a continuación y haga girar la rueda!",
+    "options": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "Dave",
+      "Eva",
+      "Frank",
+      "Grace"
+    ],
+    "faqs": []
+  },
+  "/yes-no-wheel": {
+    "route": "/yes-no-wheel",
+    "type": "wheel",
+    "title": "Rueda Sí o No | Gire para obtener respuestas instantáneas",
+    "metaDescription": "Gire la rueda Sí o No para obtener respuestas instantáneas e imparciales a cualquier pregunta. Selector de decisiones gratuito, interactivo y rápido.",
+    "h1": "Rueda giratoria de Sí o No",
+    "description": "¡Haga una pregunta, gire la rueda y obtenga una respuesta instantánea e imparcial de Sí o No!",
+    "options": [
+      "Sí",
+      "No",
+      "Sí",
+      "No",
+      "Sí",
+      "No"
+    ],
+    "faqs": []
+  }
+}

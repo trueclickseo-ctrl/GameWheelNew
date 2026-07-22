@@ -1,5 +1,6 @@
-export default function Footer() {
+export default function Footer({ currentLocale = "en" }: { currentLocale?: string }) {
   const currentYear = new Date().getFullYear();
+  const localePrefix = currentLocale === "en" ? "" : `/${currentLocale}`;
 
   return (
     <footer className="w-full neo-border border-b-0 border-x-0 bg-cream dark:bg-retro-navy py-12 px-6 md:px-12 mt-auto transition-colors text-retro-navy dark:text-cream">
@@ -25,13 +26,13 @@ export default function Footer() {
             Use Cases
           </h4>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <a href="/for-teachers" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/for-teachers`} className="hover:text-retro-orange transition-colors">
               For Teachers
             </a>
-            <a href="/for-business" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/for-business`} className="hover:text-retro-orange transition-colors">
               For Business
             </a>
-            <a href="/for-events" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/for-events`} className="hover:text-retro-orange transition-colors">
               For Events
             </a>
           </div>
@@ -43,16 +44,16 @@ export default function Footer() {
             Guides & Info
           </h4>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <a href="/guides/how-random-wheels-work" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/guides/how-random-wheels-work`} className="hover:text-retro-orange transition-colors">
               How Wheels Work
             </a>
-            <a href="/guides/spin-wheel-psychology" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/guides/spin-wheel-psychology`} className="hover:text-retro-orange transition-colors">
               Wheel Psychology
             </a>
-            <a href="/features/weighted-wheel" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/features/weighted-wheel`} className="hover:text-retro-orange transition-colors">
               Weighted Wheels
             </a>
-            <a href="/features/elimination-mode" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/features/elimination-mode`} className="hover:text-retro-orange transition-colors">
               Elimination Mode
             </a>
           </div>
@@ -64,16 +65,16 @@ export default function Footer() {
             Recent Blog
           </h4>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <a href="/blog/spin-wheels-for-decision-making" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/blog/spin-wheels-for-decision-making`} className="hover:text-retro-orange transition-colors">
               Wheels for Decisions
             </a>
-            <a href="/blog/party-games-for-adults" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/blog/party-games-for-adults`} className="hover:text-retro-orange transition-colors">
               Party Games
             </a>
-            <a href="/blog/spin-wheels-in-modern-education" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/blog/spin-wheels-in-modern-education`} className="hover:text-retro-orange transition-colors">
               Classroom Incentive
             </a>
-            <a href="/blog/time-boxing-to-prevent-burnout" className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/blog/time-boxing-to-prevent-burnout`} className="hover:text-retro-orange transition-colors">
               Avoid Burnout
             </a>
           </div>
@@ -86,16 +87,16 @@ export default function Footer() {
         </p>
 
         <div className="flex gap-6 text-xs font-semibold">
-          <a href="/about" className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/about`} className="hover:text-retro-orange transition-colors">
             About Us
           </a>
-          <a href="/contact" className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/contact`} className="hover:text-retro-orange transition-colors">
             Contact
           </a>
-          <a href="/privacy" className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/privacy`} className="hover:text-retro-orange transition-colors">
             Privacy Policy
           </a>
-          <a href="/terms" className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/terms`} className="hover:text-retro-orange transition-colors">
             Terms of Service
           </a>
         </div>

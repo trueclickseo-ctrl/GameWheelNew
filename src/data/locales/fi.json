@@ -1,0 +1,2498 @@
+{
+  "/about": {
+    "route": "/about",
+    "type": "general",
+    "title": "Tietoja GameWheelClubista",
+    "metaDescription": "",
+    "h1": "Tietoja GameWheelClubista",
+    "description": "Päätöksenteon tekeminen hauskaa, nopeaa ja täysin puolueetonta.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/farm-animals-wheel": {
+    "route": "/animal-wheels/farm-animals-wheel",
+    "type": "wheel",
+    "title": "Farm Animals Wheel",
+    "metaDescription": "",
+    "h1": "Farm Animals Wheel",
+    "description": "Pyöräytä valitaksesi tyypilliset navetta- ja maatilaeläimet. Erinomainen taaperon oppimiseen.",
+    "options": [
+      "Lypsylehmä",
+      "Villalammas",
+      "Vaaleanpunainen possu",
+      "Laukkaa hevonen",
+      "Napsuttava kana",
+      "Quacking ankka",
+      "Billy Goat",
+      "Pörröinen laama",
+      "Farm Dog"
+    ],
+    "faqs": [
+      {
+        "q": "Kuuluvatko äänet?",
+        "a": "Spinner soittaa puhdasta tikittävää ääntä, anna eläimen ääniä itse hauskanpitoa varten!"
+      }
+    ]
+  },
+  "/animal-wheels": {
+    "route": "/animal-wheels",
+    "type": "general",
+    "title": "Animal & Nature Randomizer Wheels | GameWheelClub",
+    "metaDescription": "Valitse satunnaisia ​​eläimiä pelejä, koulutusta ja piirustuksia varten. Pyöritä eläinten pyöriä selvittääksesi, mikä eläin olet, tai valitse maatilan olentoja.",
+    "h1": "Eläimet ja luonto",
+    "description": "Valitse satunnaisia ​​eläimiä pelejä, koulutusta ja piirustuksia varten. Pyöritä eläinten pyöriä selvittääksesi, mikä eläin olet, tai valitse maatilan olentoja.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/random-animal-generator": {
+    "route": "/animal-wheels/random-animal-generator",
+    "type": "wheel",
+    "title": "Random Animal Generator Wheel",
+    "metaDescription": "",
+    "h1": "Random Animal Generator Wheel",
+    "description": "Pyöräytä saadaksesi satunnaisen villieläimen. Valmiiksi ladattu majesteettisilla maa- ja merieläimillä.",
+    "options": [
+      "Leijona",
+      "Tiikeri",
+      "Delfiini",
+      "Elefantti",
+      "Kenguru",
+      "Panda",
+      "Pingviini",
+      "Susi",
+      "Grizzly Bear",
+      "Simpanssi",
+      "Kotka",
+      "Laiskiainen"
+    ],
+    "faqs": [
+      {
+        "q": "Voinko lisätä hyönteisiä tai hyönteisiä?",
+        "a": "Kyllä, lisää vikoja, lintuja tai esihistoriallisia petoja vaihtoehtoihin."
+      }
+    ]
+  },
+  "/animal-wheels/what-animal-are-you": {
+    "route": "/animal-wheels/what-animal-are-you",
+    "type": "wheel",
+    "title": "Mikä eläin olet -pyörä",
+    "metaDescription": "",
+    "h1": "Mikä eläin olet -pyörä",
+    "description": "Löydä henkinen eläinpersoonallisuutesi tällä hauskalla henkieläinpyörällä.",
+    "options": [
+      "Viisas pöllö",
+      "Uskollinen kultainennoutaja",
+      "Leikkisä kissa",
+      "Laiska Panda",
+      "Kohteileva kotka",
+      "Nopea gepardi",
+      "Rauhallinen merikilpikonna",
+      "Kiireinen mehiläinen",
+      "Rohkea leijona"
+    ],
+    "faqs": [
+      {
+        "q": "Perustuuko tämä tieteeseen?",
+        "a": "Ei, tämä on hauska persoonallisuuspeli, joka on suunniteltu viihteeseen."
+      }
+    ]
+  },
+  "/anime-fandom-wheels/aesthetics-wheel": {
+    "route": "/anime-fandom-wheels/aesthetics-wheel",
+    "type": "wheel",
+    "title": "Estetiikka pyörä | Spin for Fashion & Room Estetics | GameWheelClub",
+    "metaDescription": "Pyöritä estetiikkapyörää valitaksesi satunnaisen tyyliteeman, kuten Cottagecore, Vaporwave tai Dark Academia. Ilmainen, interaktiivinen tyylivalitsin.",
+    "h1": "Aesthetics Wheel Spinner",
+    "description": "Etkö ole varma, mitä muotitunnelmaa kokeilla seuraavaksi tai miten sisustat huoneesi? Pyöritä pyörää saadaksesi satunnaisen esteettisen tyylisi!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-characters": {
+    "route": "/anime-fandom-wheels/anime-characters",
+    "type": "wheel",
+    "title": "Anime-hahmojen pyörä | Pyöritä satunnaisia ​​animehahmoja | GameWheelClub",
+    "metaDescription": "Pyöritä ilmaista Anime Characters Wheeliä satunnaistaaksesi suosittuja sankareita ja roistoja huippusarjoista, kuten DBZ, Naruto, One Piece, MHA ja Demon Slayer.",
+    "h1": "Animehahmojen pyörä",
+    "description": "Ratkaise anime-keskusteluja, luonnoshahmoja tai valitse seuraava avatarisi pyörittämällä pyörää!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-to-watch": {
+    "route": "/anime-fandom-wheels/anime-to-watch",
+    "type": "wheel",
+    "title": "Anime katsella pyörää | Random Anime Generator | GameWheelClub",
+    "metaDescription": "Voiko",
+    "h1": "katsoa animea",
+    "description": "Oletko hämmentynyt valtavasta katselulistastasi? Pyöritä pyörää ja anna kohtalon valita seuraava animesarjasi!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/bfdi-contestants": {
+    "route": "/anime-fandom-wheels/bfdi-contestants",
+    "type": "wheel",
+    "title": "BFDI Contestants Wheel | Battle for Dream Island Randomizer | GameWheelClub",
+    "metaDescription": "Pyöritä BFDI Contestants Wheeliä valitaksesi satunnaisesti hahmoja Battle for Dream Islandista. Ilmainen, interaktiivinen ja muokattavissa.",
+    "h1": "BFDI Contestants Wheel",
+    "description": "Pyöritä valitaksesi satunnainen kilpailija verkkosarjasta Battle for Dream Island!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/cartoon-characters": {
+    "route": "/anime-fandom-wheels/cartoon-characters",
+    "type": "wheel",
+    "title": "Sarjakuvahahmot pyörä | Pyöritä satunnaisia ​​sarjakuvia | GameWheelClub",
+    "metaDescription": "Pyöritä sarjakuvahahmojen pyörää valitaksesi satunnainen kuvake klassisista ja moderneista animaatiosarjoista. Ilmainen, hauska ja muokattavissa oleva hahmovalitsin.",
+    "h1": "Sarjakuvahahmojen pyörä",
+    "description": "Pyöritä valitaksesi hahmoja nostalgisista klassikoista, Cartoon Networkin jättiläisistä ja Disneyn suosikeista!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world": {
+    "route": "/anime-fandom-wheels/dandys-world",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Pyöritä Dandya",
+    "h1": "Dandy's World Character Wheel",
+    "description": "Etkö osaa päättää, kumpaa soitinta pelata seuraavalla puutarhalenkilläsi? Pyöritä pyörää satunnaistaaksesi valintasi!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-oc-generator": {
+    "route": "/anime-fandom-wheels/dandys-world-oc-generator",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Pyöritä Dandya",
+    "h1": "Dandy's World OC Generator Wheel",
+    "description": "Päästä luovuutesi valloilleen! Pyöritä pyörää ja määritä satunnaisesti arkkityyppi, luokkarooli tai suunnittelurajoitus alkuperäiselle Dandy's World -pelillesi.",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-trinkets": {
+    "route": "/anime-fandom-wheels/dandys-world-trinkets",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Pyöritä Dandya",
+    "h1": "Dandy's World Trinkets Wheel",
+    "description": "Etkö ole varma, mitkä rihkamaa varustat seuraavaa lenkkiä varten? Pyöritä pyörää satunnaistaaksesi lataus!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/demon-slayer-characters": {
+    "route": "/anime-fandom-wheels/demon-slayer-characters",
+    "type": "wheel",
+    "title": "Demon Slayer -hahmojen pyörä | Spin Random Demon Slayer | GameWheelClub",
+    "metaDescription": "Pyöritä Demon Slayer Characters Wheel -pyörää valitaksesi satunnainen hahmo Kimetsu no Yaibasta. Valitse Hashira, Slayers tai Demons välittömästi.",
+    "h1": "Demon Slayer Characters Wheel",
+    "description": "Pyöritä valitaksesi hahmoja Kimetsu no Yaibasta, mukaan lukien ydintappaajat, eliittihashirat ja Upper Moon Demons!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/disney-movie-generator": {
+    "route": "/anime-fandom-wheels/disney-movie-generator",
+    "type": "wheel",
+    "title": "Disney Movie Generator Wheel | Pyöritä satunnainen elokuva | GameWheelClub",
+    "metaDescription": "Pyöritä Disney Movie Generator Wheel -pyörää valitaksesi satunnaisesti klassisen tai modernin Disney/Pixar-elokuvan seuraavaa perheelokuvaa varten. Ilmainen ja interaktiivinen.",
+    "h1": "Disney Movie Generator Wheel",
+    "description": "Etkö ole varma, mitä Disney-klassikkoa tai Pixarin mestariteosta katsoa? Pyöritä pyörää ja anna sen valita!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dti-theme-wheel": {
+    "route": "/anime-fandom-wheels/dti-theme-wheel",
+    "type": "wheel",
+    "title": "Tee vaikutuksen pukeutuminen Teemapyörä | DTI Randomizer | GameWheelClub",
+    "metaDescription": "Pyöritä Dress To Impress (DTI) -teemapyörää valitaksesi satunnaisesti muotityyli tai asuhaaste seuraavaa Roblox-kiitorataa varten. Ilmainen ja interaktiivinen.",
+    "h1": "Pukeudu vaikutukseen (DTI) -teemapyörä",
+    "description": "Oletko kyllästynyt vakiokiitotien luokkiin? Pyöritä pyörää saadaksesi satunnaisen muotiesteetin seuraavaa mallinnusistuntoa varten!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/fnaf-characters": {
+    "route": "/anime-fandom-wheels/fnaf-characters",
+    "type": "wheel",
+    "title": "FNAF-hahmojen pyörä | Spin Random Animatronics | GameWheelClub",
+    "metaDescription": "Pyöritä FNAF Characters Wheeliä valitaksesi satunnaisen animatronikon Five Nights at Freddystä",
+    "h1": "FNAF Characters Wheel",
+    "description": "Pyöritä valitaksesi satunnainen animatroniikka Scott Cawthonin legendaarisesta kauhusarjasta!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jjk-cursed-techniques": {
+    "route": "/anime-fandom-wheels/jjk-cursed-techniques",
+    "type": "wheel",
+    "title": "JJK Cursed Techniques Wheel | Spin for Cursed Techniques | GameWheelClub",
+    "metaDescription": "Pyöritä JJK Cursed Techniques -pyörää valitaksesi satunnaisesti, minkä Jujutsu Kaisen -voiman perisit. Ilmainen, muokattavissa ja hauska.",
+    "h1": "JJK Cursed Techniques Wheel",
+    "description": "Mikä peritty tekniikka kulkee veressäsi? Pyöritä pyörää saadaksesi legendaarisen JJK-tekniikkasi!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jujutsu-kaisen-characters": {
+    "route": "/anime-fandom-wheels/jujutsu-kaisen-characters",
+    "type": "wheel",
+    "title": "Jujutsu Kaisen hahmojen pyörä | Spin Random JJK Sorcerer | GameWheelClub",
+    "metaDescription": "Pyöritä Jujutsu Kaisen -hahmopyörää valitaksesi satunnaisesti velhoja, kirottuja henkiä tai oppilashahmoja. Ilmainen ja interaktiivinen JJK-satunnaistin.",
+    "h1": "Jujutsu Kaisen -hahmojen pyörä",
+    "description": "Pyöritä valitaksesi hahmoja JJK:sta, mukaan lukien Tokion Jujutsu High -opiskelijat, eliittivelhot ja kirotut henget!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/marvel-superheroes": {
+    "route": "/anime-fandom-wheels/marvel-superheroes",
+    "type": "wheel",
+    "title": "Marvel Superheroes Wheel | Pyöritä Random Avengers | GameWheelClub",
+    "metaDescription": "Pyöritä Marvel Superheroes Wheel -pyörää valitaksesi satunnaisesti sankari Marvel-universumista. Ilmainen, muokattavissa ja täydellinen sarjakuva- ja MCU-faneille.",
+    "h1": "Marvel Superheroes Wheel",
+    "description": "Valitse satunnainen Avenger-, X-Men-jäsen tai katutason sankari valtavasta Marvel-universumista!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/mha-characters": {
+    "route": "/anime-fandom-wheels/mha-characters",
+    "type": "wheel",
+    "title": "MHA Characters Wheel | Pyöritä satunnaisia ​​My Hero Academia -hahmoja | GameWheelClub",
+    "metaDescription": "Pyöritä MHA Characters Wheeliä valitaksesi satunnaisesti sankareita ja roistoja My Hero Academiasta. Ilmainen, muokattavissa oleva ja nopea hahmonvalitsin.",
+    "h1": "MHA Characters Wheel",
+    "description": "Pyöritä valitaksesi hahmoja My Hero Academiasta, mukaan lukien luokan 1-A sankarit ja League of Villains!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/naruto-characters": {
+    "route": "/anime-fandom-wheels/naruto-characters",
+    "type": "wheel",
+    "title": "Naruto-hahmojen pyörä | Spin Random Naruto Ninja | GameWheelClub",
+    "metaDescription": "Pyöritä Naruto Characters Wheel -pyörää valitaksesi satunnainen shinobi Konohasta tai Akatsukista. Ilmainen interaktiivinen ninjavalitsin.",
+    "h1": "Naruto Characters Wheel",
+    "description": "Pyöritä valitaksesi ninja Hidden Leaf-, Akatsuki- tai historiallisista shinobiklaaneista!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-characters": {
+    "route": "/anime-fandom-wheels/one-piece-characters",
+    "type": "wheel",
+    "title": "One Piece Characters Wheel | Pyöritä Random Pirates | GameWheelClub",
+    "metaDescription": "Pyöritä One Piece Characters Wheel -pyörää valitaksesi satunnainen merirosvo Straw Hat -miehistön, Yonkon tai merijalkaväen joukosta. Ilmainen, nopea ja muokattavissa.",
+    "h1": "One Piece Characters Wheel",
+    "description": "Purjehdi Grand Line -linjalle ja pyörää pyörää valitaksesi satunnainen hahmo Eiichiro Odan mestariteoksesta!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-devil-fruits": {
+    "route": "/anime-fandom-wheels/one-piece-devil-fruits",
+    "type": "wheel",
+    "title": "One Piece Devil Fruits Wheel | Spin for Devil Fruits | GameWheelClub",
+    "metaDescription": "Pyöritä One Piece Devil Fruits -pyörää valitaksesi satunnaisesti, minkä Devil Fruit -voiman perisit animen maailmasta. Ilmainen ja muokattavissa.",
+    "h1": "One Piece Devil Fruits Wheel",
+    "description": "Mitä mystistä hedelmää syöt? Pyöritä pyörää saadaksesi legendaarisen merirosvovoimasi!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels": {
+    "route": "/anime-fandom-wheels",
+    "type": "general",
+    "title": "Anime- ja fanihahmopyörät | GameWheelClub",
+    "metaDescription": "Pyöritä 19 ilmaista fandom-päätöspyörää. Satunnaista animehahmot, Disney-elokuvat, sarjakuvakuvakkeet, FNAF-animatroniikka ja One Piece Devil Fruits.",
+    "h1": "Anime- ja fanipyörät",
+    "description": "Valitse seuraava katselulistasi, sovi keskustelut tai valitse fanihahmot satunnaisesti käyttämällä valmiita esiasetuksiamme.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/best-icebreaker-games-for-work": {
+    "route": "/blog/best-icebreaker-games-for-work",
+    "type": "general",
+    "title": "Parhaat jäänmurtajapelit työhön: Boost Corporate Team Bond",
+    "metaDescription": "Pelkäätkö aamusynkronointia? Tutustu näihin nopeisiin, energisiin yritysjäänmurtajapeleihin käyttämällä satunnaisia ​​nimipyöriä ja -pyöriä kokousten käynnistämiseksi.",
+    "h1": "Energiset työpaikkajäänmurtajat, jotka eivät rypisty",
+    "description": "Pelätyt yritysjäänmurtajat kohtaavat modernin satunnaisuuden. Ota selvää, miten aloitat stand-uppeja ja hybridikokouksia energisillä toimilla, jotka rakentavat todellisia yhteyksiä.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/classroom-incentive-rewards": {
+    "route": "/blog/classroom-incentive-rewards",
+    "type": "general",
+    "title": "Luokkahuoneen kannustinpalkinnot: oikeudenmukaiset motivaatiojärjestelmät",
+    "metaDescription": "Jätä kultaiset tähdet pois! Opi rakentamaan interaktiivinen, satunnainen palkitsemisjärjestelmä pyörien avulla oppilaiden motivoimiseksi ja sitoutumisen ylläpitämiseksi.",
+    "h1": "Paremman luokkahuoneen kannustinpalkkioiden rakentaminen",
+    "description": "Staattiset käyttäytymiskaaviot ja tarrat menettävät tehokkuutensa. Ota selvää, kuinka pelidynamiikan ja satunnaisten palkkioiden lisääminen pitää oppilaat motivoituneena ja käyttäytymisen positiivisena.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-generators-help-coding": {
+    "route": "/blog/how-generators-help-coding",
+    "type": "general",
+    "title": "Kuinka satunnaiset generaattorit auttavat koodaamisessa: Kehittäjätestaus ja pilkkaaminen",
+    "metaDescription": "Tutustu kuinka satunnaisgeneraattorit auttavat ohjelmistokehittäjiä koodin testaamisessa, valetietojen luomisessa, käyttöliittymän/UX-simulaatiossa ja pelialgoritmien suunnittelussa.",
+    "h1": "Kuinka satunnaiset generaattorit parantavat koodausta ja testausta",
+    "description": "Satunnaisuus on vankan ohjelmoinnin salainen kastike. Opi kehittäjät käyttämään näennäissatunnaisia ​​generaattoreita (PRNG:t) kestävien järjestelmien rakentamiseen, todellisen liikenteen simuloimiseen ja ääritapausten testaamiseen.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-to-customize-spin-wheels": {
+    "route": "/blog/how-to-customize-spin-wheels",
+    "type": "general",
+    "title": "Pyörivien pyörien mukauttaminen kaikkiin tilaisuuksiin",
+    "metaDescription": "Opi mukauttamaan pyörityspyöriäsi mukautetuilla väreillä, tarroilla, painojakaumalla ja äänitehosteilla luokkahuoneisiin, juhliin tai yritystapahtumiin sopivaksi.",
+    "h1": "Pyörivien pyörien mukauttaminen tarpeisiisi",
+    "description": "Yleinen pyörä voi olla tylsää. Tutustu siihen, kuinka värien säätäminen, painojen säätäminen, äänitehosteiden valitseminen ja temaattisten palettien rakentaminen nostavat tapahtumia, kursseja ja lahjoja.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/math-activities-using-random-generators": {
+    "route": "/blog/math-activities-using-random-generators",
+    "type": "general",
+    "title": "Matemaattiset toiminnot satunnaisten generaattoreiden avulla: Interaktiiviset ideat",
+    "metaDescription": "Tee matematiikasta interaktiivista! Löydä kuusi kiinnostavaa matematiikkatehtävää, todennäköisyyspelejä ja lukuharjoituksia satunnaislukugeneraattoreita ja digitaalisia noppia käyttämällä.",
+    "h1": "Matemaattiset aktiviteetit ja pelit satunnaisten generaattoreiden avulla",
+    "description": "Matematiikasta ei tarvitse olla katsojaurheilua. Tutustu aritmeettisten harjoitusten, tilastojen ja todennäköisyysteorian muuttamiseen aktiivisiksi käytännön peleiksi satunnaislukugeneraattoreilla.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog": {
+    "route": "/blog",
+    "type": "general",
+    "title": "GameWheelClub-blogi | Satunnaisia ​​päätöksiä, pelejä ja koulutusta koskevia näkemyksiä",
+    "metaDescription": "Lue viimeisimmät artikkelimme satunnaisesta päätöksenteosta, interaktiivisista luokkahuonepelimalleista, aikanyrkkeilytekniikoista ja bilejäänmurtajatoiminnasta.",
+    "h1": "Näkemyksiä, oppaita ja tuottavuushakkeja",
+    "description": "Lue asiantuntijavinkkejä luokkahuoneiden pelillistämiseen, strukturoidun aika-boxingin toteuttamiseen, sosiaalisten bilepelien järjestämiseen ja päätöskeinojen perustamiseen.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/party-games-for-adults": {
+    "route": "/blog/party-games-for-adults",
+    "type": "general",
+    "title": "Hauskoja juhlapelejä aikuisille: Interaktiivisia ja satunnaisia ​​ideoita",
+    "metaDescription": "Jätä tylsät illalliskeskustelut pois! Tutustu 8 interaktiiviseen ja satunnaiseen bilepeliin aikuisille, mukaan lukien Truth or Dare -pyörät, noppapelit ja triviahaasteet.",
+    "h1": "Nosta tapaamisiasi aikuisten bilepeleillä",
+    "description": "Oletko kyllästynyt tavallisiin lautapeleihin tai kiusallisiin hiljaisiin tauoihin? Opi integroimaan digitaaliset pyörityspyörät ja satunnaiset generaattorit järjestämään unohtumaton peliilta.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/pomodoro-technique-for-students": {
+    "route": "/blog/pomodoro-technique-for-students",
+    "type": "general",
+    "title": "Pomodoro-tekniikka opiskelijoille: Parempi keskittymisstrategia",
+    "metaDescription": "Opi, kuinka Pomodoro-tekniikka auttaa oppilaita parantamaan keskittymistä, voittamaan viivyttelyn ja hallitsemaan opiskeluaikaa strukturoiduilla väliajoilla ja tauoilla.",
+    "h1": "Pomodoro-tekniikka: opas kiireisille opiskelijoille",
+    "description": "Onko vaikeuksia opiskella kokeisiin tarkistamatta puhelintasi viiden minuutin välein? Opi, kuinka jäsennellyt opiskeluvälit voivat auttaa sinua keskittymään, säilyttämään tietoja ja vähentämään työuupumusta.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-for-decision-making": {
+    "route": "/blog/spin-wheels-for-decision-making",
+    "type": "general",
+    "title": "Pyöritä päätöksentekopyöriä: Parannuskeino päätöshalvaukseen",
+    "metaDescription": "Kamppailetko liiallisen ajattelun kanssa? Opi kuinka pyörivät pyörät ja satunnaisvalintageneraattorit yksinkertaistavat päätöksentekoa, poistavat kognitiivista kuormitusta ja tekevät valinnasta hauskaa.",
+    "h1": "Kuinka Spin Wheels hoitaa jokapäiväisen päätöksen halvaantumisen",
+    "description": "Oletko koskaan viettänyt 45 minuuttia Netflixin selaamiseen vain mennäkseen nukkumaan katsomatta mitään? Tästä syystä pienten päätösten jättäminen satunnaisen pyörän tehtäväksi on äärimmäistä tuottavuuden hakkeri.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-in-modern-education": {
+    "route": "/blog/spin-wheels-in-modern-education",
+    "type": "general",
+    "title": "Spin Wheels in Modern Education: Gamify Classrooms",
+    "metaDescription": "Tehosta oppilaiden osallistumista pyörityspyörillä. Tutustu aktiivisiin luokkahuoneideoihin, pelillisiin tietokilpailuarvosteluihin ja oikeudenmukaisiin valintamenetelmiin käyttämällä digitaalisia pyöriä.",
+    "h1": "Pyörittävät pyörät modernissa koulutuksessa: luokkahuoneen pelillistäminen",
+    "description": "Kuinka yksinkertainen, visuaalinen nimenvalitsin muuttaa opiskelijoiden osallistumisastetta, vähentää kokeiden ahdistusta ja rakentaa osallistavaa ympäristöä perus- ja korkeakouluopetukseen.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/time-boxing-to-prevent-burnout": {
+    "route": "/blog/time-boxing-to-prevent-burnout",
+    "type": "general",
+    "title": "Aikanyrkkeily uupumisen estämiseksi: Päivittäinen aikataulustrategia",
+    "metaDescription": "Opi kuinka aikanyrkkeily auttaa hallitsemaan työtaakkaa, luomaan selkeät työelämän rajat ja ehkäisemään loppuunuutumista strukturoitujen aikalohkojen avulla.",
+    "h1": "Kuinka Time Boxing ehkäisee ammattimaista burnoutia",
+    "description": "Meneekö työaikasi iltaan? Tutustu siihen, kuinka vaikeiden työaikojen asettaminen tehtävillesi voi rakentaa terveitä rajoja, tehostaa tuotantoa ja palauttaa mielenrauhan.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/age-spinner": {
+    "route": "/character-creator/age-spinner",
+    "type": "wheel",
+    "title": "Age Spinner Wheel",
+    "metaDescription": "",
+    "h1": "Age Spinner Wheel",
+    "description": "Valitse satunnaisesti hahmojen iät ja kehitysvaiheet.",
+    "options": [
+      "Lapsi (5-10)",
+      "Esiteini (11-12)",
+      "Teini (13-17)",
+      "Nuori aikuinen (18-25)",
+      "Aikuinen (26-45)",
+      "Keski-ikäinen (46-60)",
+      "Vanhukset (60+)"
+    ],
+    "faqs": [
+      {
+        "q": "voinko asettaa tiettyjä numeroita?",
+        "a": "Kyllä, hienosäätääksesi kirjoita tietyt iät, kuten \\\"21 vuotta\\\" tai \\\"84 vuotta\\\"."
+      }
+    ]
+  },
+  "/character-creator/boy-or-girl-oc": {
+    "route": "/character-creator/boy-or-girl-oc",
+    "type": "wheel",
+    "title": "Poika tai tyttö OC Spinner",
+    "metaDescription": "",
+    "h1": "Poika tai tyttö OC Spinner",
+    "description": "Oletko jumissa seuraavan hahmosi sukupuoli-identiteetin valinnassa? Pyöritä osoitinta päättääksesi välittömästi.",
+    "options": [
+      "Poika",
+      "Tyttö",
+      "Ei-binäärinen",
+      "Genderfluid",
+      "Sukupuoli"
+    ],
+    "faqs": [
+      {
+        "q": "Voinko lisätä mukautettuja sukupuoli-identiteettejä?",
+        "a": "Kyllä! Muokkauspaneelin avulla voit lisätä, poistaa tai nimetä uudelleen vaihtoehtoja hahmomaailmaasi vastaaviksi."
+      }
+    ]
+  },
+  "/character-creator/clothing-style": {
+    "route": "/character-creator/clothing-style",
+    "type": "wheel",
+    "title": "Clothing Style Wheel",
+    "metaDescription": "",
+    "h1": "Clothing Style Wheel",
+    "description": "Hanki muotiideoita ja asuestetiikkaa hahmojen luojille.",
+    "options": [
+      "Rento katuvaatteet",
+      "Viktoriaaninen gootti",
+      "Futuristinen tekninen asu",
+      "Perinteinen kimono",
+      "Lukion univormu",
+      "Muodollinen tuksi/puku",
+      "Cyberpunk Rebel",
+      "Fantasiapanssari"
+    ],
+    "faqs": [
+      {
+        "q": "Miten yhdistän tyylejä?",
+        "a": "Pyöritä kahdesti ja yhdistä tulokset, kuten Cyberpunk Victorian!"
+      }
+    ]
+  },
+  "/character-creator/create-an-oc": {
+    "route": "/character-creator/create-an-oc",
+    "type": "wheel",
+    "title": "Luo OC Wheel",
+    "metaDescription": "",
+    "h1": "Luo OC Wheel",
+    "description": "Pyöritä tätä pyörää luodaksesi satunnaisen taustan, kilpailun tai luokan seuraavalle alkuperäiselle hahmollesi.",
+    "options": [
+      "Soturi",
+      "Maagi",
+      "Varas",
+      "Pappi",
+      "Haltija",
+      "Kääpiö",
+      "Orkki",
+      "Demoni",
+      "Enkeli",
+      "Kyborgi",
+      "Alien"
+    ],
+    "faqs": [
+      {
+        "q": "Miten voin laajentaa valittua luokkaa/rotua?",
+        "a": "Kun olet valinnut arkkityypin, pyöritä hius-, silmä- ja vaatetyylipyöriä rakentaaksesi koko suunnittelun."
+      }
+    ]
+  },
+  "/character-creator/eye-color": {
+    "route": "/character-creator/eye-color",
+    "type": "wheel",
+    "title": "Eye Color Wheel",
+    "metaDescription": "",
+    "h1": "Eye Color Wheel",
+    "description": "Päätä silmäsävyt ja fantasia-iiristyylejä OC:llesi välittömästi.",
+    "options": [
+      "Merensininen",
+      "Metsänvihreä",
+      "Meripihkanpunainen",
+      "Purppuranpunainen",
+      "Pähkinänruskea",
+      "Tummanruskea",
+      "Ametistivioletti",
+      "Heterokromia (sininen/vihreä)",
+      "Puhdas musta"
+    ],
+    "faqs": [
+      {
+        "q": "Miten edustan hehkuvia fantasiasilmiä?",
+        "a": "Liitä vain \\\"(Hehkuva)\\\" mihin tahansa muokkauspaneelin väreihin."
+      }
+    ]
+  },
+  "/character-creator/gacha-character-generator": {
+    "route": "/character-creator/gacha-character-generator",
+    "type": "wheel",
+    "title": "Gacha Character Generator Wheel",
+    "metaDescription": "",
+    "h1": "Gacha Character Generator Wheel",
+    "description": "Pyöritä tyyliteemoja, estetiikkaa ja muotikonsepteja rakentaaksesi seuraavan Gacha Life- tai Gacha Club -hahmosi.",
+    "options": [
+      "Sweet Candy Style",
+      "Dark Goth -tyyli",
+      "Steampunk -tyyli",
+      "Retro Cyberpunk",
+      "Pastelli pehmeä tyttö",
+      "Urheilullinen tyylikäs",
+      "Royal Knight"
+    ],
+    "faqs": [
+      {
+        "q": "Toimiiko tämä Gacha Clubilla?",
+        "a": "Kyllä, nämä kehotteet sopivat Gacha Lifen, Gacha Clubin ja yleisten avatar-luojien tekijöille."
+      }
+    ]
+  },
+  "/character-creator/gender-randomizer": {
+    "route": "/character-creator/gender-randomizer",
+    "type": "wheel",
+    "title": "Gender Randomizer Wheel",
+    "metaDescription": "",
+    "h1": "Gender Randomizer Wheel",
+    "description": "Satunnaista pronominit, sukupuoli-identiteetit ja esitystyylit.",
+    "options": [
+      "Mies",
+      "Nainen",
+      "Ei-binäärinen",
+      "Androgyyni",
+      "Genderqueer",
+      "Demiboy",
+      "Puolityttö"
+    ],
+    "faqs": [
+      {
+        "q": "Onko pronominit esiladattu?",
+        "a": "Voit kirjoittaa mukautettuja pronomineja sukupuolten rinnalle asetusvalikossa."
+      }
+    ]
+  },
+  "/character-creator/hair-color": {
+    "route": "/character-creator/hair-color",
+    "type": "wheel",
+    "title": "Hiusväripyörä",
+    "metaDescription": "",
+    "h1": "Hiusväripyörä",
+    "description": "Pyöritä valitaksesi satunnaisen hiusvärin tai OC-hiusvärin. Esiladattu luonnollisilla sävyillä ja eloisilla neonväreillä.",
+    "options": [
+      "Ruskea",
+      "Musta",
+      "Blondi",
+      "Inkivääri",
+      "Platinablondi",
+      "Neonvihreä",
+      "Pastellipinkki",
+      "Lila Purppura",
+      "Syaanisininen",
+      "Tummanpunainen"
+    ],
+    "faqs": [
+      {
+        "q": "Voinko lisätä monivärisiä tyylejä?",
+        "a": "Kirjoita ehdottomasti \\\"Split Dye (Pink/Blue)\\\" asetusluetteloon mukautettuja tuloksia varten."
+      }
+    ]
+  },
+  "/character-creator/hair-style": {
+    "route": "/character-creator/hair-style",
+    "type": "wheel",
+    "title": "Hiustyylipyörä",
+    "metaDescription": "",
+    "h1": "Hiustyylipyörä",
+    "description": "Valitse satunnainen hiustyyli hahmosivuille, piirroksille tai mallimalleille.",
+    "options": [
+      "Lyhyt tonttu",
+      "Kihara Bob",
+      "Pitkät aallot",
+      "Sivuleikkaus",
+      "Twin Pigtails",
+      "Korkea poninhäntä",
+      "Sotkuinen pulla",
+      "Piikikäs anime",
+      "Afro Puff",
+      "Rantakukko"
+    ],
+    "faqs": [
+      {
+        "q": "Sopiiko tämä molemmille hahmoille?",
+        "a": "Kyllä, kaikki tyylit ovat unisex-tyyppejä ja sopivat mihin tahansa OC-arkkityyppiin."
+      }
+    ]
+  },
+  "/character-creator/nationality-generator": {
+    "route": "/character-creator/nationality-generator",
+    "type": "wheel",
+    "title": "Nationality Generator Wheel",
+    "metaDescription": "",
+    "h1": "Nationality Generator Wheel",
+    "description": "Valitse satunnainen kansallinen tausta ja kansalaisuus maailmanlaajuisille hahmoille.",
+    "options": [
+      "Amerikkalainen",
+      "japani",
+      "britti",
+      "brasilialainen",
+      "ranska",
+      "saksa",
+      "australialainen",
+      "kanadalainen",
+      "eteläkorea",
+      "intialainen",
+      "meksikolainen",
+      "espanja"
+    ],
+    "faqs": [
+      {
+        "q": "Voinko lisätä tiettyjä alueita?",
+        "a": "Kyllä, muokkaa pyöräluetteloa määrittääksesi kaupungit tai osa-alueet."
+      }
+    ]
+  },
+  "/character-creator": {
+    "route": "/character-creator",
+    "type": "general",
+    "title": "Hahmon luoja ja OC-pyörägeneraattorit | GameWheelClub",
+    "metaDescription": "Suunnittele satunnaisia ​​hahmoja, käyttöehtoja ja avatareja välittömästi. Pyöritä kampauksia, asuja, silmiä, sukupuolia, ihon sävyjä ja gacha-ideoita.",
+    "h1": "Character Creator & OC Wheels",
+    "description": "Suunnittele satunnaisia ​​hahmoja, käyttötapoja ja avatareja välittömästi. Pyöritä kampauksia, asuja, silmiä, sukupuolia, ihon sävyjä ja gacha-ideoita.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/skin-tone": {
+    "route": "/character-creator/skin-tone",
+    "type": "wheel",
+    "title": "Skin Tone Wheel",
+    "metaDescription": "",
+    "h1": "Skin Tone Wheel",
+    "description": "Valitse satunnaiset ihon sävyt, pohjasävyt ja olentojen tekstuurit.",
+    "options": [
+      "Vaalea persikka",
+      "Lämmin beige",
+      "Kultainen oliivi",
+      "Rikas pronssi",
+      "Syvä kaakao",
+      "Alabasterin valkoinen",
+      "Vaaleanharmaa (Alien/Undead)",
+      "Neonsininen"
+    ],
+    "faqs": [
+      {
+        "q": "Onko paletti säädettävissä?",
+        "a": "Kyllä, mukauta kaikkia heksadesimaattisia ääniä tai nimiä joukkotekstialueella."
+      }
+    ]
+  },
+  "/compare/best-random-picker-tools": {
+    "route": "/compare/best-random-picker-tools",
+    "type": "general",
+    "title": "GameWheelClub vs. Wheel of Names vs. Wheel Decider vs. Tiny Decisions | Parhaat satunnaisen valinnan työkalut",
+    "metaDescription": "Lue kattava, puolueeton vertailumme parhaista satunnaisten päätösten valinnan työkaluista: GameWheelClub, Wheel of Names, Wheel Decider ja Tiny Decisions. Löydä paras spinner luokkahuoneeseesi, tapahtumaasi tai jokapäiväisiin valintoihin.",
+    "h1": "Parhaat satunnaisen valinnan työkalut vertailuun",
+    "description": "Jumissa GameWheelClubin, Wheel of Names, Wheel Deciderin ja Tiny Decisions välillä? Analysoimme ominaisuuksia, yksityisyyttä, tyyliä ja käyttökokemusta löytääksemme sinulle parhaan valintapyörän.",
+    "options": [],
+    "faqs": []
+  },
+  "/contact": {
+    "route": "/contact",
+    "type": "general",
+    "title": "Ota yhteyttä",
+    "metaDescription": "",
+    "h1": "Ota yhteyttä",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/arrow-spin": {
+    "route": "/creative-wheels/arrow-spin",
+    "type": "wheel",
+    "title": "Pyörivä nuoli",
+    "metaDescription": "",
+    "h1": "Nuoli pyörivä pyörä",
+    "description": "Pyöritä kompassin osoitinta valitaksesi satunnaisen kardinaali- tai järjestyssuunnan.",
+    "options": [
+      "Pohjoinen ⬆️",
+      "Koillis ↗️",
+      "Itä ➡️",
+      "Kaakkois ↘️",
+      "Etelä ⬇️",
+      "Lounais ↙️",
+      "Länsi ⬅️",
+      "Luoteis ↖️ Toimiiko se?"
+    ],
+    "faqs": [
+      {
+        "q": "Toimiiko se?",
+        "a": "Se poimii suunnat matemaattisesti ja toimii satunnaisena suuntaoppaana."
+      }
+    ]
+  },
+  "/creative-wheels/drawing-idea-wheel": {
+    "route": "/creative-wheels/drawing-idea-wheel",
+    "type": "wheel",
+    "title": "Piirustusideapyörä",
+    "metaDescription": "",
+    "h1": "Piirustusideapyörä",
+    "description": "Luo outoja, söpöjä ja hauskoja kehotteita seuraavaa luonnosta varten.",
+    "options": [
+      "Kissa, jolla on velhohattu",
+      "Futuristinen kyberpunkkahvila",
+      "Avaruudessa kelluva puumaja",
+      "Keskiaikainen ritari ratsastamassa kilpikonnassa",
+      "Söpö lohikäärme leipomassa keksejä",
+      "Steampunk-robottikukkakauppa"
+    ],
+    "faqs": [
+      {
+        "q": "Sopiiko se pikapiirustushaasteisiin?",
+        "a": "Kyllä, pyöritä kehote ja aseta 5 minuutin ajastin!"
+      }
+    ]
+  },
+  "/creative-wheels/movie-picker": {
+    "route": "/creative-wheels/movie-picker",
+    "type": "wheel",
+    "title": "Movie Picker Wheel",
+    "metaDescription": "",
+    "h1": "Movie Picker Wheel",
+    "description": "Selvitä, mitä haluat katsoa tänä iltana pyörittämällä elokuvatyyppejä.",
+    "options": [
+      "Toimintamenestys",
+      "Sci-Fi-trilleri",
+      "Komediailta",
+      "Romanttinen draama",
+      "Pelottava kauhu",
+      "Mieleenpainuva mysteeri",
+      "Historiallinen eepos",
+      "Animaatioklassikko",
+      "Indie-mestariteos"
+    ],
+    "faqs": [
+      {
+        "q": "Voinko lisätä tiettyjä elokuvien nimiä?",
+        "a": "Kyllä! Korvaa genret todellisilla katselulistoillasi editorissa."
+      }
+    ]
+  },
+  "/creative-wheels/music-genre-wheel": {
+    "route": "/creative-wheels/music-genre-wheel",
+    "type": "wheel",
+    "title": "Musiikkityylipyörä",
+    "metaDescription": "",
+    "h1": "Musiikkityylipyörä",
+    "description": "Pyöritä valitaksesi, mitä musiikkityyliä haluat soittaa tai tutkia.",
+    "options": [
+      "Synthwave / Lo-Fi",
+      "Klassinen Rock & Roll",
+      "90-luvun hip Hop",
+      "Uusklassinen piano",
+      "Moderni Pop",
+      "Smooth Jazz",
+      "Indie Folk & Akustinen",
+      "Heavy Metal / Hard Rock",
+      "Voinko lisätä tiettyä artistia __ Elektronista tanssimusiikkia?"
+    ],
+    "faqs": [
+      {
+        "q": "Kyllä, syötä suosikkilaulajasi tai -bändisi editoriin.",
+        "a": "Yes, input your favorite singers or bands in the editor."
+      }
+    ]
+  },
+  "/creative-wheels": {
+    "route": "/creative-wheels",
+    "type": "general",
+    "title": "Creative & Entertainment päätöspyörät | GameWheelClub",
+    "metaDescription": "Avaa luova inspiraatio välittömästi. Pyöritä valitaksesi elokuvan genren tai poimijan, hanki satunnaisia ​​piirustusideoita, pyöritä nuoliosoitinta tai hanki TBR-kirjakehotteita.",
+    "h1": "Luova ja viihde",
+    "description": "Hanki luova inspiraatio välittömästi. Pyöritä valitaksesi elokuvan genren tai poimijan, hanki satunnaisia ​​piirustusideoita, pyöritä nuoliosoitinta tai hanki TBR-kirjakehotteita.",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/tbr-prompts": {
+    "route": "/creative-wheels/tbr-prompts",
+    "type": "wheel",
+    "title": "TBR Prompts Wheel",
+    "metaDescription": "",
+    "h1": "TBR Prompts Wheel",
+    "description": "Valitse seuraava kirjan lukuvaihtoehto käyttämällä To-Be-Read (TBR) -kehotteita.",
+    "options": [
+      "Sinikansi kirja",
+      "Ystävän suosittelema kirja",
+      "Kirja, joka on ollut hyllyssäsi yli vuoden",
+      "Trilleri tai mysteeri",
+      "Naiskirjailijan kirja",
+      "Kirja, jossa on eläin"
+    ],
+    "faqs": [
+      {
+        "q": "Tukeeko se Goodreadsin listoja?",
+        "a": "Kopioi ja liitä otsikot suoraan lukulistoistasi, jotta voit valita yksilöllisesti."
+      }
+    ]
+  },
+  "/decision-wheel": {
+    "route": "/decision-wheel",
+    "type": "wheel",
+    "title": "Satunnainen päätöspyörä | Pyöritä valintapyörää",
+    "metaDescription": "Syötä mukautetut valinnat, pyöritä päätöspyörää ja ratkaise vaihtoehdot välittömästi. Täysin ilmainen, muokattavissa oleva ja puolueeton valinnantekijä.",
+    "h1": "Satunnainen päätöspyörä",
+    "description": "Etkö voi valita päivällisvaihtoehtojen, lomapaikkojen tai työprojektien välillä? Mukauta viipaleita ja pyöritä!",
+    "options": [
+      "Kyllä",
+      "Ei",
+      "Ehkä",
+      "Kysy ystävältä",
+      "Pyöritä uudelleen",
+      "Nuku se"
+    ],
+    "faqs": []
+  },
+  "/dice-roller": {
+    "route": "/dice-roller",
+    "type": "dice-roller",
+    "title": "Nopparulla | Heitä virtuaalinoppaa verkossa",
+    "metaDescription": "Heitä 1, 2 tai 3 virtuaalista noppaa välittömästi. Täydellinen lautapeleihin, tilastoihin, todennäköisyyslaskentaan ja satunnaisiin päätöksiin.",
+    "h1": "Virtuaalinen nopparulla",
+    "description": "Oletko hukannut lautapelinoppaasi? Rullaa jopa kolme virtuaalista noppaa realistisilla pisteasetteluilla ja animaatioilla.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/bulk-edit": {
+    "route": "/features/bulk-edit",
+    "type": "general",
+    "title": "Joukkomuokkaus ja luettelon tuonti | GameWheelClub-työkalut",
+    "metaDescription": "Opi tuomaan ja muokkaamaan tuhansia kohteita välittömästi. Tutustu merkkijonojen jäsennykseen, CSV-yhteensopivuuteen ja luettele GameWheelClubia ohjaavia puhdistusmoottoreita",
+    "h1": "Joukkomuokkaus ja luettelon tuonti: suurten tietojoukkojen hallinta",
+    "description": "Manuaalinen syöttö on hidasta. Tutustu, kuinka GameWheelClubin avulla voit liittää, muotoilla ja puhdistaa satoja luettelomerkintöjä Excelistä, Google Sheetsistä tai pelkkää tekstiä yhdessä sekunnissa.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/custom-colors": {
+    "route": "/features/custom-colors",
+    "type": "general",
+    "title": "Mukautetut värit ja uusbrutalistiset teemat | GameWheelClub",
+    "metaDescription": "Mukauta valintapyöräsi värejä, typografiaa ja tyyliä. Opi, kuinka uusbrutalistiset mallit, esteettömät kontrastit ja CSS-paletit tehostavat GameWheelClubin visuaalisia työkaluja.",
+    "h1": "Mukautetut värit ja uusbrutalistiset teemat: päätösten muotoilu",
+    "description": "Päästä luovuutesi valloilleen. Määritä mukautettuja värejä, käytä retro-esiasetuksia ja hyödynnä helppokäyttöisiä, korkeakontrastisia teemoja, jotka on suunniteltu opettajille, esittäjille ja pelaajille.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/elimination-mode": {
+    "route": "/features/elimination-mode",
+    "type": "general",
+    "title": "Eliminointitila | Kattava valinta | GameWheelClub",
+    "metaDescription": "Opi kuinka Elimination Mode muuntaa tavalliset päätöspyörät interaktiivisiksi arpajaisjärjestelmiksi ja peräkkäisiksi piirustuslaudoiksi poistamalla voittajat jokaisella pyöräytyksellä.",
+    "h1": "Eliminointitila: Kattavan voittajan valinnan fysiikka",
+    "description": "Poista kaksoiskappaleet, valitse useita erillisiä voittajia tai rajaa valtava valikoima vaihtoehtoja käyttämällä dynaamista siivujen poistologiikkaamme.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/local-storage": {
+    "route": "/features/local-storage",
+    "type": "general",
+    "title": "Paikallinen tallennus ja tietojen tietosuoja | GameWheelClubin ominaisuudet",
+    "metaDescription": "Opi kuinka GameWheelClub käyttää natiiviselaimen localStoragea tallentaakseen pyörät, nimet ja mallit offline-tilaan. Lue nollapalvelimen tietosuoja-arkkitehtuuristamme.",
+    "h1": "Paikallinen tallennus ja offline-ensisijainti: Privacy-First -arkkitehtuuri",
+    "description": "Luettelot, vaihtoehdot ja pyörät ovat vain sinun. Tutustu siihen, kuinka tallennamme määritystiedot suoraan selaimeesi mahdollistaen nollaviiveen latauksen ja täydelliset offline-toiminnot.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/sound-effects": {
+    "route": "/features/sound-effects",
+    "type": "general",
+    "title": "Audio Ääniefektit ja syntetisaattorit | GameWheelClub",
+    "metaDescription": "Opi kuinka proseduuriäänen luonti ja selaimen Web Audio API luovat korkealaatuisia, interaktiivisia ja reagoivia retroäänitehosteita GameWheelClub-työkaluille.",
+    "h1": "Äänitehosteet: Proseduaalisen Web-äänen tekniikka",
+    "description": "Tutustu siihen, kuinka käytämme puhdasta matematiikkaa ja selaimen alkuperäisiä syntetisaattorigeneraattoreita luomaan ihastuttavia, koskettavia napsautuksia ja fanfaariääniä, jotka jäljittelevät mekaanisia pyöriä.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/weighted-wheel": {
+    "route": "/features/weighted-wheel",
+    "type": "general",
+    "title": "Painotetut päätöspyörät | Todennäköisyyspohjaiset Spinnerit | GameWheelClub",
+    "metaDescription": "Tutustu painotettujen päätöspyörien matematiikkaan ja logiikkaan. Opi kuinka todennäköisyysjakauma, kumulatiiviset painot ja ruletin valinta vaikuttavat mukautettujen valintapyörien käyttöön.",
+    "h1": "Painotetut päätöspyörät: mukautetun todennäköisyyden matematiikka ja logiikka",
+    "description": "Kaikkia valintoja ei luoda samanarvoisiksi. Tutustu siihen, kuinka GameWheelClubin avulla voit määrittää tavaroille tiettyjä painoarvoja ja muuttaa mahdollisuuksien tasapainoa tiukasti matemaattisesti.",
+    "options": [],
+    "faqs": []
+  },
+  "/flip-a-coin": {
+    "route": "/flip-a-coin",
+    "type": "flip-a-coin",
+    "title": "Heitä kolikko | Online Heads or Tails -generaattori",
+    "metaDescription": "Heitä virtuaalinen kolikko verkossa. Yksinkertainen, välitön pää- tai hännänpäätösgeneraattori 3D-vaikutteisilla animaatioilla.",
+    "h1": "Heitä kolikko verkossa",
+    "description": "Etkö pysty ratkaisemaan yksinkertaista kiistaa? Heitä virtuaalinen kolikko ja anna todennäköisyyksien päättää päät tai hännän välittömästi!",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/dessert": {
+    "route": "/food-wheels/dessert",
+    "type": "wheel",
+    "title": "Jälkiruokapyörä",
+    "metaDescription": "",
+    "h1": "Jälkiruokapyörä",
+    "description": "Pyöritä makea herkkuidea. Kattaa kakut, piirakat ja leivonnaiset.",
+    "options": [
+      "Suklaakakku",
+      "Vaniljajäätelö",
+      "Lämmin omenapiirakka",
+      "Tuoreet suklaapiirakkaat",
+      "Mansikkajuustokakku",
+      "Lasitetut munkit",
+      "Crème Brûlée",
+      "Brownie Sundae"
+    ],
+    "faqs": [
+      {
+        "q": "Ovatko nämä reseptejä?",
+        "a": "Nämä ovat makeita jälkiruokaluokkia, jotka inspiroivat seuraavaa leivonta- tai tilauspäätöstäsi."
+      }
+    ]
+  },
+  "/food-wheels/fast-food-restaurants": {
+    "route": "/food-wheels/fast-food-restaurants",
+    "type": "wheel",
+    "title": "Pikaruokaravintoloiden pyörä",
+    "metaDescription": "",
+    "h1": "Pikaruokaravintoloiden pyörä",
+    "description": "Pyöritä valitaksesi suosittujen pikaruokaketjujen välillä nopeaa lounasta varten.",
+    "options": [
+      "McDonalds",
+      "Burger King",
+      "Wendys",
+      "Subway",
+      "Taco Bell",
+      "KFC",
+      "Popeyes",
+      "Chick-fil-A",
+      "Dominot",
+      "Pizza Hut",
+      "Starbucks",
+      "Dunkin"
+    ],
+    "faqs": [
+      {
+        "q": "Voinko mukauttaa sen lähikauppaan?",
+        "a": "Kyllä, poista ketjut, jotka eivät ole saatavilla kaupungissasi."
+      }
+    ]
+  },
+  "/food-wheels/fruit": {
+    "route": "/food-wheels/fruit",
+    "type": "wheel",
+    "title": "Hedelmäpyörä",
+    "metaDescription": "",
+    "h1": "Hedelmäpyörä",
+    "description": "Pyöritä valitaksesi terveellisen hedelmän syötäväksi.",
+    "options": [
+      "Punainen omena",
+      "Banaani",
+      "Makea mansikka",
+      "Mehukas appelsiini",
+      "Mustikat",
+      "Vihreät viinirypäleet",
+      "Vesimeloniviipale",
+      "Tuore ananas",
+      "Persikka",
+      "Mango"
+    ],
+    "faqs": [
+      {
+        "q": "Voinko lisätä trooppisia hedelmiä?",
+        "a": "Kyllä! Lisää vaihtoehtoihin lohikäärme, kiivi tai papaija."
+      }
+    ]
+  },
+  "/food-wheels": {
+    "route": "/food-wheels",
+    "type": "general",
+    "title": "Food Decider & Dinner Wheel Spinners | GameWheelClub",
+    "metaDescription": "Voiko",
+    "h1": "Ruokapyörät",
+    "description": "Etkö pääse sopuun lounaasta, illallisesta tai välipaloista? Pyöritä ruokapyöriä valitaksesi satunnaisen ravintolatyypin, pikaruokaketjun, makean jälkiruoan tai terveellisen välipalan.",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/snacks": {
+    "route": "/food-wheels/snacks",
+    "type": "wheel",
+    "title": "Snacks Wheel",
+    "metaDescription": "",
+    "h1": "Snacks Wheel",
+    "description": "Valitse satunnainen terveellinen välipala tai suolainen sirupussi.",
+    "options": [
+      "Perunalastut",
+      "Suklaapatukka",
+      "Omenaviipaleet maapähkinävoin kanssa",
+      "Pähkinäsekoitukset",
+      "Kreikkalainen jogurtti",
+      "Popcorn",
+      "Pretzels",
+      "Juustopuikko",
+      "Granolapatukka"
+    ],
+    "faqs": [
+      {
+        "q": "Voinko lisätä ruokavaliorajoituksia?",
+        "a": "Kyllä, lisää valikkoon keto-, vegaani- tai gluteenittomia välipaloja."
+      }
+    ]
+  },
+  "/food-wheels/what-to-eat": {
+    "route": "/food-wheels/what-to-eat",
+    "type": "wheel",
+    "title": "Mitä syödä -pyörä",
+    "metaDescription": "",
+    "h1": "Mitä syödä -pyörä",
+    "description": "Ratkaise illalliskeskustelu heti valitsemalla satunnainen ruokalaji.",
+    "options": [
+      "Pizza",
+      "Tacot ja meksikolaiset",
+      "Hampurilaiset ja ranskalaiset",
+      "Sushi ja japanilainen",
+      "Pasta ja italialainen",
+      "Thai Curry",
+      "Intialainen Masala",
+      "Terveellinen salaatti",
+      "Voileivät ja Deli"
+    ],
+    "faqs": [
+      {
+        "q": "Voinko lisätä paikallisia ravintoloita?",
+        "a": "Kyllä! Korvaa yleiset keittiöt paikallisilla ruokapaikoilla mukautetussa editorissa."
+      }
+    ]
+  },
+  "/for-business": {
+    "route": "/for-business",
+    "type": "general",
+    "title": "Satunnaispäätöstyökalut yrityksille | GameWheelClub",
+    "metaDescription": "Paranna kokouksia ja tiimivuorovaikutusta satunnaisten ja ajastimien avulla. Selvitä esittelijän järjestys, luonnostele tehtäviä ja isännöi joukkueen jäänmurtajat.",
+    "h1": "Satunnaisvalintatyökalut yrityksille",
+    "description": "Päätä tiimikokousjärjestys, luonnostele tehtäviä, hallitse sprinttilohkoja ja murtaudu nopeilla digitaalisilla apuohjelmilla.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-events": {
+    "route": "/for-events",
+    "type": "general",
+    "title": "Satunnaisvalintatyökalut tapahtumiin ja juhliin | GameWheelClub",
+    "metaDescription": "Järjestä ikimuistoisia juhlia, lahjoituksia ja sosiaalisia tapahtumia. Ratkaise ryhmäpelejä, pyöritä arvonnan voittajia ja valitse triviaaiheita välittömästi.",
+    "h1": "Tapahtumien satunnaisvalintatyökalut",
+    "description": "Tuo jännitystä ja energiaa seuraaviin juhliisi, sosiaaliseen tapaamiseen tai online-arvontaan valmiilla tapahtumavalitsimilla.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-teachers": {
+    "route": "/for-teachers",
+    "type": "general",
+    "title": "Satunnaisten päätösten työkalut opettajille | GameWheelClub",
+    "metaDescription": "Tutustu ilmaisiin pyöriin ja ajastintyökaluihin luokkahuoneen hallintaan. Valitse satunnaisia ​​opiskelijoita, valitse aiheita ja myönnä oikeudet oikeudenmukaisesti.",
+    "h1": "Satunnaisvalintatyökalut opettajille",
+    "description": "Pelillistytä oppituntejasi ja tee osallistumisesta 100 % reilua. Pyöritä satunnaisia ​​pyöriä valitaksesi vapaaehtoisia, määrittääksesi ryhmätiimejä ja valitaksesi oppiaiheet.",
+    "options": [],
+    "faqs": []
+  },
+  "/games": {
+    "route": "/games",
+    "type": "general",
+    "title": "Random Choice Game Wheels Hub | GameWheelClub",
+    "metaDescription": "Tutustu hauskoihin, interaktiivisiin ja valmiiksi rakennettuihin satunnaistettujen pelien pyöriin. Ratkaise tiimiluonnoksia, fandomibaatteja, hahmojen luomista ja juhlien haasteita välittömästi.",
+    "h1": "Randomizer Game Wheels",
+    "description": "Interaktiiviset esiasetetut pyörät, jotka on suunniteltu urheiluun, pelien vetosimulaattoreihin, fandomeihin, bilejäänmurtajiin ja luoviin satunnaisiin.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/alphabet-wheel": {
+    "route": "/generators/alphabet-wheel",
+    "type": "wheel",
+    "title": "Alphabet Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Alphabet Wheel Spinner",
+    "description": "Pyöritä valitaksesi satunnainen kirjain A:sta Z:hen.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "faqs": [
+      {
+        "q": "Does it contain foreign characters?",
+        "a": "You can add accents (like É, Ö, Ñ) in the custom menu."
+      }
+    ]
+  },
+  "/generators/color-wheel": {
+    "route": "/generators/color-wheel",
+    "type": "wheel",
+    "title": "Color Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Color Wheel Spinner",
+    "description": "Spin valitaksesi satunnaisen värin heksadesimaalikoodin malleja tai valintoja varten.",
+    "options": [
+      "Punainen (#EF4444)",
+      "Sininen (#3B82F6)",
+      "Vihreä (#10B981)",
+      "Keltainen (#F59E0B)",
+      "Purppura (#8B5CF6)",
+      "Vaaleanpunainen (#EC4899)",
+      "Oranssi (#F92F6) (#F92F6) #F9_7_18",
+      "Ovatko värit CSS-yhteensopivia?"
+    ],
+    "faqs": [
+      {
+        "q": "Kyllä, heksadesimaaliarvot on lueteltu värinimien vieressä.",
+        "a": "Yes, hex values are listed alongside color names."
+      }
+    ]
+  },
+  "/generators/number-wheel": {
+    "route": "/generators/number-wheel",
+    "type": "wheel",
+    "title": "Numeropyörän pyörän",
+    "metaDescription": "",
+    "h1": "Numeropyörän pyörän",
+    "description": "Muokattava numeroalueen pyörä. Korvaa tavalliset satunnaislukupyöräversiot.",
+    "options": [],
+    "faqs": [
+      {
+        "q": "Kuinka korkealle alue voi mennä?",
+        "a": "Voit asettaa sen arvoksi 100 tai enemmän, vaikka alle 50 luvut näyttävät parhaiten näytöllä."
+      }
+    ]
+  },
+  "/generators": {
+    "route": "/generators",
+    "type": "general",
+    "title": "Satunnaisten generaattorien pyörät ja matematiikkavalitsimet | GameWheelClub",
+    "metaDescription": "Pyöritä puhtaita matemaattisia ja hyödyllisyyspäätösgeneraattoreita. Sisältää mukautettavan numeropyörän, kuusiovärigeneraattorin, prosenttipyörän ja aakkospyörän.",
+    "h1": "Satunnaiset generaattorit",
+    "description": "Pyöritä puhtaita matemaattisia ja hyödyllisyyspäätösgeneraattoreita. Sisältää mukautettavan numeropyörän, kuusiovärigeneraattorin, prosenttipyörän ja aakkospyörän.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/percent-wheel": {
+    "route": "/generators/percent-wheel",
+    "type": "wheel",
+    "title": "Prosenttipyörä",
+    "metaDescription": "",
+    "h1": "Prosenttipyörä",
+    "description": "Pyöritä saadaksesi satunnaisen prosenttiarvon välillä 10 % ja 100 %.",
+    "options": [
+      "10 %",
+      "20 %",
+      "30 %",
+      "40 %",
+      "50 %",
+      "60 %",
+      "70 %",
+      "80 %",
+      "95 %",
+      "100 %"
+    ],
+    "faqs": [
+      {
+        "q": "Voinko lisätä pienempiä askelia?",
+        "a": "Kyllä, lisää editoriin vaiheita, kuten \\\"1%\\\", \\\"5%\\\" tai \\\"99%\\\"."
+      }
+    ]
+  },
+  "/generators/periodic-table-picker": {
+    "route": "/generators/periodic-table-picker",
+    "type": "wheel",
+    "title": "Jaksollisen järjestelmän valitsin",
+    "metaDescription": "",
+    "h1": "Jaksollisen järjestelmän valitsin",
+    "description": "Spin valitaksesi satunnaisen kemiallisen alkuaineen jaksollisesta taulukosta.",
+    "options": [
+      "Vety (H)",
+      "Helium (He)",
+      "Litium (Li)",
+      "Beryllium (Be)",
+      "Boori (B)",
+      "Hiili (C)",
+      "Typpi (N)",
+      "Happi (O)",
+      "Fluori (F)",
+      "Neon (Neon)",
+      "__ Natrium (Mg)",
+      "Sisältyvätkö jalokaasut?"
+    ],
+    "faqs": [
+      {
+        "q": "Kyllä, helium ja neon sisältyvät hintaan. Lisää raskaita elementtejä tarpeen mukaan.",
+        "a": "Yes, helium and neon are included. Add more heavy elements as needed."
+      }
+    ]
+  },
+  "/geography-wheels/64-country-roulette": {
+    "route": "/geography-wheels/64-country-roulette",
+    "type": "wheel",
+    "title": "64 Country Roulette",
+    "metaDescription": "",
+    "h1": "64 Country Roulette",
+    "description": "Äärimmäinen 64 maan rulettipyörä pelihaasteisiin ja -haasteisiin.",
+    "options": [
+      "USA",
+      "Kanada",
+      "Meksiko",
+      "Brasilia",
+      "Argentiina",
+      "Iso-Britannia",
+      "Ranska",
+      "Saksa",
+      "Italia",
+      "Espanja",
+      "Venäjä",
+      "Egypti",
+      "Etelä-Afrikka",
+      "Nigeria",
+      "Australia _ _ Etelä-Korea _ _ _ Uusi Kiina",
+      "Intia",
+      "Japani",
+      "Seelanti",
+      "Saudi-Arabia",
+      "Turkki",
+      "Kreikka",
+      "Ruotsi",
+      "Norja",
+      "Alankomaat",
+      "Sveitsi",
+      "Puola",
+      "Ukraina",
+      "Vietnam",
+      "Thaimaa",
+      "Indonesia",
+      "Filippiinit",
+      "Kolumbia",
+      "Veneco _ Moroc __ Kolumbia",
+      "Chiela Peru Ghana",
+      "Etiopia",
+      "Pakistan",
+      "Bangladesh",
+      "Iran",
+      "Irak",
+      "Israel",
+      "Singapore",
+      "Malesia",
+      "Uusi-Seelanti",
+      "Portugali",
+      "Itävalta",
+      "Tanska",
+      "Romania",
+      "Irlanti",
+      "Tanska",
+      "Romania",
+      "Irlanti",
+      "Kuuba_ Belgia __ Jamaika",
+      "Costa Rica",
+      "Panama",
+      "Ecuador",
+      "Bolivia",
+      "Onko vaikea lukea 64 viipaletta?",
+      "Se pyörii siististi! Voit vaihtaa luettelonäkymää ja tarkistaa lopullisen tuloksen.",
+      "Cuba",
+      "Jamaica",
+      "Costa Rica",
+      "Panama",
+      "Ecuador",
+      "Bolivia"
+    ],
+    "faqs": [
+      {
+        "q": "Is it hard to read 64 slices?",
+        "a": "It spins cleanly! You can toggle list views to double-check the final result."
+      }
+    ]
+  },
+  "/geography-wheels/country-wheel": {
+    "route": "/geography-wheels/country-wheel",
+    "type": "wheel",
+    "title": "Country Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Country Wheel Spinner",
+    "description": "Valitse satunnainen maa maailmanlaajuisesti triviaa, pelialuetta tai projekteja varten.",
+    "options": [
+      "Yhdysvallat",
+      "Japani",
+      "Brasilia",
+      "Saksa",
+      "Australia",
+      "Kanada",
+      "Intia",
+      "Etelä-Afrikka",
+      "Iso-Britannia",
+      "Ranska",
+      "Italia",
+      "Kiina",
+      "Egypti",
+      "Meksiko",
+      "Venäjä",
+      "Argentiina"
+    ],
+    "faqs": [
+      {
+        "q": "Ovatko kaikki maat mukana?",
+        "a": "Tässä pyörässä on tasapainoinen valikoima suuria globaaleja maita. Muokkaa lisätäksesi minkä tahansa maan."
+      }
+    ]
+  },
+  "/geography-wheels/europe-countries": {
+    "route": "/geography-wheels/europe-countries",
+    "type": "wheel",
+    "title": "Europe Countries Wheel",
+    "metaDescription": "",
+    "h1": "Europe Countries Wheel",
+    "description": "Valitse satunnaisesti Euroopan maa matkasuunnitelmia tai koulutustutkimusta varten.",
+    "options": [
+      "Iso-Britannia",
+      "Ranska",
+      "Saksa",
+      "Italia",
+      "Espanja",
+      "Alankomaat",
+      "Belgia",
+      "Sveitsi",
+      "Itävalta",
+      "Ruotsi",
+      "Norja",
+      "Tanska",
+      "Suomi",
+      "Irlanti",
+      "Portugali",
+      "Kreikka",
+      "Puola pitävät __ Vaansta __ Puolasta __?",
+      "Voit lisätä Monacon, Andorran tai San Marinon manuaalisesti vaihtoehtoihin."
+    ],
+    "faqs": [
+      {
+        "q": "Are microstates like Vatican City on it?",
+        "a": "You can add Monaco, Andorra, or San Marino manually in the options."
+      }
+    ]
+  },
+  "/geography-wheels": {
+    "route": "/geography-wheels",
+    "type": "general",
+    "title": "Maantiede & Country Wheel Spinners | GameWheelClub",
+    "metaDescription": "Pyöritä valitaksesi satunnaiset maat, Yhdysvaltain osavaltiot tai Euroopan maat tai suorita 64 maan rulettihaaste. Erinomainen maantiede triviaan ja matkasuunnitteluun.",
+    "h1": "Maantieteelliset pyörät",
+    "description": "Pyöritä valitaksesi satunnaiset maat, Yhdysvaltain osavaltiot tai Euroopan maat tai suorita 64 maan rulettihaaste. Erinomainen maantiede triviaan ja matkasuunnitteluun.",
+    "options": [],
+    "faqs": []
+  },
+  "/geography-wheels/us-states": {
+    "route": "/geography-wheels/us-states",
+    "type": "wheel",
+    "title": "US States Wheel",
+    "metaDescription": "",
+    "h1": "US States Wheel",
+    "description": "Pyöritä valitaksesi satunnaisesti 50 osavaltiosta.",
+    "options": [
+      "Kalifornia",
+      "Teksas",
+      "Florida",
+      "New York",
+      "Illinois",
+      "Pennsylvania",
+      "Ohio",
+      "Georgia",
+      "Pohjois-Carolina",
+      "Michigan",
+      "Washington",
+      "Arizona",
+      "Massachusetts",
+      "_ Color_ Tennessee 50 osavaltiota esiladattu?",
+      "Tämä esiasetus sisältää tärkeimmät tilat. Voit kopioida ja liittää koko luettelon 50 osavaltiosta joukkomuokkausruutuun sekunneissa.",
+      "Tennessee"
+    ],
+    "faqs": [
+      {
+        "q": "Are all 50 states preloaded?",
+        "a": "This preset features major states. You can copy-paste the full list of 50 states in the Bulk Edit box in seconds."
+      }
+    ]
+  },
+  "/guides/classroom-spin-wheel-ideas": {
+    "route": "/guides/classroom-spin-wheel-ideas",
+    "type": "general",
+    "title": "Luokkahuoneen pyörityspyöräideat: interaktiiviset opetusstrategiat",
+    "metaDescription": "Tehosta oppilaiden sitoutumista 15 luovan luokkahuoneidean avulla. Opi järjestämään reilun nimen arvontoja, antamaan tehtäviä ja pelillistämään oppitunteja satunnaisten pyörien avulla.",
+    "h1": "15 Creative Classroom Spin Wheel Ideoita",
+    "description": "Muuta passiivinen kuuntelu aktiiviseksi, energiseksi osallistumiseksi. Tutustu jäsenneltyihin, kentällä testattuihin pyörimisstrategioihin, joiden avulla voit pelillistää oppitunteja, jakaa työpaikkoja ja pitää jokaisen oppilaan paikallaan.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/decision-making-methods": {
+    "route": "/guides/decision-making-methods",
+    "type": "general",
+    "title": "Päätöksentekomenetelmät: viitekehykset, heuristiikka ja satunnaistaminen",
+    "metaDescription": "Tutustu jäsenneltyihin päätöksentekokehyksiin. Eisenhower-matriisista analyyttisiin malleihin ja satunnaistettuihin valintatyökaluihin, opi kuinka voit voittaa valinnan väsymyksen.",
+    "h1": "Päätöksentekomenetelmien mestarikurssi",
+    "description": "Pitäisikö sinun analysoida, luottaa sisuasi vai delegoida todennäköisyys? Opi valintateorian muodolliset mallit, kognitiiviset harhat ja kuinka tietää, milloin kolikonheiton tulee ratkaista pisteet.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/how-random-wheels-work": {
+    "route": "/guides/how-random-wheels-work",
+    "type": "general",
+    "title": "Kuinka satunnaiset pyörät toimivat: matematiikka, algoritmit ja fysiikka",
+    "metaDescription": "Sukella syvälle virtuaalisten pyörien takana olevaan tieteeseen. Tutustu näennäissatunnaislukugeneraattoreihin (PRNG), kitkan hidastuvuuden fysiikkaan ja algoritmien oikeudenmukaisuuteen.",
+    "h1": "Kierroksen takana: Kuinka satunnaiset pyörät todella toimivat",
+    "description": "Oletko koskaan miettinyt, kuinka virtuaalipyörä laskee voittajansa? Tutustu näennäissatunnaisten lukugeneraattoreiden matematiikkaan, simuloidun kitkan yhtälöihin ja ohjelmointiperiaatteisiin, jotka takaavat puolueettoman valinnan.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/icebreaker-games-guide": {
+    "route": "/guides/icebreaker-games-guide",
+    "type": "general",
+    "title": "Icebreaker Games Guide: Team-Building & Virtual Meetups",
+    "metaDescription": "Opi isännöimään energisiä jäänmurtajapelejä. Löydä luovia kehuja, kysymyskehotteita ja tiiminrakennusstrategioita fyysisille ja virtuaalisille tiimeille.",
+    "h1": "Lopullinen opas Icebreaker Games -peleihin",
+    "description": "Oletko kyllästynyt kiusaan hiljaisuuteen tiimikokouksissa tai sosiaalisissa tapahtumissa? Opi jäänmurron tieteet, kuinka luoda matalapaineinen sosiaalinen ilmapiiri ja miten satunnaisia ​​pelin pyörityksiä käytetään tehokkaasti.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/productivity-timeboxing": {
+    "route": "/guides/productivity-timeboxing",
+    "type": "general",
+    "title": "Tuottavuus Timeboxing: Ultimate Guide to Time Blocks",
+    "metaDescription": "Opi käyttämään timeboxing- ja Pomodoro-tekniikoita keskittymisen tehostamiseen. Taistele Parkinsonia vastaan ​​",
+    "h1": "Timeboxing: Conquer Distractions with Strict Limits",
+    "description": "Miksi tehtävä kestää kolme tuntia, kun sinulle annetaan kolmen tunnin määräaika, mutta vain kolmekymmentä minuuttia, kun sinulla on aikaa? Tutustu Parkinsonin lain ja pelillisten ajastinjärjestelmien hyödyntämiseen päiväsi hallintaan.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/random-giveaway-rules": {
+    "route": "/guides/random-giveaway-rules",
+    "type": "general",
+    "title": "Satunnaisten palkintojen säännöt ja lakien noudattamista koskevat ohjeet",
+    "metaDescription": "Pysy noudattamassa online-palkintoja. Ymmärrä arpajaiset lait, ostokiellon sääntö ja reilun kilpailun alustaohjeet.",
+    "h1": "Kuinka järjestää satunnaisia ​​lahjoja laillisesti ja reilusti",
+    "description": "Arvonnat, kilpailut tai arpajaiset? Kampanjaarvontojen lakien noudattaminen on välttämätöntä brändisi suojaamiseksi ja yleisösi kunnioittamiseksi. Opi satunnaisen valinnan noudattamisen säännöt.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/spin-wheel-psychology": {
+    "route": "/guides/spin-wheel-psychology",
+    "type": "general",
+    "title": "Pyörivien pyörien psykologia: jännitys, palkinnot ja valinnat",
+    "metaDescription": "Tutustu pyörien takana oleviin psykologisiin laukaisimiin. Ymmärrä, kuinka päätöksentekoväsymys, ennakointi ja visuaaliset palkinnot tekevät satunnaistetuista valitsimista niin kiinnostavia.",
+    "h1": "Pyörivän pyörän psykologia: Miksi me rakastamme pyöritystä",
+    "description": "Mikä tekee pyörivästä esinepyörästä niin vastustamattoman? Tutustu ennakoinnin hermostollisiin mekanismeihin, kuormittavien valintojen helpottamiseen ja pelillisiin suunnittelumalleihin, jotka kiinnittävät huomiomme.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/unbiased-selection-importance": {
+    "route": "/guides/unbiased-selection-importance",
+    "type": "general",
+    "title": "Puolueettoman valinnan merkitys: oikeudenmukaisuus ja tilastot",
+    "metaDescription": "Selvitä, miksi puolueeton valinta on ratkaisevan tärkeää. Tutki oikeudenmukaisten valintojen matematiikkaa, ihmisen valitsimien kognitiivisia harhoja ja lajittelun todellisia sovelluksia.",
+    "h1": "Miksi puolueettomalla valinnalla on merkitystä",
+    "description": "Ihmisten valinnat ovat täynnä implisiittisiä kognitiivisia harhoja. Tutki, kuinka satunnainen matematiikka suojaa tilastoja, palauttaa oikeudenmukaisuuden, takaa koulutuksen tasapuolisuuden ja rakentaa luottamusta.",
+    "options": [],
+    "faqs": []
+  },
+  "/": {
+    "route": "/",
+    "type": "wheel",
+    "title": "Pyöritä päätösten pyörää",
+    "metaDescription": "",
+    "h1": "Pyöritä päätösten pyörää",
+    "description": "Etkö osaa tehdä päätöstäsi? Kirjoita vaihtoehtosi, pyöritä pyörää ja anna kohtalon päättää välittömästi! Nopeaa, reilua ja hauskaa.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/adult-truth-or-dare": {
+    "route": "/party-games/adult-truth-or-dare",
+    "type": "wheel",
+    "title": "Aikuisten Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Adult Truth or Dare Wheel",
+    "description": "Pyöritä valitaksesi mausteita, kypsiä salaisuuksia ja provosoivia uskallusta. Mukana ikärajoitettu välimainos.",
+    "options": [
+      "Totuus: Mikä on salainen fantasiaasi?",
+      "Uskalla: Anna aistillinen hieronta vieressäsi olevalle henkilölle",
+      "Totuus: Kerro ryhmälle noloin romanttinen kohtaamisesi",
+      "Uskalla: Kuiskaa jotain provosoivaa jonkun korvaan"
+    ],
+    "faqs": [
+      {
+        "q": "Edellyttääkö se rekisteröitymistä?",
+        "a": "Kirjautumista tai tilejä ei tarvita. Käytämme yksinkertaista iänvarmistusporttia alaikäisten suojelemiseksi."
+      }
+    ]
+  },
+  "/party-games/charades-topics": {
+    "route": "/party-games/charades-topics",
+    "type": "wheel",
+    "title": "Charades-aihepyörä",
+    "metaDescription": "",
+    "h1": "Charades-aihepyörä",
+    "description": "Hanki hauskoja ja luovia aiheita perhepeleihin.",
+    "options": [
+      "Jäljittele syötävää T-Rexiä",
+      "Teeskentele kierteleväksi robotiksi",
+      "Leikkaa golfia",
+      "matki hot dogin keittämistä",
+      "Teeskentele, että kävelet jäällä",
+      "Käyttäydy kuin kelluva astronautti"
+    ],
+    "faqs": [
+      {
+        "q": "Ovatko aiheet vaikeita?",
+        "a": "Ne ovat tasapainoisia sekä lasten että aikuisten nautittavaksi."
+      }
+    ]
+  },
+  "/party-games/extreme-truth-or-dare": {
+    "route": "/party-games/extreme-truth-or-dare",
+    "type": "wheel",
+    "title": "Extreme Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Extreme Truth or Dare Wheel",
+    "description": "Pyöritä erittäin haastavia, intensiivisiä ja hulluja totuuksia ja uskallusta.",
+    "options": [
+      "Totuus: Oletko koskaan pettänyt testissä?",
+      "Uskalla: Soita satunnaiselle kontaktille ja laula hyvää syntymäpäivää",
+      "Totuus: Mitä kadut eniten?",
+      "Uskalla: Anna ryhmän julkaista tarina Instagramissasi"
+    ],
+    "faqs": [
+      {
+        "q": "Ovatko nämä turvallisia esittää?",
+        "a": "Kyllä, ne ovat turvallisia, mutta erittäin viihdyttäviä. Ohita aina kaikki uskallusta, joka tuntuu epämukavalta."
+      }
+    ]
+  },
+  "/party-games/funny-dares": {
+    "route": "/party-games/funny-dares",
+    "type": "wheel",
+    "title": "Funny Dares Wheel",
+    "metaDescription": "",
+    "h1": "Funny Dares Wheel",
+    "description": "Hanki typeriä, yksinkertaisia ​​ja hauskoja fyysisiä haasteita.",
+    "options": [
+      "Puhu brittiläisellä aksentilla 3 kierrosta",
+      "Tee parhaan vaikutelmasi kanasta",
+      "Tasapainota lusikka nenässäsi",
+      "Toimi kuin draamakuningatar",
+      "Puhu huonekasville minuutin ajan"
+    ],
+    "faqs": [
+      {
+        "q": "Voiko näitä uskaltaa tehdä sisätiloissa?",
+        "a": "Kyllä, kaikki rohkeudet on suunniteltu suoritettaviksi turvallisesti sisällä."
+      }
+    ]
+  },
+  "/party-games": {
+    "route": "/party-games",
+    "type": "general",
+    "title": "Party & Social Game Wheels | GameWheelClub",
+    "metaDescription": "Interaktiiviset pyörät sosiaalisiin tapahtumiin, yöpymiseen ja juhliin. Pyöritä Truth or Dare -kysymyksiin, Pyöritä pulloa, Charadeja ja hauskoja haasteita.",
+    "h1": "Juhlat ja sosiaaliset pelit",
+    "description": "Interaktiiviset pyörät sosiaalisiin tapahtumiin, yöpymiseen ja juhliin. Pyöritä Truth or Dare -kysymyksiin, Pyöritä pulloa, Charadeja ja hauskoja haasteita.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/punishment-wheel": {
+    "route": "/party-games/punishment-wheel",
+    "type": "wheel",
+    "title": "Punishment Wheel",
+    "metaDescription": "",
+    "h1": "Punishment Wheel",
+    "description": "Pyöräytä antaaksesi typeriä askareita, menetyksiä tai rangaistuksia lautapelien häviäjille.",
+    "options": [
+      "Osta välipaloja kaikille",
+      "Astiat",
+      "Laula ryhmän valitsema kappale",
+      "Julkaise nolo selfie",
+      "Tee 20 hyppäämistä",
+      "Puhu vain kuiskauksin seuraavassa käännöksessä"
+    ],
+    "faqs": [
+      {
+        "q": "Ovatko nämä vakavia?",
+        "a": "Ei, ne ovat kevyitä ja täydellisiä ystävyyspeleihin."
+      }
+    ]
+  },
+  "/party-games/questions-wheel": {
+    "route": "/party-games/questions-wheel",
+    "type": "wheel",
+    "title": "Kysymyspyörä",
+    "metaDescription": "",
+    "h1": "Kysymyspyörä",
+    "description": "Pyöritä jäänmurtajakysymyksiä, tutustumisaiheita ja keskustelukehotteita.",
+    "options": [
+      "Mikä on supervoimasi?",
+      "Jos voitit 1 miljoonan dollarin",
+      "mikä on ensimmäinen ostos?",
+      "Missä on unelmalomasi?",
+      "Mikä on suurin pelkosi?",
+      "Kuka inspiroi sinua eniten?",
+      "Mikä on suosikki lapsuusmuistosi?"
+    ],
+    "faqs": [
+      {
+        "q": "Ovatko kysymykset puhtaita?",
+        "a": "Kyllä, sopii yritysjäänmurtajille ja koululuokille."
+      }
+    ]
+  },
+  "/party-games/scattergories-letters": {
+    "route": "/party-games/scattergories-letters",
+    "type": "wheel",
+    "title": "Scattergories Letters Wheel",
+    "metaDescription": "",
+    "h1": "Scattergories Letters Wheel",
+    "description": "Pyöräytä valitaksesi satunnaisen kirjaimen hajonta- ja sanastopeleille.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "R",
+      "S",
+      "T",
+      "W"
+    ],
+    "faqs": [
+      {
+        "q": "Why are some letters missing?",
+        "a": "We exclude hard letters (Q, X, Y, Z) to keep games fun and moving."
+      }
+    ]
+  },
+  "/party-games/song-association": {
+    "route": "/party-games/song-association",
+    "type": "wheel",
+    "title": "Song Association Wheel",
+    "metaDescription": "",
+    "h1": "Song Association Wheel",
+    "description": "Pyöritä avainsanaa ja yritä laulaa kappale, joka sisältää kyseisen sanan 10 sekunnissa.",
+    "options": [
+      "Sana: RAKKAUS",
+      "Sana: TULI",
+      "Sana: TAIVAAS",
+      "Sana: TANSI",
+      "Sana: YÖ",
+      "Sana: MAAILMA",
+      "Sana: SININEN",
+      "Sana: HAPPY",
+      "Sana: ITKU"
+    ],
+    "faqs": [
+      {
+        "q": "Mitkä ovat säännöt?",
+        "a": "Pelaajalla on 10 sekuntia aikaa laulaa vähintään yksi rivi oikeasta kappaleesta, joka sisältää sanan."
+      }
+    ]
+  },
+  "/party-games/spin-the-bottle": {
+    "route": "/party-games/spin-the-bottle",
+    "type": "wheel",
+    "title": "Pyöritä pullon pyörää",
+    "metaDescription": "",
+    "h1": "Pyöritä pullon pyörää",
+    "description": "Virtuaalinen pyörä, joka korvaa klassisten pelien fyysiset pulloasetukset.",
+    "options": [
+      "Pelaaja A",
+      "Pelaaja B",
+      "Pelaaja C",
+      "Pelaaja D",
+      "Pelaaja E",
+      "Pelaaja F"
+    ],
+    "faqs": [
+      {
+        "q": "Kuinka monta pelaajaa voi pelata?",
+        "a": "Tukee jopa 100 pelaajaa. Lisää nimiä vaihtoehtoluetteloon helposti."
+      }
+    ]
+  },
+  "/party-games/things-to-do-when-bored": {
+    "route": "/party-games/things-to-do-when-bored",
+    "type": "wheel",
+    "title": "Tekemistä, kun tylsää Wheel",
+    "metaDescription": "",
+    "h1": "Mitä tehdä, kun tylsää Wheel",
+    "description": "Pyöräytä parantaaksesi tylsyyttä tuottavien, luovien ja fyysisten aktiviteettien kehotteiden avulla.",
+    "options": [
+      "Lue kirjan luku",
+      "Järjestä pöytälaatikkosi",
+      "Opi 5 minuutin korttitemppu",
+      "Lähde reippaalle kävelylle",
+      "Kokeile piirtää omakuva",
+      "Venytä 10 minuuttia",
+      "Kuuntele uutta albumia"
+    ],
+    "faqs": [
+      {
+        "q": "Tarvitsevatko nämä tarvikkeita?",
+        "a": "Useimmat aktiviteetit ovat täysin ilmaisia ​​eivätkä vaadi valmistautumista."
+      }
+    ]
+  },
+  "/party-games/truth-or-dare": {
+    "route": "/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Truth or Dare Wheel",
+    "description": "Pyöritä pyörää saadaksesi klassisia Truth or Dare -kehotteita lapsille, nuorille ja perheille.",
+    "options": [
+      "Totuus: Mikä on suurin salaisuutesi?",
+      "Uskalla: Tee 10 punnerrusta",
+      "Totuus: Kuka on ihastuksesi?",
+      "Uskalla: Syö raaka valkosipulin pala",
+      "Totuus: Kerro kertomasi hauska valhe",
+      "Uskalla: Anna jonkun lähettää tekstiviestejä puhelimestasi"
+    ],
+    "faqs": [
+      {
+        "q": "Onko se puhdasta perheille?",
+        "a": "Kyllä, tämä pyörä sisältää kevyitä kehotteita, jotka sopivat täydellisesti perhejuhliin."
+      }
+    ]
+  },
+  "/privacy": {
+    "route": "/privacy",
+    "type": "general",
+    "title": "Tietosuojakäytäntö",
+    "metaDescription": "",
+    "h1": "Tietosuojakäytäntö",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/random-number-generator": {
+    "route": "/random-number-generator",
+    "type": "number-generator",
+    "title": "Satunnaislukugeneraattori | Quick RNG Tool",
+    "metaDescription": "Luo yksittäisiä tai useita satunnaislukuja millä tahansa mukautetulla alueella. Ilmainen, turvallinen ja muokattava satunnaislukuvalitsin.",
+    "h1": "Satunnaislukugeneraattori",
+    "description": "Valitse satunnaislukuja välittömästi. Aseta vähimmäis- ja enimmäisrajat, valitse määrä ja luo!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/best-teams": {
+    "route": "/sports-wheels/best-teams",
+    "type": "wheel",
+    "title": "Parhaat urheilujoukkueet Wheel Spinner | Legendaarinen joukkuevalitsin",
+    "metaDescription": "Pyöritä Best Teams -pyörää valitaksesi legendaarisen joukkueen urheiluhistoriasta. Esiladattu vuoden 1992 Dream Teamiin, 1996 Chicago Bullsiin, 1972 Dolphinsiin ja muihin.",
+    "h1": "Parhaat urheilujoukkueet Wheel Spinner",
+    "description": "Mikä joukkue oli todella kaikkien aikojen paras? Pyöritä pyörää valitaksesi satunnaisesti legendaarisen urheilujoukkueen koripallosta, jalkapallosta, jalkapallosta ja baseballista.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/college-teams": {
+    "route": "/sports-wheels/college-teams",
+    "type": "wheel",
+    "title": "College Teams Wheel Spinner | Satunnainen NCAA-tiimien valitsin",
+    "metaDescription": "Pyöritä College Teams Wheel -pyörää valitaksesi satunnaisesti NCAA:n paras yliopistojoukkue. Täydellinen college football (CFB) simulaatioihin, koripallon kiinnikkeisiin ja pick'em-liigoihin.",
+    "h1": "College Teams Wheel Spinner",
+    "description": "Valitse satunnainen yliopistojoukkue NCAA:n FBS-divisioonasta. Erinomainen College Football 25 -dynastian valintoihin tai NCAA:n koripallosarjan ennusteisiin!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/fifa-world-cup-2026": {
+    "route": "/sports-wheels/fifa-world-cup-2026",
+    "type": "wheel",
+    "title": "FIFA World Cup 2026 Wheel Spinner | Random Country Picker",
+    "metaDescription": "Pyöritä World Cup 2026 -pyörää valitaksesi satunnaisesti pätevä jalkapallomaa. Erinomainen turnauspyyhkäisyihin, ryhmäennusteisiin ja ottelusimulaatioihin.",
+    "h1": "FIFA World Cup 2026 Wheel",
+    "description": "Valmistaudu Pohjois-Amerikan historian suurimpaan urheilutapahtumaan. Pyöritä pyörää valitaksesi satunnaisesti kelpuutettu kansa!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/football-players": {
+    "route": "/sports-wheels/football-players",
+    "type": "wheel",
+    "title": "Jalkapalloilijat Wheel Spinner | Satunnainen jalkapallotähtien valitsin",
+    "metaDescription": "Pyöritä jalkapalloilijan pyörää valitaksesi satunnainen jalkapallotähti, kuten Messi, Ronaldo, Mbappé tai Haaland. Täydellinen FC 24/FC 25 luonnoshaasteisiin.",
+    "h1": "Football Players Wheel Spinner",
+    "description": "Pyöritä valitaksesi satunnaisesti maailman eliittisimmistä jalkapalloliiton supertähdistä. Ratkaise keskusteluja, valitse FC-kohteita tai haasta ystäviä!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/golf-wheel": {
+    "route": "/sports-wheels/golf-wheel",
+    "type": "wheel",
+    "title": "Golf Club Wheel Spinner | Random Club Picker Challenge",
+    "metaDescription": "Pyöritä golfpyörää ja valitse satunnaisesti golfmaila, kuten Driver, 7-Iron, Pitching Wedge tai Putter. Täydellinen aluehaasteisiin ja kurssipeleihin.",
+    "h1": "Golf Club Wheel Spinner",
+    "description": "Oletko valmis piristämään golfharjoituksiasi tai haastamaan ystäväsi kentällä? Pyöritä golfpyörää määrittääksesi, mihin mailaan sinun täytyy lyödä seuraavaksi!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/mlb-teams": {
+    "route": "/sports-wheels/mlb-teams",
+    "type": "wheel",
+    "title": "MLB Teams Wheel Spinner | Satunnainen Major League Baseball Team Picker",
+    "metaDescription": "Pyöritä MLB Teams Wheel -pyörää valitaksesi satunnaisesti baseball-sarjan. Täydellinen fantasiasarjoihin, baseball-videopeleihin ja pudotuspelien ennustamiseen.",
+    "h1": "MLB Teams Wheel Spinner",
+    "description": "Valitse satunnainen Major League Baseball -sarja välittömästi. Ihanteellinen MLB The Show -haasteisiin, fantasialuonnosvalintoihin ja stadionmatkoille!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-players": {
+    "route": "/sports-wheels/nba-players",
+    "type": "wheel",
+    "title": "NBA Players Wheel Spinner | Satunnainen NBA-pelaajavalitsin",
+    "metaDescription": "Pyöritä NBA-pelaajan pyörää valitaksesi satunnainen aktiivinen koripallon supertähti. Täydellinen fantasiaurheiluun, triviailtaan ja pelaajien vertailukeskusteluun.",
+    "h1": "NBA Players Wheel Spinner",
+    "description": "Päätä satunnaisesti NBA:n absoluuttisten koripalloeliittien välillä tänään. Ratkaise vertailut, valitse pelaajien painopiste tai aloita keskusteluja.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-teams": {
+    "route": "/sports-wheels/nba-teams",
+    "type": "wheel",
+    "title": "NBA Teams Wheel Spinner | Satunnainen NBA-franchise-valitsin",
+    "metaDescription": "Pyöritä NBA-joukkueiden pyörää valitaksesi satunnaisen ammattilaiskoripallopelisarjan. Ihanteellinen NBA 2K -haasteisiin, fantasialuonnosvalintoihin ja urheilutietoihin.",
+    "h1": "NBA Teams Wheel Spinner",
+    "description": "Valitse satunnainen NBA-sarja. Täydellinen poimintaotteluihin NBA 2K:ssa, luonnosjärjestysluetteloiden määrittämiseen tai uramuotojen rakentamisen joukkueen päättämiseen.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-players": {
+    "route": "/sports-wheels/nfl-players",
+    "type": "wheel",
+    "title": "NFL Players Wheel Spinner | Satunnainen NFL-pelaajan valitsin",
+    "metaDescription": "Pyöritä NFL Players Wheel -pyörää valitaksesi satunnainen aktiivinen NFL-tähti. Ihanteellinen fantasialuonnoksiin, trivia- ja tiiminrakennushaasteisiin.",
+    "h1": "NFL Players Wheel Spinner",
+    "description": "Pyöritä valitaksesi satunnaisesti liigan eliittipelaajien joukosta. Erinomainen triviahaasteisiin, fantasiavalintoihin ja pelaajakeskusteluihin!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-positions": {
+    "route": "/sports-wheels/nfl-positions",
+    "type": "wheel",
+    "title": "NFL Positions Wheel Spinner | Random Football Position Picker",
+    "metaDescription": "Pyöritä NFL Positions Wheel -pyörää valitaksesi satunnaisen jalkapalloroolin, kuten pelinrakentaja, juoksija, laaja vastaanotin tai linjataustaja. Täydellinen harjoitteluun ja valmennukseen.",
+    "h1": "NFL Positions Wheel Spinner",
+    "description": "Haluatko jakaa listapaikkoja, järjestää valmennusharjoituksia tai satunnaista uratilan haaste? Pyöritä asentopyörää valitaksesi!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-teams": {
+    "route": "/sports-wheels/nfl-teams",
+    "type": "wheel",
+    "title": "NFL Teams Wheel Spinner | Satunnainen NFL-joukkueen valitsin",
+    "metaDescription": "Pyöritä NFL Teams -pyörää valitaksesi satunnaisen NFL-sarjan. Täydellinen fantasiajalkapallon luonnostilauksiin, Maddenissa pelaavan joukkueen valitsemiseen tai uuden suosikkijoukkueen valitsemiseen.",
+    "h1": "NFL Teams Wheel Spinner",
+    "description": "Oletko jumissa valitsemassa, minkä joukkueen kanssa pelata, tai tarvitsetko puolueettoman valitsimen fantasiajalkapalloliigaasi? Pyöritä pyörää päättääksesi!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nhl-teams": {
+    "route": "/sports-wheels/nhl-teams",
+    "type": "wheel",
+    "title": "NHL Teams Wheel Spinner | Satunnainen NHL Hockey Team Picker",
+    "metaDescription": "Pyöritä NHL Teams Wheel -pyörää valitaksesi satunnainen ammattijääkiekkosarja. Sopii erinomaisesti NHL-videopeleihin, kiinnikkeisiin ja triviaan.",
+    "h1": "NHL Teams Wheel Spinner",
+    "description": "Valitse satunnainen NHL-ammattijoukkue välittömästi. Täydellinen NHL-franchise-tilan haasteisiin, näyttelyotteluihin ja pudotuspeleihin.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels": {
+    "route": "/sports-wheels",
+    "type": "general",
+    "title": "Urheilupyörän pyörät | GameWheelClub",
+    "metaDescription": "Selaa 12 esiladattua urheilupäätöspyörää, mukaan lukien NFL-joukkueen valitsijat, NBA-pelaajan satunnaiset, MM-kisat ja golfmailat.",
+    "h1": "Sports Randomizer Wheels",
+    "description": "Vuorovaikutteiset esikonfiguroidut työkalut, jotka on suunniteltu fantasiasarjoja, luonnosvalintasimulaattoreita, haasteita ja ryhmäkeskusteluja varten.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/brain-break": {
+    "route": "/templates/classroom/brain-break",
+    "type": "wheel",
+    "title": "Luokkahuone Brain Break Wheel | Opiskelijoiden harjoitusideoita",
+    "metaDescription": "Pyöritä Brain Break -pyörää valitaksesi opiskelijoille nopeita harjoituksia: venytys, hyppytakit, syvä hengitys, tanssi tai piirretty.",
+    "h1": "Classroom Brain Break Wheel",
+    "description": "Auta oppilaita keskittymään uudelleen ja lataamaan energiaansa pitkien oppituntien aikana. Pyöritä nopeaan toimintaan!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom": {
+    "route": "/templates/classroom",
+    "type": "general",
+    "title": "Luokkahuoneen pyörämallit | GameWheelClub",
+    "metaDescription": "Selaa ilmaisia ​​päätöspyöriä opettajille. Valitse satunnaisia ​​oppilasryhmiä, aiheita, palkintoja tai luokkahuoneen aivotaukoharjoituksia.",
+    "h1": "Luokkahuone- ja opetuspyörät",
+    "description": "Erityisesti opettajille suunnitellut työkalut osallistumisen satunnaistamiseen, oppilaiden saavutusten palkitsemiseen ja ainelohkojen ohjaamiseen.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/rewards-wheel": {
+    "route": "/templates/classroom/rewards-wheel",
+    "type": "wheel",
+    "title": "Classroom Rewards Wheel | Satunnaisten palkintoideoiden valitsin",
+    "metaDescription": "Pyöritä Rewards-pyörää valitaksesi satunnaisia ​​palkintoja opiskelijoille: vapaa-aika, tarrat, linjajohtajan valinta tai ei kotitehtäviä.",
+    "h1": "Classroom Rewards Wheel",
+    "description": "Motivoi oppilaitasi. Pyöritä palkintopyörää valitaksesi satunnaisesti palkinnon tai luokkahuoneen etuoikeuden!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/student-grouping": {
+    "route": "/templates/classroom/student-grouping",
+    "type": "wheel",
+    "title": "Opiskelijoiden ryhmittelypyörä | Satunnainen tiimivalitsin",
+    "metaDescription": "Pyöritä Student Grouping -pyörää. Valitse välittömästi satunnaisia ​​joukkueita tai ryhmiä (ryhmä A, ryhmä B, ryhmä C) luokkahuoneprojekteja ja pelejä varten.",
+    "h1": "Oppilaiden ryhmittely ja tiimien valinnan pyörä",
+    "description": "Haluatko jakaa oppilaita satunnaisesti ryhmiin, valita esittelytiimejä tai asettaa luokkahuoneen paikkoja? Pyöritä ryhmittelypyörää!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/subject-picker": {
+    "route": "/templates/classroom/subject-picker",
+    "type": "wheel",
+    "title": "Aihevalitsimen pyörä | Oppitunnin opiskeluaiheen valitsin",
+    "metaDescription": "Pyöritä Aihevalitsimen pyörää satunnaistaaksesi opiskeluaiheita: matematiikka, luonnontieteet, historia, englanti, taide ja musiikki. Erinomainen oppitunnin suunnitteluun.",
+    "h1": "Aihevalitsimen pyörä",
+    "description": "Valitse seuraavaksi tarkasteltava aihe tai anna pyörän satunnaistaa opintolohkoja kotiopetuksen tai tunnin aikana.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dessert-spinner": {
+    "route": "/templates/food/dessert-spinner",
+    "type": "wheel",
+    "title": "Jälkiruokavalintapyörä | Satunnainen makeisten herkkujen poimija",
+    "metaDescription": "Tölkki",
+    "h1": "Jälkiruokapyörä",
+    "description": "Valitse seuraava herkkusi ilman valinnan syyllisyyttä. Pyöritä jälkiruokapyörää!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dinner-picker": {
+    "route": "/templates/food/dinner-picker",
+    "type": "wheel",
+    "title": "Dinner Picker Wheel | Mitä minun pitäisi syödä illalliseksi?",
+    "metaDescription": "Ratkaise päivälliskeskustelu välittömästi. Pyöritä illallispyörää, joka on valmiiksi ladattu suosituilla ateriavaihtoehdoilla: pizzaa, tacoja, hampurilaisia, pastaa, salaattia ja kiinalaista.",
+    "h1": "Dinner Picker Wheel",
+    "description": "Oletko jumissa illallisen valinnassa? Poista ruoka-argumentit. Pyöritä pyörää valitaksesi ateriavaihtoehdon välittömästi.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/drink-decider": {
+    "route": "/templates/food/drink-decider",
+    "type": "wheel",
+    "title": "Drink Decider Wheel | Mitä minun pitäisi juoda?",
+    "metaDescription": "Pyöritä juomanpoimintapyörää, jossa on esiladattu virvokkeita: vesi, kahvi, tee, sooda, mehu ja smoothiet.",
+    "h1": "Drink Decider Wheel",
+    "description": "Tarvitsetko virvokkeita, mutta et voi valita kofeiinin, nesteytyksen tai mehun välillä? Pyöritä juomapyörää!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/lunch-ideas": {
+    "route": "/templates/food/lunch-ideas",
+    "type": "wheel",
+    "title": "Lounaspäätöspyörä | Pikalounasideoiden valitsin",
+    "metaDescription": "Pyöräytä valitaksesi pikalounasateria: voileipiä, salaatteja, ylijäämiä, keittoa, kääreitä tai pikaruokaa. Päätä lounastauon menu välittömästi.",
+    "h1": "Lounasideoiden päätöspyörä",
+    "description": "Jumissa keskellä kiireistä työpäivää tai opintojaksoa yrittää valita lounasta? Anna pyörän päättää ruokalistasi.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food": {
+    "route": "/templates/food",
+    "type": "general",
+    "title": "Ruoka- ja ruokailupyörämallit | GameWheelClub",
+    "metaDescription": "Selaa ilmaisia ​​valintapyöriä ruoan, lounasvalinnan, jälkiruokien ja juomien päättäjien välillä. Ratkaise ruokailukeskustelut välittömästi.",
+    "h1": "Ruokaa ja ruokailua koskevat päätöksentekopyörät",
+    "description": "Ratkaise ikivanha keskustelu \"mitä meidän pitäisi syödä?\" sekunneissa käyttämällä valmiita ruokapyöriämme.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates": {
+    "route": "/templates",
+    "type": "general",
+    "title": "Päätöspyörän mallit Hub | GameWheelClub",
+    "metaDescription": "Selaa kymmeniä ilmaisia ​​valmiita päätöspyörämalleja. Luokiteltu ruoan, juhlapelien ja luokkahuoneen apuohjelmien mukaan.",
+    "h1": "Päätöspyörän mallit",
+    "description": "Älä rakenna tyhjästä. Valitse yksi esikonfiguroiduista valintaluetteloistamme ja aloita pyörittäminen heti!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/charades-ideas": {
+    "route": "/templates/party-games/charades-ideas",
+    "type": "wheel",
+    "title": "Charades Ideat Wheel | Satunnaisten näyttelijäaiheiden valitsin",
+    "metaDescription": "Pyöritä Charades-pyörää saadaksesi satunnaisia ​​näyttelijäideoita: elokuvia, TV-ohjelmia, toimia, eläimiä ja kuuluisia ihmisiä. Päätä bilepeliaiheet välittömästi.",
+    "h1": "Charades Ideas Wheel",
+    "description": "Jumissa yrittää keksiä jotain näytettävää? Pyöritä pyörää valitaksesi kategoriasi tai aiheesi välittömästi!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games": {
+    "route": "/templates/party-games",
+    "type": "general",
+    "title": "Party Games Wheel Templates | GameWheelClub",
+    "metaDescription": "Selaa ilmaisia ​​päätöspyöriä ryhmäpeleihin, juhlahaasteisiin, trivia-aiheisiin ja totuus tai rohkeus -kortteja varten. Tee valinnat välittömästi.",
+    "h1": "Juhlapelit ja jäänmurtajat",
+    "description": "Saat seuraava seurustelu-, juhla- tai luokkahuonepelisi liikkeelle sekunneissa näillä valmiiksi rakennetuilla malleilla.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/party-trivia": {
+    "route": "/templates/party-games/party-trivia",
+    "type": "wheel",
+    "title": "Party Trivia Aihepyörä | Satunnaiset tietokilpailuluokat",
+    "metaDescription": "Pyöritä Trivia-pyörää valitaksesi satunnaiset tietokilpailun aiheet: tiede, popkulttuuri, historia, urheilu ja maantiede. Täydellinen peli-iltaan.",
+    "h1": "Party Trivia -kategorian pyörä",
+    "description": "Päätä, mikä kategoria pelataan seuraavaksi perhetietokilpailuiltojen aikana. Pyöritä triviapyörää!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/truth-or-dare": {
+    "route": "/templates/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Truth or Dare -generaattori | Random Choice Wheel",
+    "metaDescription": "Pyöritä Truth or Dare -pyörää juhlien jäänmurtajille. Valitse Truth or Dare satunnaisesti ja saat ryhmät keskustelemaan välittömästi.",
+    "h1": "Truth or Dare Wheel Generator",
+    "description": "Herätä elämääsi seuraaviin juhliisi tai vietä aikaa. Pyöritä pyörää valitaksesi Truth, Dare tai Double Dare!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/would-you-rather": {
+    "route": "/templates/party-games/would-you-rather",
+    "type": "wheel",
+    "title": "Haluaisitko mieluummin pyörän | Random Party Game Picker",
+    "metaDescription": "Pyöritä Haluaisitko mieluummin -pyörää. Saat ryhmäkeskustelut liikkeelle satunnaistettujen hypoteettisten kysymysvaihtoehtojen avulla.",
+    "h1": "Haluaisitko mieluummin pyörän",
+    "description": "Ratkaista kovia hypoteettisia oletuksia tai valita, kuka vastaa mitäkin. Pyöritä pelipyörää!",
+    "options": [],
+    "faqs": []
+  },
+  "/terms": {
+    "route": "/terms",
+    "type": "general",
+    "title": "Palveluehdot",
+    "metaDescription": "",
+    "h1": "Palveluehdot",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/timer": {
+    "route": "/timer",
+    "type": "timer",
+    "title": "Online-ajastin | Ilmainen ajastin",
+    "metaDescription": "Aseta minuutit ja sekunnit mille tahansa lähtölaskentalle. Ilmainen, kaunis ja helppokäyttöinen online-ajastin hälytyshälytyksillä.",
+    "h1": "Online Countdown Timer",
+    "description": "Aseta mukautetut lähtölaskenta-ajat opiskeluistuntoja, kokouksia tai pelejä varten ja vastaanota selkeä äänihälytys valmistumisen jälkeen.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/fortnite-challenges": {
+    "route": "/video-game-wheels/fortnite-challenges",
+    "type": "wheel",
+    "title": "Fortnite Challenges Wheel",
+    "metaDescription": "",
+    "h1": "Fortnite Challenges Wheel",
+    "description": "Pyöräytä saadaksesi hauska haaste suoritettavana seuraavan Battle Royale -ottelusi aikana.",
+    "options": [
+      "Vain Pistols voittaa",
+      "Ei kilpihaastetta",
+      "Ensimmäinen näkemäsi ase",
+      "Ei rakennustikkua (nolla rakennusta)",
+      "Laskeudu vain nimetyissä paikoissa",
+      "Pacifist Run (ei tappoja)",
+      "Vain myyttiset aseet",
+      "Pystyykö Skybase Challenilla tähän _?"
+    ],
+    "faqs": [
+      {
+        "q": "Kyllä! Haasta koko joukkueesi noudattamaan valittua sääntöä.",
+        "a": "Yes! Challenge your entire squad to follow the selected rule."
+      }
+    ]
+  },
+  "/video-game-wheels/league-of-legends-champions": {
+    "route": "/video-game-wheels/league-of-legends-champions",
+    "type": "wheel",
+    "title": "League of Legends Champions Wheel",
+    "metaDescription": "",
+    "h1": "League of Legends Champions Wheel",
+    "description": "Valitse satunnaisesti liigan mestari seuraavaan luonnos- tai ARAM-peliisi.",
+    "options": [
+      "Yasuo",
+      "Ahri",
+      "Lux",
+      "Jinx",
+      "Lee Sin",
+      "Thresh",
+      "Garen",
+      "Teemo",
+      "Ezreal",
+      "Zed",
+      "Katarina",
+      "Akali",
+      "Mestari Yi",
+      "Darius __ Sakko",
+      "A Vayne",
+      "Tukeeko se kaistoja?",
+      "Voit mukauttaa vaihtoehtoja ryhmitelläksesi mestarit roolin mukaan (Top, Mid, Jungle, ADC, Support).",
+      "Ekko"
+    ],
+    "faqs": [
+      {
+        "q": "Does it support lanes?",
+        "a": "You can customize options to group champions by role (Top, Mid, Jungle, ADC, Support)."
+      }
+    ]
+  },
+  "/video-game-wheels/overwatch-2-characters": {
+    "route": "/video-game-wheels/overwatch-2-characters",
+    "type": "wheel",
+    "title": "Overwatch 2 Characters Wheel",
+    "metaDescription": "",
+    "h1": "Overwatch 2 Characters Wheel",
+    "description": "Valitse satunnainen Tank-, Damage- tai Support-sankari seuraavaa Overwatch-otteluasi varten.",
+    "options": [
+      "Jäljittäjä",
+      "Viikatemies",
+      "Genji",
+      "Hanzo",
+      "Cassidy",
+      "Sotilas: 76",
+      "Widowmaker",
+      "Pharah",
+      "Mei",
+      "Linnake",
+      "Roskakori",
+      "Sombra",
+      "Doomfist",
+      "D. WinstonVa Roadhog",
+      "Zarya",
+      "Mercy",
+      "Lucio",
+      "Ana",
+      "Kiriko",
+      "Lifeweaver",
+      "Illari",
+      "Juno",
+      "Voinko suodattaa roolin mukaan?",
+      "Kyllä, muokkaa luetteloa niin, että se sisältää vain tankit, DPS:n tai tuet.",
+      "Juno"
+    ],
+    "faqs": [
+      {
+        "q": "Can I filter by role?",
+        "a": "Yes, just edit the list to contain only tanks, DPS, or supports."
+      }
+    ]
+  },
+  "/video-game-wheels": {
+    "route": "/video-game-wheels",
+    "type": "general",
+    "title": "Videopeli Randomizer Wheels | GameWheelClub",
+    "metaDescription": "Pyöritä valitaksesi peliasetukset, agentit, mestarit, tyypit, haasteet ja pelityylit. Kattaa Valorantin, LoL:n, Pokémonin, Robloxin ja Fortniten.",
+    "h1": "Videopelipyörät",
+    "description": "Pyöritä valitaksesi peliasetukset, agentit, mestarit, tyypit, haasteet ja pelityylit. Kattaa Valorantin, LoL:n, Pokémonin, Robloxin ja Fortniten.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/pokemon-types": {
+    "route": "/video-game-wheels/pokemon-types",
+    "type": "wheel",
+    "title": "Pokemon Types Wheel",
+    "metaDescription": "",
+    "h1": "Pokemon Types Wheel",
+    "description": "Pyöritä valitaksesi satunnainen Pokémon-tyyppi. Täydellinen monotyyppihaastelenkille.",
+    "options": [
+      "Normaali",
+      "Tuli",
+      "Vesi",
+      "Ruoho",
+      "Sähköinen",
+      "Jää",
+      "Taistelu",
+      "Myrkky",
+      "Maa",
+      "Lentäminen",
+      "Meedio",
+      "Vika",
+      "Rock",
+      "Aave",
+      "Dar_ Steckel",
+      "Fai__ Lohikäärme",
+      "Tuetaanko kahta tyyppiä?",
+      "Pyöritä pyörää kahdesti saadaksesi kaksoiskirjoitusyhdistelmän."
+    ],
+    "faqs": [
+      {
+        "q": "Are dual types supported?",
+        "a": "Spin the wheel twice to get a dual-typing combination."
+      }
+    ]
+  },
+  "/video-game-wheels/rainbow-six-operators": {
+    "route": "/video-game-wheels/rainbow-six-operators",
+    "type": "wheel",
+    "title": "Rainbow Six Operators Wheel",
+    "metaDescription": "",
+    "h1": "Rainbow Six Operators Wheel",
+    "description": "Pyöritä valitaksesi satunnainen hyökkäys- tai puolustusoperaattori Siegessä.",
+    "options": [
+      "Kelkka",
+      "Thatcher",
+      "Tuhka",
+      "Thermite",
+      "Twitch",
+      "Montagne",
+      "Glassi",
+      "Fuze",
+      "Blitz",
+      "IQ",
+      "Buck",
+      "Mustaparta",
+      "Capitao",
+      "Hibana __ Pullokas",
+      "Smo Muke",
+      "Doc",
+      "Torni",
+      "Kapkan",
+      "Tachanka",
+      "Jager",
+      "Bandit",
+      "Frost",
+      "Valkyrie",
+      "Caveira",
+      "Kaiku",
+      "Erottaako se hyökkäyksen ja puolustuksen?",
+      "Voit poistaa puolustajat hyökkäyksen aikana tai pitää molemmat yllätystä varten.",
+      "Echo"
+    ],
+    "faqs": [
+      {
+        "q": "Does it separate Attack and Defense?",
+        "a": "You can remove defenders when on attack, or keep both for a full surprise."
+      }
+    ]
+  },
+  "/video-game-wheels/roblox-games": {
+    "route": "/video-game-wheels/roblox-games",
+    "type": "wheel",
+    "title": "Roblox Games Wheel",
+    "metaDescription": "",
+    "h1": "Roblox Games Wheel",
+    "description": "Pyöritä valitaksesi hauska Roblox-peli, jota voit pelata, kun olet kyllästynyt.",
+    "options": [
+      "Adoptoi minut!",
+      "Blox Fruits",
+      "Brookhaven RP",
+      "Tower of Hell",
+      "Murder Mystery 2",
+      "Piggy",
+      "Royale High",
+      "Arsenal",
+      "Pet Simulator 99",
+      "BedWars"
+    ],
+    "faqs": [
+      {
+        "q": "Miten lisään suosikkipelejäni?",
+        "a": "Kirjoita pelien nimet vaihtoehtotekstikenttään ja paina Päivitä."
+      }
+    ]
+  },
+  "/video-game-wheels/smash-bros-characters": {
+    "route": "/video-game-wheels/smash-bros-characters",
+    "type": "wheel",
+    "title": "Smash Bros -hahmojen pyörä",
+    "metaDescription": "",
+    "h1": "Smash Bros -hahmojen pyörä",
+    "description": "Satunnaista taistelijasi Super Smash Bros. Ultimate -taisteluihin.",
+    "options": [
+      "Mario",
+      "Donkey Kong",
+      "Linkki",
+      "Samus",
+      "Yoshi",
+      "Kirby",
+      "Fox",
+      "Pikachu",
+      "Luigi",
+      "Ness",
+      "Kapteeni Falcon",
+      "Jigglypuff",
+      "Persikka",
+      "Bowser",
+      "Mar Sheikelda",
+      "Mewtwo",
+      "Sonic",
+      "Steve",
+      "Sephiroth",
+      "Sora",
+      "Tuetaanko kaikkia DLC-merkkejä?",
+      "Mukana on parhaita DLC-hahmoja, kuten Steve ja Sora. Voit lisätä loput manuaalisesti."
+    ],
+    "faqs": [
+      {
+        "q": "Are all DLC characters supported?",
+        "a": "We include top DLC characters like Steve and Sora. You can add the rest manually."
+      }
+    ]
+  },
+  "/video-game-wheels/starter-pokemon": {
+    "route": "/video-game-wheels/starter-pokemon",
+    "type": "wheel",
+    "title": "Starter Pokemon Wheel",
+    "metaDescription": "",
+    "h1": "Starter Pokemon Wheel",
+    "description": "Valitse satunnainen aloitusPokémon Gen 1 - Gen 9 seuraavaa haastetta varten.",
+    "options": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Chikorita",
+      "Cyndaquil",
+      "Totodile",
+      "Treecko",
+      "Torchic",
+      "Mudkip",
+      "Turtwig",
+      "Chimchar",
+      "Piplup",
+      "Snippy",
+      "Snip Chespin",
+      "Fennekin",
+      "Froakie",
+      "Rowlet",
+      "Litten",
+      "Popplio",
+      "Grookey",
+      "Scorbunny",
+      "Sobble",
+      "Sprigatito",
+      "Fuecoco",
+      "Quaxly",
+      "Onko Pikachu listalla?",
+      "Voit lisätä Pikachun tai Eeveen manuaalisesti, jos pelaat Yellow/Let's Go!"
+    ],
+    "faqs": [
+      {
+        "q": "Is Pikachu on the list?",
+        "a": "You can add Pikachu or Eevee manually if you are playing Yellow/Let's Go!"
+      }
+    ]
+  },
+  "/video-game-wheels/valorant-agents": {
+    "route": "/video-game-wheels/valorant-agents",
+    "type": "wheel",
+    "title": "Valorant Agents Wheel",
+    "metaDescription": "",
+    "h1": "Valorant Agents Wheel",
+    "description": "Pyöritä valitaksesi satunnainen Valorant agentti pelaamaan seuraavassa ottelussasi.",
+    "options": [
+      "Jett",
+      "Raze",
+      "Phoenix",
+      "Reyna",
+      "Yoru",
+      "Neon",
+      "Sage",
+      "Cypher",
+      "Killjoy",
+      "Kammio",
+      "Haalistua",
+      "Sova",
+      "Rikkomus",
+      "Omen _",
+      "Harkko Viper",
+      "Deadlock",
+      "Iso",
+      "Neilikka",
+      "Onko agenttiluettelo päivitetty?",
+      "Kyllä, mukaan luettuna viimeaikaiset agentit. Voit lisätä uusia editorin kautta.",
+      "Clove"
+    ],
+    "faqs": [
+      {
+        "q": "Is the agent list updated?",
+        "a": "Yes, we include recent agents. You can append new ones via the editor."
+      }
+    ]
+  },
+  "/wheel-of-names": {
+    "route": "/wheel-of-names",
+    "type": "wheel",
+    "title": "Satunnaisen nimenvalitsimen pyörä | Pyöritä nimien pyörää",
+    "metaDescription": "Valitse satunnainen nimi luettelosta. Täydellinen opettajille, arpajaisiin, peleihin ja lahjoihin. Tallenna nimiä ja pyöräytä voittaaksesi välittömästi.",
+    "h1": "Satunnaisen nimenvalinnan pyörä",
+    "description": "Haluatko valita opiskelijan, valita arvonnan voittajan tai valita satunnaisen vapaaehtoisen? Liitä nimiluettelosi alle ja pyöritä pyörää!",
+    "options": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "Dave",
+      "Eva",
+      "Frank",
+      "Grace"
+    ],
+    "faqs": []
+  },
+  "/yes-no-wheel": {
+    "route": "/yes-no-wheel",
+    "type": "wheel",
+    "title": "Kyllä tai ei Pyörä | Pyöritä välittömiä vastauksia varten",
+    "metaDescription": "Pyöritä Kyllä tai Ei -pyörää saadaksesi välittömiä, puolueettomia vastauksia mihin tahansa kysymykseen. Ilmainen, interaktiivinen ja nopea päätösvalitsin.",
+    "h1": "Kyllä tai ei Pyörä",
+    "description": "Esitä kysymys, pyöritä pyörää ja saat välittömän, puolueettoman Kyllä tai ei vastauksen!",
+    "options": [
+      "Kyllä",
+      "Ei",
+      "Kyllä",
+      "Ei",
+      "Kyllä",
+      "Ei"
+    ],
+    "faqs": []
+  }
+}

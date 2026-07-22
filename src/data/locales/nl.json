@@ -1,0 +1,2498 @@
+{
+  "/about": {
+    "route": "/about",
+    "type": "general",
+    "title": "Over GameWheelClub",
+    "metaDescription": "",
+    "h1": "Over GameWheelClub",
+    "description": "Maak besluitvorming leuk, snel en volledig onbevooroordeeld.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/farm-animals-wheel": {
+    "route": "/animal-wheels/farm-animals-wheel",
+    "type": "wheel",
+    "title": "Wiel van boerderijdieren",
+    "metaDescription": "",
+    "h1": "Wiel van boerderijdieren",
+    "description": "Draai om typische boerderij- en boerderijdieren te kiezen. Uitstekend geschikt voor het leren van peuters.",
+    "options": [
+      "Melkkoe",
+      "Wollig schaap",
+      "Roze varken",
+      "Galopperend paard",
+      "Kakelende kip",
+      "Kwakende eend",
+      "Geitebok",
+      "Pluizige lama",
+      "Boerderijhond"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn er geluiden inbegrepen?",
+        "a": "De spinner maakt een helder tikkend geluid, maak zelf de dierengeluiden voor extra speelplezier!"
+      }
+    ]
+  },
+  "/animal-wheels": {
+    "route": "/animal-wheels",
+    "type": "general",
+    "title": "Dieren- en natuur-randomizerwielen | GameWheelClub",
+    "metaDescription": "Selecteer willekeurige dieren voor games, educatie en tekeningen. Draai aan de dierenwielen om te ontdekken welk dier je bent of kies boerderijdieren.",
+    "h1": "Dieren en natuur",
+    "description": "Selecteer willekeurige dieren voor spelletjes, educatie en tekeningen. Draai aan de dierenwielen om te ontdekken welk dier je bent of kies boerderijdieren.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/random-animal-generator": {
+    "route": "/animal-wheels/random-animal-generator",
+    "type": "wheel",
+    "title": "Willekeurig dierengeneratorwiel",
+    "metaDescription": "",
+    "h1": "Willekeurig dierengeneratorwiel",
+    "description": "Draai om een ​​willekeurig wild dier te krijgen. Voorgeladen met majestueuze land- en zeebeesten.",
+    "options": [
+      "Leeuw",
+      "Tijger",
+      "Dolfijn",
+      "Olifant",
+      "Kangoeroe",
+      "Panda",
+      "Pinguïn",
+      "Wolf",
+      "Grizzlybeer",
+      "Chimpansee",
+      "Adelaar",
+      "Luiaard"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik insecten of dinosaurussen toevoegen?",
+        "a": "Ja, voeg insecten, vogels of prehistorische beesten toe aan de opties."
+      }
+    ]
+  },
+  "/animal-wheels/what-animal-are-you": {
+    "route": "/animal-wheels/what-animal-are-you",
+    "type": "wheel",
+    "title": "Welk dier ben jij wiel",
+    "metaDescription": "",
+    "h1": "Welk dier ben jij wiel",
+    "description": "Ontdek je spirituele dierlijke persoonlijkheid met dit leuke geestdierenwiel.",
+    "options": [
+      "Een wijze uil",
+      "Een loyale Golden Retriever",
+      "Een speelse kat",
+      "Een luie panda",
+      "Een zwevende adelaar",
+      "Een snelle cheetah",
+      "Een kalme zeeschildpad",
+      "Een bezige bij",
+      "Een dappere leeuw"
+    ],
+    "faqs": [
+      {
+        "q": "Is dit gebaseerd op wetenschap?",
+        "a": "Nee, dit is een leuk persoonlijkheidsspel dat is ontworpen voor entertainment."
+      }
+    ]
+  },
+  "/anime-fandom-wheels/aesthetics-wheel": {
+    "route": "/anime-fandom-wheels/aesthetics-wheel",
+    "type": "wheel",
+    "title": "Esthetiekwiel | Spin voor mode en kameresthetiek | GameWheelClub",
+    "metaDescription": "Draai aan het Aesthetics Wheel en kies een willekeurig stijlthema, zoals Cottagecore, Vaporwave of Dark Academia. Gratis, interactieve stijlkiezer.",
+    "h1": "Esthetiek Wheel Spinner",
+    "description": "Weet je niet zeker welke mode-uitstraling je nu moet proberen of hoe je je kamer moet decoreren? Draai aan het wiel om je willekeurige esthetische stijl te claimen!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-characters": {
+    "route": "/anime-fandom-wheels/anime-characters",
+    "type": "wheel",
+    "title": "Anime-personageswiel | Draai willekeurige anime-personages | GameWheelClub",
+    "metaDescription": "Draai aan het gratis Anime Characters Wheel om populaire helden en schurken uit topseries als DBZ, Naruto, One Piece, MHA en Demon Slayer willekeurig te selecteren.",
+    "h1": "Anime-personagewiel",
+    "description": "Beslecht anime-debatten, stel karaktermatches op of kies je volgende avatar door aan het wiel te draaien!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-to-watch": {
+    "route": "/anime-fandom-wheels/anime-to-watch",
+    "type": "wheel",
+    "title": "Anime om naar wiel te kijken | Willekeurige anime-generator | GameWheelClub",
+    "metaDescription": "Kan",
+    "h1": "Anime naar Wheel kijken",
+    "description": "Overweldigd door je enorme volglijst? Draai aan het wiel en laat het lot je volgende anime-serie selecteren!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/bfdi-contestants": {
+    "route": "/anime-fandom-wheels/bfdi-contestants",
+    "type": "wheel",
+    "title": "BFDI-deelnemerswiel | Strijd om Dream Island Randomizer | GameWheelClub",
+    "metaDescription": "Draai aan het BFDI-deelnemerswiel om willekeurig personages uit Battle for Dream Island te selecteren. Gratis, interactief en aanpasbaar.",
+    "h1": "BFDI-deelnemerswiel",
+    "description": "Draai om een ​​willekeurige deelnemer uit de webserie Battle for Dream Island te selecteren!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/cartoon-characters": {
+    "route": "/anime-fandom-wheels/cartoon-characters",
+    "type": "wheel",
+    "title": "Stripfigurenwiel | Draai willekeurige tekenfilms | GameWheelClub",
+    "metaDescription": "Draai aan het wiel van de stripfiguren om een ​​willekeurig icoon uit klassieke en moderne animatieseries te selecteren. Gratis, leuke en aanpasbare karakterkiezer.",
+    "h1": "Stripfigurenwiel",
+    "description": "Draai om personages uit nostalgische klassiekers, Cartoon Network-giganten en Disney-favorieten te selecteren!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world": {
+    "route": "/anime-fandom-wheels/dandys-world",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Draai aan de Dandy",
+    "h1": "Dandy's World Character Wheel",
+    "description": "Kun je niet beslissen welke toon je wilt spelen in je volgende Garden Run? Draai aan het wiel om uw keuze willekeurig te maken!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-oc-generator": {
+    "route": "/anime-fandom-wheels/dandys-world-oc-generator",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Draai aan de Dandy",
+    "h1": "Dandy's World OC Generator Wheel",
+    "description": "Laat je creativiteit de vrije loop! Draai aan het wiel om willekeurig een archetype, klassenrol of ontwerpbeperking toe te wijzen voor je originele Dandy's World-toon.",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-trinkets": {
+    "route": "/anime-fandom-wheels/dandys-world-trinkets",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Draai aan de Dandy",
+    "h1": "Dandy's World Snuisterijenwiel",
+    "description": "Weet je niet zeker welke snuisterijen je moet uitrusten voor je volgende run? Draai aan het wiel om je uitrusting willekeurig te maken!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/demon-slayer-characters": {
+    "route": "/anime-fandom-wheels/demon-slayer-characters",
+    "type": "wheel",
+    "title": "Demon Slayer-personageswiel | Draai willekeurige demonenmoordenaar | GameWheelClub",
+    "metaDescription": "Draai aan het Demon Slayer Characters Wheel om een ​​willekeurig personage uit Kimetsu no Yaiba te selecteren. Kies direct Hashira, Slayers of Demons.",
+    "h1": "Demon Slayer-personageswiel",
+    "description": "Draai om personages uit Kimetsu no Yaiba te selecteren, inclusief core Slayers, elite Hashiras en Upper Moon Demons!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/disney-movie-generator": {
+    "route": "/anime-fandom-wheels/disney-movie-generator",
+    "type": "wheel",
+    "title": "Disney filmgeneratorwiel | Draai een willekeurige film | GameWheelClub",
+    "metaDescription": "Draai aan het Disney Movie Generator Wheel en selecteer willekeurig een klassieke of moderne Disney/Pixar-film voor je volgende familiefilmavond. Gratis en interactief.",
+    "h1": "Disney Movie Generator Wheel",
+    "description": "Weet je niet zeker welke Disney-klassieker of Pixar-meesterwerk je moet bekijken? Draai aan het wiel en laat hem kiezen!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dti-theme-wheel": {
+    "route": "/anime-fandom-wheels/dti-theme-wheel",
+    "type": "wheel",
+    "title": "Kleed je aan om indruk te maken op het themawiel | DTI-randomizer | GameWheelClub",
+    "metaDescription": "Draai aan het Dress To Impress (DTI)-themawiel om willekeurig een modestijl of outfituitdaging te selecteren voor je volgende Roblox-catwalk. Gratis en interactief.",
+    "h1": "Dress To Impress (DTI) Themawiel",
+    "description": "Ben je de standaard catwalkcategorieën beu? Draai aan het wiel om een ​​willekeurige mode-esthetiek te claimen voor je volgende modellensessie!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/fnaf-characters": {
+    "route": "/anime-fandom-wheels/fnaf-characters",
+    "type": "wheel",
+    "title": "FNAF-tekenwiel | Draai willekeurige animatronics | GameWheelClub",
+    "metaDescription": "Draai aan het FNAF-personagewiel om een ​​willekeurige animatronic uit Five Nights at Freddy te kiezen",
+    "h1": "FNAF-personagewiel",
+    "description": "Draai om een ​​willekeurige animatronic uit de legendarische horrorfranchise van Scott Cawthon te selecteren!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jjk-cursed-techniques": {
+    "route": "/anime-fandom-wheels/jjk-cursed-techniques",
+    "type": "wheel",
+    "title": "JJK Vervloekt Techniekenwiel | Spin voor vervloekte technieken | GameWheelClub",
+    "metaDescription": "Draai aan het JJK Cursed Techniques Wheel om willekeurig te selecteren welke Jujutsu Kaisen-kracht je zou erven. Gratis, aanpasbaar en leuk.",
+    "h1": "JJK Cursed Techniques Wheel",
+    "description": "Welke overgeërfde techniek zit in jouw bloed? Draai aan het wiel om je legendarische JJK-techniek te claimen!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jujutsu-kaisen-characters": {
+    "route": "/anime-fandom-wheels/jujutsu-kaisen-characters",
+    "type": "wheel",
+    "title": "Jujutsu Kaisen-personageswiel | Draai willekeurige JJK tovenaar | GameWheelClub",
+    "metaDescription": "Draai aan het Jujutsu Kaisen-personagewiel om willekeurig tovenaars, vervloekte geesten of studentenpersonages te selecteren. Gratis en interactieve JJK-randomizer.",
+    "h1": "Jujutsu Kaisen-personageswiel",
+    "description": "Draai om personages uit JJK te selecteren, waaronder Tokyo Jujutsu High-studenten, elite-tovenaars en vervloekte geesten!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/marvel-superheroes": {
+    "route": "/anime-fandom-wheels/marvel-superheroes",
+    "type": "wheel",
+    "title": "Marvel Superheldenwiel | Draai willekeurige Avengers | GameWheelClub",
+    "metaDescription": "Draai aan het Marvel Superheldenwiel om willekeurig een held uit het Marvel-universum te kiezen. Gratis, aanpasbaar en perfect voor strip- en MCU-fans.",
+    "h1": "Marvel Superheroes Wheel",
+    "description": "Selecteer een willekeurige Avenger, X-Men-lid of straatheld uit het enorme Marvel-universum!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/mha-characters": {
+    "route": "/anime-fandom-wheels/mha-characters",
+    "type": "wheel",
+    "title": "MHA-karakterswiel | Draai willekeurige My Hero Academia-personages | GameWheelClub",
+    "metaDescription": "Draai aan het MHA-personagewiel om willekeurig helden en schurken uit My Hero Academia te selecteren. Gratis, aanpasbare en snelle karakterkiezer.",
+    "h1": "MHA-personageswiel",
+    "description": "Draai om personages uit My Hero Academia te selecteren, inclusief klasse 1-A-helden en de League of Villains!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/naruto-characters": {
+    "route": "/anime-fandom-wheels/naruto-characters",
+    "type": "wheel",
+    "title": "Naruto-personageswiel | Draai willekeurige Naruto Ninja | GameWheelClub",
+    "metaDescription": "Draai aan het Naruto-personagewiel om een ​​willekeurige shinobi van Konoha of de Akatsuki te kiezen. Gratis, interactieve ninjakiezer.",
+    "h1": "Naruto-personageswiel",
+    "description": "Draai om ninja's te selecteren uit de Hidden Leaf-, Akatsuki- of historische shinobi-clans!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-characters": {
+    "route": "/anime-fandom-wheels/one-piece-characters",
+    "type": "wheel",
+    "title": "Karakterwiel uit één stuk | Draai willekeurige piraten | GameWheelClub",
+    "metaDescription": "Draai aan het One Piece Characters Wheel om een ​​willekeurige piraat uit de Straw Hat-crew, Yonko of Marines te selecteren. Gratis, snel en aanpasbaar.",
+    "h1": "Eéndelig personagewiel",
+    "description": "Vaar uit op de Grand Line en draai aan het wiel om een ​​willekeurig personage uit Eiichiro Oda's meesterwerk te selecteren!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-devil-fruits": {
+    "route": "/anime-fandom-wheels/one-piece-devil-fruits",
+    "type": "wheel",
+    "title": "Eéndelig duivelsfruitwiel | Draai voor Duivelse Vruchten | GameWheelClub",
+    "metaDescription": "Draai aan het One Piece Devil Fruits Wheel om willekeurig te selecteren welke Devil Fruit-kracht je zou erven in de anime-wereld. Gratis en aanpasbaar.",
+    "h1": "Duivelvruchtenwiel uit één stuk",
+    "description": "Welke mystieke vrucht ga jij consumeren? Draai aan het wiel om je legendarische piratenkracht te claimen!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels": {
+    "route": "/anime-fandom-wheels",
+    "type": "general",
+    "title": "Anime- en fandomkarakterwielen | GameWheelClub",
+    "metaDescription": "Draai 19 gratis fandom-beslissingswielen. Willekeurige anime-personages, Disney-films, cartooniconen, FNAF-animatronics en One Piece Devil Fruits.",
+    "h1": "Anime & Fandom Wheels",
+    "description": "Kies je volgende volglijst, beslecht debatmatches of kies willekeurig fandom-personages met behulp van onze vooraf gemaakte vooraf ingestelde opties.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/best-icebreaker-games-for-work": {
+    "route": "/blog/best-icebreaker-games-for-work",
+    "type": "general",
+    "title": "Beste ijsbrekerspellen voor op het werk: Boost Corporate Team Bond",
+    "metaDescription": "Vreselijke ochtendsynchronisaties? Bekijk deze snelle, energieke ijsbrekerspellen voor bedrijven met willekeurige naamwielen en spinners om uw vergaderingen een vliegende start te geven.",
+    "h1": "Energieke ijsbrekers op de werkvloer die niet ineenkrimpen",
+    "description": "Gevreesde ijsbrekers in het bedrijfsleven, maak kennis met de moderne willekeur. Ontdek hoe u stand-ups en hybride vergaderingen kunt starten met energieke activiteiten die echte verbindingen tot stand brengen.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/classroom-incentive-rewards": {
+    "route": "/blog/classroom-incentive-rewards",
+    "type": "general",
+    "title": "Aanmoedigingsbeloningen in de klas: eerlijke motivatiesystemen",
+    "metaDescription": "Gooi de gouden sterren weg! Leer hoe u een interactief, willekeurig beloningssysteem kunt bouwen met behulp van draaiende wielen om studenten te motiveren en de betrokkenheid hoog te houden.",
+    "h1": "Bouwen aan betere beloningen in de klas",
+    "description": "Statische gedragsgrafieken en -stickers verliezen hun effectiviteit. Ontdek hoe het toevoegen van speldynamiek en willekeurige beloningsspinners leerlingen gemotiveerd en positief gedrag houdt.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-generators-help-coding": {
+    "route": "/blog/how-generators-help-coding",
+    "type": "general",
+    "title": "Hoe willekeurige generatoren helpen bij het coderen: testen en spotten van ontwikkelaars",
+    "metaDescription": "Ontdek hoe willekeurige generatoren softwareontwikkelaars helpen bij het testen van code, het maken van nepgegevens, UI/UX-simulatie en het ontwerpen van spelalgoritmen.",
+    "h1": "Hoe willekeurige generatoren coderen en testen naar een hoger niveau tillen",
+    "description": "Willekeurigheid is de geheime saus van robuust programmeren. Ontdek hoe ontwikkelaars pseudo-willekeurige generatoren (PRNG's) gebruiken om veerkrachtige systemen te bouwen, verkeer uit de echte wereld te simuleren en edge-cases te testen.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-to-customize-spin-wheels": {
+    "route": "/blog/how-to-customize-spin-wheels",
+    "type": "general",
+    "title": "Hoe u de draaiwielen kunt aanpassen voor elke gelegenheid",
+    "metaDescription": "Leer hoe u uw draaiwielen kunt aanpassen met aangepaste kleuren, labels, gewichtsverdeling en geluidseffecten, zodat ze passen bij klaslokalen, feesten of zakelijke evenementen.",
+    "h1": "Hoe u Spin Wheels kunt aanpassen aan uw behoeften",
+    "description": "Een generiek wiel kan saai zijn. Ontdek hoe het aanpassen van kleuren, het aanpassen van gewichten, het kiezen van geluidseffecten en het bouwen van thematische paletten uw evenementen, lessen en weggeefacties naar een hoger niveau tillen.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/math-activities-using-random-generators": {
+    "route": "/blog/math-activities-using-random-generators",
+    "type": "general",
+    "title": "Wiskundige activiteiten met behulp van willekeurige generatoren: interactieve ideeën",
+    "metaDescription": "Maak wiskunde interactief! Ontdek 6 boeiende wiskundeactiviteiten, waarschijnlijkheidsspellen en getallenoefeningen met behulp van generatoren voor willekeurige getallen en digitale dobbelstenen.",
+    "h1": "Rekenactiviteiten en spelletjes met behulp van willekeurige generatoren",
+    "description": "Wiskunde hoeft geen kijksport te zijn. Ontdek hoe u rekenkundige oefeningen, statistieken en waarschijnlijkheidstheorie kunt omzetten in actieve, praktische spellen met behulp van willekeurige getalgeneratoren.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog": {
+    "route": "/blog",
+    "type": "general",
+    "title": "GameWheelClub-blog | Willekeurige beslissingen, inzichten in games en onderwijs",
+    "metaDescription": "Lees onze nieuwste artikelen over willekeurige besluitvorming, interactieve spelsjablonen voor in het klaslokaal, timeboxing-technieken en ijsbrekeractiviteiten op feestjes.",
+    "h1": "Inzichten, handleidingen en productiviteitshacks",
+    "description": "Lees tips van experts over het gamen van klaslokalen, het implementeren van gestructureerde timeboxing, het organiseren van sociale partygames en het opzetten van beslissingsspinners.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/party-games-for-adults": {
+    "route": "/blog/party-games-for-adults",
+    "type": "general",
+    "title": "Leuke gezelschapsspellen voor volwassenen: interactieve en willekeurige ideeën",
+    "metaDescription": "Gedaan met de saaie dinergesprekken! Ontdek 8 interactieve en willekeurige gezelschapsspellen voor volwassenen, waaronder Truth or Dare-spinners, dobbelspellen en trivia-uitdagingen.",
+    "h1": "Verbeter uw bijeenkomsten met gezelschapsspellen voor volwassenen",
+    "description": "Bent u de standaard bordspellen of ongemakkelijke stille pauzes beu? Leer hoe u digitale draaiwielen en willekeurige generatoren kunt integreren om een ​​onvergetelijke spelavond te organiseren.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/pomodoro-technique-for-students": {
+    "route": "/blog/pomodoro-technique-for-students",
+    "type": "general",
+    "title": "Pomodoro-techniek voor studenten: betere focusstrategie",
+    "metaDescription": "Ontdek hoe de Pomodoro-techniek studenten helpt de focus te verbeteren, uitstelgedrag te verslaan en de studietijd te beheren met gestructureerde intervallen en pauzes.",
+    "h1": "De Pomodoro-techniek: een gids voor drukbezette studenten",
+    "description": "Heb je moeite om voor examens te studeren zonder elke vijf minuten je telefoon te checken? Ontdek hoe gestructureerde studie-intervallen u kunnen helpen concentreren, informatie vast te houden en burn-out te verminderen.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-for-decision-making": {
+    "route": "/blog/spin-wheels-for-decision-making",
+    "type": "general",
+    "title": "Draaiwielen voor besluitvorming: Genees beslissingsverlamming",
+    "metaDescription": "Worstel je met overdenken? Ontdek hoe draaiende wielen en willekeurige keuzegeneratoren de besluitvorming vereenvoudigen, de cognitieve belasting wegnemen en kiezen leuk maken.",
+    "h1": "Hoe draaiwielen de dagelijkse beslissingsverlamming genezen",
+    "description": "Heb je ooit 45 minuten door Netflix gescrolld om naar bed te gaan zonder iets te kijken? Dit is de reden waarom het overlaten van beslissingen met lage inzetten aan een willekeurig spinnerwiel de ultieme productiviteitshack is.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-in-modern-education": {
+    "route": "/blog/spin-wheels-in-modern-education",
+    "type": "general",
+    "title": "Draaiwielen in het moderne onderwijs: Gamify-klaslokalen",
+    "metaDescription": "Vergroot de betrokkenheid van leerlingen met behulp van draaiwielen. Ontdek actieve klasideeën, gegamificeerde quizrecensies en eerlijke selectiemethoden met behulp van digitale spinnerwielen.",
+    "h1": "Draaiwielen in het moderne onderwijs: gamificatie van het klaslokaal",
+    "description": "Hoe een eenvoudige, visuele naamkiezer de participatiegraad van studenten transformeert, de examenangst verlaagt en een inclusieve omgeving opbouwt in het basis- en hoger onderwijs.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/time-boxing-to-prevent-burnout": {
+    "route": "/blog/time-boxing-to-prevent-burnout",
+    "type": "general",
+    "title": "Timeboxing om burn-out te voorkomen: Strategie voor dagelijkse planning",
+    "metaDescription": "Ontdek hoe timeboxing helpt de werkdruk te beheersen, duidelijke grenzen tussen werk en privé vast te stellen en burn-out te voorkomen door middel van gestructureerde tijdsblokken.",
+    "h1": "Hoe timeboxing een professionele burn-out voorkomt",
+    "description": "Bloeden uw werkuren over in uw avond? Ontdek hoe het instellen van harde tijdvakken voor uw taken gezonde grenzen kan herstellen, de output kan verhogen en de gemoedsrust kan herstellen.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/age-spinner": {
+    "route": "/character-creator/age-spinner",
+    "type": "wheel",
+    "title": "Leeftijdsdraaiwiel",
+    "metaDescription": "",
+    "h1": "Leeftijdsdraaiwiel",
+    "description": "Kies willekeurig de leeftijden en ontwikkelingsfasen van personages.",
+    "options": [
+      "Kind (5-10)",
+      "Pre-tiener (11-12)",
+      "Tiener (13-17)",
+      "Jongvolwassene (18-25)",
+      "Volwassene (26-45)",
+      "Middelbare leeftijd (46-60)",
+      "Ouderen (60+)"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik specifieke cijfers instellen?",
+        "a": "Ja, schrijf specifieke leeftijden op, zoals \\\"21 jaar\\\" of \\\"84 jaar\\\" om deze nauwkeuriger af te stemmen."
+      }
+    ]
+  },
+  "/character-creator/boy-or-girl-oc": {
+    "route": "/character-creator/boy-or-girl-oc",
+    "type": "wheel",
+    "title": "Jongen of meisje OC Spinner",
+    "metaDescription": "",
+    "h1": "Jongen of meisje OC Spinner",
+    "description": "Weet je nog niet wat de geslachtsidentiteit van je volgende personage is? Draai aan de aanwijzer om direct te beslissen.",
+    "options": [
+      "Jongen",
+      "Meisje",
+      "Niet-binair",
+      "Genderfluid",
+      "Agender"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik aangepaste geslachtsidentiteiten toevoegen?",
+        "a": "Ja! Gebruik eenvoudig het editorpaneel om de opties toe te voegen, te verwijderen of te hernoemen, zodat ze bij uw karakterwereld passen."
+      }
+    ]
+  },
+  "/character-creator/clothing-style": {
+    "route": "/character-creator/clothing-style",
+    "type": "wheel",
+    "title": "Kledingstijlwiel",
+    "metaDescription": "",
+    "h1": "Kledingstijlwiel",
+    "description": "Krijg mode-ideeën en outfit-esthetiek voor karaktermakers.",
+    "options": [
+      "Casual streetwear",
+      "Victoriaans gotisch",
+      "Futuristische techwear",
+      "Traditionele kimono",
+      "Middelbaar schooluniform",
+      "Formele smoking/jurk",
+      "Cyberpunk-rebel",
+      "Fantasiepantser"
+    ],
+    "faqs": [
+      {
+        "q": "Hoe combineer ik stijlen?",
+        "a": "Draai twee keer en combineer de resultaten, zoals Cyberpunk Victorian!"
+      }
+    ]
+  },
+  "/character-creator/create-an-oc": {
+    "route": "/character-creator/create-an-oc",
+    "type": "wheel",
+    "title": "Creëer een OC Wheel",
+    "metaDescription": "",
+    "h1": "Creëer een OC Wheel",
+    "description": "Draai aan dit wiel om een ​​willekeurige achtergrond, ras of klasse te genereren voor je volgende originele personage.",
+    "options": [
+      "Krijger",
+      "Magiër",
+      "Dief",
+      "Geestelijke",
+      "Elf",
+      "Dwerg",
+      "Orc",
+      "Demon",
+      "Engel",
+      "Cyborg",
+      "Alien"
+    ],
+    "faqs": [
+      {
+        "q": "Hoe kan ik de geselecteerde klasse/race uitbreiden?",
+        "a": "Zodra je een archetype hebt geselecteerd, draai je aan de haar-, ogen- en kledingstijlwielen om het volledige ontwerp uit te bouwen."
+      }
+    ]
+  },
+  "/character-creator/eye-color": {
+    "route": "/character-creator/eye-color",
+    "type": "wheel",
+    "title": "Oogkleurenwiel",
+    "metaDescription": "",
+    "h1": "Oogkleurenwiel",
+    "description": "Bepaal onmiddellijk oogkleuren en fantasie-irisstijlen voor uw OC.",
+    "options": [
+      "Oceaanblauw",
+      "Bosgroen",
+      "Ambergoud",
+      "Karmozijnrood",
+      "Hazelnootkleurig",
+      "Donkerbruin",
+      "Amethistviolet",
+      "Heterochromie (blauw/groen)",
+      "Puur zwart"
+    ],
+    "faqs": [
+      {
+        "q": "Hoe vertegenwoordig ik gloeiende fantasieogen?",
+        "a": "Voeg gewoon \\\"(Gloeiend)\\\" toe aan een van de kleuren in het bewerkingspaneel."
+      }
+    ]
+  },
+  "/character-creator/gacha-character-generator": {
+    "route": "/character-creator/gacha-character-generator",
+    "type": "wheel",
+    "title": "Gacha karaktergeneratorwiel",
+    "metaDescription": "",
+    "h1": "Gacha karaktergeneratorwiel",
+    "description": "Draai voor stylingthema's, esthetiek en modeconcepten om je volgende Gacha Life- of Gacha Club-personage te bouwen.",
+    "options": [
+      "Zoete snoepstijl",
+      "Donkere gothstijl",
+      "Steampunkstijl",
+      "Retro Cyberpunk",
+      "Pastelzacht meisje",
+      "Sportief chic",
+      "Royal Knight"
+    ],
+    "faqs": [
+      {
+        "q": "Werkt dit voor Gacha Club?",
+        "a": "Ja, deze aanwijzingen zijn geschikt voor Gacha Life-, Gacha Club- en algemene avatar-makers."
+      }
+    ]
+  },
+  "/character-creator/gender-randomizer": {
+    "route": "/character-creator/gender-randomizer",
+    "type": "wheel",
+    "title": "Gender Randomizer Wheel",
+    "metaDescription": "",
+    "h1": "Gender Randomizer Wheel",
+    "description": "Willekeurige voornaamwoorden, geslachtsidentiteiten en presentatiestijlen.",
+    "options": [
+      "Man",
+      "Vrouw",
+      "Niet-binair",
+      "Androgyn",
+      "Genderqueer",
+      "Demiboy",
+      "Demigirl"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn voornaamwoorden vooraf geladen?",
+        "a": "Je kunt aangepaste voornaamwoorden schrijven naast de geslachten in het optiemenu."
+      }
+    ]
+  },
+  "/character-creator/hair-color": {
+    "route": "/character-creator/hair-color",
+    "type": "wheel",
+    "title": "Haarkleurenwiel",
+    "metaDescription": "",
+    "h1": "Haarkleurenwiel",
+    "description": "Draai om een ​​willekeurige haarverf of OC-haarkleur te kiezen. Voorgeladen met natuurlijke tinten en levendige neonkleurstoffen.",
+    "options": [
+      "Bruin",
+      "Zwart",
+      "Blond",
+      "Gember",
+      "Platinablond",
+      "Neongroen",
+      "Pastelroze",
+      "Lila Paars",
+      "Cyaanblauw",
+      "Dieprood"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik meerkleurige stijlen toevoegen?",
+        "a": "Absoluut, schrijf \\\"Split Dye (roze/blauw)\\\" in de optielijst voor aangepaste resultaten."
+      }
+    ]
+  },
+  "/character-creator/hair-style": {
+    "route": "/character-creator/hair-style",
+    "type": "wheel",
+    "title": "Haarstijlwiel",
+    "metaDescription": "",
+    "h1": "Haarstijlwiel",
+    "description": "Selecteer een willekeurig kapsel voor karakterbladen, tekeningen of modelontwerpen.",
+    "options": [
+      "Korte Pixie",
+      "Krullende Bob",
+      "Lange Golven",
+      "Zijwaartse ondersnijding",
+      "Dubbele staartjes",
+      "Hoge paardenstaart",
+      "Rommelig knotje",
+      "Spiky Anime",
+      "Afro Puff",
+      "Dreadlocks"
+    ],
+    "faqs": [
+      {
+        "q": "Is dit geschikt voor zowel mannelijke als vrouwelijke karakters?",
+        "a": "Ja, alle stijlen zijn unisex en passen bij elk OC-archetype."
+      }
+    ]
+  },
+  "/character-creator/nationality-generator": {
+    "route": "/character-creator/nationality-generator",
+    "type": "wheel",
+    "title": "Nationaliteitsgeneratorwiel",
+    "metaDescription": "",
+    "h1": "Nationaliteitsgeneratorwiel",
+    "description": "Kies willekeurige nationale achtergronden en staatsburgerschap voor mondiale karakters.",
+    "options": [
+      "Amerikaans",
+      "Japans",
+      "Brits",
+      "Braziliaans",
+      "Frans",
+      "Duits",
+      "Australisch",
+      "Canadees",
+      "Zuid-Koreaans",
+      "Indiaas",
+      "Mexicaans",
+      "Spaans"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik specifieke regio's toevoegen?",
+        "a": "Ja, wijzig de wiellijst om steden of subregio's te specificeren."
+      }
+    ]
+  },
+  "/character-creator": {
+    "route": "/character-creator",
+    "type": "general",
+    "title": "Character Creator & OC Wheel-generatoren | GameWheelClub",
+    "metaDescription": "Ontwerp direct willekeurige personages, OC's en avatars. Draai voor kapsels, outfits, ogen, geslachten, huidtinten en gacha-ideeën.",
+    "h1": "Character Creator & OC Wheels",
+    "description": "Ontwerp direct willekeurige personages, OC's en avatars. Draai voor kapsels, outfits, ogen, geslachten, huidtinten en gacha-ideeën.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/skin-tone": {
+    "route": "/character-creator/skin-tone",
+    "type": "wheel",
+    "title": "Huidskleurwiel",
+    "metaDescription": "",
+    "h1": "Huidskleurwiel",
+    "description": "Selecteer willekeurige huidtinten, ondertonen en texturen van wezens.",
+    "options": [
+      "Fair Peach",
+      "Warm Beige",
+      "Goud Olijf",
+      "Rijk Brons",
+      "Diep Cacao",
+      "Albast Wit",
+      "Lichtgrijs (Alien/Undead)",
+      "Neon Blauw"
+    ],
+    "faqs": [
+      {
+        "q": "Is het palet verstelbaar?",
+        "a": "Ja, pas alle hexadecimale tonen of namen in het bulktekstgebied aan."
+      }
+    ]
+  },
+  "/compare/best-random-picker-tools": {
+    "route": "/compare/best-random-picker-tools",
+    "type": "general",
+    "title": "GameWheelClub versus Rad van Namen versus Radbeslisser versus Kleine Beslissingen | Beste hulpmiddelen voor willekeurige kiezer",
+    "metaDescription": "Lees onze uitgebreide, onbevooroordeelde vergelijking van de beste hulpmiddelen voor willekeurige kiezer: GameWheelClub, Wheel of Names, Wheel Decider en Tiny Decisions. Ontdek de beste spinner voor uw klaslokaal, evenement of dagelijkse keuzes.",
+    "h1": "Beste tools voor willekeurige kiezer vergeleken",
+    "description": "Zit je vast tussen GameWheelClub, Wheel of Names, Wheel Decider en Tiny Decisions? We analyseren functies, privacy, styling en UX om het ultieme keuzewiel voor u te vinden.",
+    "options": [],
+    "faqs": []
+  },
+  "/contact": {
+    "route": "/contact",
+    "type": "general",
+    "title": "Neem contact met ons op",
+    "metaDescription": "",
+    "h1": "Neem contact met ons op",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/arrow-spin": {
+    "route": "/creative-wheels/arrow-spin",
+    "type": "wheel",
+    "title": "Pijl-draaiwiel",
+    "metaDescription": "",
+    "h1": "Pijl-draaiwiel",
+    "description": "Draai een kompaswijzer om een ​​willekeurige kardinale of ordinale richting te kiezen.",
+    "options": [
+      "Noord ⬆️",
+      "Noordoost ↗️",
+      "Oost ➡️",
+      "Zuidoost ↘️",
+      "Zuid ⬇️",
+      "Zuidwest ↙️",
+      "West ⬅️",
+      "Noordwest ↖️"
+    ],
+    "faqs": [
+      {
+        "q": "Werkt het als een kompas?",
+        "a": "Het kiest de richting wiskundig en fungeert als een willekeurige richtingaanwijzer."
+      }
+    ]
+  },
+  "/creative-wheels/drawing-idea-wheel": {
+    "route": "/creative-wheels/drawing-idea-wheel",
+    "type": "wheel",
+    "title": "Tekenideeënwiel",
+    "metaDescription": "",
+    "h1": "Tekenideeënwiel",
+    "description": "Genereer vreemde, schattige en grappige aanwijzingen voor uw volgende schets.",
+    "options": [
+      "Een kat met een tovenaarshoed",
+      "Een futuristisch cyberpunkcafé",
+      "Een boomhut die in de ruimte zweeft",
+      "Een middeleeuwse ridder die op een schildpad rijdt",
+      "Een schattige draak die koekjes bakt",
+      "Een steampunkrobotbloemenwinkel"
+    ],
+    "faqs": [
+      {
+        "q": "Is het goed voor sneltekenuitdagingen?",
+        "a": "Ja, draai aan een prompt en stel een timer van 5 minuten in!"
+      }
+    ]
+  },
+  "/creative-wheels/movie-picker": {
+    "route": "/creative-wheels/movie-picker",
+    "type": "wheel",
+    "title": "Filmkiezerwiel",
+    "metaDescription": "",
+    "h1": "Filmkiezerwiel",
+    "description": "Bepaal wat je vanavond wilt bekijken door filmgenres te draaien.",
+    "options": [
+      "Actie-blockbuster",
+      "Sci-Fi-thriller",
+      "Komedie-avond",
+      "Romantisch drama",
+      "Griezelige horror",
+      "Verbijsterend mysterie",
+      "Historisch episch",
+      "Geanimeerde klassieker",
+      "Indie-meesterwerk"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik specifieke filmtitels toevoegen?",
+        "a": "Ja! Vervang genres door uw daadwerkelijke volglijstnamen in de editor."
+      }
+    ]
+  },
+  "/creative-wheels/music-genre-wheel": {
+    "route": "/creative-wheels/music-genre-wheel",
+    "type": "wheel",
+    "title": "Muziekgenrewiel",
+    "metaDescription": "",
+    "h1": "Muziekgenrewiel",
+    "description": "Draai om te kiezen welke muziekstijl je wilt spelen of onderzoeken.",
+    "options": [
+      "Synthwave / Lo-Fi",
+      "Klassieke rock & roll",
+      "Hiphop uit de jaren 90",
+      "Neoklassieke piano",
+      "Moderne pop",
+      "Smooth Jazz",
+      "Indie Folk en akoestisch",
+      "Heavy Metal / Hard Rock",
+      "Elektronische dansmuziek"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik specifieke artiesten toevoegen?",
+        "a": "Ja, voer je favoriete zangers of bands in de editor in."
+      }
+    ]
+  },
+  "/creative-wheels": {
+    "route": "/creative-wheels",
+    "type": "general",
+    "title": "Beslissingswielen voor creatief en entertainment | GameWheelClub",
+    "metaDescription": "Ontgrendel direct creatieve inspiratie. Draai om een ​​filmgenre of filmkiezer te kiezen, krijg willekeurige tekenideeën, draai een pijlaanwijzer of ontvang TBR-boekaanwijzingen.",
+    "h1": "Creatief en entertainment",
+    "description": "Ontgrendel direct creatieve inspiratie. Draai om een ​​filmgenre of filmkiezer te kiezen, krijg willekeurige tekenideeën, draai een pijlaanwijzer of ontvang TBR-boekaanwijzingen.",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/tbr-prompts": {
+    "route": "/creative-wheels/tbr-prompts",
+    "type": "wheel",
+    "title": "TBR-promptswiel",
+    "metaDescription": "",
+    "h1": "TBR-promptswiel",
+    "description": "Selecteer uw volgende boekleeskeuze met behulp van To-Be-Read (TBR)-prompts.",
+    "options": [
+      "Een boek met een blauwe kaft",
+      "Een boek dat werd aanbevolen door een vriend",
+      "Een boek dat al meer dan 1 jaar op je plank staat",
+      "Een thriller of mysterie",
+      "Een boek van een vrouwelijke auteur",
+      "Een boek met een dier erin"
+    ],
+    "faqs": [
+      {
+        "q": "Ondersteunt het Goodreads-lijsten?",
+        "a": "Kopieer en plak titels rechtstreeks vanuit uw leeslijsten voor gepersonaliseerde keuzes."
+      }
+    ]
+  },
+  "/decision-wheel": {
+    "route": "/decision-wheel",
+    "type": "wheel",
+    "title": "Willekeurig beslissingswiel | Draai aan het keuzewiel",
+    "metaDescription": "Voer uw eigen keuzes in, draai aan het beslissingswiel en los de opties direct op. Volledig gratis, aanpasbare en onpartijdige keuzemaker.",
+    "h1": "Willekeurig beslissingswiel",
+    "description": "Kunt u niet kiezen tussen dineropties, vakantiebestemmingen of werkprojecten? Pas de plakjes aan en draai!",
+    "options": [
+      "Ja",
+      "Nee",
+      "Misschien",
+      "Vraag het aan een vriend",
+      "Draai nog een keer",
+      "Slaap er een nachtje over"
+    ],
+    "faqs": []
+  },
+  "/dice-roller": {
+    "route": "/dice-roller",
+    "type": "dice-roller",
+    "title": "Dobbelsteenroller | Gooi virtuele dobbelstenen online",
+    "metaDescription": "Gooi onmiddellijk 1, 2 of 3 virtuele dobbelstenen. Perfect voor bordspellen, statistieken, waarschijnlijkheidslessen en willekeurige beslissingen.",
+    "h1": "Virtuele dobbelsteenroller",
+    "description": "Ben je de dobbelstenen van je bordspel kwijt? Rol maximaal drie virtuele dobbelstenen met realistische stippenindelingen en animaties.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/bulk-edit": {
+    "route": "/features/bulk-edit",
+    "type": "general",
+    "title": "Bulkbewerking en lijstimport | GameWheelClub Tools",
+    "metaDescription": "Leer hoe u duizenden items direct kunt importeren en bewerken. Ontdek de tekenreeksparsering, CSV-compatibiliteit en lijstopschoonprogramma's die GameWheelClub aandrijven",
+    "h1": "Bulkbewerking en lijstimport: grote gegevenssets beheren",
+    "description": "Handmatige invoer is traag. Ontdek hoe u met GameWheelClub in één seconde honderden lijstitems uit Excel, Google Spreadsheets of platte tekst kunt plakken, opmaken en opschonen.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/custom-colors": {
+    "route": "/features/custom-colors",
+    "type": "general",
+    "title": "Aangepaste kleuren en neobrutalistische thema's | GameWheelClub",
+    "metaDescription": "Pas de kleuren, typografie en stijl van uw beslissingswielen aan. Ontdek hoe neobrutalistische ontwerpen, toegankelijk contrast en CSS-paletten de visuele tools van GameWheelClub aandrijven.",
+    "h1": "Aangepaste kleuren en neobrutalistische thema's: stijl uw beslissingen",
+    "description": "Laat uw creativiteit de vrije loop. Stel aangepaste kleuren in, pas retro-voorinstellingen toe en maak gebruik van toegankelijke thema's met hoog contrast die zijn ontworpen voor docenten, presentatoren en gamers.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/elimination-mode": {
+    "route": "/features/elimination-mode",
+    "type": "general",
+    "title": "Eliminatiemodus | Uitgebreide keuzeselectie | GameWheelClub",
+    "metaDescription": "Ontdek hoe de Eliminatiemodus standaard beslissingswielen omzet in interactieve loterijsystemen en opeenvolgende tekentafels door bij elke draai de winnaars te verwijderen.",
+    "h1": "Eliminatiemodus: de natuurkunde van uitputtende selectie van winnaars",
+    "description": "Elimineer duplicaten, selecteer meerdere afzonderlijke winnaars of beperk een enorme lijst met opties met behulp van onze dynamische logica voor het verwijderen van segmenten.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/local-storage": {
+    "route": "/features/local-storage",
+    "type": "general",
+    "title": "Lokale opslag en gegevensprivacy | GameWheelClub-functies",
+    "metaDescription": "Ontdek hoe GameWheelClub de lokale browser localStorage gebruikt om uw wielen, namen en sjablonen offline op te slaan. Lees meer over onze zero-server dataprivacyarchitectuur.",
+    "h1": "Lokale opslag en offline ontwerp: architectuur waarbij privacy voorop staat",
+    "description": "Jouw lijsten, opties en wielen zijn alleen van jou. Ontdek hoe we configuratiegegevens rechtstreeks in uw browser opslaan, waardoor laden zonder latentie en volledige offline functionaliteit mogelijk wordt.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/sound-effects": {
+    "route": "/features/sound-effects",
+    "type": "general",
+    "title": "Audio-geluidseffecten en synthesizers | GameWheelClub",
+    "metaDescription": "Ontdek hoe procedurele audiogeneratie en browser Web Audio API hifi, interactieve en responsieve retro-geluidseffecten creëren voor GameWheelClub-tools.",
+    "h1": "Geluidseffecten: de technologie van procedurele webaudio",
+    "description": "Ontdek hoe we pure wiskunde en browser-native synthgenerators gebruiken om heerlijke, tastbare klik- en fanfaregeluiden te maken die mechanische wielen nabootsen.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/weighted-wheel": {
+    "route": "/features/weighted-wheel",
+    "type": "general",
+    "title": "Gewogen beslissingswielen | Op waarschijnlijkheid gebaseerde spinners | GameWheelClub",
+    "metaDescription": "Ontdek de wiskunde en logica van gewogen beslissingswielen. Ontdek hoe kansverdeling, cumulatieve gewichten en rouletteselectie aangepaste keuzewielen aandrijven.",
+    "h1": "Gewogen beslissingswielen: de wiskunde en logica van aangepaste waarschijnlijkheid",
+    "description": "Niet alle keuzes zijn gelijk gemaakt. Ontdek hoe je met GameWheelClub specifieke gewichtswaarden aan items kunt toewijzen, waardoor de kansverdeling met rigoureuze wiskundige precisie wordt verlegd.",
+    "options": [],
+    "faqs": []
+  },
+  "/flip-a-coin": {
+    "route": "/flip-a-coin",
+    "type": "flip-a-coin",
+    "title": "Een muntje opgooien | Online kop- of muntgenerator",
+    "metaDescription": "Draai online een virtuele munt. Een eenvoudige, directe beslissingsgenerator met 3D-geïnspireerde animaties.",
+    "h1": "Een muntje online gooien",
+    "description": "Kunt u een eenvoudige ruzie niet oplossen? Draai een virtuele munt op en laat de waarschijnlijkheid direct beslissen of het kop of munt is!",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/dessert": {
+    "route": "/food-wheels/dessert",
+    "type": "wheel",
+    "title": "Dessertwiel",
+    "metaDescription": "",
+    "h1": "Dessertwiel",
+    "description": "Draai voor een zoet traktatie-idee. Omvat taarten, taarten en gebakken koekjes.",
+    "options": [
+      "Chocoladetaart",
+      "Vanille-ijs",
+      "Warme appeltaart",
+      "Vers gebakken chocoladekoekjes",
+      "Aardbeiencheesecake",
+      "Geglazuurde donuts",
+      "Crème Brûlée",
+      "Brownie Sundae"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn dit recepten?",
+        "a": "Dit zijn zoete dessertcategorieën die je kunnen inspireren bij je volgende bak- of bestelbeslissing."
+      }
+    ]
+  },
+  "/food-wheels/fast-food-restaurants": {
+    "route": "/food-wheels/fast-food-restaurants",
+    "type": "wheel",
+    "title": "Fastfoodrestaurantswiel",
+    "metaDescription": "",
+    "h1": "Fastfoodrestaurantswiel",
+    "description": "Draai om te kiezen tussen populaire fastfoodketens voor een snelle lunch.",
+    "options": [
+      "McDonalds",
+      "Burger King",
+      "Wendys",
+      "Subway",
+      "Taco Bell",
+      "KFC",
+      "Popeyes",
+      "Chick-fil-A",
+      "Dominos",
+      "Pizza Hut",
+      "Starbucks",
+      "Dunkin"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik het aanpassen aan winkels in de buurt?",
+        "a": "Ja, verwijder ketens die niet beschikbaar zijn in jouw stad."
+      }
+    ]
+  },
+  "/food-wheels/fruit": {
+    "route": "/food-wheels/fruit",
+    "type": "wheel",
+    "title": "Fruitwiel",
+    "metaDescription": "",
+    "h1": "Fruitwiel",
+    "description": "Draai om een ​​gezond stuk fruit te kiezen om te eten.",
+    "options": [
+      "Rode appel",
+      "Banaan",
+      "Zoete aardbei",
+      "Sappige sinaasappel",
+      "Bosbessen",
+      "Groene druiven",
+      "Watermeloenschijfje",
+      "Verse ananas",
+      "Perzik",
+      "Mango"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik tropisch fruit toevoegen?",
+        "a": "Ja! Voeg drakenfruit, kiwi of papaja toe in de opties."
+      }
+    ]
+  },
+  "/food-wheels": {
+    "route": "/food-wheels",
+    "type": "general",
+    "title": "Voedselbeslisser en dinerwielspinners | GameWheelClub",
+    "metaDescription": "Kan",
+    "h1": "Food Wheels",
+    "description": "Kunt u het niet eens worden over lunch, diner of snacks? Draai aan de voedselwielen om een ​​willekeurig restauranttype, fastfoodketen, zoet dessert of gezonde snack te kiezen.",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/snacks": {
+    "route": "/food-wheels/snacks",
+    "type": "wheel",
+    "title": "Snackswiel",
+    "metaDescription": "",
+    "h1": "Snackswiel",
+    "description": "Kies een willekeurige gezonde snack of zoute frietzak.",
+    "options": [
+      "Aardappelchips",
+      "Chocoladereep",
+      "Appelschijfjes met pindakaas",
+      "Gemengde noten",
+      "Griekse yoghurt",
+      "Popcorn",
+      "Pretzels",
+      "Kaasstokje",
+      "Mueslireep"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik dieetbeperkingen toevoegen?",
+        "a": "Ja, voeg keto-, veganistische of glutenvrije snacks toe aan het menu."
+      }
+    ]
+  },
+  "/food-wheels/what-to-eat": {
+    "route": "/food-wheels/what-to-eat",
+    "type": "wheel",
+    "title": "Wat te eten wiel",
+    "metaDescription": "",
+    "h1": "Wat te eten wiel",
+    "description": "Los het dinerdebat direct op door een willekeurige voedselkeuken te kiezen.",
+    "options": [
+      "Pizza",
+      "Taco's & Mexicaans",
+      "Burgers & Frieten",
+      "Sushi & Japans",
+      "Pasta & Italiaans",
+      "Thaise Curry",
+      "Indiase Masala",
+      "Gezonde Salade",
+      "Broodjes & Deli"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik lokale restaurants toevoegen?",
+        "a": "Ja! Vervang generieke keukens door uw lokale restaurants in de aangepaste editor."
+      }
+    ]
+  },
+  "/for-business": {
+    "route": "/for-business",
+    "type": "general",
+    "title": "Willekeurige beslissingsinstrumenten voor het bedrijfsleven | GameWheelClub",
+    "metaDescription": "Verbeter vergaderingen en teaminteracties met randomizers en timers. Bepaal de volgorde van de presentator, stel taken op en organiseer ijsbrekers voor het team.",
+    "h1": "Random Choice Tools voor het bedrijfsleven",
+    "description": "Bepaal de volgorde van teamvergaderingen, stel taken op, beheer sprintblokken en breek het ijs met snelle digitale hulpprogramma's.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-events": {
+    "route": "/for-events",
+    "type": "general",
+    "title": "Willekeurige keuzehulpmiddelen voor evenementen en feesten | GameWheelClub",
+    "metaDescription": "Organiseer gedenkwaardige feesten, weggeefacties en sociale evenementen. Regel groepsspellen, draai voor loterijwinnaars en kies direct trivia-onderwerpen.",
+    "h1": "Willekeurige keuzehulpmiddelen voor evenementen",
+    "description": "Breng opwinding en energie naar uw volgende feest, sociale bijeenkomst of online loterij met kant-en-klare evenementenkiezers.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-teachers": {
+    "route": "/for-teachers",
+    "type": "general",
+    "title": "Willekeurige beslissingsinstrumenten voor leraren | GameWheelClub",
+    "metaDescription": "Ontdek gratis draaiwielen en timertools voor klasbeheer. Kies willekeurige studenten, kies onderwerpen en ken rechten eerlijk toe.",
+    "h1": "Random Choice Tools voor docenten",
+    "description": "Gamificeer je lessen en maak deelname 100% eerlijk. Draai willekeurige wielen om vrijwilligers te kiezen, groepsteams toe te wijzen en lesonderwerpen te selecteren.",
+    "options": [],
+    "faqs": []
+  },
+  "/games": {
+    "route": "/games",
+    "type": "general",
+    "title": "Willekeurige keuze Game Wheels Hub | GameWheelClub",
+    "metaDescription": "Ontdek leuke, interactieve en kant-en-klare randomizer-spelwielen. Regel teamconcepten, fandomdebatten, karaktercreatie en partijuitdagingen direct.",
+    "h1": "Randomizer-spelwielen",
+    "description": "Interactieve, vooraf ingestelde wielen ontworpen voor sport, spelconceptsimulators, fandoms, party-ijsbrekers en creatieve randomizers.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/alphabet-wheel": {
+    "route": "/generators/alphabet-wheel",
+    "type": "wheel",
+    "title": "Alfabetwieldraaier",
+    "metaDescription": "",
+    "h1": "Alfabetwieldraaier",
+    "description": "Draai om een willekeurige letter van A tot Z te selecteren.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "faqs": [
+      {
+        "q": "Bevat het vreemde tekens?",
+        "a": "Je kunt accenten toevoegen (zoals É, Ö, Ñ) in het aangepaste menu."
+      }
+    ]
+  },
+  "/generators/color-wheel": {
+    "route": "/generators/color-wheel",
+    "type": "wheel",
+    "title": "Kleurenwieldraaier",
+    "metaDescription": "",
+    "h1": "Kleurenwieldraaier",
+    "description": "Draai om een ​​willekeurige hexadecimale kleurcode voor ontwerpen of keuzes te selecteren.",
+    "options": [
+      "Rood (#EF4444)",
+      "Blauw (#3B82F6)",
+      "Groen (#10B981)",
+      "Geel (#F59E0B)",
+      "Paars (#8B5CF6)",
+      "Roze (#EC4899)",
+      "Oranje (#F97316)",
+      "Blauwgroen (#14B8A6)"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn kleuren CSS-compatibel?",
+        "a": "Ja, hexadecimale waarden worden vermeld naast de kleurnamen."
+      }
+    ]
+  },
+  "/generators/number-wheel": {
+    "route": "/generators/number-wheel",
+    "type": "wheel",
+    "title": "Nummerwieldraaier",
+    "metaDescription": "",
+    "h1": "Nummerwieldraaier",
+    "description": "Configureerbaar nummerbereikwiel. Vervangt standaard varianten van de willekeurige nummerspinner.",
+    "options": [],
+    "faqs": [
+      {
+        "q": "Hoe hoog kan het bereik gaan?",
+        "a": "Je kunt dit instellen op 100 of hoger, hoewel getallen onder de 50 het beste op het scherm worden weergegeven."
+      }
+    ]
+  },
+  "/generators": {
+    "route": "/generators",
+    "type": "general",
+    "title": "Willekeurige generatorwielen en wiskundekiezers | GameWheelClub",
+    "metaDescription": "Draai puur wiskundige en hulpprogramma-beslissingsgeneratoren. Bevat het aanpasbare getallenwiel, hex-kleurengenerator, procentwiel en alfabetspinner.",
+    "h1": "Willekeurige generatoren",
+    "description": "Draai puur wiskundige en utilitaire beslissingsgeneratoren. Bevat het aanpasbare getallenwiel, hex-kleurengenerator, procentwiel en alfabetspinner.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/percent-wheel": {
+    "route": "/generators/percent-wheel",
+    "type": "wheel",
+    "title": "Percentagewieldraaier",
+    "metaDescription": "",
+    "h1": "Procentwieldraaier",
+    "description": "Draai om een ​​willekeurige percentagewaarde tussen 10% en 100% te krijgen.",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+      "50%",
+      "60%",
+      "70%",
+      "80%",
+      "95%",
+      "100%"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik kleinere stappen toevoegen?",
+        "a": "Ja, voeg stappen als \\\"1%\\\", \\\"5%\\\" of \\\"99%\\\" toe aan de editor."
+      }
+    ]
+  },
+  "/generators/periodic-table-picker": {
+    "route": "/generators/periodic-table-picker",
+    "type": "wheel",
+    "title": "Periodieke tabelkiezer",
+    "metaDescription": "",
+    "h1": "Periodieke tabelkiezer",
+    "description": "Draai om een ​​willekeurig chemisch element uit het periodiek systeem te selecteren.",
+    "options": [
+      "Waterstof (H)",
+      "Helium (He)",
+      "Lithium (Li)",
+      "Beryllium (Be)",
+      "Borium (B)",
+      "Koolstof (C)",
+      "Stikstof (N)",
+      "Zuurstof (O)",
+      "Fluor (F)",
+      "Neon (Ne)",
+      "Natrium (Na)",
+      "Magnesium (Mg)"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn edelgassen inbegrepen?",
+        "a": "Ja, helium en neon zijn inbegrepen. Voeg indien nodig meer zware elementen toe."
+      }
+    ]
+  },
+  "/geography-wheels/64-country-roulette": {
+    "route": "/geography-wheels/64-country-roulette",
+    "type": "wheel",
+    "title": "64 Landen Roulette",
+    "metaDescription": "",
+    "h1": "64 Landen Roulette",
+    "description": "Het ultieme roulettewiel met 64 landen voor speluitdagingen en -beugels.",
+    "options": [
+      "VS",
+      "Canada",
+      "Mexico",
+      "Brazilië",
+      "Argentinië",
+      "VK",
+      "Frankrijk",
+      "Duitsland",
+      "Italië",
+      "Spanje",
+      "Rusland",
+      "Egypte",
+      "Zuid-Afrika",
+      "Nigeria",
+      "Kenia",
+      "India",
+      "China",
+      "Japan",
+      "Zuid-Korea",
+      "Australië",
+      "Nieuw-Zeeland",
+      "Saoedi-Arabië",
+      "Turkije",
+      "Griekenland",
+      "Zweden",
+      "Noorwegen",
+      "Nederland",
+      "Zwitserland",
+      "Polen",
+      "Oekraïne",
+      "Vietnam",
+      "Thailand",
+      "Indonesië",
+      "Filipijnen",
+      "Colombia",
+      "Peru",
+      "Chili",
+      "Venezuela",
+      "Marokko",
+      "Ghana",
+      "Ethiopië",
+      "Pakistan",
+      "Bangladesh",
+      "Iran",
+      "Irak",
+      "Israël",
+      "Singapore",
+      "Maleisië",
+      "Nieuw-Zeeland",
+      "Portugal",
+      "Oostenrijk",
+      "Denemarken",
+      "Finland",
+      "Ierland",
+      "België",
+      "Tsjechië",
+      "Hongarije",
+      "Roemenië",
+      "Cuba",
+      "Jamaica",
+      "Costa Rica",
+      "Panama",
+      "Ecuador",
+      "Bolivia"
+    ],
+    "faqs": [
+      {
+        "q": "Is het moeilijk om 64 plakjes te lezen?",
+        "a": "Het draait schoon! U kunt tussen lijstweergaven schakelen om het eindresultaat nog eens te controleren."
+      }
+    ]
+  },
+  "/geography-wheels/country-wheel": {
+    "route": "/geography-wheels/country-wheel",
+    "type": "wheel",
+    "title": "Landwielspinner",
+    "metaDescription": "",
+    "h1": "Landwielspinner",
+    "description": "Kies een willekeurig land wereldwijd voor trivia, spelregio's of projecten.",
+    "options": [
+      "Verenigde Staten",
+      "Japan",
+      "Brazilië",
+      "Duitsland",
+      "Australië",
+      "Canada",
+      "India",
+      "Zuid-Afrika",
+      "Verenigd Koninkrijk",
+      "Frankrijk",
+      "Italië",
+      "China",
+      "Egypte",
+      "Mexico",
+      "Rusland",
+      "Argentinië"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn alle landen inbegrepen?",
+        "a": "Dit wiel bevat een uitgebalanceerde selectie van grote wereldlanden. Bewerk om een ​​specifiek land toe te voegen."
+      }
+    ]
+  },
+  "/geography-wheels/europe-countries": {
+    "route": "/geography-wheels/europe-countries",
+    "type": "wheel",
+    "title": "Europa Landenwiel",
+    "metaDescription": "",
+    "h1": "Europa Landenwiel",
+    "description": "Kies willekeurig een Europees land voor reisplannen of educatief onderzoek.",
+    "options": [
+      "Verenigd Koninkrijk",
+      "Frankrijk",
+      "Duitsland",
+      "Italië",
+      "Spanje",
+      "Nederland",
+      "België",
+      "Zwitserland",
+      "Oostenrijk",
+      "Zweden",
+      "Noorwegen",
+      "Denemarken",
+      "Finland",
+      "Ierland",
+      "Portugal",
+      "Griekenland",
+      "Polen",
+      "Tsjechië"
+    ],
+    "faqs": [
+      {
+        "q": "Staan microstaten zoals Vaticaanstad erop?",
+        "a": "Je kunt Monaco, Andorra of San Marino handmatig toevoegen in de opties."
+      }
+    ]
+  },
+  "/geography-wheels": {
+    "route": "/geography-wheels",
+    "type": "general",
+    "title": "Geografie en land Radspinners | GameWheelClub",
+    "metaDescription": "Draai om willekeurige landen, Amerikaanse staten of Europese landen te selecteren, of voer de roulette-uitdaging met 64 landen uit. Ideaal voor aardrijkskundetrivia en reisplanning.",
+    "h1": "Geografiewielen",
+    "description": "Draai om willekeurige landen, Amerikaanse staten of Europese landen te selecteren, of voer de roulette-uitdaging met 64 landen uit. Ideaal voor aardrijkskundetrivia en reisplanning.",
+    "options": [],
+    "faqs": []
+  },
+  "/geography-wheels/us-states": {
+    "route": "/geography-wheels/us-states",
+    "type": "wheel",
+    "title": "Amerikaanse statenwiel",
+    "metaDescription": "",
+    "h1": "Amerikaanse statenwiel",
+    "description": "Draai om willekeurig uit de 50 staten van Amerika te kiezen.",
+    "options": [
+      "Californië",
+      "Texas",
+      "Florida",
+      "New York",
+      "Illinois",
+      "Pennsylvania",
+      "Ohio",
+      "Georgië",
+      "North Carolina",
+      "Michigan",
+      "Washington",
+      "Arizona",
+      "Massachusetts",
+      "Virginia",
+      "Colorado",
+      "Tennessee"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn alle 50 staten vooraf geladen?",
+        "a": "Deze preset bevat belangrijke statussen. U kunt binnen enkele seconden de volledige lijst met 50 staten kopiëren en plakken in het vak Bulkbewerking."
+      }
+    ]
+  },
+  "/guides/classroom-spin-wheel-ideas": {
+    "route": "/guides/classroom-spin-wheel-ideas",
+    "type": "general",
+    "title": "Ideeën voor een draaiwiel in de klas: interactieve onderwijsstrategieën",
+    "metaDescription": "Vergroot de betrokkenheid van leerlingen met 15 creatieve ideeën voor een draaiwiel in de klas. Leer hoe je eerlijke naamtrekkingen kunt houden, taken kunt toewijzen en lessen kunt gamen met willekeurige wielen.",
+    "h1": "15 Creatieve ideeën voor een draaiwiel in de klas",
+    "description": "Verander passief luisteren in actieve, energieke deelname. Ontdek gestructureerde, in de praktijk geteste draaiwielstrategieën om lessen te gamen, banen te verdelen en elke leerling op het puntje van zijn stoel te houden.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/decision-making-methods": {
+    "route": "/guides/decision-making-methods",
+    "type": "general",
+    "title": "Methoden voor besluitvorming: raamwerken, heuristieken en randomisatie",
+    "metaDescription": "Ontdek gestructureerde besluitvormingskaders. Van de Eisenhower Matrix tot analytische modellen en gerandomiseerde selectietools: ontdek hoe u keuzemoeheid kunt overwinnen.",
+    "h1": "Een masterclass in besluitvormingsmethoden",
+    "description": "Moet je analyseren, op je gevoel vertrouwen of delegeren aan waarschijnlijkheid? Leer de formele modellen van de keuzetheorie, cognitieve vooroordelen en hoe je weet wanneer je een muntstuk moet laten beslissen.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/how-random-wheels-work": {
+    "route": "/guides/how-random-wheels-work",
+    "type": "general",
+    "title": "Hoe willekeurige wielen werken: wiskunde, algoritmen en natuurkunde",
+    "metaDescription": "Duik diep in de wetenschap achter virtuele draaiwielen. Ontdek Pseudo-Random Number Generators (PRNG's), de fysica van wrijvingsvertraging en algoritmische eerlijkheid.",
+    "h1": "Achter de draai: hoe willekeurige wielen eigenlijk werken",
+    "description": "Heb je je ooit afgevraagd hoe een virtueel wiel de winnaar berekent? Ontdek de wiskunde van pseudo-willekeurige getalgeneratoren, de vergelijkingen van gesimuleerde wrijving en de programmeerprincipes die een onbevooroordeelde selectie garanderen.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/icebreaker-games-guide": {
+    "route": "/guides/icebreaker-games-guide",
+    "type": "general",
+    "title": "Gids voor ijsbrekerspellen: teambuilding en virtuele bijeenkomsten",
+    "metaDescription": "Leer hoe u energieke ijsbrekerspellen kunt organiseren. Ontdek creatieve spinners, vraagprompts en teambuildingstrategieën voor fysieke en virtuele teams.",
+    "h1": "De ultieme gids voor ijsbrekerspellen",
+    "description": "Ben je de ongemakkelijke stiltes tijdens teamvergaderingen of sociale evenementen beu? Leer de wetenschap van het ijsbreken, hoe je een sociale atmosfeer met lage druk kunt creëren en hoe je willekeurige spelspinners effectief kunt gebruiken.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/productivity-timeboxing": {
+    "route": "/guides/productivity-timeboxing",
+    "type": "general",
+    "title": "Productiviteit Timeboxing: de ultieme gids voor tijdsblokken",
+    "metaDescription": "Leer hoe u timeboxing- en Pomodoro-technieken kunt gebruiken om de focus te vergroten. Bestrijd Parkinson",
+    "h1": "Timeboxing: overwin afleidingen met strikte grenzen",
+    "description": "Waarom duurt een taak drie uur als je een deadline van drie uur krijgt, maar slechts dertig minuten als je weinig tijd hebt? Ontdek hoe u de wet van Parkinson en gegamificeerde timersystemen kunt gebruiken om de controle over uw dag terug te winnen.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/random-giveaway-rules": {
+    "route": "/guides/random-giveaway-rules",
+    "type": "general",
+    "title": "Regels voor willekeurige weggeefacties en richtlijnen voor wettelijke naleving",
+    "metaDescription": "Blijf aan de regels voldoen bij het organiseren van online weggeefacties. Begrijp de wetten op sweepstakes, de regel dat er geen aankoop nodig is en platformrichtlijnen voor eerlijke wedstrijden.",
+    "h1": "Hoe kun je willekeurige weggeefacties legaal en eerlijk organiseren",
+    "description": "Sweepstakes, wedstrijden of loterijen? Het navigeren door de wetten van promotionele trekkingen is essentieel om uw merk te beschermen en uw publiek te respecteren. Leer de regels voor naleving van willekeurige selectie.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/spin-wheel-psychology": {
+    "route": "/guides/spin-wheel-psychology",
+    "type": "general",
+    "title": "De psychologie van draaiende wielen: spanning, beloningen en keuzes",
+    "metaDescription": "Ontdek de psychologische triggers achter draaiende wielen. Begrijp hoe beslissingsmoeheid, anticipatie en visuele beloningen gerandomiseerde selectors zo aantrekkelijk maken.",
+    "h1": "Psychologie van het draaiwiel: waarom we van de draai houden",
+    "description": "Wat maakt een draaiend wiel van voorwerpen zo onweerstaanbaar? Ontdek de neurale mechanismen van anticipatie, de verlichting van het ontlasten van keuzes en de gegamificeerde ontwerppatronen die onze aandacht trekken.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/unbiased-selection-importance": {
+    "route": "/guides/unbiased-selection-importance",
+    "type": "general",
+    "title": "Het belang van onbevooroordeelde selectie: eerlijkheid en statistieken",
+    "metaDescription": "Ontdek waarom onbevooroordeelde selectie cruciaal is. Ontdek de wiskunde van eerlijke keuzes, cognitieve vooroordelen bij menselijke selectors en praktische toepassingen van sortering.",
+    "h1": "Waarom onbevooroordeelde selectie belangrijk is",
+    "description": "De menselijke keuze is bezaaid met impliciete cognitieve vooroordelen. Ontdek hoe willekeurige wiskunde statistieken beschermt, gerechtigheid herstelt, onderwijsgelijkheid garandeert en vertrouwen opbouwt.",
+    "options": [],
+    "faqs": []
+  },
+  "/": {
+    "route": "/",
+    "type": "wheel",
+    "title": "Draai aan het rad van beslissingen",
+    "metaDescription": "",
+    "h1": "Draai aan het rad van beslissingen",
+    "description": "Kunt u niet beslissen? Voer je opties in, draai aan het wiel en laat het lot onmiddellijk beslissen! Snel, eerlijk en leuk.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/adult-truth-or-dare": {
+    "route": "/party-games/adult-truth-or-dare",
+    "type": "wheel",
+    "title": "Waarheids- of durfwiel voor volwassenen",
+    "metaDescription": "",
+    "h1": "Waarheids- of durfwiel voor volwassenen",
+    "description": "Draai om specerijen, volwassen geheimen en provocerende uitdagingen te kiezen. Inclusief leeftijdsgebonden interstitial.",
+    "options": [
+      "Waarheid: Wat is je geheime fantasie?",
+      "Durf: geef een sensuele massage aan de persoon naast je",
+      "Waarheid: vertel de groep je meest gênante romantische ontmoeting",
+      "Durf: fluister iets provocerends in iemands oor"
+    ],
+    "faqs": [
+      {
+        "q": "Is aanmelden vereist?",
+        "a": "Geen aanmelding of accounts nodig. We gebruiken een eenvoudige leeftijdsverificatiepoort om minderjarigen te beschermen."
+      }
+    ]
+  },
+  "/party-games/charades-topics": {
+    "route": "/party-games/charades-topics",
+    "type": "wheel",
+    "title": "Charades-onderwerpenwiel",
+    "metaDescription": "",
+    "h1": "Charades-onderwerpenwiel",
+    "description": "Ontvang hilarische en creatieve onderwerpen voor charades-spellen voor het hele gezin.",
+    "options": [
+      "Doe alsof je een T-Rex eet",
+      "Doe alsof je een glitching robot bent",
+      "Doe alsof je golf speelt",
+      "Doe alsof je een hotdog kookt",
+      "Doe alsof je op ijs loopt",
+      "Gedraag je als een zwevende astronaut"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn de onderwerpen moeilijk?",
+        "a": "Ze zijn uitgebalanceerd, zodat zowel kinderen als volwassenen ervan kunnen genieten."
+      }
+    ]
+  },
+  "/party-games/extreme-truth-or-dare": {
+    "route": "/party-games/extreme-truth-or-dare",
+    "type": "wheel",
+    "title": "Extreme Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Extreme Truth or Dare Wheel",
+    "description": "Draai voor zeer uitdagende, intensieve en gekke waarheden en uitdagingen.",
+    "options": [
+      "Waarheid: Heb je ooit vals gespeeld tijdens een toets?",
+      "Durf: bel een willekeurig contact en zing 'Happy Birthday'.",
+      "Waarheid: waar heb je het meeste spijt van?",
+      "Durf: Laat de groep een verhaal op je Instagram plaatsen"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn deze veilig om uit te voeren?",
+        "a": "Ja, ze zijn veilig maar zeer vermakelijk. Sla altijd elke uitdaging over waar u zich ongemakkelijk bij voelt."
+      }
+    ]
+  },
+  "/party-games/funny-dares": {
+    "route": "/party-games/funny-dares",
+    "type": "wheel",
+    "title": "Grappig Dares Wheel",
+    "metaDescription": "",
+    "h1": "Funny Dares Wheel",
+    "description": "Krijg gekke, eenvoudige en grappige fysieke uitdagingen.",
+    "options": [
+      "Praat drie rondes met een Brits accent",
+      "Maak je beste kip-indruk",
+      "Houd een lepel op je neus",
+      "Gedraag je als een dramakoningin",
+      "Praat 1 minuut met een kamerplant"
+    ],
+    "faqs": [
+      {
+        "q": "Kunnen deze uitdagingen binnenshuis worden gedaan?",
+        "a": "Ja, alle uitdagingen zijn ontworpen om veilig binnen te worden uitgevoerd."
+      }
+    ]
+  },
+  "/party-games": {
+    "route": "/party-games",
+    "type": "general",
+    "title": "Party- en sociale spelwielen | GameWheelClub",
+    "metaDescription": "Interactieve wielen voor sociale evenementen, logeerpartijtjes en feesten. Draai voor Truth or Dare-vragen, Spin the Bottle, Charades en grappige uitdagingen.",
+    "h1": "Feest- en sociale spellen",
+    "description": "Interactieve wielen voor sociale evenementen, logeerpartijtjes en feesten. Draai voor Truth or Dare-vragen, Spin the Bottle, Charades en grappige uitdagingen.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/punishment-wheel": {
+    "route": "/party-games/punishment-wheel",
+    "type": "wheel",
+    "title": "Strafwiel",
+    "metaDescription": "",
+    "h1": "Strafwiel",
+    "description": "Draai om gekke klusjes, verbeurdverklaringen of straffen toe te wijzen aan verliezers van bordspellen.",
+    "options": [
+      "Koop snacks voor iedereen",
+      "Doe de afwas",
+      "Zing een liedje gekozen door de groep",
+      "Plaats een gênante selfie",
+      "Doe 20 springjacks",
+      "Spreek de volgende beurt alleen fluisterend"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn deze ernstig?",
+        "a": "Nee, ze zijn luchtig en perfect voor vriendschappelijke spelletjes."
+      }
+    ]
+  },
+  "/party-games/questions-wheel": {
+    "route": "/party-games/questions-wheel",
+    "type": "wheel",
+    "title": "Vragenwiel",
+    "metaDescription": "",
+    "h1": "Vragenwiel",
+    "description": "Draai voor ijsbrekervragen, kennismakingsonderwerpen en conversatievragen.",
+    "options": [
+      "Wat is jouw superkracht?",
+      "Als je $ 1 miljoen hebt gewonnen",
+      "wat is de eerste aankoop?",
+      "Waar is jouw droomvakantie?",
+      "Wat is je grootste angst?",
+      "Wie inspireert jou het meest?",
+      "Wat is je favoriete jeugdherinnering?"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn de vragen duidelijk?",
+        "a": "Ja, geschikt voor bedrijfsijsbrekers en schoolklassen."
+      }
+    ]
+  },
+  "/party-games/scattergories-letters": {
+    "route": "/party-games/scattergories-letters",
+    "type": "wheel",
+    "title": "Scattergories Letters Wheel",
+    "metaDescription": "",
+    "h1": "Scattergories Letters Wheel",
+    "description": "Draai om een ​​willekeurige letter te selecteren voor Scattergories en woordenschatspellen.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "R",
+      "S",
+      "T",
+      "W"
+    ],
+    "faqs": [
+      {
+        "q": "Waarom ontbreken sommige letters?",
+        "a": "We sluiten harde letters (Q, X, Y, Z) uit om games leuk en bewegend te houden."
+      }
+    ]
+  },
+  "/party-games/song-association": {
+    "route": "/party-games/song-association",
+    "type": "wheel",
+    "title": "Associatiewiel voor liedjes",
+    "metaDescription": "",
+    "h1": "Associatiewiel voor liedjes",
+    "description": "Draai een trefwoord en probeer binnen 10 seconden een liedje te zingen dat dat woord bevat.",
+    "options": [
+      "Woord: LIEFDE",
+      "Woord: VUUR",
+      "Woord: HEMEL",
+      "Woord: DANS",
+      "Woord: NACHT",
+      "Woord: WERELD",
+      "Woord: BLAUW",
+      "Woord: GELUKKIG",
+      "Woord: HUILEN"
+    ],
+    "faqs": [
+      {
+        "q": "Wat zijn de regels?",
+        "a": "Een speler heeft 10 seconden om ten minste één regel van een echt lied te zingen waarin het woord voorkomt."
+      }
+    ]
+  },
+  "/party-games/spin-the-bottle": {
+    "route": "/party-games/spin-the-bottle",
+    "type": "wheel",
+    "title": "Draai aan het flessenwiel",
+    "metaDescription": "",
+    "h1": "Draai aan het flessenwiel",
+    "description": "Een virtuele spinner die de fysieke flessenopstellingen vervangt voor klassieke spellen.",
+    "options": [
+      "Speler A",
+      "Speler B",
+      "Speler C",
+      "Speler D",
+      "Speler E",
+      "Speler F"
+    ],
+    "faqs": [
+      {
+        "q": "Hoeveel spelers kunnen spelen?",
+        "a": "Ondersteunt maximaal 100 spelers. Voeg eenvoudig namen toe aan de optielijst."
+      }
+    ]
+  },
+  "/party-games/things-to-do-when-bored": {
+    "route": "/party-games/things-to-do-when-bored",
+    "type": "wheel",
+    "title": "Dingen om te doen bij verveling Wiel",
+    "metaDescription": "",
+    "h1": "Dingen om te doen bij verveling Wiel",
+    "description": "Draai tegen verveling met productieve, creatieve en fysieke activiteiten.",
+    "options": [
+      "Lees een hoofdstuk uit een boek",
+      "Organiseer je bureaula",
+      "Leer een kaarttruc van 5 minuten",
+      "Maak een stevige wandeling",
+      "Probeer een zelfportret te tekenen",
+      "Rek je 10 minuten uit",
+      "Luister naar een nieuw album"
+    ],
+    "faqs": [
+      {
+        "q": "Zijn hier benodigdheden voor nodig?",
+        "a": "De meeste activiteiten zijn volledig gratis en vereisen geen voorbereiding."
+      }
+    ]
+  },
+  "/party-games/truth-or-dare": {
+    "route": "/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Truth or Dare Wheel",
+    "description": "Draai aan het wiel om klassieke Truth or Dare-prompts te krijgen voor kinderen, tieners en gezinnen.",
+    "options": [
+      "Waarheid: Wat is je grootste geheim?",
+      "Durf: Doe 10 push-ups",
+      "Waarheid: Wie is je crush?",
+      "Durf: Eet een rauw stukje knoflook",
+      "Waarheid: Vertel een grappige leugen die je hebt verteld",
+      "Durf: Laat iemand sms'en vanaf je telefoon"
+    ],
+    "faqs": [
+      {
+        "q": "Is het schoon voor gezinnen?",
+        "a": "Ja, dit wiel bevat luchtige aanwijzingen, perfect voor familiebijeenkomsten."
+      }
+    ]
+  },
+  "/privacy": {
+    "route": "/privacy",
+    "type": "general",
+    "title": "Privacybeleid",
+    "metaDescription": "",
+    "h1": "Privacybeleid",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/random-number-generator": {
+    "route": "/random-number-generator",
+    "type": "number-generator",
+    "title": "Willekeurige nummergenerator | Snelle RNG-tool",
+    "metaDescription": "Genereer enkele of meerdere willekeurige getallen in elk aangepast bereik. Gratis, veilige en aanpasbare willekeurige nummerkiezer.",
+    "h1": "Willekeurige nummergenerator",
+    "description": "Kies direct willekeurige getallen. Stel uw minimum- en maximumlimieten in, selecteer de hoeveelheid en genereer!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/best-teams": {
+    "route": "/sports-wheels/best-teams",
+    "type": "wheel",
+    "title": "Beste sportteams Wheel Spinner | Legendarische teamkiezer",
+    "metaDescription": "Draai aan het beste teamswiel om een ​​legendarisch team in de sportgeschiedenis te kiezen. Voorgeladen met het Dream Team uit 1992, de Chicago Bulls uit 1996, de Dolphins uit 1972 en meer.",
+    "h1": "Beste sportteams Wheel Spinner",
+    "description": "Welk team was echt de beste aller tijden? Draai aan het wiel om willekeurig een legendarisch sportteam te selecteren in basketbal, voetbal, voetbal en honkbal.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/college-teams": {
+    "route": "/sports-wheels/college-teams",
+    "type": "wheel",
+    "title": "College Teams wielspinner | Willekeurige NCAA-teamkiezer",
+    "metaDescription": "Draai aan het College Teams-wiel om willekeurig een top NCAA-universiteitsteam te selecteren. Perfect voor simulatie van universiteitsvoetbal (CFB), basketbalwedstrijden en pick'em-competities.",
+    "h1": "College Teams Wheel Spinner",
+    "description": "Kies een willekeurig universiteitsteam uit de NCAA FBS-divisie. Geweldig voor College Football 25 Dynasty-keuzes of NCAA-basketbalbeugelvoorspellingen!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/fifa-world-cup-2026": {
+    "route": "/sports-wheels/fifa-world-cup-2026",
+    "type": "wheel",
+    "title": "FIFA Wereldbeker 2026 Wielspinner | Willekeurige landkiezer",
+    "metaDescription": "Draai aan het WK 2026-wiel om willekeurig een gekwalificeerd voetballand te selecteren. Ideaal voor toernooi-sweeps, groepsvoorspellingen en wedstrijdsimulaties.",
+    "h1": "FIFA World Cup 2026 Wheel",
+    "description": "Bereid je voor op het grootste sportevenement uit de geschiedenis in Noord-Amerika. Draai aan het wiel om willekeurig een kwalificerend land te selecteren!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/football-players": {
+    "route": "/sports-wheels/football-players",
+    "type": "wheel",
+    "title": "Voetbalspelers wielspinner | Willekeurige voetbalsterkiezer",
+    "metaDescription": "Draai aan het voetbalspelerswiel om een ​​willekeurige wereldvoetbalster zoals Messi, Ronaldo, Mbappé of Haaland te kiezen. Perfect voor FC 24/FC 25 draft-uitdagingen.",
+    "h1": "Voetbalspelers Wieldraaier",
+    "description": "Draai om willekeurig een keuze te maken uit 's werelds meest elite voetbalsupersterren. Beslecht debatten, kies FC-doelen of daag vrienden uit!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/golf-wheel": {
+    "route": "/sports-wheels/golf-wheel",
+    "type": "wheel",
+    "title": "Golfclub wielspinner | Willekeurige clubkiezer-uitdaging",
+    "metaDescription": "Draai aan het golfwiel om willekeurig een golfclub te kiezen, zoals Driver, 7-Iron, Pitching Wedge of Putter. Perfect voor bereikuitdagingen en baanspellen.",
+    "h1": "Golf Club Wheel Spinner",
+    "description": "Klaar om uw golfoefening wat spannender te maken of uw vrienden uit te dagen op de baan? Draai aan het golfwiel om te bepalen welke club je als volgende moet slaan!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/mlb-teams": {
+    "route": "/sports-wheels/mlb-teams",
+    "type": "wheel",
+    "title": "MLB Teams wielspinner | Willekeurige Major League Baseball-teamkiezer",
+    "metaDescription": "Draai aan het MLB-teamwiel om willekeurig een honkbalfranchise te selecteren. Perfect voor fantasycompetities, honkbalvideogames en play-offvoorspellingen.",
+    "h1": "MLB Teams Wheel Spinner",
+    "description": "Kies direct een willekeurige Major League Baseball-franchise. Ideaal voor MLB The Show-uitdagingen, fantasieontwerpselecties en stadionroadtrips!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-players": {
+    "route": "/sports-wheels/nba-players",
+    "type": "wheel",
+    "title": "NBA-spelers wielspinner | Willekeurige NBA-spelerkiezer",
+    "metaDescription": "Draai aan het NBA-spelerswiel om een ​​willekeurige actieve basketbalsuperster te kiezen. Perfect voor fantasiesporten, trivia-avonden en debatten over spelersvergelijking.",
+    "h1": "NBA-spelers Wheel Spinner",
+    "description": "Kies willekeurig tussen de absolute elite basketbaltalenten in de NBA van vandaag. Regel vergelijkingen, selecteer spelersfocus of start debatten.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-teams": {
+    "route": "/sports-wheels/nba-teams",
+    "type": "wheel",
+    "title": "NBA Teams-wielspinner | Willekeurige NBA-franchisekiezer",
+    "metaDescription": "Draai aan het NBA Teams-wiel om een ​​willekeurige professionele basketbalfranchise te kiezen. Ideaal voor NBA 2K-uitdagingen, fantasy draft-selecties en sporttrivia.",
+    "h1": "NBA Teams Wheel Spinner",
+    "description": "Kies een willekeurige NBA-franchise. Perfect voor pick-up-wedstrijden in NBA 2K, het definiëren van conceptbestellijsten of het beslissen welk team je wilt bouwen in carrièremodi.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-players": {
+    "route": "/sports-wheels/nfl-players",
+    "type": "wheel",
+    "title": "NFL-spelers wielspinner | Willekeurige NFL-spelerkiezer",
+    "metaDescription": "Draai aan het NFL-spelerswiel om een ​​willekeurige actieve NFL-stervoetballer te selecteren. Ideaal voor fantasieconcepten, trivia en teambuilding-uitdagingen.",
+    "h1": "NFL-spelers Wheel Spinner",
+    "description": "Draai om willekeurig te kiezen uit de meest elite spelers van de competitie. Geweldig voor trivia-uitdagingen, fantasiekeuzes en spelersdebatten!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-positions": {
+    "route": "/sports-wheels/nfl-positions",
+    "type": "wheel",
+    "title": "NFL-posities wielspinner | Willekeurige voetbalpositiekiezer",
+    "metaDescription": "Draai aan het NFL-positiewiel om een ​​willekeurige voetbalrol te kiezen, zoals Quarterback, Running Back, Wide Receiver of Linebacker. Ideaal voor training en coaching.",
+    "h1": "NFL-posities Wheel Spinner",
+    "description": "Moet je roosterposities toewijzen, coachingoefeningen opzetten of een uitdaging in de carrièremodus willekeurig maken? Draai aan het positiewiel om te kiezen!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-teams": {
+    "route": "/sports-wheels/nfl-teams",
+    "type": "wheel",
+    "title": "NFL Teams wielspinner | Willekeurige NFL-teamkiezer",
+    "metaDescription": "Draai aan het NFL-teamwiel om een ​​willekeurige NFL-franchise te kiezen. Perfect voor bestellingen voor fantasievoetbal, het kiezen van een team om in Madden te spelen of het kiezen van een nieuw favoriet team.",
+    "h1": "NFL Teams Wheel Spinner",
+    "description": "Weet je niet meer met welk team je wilt spelen of heb je een onpartijdige selector nodig voor je fantasy-voetbalcompetitie? Draai aan het wiel om te beslissen!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nhl-teams": {
+    "route": "/sports-wheels/nhl-teams",
+    "type": "wheel",
+    "title": "NHL Teams Wielspinner | Willekeurige NHL-hockeyteamkiezer",
+    "metaDescription": "Draai aan het NHL Teams-wiel om een ​​willekeurige professionele hockeyfranchise te selecteren. Ideaal voor NHL-videogames, beugelopstellingen en trivia.",
+    "h1": "NHL Teams Wheel Spinner",
+    "description": "Kies direct een willekeurig professioneel NHL-team. Perfect voor uitdagingen in de NHL-franchisemodus, oefenwedstrijden en play-offs.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels": {
+    "route": "/sports-wheels",
+    "type": "general",
+    "title": "Sportwielspinners | GameWheelClub",
+    "metaDescription": "Blader door 12 vooraf geladen sportbeslissingswielen, waaronder NFL-teamkiezers, NBA-speler-randomizers, WK-beugels en golfclubs.",
+    "h1": "Sports Randomizer Wheels",
+    "description": "Interactieve, vooraf geconfigureerde tools gebouwd voor fantasy-competities, draft pick-simulators, uitdagingen en teamdebatten.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/brain-break": {
+    "route": "/templates/classroom/brain-break",
+    "type": "wheel",
+    "title": "Hersenbrekerwiel in de klas | Ideeën voor studentenoefeningen",
+    "metaDescription": "Draai aan het Brain Break-wiel om snelle oefeningen voor studenten te kiezen: stretchen, jump-jacks, diep ademhalen, dansen of krabbelen.",
+    "h1": "Brain Break Wheel in de klas",
+    "description": "Help leerlingen zich opnieuw te concentreren en hun energie op te laden tijdens lange lessen. Draai voor een snelle activiteit!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom": {
+    "route": "/templates/classroom",
+    "type": "general",
+    "title": "Sjablonen voor klaswieltjes | GameWheelClub",
+    "metaDescription": "Blader door gratis beslissingswielen voor docenten. Kies willekeurige studentengroepen, onderwerpen, beloningen of hersenbrekeroefeningen in de klas.",
+    "h1": "Klaslokaal- en leerwielen",
+    "description": "Hulpmiddelen die speciaal zijn ontworpen voor docenten om de deelname willekeurig te maken, de prestaties van leerlingen te belonen en vakblokken te sturen.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/rewards-wheel": {
+    "route": "/templates/classroom/rewards-wheel",
+    "type": "wheel",
+    "title": "Klasbeloningenwiel | Willekeurige beloningsideeënkiezer",
+    "metaDescription": "Draai aan het beloningswiel om willekeurige prijzen voor leerlingen te kiezen: vrije tijd, stickers, lijnleiderkeuze of geen huiswerkpassen.",
+    "h1": "Klasbeloningenwiel",
+    "description": "Motiveer uw leerlingen. Draai aan het beloningswiel om willekeurig een prijs of klasvoorrecht te kiezen!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/student-grouping": {
+    "route": "/templates/classroom/student-grouping",
+    "type": "wheel",
+    "title": "Groeperingswiel voor studenten | Willekeurige teamkiezer",
+    "metaDescription": "Draai aan het leerlinggroeperingswiel. Selecteer direct willekeurige teams of groepen (Groep A, Groep B, Groep C) voor klassikale projecten en games.",
+    "h1": "Groepering van leerlingen en teamkiezerwiel",
+    "description": "Wilt u leerlingen willekeurig aan groepen toewijzen, presenterende teams kiezen of zitplaatsen in de klas instellen? Draai aan het groeperingswiel!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/subject-picker": {
+    "route": "/templates/classroom/subject-picker",
+    "type": "wheel",
+    "title": "Onderwerpkiezerwiel | Onderwerpkiezer voor lesstudie",
+    "metaDescription": "Draai aan het wiel voor de onderwerpkiezer om de studieonderwerpen in willekeurige volgorde in te delen: Wiskunde, Natuurwetenschappen, Geschiedenis, Engels, Kunst en Muziek. Ideaal voor het plannen van lessen.",
+    "h1": "Onderwerpkiezerwiel",
+    "description": "Kies welk onderwerp u vervolgens wilt bespreken, of laat het wiel studieblokken willekeurig verdelen tijdens thuisonderwijs of tijdens de les.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dessert-spinner": {
+    "route": "/templates/food/dessert-spinner",
+    "type": "wheel",
+    "title": "Dessertkeuzewiel | Willekeurige snoepjeskiezer",
+    "metaDescription": "Kan",
+    "h1": "Dessertdraaiwiel",
+    "description": "Kies je volgende zoete lekkernij zonder schuldgevoel. Draai aan het dessertwiel!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dinner-picker": {
+    "route": "/templates/food/dinner-picker",
+    "type": "wheel",
+    "title": "Dinerkiezerwiel | Wat moet ik eten voor het avondeten?",
+    "metaDescription": "Beslecht het dinerdebat onmiddellijk. Draai aan het dinerwiel met populaire maaltijdopties: pizza, taco's, hamburgers, pasta, salade en Chinees.",
+    "h1": "Dinerkiezerwiel",
+    "description": "Zit je vast bij het kiezen van het avondeten? Elimineer voedselargumenten. Draai aan het wiel om direct een maaltijdoptie te selecteren.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/drink-decider": {
+    "route": "/templates/food/drink-decider",
+    "type": "wheel",
+    "title": "Drankbeslisserwiel | Wat moet ik drinken?",
+    "metaDescription": "Draai aan het drankkiezerwiel, voorzien van versnaperingen: water, koffie, thee, frisdrank, sap en smoothies.",
+    "h1": "Drinkbeslisserwiel",
+    "description": "Heb je een verfrissing nodig, maar kun je niet kiezen tussen cafeïne, hydratatie of sap? Draai aan het drankwiel!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/lunch-ideas": {
+    "route": "/templates/food/lunch-ideas",
+    "type": "wheel",
+    "title": "Lunchbeslissingswiel | Keuzeschakelaar voor snelle lunchideeën",
+    "metaDescription": "Draai om een ​​snelle lunchmaaltijd te selecteren: sandwiches, salades, restjes, soep, wraps of fastfood. Regel uw lunchpauzemenu direct.",
+    "h1": "Lunchideeën Beslissingswiel",
+    "description": "Zit je midden op een drukke werkdag of studiesessie vast terwijl je probeert een lunch te kiezen? Laat het wiel uw menu bepalen.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food": {
+    "route": "/templates/food",
+    "type": "general",
+    "title": "Sjablonen voor eten en dineren | GameWheelClub",
+    "metaDescription": "Blader door gratis beslissingswielen voor eten, lunchkeuzes, dessertspinners en drankbeslissers. Beslecht uw dinerdebatten onmiddellijk.",
+    "h1": "Beslissingswielen voor eten en dineren",
+    "description": "Beslecht het eeuwenoude debat over \"wat moeten we eten?\" in enkele seconden met behulp van onze kant-en-klare voedselspinners.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates": {
+    "route": "/templates",
+    "type": "general",
+    "title": "Hub voor beslissingswielsjablonen | GameWheelClub",
+    "metaDescription": "Blader door tientallen gratis vooraf gemaakte beslissingswiel-sjablonen. Gecategoriseerd op hulpprogramma's voor eten, gezelschapsspellen en klaslokalen.",
+    "h1": "Beslissingswiel-sjablonen",
+    "description": "Bouw niet helemaal opnieuw. Selecteer één van onze vooraf geconfigureerde keuzelijsten en begin meteen met draaien!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/charades-ideas": {
+    "route": "/templates/party-games/charades-ideas",
+    "type": "wheel",
+    "title": "Charades-ideeënwiel | Willekeurige acteeronderwerpenkiezer",
+    "metaDescription": "Draai aan het Charades-wiel om willekeurige acteerideeën te krijgen: films, tv-shows, acties, dieren en beroemde mensen. Regel partygame-onderwerpen direct.",
+    "h1": "Charades Ideeënwiel",
+    "description": "Zit je vast met het bedenken van iets om uit te voeren? Draai aan het wiel om direct uw categorie of onderwerp te kiezen!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games": {
+    "route": "/templates/party-games",
+    "type": "general",
+    "title": "Party Games Wheel-sjablonen | GameWheelClub",
+    "metaDescription": "Blader door gratis beslissingswielen voor groepsspellen, groepsuitdagingen, trivia-onderwerpen en waarheid of durf-kaarten. Regel keuzes direct.",
+    "h1": "Partyspellen en ijsbrekers",
+    "description": "Zorg ervoor dat je volgende samenzijn-, feest- of klasspel binnen enkele seconden in beweging komt met deze kant-en-klare sjablonen.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/party-trivia": {
+    "route": "/templates/party-games/party-trivia",
+    "type": "wheel",
+    "title": "Party Trivia Onderwerpwiel | Willekeurige quizcategorieën",
+    "metaDescription": "Draai aan het triviawiel om willekeurige quizonderwerpen te kiezen: wetenschap, popcultuur, geschiedenis, sport en aardrijkskunde. Perfect voor spelavonden.",
+    "h1": "Party Trivia Categoriewiel",
+    "description": "Bepaal welke categorie je vervolgens wilt spelen tijdens familiequizavonden. Draai aan het triviawiel!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/truth-or-dare": {
+    "route": "/templates/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Waarheid of Durf Generator | Willekeurig keuzewiel",
+    "metaDescription": "Draai aan het Truth or Dare-wiel voor feest-ijsbrekers. Selecteer willekeurig Waarheid of Durf en laat groepen direct aan het praten zijn.",
+    "h1": "Truth or Dare Wheel Generator",
+    "description": "Breng leven op je volgende feestje of hang rond. Draai aan het wiel om te kiezen tussen Truth, Dare of Double Dare!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/would-you-rather": {
+    "route": "/templates/party-games/would-you-rather",
+    "type": "wheel",
+    "title": "Zou je liever rijden | Willekeurige partygamekiezer",
+    "metaDescription": "Draai aan het wiel van Zou je liever. Breng groepsgesprekken op gang met willekeurige hypothetische vraagkeuzes.",
+    "h1": "Zou je liever kiezen",
+    "description": "Moeilijke hypothesen oplossen of kiezen wie wat antwoordt. Draai aan het spelwiel!",
+    "options": [],
+    "faqs": []
+  },
+  "/terms": {
+    "route": "/terms",
+    "type": "general",
+    "title": "Servicevoorwaarden",
+    "metaDescription": "",
+    "h1": "Servicevoorwaarden",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/timer": {
+    "route": "/timer",
+    "type": "timer",
+    "title": "Online-timer | Gratis afteltimer",
+    "metaDescription": "Stel minuten en seconden in voor elke aftelling. Gratis, mooie en toegankelijke online timer met alarmmeldingen.",
+    "h1": "Online afteltimer",
+    "description": "Stel aangepaste afteltijden in voor studiesessies, vergaderingen of games en ontvang een duidelijk geluidsalarm na voltooiing.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/fortnite-challenges": {
+    "route": "/video-game-wheels/fortnite-challenges",
+    "type": "wheel",
+    "title": "Fortnite Challenges Wheel",
+    "metaDescription": "",
+    "h1": "Fortnite Challenges Wheel",
+    "description": "Draai om een ​​leuke uitdaging te voltooien tijdens je volgende Battle Royale-wedstrijd.",
+    "options": [
+      "Alleen pistolen winnen",
+      "Geen schilduitdaging",
+      "Alleen het eerste wapen dat je ziet",
+      "Geen bouwmatch (nulbuild)",
+      "Alleen landen op genoemde locaties",
+      "Pacifistische run (geen moorden)",
+      "Alleen mythische wapens",
+      "Skybase-uitdaging"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik dit doen met squadrons?",
+        "a": "Ja! Daag je hele team uit om de geselecteerde regel te volgen."
+      }
+    ]
+  },
+  "/video-game-wheels/league-of-legends-champions": {
+    "route": "/video-game-wheels/league-of-legends-champions",
+    "type": "wheel",
+    "title": "League of Legends Champions Wheel",
+    "metaDescription": "",
+    "h1": "League of Legends Champions Wheel",
+    "description": "Kies willekeurig een League-kampioen voor je volgende draft- of ARAM-game.",
+    "options": [
+      "Yasuo",
+      "Ahri",
+      "Lux",
+      "Jinx",
+      "Lee Sin",
+      "Thresh",
+      "Garen",
+      "Teemo",
+      "Ezreal",
+      "Zed",
+      "Katarina",
+      "Akali",
+      "Meester Yi",
+      "Darius",
+      "Ashe",
+      "Vayne",
+      "KaiSa",
+      "Ekko"
+    ],
+    "faqs": [
+      {
+        "q": "Ondersteunt het rijstroken?",
+        "a": "Je kunt opties aanpassen om kampioenen te groeperen op rol (Top, Midden, Jungle, ADC, Ondersteuning)."
+      }
+    ]
+  },
+  "/video-game-wheels/overwatch-2-characters": {
+    "route": "/video-game-wheels/overwatch-2-characters",
+    "type": "wheel",
+    "title": "Overwatch 2 karakterswiel",
+    "metaDescription": "",
+    "h1": "Overwatch 2 karakterswiel",
+    "description": "Selecteer een willekeurige tank-, schade- of ondersteuningsheld voor je volgende Overwatch-wedstrijd.",
+    "options": [
+      "Tracer",
+      "Reaper",
+      "Genji",
+      "Hanzo",
+      "Cassidy",
+      "Soldaat: 76",
+      "Widowmaker",
+      "Pharah",
+      "Mei",
+      "Bastion",
+      "Junkrat",
+      "Sombra",
+      "Doomfist",
+      "D.Va",
+      "Winston",
+      "Reinhardt",
+      "Roadhog",
+      "Zarya",
+      "Genade",
+      "Lucio",
+      "Ana",
+      "Kiriko",
+      "Lifeweaver",
+      "Illari",
+      "Juno"
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik filteren op rol?",
+        "a": "Ja, bewerk de lijst zodat deze alleen tanks, DPS of ondersteuningen bevat."
+      }
+    ]
+  },
+  "/video-game-wheels": {
+    "route": "/video-game-wheels",
+    "type": "general",
+    "title": "Randomizer-wielen voor videogames | GameWheelClub",
+    "metaDescription": "Draai om game-opstellingen, agenten, kampioenen, typen, uitdagingen en speelstijlen te kiezen. Omvat Valorant, LoL, Pokémon, Roblox en Fortnite.",
+    "h1": "Videogamewielen",
+    "description": "Draai om game-opstellingen, agenten, kampioenen, typen, uitdagingen en speelstijlen te kiezen. Omvat Valorant, LoL, Pokémon, Roblox en Fortnite.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/pokemon-types": {
+    "route": "/video-game-wheels/pokemon-types",
+    "type": "wheel",
+    "title": "Pokemon Types Wheel",
+    "metaDescription": "",
+    "h1": "Pokemon Types Wheel",
+    "description": "Draai om een ​​willekeurig Pokémon-type te selecteren. Perfect voor monotype-uitdagingsruns.",
+    "options": [
+      "Normaal",
+      "Vuur",
+      "Water",
+      "Gras",
+      "Elektrisch",
+      "IJs",
+      "Vechten",
+      "Gif",
+      "Grond",
+      "Vliegen",
+      "Psychisch",
+      "Insect",
+      "Steen",
+      "Geest",
+      "Draak",
+      "Staal",
+      "Donker",
+      "Fee"
+    ],
+    "faqs": [
+      {
+        "q": "Worden twee typen ondersteund?",
+        "a": "Draai twee keer aan het wiel om een ​​dubbele typcombinatie te krijgen."
+      }
+    ]
+  },
+  "/video-game-wheels/rainbow-six-operators": {
+    "route": "/video-game-wheels/rainbow-six-operators",
+    "type": "wheel",
+    "title": "Operatorwiel van Rainbow Six",
+    "metaDescription": "",
+    "h1": "Operatorwiel van Rainbow Six",
+    "description": "Draai om een ​​willekeurige aanvals- of verdedigingsoperator in Siege te kiezen.",
+    "options": [
+      "Slee",
+      "Thatcher",
+      "As",
+      "Thermite",
+      "Twitch",
+      "Montagne",
+      "Glaz",
+      "Fuze",
+      "Blitz",
+      "IQ",
+      "Buck",
+      "Zwartbaard",
+      "Capitao",
+      "Hibana",
+      "Rook",
+      "Dempen",
+      "Kasteel",
+      "Pulse",
+      "Doc",
+      "Rook",
+      "Kapkan",
+      "Tachanka",
+      "Jager",
+      "Bandiet",
+      "Frost",
+      "Valkyrie",
+      "Caveira",
+      "Echo"
+    ],
+    "faqs": [
+      {
+        "q": "Is er een scheiding tussen aanval en verdediging?",
+        "a": "Je kunt verdedigers verwijderen als je aanvalt, of beide behouden voor een volledige verrassing."
+      }
+    ]
+  },
+  "/video-game-wheels/roblox-games": {
+    "route": "/video-game-wheels/roblox-games",
+    "type": "wheel",
+    "title": "Roblox Games Wheel",
+    "metaDescription": "",
+    "h1": "Roblox Games Wheel",
+    "description": "Draai om een ​​leuk Roblox-spel te kiezen om te spelen als je je verveelt.",
+    "options": [
+      "Adopteer mij!",
+      "Blox Fruits",
+      "Brookhaven RP",
+      "Tower of Hell",
+      "Murder Mystery 2",
+      "Piggy",
+      "Royale High",
+      "Arsenal",
+      "Pet Simulator 99",
+      "BedWars"
+    ],
+    "faqs": [
+      {
+        "q": "Hoe voeg ik mijn favoriete spellen toe?",
+        "a": "Typ de gametitels in het optietekstvak en klik op Update."
+      }
+    ]
+  },
+  "/video-game-wheels/smash-bros-characters": {
+    "route": "/video-game-wheels/smash-bros-characters",
+    "type": "wheel",
+    "title": "Smash Bros-personageswiel",
+    "metaDescription": "",
+    "h1": "Smash Bros-personageswiel",
+    "description": "Maak je vechter willekeurig voor Super Smash Bros. Ultimate-gevechten.",
+    "options": [
+      "Mario",
+      "Donkey Kong",
+      "Link",
+      "Samus",
+      "Yoshi",
+      "Kirby",
+      "Fox",
+      "Pikachu",
+      "Luigi",
+      "Ness",
+      "Kapitein Falcon",
+      "Jigglypuff",
+      "Peach",
+      "Bowser",
+      "Zelda",
+      "Sheik",
+      "Marth",
+      "Mewtwo",
+      "Sonic",
+      "Steve",
+      "Sephiroth",
+      "Sora"
+    ],
+    "faqs": [
+      {
+        "q": "Worden alle DLC-tekens ondersteund?",
+        "a": "We bevatten top-DLC-personages zoals Steve en Sora. De rest kun je handmatig toevoegen."
+      }
+    ]
+  },
+  "/video-game-wheels/starter-pokemon": {
+    "route": "/video-game-wheels/starter-pokemon",
+    "type": "wheel",
+    "title": "Starter-Pokemon-wiel",
+    "metaDescription": "",
+    "h1": "Starter-Pokemon-wiel",
+    "description": "Kies een willekeurige starter-Pokémon van Gen 1 tot Gen 9 voor je volgende uitdaging.",
+    "options": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Chikorita",
+      "Cyndaquil",
+      "Totodile",
+      "Treecko",
+      "Torchic",
+      "Mudkip",
+      "Turtwig",
+      "Chimchar",
+      "Piplup",
+      "Snivy",
+      "Tepig",
+      "Oshawott",
+      "Chespin",
+      "Fennekin",
+      "Froakie",
+      "Rowlet",
+      "Litten",
+      "Popplio",
+      "Grookey",
+      "Scorbunny",
+      "Sobble",
+      "Sprigatito",
+      "Fuecoco",
+      "Quaxly"
+    ],
+    "faqs": [
+      {
+        "q": "Staat Pikachu op de lijst?",
+        "a": "Je kunt Pikachu of Eevee handmatig toevoegen als je Yellow/Let's Go!"
+      }
+    ]
+  },
+  "/video-game-wheels/valorant-agents": {
+    "route": "/video-game-wheels/valorant-agents",
+    "type": "wheel",
+    "title": "Valorant Agents Wheel",
+    "metaDescription": "",
+    "h1": "Valorant Agents Wheel",
+    "description": "Draai om een ​​willekeurige Valorant-agent te kiezen om in je volgende wedstrijd te spelen.",
+    "options": [
+      "Jett",
+      "Raze",
+      "Phoenix",
+      "Reyna",
+      "Yoru",
+      "Neon",
+      "Sage",
+      "Cypher",
+      "Killjoy",
+      "Chamber",
+      "Fade",
+      "Sova",
+      "Breach",
+      "Omen",
+      "Viper",
+      "Astra",
+      "Harbor",
+      "Gekko",
+      "Deadlock",
+      "Iso",
+      "Clove"
+    ],
+    "faqs": [
+      {
+        "q": "Is de agentlijst bijgewerkt?",
+        "a": "Ja, we nemen recente agenten op. Via de editor kun je nieuwe toevoegen."
+      }
+    ]
+  },
+  "/wheel-of-names": {
+    "route": "/wheel-of-names",
+    "type": "wheel",
+    "title": "Willekeurig naamkiezerwiel | Draai aan het rad van namen",
+    "metaDescription": "Kies een willekeurige naam uit een lijst. Perfect voor leraren, loterijen, spelletjes en weggeefacties. Bewaar namen en draai om direct te winnen.",
+    "h1": "Willekeurig naamkiezerwiel",
+    "description": "Moet je een leerling kiezen, een loterijwinnaar kiezen of een willekeurige vrijwilliger selecteren? Plak je lijst met namen hieronder en draai aan het wiel!",
+    "options": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "Dave",
+      "Eva",
+      "Frank",
+      "Grace"
+    ],
+    "faqs": []
+  },
+  "/yes-no-wheel": {
+    "route": "/yes-no-wheel",
+    "type": "wheel",
+    "title": "Ja of Nee Wiel | Draai voor directe antwoorden",
+    "metaDescription": "Draai aan het ja- of nee-wiel voor directe, onbevooroordeelde antwoorden op elke vraag. Gratis, interactieve en snelle beslissingskiezer.",
+    "h1": "Ja of Nee Wielspinner",
+    "description": "Stel een vraag, draai aan het wiel en krijg direct een onbevooroordeeld Ja of Nee antwoord!",
+    "options": [
+      "Ja",
+      "Nee",
+      "Ja",
+      "Nee",
+      "Ja",
+      "Nee"
+    ],
+    "faqs": []
+  }
+}

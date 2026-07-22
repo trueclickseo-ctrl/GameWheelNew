@@ -1,0 +1,2498 @@
+{
+  "/about": {
+    "route": "/about",
+    "type": "general",
+    "title": "Σχετικά με το GameWheelClub",
+    "metaDescription": "",
+    "h1": "Σχετικά με το GameWheelClub",
+    "description": "Διασκεδαστική, γρήγορη και εντελώς αμερόληπτη λήψη αποφάσεων.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/farm-animals-wheel": {
+    "route": "/animal-wheels/farm-animals-wheel",
+    "type": "wheel",
+    "title": "Τροχός με ζώα φάρμας",
+    "metaDescription": "",
+    "h1": "Τροχός ζώων φάρμας",
+    "description": "Περιστρέψτε για να διαλέξετε τυπικά ζώα αχυρώνας και φάρμας. Εξαιρετικό για μάθηση νηπίων.",
+    "options": [
+      "Γαλακτοκομική αγελάδα",
+      "Μάλλινα Πρόβατα",
+      "Ροζ Γουρούνι",
+      "Άλογο που καλπάζει",
+      "Κοτόπουλο",
+      "Παπιά που τσακίζει",
+      "Μπίλι Γκάατ",
+      "Χνουδωτό Λάμα",
+      "Σκύλος φάρμας"
+    ],
+    "faqs": [
+      {
+        "q": "Περιλαμβάνονται ήχοι;",
+        "a": "Το spinner παίζει έναν καθαρό ήχο, κάντε μόνοι σας τους θορύβους του ζώου για επιπλέον διασκέδαση!"
+      }
+    ]
+  },
+  "/animal-wheels": {
+    "route": "/animal-wheels",
+    "type": "general",
+    "title": "Τροχοί τυχαιοποίησης ζώων & φύσης | GameWheelClub",
+    "metaDescription": "Επιλέξτε τυχαία ζώα για παιχνίδια, εκπαίδευση και σχέδια. Περιστρέψτε τους τροχούς των ζώων για να ανακαλύψετε τι ζώο είστε ή επιλέξτε πλάσματα φάρμας.",
+    "h1": "Ζώα & Φύση",
+    "description": "Επιλέξτε τυχαία ζώα για παιχνίδια, εκπαίδευση και ζωγραφιές. Περιστρέψτε τους τροχούς των ζώων για να ανακαλύψετε τι ζώο είστε ή επιλέξτε πλάσματα φάρμας.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/random-animal-generator": {
+    "route": "/animal-wheels/random-animal-generator",
+    "type": "wheel",
+    "title": "Τροχός τυχαίας γεννήτριας ζώων",
+    "metaDescription": "",
+    "h1": "Τροχός γεννήτριας τυχαίων ζώων",
+    "description": "Περιστρέψτε για να πάρετε ένα τυχαίο άγριο ζώο. Προφορτωμένο με μεγαλειώδη κτήνη από τη στεριά και τη θάλασσα.",
+    "options": [
+      "Λιοντάρι",
+      "Τίγρη",
+      "Δελφίνι",
+      "Ελέφαντας",
+      "Καγκουρό",
+      "Πάντα",
+      "Πιγκουίνος",
+      "Λύκος",
+      "Αρκούδα Γκρίζλι",
+      "Χιμπατζής",
+      "Αετός",
+      "Τεμπελιά"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να προσθέσω έντομα ή δεινόσαυρους;",
+        "a": "Ναι, προσθέστε ζωύφια, πουλιά ή προϊστορικά θηρία στις επιλογές."
+      }
+    ]
+  },
+  "/animal-wheels/what-animal-are-you": {
+    "route": "/animal-wheels/what-animal-are-you",
+    "type": "wheel",
+    "title": "What Animal Are You Wheel",
+    "metaDescription": "",
+    "h1": "What Animal Are You Wheel",
+    "description": "Ανακαλύψτε την πνευματική ζωώδη προσωπικότητά σας με αυτόν τον διασκεδαστικό τροχό των πνευματικών ζώων.",
+    "options": [
+      "Μια σοφή κουκουβάγια",
+      "Μια πιστή Γκόλντεν Ριτρίβερ",
+      "Μια παιχνιδιάρικη γάτα",
+      "Ένα τεμπέλικο Πάντα",
+      "Ένας αετός στα ύψη",
+      "Ένα γρήγορο τσιτάχ",
+      "Μια ήρεμη θαλάσσια χελώνα",
+      "Μια πολυάσχολη μέλισσα",
+      "Ένα γενναίο λιοντάρι"
+    ],
+    "faqs": [
+      {
+        "q": "Βασίζεται στην επιστήμη;",
+        "a": "Όχι, αυτό είναι ένα διασκεδαστικό παιχνίδι προσωπικότητας σχεδιασμένο για ψυχαγωγία."
+      }
+    ]
+  },
+  "/anime-fandom-wheels/aesthetics-wheel": {
+    "route": "/anime-fandom-wheels/aesthetics-wheel",
+    "type": "wheel",
+    "title": "Αισθητική Τροχός | Spin for Fashion & Room Aesthetics | GameWheelClub",
+    "metaDescription": "Περιστρέψτε τον τροχό αισθητικής για να επιλέξετε ένα τυχαίο θέμα στυλ όπως Cottagecore, Vaporwave ή Dark Academia. Δωρεάν, διαδραστικό εργαλείο επιλογής στυλ.",
+    "h1": "Aesthetics Wheel Spinner",
+    "description": "Δεν είστε σίγουροι ποια ατμόσφαιρα μόδας να δοκιμάσετε στη συνέχεια ή πώς να διακοσμήσετε το δωμάτιό σας; Γυρίστε τον τροχό για να διεκδικήσετε το τυχαίο αισθητικό σας στυλ!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-characters": {
+    "route": "/anime-fandom-wheels/anime-characters",
+    "type": "wheel",
+    "title": "Τροχός χαρακτήρων anime | Περιστρέψτε τυχαίους χαρακτήρες Anime | GameWheelClub",
+    "metaDescription": "Περιστρέψτε το δωρεάν Anime Characters Wheel για να τυχαιοποιήσετε δημοφιλείς ήρωες και κακούς από κορυφαίες σειρές όπως DBZ, Naruto, One Piece, MHA και Demon Slayer.",
+    "h1": "Τροχός χαρακτήρων anime",
+    "description": "Τακτοποιήστε συζητήσεις anime, προσχέδια αντιστοιχιών χαρακτήρων ή επιλέξτε το επόμενο avatar σας περιστρέφοντας τον τροχό!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-to-watch": {
+    "route": "/anime-fandom-wheels/anime-to-watch",
+    "type": "wheel",
+    "title": "Anime to Watch Wheel | Τυχαία Γεννήτρια Anime | GameWheelClub",
+    "metaDescription": "Μπορεί",
+    "h1": "Anime to Watch Wheel",
+    "description": "Συγκλονισμένοι από την τεράστια λίστα παρακολούθησης σας; Γυρίστε τον τροχό και αφήστε τη μοίρα να επιλέξει την επόμενη σειρά anime σας!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/bfdi-contestants": {
+    "route": "/anime-fandom-wheels/bfdi-contestants",
+    "type": "wheel",
+    "title": "BFDI Contestants Wheel | Μάχη για το Dream Island Randomizer | GameWheelClub",
+    "metaDescription": "Περιστρέψτε το BFDI Contestants Wheel για να επιλέξετε τυχαία χαρακτήρες από το Battle for Dream Island. Δωρεάν, διαδραστικό και προσαρμόσιμο.",
+    "h1": "BFDI Contestants Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε έναν τυχαίο διαγωνιζόμενο από τη διαδικτυακή σειρά Battle for Dream Island!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/cartoon-characters": {
+    "route": "/anime-fandom-wheels/cartoon-characters",
+    "type": "wheel",
+    "title": "Τροχός χαρακτήρων κινουμένων σχεδίων | Spin Random Cartoons | GameWheelClub",
+    "metaDescription": "Περιστρέψτε τον τροχό χαρακτήρων κινουμένων σχεδίων για να επιλέξετε ένα τυχαίο εικονίδιο από κλασικές και μοντέρνες σειρές κινουμένων σχεδίων. Δωρεάν, διασκεδαστικό και προσαρμόσιμο εργαλείο επιλογής χαρακτήρων.",
+    "h1": "Τροχός χαρακτήρων κινουμένων σχεδίων",
+    "description": "Περιστρέψτε για να επιλέξετε χαρακτήρες από νοσταλγικούς κλασικούς, γίγαντες του Cartoon Network και αγαπημένους της Disney!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world": {
+    "route": "/anime-fandom-wheels/dandys-world",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Spin the Dandy",
+    "h1": "Dandy's World Character Wheel",
+    "description": "Δεν μπορείτε να αποφασίσετε ποιο toon θα παίξετε στο επόμενο Garden run σας; Γυρίστε τον τροχό για να κάνετε τυχαία την επιλογή σας!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-oc-generator": {
+    "route": "/anime-fandom-wheels/dandys-world-oc-generator",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Spin the Dandy",
+    "h1": "Τροχός γεννήτριας Dandy's World OC",
+    "description": "Απελευθερώστε τη δημιουργικότητά σας! Περιστρέψτε τον τροχό για να αντιστοιχίσετε τυχαία ένα αρχέτυπο, έναν ρόλο τάξης ή έναν περιορισμό σχεδίασης για το αρχικό σας Dandy's World toon.",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-trinkets": {
+    "route": "/anime-fandom-wheels/dandys-world-trinkets",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Spin the Dandy",
+    "h1": "Dandy's World Trinkets Wheel",
+    "description": "Δεν είστε σίγουροι ποια μπιχλιμπίδια να εξοπλίσετε για την επόμενη διαδρομή σας; Περιστρέψτε τον τροχό για να τυχαιοποιήσετε τη φόρτωσή σας!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/demon-slayer-characters": {
+    "route": "/anime-fandom-wheels/demon-slayer-characters",
+    "type": "wheel",
+    "title": "Τροχός χαρακτήρων δαιμονοκτόνων | Spin Random Demon Slayer | GameWheelClub",
+    "metaDescription": "Περιστρέψτε τον τροχό χαρακτήρων του Demon Slayer για να επιλέξετε έναν τυχαίο χαρακτήρα από το Kimetsu no Yaiba. Επιλέξτε Hashira, Slayers ή Demons αμέσως.",
+    "h1": "Τροχός χαρακτήρων Demon Slayer",
+    "description": "Περιστρέψτε για να επιλέξετε χαρακτήρες από το Kimetsu no Yaiba, συμπεριλαμβανομένων των core Slayers, των ελίτ Hashiras και των Upper Moon Demons!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/disney-movie-generator": {
+    "route": "/anime-fandom-wheels/disney-movie-generator",
+    "type": "wheel",
+    "title": "Disney Movie Generator Wheel | Περιστρέψτε μια τυχαία ταινία | GameWheelClub",
+    "metaDescription": "Περιστρέψτε το Disney Movie Generator Wheel για να επιλέξετε τυχαία μια κλασική ή μοντέρνα ταινία Disney/Pixar για την επόμενη οικογενειακή σας βραδιά. Δωρεάν και διαδραστικό.",
+    "h1": "Disney Movie Generator Wheel",
+    "description": "Δεν είστε σίγουροι για το κλασικό αριστούργημα της Disney ή το αριστούργημα της Pixar να παρακολουθήσετε; Γυρίστε τον τροχό και αφήστε το να διαλέξει!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dti-theme-wheel": {
+    "route": "/anime-fandom-wheels/dti-theme-wheel",
+    "type": "wheel",
+    "title": "Φόρεμα για να εντυπωσιάσει Θέμα Τροχό | Τυχαιοποιητής DTI | GameWheelClub",
+    "metaDescription": "Περιστρέψτε τον Τροχό με θέμα το Dress To Impress (DTI) για να επιλέξετε τυχαία μια πρόκληση στυλ μόδας ή ρούχων για την επόμενη πασαρέλα σας Roblox. Δωρεάν και διαδραστικό.",
+    "h1": "Dress To Impress (DTI) Theme Wheel",
+    "description": "Βαρεθήκατε τις τυπικές κατηγορίες διαδρόμου; Γυρίστε τον τροχό για να διεκδικήσετε μια τυχαία αισθητική μόδας για την επόμενη συνεδρία μόντελινγκ σας!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/fnaf-characters": {
+    "route": "/anime-fandom-wheels/fnaf-characters",
+    "type": "wheel",
+    "title": "Τροχός χαρακτήρων FNAF | Spin Random Animatronics | GameWheelClub",
+    "metaDescription": "Περιστρέψτε τον τροχό χαρακτήρων FNAF για να επιλέξετε ένα τυχαίο animatronic από το Five Nights at Freddy",
+    "h1": "FNAF Characters Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε ένα τυχαίο animatronic από το θρυλικό franchise τρόμου του Scott Cawthon!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jjk-cursed-techniques": {
+    "route": "/anime-fandom-wheels/jjk-cursed-techniques",
+    "type": "wheel",
+    "title": "JJK Cursed Techniques Wheel | Spin for Cursed Techniques | GameWheelClub",
+    "metaDescription": "Περιστρέψτε τον τροχό JJK Cursed Techniques για να επιλέξετε τυχαία ποια δύναμη Jujutsu Kaisen θα κληρονομούσατε. Δωρεάν, προσαρμόσιμο και διασκεδαστικό.",
+    "h1": "JJK Cursed Techniques Wheel",
+    "description": "Ποια κληρονομική τεχνική τρέχει στο αίμα σας; Περιστρέψτε τον τροχό για να διεκδικήσετε τη θρυλική σας τεχνική JJK!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jujutsu-kaisen-characters": {
+    "route": "/anime-fandom-wheels/jujutsu-kaisen-characters",
+    "type": "wheel",
+    "title": "Jujutsu Kaisen Characters Wheel | Spin Random JJK Sorcerer | GameWheelClub",
+    "metaDescription": "Περιστρέψτε τον τροχό χαρακτήρων Jujutsu Kaisen για να επιλέξετε τυχαία μάγους, καταραμένα πνεύματα ή χαρακτήρες μαθητών. Δωρεάν και διαδραστικός τυχαιοποιητής JJK.",
+    "h1": "Jujutsu Kaisen Characters Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε χαρακτήρες από το JJK, συμπεριλαμβανομένων των μαθητών του Τόκιο Jujutsu High, των ελίτ Μάγων και των Καταραμένων Πνευμάτων!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/marvel-superheroes": {
+    "route": "/anime-fandom-wheels/marvel-superheroes",
+    "type": "wheel",
+    "title": "Marvel Superheroes Wheel | Spin Random Avengers | GameWheelClub",
+    "metaDescription": "Περιστρέψτε τον τροχό Superheroes της Marvel για να επιλέξετε τυχαία έναν ήρωα από το Marvel Universe. Δωρεάν, προσαρμόσιμο και ιδανικό για τους λάτρεις των κόμικ και του MCU.",
+    "h1": "Marvel Superheroes Wheel",
+    "description": "Επιλέξτε έναν τυχαίο Avenger, μέλος X-Men ή ήρωα επιπέδου δρόμου από το τεράστιο σύμπαν της Marvel!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/mha-characters": {
+    "route": "/anime-fandom-wheels/mha-characters",
+    "type": "wheel",
+    "title": "MHA Characters Wheel | Spin Random My Hero Academia Characters | GameWheelClub",
+    "metaDescription": "Περιστρέψτε τον τροχό χαρακτήρων MHA για να επιλέξετε τυχαία ήρωες και κακούς από το My Hero Academia. Δωρεάν, προσαρμόσιμο και γρήγορο εργαλείο επιλογής χαρακτήρων.",
+    "h1": "MHA Characters Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε χαρακτήρες από το My Hero Academia, συμπεριλαμβανομένων των ηρώων Class 1-A και του League of Villains!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/naruto-characters": {
+    "route": "/anime-fandom-wheels/naruto-characters",
+    "type": "wheel",
+    "title": "Τροχός χαρακτήρων Naruto | Spin Random Naruto Ninja | GameWheelClub",
+    "metaDescription": "Περιστρέψτε τον τροχό χαρακτήρων Naruto για να επιλέξετε ένα τυχαίο shinobi από την Konoha ή το Akatsuki. Δωρεάν, διαδραστικός επιλογέας ninja.",
+    "h1": "Τροχός χαρακτήρων Naruto",
+    "description": "Περιστρέψτε για να επιλέξετε ninja από τις φυλές Hidden Leaf, Akatsuki ή ιστορικών shinobi!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-characters": {
+    "route": "/anime-fandom-wheels/one-piece-characters",
+    "type": "wheel",
+    "title": "One Piece Characters Wheel | Spin Random Pirates | GameWheelClub",
+    "metaDescription": "Περιστρέψτε το One Piece Characters Wheel για να επιλέξετε έναν τυχαίο πειρατή από το πλήρωμα Straw Hat, Yonko ή Marines. Δωρεάν, γρήγορο και προσαρμόσιμο.",
+    "h1": "One Piece Characters Wheel",
+    "description": "Σαλπάρετε στη Grand Line και περιστρέψτε τον τροχό για να επιλέξετε έναν τυχαίο χαρακτήρα από το αριστούργημα του Eiichiro Oda!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-devil-fruits": {
+    "route": "/anime-fandom-wheels/one-piece-devil-fruits",
+    "type": "wheel",
+    "title": "One Piece Devil Fruits Wheel | Spin for Devil Fruits | GameWheelClub",
+    "metaDescription": "Περιστρέψτε το One Piece Devil Fruits Wheel για να επιλέξετε τυχαία τη δύναμη του Devil Fruit που θα κληρονομούσατε στον κόσμο των anime. Δωρεάν και προσαρμόσιμο.",
+    "h1": "One Piece Devil Fruits Wheel",
+    "description": "Ποιο μυστικιστικό φρούτο θα καταναλώσετε; Περιστρέψτε τον τροχό για να διεκδικήσετε τη θρυλική πειρατική σας δύναμη!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels": {
+    "route": "/anime-fandom-wheels",
+    "type": "general",
+    "title": "Anime & Fandom Character Wheels | GameWheelClub",
+    "metaDescription": "Περιστρέψτε 19 δωρεάν fandom τροχούς απόφασης. Τυχαιοποιήστε χαρακτήρες anime, ταινίες της Disney, εικονίδια κινουμένων σχεδίων, FNAF animatronics και One Piece Devil Fruits.",
+    "h1": "Anime & Fandom Wheels",
+    "description": "Επιλέξτε την επόμενη λίστα παρακολούθησης, διευθετήστε αντιστοιχίσεις συζητήσεων ή επιλέξτε τυχαία φανατικούς χαρακτήρες χρησιμοποιώντας τις προκαθορισμένες επιλογές μας.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/best-icebreaker-games-for-work": {
+    "route": "/blog/best-icebreaker-games-for-work",
+    "type": "general",
+    "title": "Καλύτερα παιχνίδια παγοθραυστικού για δουλειά: Ενίσχυση εταιρικού δεσμού ομάδας",
+    "metaDescription": "Φοβάστε τους πρωινούς συγχρονισμούς; Ρίξτε μια ματιά σε αυτά τα γρήγορα, ενεργητικά εταιρικά παιχνίδια παγοθραυστικών, χρησιμοποιώντας τροχούς τυχαίας ονομασίας και spinners για να ξεκινήσετε τις συναντήσεις σας.",
+    "h1": "Ενεργειακά παγοθραυστικά στο χώρο εργασίας που δεν αισθάνονται τσακισμένοι",
+    "description": "Τρομερά εταιρικά παγοθραυστικά, συναντούν τη σύγχρονη τυχαιότητα. Μάθετε πώς να ξεκινήσετε stand-up και υβριδικές συναντήσεις με δραστηριότητες υψηλής ενέργειας που δημιουργούν πραγματικές συνδέσεις.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/classroom-incentive-rewards": {
+    "route": "/blog/classroom-incentive-rewards",
+    "type": "general",
+    "title": "Ανταμοιβές κινήτρων στην τάξη: Συστήματα δίκαιων κινήτρων",
+    "metaDescription": "Χάψτε τα χρυσά αστέρια! Μάθετε πώς να δημιουργείτε ένα διαδραστικό, τυχαίο σύστημα ανταμοιβής χρησιμοποιώντας περιστροφικούς τροχούς για να παρακινήσετε τους μαθητές και να διατηρήσετε τη δέσμευση σε υψηλά επίπεδα.",
+    "h1": "Δημιουργία καλύτερων ανταμοιβών κινήτρων στην τάξη",
+    "description": "Τα στατικά διαγράμματα συμπεριφοράς και τα αυτοκόλλητα χάνουν την αποτελεσματικότητά τους. Ανακαλύψτε πώς η προσθήκη δυναμικών παιχνιδιών και τυχαίων περιστρεφόμενων ανταμοιβών κρατά τους μαθητές με κίνητρα και θετική συμπεριφορά.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-generators-help-coding": {
+    "route": "/blog/how-generators-help-coding",
+    "type": "general",
+    "title": "Πώς οι τυχαίες γεννήτριες βοηθούν την κωδικοποίηση: Δοκιμές προγραμματιστών και κοροϊδία",
+    "metaDescription": "Εξερευνήστε πώς οι τυχαίες γεννήτριες βοηθούν τους προγραμματιστές λογισμικού στη δοκιμή κώδικα, τη δημιουργία εικονικών δεδομένων, την προσομοίωση UI/UX και το σχεδιασμό αλγορίθμων παιχνιδιών.",
+    "h1": "Πώς οι τυχαίες γεννήτριες αυξάνουν την κωδικοποίηση και τη δοκιμή",
+    "description": "Η τυχαιότητα είναι η μυστική σάλτσα του ισχυρού προγραμματισμού. Μάθετε πώς οι προγραμματιστές χρησιμοποιούν ψευδοτυχαίες γεννήτριες (PRNG) για τη δημιουργία ανθεκτικών συστημάτων, την προσομοίωση της κυκλοφορίας στον πραγματικό κόσμο και τις δοκιμαστικές περιπτώσεις.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-to-customize-spin-wheels": {
+    "route": "/blog/how-to-customize-spin-wheels",
+    "type": "general",
+    "title": "Πώς να προσαρμόσετε τους τροχούς περιστροφής για οποιαδήποτε περίσταση",
+    "metaDescription": "Μάθετε πώς να προσαρμόζετε τους τροχούς περιστροφής με προσαρμοσμένα χρώματα, ετικέτες, κατανομή βάρους και ηχητικά εφέ για να ταιριάζουν σε τάξεις, πάρτι ή επαγγελματικές εκδηλώσεις.",
+    "h1": "Πώς να προσαρμόσετε τους τροχούς περιστροφής για τις ανάγκες σας",
+    "description": "Ένας γενικός τροχός μπορεί να είναι βαρετός. Ανακαλύψτε πώς η προσαρμογή των χρωμάτων, η προσαρμογή των βαρών, η επιλογή ηχητικών εφέ και η δημιουργία θεματικών παλετών ανεβάζουν τις εκδηλώσεις, τα μαθήματα και τα δώρα σας.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/math-activities-using-random-generators": {
+    "route": "/blog/math-activities-using-random-generators",
+    "type": "general",
+    "title": "Δραστηριότητες μαθηματικών με χρήση τυχαίων γεννητριών: Διαδραστικές ιδέες",
+    "metaDescription": "Κάντε τα μαθηματικά διαδραστικά! Ανακαλύψτε 6 συναρπαστικές μαθηματικές δραστηριότητες, παιχνίδια πιθανοτήτων και ασκήσεις αριθμών χρησιμοποιώντας γεννήτριες τυχαίων αριθμών και ψηφιακά ζάρια.",
+    "h1": "Δραστηριότητες και παιχνίδια μαθηματικών με χρήση τυχαίων γεννητριών",
+    "description": "Τα μαθηματικά δεν χρειάζεται να είναι άθλημα θεατών. Ανακαλύψτε πώς να μετατρέψετε τις ασκήσεις αριθμητικής, τα στατιστικά και τη θεωρία πιθανοτήτων σε ενεργά, πρακτικά παιχνίδια χρησιμοποιώντας γεννήτριες τυχαίων αριθμών.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog": {
+    "route": "/blog",
+    "type": "general",
+    "title": "GameWheelClub Blog | Τυχαίες αποφάσεις, παιχνίδια και πληροφορίες εκπαίδευσης",
+    "metaDescription": "Διαβάστε τα πιο πρόσφατα άρθρα μας σχετικά με τη λήψη τυχαίων αποφάσεων, τα διαδραστικά πρότυπα παιχνιδιών στην τάξη, τις τεχνικές time-boxing και τις δραστηριότητες παγοθραυστικών πάρτι.",
+    "h1": "Insights, Guides & Productivity Hacks",
+    "description": "Διαβάστε συμβουλές από ειδικούς σχετικά με τη δημιουργία τάξεων παιχνιδιών, την εφαρμογή δομημένου time-boxing, την οργάνωση παιχνιδιών κοινωνικών πάρτι και τη ρύθμιση περιστρεφόμενων αποφάσεων.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/party-games-for-adults": {
+    "route": "/blog/party-games-for-adults",
+    "type": "general",
+    "title": "Διασκεδαστικά παιχνίδια πάρτι για ενήλικες: Διαδραστικές και Τυχαίες Ιδέες",
+    "metaDescription": "Αποφύγετε τις βαρετές συζητήσεις για το δείπνο! Εξερευνήστε 8 διαδραστικά και τυχαία παιχνίδια πάρτι για ενήλικες, συμπεριλαμβανομένων των spinners Truth or Dare, των παιχνιδιών με ζάρια και των προκλήσεων trivia.",
+    "h1": "Ανεβάστε τις συγκεντρώσεις σας με παιχνίδια για πάρτι για ενήλικες",
+    "description": "Κουραστήκατε από τα τυπικά επιτραπέζια παιχνίδια ή τις άβολες σιωπηλές παύσεις; Μάθετε πώς να ενσωματώνετε ψηφιακούς τροχούς περιστροφής και τυχαίες γεννήτριες για να φιλοξενήσετε μια αξέχαστη βραδιά παιχνιδιού.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/pomodoro-technique-for-students": {
+    "route": "/blog/pomodoro-technique-for-students",
+    "type": "general",
+    "title": "Τεχνική Pomodoro για μαθητές: Καλύτερη στρατηγική εστίασης",
+    "metaDescription": "Μάθετε πώς η τεχνική Pomodoro βοηθά τους μαθητές να βελτιώσουν την εστίαση, να ξεπεράσουν την αναβλητικότητα και να διαχειριστούν το χρόνο μελέτης με δομημένα διαστήματα και διαλείμματα.",
+    "h1": "Η τεχνική Pomodoro: Ένας οδηγός για πολυάσχολους μαθητές",
+    "description": "Δυσκολεύεστε να μελετήσετε για εξετάσεις χωρίς να ελέγχετε το τηλέφωνό σας κάθε πέντε λεπτά; Μάθετε πώς τα δομημένα διαστήματα μελέτης μπορούν να σας βοηθήσουν να εστιάσετε, να διατηρήσετε πληροφορίες και να μειώσετε την εξουθένωση.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-for-decision-making": {
+    "route": "/blog/spin-wheels-for-decision-making",
+    "type": "general",
+    "title": "Περιστρεφόμενοι τροχοί για τη λήψη αποφάσεων: Θεραπεία της παράλυσης αποφάσεων",
+    "metaDescription": "Παλεύετε με την υπερβολική σκέψη; Μάθετε πώς οι περιστρεφόμενοι τροχοί και οι γεννήτριες τυχαίων επιλογών απλοποιούν τη λήψη αποφάσεων, αφαιρούν το γνωστικό φορτίο και κάνουν την επιλογή διασκεδαστική.",
+    "h1": "Πώς το Spin Wheels θεραπεύει την καθημερινή παράλυση απόφασης",
+    "description": "Περάσατε ποτέ 45 λεπτά κάνοντας κύλιση στο Netflix μόνο και μόνο για να πάτε για ύπνο χωρίς να παρακολουθήσετε τίποτα; Αυτός είναι ο λόγος για τον οποίο το να αφήνουμε τις αποφάσεις χαμηλού πονταρίσματος σε έναν τυχαίο περιστρεφόμενο τροχό είναι το απόλυτο χακάρισμα παραγωγικότητας.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-in-modern-education": {
+    "route": "/blog/spin-wheels-in-modern-education",
+    "type": "general",
+    "title": "Spin Wheels in Modern Education: Gamify Classrooms",
+    "metaDescription": "Ενισχύστε τη συμμετοχή των μαθητών χρησιμοποιώντας περιστρεφόμενους τροχούς. Εξερευνήστε ενεργές ιδέες για την τάξη, κριτικές παιχνιδιών κουίζ και μεθόδους δίκαιης επιλογής χρησιμοποιώντας ψηφιακούς περιστρεφόμενους τροχούς.",
+    "h1": "Spin Wheels in Modern Education: Gamifying the Classroom",
+    "description": "Πώς ένας απλός, οπτικός επιλογέας ονομάτων μεταμορφώνει τα ποσοστά συμμετοχής των μαθητών, μειώνει το άγχος των εξετάσεων και χτίζει ένα περιβάλλον χωρίς αποκλεισμούς στο K-12 και στην τριτοβάθμια εκπαίδευση.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/time-boxing-to-prevent-burnout": {
+    "route": "/blog/time-boxing-to-prevent-burnout",
+    "type": "general",
+    "title": "Time Boxing για την πρόληψη της εξάντλησης: Στρατηγική ημερήσιου χρονοδιαγράμματος",
+    "metaDescription": "Μάθετε πώς το time boxing βοηθά στη διαχείριση του φόρτου εργασίας, στη δημιουργία σαφών ορίων επαγγελματικής και προσωπικής ζωής και στην πρόληψη της επαγγελματικής εξουθένωσης μέσω δομημένων χρονικών ορίων.",
+    "h1": "Πώς το Time Boxing αποτρέπει την επαγγελματική εξουθένωση",
+    "description": "Οι ώρες εργασίας σας αιμορραγούν μέχρι το βράδυ σας; Ανακαλύψτε πώς ο καθορισμός πλαισίων για τις δύσκολες ώρες για τις εργασίες σας μπορεί να ξαναχτίσει υγιή όρια, να ενισχύσει την απόδοση και να αποκαταστήσει την ψυχική ηρεμία.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/age-spinner": {
+    "route": "/character-creator/age-spinner",
+    "type": "wheel",
+    "title": "Age Spinner Wheel",
+    "metaDescription": "",
+    "h1": "Age Spinner Wheel",
+    "description": "Επιλέξτε τυχαία ηλικίες χαρακτήρων και στάδια ανάπτυξης.",
+    "options": [
+      "Παιδί (5-10)",
+      "Προ-έφηβος (11-12)",
+      "Έφηβος (13-17)",
+      "Νέος Ενήλικας (18-25)",
+      "Ενήλικας (26-45)",
+      "Μέσης ηλικίας (46-60)",
+      "Ηλικιωμένοι (60+)"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να ορίσω συγκεκριμένους αριθμούς;",
+        "a": "Ναι, γράψτε συγκεκριμένες ηλικίες όπως \\\"21 ετών\\\" ή \\\"84 ετών\\\" για να τελειοποιήσετε."
+      }
+    ]
+  },
+  "/character-creator/boy-or-girl-oc": {
+    "route": "/character-creator/boy-or-girl-oc",
+    "type": "wheel",
+    "title": "Αγόρι ή κορίτσι OC Spinner",
+    "metaDescription": "",
+    "h1": "Αγόρι ή κορίτσι OC Spinner",
+    "description": "Έχετε κολλήσει να αποφασίσετε την ταυτότητα φύλου του επόμενου χαρακτήρα σας; Περιστρέψτε τον δείκτη για να αποφασίσετε αμέσως.",
+    "options": [
+      "Αγόρι",
+      "Κορίτσι",
+      "Μη δυαδικό",
+      "Genderfluid",
+      "Agender"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να προσθέσω προσαρμοσμένες ταυτότητες φύλου;",
+        "a": "Ναι! Απλώς χρησιμοποιήστε τον πίνακα επεξεργασίας για να προσθέσετε, να αφαιρέσετε ή να μετονομάσετε τις επιλογές που ταιριάζουν με τον κόσμο των χαρακτήρων σας."
+      }
+    ]
+  },
+  "/character-creator/clothing-style": {
+    "route": "/character-creator/clothing-style",
+    "type": "wheel",
+    "title": "Τροχός στυλ ρούχων",
+    "metaDescription": "",
+    "h1": "Τροχός στυλ ρούχων",
+    "description": "Λάβετε ιδέες μόδας και αισθητική ρούχων για δημιουργούς χαρακτήρων.",
+    "options": [
+      "Casual Streetwear",
+      "Victorian Gothic",
+      "Futuristic Techwear",
+      "Παραδοσιακό κιμονό",
+      "Στολή γυμνασίου",
+      "Επίσημο σμόκιν/φόρεμα",
+      "Cyberpunk Rebel",
+      "Fantasy Armor"
+    ],
+    "faqs": [
+      {
+        "q": "Πώς μπορώ να συνδυάσω στυλ;",
+        "a": "Περιστρέψτε δύο φορές και συνδυάστε τα αποτελέσματα, όπως το Cyberpunk Victorian!"
+      }
+    ]
+  },
+  "/character-creator/create-an-oc": {
+    "route": "/character-creator/create-an-oc",
+    "type": "wheel",
+    "title": "Δημιουργία τροχού OC",
+    "metaDescription": "",
+    "h1": "Δημιουργία τροχού OC",
+    "description": "Περιστρέψτε αυτόν τον τροχό για να δημιουργήσετε ένα τυχαίο φόντο, αγώνα ή τάξη για τον επόμενο αρχικό σας χαρακτήρα.",
+    "options": [
+      "Warrior",
+      "Mage",
+      "Thief",
+      "Cleric",
+      "Elf",
+      "Dwarf",
+      "Orc",
+      "Demon",
+      "Angel",
+      "Cyborg",
+      "Alien"
+    ],
+    "faqs": [
+      {
+        "q": "Πώς μπορώ να επεκταθώ στην επιλεγμένη κατηγορία/φυλή;",
+        "a": "Μόλις επιλέξετε ένα αρχέτυπο, περιστρέψτε τους τροχούς για τα μαλλιά, τα μάτια και τα ρούχα για να δημιουργήσετε το πλήρες σχέδιο."
+      }
+    ]
+  },
+  "/character-creator/eye-color": {
+    "route": "/character-creator/eye-color",
+    "type": "wheel",
+    "title": "Τροχός χρώματος ματιών",
+    "metaDescription": "",
+    "h1": "Τροχός χρώματος ματιών",
+    "description": "Αποφασίστε άμεσα τις σκιές ματιών και τα φανταστικά στυλ ίριδας για το OC σας.",
+    "options": [
+      "Μπλε του Ωκεανού",
+      "Πράσινο Δάσος",
+      "Κεχριμπάρι Χρυσό",
+      "Κόκκινο Κόκκινο",
+      "Φουντούκι",
+      "Σκούρο Καφέ",
+      "Αμέθυστος Βιολετί",
+      "Ετεροχρωμία (Μπλε/Πράσινο)",
+      "Καθαρό Μαύρο"
+    ],
+    "faqs": [
+      {
+        "q": "Πώς αντιπροσωπεύω τα λαμπερά μάτια φαντασίας;",
+        "a": "Απλώς προσθέστε το \\\"(Glowing)\\\" σε οποιοδήποτε από τα χρώματα στον πίνακα επεξεργασίας."
+      }
+    ]
+  },
+  "/character-creator/gacha-character-generator": {
+    "route": "/character-creator/gacha-character-generator",
+    "type": "wheel",
+    "title": "Gacha Character Generator Wheel",
+    "metaDescription": "",
+    "h1": "Gacha Character Generator Wheel",
+    "description": "Περιστρέψτε για θέματα στυλ, αισθητική και ιδέες μόδας για να δημιουργήσετε τον επόμενο χαρακτήρα Gacha Life ή Gacha Club.",
+    "options": [
+      "Sweet Candy Style",
+      "Dark Goth Style",
+      "Steampunk Style",
+      "Retro Cyberpunk",
+      "Pastel Soft Girl",
+      "Sporty Chic",
+      "Royal Knight"
+    ],
+    "faqs": [
+      {
+        "q": "Λειτουργεί για το Gacha Club;",
+        "a": "Ναι, αυτά τα μηνύματα ταιριάζουν σε Gacha Life, Gacha Club και γενικά δημιουργούς avatar."
+      }
+    ]
+  },
+  "/character-creator/gender-randomizer": {
+    "route": "/character-creator/gender-randomizer",
+    "type": "wheel",
+    "title": "Gender Randomizer Wheel",
+    "metaDescription": "",
+    "h1": "Gender Randomizer Wheel",
+    "description": "Τυχαιοποιήστε τις αντωνυμίες, τις ταυτότητες φύλου και τα στυλ παρουσίασης.",
+    "options": [
+      "Αρσενικό",
+      "Θηλυκό",
+      "Μη δυαδικό",
+      "Androgynous",
+      "Genderqueer",
+      "Demiboy",
+      "Demigirl"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι προφορτωμένες οι αντωνυμίες;",
+        "a": "Μπορείτε να γράψετε προσαρμοσμένες αντωνυμίες δίπλα στα φύλα στο μενού επιλογών."
+      }
+    ]
+  },
+  "/character-creator/hair-color": {
+    "route": "/character-creator/hair-color",
+    "type": "wheel",
+    "title": "Τροχός χρώματος μαλλιών",
+    "metaDescription": "",
+    "h1": "Τροχός χρώματος μαλλιών",
+    "description": "Περιστρέψτε για να επιλέξετε μια τυχαία βαφή μαλλιών ή ένα χρώμα μαλλιών OC. Προγεμισμένο με φυσικούς τόνους και ζωηρές βαφές νέον.",
+    "options": [
+      "Καφέ",
+      "Μαύρο",
+      "Ξανθό",
+      "Τζίντζερ",
+      "Ξανθό Πλατινένιο",
+      "Πράσινο Νέον",
+      "Παστέλ Ροζ",
+      "Λιλά Μωβ",
+      "Κυανό Μπλε",
+      "Βαθύ Κόκκινο"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να προσθέσω πολύχρωμα στυλ;",
+        "a": "Οπωσδήποτε, γράψτε \\\"Split Dye (Pink/Blue)\\\" στη λίστα επιλογών για προσαρμοσμένα αποτελέσματα."
+      }
+    ]
+  },
+  "/character-creator/hair-style": {
+    "route": "/character-creator/hair-style",
+    "type": "wheel",
+    "title": "Τροχός στυλ μαλλιών",
+    "metaDescription": "",
+    "h1": "Τροχός στυλ μαλλιών",
+    "description": "Επιλέξτε ένα τυχαίο χτένισμα για φύλλα χαρακτήρων, σχέδια ή σχέδια μοντέλων.",
+    "options": [
+      "Short Pixie",
+      "Curly Bob",
+      "Long Waves",
+      "Side Undercut",
+      "Twin Pigtails",
+      "High Ponytail",
+      "Messy Bun",
+      "Spiky Anime",
+      "Afro Puff",
+      "Dreadlocks"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι κατάλληλο τόσο για άντρες όσο και για θηλυκούς χαρακτήρες;",
+        "a": "Ναι, όλα τα στυλ είναι unisex και ταιριάζουν σε οποιοδήποτε αρχέτυπο OC."
+      }
+    ]
+  },
+  "/character-creator/nationality-generator": {
+    "route": "/character-creator/nationality-generator",
+    "type": "wheel",
+    "title": "Εθνικότητα Generator Wheel",
+    "metaDescription": "",
+    "h1": "Nationality Generator Wheel",
+    "description": "Επιλέξτε τυχαία εθνικά υπόβαθρα και υπηκοότητες για παγκόσμιους χαρακτήρες.",
+    "options": [
+      "Αμερικανός",
+      "Ιάπωνας",
+      "Βρετανός",
+      "Βραζιλιάνος",
+      "Γαλλική",
+      "Γερμανική",
+      "Αυστραλιανή",
+      "Καναδική",
+      "Νοτιοκορεάτικη",
+      "Ινδική",
+      "Μεξικάνικη",
+      "Ισπανική"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να προσθέσω συγκεκριμένες περιοχές;",
+        "a": "Ναι, τροποποιήστε τη λίστα τροχών για να καθορίσετε πόλεις ή υποπεριοχές."
+      }
+    ]
+  },
+  "/character-creator": {
+    "route": "/character-creator",
+    "type": "general",
+    "title": "Character Creator & OC Wheel Generators | GameWheelClub",
+    "metaDescription": "Σχεδιάστε τυχαίους χαρακτήρες, OC και avatar άμεσα. Περιστρέψτε για χτενίσματα, ρούχα, μάτια, φύλα, τόνους δέρματος και ιδέες gacha.",
+    "h1": "Character Creator & OC Wheels",
+    "description": "Σχεδιάστε τυχαίους χαρακτήρες, OC και avatar άμεσα. Περιστρέψτε για χτενίσματα, ρούχα, μάτια, φύλα, τόνους δέρματος και ιδέες gacha.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/skin-tone": {
+    "route": "/character-creator/skin-tone",
+    "type": "wheel",
+    "title": "Skin Tone Wheel",
+    "metaDescription": "",
+    "h1": "Skin Tone Wheel",
+    "description": "Επιλέξτε τυχαίες αποχρώσεις δέρματος, υποτόνους και υφές πλασμάτων.",
+    "options": [
+      "Ωραίο ροδακινί",
+      "Ζεστό μπεζ",
+      "Χρυσή Ελιά",
+      "Πλούσιο Χάλκινο",
+      "Βαθύ Κακάο",
+      "Λευκό Αλάβαστρο",
+      "Απαλό Γκρι (Alien/Undead)",
+      "Μπλε νέον"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι ρυθμιζόμενη η παλέτα;",
+        "a": "Ναι, προσαρμόστε όλους τους δεκαεξαδικούς τόνους ή τα ονόματα στην περιοχή μαζικού κειμένου."
+      }
+    ]
+  },
+  "/compare/best-random-picker-tools": {
+    "route": "/compare/best-random-picker-tools",
+    "type": "general",
+    "title": "GameWheelClub vs. Wheel of Names vs. Wheel Decider vs. Tiny Decisions | Καλύτερα Εργαλεία Τυχαίας Επιλογής",
+    "metaDescription": "Διαβάστε την ολοκληρωμένη, αμερόληπτη σύγκριση των κορυφαίων εργαλείων επιλογής τυχαίων αποφάσεων: GameWheelClub, Wheel of Names, Wheel Decider και Tiny Decisions. Ανακαλύψτε το καλύτερο spinner για την τάξη, την εκδήλωση ή τις καθημερινές σας επιλογές.",
+    "h1": "Τα καλύτερα τυχαία εργαλεία επιλογής σε σύγκριση με",
+    "description": "Κολλήσατε μεταξύ GameWheelClub, Wheel of Names, Wheel Decider και Tiny Decisions; Αναλύουμε τα χαρακτηριστικά, το απόρρητο, το στυλ και το UX για να βρούμε τον απόλυτο τροχό επιλογής για εσάς.",
+    "options": [],
+    "faqs": []
+  },
+  "/contact": {
+    "route": "/contact",
+    "type": "general",
+    "title": "Επικοινωνήστε μαζί μας",
+    "metaDescription": "",
+    "h1": "Επικοινωνήστε μαζί μας",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/arrow-spin": {
+    "route": "/creative-wheels/arrow-spin",
+    "type": "wheel",
+    "title": "Τροχός περιστροφής βέλους",
+    "metaDescription": "",
+    "h1": "Τροχός περιστροφής βέλους",
+    "description": "Περιστρέψτε έναν δείκτη πυξίδας για να επιλέξετε μια τυχαία κύρια ή τακτική κατεύθυνση.",
+    "options": [
+      "Βόρεια ⬆️",
+      "Βορειοανατολικά ↗️",
+      "Ανατολικά ➡️",
+      "Νοτιοανατολικά ↘️",
+      "Νότια ⬇️",
+      "Νοτιοδυτικά ↙️",
+      "Δυτικά ⬅️",
+      "Βορειοδυτικά ↖️"
+    ],
+    "faqs": [
+      {
+        "q": "Λειτουργεί ως πυξίδα;",
+        "a": "Επιλέγει οδηγίες μαθηματικά, ενεργώντας ως τυχαίος οδηγός κατεύθυνσης."
+      }
+    ]
+  },
+  "/creative-wheels/drawing-idea-wheel": {
+    "route": "/creative-wheels/drawing-idea-wheel",
+    "type": "wheel",
+    "title": "Drawing Idea Wheel",
+    "metaDescription": "",
+    "h1": "Drawing Idea Wheel",
+    "description": "Δημιουργήστε παράξενα, χαριτωμένα και αστεία μηνύματα για το επόμενο σκίτσο σας.",
+    "options": [
+      "Μια γάτα με καπέλο μάγου",
+      "Ένα φουτουριστικό cyberpunk cafe",
+      "Ένα δεντρόσπιτο που επιπλέει στο διάστημα",
+      "Ένας μεσαιωνικός ιππότης καβαλάει μια χελώνα",
+      "Ένας χαριτωμένος δράκος που ψήνει μπισκότα",
+      "Ένα ανθοπωλείο ρομπότ steampunk"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι καλό για προκλήσεις σχεδίασης ταχύτητας;",
+        "a": "Ναι, γυρίστε μια προτροπή και ρυθμίστε ένα χρονόμετρο 5 λεπτών!"
+      }
+    ]
+  },
+  "/creative-wheels/movie-picker": {
+    "route": "/creative-wheels/movie-picker",
+    "type": "wheel",
+    "title": "Movie Picker Wheel",
+    "metaDescription": "",
+    "h1": "Movie Picker Wheel",
+    "description": "Επιλύστε τι θα παρακολουθήσετε απόψε περιστρέφοντας τα είδη ταινιών.",
+    "options": [
+      "Action Blockbuster",
+      "Sci-Fi Thriller",
+      "Comedy Night",
+      "Romantic Drama",
+      "Spooky Horror",
+      "Mind-bending Mystery",
+      "Historical Epic",
+      "Animated Classic",
+      "Indie Masterpiece"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να προσθέσω συγκεκριμένους τίτλους ταινιών;",
+        "a": "Ναι! Αντικαταστήστε τα είδη με τα πραγματικά ονόματα της λίστας παρακολούθησης στο πρόγραμμα επεξεργασίας."
+      }
+    ]
+  },
+  "/creative-wheels/music-genre-wheel": {
+    "route": "/creative-wheels/music-genre-wheel",
+    "type": "wheel",
+    "title": "Τροχός Είδος Μουσικής",
+    "metaDescription": "",
+    "h1": "Τροχός Είδος Μουσικής",
+    "description": "Περιστρέψτε για να επιλέξετε ποιο στυλ μουσικής θα παίξετε ή θα ερευνήσετε.",
+    "options": [
+      "Synthwave / Lo-Fi",
+      "Classic Rock & Roll",
+      "Hip Hop δεκαετίας του '90",
+      "Neo-Classical Piano",
+      "Modern Pop",
+      "Smooth Jazz",
+      "Indie Folk & Acoustic",
+      "Heavy Metal / Hard Rock",
+      "Electronic Dance Music"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να προσθέσω συγκεκριμένους καλλιτέχνες;",
+        "a": "Ναι, εισαγάγετε τους αγαπημένους σας τραγουδιστές ή συγκροτήματα στο πρόγραμμα επεξεργασίας."
+      }
+    ]
+  },
+  "/creative-wheels": {
+    "route": "/creative-wheels",
+    "type": "general",
+    "title": "Creative & Entertainment Decision Wheels | GameWheelClub",
+    "metaDescription": "Ξεκλειδώστε τη δημιουργική έμπνευση αμέσως. Περιστρέψτε για να επιλέξετε ένα είδος ταινίας ή ένα εργαλείο επιλογής, λάβετε τυχαίες ιδέες σχεδίασης, περιστρέψτε έναν δείκτη βέλους ή λάβετε μηνύματα προτροπής για βιβλία TBR.",
+    "h1": "Δημιουργικό & Ψυχαγωγία",
+    "description": "Ξεκλειδώστε τη δημιουργική έμπνευση αμέσως. Περιστρέψτε για να επιλέξετε ένα είδος ταινίας ή ένα εργαλείο επιλογής, λάβετε τυχαίες ιδέες σχεδίασης, περιστρέψτε έναν δείκτη βέλους ή λάβετε μηνύματα προτροπής για βιβλία TBR.",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/tbr-prompts": {
+    "route": "/creative-wheels/tbr-prompts",
+    "type": "wheel",
+    "title": "TBR Prompts Wheel",
+    "metaDescription": "",
+    "h1": "TBR Prompts Wheel",
+    "description": "Επιλέξτε την επόμενη επιλογή ανάγνωσης βιβλίων χρησιμοποιώντας τις προτροπές To-Be-Read (TBR).",
+    "options": [
+      "Ένα βιβλίο με μπλε εξώφυλλο",
+      "Ένα βιβλίο που το πρότεινε ένας φίλος",
+      "Ένα βιβλίο που βρίσκεται στο ράφι σας πάνω από 1 χρόνο",
+      "Ένα θρίλερ ή μυστήριο",
+      "Ένα βιβλίο από μια γυναίκα συγγραφέα",
+      "Ένα βιβλίο με ένα ζώο μέσα"
+    ],
+    "faqs": [
+      {
+        "q": "Υποστηρίζει λίστες Goodreads;",
+        "a": "Αντιγράψτε-επικολλήστε τίτλους απευθείας από τις λίστες ανάγνωσης για εξατομικευμένες επιλογές."
+      }
+    ]
+  },
+  "/decision-wheel": {
+    "route": "/decision-wheel",
+    "type": "wheel",
+    "title": "Τροχός τυχαίας απόφασης | Περιστρέψτε τον τροχό της επιλογής",
+    "metaDescription": "Εισαγάγετε τις προσαρμοσμένες επιλογές σας, περιστρέψτε τον τροχό απόφασης και επιλύστε τις επιλογές αμέσως. Εντελώς δωρεάν, προσαρμόσιμος και αμερόληπτος δημιουργός επιλογών.",
+    "h1": "Τροχός τυχαίας απόφασης",
+    "description": "Δεν μπορείτε να επιλέξετε μεταξύ επιλογών δείπνου, θέσεων διακοπών ή έργων εργασίας; Προσαρμόστε τις φέτες και περιστρέψτε!",
+    "options": [
+      "Ναι",
+      "Όχι",
+      "Ίσως",
+      "Ρωτήστε έναν φίλο",
+      "Γυρίστε ξανά",
+      "Sleep On It"
+    ],
+    "faqs": []
+  },
+  "/dice-roller": {
+    "route": "/dice-roller",
+    "type": "dice-roller",
+    "title": "Ζάρια Roller | Ρίξτε εικονικά ζάρια σε απευθείας σύνδεση",
+    "metaDescription": "Ρίξτε 1, 2 ή 3 εικονικά ζάρια αμέσως. Ιδανικό για επιτραπέζια παιχνίδια, στατιστικά, μαθήματα πιθανοτήτων και τυχαίες αποφάσεις.",
+    "h1": "Virtual Dice Roller",
+    "description": "Χάσατε τα ζάρια του επιτραπέζιου παιχνιδιού; Ρίξτε έως και τρία εικονικά ζάρια με ρεαλιστικές διατάξεις κουκκίδων και κινούμενα σχέδια.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/bulk-edit": {
+    "route": "/features/bulk-edit",
+    "type": "general",
+    "title": "Μαζική επεξεργασία & εισαγωγή λίστας | GameWheelClub Tools",
+    "metaDescription": "Μάθετε πώς να εισάγετε και να επεξεργάζεστε χιλιάδες αντικείμενα αμέσως. Εξερευνήστε την ανάλυση συμβολοσειρών, τη συμβατότητα CSV και τις μηχανές υγιεινής λίστας που οδηγούν το GameWheelClub",
+    "h1": "Μαζική επεξεργασία & εισαγωγή λίστας: Διαχείριση μεγάλων συνόλων δεδομένων",
+    "description": "Η μη αυτόματη εισαγωγή είναι αργή. Ανακαλύψτε πώς το GameWheelClub σάς επιτρέπει να επικολλήσετε, να μορφοποιήσετε και να απολυμάνετε εκατοντάδες καταχωρήσεις λίστας από το Excel, τα Φύλλα Google ή το απλό κείμενο σε ένα μόνο δευτερόλεπτο.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/custom-colors": {
+    "route": "/features/custom-colors",
+    "type": "general",
+    "title": "Προσαρμοσμένα Χρώματα & Θέματα Νεοβρουταλιστών | GameWheelClub",
+    "metaDescription": "Προσαρμόστε τα χρώματα, την τυπογραφία και το στυλ των τροχών απόφασής σας. Μάθετε πώς τα νεομπρουταλιστικά σχέδια, η προσβάσιμη αντίθεση και οι παλέτες CSS τροφοδοτούν τα οπτικά εργαλεία του GameWheelClub.",
+    "h1": "Προσαρμοσμένα Χρώματα & Θέματα Νεομπρουταλισμού: Στυλ στις αποφάσεις σας",
+    "description": "Απελευθερώστε τη δημιουργικότητά σας. Ρυθμίστε προσαρμοσμένα χρώματα, εφαρμόστε ρετρό προεπιλογές και αξιοποιήστε προσβάσιμα θέματα υψηλής αντίθεσης σχεδιασμένα για δασκάλους, παρουσιαστές και παίκτες.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/elimination-mode": {
+    "route": "/features/elimination-mode",
+    "type": "general",
+    "title": "Λειτουργία εξάλειψης | Εξαντλητική Επιλογή Επιλογής | GameWheelClub",
+    "metaDescription": "Μάθετε πώς η Λειτουργία Κατάργησης μετατρέπει τους τυπικούς τροχούς απόφασης σε διαδραστικά συστήματα κληρώσεων και διαδοχικούς πίνακες σχεδίασης αφαιρώντας τους νικητές σε κάθε περιστροφή.",
+    "h1": "Κατάργηση: Η Φυσική της Εξαντλητικής Επιλογής Νικητή",
+    "description": "Εξαλείψτε τα διπλότυπα, επιλέξτε πολλούς διαφορετικούς νικητές ή περιορίστε μια τεράστια λίστα επιλογών χρησιμοποιώντας τη λογική δυναμικής αφαίρεσης τμημάτων.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/local-storage": {
+    "route": "/features/local-storage",
+    "type": "general",
+    "title": "Τοπική αποθήκευση και απόρρητο δεδομένων | Λειτουργίες GameWheelClub",
+    "metaDescription": "Μάθετε πώς το GameWheelClub χρησιμοποιεί το εγγενές πρόγραμμα περιήγησης localStorage για να αποθηκεύει τους τροχούς, τα ονόματα και τα πρότυπά σας εκτός σύνδεσης. Διαβάστε για την αρχιτεκτονική απορρήτου δεδομένων μηδενικού διακομιστή.",
+    "h1": "Local Storage & Offline-First Design: Privacy-First Architecture",
+    "description": "Οι λίστες, οι επιλογές και οι τροχοί σας είναι μόνο δικές σας. Ανακαλύψτε πώς αποθηκεύουμε δεδομένα διαμόρφωσης απευθείας στο πρόγραμμα περιήγησής σας, επιτρέποντας τη φόρτωση μηδενικού λανθάνοντος χρόνου και την πλήρη λειτουργικότητα εκτός σύνδεσης.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/sound-effects": {
+    "route": "/features/sound-effects",
+    "type": "general",
+    "title": "Ηχητικά εφέ & συνθεσάιζερ | GameWheelClub",
+    "metaDescription": "Μάθετε πώς η διαδικαστική δημιουργία ήχου και το Web Audio API του προγράμματος περιήγησης δημιουργούν υψηλής πιστότητας, διαδραστικά και αποκριτικά εφέ ήχου ρετρό για τα εργαλεία GameWheelClub.",
+    "h1": "Ηχητικά εφέ: Η τεχνολογία του Διαδικαστικού Ήχου Ιστού",
+    "description": "Ανακαλύψτε πώς χρησιμοποιούμε καθαρά μαθηματικά και γεννήτριες synth εγγενείς στο πρόγραμμα περιήγησης για να δημιουργήσουμε ευχάριστα, απτικά κλικ και ήχους φανφάρων που μιμούνται μηχανικούς τροχούς.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/weighted-wheel": {
+    "route": "/features/weighted-wheel",
+    "type": "general",
+    "title": "Ζυγισμένοι τροχοί απόφασης | Spinners με βάση πιθανότητες | GameWheelClub",
+    "metaDescription": "Εξερευνήστε τα μαθηματικά και τη λογική των σταθμισμένων τροχών απόφασης. Μάθετε πώς η κατανομή πιθανοτήτων, τα αθροιστικά βάρη και η επιλογή ρουλέτας τροφοδοτούν τους τροχούς προσαρμοσμένης επιλογής.",
+    "h1": "Ζυγισμένοι τροχοί απόφασης: Τα μαθηματικά και η λογική της προσαρμοσμένης πιθανότητας",
+    "description": "Δεν δημιουργούνται όλες οι επιλογές ίσες. Ανακαλύψτε πώς το GameWheelClub σάς επιτρέπει να εκχωρείτε συγκεκριμένες τιμές βάρους σε αντικείμενα, μεταβάλλοντας την ισορροπία της τύχης με αυστηρή μαθηματική ακρίβεια.",
+    "options": [],
+    "faqs": []
+  },
+  "/flip-a-coin": {
+    "route": "/flip-a-coin",
+    "type": "flip-a-coin",
+    "title": "Γυρίστε ένα κέρμα | Online Heads or Tails Generator",
+    "metaDescription": "Αναστρέψτε ένα εικονικό νόμισμα στο διαδίκτυο. Μια απλή, στιγμιαία γεννήτρια αποφάσεων heads or tails με κινούμενα σχέδια εμπνευσμένα από 3D.",
+    "h1": "Περάστε ένα κέρμα στο Διαδίκτυο",
+    "description": "Δεν μπορείτε να διευθετήσετε ένα απλό επιχείρημα; Γυρίστε ένα εικονικό νόμισμα και αφήστε την πιθανότητα να αποφασίσει αμέσως!",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/dessert": {
+    "route": "/food-wheels/dessert",
+    "type": "wheel",
+    "title": "Τροχός επιδορπίου",
+    "metaDescription": "",
+    "h1": "Τροχός επιδορπίου",
+    "description": "Περιστρέψτε για μια ιδέα γλυκιάς απόλαυσης. Καλύπτει κέικ, πίτες και ψημένα μπισκότα.",
+    "options": [
+      "Κέικ σοκολάτας",
+      "Παγωτό βανίλια",
+      "Ζεστή μηλόπιτα",
+      "Μπισκότα με φρέσκα ψημένα τσιπ σοκολάτας",
+      "Cheesecake φράουλας",
+      "Γλασέ Ντόνατς",
+      "Κρέμα Μπρουλέ",
+      "Brownie Sundae"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι αυτές οι συνταγές;",
+        "a": "Αυτές είναι κατηγορίες γλυκών επιδορπίων που θα εμπνεύσουν την επόμενη απόφαση ψησίματος ή παραγγελίας."
+      }
+    ]
+  },
+  "/food-wheels/fast-food-restaurants": {
+    "route": "/food-wheels/fast-food-restaurants",
+    "type": "wheel",
+    "title": "Εστιατόρια γρήγορου φαγητού Wheel",
+    "metaDescription": "",
+    "h1": "Εστιατόρια φαστ φουντ Τροχός",
+    "description": "Περιστρέψτε για να επιλέξετε ανάμεσα σε δημοφιλείς αλυσίδες φαστ φουντ για ένα γρήγορο γεύμα.",
+    "options": [
+      "McDonalds",
+      "Burger King",
+      "Wendys",
+      "Subway",
+      "Taco Bell",
+      "KFC",
+      "Popeyes",
+      "Chick-fil-A",
+      "Dominos",
+      "Pizza Hut",
+      "Starbucks",
+      "Dunkin"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να το προσαρμόσω σε κοντινά καταστήματα;",
+        "a": "Ναι, αφαιρέστε τις αλυσίδες που δεν είναι διαθέσιμες στην πόλη σας."
+      }
+    ]
+  },
+  "/food-wheels/fruit": {
+    "route": "/food-wheels/fruit",
+    "type": "wheel",
+    "title": "Τροχός φρούτων",
+    "metaDescription": "",
+    "h1": "Τροχός φρούτων",
+    "description": "Περιστρέψτε για να επιλέξετε ένα υγιεινό φρούτο για φαγητό.",
+    "options": [
+      "Κόκκινο Μήλο",
+      "Μπανάνα",
+      "Γλυκιά φράουλα",
+      "Ζουμερό πορτοκάλι",
+      "Μύρτιλλα",
+      "Πράσινα σταφύλια",
+      "Φέτα καρπούζι",
+      "Φρέσκος ανανάς",
+      "Ροδάκινο",
+      "Μάνγκο"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να προσθέσω τροπικά φρούτα;",
+        "a": "Ναι! Προσθέστε dragonfruit, ακτινίδιο ή παπάγια στις επιλογές."
+      }
+    ]
+  },
+  "/food-wheels": {
+    "route": "/food-wheels",
+    "type": "general",
+    "title": "Food Decider & Dinner Wheel Spinners | GameWheelClub",
+    "metaDescription": "Μπορεί",
+    "h1": "Food Wheels",
+    "description": "Δεν μπορείτε να συμφωνήσετε για μεσημεριανό γεύμα, δείπνο ή σνακ; Περιστρέψτε τους τροχούς τροφίμων για να επιλέξετε έναν τυχαίο τύπο εστιατορίου, αλυσίδα φαστ φουντ, γλυκό επιδόρπιο ή υγιεινό σνακ.",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/snacks": {
+    "route": "/food-wheels/snacks",
+    "type": "wheel",
+    "title": "Snacks Wheel",
+    "metaDescription": "",
+    "h1": "Snacks Wheel",
+    "description": "Επιλέξτε ένα τυχαίο υγιεινό σνακ ή αλμυρή σακούλα με τσιπ.",
+    "options": [
+      "Τσιπς πατάτας",
+      "Μπάρα σοκολάτας",
+      "Φέτες μήλου με φυστικοβούτυρο",
+      "ανάμεικτοι ξηροί καρποί",
+      "Ελληνικό γιαούρτι",
+      "Popcorn",
+      "Pretzels",
+      "Cheese Stick",
+      "Granola Bar"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να προσθέσω περιορισμούς στη διατροφή;",
+        "a": "Ναι, προσθέστε κετο, βίγκαν ή σνακ χωρίς γλουτένη στο μενού."
+      }
+    ]
+  },
+  "/food-wheels/what-to-eat": {
+    "route": "/food-wheels/what-to-eat",
+    "type": "wheel",
+    "title": "What to Eat Wheel",
+    "metaDescription": "",
+    "h1": "What to Eat Wheel",
+    "description": "Λύστε τη συζήτηση για το δείπνο αμέσως επιλέγοντας μια τυχαία κουζίνα.",
+    "options": [
+      "Πίτσα",
+      "Tacos & Μεξικάνικα",
+      "Burgers & Fries",
+      "Sushi & Japanese",
+      "Pasta & Italian",
+      "Thai Curry",
+      "Indian Masala",
+      "Healthy Salad",
+      "Sandwiches & Deli"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να προσθέσω τοπικά εστιατόρια;",
+        "a": "Ναι! Αντικαταστήστε τις γενικές κουζίνες με τα τοπικά σας μέρη στο προσαρμοσμένο πρόγραμμα επεξεργασίας."
+      }
+    ]
+  },
+  "/for-business": {
+    "route": "/for-business",
+    "type": "general",
+    "title": "Εργαλεία τυχαίας απόφασης για επιχειρήσεις | GameWheelClub",
+    "metaDescription": "Βελτιώστε τις συναντήσεις και τις αλληλεπιδράσεις της ομάδας με τυχαιοποιητές και χρονοδιακόπτες. Τακτοποιήστε την παραγγελία του παρουσιαστή, τα προσχέδια εργασιών και τα παγοθραυστικά της ομάδας φιλοξενίας.",
+    "h1": "Εργαλεία τυχαίας επιλογής για επιχειρήσεις",
+    "description": "Τακτοποιήστε την εντολή συνάντησης ομάδας, σχεδιάστε εργασίες, διαχειριστείτε μπλοκ σπριντ και σπάστε τον πάγο με γρήγορες ψηφιακές βοηθητικές εφαρμογές.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-events": {
+    "route": "/for-events",
+    "type": "general",
+    "title": "Εργαλεία τυχαίας επιλογής για εκδηλώσεις και πάρτι | GameWheelClub",
+    "metaDescription": "Διοργανώστε αξέχαστα πάρτι, δώρα και κοινωνικές εκδηλώσεις. Τακτοποιήστε ομαδικά παιχνίδια, περιστρέψτε για τους νικητές της λοταρίας και επιλέξτε θέματα ασήμαντα πράγματα αμέσως.",
+    "h1": "Εργαλεία τυχαίας επιλογής για εκδηλώσεις",
+    "description": "Φέρτε ενθουσιασμό και ενέργεια στο επόμενο πάρτι, κοινωνική συνάντηση ή διαδικτυακή κλήρωση με προκατασκευασμένους επιλογείς εκδηλώσεων.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-teachers": {
+    "route": "/for-teachers",
+    "type": "general",
+    "title": "Εργαλεία Τυχαίας Απόφασης για Εκπαιδευτικούς | GameWheelClub",
+    "metaDescription": "Ανακαλύψτε δωρεάν τροχούς περιστροφής και εργαλεία χρονοδιακόπτη για διαχείριση της τάξης. Επιλέξτε τυχαίους μαθητές, επιλέξτε θέματα και απονείμετε δίκαια προνόμια.",
+    "h1": "Εργαλεία Τυχαίας Επιλογής για Καθηγητές",
+    "description": "Παικοποιήστε τα μαθήματά σας και κάντε τη συμμετοχή 100% δίκαιη. Περιστρέψτε τυχαίους τροχούς για να επιλέξετε εθελοντές, να ορίσετε ομάδες ομάδων και να επιλέξετε θέματα μαθημάτων.",
+    "options": [],
+    "faqs": []
+  },
+  "/games": {
+    "route": "/games",
+    "type": "general",
+    "title": "Random Choice Game Wheels Hub | GameWheelClub",
+    "metaDescription": "Εξερευνήστε διασκεδαστικούς, διαδραστικούς και προκατασκευασμένους τροχούς παιχνιδιού τυχαιοποιητή. Τακτοποιήστε άμεσα προσχέδια ομάδων, συζητήσεις για φανατικούς οπαδούς, δημιουργία χαρακτήρων και προκλήσεις πάρτι.",
+    "h1": "Randomizer Game Wheels",
+    "description": "Διαδραστικοί προκαθορισμένοι τροχοί σχεδιασμένοι για αθλήματα, προσομοιωτές πρόχειρων παιχνιδιών, fandom, παγοθραυστικά πάρτι και δημιουργικούς τυχαιοποιητές.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/alphabet-wheel": {
+    "route": "/generators/alphabet-wheel",
+    "type": "wheel",
+    "title": "Alphabet Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Alphabet Wheel Spinner",
+    "description": "Περιστρέψτε για να επιλέξετε ένα τυχαίο γράμμα από το Α έως το Ω.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "faqs": [
+      {
+        "q": "Does it contain foreign characters?",
+        "a": "You can add accents (like É, Ö, Ñ) in the custom menu."
+      }
+    ]
+  },
+  "/generators/color-wheel": {
+    "route": "/generators/color-wheel",
+    "type": "wheel",
+    "title": "Color Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Color Wheel Spinner",
+    "description": "Περιστρέψτε για να επιλέξετε έναν τυχαίο εξαγωνικό κώδικα χρώματος για σχέδια ή επιλογές.",
+    "options": [
+      "Κόκκινο (#EF4444)",
+      "Μπλε (#3B82F6)",
+      "Πράσινο (#10B981)",
+      "Κίτρινο (#F59E0B)",
+      "Μωβ (#8B5CF6)",
+      "Ροζ (#EC4899)",
+      "Πορτοκαλί (#F97_8Teal_6) Συμβατό με CSS;",
+      "Ναι, οι δεκαεξαδικές τιμές παρατίθενται δίπλα στα ονόματα χρωμάτων."
+    ],
+    "faqs": [
+      {
+        "q": "Are colors CSS-compatible?",
+        "a": "Yes, hex values are listed alongside color names."
+      }
+    ]
+  },
+  "/generators/number-wheel": {
+    "route": "/generators/number-wheel",
+    "type": "wheel",
+    "title": "Number Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Number Wheel Spinner",
+    "description": "Ρυθμιζόμενος τροχός σειράς αριθμών. Αντικαθιστά τις τυπικές παραλλαγές περιστρεφόμενου τυχαίου αριθμού.",
+    "options": [],
+    "faqs": [
+      {
+        "q": "Πόσο ψηλά μπορεί να φτάσει το εύρος;",
+        "a": "Μπορείτε να το ρυθμίσετε έως και 100 ή υψηλότερο, αν και οι αριθμοί κάτω από το 50 αποδίδονται καλύτερα στην οθόνη."
+      }
+    ]
+  },
+  "/generators": {
+    "route": "/generators",
+    "type": "general",
+    "title": "Random Generator Wheels & Math Pickers | GameWheelClub",
+    "metaDescription": "Περιστρέψτε καθαρά μαθηματικές και βοηθητικές γεννήτριες αποφάσεων. Περιλαμβάνει τον προσαρμόσιμο τροχό αριθμών, τη γεννήτρια εξάγωνων χρωμάτων, τον τροχό τοις εκατό και τον περιστρεφόμενο αλφάβητο.",
+    "h1": "Τυχαίες Γεννήτριες",
+    "description": "Περιστρέψτε γεννήτριες καθαρών μαθηματικών και χρηστικών αποφάσεων. Περιλαμβάνει τον προσαρμόσιμο τροχό αριθμών, τη γεννήτρια εξάγωνων χρωμάτων, τον τροχό τοις εκατό και τον περιστρεφόμενο αλφάβητο.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/percent-wheel": {
+    "route": "/generators/percent-wheel",
+    "type": "wheel",
+    "title": "Percent Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Percent Wheel Spinner",
+    "description": "Περιστρέψτε για να λάβετε μια τυχαία ποσοστιαία τιμή μεταξύ 10% και 100%.",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+      "50%",
+      "60%",
+      "70%",
+      "80%",
+      "95%",
+      "100%"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να προσθέσω μικρότερα βήματα;",
+        "a": "Ναι, προσθέστε βήματα όπως \\\"1%\\\", \\\"5%\\\" ή \\\"99%\\\" στο πρόγραμμα επεξεργασίας."
+      }
+    ]
+  },
+  "/generators/periodic-table-picker": {
+    "route": "/generators/periodic-table-picker",
+    "type": "wheel",
+    "title": "Επιλογέας Περιοδικού Πίνακα",
+    "metaDescription": "",
+    "h1": "Επιλογέας Περιοδικού Πίνακα",
+    "description": "Περιστρέψτε για να επιλέξετε ένα τυχαίο χημικό στοιχείο από τον περιοδικό πίνακα.",
+    "options": [
+      "Υδρογόνο (H)",
+      "Ήλιο (He)",
+      "Λίθιο (Li)",
+      "Βηρύλλιο (Be)",
+      "Βόριο (B)",
+      "Άνθρακας (C)",
+      "Άζωτο (N)",
+      "Οξυγόνο (Ο)",
+      "Φθόριο (F)",
+      "Νέον (Ne)",
+      "Αέριο Νάτριο (N) περιλαμβάνεται;",
+      "Ναι, περιλαμβάνονται ήλιο και νέον. Προσθέστε περισσότερα βαριά στοιχεία όπως χρειάζεται."
+    ],
+    "faqs": [
+      {
+        "q": "Are noble gases included?",
+        "a": "Yes, helium and neon are included. Add more heavy elements as needed."
+      }
+    ]
+  },
+  "/geography-wheels/64-country-roulette": {
+    "route": "/geography-wheels/64-country-roulette",
+    "type": "wheel",
+    "title": "64 Country Roulette",
+    "metaDescription": "",
+    "h1": "64 Country Roulette",
+    "description": "Ο απόλυτος τροχός ρουλέτας 64 χωρών για προκλήσεις και αγκύλες gaming.",
+    "options": [
+      "ΗΠΑ",
+      "Καναδάς",
+      "Μεξικό",
+      "Βραζιλία",
+      "Αργεντινή",
+      "UK",
+      "Γαλλία",
+      "Γερμανία",
+      "Ιταλία",
+      "Ισπανία",
+      "Ρωσία",
+      "Αίγυπτος",
+      "Νότια Αφρική",
+      "Νιγηρία",
+      "Κένυα",
+      "Ινδία",
+      "Κίνα",
+      "Ιαπωνία",
+      "Νότια Κορέα",
+      "Αυστραλία",
+      "New Zealand",
+      "Saudi Arabia",
+      "Σουηδία",
+      "Νορβηγία",
+      "Ολλανδία",
+      "Ελβετία",
+      "Πολωνία",
+      "Ουκρανία",
+      "Βιετνάμ",
+      "Ταϊλάνδη",
+      "Ινδονησία",
+      "Φιλιππίνες",
+      "Κολομβία",
+      "Περού",
+      "Χιλή",
+      "Βενεζουέλα",
+      "Μαρόκο",
+      "Γκάνα",
+      "Ιράν",
+      "Ghana",
+      "Ethiopia",
+      "Pakistan",
+      "_ Ισραήλ",
+      "Σιγκαπούρη",
+      "Μαλαισία",
+      "Νέα Ζηλανδία",
+      "Πορτογαλία",
+      "Αυστρία",
+      "Δανία",
+      "Φινλανδία",
+      "Ιρλανδία",
+      "Βέλγιο",
+      "Τσεχία",
+      "Ουγγαρία",
+      "Ρουμανία",
+      "Κούβα",
+      "Τζαμάικα",
+      "Κόστα Ρίκα",
+      "Παναμάς",
+      "Είναι δύσκολο να διαβάσει ο Ισημερινός",
+      "Costa Rica",
+      "Panama",
+      "Στριφογυρίζει καθαρά! Μπορείτε να αλλάξετε τις προβολές λίστας για να ελέγξετε ξανά το τελικό αποτέλεσμα.",
+      "Bolivia"
+    ],
+    "faqs": [
+      {
+        "q": "Is it hard to read 64 slices?",
+        "a": "It spins cleanly! You can toggle list views to double-check the final result."
+      }
+    ]
+  },
+  "/geography-wheels/country-wheel": {
+    "route": "/geography-wheels/country-wheel",
+    "type": "wheel",
+    "title": "Country Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Country Wheel Spinner",
+    "description": "Επιλέξτε μια τυχαία χώρα σε όλο τον κόσμο για ασήμαντα στοιχεία, περιοχές τυχερών παιχνιδιών ή έργα.",
+    "options": [
+      "Ηνωμένες Πολιτείες",
+      "Ιαπωνία",
+      "Βραζιλία",
+      "Γερμανία",
+      "Αυστραλία",
+      "Καναδάς",
+      "Ινδία",
+      "Νότια Αφρική",
+      "Ηνωμένο Βασίλειο",
+      "Γαλλία",
+      "Ιταλία",
+      "Κίνα",
+      "Αίγυπτος",
+      "Μεξικό",
+      "Ρωσία",
+      "Αργεντινή"
+    ],
+    "faqs": [
+      {
+        "q": "Περιλαμβάνονται όλες οι χώρες;",
+        "a": "Αυτός ο τροχός διαθέτει μια ισορροπημένη επιλογή μεγάλων παγκόσμιων εθνών. Επεξεργαστείτε για να προσθέσετε οποιαδήποτε συγκεκριμένη χώρα."
+      }
+    ]
+  },
+  "/geography-wheels/europe-countries": {
+    "route": "/geography-wheels/europe-countries",
+    "type": "wheel",
+    "title": "Europe Countries Wheel",
+    "metaDescription": "",
+    "h1": "Europe Countries Wheel",
+    "description": "Επιλέξτε τυχαία μια ευρωπαϊκή χώρα για ταξιδιωτικά σχέδια ή εκπαιδευτική έρευνα.",
+    "options": [
+      "Ηνωμένο Βασίλειο",
+      "Γαλλία",
+      "Γερμανία",
+      "Ιταλία",
+      "Ισπανία",
+      "Ολλανδία",
+      "Βέλγιο",
+      "Ελβετία",
+      "Αυστρία",
+      "Σουηδία",
+      "Νορβηγία",
+      "Δανία",
+      "Φινλανδία",
+      "Ιρλανδία",
+      "Πορτογαλία",
+      "Ελλάδα",
+      "Πολωνία",
+      "Τσεχία είναι όπως η Vatic"
+    ],
+    "faqs": [
+      {
+        "q": "Are microstates like Vatican City on it?",
+        "a": "Μπορείτε να προσθέσετε το Μονακό, την Ανδόρα ή τον Άγιο Μαρίνο με μη αυτόματο τρόπο στις επιλογές."
+      }
+    ]
+  },
+  "/geography-wheels": {
+    "route": "/geography-wheels",
+    "type": "general",
+    "title": "Γεωγραφία & Country Wheel Spinners | GameWheelClub",
+    "metaDescription": "Περιστρέψτε για να επιλέξετε τυχαίες χώρες, πολιτείες των ΗΠΑ, ευρωπαϊκά έθνη ή εκτελέστε την πρόκληση της ρουλέτας 64 χωρών. Ιδανικό για γεωγραφικά στοιχεία και ταξιδιωτικό προγραμματισμό.",
+    "h1": "Γεωγραφικοί τροχοί",
+    "description": "Περιστρέψτε για να επιλέξετε τυχαίες χώρες, πολιτείες των ΗΠΑ, ευρωπαϊκά έθνη ή εκτελέστε την πρόκληση της ρουλέτας 64 χωρών. Ιδανικό για γεωγραφικά στοιχεία και ταξιδιωτικό προγραμματισμό.",
+    "options": [],
+    "faqs": []
+  },
+  "/geography-wheels/us-states": {
+    "route": "/geography-wheels/us-states",
+    "type": "wheel",
+    "title": "US States Wheel",
+    "metaDescription": "",
+    "h1": "US States Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε από τις 50 πολιτείες της Αμερικής τυχαία.",
+    "options": [
+      "Καλιφόρνια",
+      "Τέξας",
+      "Φλόριντα",
+      "Νέα Υόρκη",
+      "Ιλινόις",
+      "Πενσυλβάνια",
+      "Οχάιο",
+      "Τζόρτζια",
+      "Βόρεια Καρολίνα",
+      "Μίσιγκαν",
+      "Ουάσιγκτον",
+      "Αριζόνα",
+      "Μασαχουσέτη",
+      "Βιρτζίνια",
+      "Κολοράντο",
+      "Τενεσί"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι προφορτωμένες και οι 50 πολιτείες;",
+        "a": "Αυτή η προεπιλογή περιλαμβάνει κύριες καταστάσεις. Μπορείτε να αντιγράψετε και να επικολλήσετε την πλήρη λίστα των 50 καταστάσεων στο πλαίσιο Μαζική επεξεργασία σε δευτερόλεπτα."
+      }
+    ]
+  },
+  "/guides/classroom-spin-wheel-ideas": {
+    "route": "/guides/classroom-spin-wheel-ideas",
+    "type": "general",
+    "title": "Ιδέες Classroom Spin Wheel: Διαδραστικές διδακτικές στρατηγικές",
+    "metaDescription": "Ενισχύστε τη συμμετοχή των μαθητών με 15 δημιουργικές ιδέες περιστρεφόμενου τροχού στην τάξη. Μάθετε πώς να εκτελείτε δίκαιες κληρώσεις ονομάτων, να αναθέτετε εργασίες και να παίζετε μαθήματα με τυχαίους τροχούς.",
+    "h1": "15 Creative Classroom Spin Wheel Ideas",
+    "description": "Μετατρέψτε την παθητική ακρόαση σε ενεργητική, ενεργητική συμμετοχή. Ανακαλύψτε δομημένες, δοκιμασμένες στο πεδίο στρατηγικές περιστρεφόμενου τροχού για να παιχνιδοποιήσετε τα μαθήματα, να διανείμετε θέσεις εργασίας και να κρατήσετε κάθε μαθητή στην άκρη της θέσης του.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/decision-making-methods": {
+    "route": "/guides/decision-making-methods",
+    "type": "general",
+    "title": "Μέθοδοι Λήψης Αποφάσεων: Πλαίσια, Ευρετικά & Τυχαιοποίηση",
+    "metaDescription": "Εξερευνήστε δομημένα πλαίσια λήψης αποφάσεων. Από το Matrix του Eisenhower μέχρι τα αναλυτικά μοντέλα και τα εργαλεία τυχαιοποιημένης επιλογής, ανακαλύψτε πώς να νικήσετε την κόπωση των επιλογών.",
+    "h1": "Ένα Masterclass στις Μεθόδους Λήψης Αποφάσεων",
+    "description": "Θα πρέπει να αναλύσετε, να εμπιστευτείτε το ένστικτό σας ή να αναθέσετε στην πιθανότητα; Μάθετε τα επίσημα μοντέλα της θεωρίας των επιλογών, τις γνωστικές προκαταλήψεις και πώς να ξέρετε πότε να αφήσετε ένα κέρμα να ξεπεράσει το αποτέλεσμα.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/how-random-wheels-work": {
+    "route": "/guides/how-random-wheels-work",
+    "type": "general",
+    "title": "Πώς λειτουργούν οι τυχαίοι τροχοί: Μαθηματικά, αλγόριθμοι και φυσική",
+    "metaDescription": "Βουτήξτε βαθιά στην επιστήμη πίσω από εικονικούς τροχούς περιστροφής. Εξερευνήστε τις γεννήτριες ψευδοτυχαίων αριθμών (PRNG), τη φυσική της επιβράδυνσης τριβής και την αλγοριθμική δικαιοσύνη.",
+    "h1": "Πίσω από το γύρισμα: Πώς λειτουργούν πραγματικά οι τυχαίοι τροχοί",
+    "description": "Αναρωτηθήκατε ποτέ πώς ένας εικονικός τροχός υπολογίζει τον νικητή του; Ανακαλύψτε τα μαθηματικά των γεννητριών ψευδοτυχαίων αριθμών, τις εξισώσεις της προσομοιωμένης τριβής και τις αρχές προγραμματισμού που εγγυώνται μια αμερόληπτη επιλογή.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/icebreaker-games-guide": {
+    "route": "/guides/icebreaker-games-guide",
+    "type": "general",
+    "title": "Οδηγός παιχνιδιών Icebreaker: Team-Building & Virtual Meetups",
+    "metaDescription": "Μάθετε πώς να φιλοξενείτε παιχνίδια παγοθραυστικών υψηλής ενέργειας. Ανακαλύψτε δημιουργικά spinners, προτροπές ερωτήσεων και στρατηγικές δημιουργίας ομάδας για φυσικές και εικονικές ομάδες.",
+    "h1": "The Ultimate Guide to Icebreaker Games",
+    "description": "Κουραστήκατε από τις αμήχανες σιωπές σε συναντήσεις ομάδας ή κοινωνικές εκδηλώσεις; Μάθετε την επιστήμη της θραύσης του πάγου, πώς να δημιουργήσετε μια κοινωνική ατμόσφαιρα χαμηλής πίεσης και πώς να χρησιμοποιήσετε αποτελεσματικά τα τυχαία παιχνίδια.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/productivity-timeboxing": {
+    "route": "/guides/productivity-timeboxing",
+    "type": "general",
+    "title": "Productivity Timeboxing: The Ultimate Guide to Time Blocks",
+    "metaDescription": "Μάθετε πώς να χρησιμοποιείτε τις τεχνικές timeboxing και Pomodoro για να τονώσετε την εστίαση. Καταπολεμήστε το Parkinson",
+    "h1": "Timeboxing: Conquer Distractions with Strict Limits",
+    "description": "Γιατί μια εργασία διαρκεί τρεις ώρες όταν σας δίνεται προθεσμία τριών ωρών, αλλά μόνο τριάντα λεπτά όταν σας πιέζει ο χρόνος; Ανακαλύψτε πώς να αξιοποιήσετε το νόμο του Πάρκινσον και τα συστήματα χρονομετρητή παιχνιδιών για να ανακτήσετε τον έλεγχο της ημέρας σας.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/random-giveaway-rules": {
+    "route": "/guides/random-giveaway-rules",
+    "type": "general",
+    "title": "Κανόνες τυχαίας προσφοράς και οδηγίες νομικής συμμόρφωσης",
+    "metaDescription": "Μείνετε συμμορφωμένοι όταν εκτελείτε διαδικτυακά δώρα. Κατανοήστε τους νόμους των κληρώσεων, τον κανόνα της μη απαραίτητης αγοράς και τις οδηγίες πλατφόρμας για δίκαιους διαγωνισμούς.",
+    "h1": "Πώς να εκτελέσετε τυχαία δώρα νόμιμα και δίκαια",
+    "description": "Λαχεία, διαγωνισμούς ή λοταρίες; Η πλοήγηση στους νόμους των διαφημιστικών κληρώσεων είναι απαραίτητη για την προστασία της επωνυμίας σας και τον σεβασμό του κοινού σας. Μάθετε τους κανόνες συμμόρφωσης με τυχαία επιλογή.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/spin-wheel-psychology": {
+    "route": "/guides/spin-wheel-psychology",
+    "type": "general",
+    "title": "The Psychology of Spin Wheels: Suspense, Rewards & Choices",
+    "metaDescription": "Εξερευνήστε τα ψυχολογικά ερεθίσματα πίσω από τους τροχούς περιστροφής. Κατανοήστε πώς η κούραση, η προσμονή και οι οπτικές ανταμοιβές κάνουν τους τυχαιοποιημένους επιλογείς τόσο ελκυστικούς.",
+    "h1": "Spin Wheel Psychology: Why We Love the Spin",
+    "description": "Τι κάνει έναν περιστρεφόμενο τροχό αντικειμένων τόσο ακαταμάχητο; Ανακαλύψτε τους νευρικούς μηχανισμούς της προσμονής, την ανακούφιση των επιλογών εκφόρτωσης και τα παιχνιδοποιημένα σχέδια σχεδίασης που τραβούν την προσοχή μας.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/unbiased-selection-importance": {
+    "route": "/guides/unbiased-selection-importance",
+    "type": "general",
+    "title": "Η σημασία της αμερόληπτης επιλογής: Δικαιοσύνη και στατιστικά",
+    "metaDescription": "Ανακαλύψτε γιατί η αμερόληπτη επιλογή είναι ζωτικής σημασίας. Εξερευνήστε τα μαθηματικά των δίκαιων επιλογών, των γνωστικών προκαταλήψεων στους ανθρώπινους επιλογείς και των πραγματικών εφαρμογών ταξινόμησης.",
+    "h1": "Γιατί έχει σημασία η αμερόληπτη επιλογή",
+    "description": "Η ανθρώπινη επιλογή είναι γεμάτη από σιωπηρές γνωστικές προκαταλήψεις. Εξερευνήστε πώς τα τυχαία μαθηματικά προστατεύουν τα στατιστικά στοιχεία, αποκαθιστούν τη δικαιοσύνη, εγγυώνται την εκπαιδευτική ισότητα και οικοδομούν εμπιστοσύνη.",
+    "options": [],
+    "faqs": []
+  },
+  "/": {
+    "route": "/",
+    "type": "wheel",
+    "title": "Spin the Wheel of Decisions",
+    "metaDescription": "",
+    "h1": "Spin the Wheel of Decisions",
+    "description": "Δεν μπορείτε να αποφασίσετε; Εισαγάγετε τις επιλογές σας, γυρίστε τον τροχό και αφήστε τη μοίρα να αποφασίσει αμέσως! Γρήγορα, δίκαια και διασκεδαστικά.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/adult-truth-or-dare": {
+    "route": "/party-games/adult-truth-or-dare",
+    "type": "wheel",
+    "title": "Adult Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Adult Truth or Dare Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε μπαχαρικά, ώριμα μυστικά και προκλητικά τόλμη. Περιλαμβάνεται παρενθετική διαφήμιση με περιορισμό ηλικίας.",
+    "options": [
+      "Αλήθεια: Ποια είναι η μυστική σου φαντασίωση;",
+      "Τολμήστε: Κάντε ένα αισθησιακό μασάζ στο άτομο δίπλα σας",
+      "Αλήθεια: Πείτε στην ομάδα την πιο ενοχλητική ρομαντική σας συνάντηση",
+      "Τόλμησε: Ψιθυρίστε κάτι προκλητικό στο αυτί κάποιου"
+    ],
+    "faqs": [
+      {
+        "q": "Απαιτεί εγγραφή;",
+        "a": "Δεν απαιτείται εγγραφή ή λογαριασμοί. Χρησιμοποιούμε μια απλή πύλη επαλήθευσης ηλικίας για την προστασία των ανηλίκων."
+      }
+    ]
+  },
+  "/party-games/charades-topics": {
+    "route": "/party-games/charades-topics",
+    "type": "wheel",
+    "title": "Charades Topics Wheel",
+    "metaDescription": "",
+    "h1": "Charades Topics Wheel",
+    "description": "Λάβετε ξεκαρδιστικά και δημιουργικά θέματα για οικογενειακά παιχνίδια charades.",
+    "options": [
+      "Μιμηθείτε έναν T-Rex που τρώει",
+      "Προσποιηθείτε ότι είστε ένα κακόβουλο ρομπότ",
+      "Παίξτε γκολφ",
+      "Μιμηθείτε το μαγείρεμα ενός χοτ-ντογκ",
+      "Προσποιηθείτε ότι περπατάτε στον πάγο",
+      "Συμπεριφέρεστε σαν αστροναύτης που επιπλέει"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι δύσκολα τα θέματα;",
+        "a": "Είναι ισορροπημένα για να τα απολαμβάνουν τόσο τα παιδιά όσο και οι ενήλικες."
+      }
+    ]
+  },
+  "/party-games/extreme-truth-or-dare": {
+    "route": "/party-games/extreme-truth-or-dare",
+    "type": "wheel",
+    "title": "Extreme Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Extreme Truth or Dare Wheel",
+    "description": "Περιστροφή για εξαιρετικά απαιτητικές, έντονες και τρελές αλήθειες και τόλμη.",
+    "options": [
+      "Αλήθεια: Απατήσατε ποτέ σε ένα τεστ;",
+      "Τολμήστε: Καλέστε μια τυχαία επαφή και τραγουδήστε χρόνια πολλά",
+      "Αλήθεια: Ποια είναι η μεγαλύτερη λύπη σας;",
+      "Τολμήστε: Αφήστε την ομάδα να δημοσιεύσει μια ιστορία στο Instagram σας"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι ασφαλείς για εκτέλεση;",
+        "a": "Ναι, είναι ασφαλή αλλά άκρως διασκεδαστικά. Πάντα να παραλείπετε ό,τι τολμάτε να νιώθετε άβολα."
+      }
+    ]
+  },
+  "/party-games/funny-dares": {
+    "route": "/party-games/funny-dares",
+    "type": "wheel",
+    "title": "Funny Dares Wheel",
+    "metaDescription": "",
+    "h1": "Funny Dares Wheel",
+    "description": "Αποκτήστε ανόητες, απλές και αστείες σωματικές προκλήσεις.",
+    "options": [
+      "Μιλήστε με βρετανική προφορά για 3 γύρους",
+      "Κάντε την καλύτερη εντύπωση κοτόπουλου",
+      "Ισορροπήστε ένα κουτάλι στη μύτη σας",
+      "Φέρτε σαν δράμα βασίλισσα",
+      "Μιλήστε με ένα φυτό εσωτερικού χώρου για 1 λεπτό"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορούν αυτά τα τόλμη να γίνουν σε εσωτερικούς χώρους;",
+        "a": "Ναι, όλα τα τόλμη έχουν σχεδιαστεί για να εκτελούνται με ασφάλεια στο εσωτερικό."
+      }
+    ]
+  },
+  "/party-games": {
+    "route": "/party-games",
+    "type": "general",
+    "title": "Τροχοί πάρτι & κοινωνικών παιχνιδιών | GameWheelClub",
+    "metaDescription": "Διαδραστικοί τροχοί για κοινωνικές εκδηλώσεις, βραδιές ύπνου και πάρτι. Spin for Truth or Dare ερωτήσεις, Spin the Bottle, Charades και αστείες προκλήσεις.",
+    "h1": "Party & Social Games",
+    "description": "Διαδραστικοί τροχοί για κοινωνικές εκδηλώσεις, βραδιές ύπνου και πάρτι. Spin for Truth or Dare ερωτήσεις, Spin the Bottle, Charades και αστείες προκλήσεις.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/punishment-wheel": {
+    "route": "/party-games/punishment-wheel",
+    "type": "wheel",
+    "title": "Τροχός τιμωρίας",
+    "metaDescription": "",
+    "h1": "Τροχός τιμωρίας",
+    "description": "Περιστρέψτε για να εκχωρήσετε ανόητες δουλειές, καταπέσεις ή ποινές για τους ηττημένους επιτραπέζιων παιχνιδιών.",
+    "options": [
+      "Αγοράστε σνακ για όλους",
+      "Κάνετε τα πιάτα",
+      "Τραγουδήστε ένα τραγούδι που επέλεξε η ομάδα",
+      "Δημοσιεύστε μια ντροπιαστική selfie",
+      "Κάντε 20 jumping jacks",
+      "Μιλήστε μόνο ψιθυριστά την επόμενη σειρά"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι σοβαρά αυτά;",
+        "a": "Όχι, είναι ανάλαφροι και ιδανικοί για φιλικά παιχνίδια."
+      }
+    ]
+  },
+  "/party-games/questions-wheel": {
+    "route": "/party-games/questions-wheel",
+    "type": "wheel",
+    "title": "Questions Wheel",
+    "metaDescription": "",
+    "h1": "Questions Wheel",
+    "description": "Περιστρέψτε για ερωτήσεις παγοθραυστικού, θέματα εξοικείωσης με εσάς και ειδοποιήσεις συνομιλίας.",
+    "options": [
+      "Ποια είναι η υπερδύναμή σας;",
+      "Εάν κερδίσατε 1 εκατομμύριο $",
+      "ποια είναι η πρώτη αγορά;",
+      "Πού είναι οι διακοπές των ονείρων σας;",
+      "Ποιος είναι ο μεγαλύτερος φόβος σας;",
+      "Ποιος σας εμπνέει περισσότερο;",
+      "Ποια είναι η αγαπημένη σας παιδική ανάμνηση;"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι καθαρές οι ερωτήσεις;",
+        "a": "Ναι, κατάλληλο για εταιρικά παγοθραυστικά και σχολικά μαθήματα."
+      }
+    ]
+  },
+  "/party-games/scattergories-letters": {
+    "route": "/party-games/scattergories-letters",
+    "type": "wheel",
+    "title": "Scattergories Letters Wheel",
+    "metaDescription": "",
+    "h1": "Scattergories Letters Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε ένα τυχαίο γράμμα για Scattergories και παιχνίδια λεξιλογίου.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "R",
+      "S",
+      "T",
+      "W"
+    ],
+    "faqs": [
+      {
+        "q": "Γιατί λείπουν μερικά γράμματα;",
+        "a": "Εξαιρούμε τα σκληρά γράμματα (Q, X, Y, Z) για να διατηρήσουμε τα παιχνίδια διασκεδαστικά και συγκινητικά."
+      }
+    ]
+  },
+  "/party-games/song-association": {
+    "route": "/party-games/song-association",
+    "type": "wheel",
+    "title": "Song Association Wheel",
+    "metaDescription": "",
+    "h1": "Song Association Wheel",
+    "description": "Περιστρέψτε μια λέξη-κλειδί και προσπαθήστε να τραγουδήσετε ένα τραγούδι που περιέχει αυτή τη λέξη σε 10 δευτερόλεπτα.",
+    "options": [
+      "Λέξη: ΑΓΑΠΗ",
+      "Λέξη: ΦΩΤΙΑ",
+      "Λέξη: ΟΥΡΑΝΟΣ",
+      "Λέξη: ΧΟΡΟΣ",
+      "Λέξη: ΝΥΧΤΑ",
+      "Λέξη: ΚΟΣΜΟΣ",
+      "Λέξη: ΜΠΛΕ",
+      "Λέξη: ΕΥΤΥΧΙΣΜΕΝΟΣ",
+      "Λέξη: ΚΛΑΙ"
+    ],
+    "faqs": [
+      {
+        "q": "Ποιοι είναι οι κανόνες;",
+        "a": "Ένας παίκτης έχει 10 δευτερόλεπτα για να τραγουδήσει τουλάχιστον μία γραμμή από ένα πραγματικό τραγούδι που περιέχει τη λέξη."
+      }
+    ]
+  },
+  "/party-games/spin-the-bottle": {
+    "route": "/party-games/spin-the-bottle",
+    "type": "wheel",
+    "title": "Spin the Bottle Wheel",
+    "metaDescription": "",
+    "h1": "Spin the Bottle Wheel",
+    "description": "Ένα εικονικό spinner που αντικαθιστά τις φυσικές ρυθμίσεις μπουκαλιών για κλασικά παιχνίδια.",
+    "options": [
+      "Παίκτης Α",
+      "Παίκτης Β",
+      "Παίκτης Γ",
+      "Παίκτης Δ",
+      "Παίκτης Ε",
+      "Παίκτης Σ"
+    ],
+    "faqs": [
+      {
+        "q": "Πόσοι παίκτες μπορούν να παίξουν;",
+        "a": "Υποστηρίζει έως και 100 παίκτες. Προσθέστε εύκολα ονόματα στη λίστα επιλογών."
+      }
+    ]
+  },
+  "/party-games/things-to-do-when-bored": {
+    "route": "/party-games/things-to-do-when-bored",
+    "type": "wheel",
+    "title": "Πράγματα που πρέπει να κάνετε όταν βαριέται ο τροχός",
+    "metaDescription": "",
+    "h1": "Πράγματα που πρέπει να κάνετε όταν βαριέται ο τροχός",
+    "description": "Περιστρέψτε για να θεραπεύσετε την πλήξη με παραγωγικές, δημιουργικές και σωματικές προτροπές.",
+    "options": [
+      "Διαβάστε ένα κεφάλαιο βιβλίου",
+      "Οργανώστε το συρτάρι του γραφείου σας",
+      "Μάθετε ένα κόλπο με κάρτες 5 λεπτών",
+      "Πηγαίνετε για έναν γρήγορο περπάτημα",
+      "Δοκιμάστε να σχεδιάσετε μια αυτοπροσωπογραφία",
+      "Τεντώστε για 10 λεπτά",
+      "Ακούστε ένα νέο άλμπουμ"
+    ],
+    "faqs": [
+      {
+        "q": "Απαιτούν προμήθειες;",
+        "a": "Οι περισσότερες δραστηριότητες είναι εντελώς δωρεάν και απαιτούν μηδενική προετοιμασία."
+      }
+    ]
+  },
+  "/party-games/truth-or-dare": {
+    "route": "/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Truth or Dare Wheel",
+    "description": "Γυρίστε τον τροχό για να λάβετε κλασικά μηνύματα Truth or Dare για παιδιά, έφηβους και οικογένειες.",
+    "options": [
+      "Αλήθεια: Ποιο είναι το μεγαλύτερο μυστικό σου;",
+      "Τόλμησε: Κάνε 10 pushups",
+      "Αλήθεια: Ποιος είναι ο συντρόφος σου;",
+      "Τολμήστε: Φάτε ένα ωμό κομμάτι σκόρδο",
+      "Αλήθεια: Πείτε ένα αστείο ψέμα που είπατε",
+      "Τολμήστε: Αφήστε κάποιον να στείλει μήνυμα από το τηλέφωνό σας"
+    ],
+    "faqs": [
+      {
+        "q": "Είναι καθαρό για οικογένειες;",
+        "a": "Ναι, αυτός ο τροχός περιέχει ανάλαφρες προτροπές ιδανικές για οικογενειακές συγκεντρώσεις."
+      }
+    ]
+  },
+  "/privacy": {
+    "route": "/privacy",
+    "type": "general",
+    "title": "Πολιτική απορρήτου",
+    "metaDescription": "",
+    "h1": "Πολιτική απορρήτου",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/random-number-generator": {
+    "route": "/random-number-generator",
+    "type": "number-generator",
+    "title": "Γεννήτρια τυχαίων αριθμών | Γρήγορο Εργαλείο RNG",
+    "metaDescription": "Δημιουργήστε μεμονωμένους ή πολλαπλούς τυχαίους αριθμούς σε οποιοδήποτε προσαρμοσμένο εύρος. Δωρεάν, ασφαλής και προσαρμόσιμος τυχαίος επιλογέας αριθμών.",
+    "h1": "Γεννήτρια τυχαίων αριθμών",
+    "description": "Επιλέξτε τυχαίους αριθμούς αμέσως. Ορίστε τα ελάχιστα και μέγιστα όριά σας, επιλέξτε την ποσότητα και δημιουργήστε!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/best-teams": {
+    "route": "/sports-wheels/best-teams",
+    "type": "wheel",
+    "title": "Καλύτερες αθλητικές ομάδες Wheel Spinner | Legendary Team Picker",
+    "metaDescription": "Περιστρέψτε τον καλύτερο τροχό ομάδων για να επιλέξετε μια θρυλική ομάδα στην ιστορία του αθλητισμού. Προφορτωμένο με τους Dream Team 1992, Chicago Bulls 1996, 1972 Dolphins και πολλά άλλα.",
+    "h1": "Best Sports Teams Wheel Spinner",
+    "description": "Ποια ομάδα ήταν πραγματικά η καλύτερη όλων των εποχών; Περιστρέψτε τον τροχό για να επιλέξετε τυχαία μια θρυλική αθλητική ομάδα σε μπάσκετ, ποδόσφαιρο, ποδόσφαιρο και μπέιζμπολ.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/college-teams": {
+    "route": "/sports-wheels/college-teams",
+    "type": "wheel",
+    "title": "Ομάδες κολλεγίου Wheel Spinner | Τυχαίος Επιλογέας Ομάδας NCAA",
+    "metaDescription": "Περιστρέψτε τον τροχό ομάδων κολλεγίων για να επιλέξετε τυχαία μια κορυφαία ομάδα πανεπιστημίου NCAA. Ιδανικό για προσομοίωση κολεγιακού ποδοσφαίρου (CFB), αγκύλες μπάσκετ και πρωταθλήματα pick'em.",
+    "h1": "College Teams Wheel Spinner",
+    "description": "Επιλέξτε μια τυχαία ομάδα πανεπιστημίου από το τμήμα NCAA FBS. Ιδανικό για επιλογές για το College Football 25 Dynasty ή για προβλέψεις για το μπάσκετ του NCAA!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/fifa-world-cup-2026": {
+    "route": "/sports-wheels/fifa-world-cup-2026",
+    "type": "wheel",
+    "title": "FIFA World Cup 2026 Wheel Spinner | Τυχαίος επιλογέας χώρας",
+    "metaDescription": "Περιστρέψτε τον τροχό του Παγκοσμίου Κυπέλλου 2026 για να επιλέξετε τυχαία μια χώρα ποδοσφαίρου που έχει προκριθεί. Ιδανικό για σαρώσεις τουρνουά, ομαδικές προβλέψεις και προσομοιώσεις αγώνων.",
+    "h1": "FIFA World Cup 2026 Wheel",
+    "description": "Ετοιμαστείτε για το μεγαλύτερο αθλητικό γεγονός στην ιστορία σε ολόκληρη τη Βόρεια Αμερική. Γυρίστε τον τροχό για να επιλέξετε τυχαία μια χώρα που προκρίνεται!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/football-players": {
+    "route": "/sports-wheels/football-players",
+    "type": "wheel",
+    "title": "Ποδοσφαιριστές Wheel Spinner | Τυχαίος επιλογέας αστεριών ποδοσφαίρου",
+    "metaDescription": "Περιστρέψτε τον τροχό ποδοσφαιριστών για να επιλέξετε ένα τυχαίο αστέρι του παγκόσμιου ποδοσφαίρου όπως ο Μέσι, ο Ρονάλντο, ο Μπαπέ ή ο Χάαλαντ. Ιδανικό για προκλήσεις πρόχειρων FC 24/FC 25.",
+    "h1": "Ποδοσφαιριστές Wheel Spinner",
+    "description": "Περιστρέψτε για να επιλέξετε τυχαία από τους πιο εκλεκτούς σούπερ σταρ των ομοσπονδιών ποδοσφαίρου (ποδοσφαίρου) του κόσμου. Διευθετήστε συζητήσεις, επιλέξτε στόχους FC ή προκαλέστε φίλους!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/golf-wheel": {
+    "route": "/sports-wheels/golf-wheel",
+    "type": "wheel",
+    "title": "Γκολφ Κλαμπ Τροχός | Random Club Picker Challenge",
+    "metaDescription": "Περιστρέψτε τον τροχό του γκολφ για να επιλέξετε τυχαία ένα μπαστούνι του γκολφ όπως Driver, 7-Iron, Pitching Wedge ή Putter. Ιδανικό για προκλήσεις σειράς και παιχνίδια μαθημάτων.",
+    "h1": "Golf Club Wheel Spinner",
+    "description": "Είστε έτοιμοι να εμπλουτίσετε την πρακτική σας στο γκολφ ή να προκαλέσετε τους φίλους σας στο γήπεδο; Περιστρέψτε τον τροχό του γκολφ για να καθορίσετε ποιο κλαμπ πρέπει να χτυπήσετε στη συνέχεια!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/mlb-teams": {
+    "route": "/sports-wheels/mlb-teams",
+    "type": "wheel",
+    "title": "MLB Teams Wheel Spinner | Τυχαίος Επιλογέας Ομάδας Μπέιζμπολ Major League",
+    "metaDescription": "Περιστρέψτε τον τροχό MLB Teams για να επιλέξετε τυχαία ένα franchise του μπέιζμπολ. Ιδανικό για πρωταθλήματα φαντασίας, βιντεοπαιχνίδια μπέιζμπολ και προβλέψεις πλέι οφ.",
+    "h1": "MLB Teams Wheel Spinner",
+    "description": "Επιλέξτε ένα τυχαίο franchise Major League Baseball αμέσως. Ιδανικό για προκλήσεις MLB The Show, φανταστικές επιλογές σχεδίων και οδικές εκδρομές στα γήπεδα!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-players": {
+    "route": "/sports-wheels/nba-players",
+    "type": "wheel",
+    "title": "NBA Players Wheel Spinner | Τυχαίος επιλογέας παικτών NBA",
+    "metaDescription": "Περιστρέψτε τον τροχό παικτών NBA για να επιλέξετε έναν τυχαίο ενεργό σούπερ σταρ του μπάσκετ. Ιδανικό για αθλήματα φαντασίας, βραδιές με trivia και συζητήσεις σύγκρισης παικτών.",
+    "h1": "NBA Players Wheel Spinner",
+    "description": "Αποφασίστε τυχαία ανάμεσα στα απόλυτα ελίτ ταλέντα μπάσκετ στο ΝΒΑ σήμερα. Διευθετήστε τις συγκρίσεις, επιλέξτε την εστίαση του παίκτη ή ξεκινήστε συζητήσεις.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-teams": {
+    "route": "/sports-wheels/nba-teams",
+    "type": "wheel",
+    "title": "NBA Teams Wheel Spinner | Random NBA Franchise Picker",
+    "metaDescription": "Περιστρέψτε τον τροχό ομάδων NBA για να επιλέξετε ένα τυχαίο επαγγελματικό franchise μπάσκετ. Ιδανικό για προκλήσεις NBA 2K, φανταστικές επιλογές και αθλητικά trivia.",
+    "h1": "NBA Teams Wheel Spinner",
+    "description": "Επιλέξτε ένα τυχαίο franchise NBA. Ιδανικό για αγώνες pick-up στο NBA 2K, ορίζοντας λίστες παραγγελιών πρόχειρων ή αποφασίζοντας ποια ομάδα θα δημιουργήσετε σε τρόπους καριέρας.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-players": {
+    "route": "/sports-wheels/nfl-players",
+    "type": "wheel",
+    "title": "NFL Players Wheel Spinner | Τυχαίος επιλογέας παικτών NFL",
+    "metaDescription": "Περιστρέψτε τον τροχό παικτών NFL για να επιλέξετε έναν τυχαίο ενεργό παίκτη ποδοσφαίρου NFL. Ιδανικό για προσχέδια φαντασίας, trivia και προκλήσεις για την οικοδόμηση ομάδας.",
+    "h1": "NFL Players Wheel Spinner",
+    "description": "Περιστρέψτε για να επιλέξετε τυχαία από τους πιο εκλεκτούς παίκτες του πρωταθλήματος. Ιδανικό για προκλήσεις trivia, φανταστικές επιλογές και συζητήσεις παικτών!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-positions": {
+    "route": "/sports-wheels/nfl-positions",
+    "type": "wheel",
+    "title": "NFL Positions Wheel Spinner | Τυχαίος επιλογέας θέσεων ποδοσφαίρου",
+    "metaDescription": "Περιστρέψτε τον τροχό θέσεων NFL για να επιλέξετε έναν τυχαίο ρόλο ποδοσφαίρου όπως Quarterback, Running Back, Wide Receiver ή Linebacker. Ιδανικό για προπόνηση και προπόνηση.",
+    "h1": "NFL Positions Wheel Spinner",
+    "description": "Χρειάζεστε να ορίσετε θέσεις στο ρόστερ, να οργανώσετε προπονητικές ασκήσεις ή να τυχαιοποιήσετε μια πρόκληση λειτουργίας καριέρας; Περιστρέψτε τον τροχό θέσεων για να διαλέξετε!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-teams": {
+    "route": "/sports-wheels/nfl-teams",
+    "type": "wheel",
+    "title": "NFL Teams Wheel Spinner | Random NFL Team Picker",
+    "metaDescription": "Περιστρέψτε τον τροχό των ομάδων NFL για να επιλέξετε ένα τυχαίο franchise NFL. Ιδανικό για παραγγελίες φανταστικού ποδοσφαίρου, επιλογή ομάδας για παιχνίδι στο Madden ή επιλογή νέας αγαπημένης ομάδας.",
+    "h1": "NFL Teams Wheel Spinner",
+    "description": "Έχετε κολλήσει να επιλέξετε με ποια ομάδα θα παίξετε ή χρειάζεστε έναν αμερόληπτο επιλογέα για το πρωτάθλημα ποδοσφαίρου φαντασίας σας; Γύρνα τον τροχό για να αποφασίσεις!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nhl-teams": {
+    "route": "/sports-wheels/nhl-teams",
+    "type": "wheel",
+    "title": "NHL Teams Wheel Spinner | Τυχαίος επιλογέας ομάδας χόκεϋ NHL",
+    "metaDescription": "Περιστρέψτε τον τροχό ομάδων NHL για να επιλέξετε ένα τυχαίο επαγγελματικό franchise για χόκεϊ. Ιδανικό για βιντεοπαιχνίδια NHL, ρυθμίσεις αγκυλών και trivia.",
+    "h1": "NHL Teams Wheel Spinner",
+    "description": "Επιλέξτε μια τυχαία επαγγελματική ομάδα NHL αμέσως. Ιδανικό για προκλήσεις λειτουργίας franchise NHL, αγώνες εκθέσεων και αγκύλες πλέι οφ.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels": {
+    "route": "/sports-wheels",
+    "type": "general",
+    "title": "Αθλητικές στροφές τροχών | GameWheelClub",
+    "metaDescription": "Περιηγηθείτε σε 12 προφορτωμένους τροχούς αθλητικών αποφάσεων, συμπεριλαμβανομένων των επιλογέων ομάδων NFL, των τυχαιοποιητών παικτών NBA, των αγκύλων του Παγκοσμίου Κυπέλλου και των μπαστούνια γκολφ.",
+    "h1": "Sports Randomizer Wheels",
+    "description": "Διαδραστικά προρυθμισμένα εργαλεία κατασκευασμένα για πρωταθλήματα φαντασίας, προσομοιωτές επιλογής πρόχειρων, προκλήσεις και συζητήσεις ομάδων.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/brain-break": {
+    "route": "/templates/classroom/brain-break",
+    "type": "wheel",
+    "title": "Τάξη Brain Break Wheel | Ιδέες ασκήσεων για μαθητές",
+    "metaDescription": "Περιστρέψτε τον τροχό Brain Break για να επιλέξετε γρήγορες ασκήσεις για μαθητές: Stretch, Jumping Jacks, Deep Breaths, Dance ή Doodle.",
+    "h1": "Brain Break Wheel στην τάξη",
+    "description": "Βοηθήστε τους μαθητές να επικεντρωθούν εκ νέου και να επαναφορτίσουν την ενέργειά τους κατά τη διάρκεια των μεγάλων μαθημάτων. Γυρίστε για μια γρήγορη δραστηριότητα!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom": {
+    "route": "/templates/classroom",
+    "type": "general",
+    "title": "Πρότυπα τροχού τάξης | GameWheelClub",
+    "metaDescription": "Περιηγηθείτε στους δωρεάν τροχούς απόφασης για δασκάλους. Επιλέξτε τυχαίες ομάδες μαθητών, θέματα, ανταμοιβές ή ασκήσεις εγκεφάλου στην τάξη.",
+    "h1": "Classroom & Teaching Wheels",
+    "description": "Εργαλεία σχεδιασμένα ειδικά για εκπαιδευτικούς να τυχαιοποιούν τη συμμετοχή, να επιβραβεύουν τα επιτεύγματα των μαθητών και να κατευθύνουν μπλοκ θεμάτων.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/rewards-wheel": {
+    "route": "/templates/classroom/rewards-wheel",
+    "type": "wheel",
+    "title": "Τροχός επιβράβευσης της τάξης | Επιλογέας ιδεών τυχαίας ανταμοιβής",
+    "metaDescription": "Περιστρέψτε τον τροχό ανταμοιβών για να επιλέξετε τυχαία βραβεία για μαθητές: Ελεύθερος χρόνος, Αυτοκόλλητα, Επιλογή αρχηγού γραμμής ή Δεν πάσο εργασίας για το σπίτι.",
+    "h1": "Τροχός επιβράβευσης στην τάξη",
+    "description": "Παρακινήστε τους μαθητές σας. Περιστρέψτε τον τροχό ανταμοιβής για να επιλέξετε τυχαία ένα βραβείο ή ένα προνόμιο στην τάξη!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/student-grouping": {
+    "route": "/templates/classroom/student-grouping",
+    "type": "wheel",
+    "title": "Τροχός Ομαδοποίησης Μαθητών | Τυχαίος επιλογέας ομάδας",
+    "metaDescription": "Περιστρέψτε τον τροχό ομαδοποίησης μαθητών. Επιλέξτε άμεσα τυχαίες ομάδες ή ομάδες (Ομάδα Α, Ομάδα Β, Ομάδα Γ) για έργα και παιχνίδια στην τάξη.",
+    "h1": "Ομαδοποίηση μαθητών & Τροχός επιλογής ομάδας",
+    "description": "Χρειάζεστε να ορίσετε τυχαία μαθητές σε ομάδες, να επιλέξετε ομάδες παρουσίασης ή να ορίσετε θέσεις στην τάξη; Γυρίστε τον τροχό ομαδοποίησης!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/subject-picker": {
+    "route": "/templates/classroom/subject-picker",
+    "type": "wheel",
+    "title": "Τροχός επιλογής θέματος | Επιλογέας θέματος μελέτης μαθήματος",
+    "metaDescription": "Περιστρέψτε τον τροχό επιλογής θέματος για να τυχαιοποιήσετε τα θέματα μελέτης: Μαθηματικά, Επιστήμη, Ιστορία, Αγγλικά, Τέχνη και Μουσική. Εξαιρετικό για τον προγραμματισμό μαθημάτων.",
+    "h1": "Τροχός επιλογής θεμάτων",
+    "description": "Επιλέξτε ποιο θέμα θα αναθεωρήσετε στη συνέχεια ή αφήστε τον τροχό να τυχαιοποιήσει τα τμήματα μελέτης κατά τη διάρκεια της εκπαίδευσης στο σπίτι ή της τάξης.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dessert-spinner": {
+    "route": "/templates/food/dessert-spinner",
+    "type": "wheel",
+    "title": "Τροχός επιλογής γλυκού | Random Sweet Treats Picker",
+    "metaDescription": "Can",
+    "h1": "Dessert Spinner Wheel",
+    "description": "Επιλέξτε την επόμενη γλυκιά λιχουδιά σας χωρίς την ενοχή της επιλογής. Γυρίστε τον τροχό του γλυκού!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dinner-picker": {
+    "route": "/templates/food/dinner-picker",
+    "type": "wheel",
+    "title": "Τροχός επιλογής δείπνου | Τι πρέπει να φάω για δείπνο;",
+    "metaDescription": "Τακτοποιήστε τη συζήτηση για το δείπνο αμέσως. Γυρίστε τον τροχό του δείπνου με προφορτωμένες δημοφιλείς επιλογές γευμάτων: πίτσα, τάκος, μπιφτέκια, ζυμαρικά, σαλάτα και κινέζικα.",
+    "h1": "Τροχός επιλογής δείπνου",
+    "description": "Κολλήσατε να αποφασίσετε για το δείπνο; Καταργήστε τα επιχειρήματα για τα τρόφιμα. Γυρίστε τον τροχό για να επιλέξετε μια επιλογή γεύματος αμέσως.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/drink-decider": {
+    "route": "/templates/food/drink-decider",
+    "type": "wheel",
+    "title": "Drink Decider Wheel | Τι πρέπει να πίνω;",
+    "metaDescription": "Περιστρέψτε τον τροχό συλλογής ποτών προφορτωμένο με αναψυκτικά: Νερό, Καφέ, Τσάι, Σόδα, Χυμούς και Smoothies.",
+    "h1": "Drink Decider Wheel",
+    "description": "Χρειάζεστε ένα αναψυκτικό, αλλά δεν μπορείτε να επιλέξετε μεταξύ καφεΐνης, ενυδάτωσης ή χυμού; Γυρίστε τον τροχό του ποτού!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/lunch-ideas": {
+    "route": "/templates/food/lunch-ideas",
+    "type": "wheel",
+    "title": "Τροχός απόφασης γεύματος | Επιλογέας Γρήγορων ιδεών για μεσημεριανό γεύμα",
+    "metaDescription": "Περιστρέψτε για να επιλέξετε ένα γρήγορο μεσημεριανό γεύμα: Σάντουιτς, Σαλάτες, Αποφάγια, Σούπα, Περιτυλίγματα ή Φαστ φουντ. Τακτοποιήστε το μενού για μεσημεριανό διάλειμμα αμέσως.",
+    "h1": "Ιδέες για μεσημεριανό γεύμα Τροχός απόφασης",
+    "description": "Κολλήσατε στη μέση μιας πολυάσχολης εργάσιμης ημέρας ή μιας συνεδρίας μελέτης προσπαθώντας να επιλέξετε το μεσημεριανό γεύμα; Αφήστε τον τροχό να αποφασίσει το μενού σας.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food": {
+    "route": "/templates/food",
+    "type": "general",
+    "title": "Πρότυπα τροχών φαγητού και τραπεζαρίας | GameWheelClub",
+    "metaDescription": "Περιηγηθείτε στους δωρεάν τροχούς λήψης αποφάσεων για φαγητό, επιλογές για μεσημεριανό γεύμα, spinners για επιδόρπια και ποτά. Τακτοποιήστε τις συζητήσεις για το φαγητό σας αμέσως.",
+    "h1": "Τροχοί απόφασης για φαγητό και δείπνο",
+    "description": "Διευθετήστε την παλιά συζήτηση του \"τι πρέπει να τρώμε;\" μέσα σε δευτερόλεπτα χρησιμοποιώντας τα προκατασκευασμένα μας σπινεράκια τροφίμων.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates": {
+    "route": "/templates",
+    "type": "general",
+    "title": "Hub προτύπων τροχού απόφασης | GameWheelClub",
+    "metaDescription": "Περιηγηθείτε σε δεκάδες δωρεάν προκατασκευασμένα πρότυπα τροχών αποφάσεων. Κατηγοριοποιούνται κατά Φαγητό, παιχνίδια για πάρτι και βοηθητικά προγράμματα στην τάξη.",
+    "h1": "Πρότυπα τροχού απόφασης",
+    "description": "Μην δημιουργείτε από την αρχή. Επιλέξτε μία από τις προδιαμορφωμένες λίστες επιλογών μας και ξεκινήστε να περιστρέφετε αμέσως!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/charades-ideas": {
+    "route": "/templates/party-games/charades-ideas",
+    "type": "wheel",
+    "title": "Charades Ideas Wheel | Επιλογέας θεμάτων τυχαίας υποκριτικής",
+    "metaDescription": "Περιστρέψτε τον τροχό Charades για να λάβετε τυχαίες ιδέες ηθοποιίας: Ταινίες, τηλεοπτικές εκπομπές, Δράσεις, Ζώα και Διάσημοι Άνθρωποι. Τακτοποιήστε άμεσα θέματα παιχνιδιών για πάρτι.",
+    "h1": "Charades Ideas Wheel",
+    "description": "Κολλήσατε προσπαθώντας να σκεφτείτε κάτι για να παίξετε; Περιστρέψτε τον τροχό για να επιλέξετε την κατηγορία ή το θέμα σας αμέσως!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games": {
+    "route": "/templates/party-games",
+    "type": "general",
+    "title": "Πρότυπα τροχών παιχνιδιών για πάρτι | GameWheelClub",
+    "metaDescription": "Περιηγηθείτε στους δωρεάν τροχούς λήψης αποφάσεων για ομαδικά παιχνίδια, προκλήσεις για πάρτι, θέματα ασήμαντα και κάρτες αλήθειας ή τόλμης. Τακτοποιήστε τις επιλογές αμέσως.",
+    "h1": "Party Games & Icebreakers",
+    "description": "Κάντε την επόμενη συνάντηση, πάρτι ή παιχνίδι στην τάξη να κινηθεί σε δευτερόλεπτα με αυτά τα προκατασκευασμένα πρότυπα.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/party-trivia": {
+    "route": "/templates/party-games/party-trivia",
+    "type": "wheel",
+    "title": "Τροχός θέματος Party Trivia | Κατηγορίες τυχαίων κουίζ",
+    "metaDescription": "Περιστρέψτε τον τροχό Trivia για να επιλέξετε τυχαία θέματα κουίζ: Επιστήμη, Ποπ κουλτούρα, Ιστορία, Αθλητισμός και Γεωγραφία. Ιδανικό για βραδιές παιχνιδιών.",
+    "h1": "Τροχός κατηγορίας Party Trivia",
+    "description": "Καθορίστε ποια κατηγορία θα παίξετε στη συνέχεια κατά τη διάρκεια των νυχτερινών οικογενειακών κουίζ. Γυρίστε τον τροχό των trivia!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/truth-or-dare": {
+    "route": "/templates/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Truth or Dare Generator | Τροχός τυχαίας επιλογής",
+    "metaDescription": "Περιστρέψτε τον τροχό Truth or Dare για πάρτι παγοθραυστικά. Επιλέξτε Truth ή Dare τυχαία και βάλτε ομάδες να μιλούν αμέσως.",
+    "h1": "Truth or Dare Wheel Generator",
+    "description": "Δώστε ζωή στο επόμενο πάρτι σας ή κάντε παρέα. Γυρίστε τον τροχό για να αποφασίσετε μεταξύ Αλήθειας, Τόλμης ή Διπλού Τολμού!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/would-you-rather": {
+    "route": "/templates/party-games/would-you-rather",
+    "type": "wheel",
+    "title": "Θα προτιμούσες τροχό | Random Party Game Picker",
+    "metaDescription": "Περιστρέψτε τον τροχό Would You Rather. Κάντε τις ομαδικές συνομιλίες να κινούνται με τυχαιοποιημένες υποθετικές επιλογές ερωτήσεων.",
+    "h1": "Θα προτιμούσατε να κουμπώσετε",
+    "description": "Τακτοποιήστε δύσκολες υποθετικές προτάσεις ή επιλέξτε ποιος θα απαντήσει τι. Γυρίστε τον τροχό του παιχνιδιού!",
+    "options": [],
+    "faqs": []
+  },
+  "/terms": {
+    "route": "/terms",
+    "type": "general",
+    "title": "Όροι Παροχής Υπηρεσιών",
+    "metaDescription": "",
+    "h1": "Όροι Παροχής Υπηρεσιών",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/timer": {
+    "route": "/timer",
+    "type": "timer",
+    "title": "Online Timer | Δωρεάν χρονόμετρο αντίστροφης μέτρησης",
+    "metaDescription": "Ρυθμίστε λεπτά και δευτερόλεπτα για οποιαδήποτε αντίστροφη μέτρηση. Δωρεάν, όμορφο και προσβάσιμο διαδικτυακό χρονόμετρο με ειδοποιήσεις συναγερμού.",
+    "h1": "Online Countdown Timer",
+    "description": "Ρυθμίστε προσαρμοσμένους χρόνους αντίστροφης μέτρησης για συνεδρίες μελέτης, συσκέψεις ή παιχνίδια και λάβετε έναν καθαρό ηχητικό συναγερμό μετά την ολοκλήρωση.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/fortnite-challenges": {
+    "route": "/video-game-wheels/fortnite-challenges",
+    "type": "wheel",
+    "title": "Fortnite Challenges Wheel",
+    "metaDescription": "",
+    "h1": "Fortnite Challenges Wheel",
+    "description": "Περιστρέψτε για να ολοκληρώσετε μια διασκεδαστική πρόκληση κατά τον επόμενο αγώνα battle royale.",
+    "options": [
+      "Τα Pistols Only Win",
+      "No Shield Challenge",
+      "First Weapon που βλέπετε μόνο",
+      "No Building Match (Zero Build)",
+      "Land σε επώνυμες τοποθεσίες Μόνο",
+      "Pacifist Run (No Kills)",
+      "Mythic Weapons Only",
+      "Skybase Challenge"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορώ να το κάνω αυτό με το s;",
+        "a": "Ναι! Προκαλέστε ολόκληρη την ομάδα σας να ακολουθήσει τον επιλεγμένο κανόνα."
+      }
+    ]
+  },
+  "/video-game-wheels/league-of-legends-champions": {
+    "route": "/video-game-wheels/league-of-legends-champions",
+    "type": "wheel",
+    "title": "League of Legends Champions Wheel",
+    "metaDescription": "",
+    "h1": "League of Legends Champions Wheel",
+    "description": "Επιλέξτε τυχαία έναν πρωταθλητή League για το επόμενο ντραφτ ή το παιχνίδι ARAM.",
+    "options": [
+      "Yasuo",
+      "Ahri",
+      "Lux",
+      "Jinx",
+      "Lee Sin",
+      "Thresh",
+      "Garen",
+      "Teemo",
+      "Ezreal",
+      "Zed",
+      "Katarina",
+      "Akali",
+      "Δάσκαλος Yi",
+      "Darius",
+      "Ashe",
+      "Vayne",
+      "Dos it la",
+      "?"
+    ],
+    "faqs": [
+      {
+        "q": "Μπορείτε να προσαρμόσετε τις επιλογές για να ομαδοποιήσετε τους πρωταθλητές ανά ρόλο (Top, Mid, Jungle, ADC, Support).",
+        "a": "You can customize options to group champions by role (Top, Mid, Jungle, ADC, Support)."
+      }
+    ]
+  },
+  "/video-game-wheels/overwatch-2-characters": {
+    "route": "/video-game-wheels/overwatch-2-characters",
+    "type": "wheel",
+    "title": "Overwatch 2 Characters Wheel",
+    "metaDescription": "",
+    "h1": "Overwatch 2 Characters Wheel",
+    "description": "Επιλέξτε έναν τυχαίο ήρωα Tank, Damage ή Support για τον επόμενο αγώνα Overwatch.",
+    "options": [
+      "Tracer",
+      "Reaper",
+      "Genji",
+      "Hanzo",
+      "Cassidy",
+      "Στρατιώτης: 76",
+      "Widowmaker",
+      "Pharah",
+      "Mei",
+      "Bastion",
+      "Junkrat",
+      "Sombra",
+      "Doomfist",
+      "D.Va",
+      "Winston",
+      "Reinhardt",
+      "Roadhog",
+      "Zarya",
+      "Mercy",
+      "__",
+      "Lucio",
+      "Ana",
+      "Kiriko",
+      "Lifeweaver",
+      "Illari"
+    ],
+    "faqs": [
+      {
+        "q": "Juno",
+        "a": "Μπορώ να φιλτράρω ανά ρόλο;"
+      }
+    ]
+  },
+  "/video-game-wheels": {
+    "route": "/video-game-wheels",
+    "type": "general",
+    "title": "Βιντεοπαιχνίδι Randomizer Wheels | GameWheelClub",
+    "metaDescription": "Περιστρέψτε για να επιλέξετε ρυθμίσεις παιχνιδιού, πράκτορες, πρωταθλητές, τύπους, προκλήσεις και στυλ παιχνιδιού. Καλύπτει Valorant, LoL, Pokémon, Roblox και Fortnite.",
+    "h1": "Τροχοί βιντεοπαιχνιδιών",
+    "description": "Περιστρέψτε για να επιλέξετε ρυθμίσεις παιχνιδιού, πράκτορες, πρωταθλητές, τύπους, προκλήσεις και στυλ παιχνιδιού. Καλύπτει Valorant, LoL, Pokémon, Roblox και Fortnite.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/pokemon-types": {
+    "route": "/video-game-wheels/pokemon-types",
+    "type": "wheel",
+    "title": "Pokemon Types Wheel",
+    "metaDescription": "",
+    "h1": "Pokemon Types Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε έναν τυχαίο τύπο Pokémon. Ιδανικό για μονοτυπικές δοκιμαστικές διαδρομές.",
+    "options": [
+      "Κανονικό",
+      "Φωτιά",
+      "Νερό",
+      "Χόρτο",
+      "Ηλεκτρικό",
+      "Πάγος",
+      "Καταπολέμηση",
+      "Δηλητήριο",
+      "Έδαφος",
+      "Πετώντας",
+      "Ψυχικό",
+      "Σφάλμα",
+      "Ροκ",
+      "Φάντασμα",
+      "Δράκος",
+      "Ατσάλι",
+      "Σκοτεινός",
+      "Fai υποστηρίζονται τύποι"
+    ],
+    "faqs": [
+      {
+        "q": "Fai;",
+        "a": "Γυρίστε τον τροχό δύο φορές για να έχετε έναν συνδυασμό διπλής πληκτρολόγησης."
+      }
+    ]
+  },
+  "/video-game-wheels/rainbow-six-operators": {
+    "route": "/video-game-wheels/rainbow-six-operators",
+    "type": "wheel",
+    "title": "Rainbow Six Operators Wheel",
+    "metaDescription": "",
+    "h1": "Rainbow Six Operators Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε έναν τυχαίο χειριστή επίθεσης ή άμυνας στο Siege.",
+    "options": [
+      "Sledge",
+      "Thatcher",
+      "Ash",
+      "Thermite",
+      "Twitch",
+      "Montagne",
+      "Glaz",
+      "Fuze",
+      "Blitz",
+      "IQ",
+      "Buck",
+      "Blackbeard",
+      "Capitao",
+      "Hibana",
+      "Smoke",
+      "Mute",
+      "Root",
+      "Pulse",
+      "Doc",
+      "Rook",
+      "Kapkan",
+      "Tachanka",
+      "Jager",
+      "Bandit",
+      "Frost",
+      "Valkyrie",
+      "Caveira",
+      "Echo"
+    ],
+    "faqs": [
+      {
+        "q": "Διαχωρίζει την Επίθεση και την Άμυνα;",
+        "a": "Μπορείτε να αφαιρέσετε τους αμυντικούς κατά την επίθεση ή να κρατήσετε και τους δύο για πλήρη έκπληξη."
+      }
+    ]
+  },
+  "/video-game-wheels/roblox-games": {
+    "route": "/video-game-wheels/roblox-games",
+    "type": "wheel",
+    "title": "Roblox Games Wheel",
+    "metaDescription": "",
+    "h1": "Roblox Games Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε ένα διασκεδαστικό παιχνίδι Roblox για να παίξετε όταν βαριέστε.",
+    "options": [
+      "Υιοθέτησε με!",
+      "Blox Fruits",
+      "Brookhaven RP",
+      "Tower of Hell",
+      "Murder Mystery 2",
+      "Piggy",
+      "Royale High",
+      "Arsenal",
+      "Pet Simulator 99",
+      "BedWars"
+    ],
+    "faqs": [
+      {
+        "q": "Πώς μπορώ να προσθέσω τα αγαπημένα μου παιχνίδια;",
+        "a": "Πληκτρολογήστε τους τίτλους του παιχνιδιού στο πλαίσιο κειμένου επιλογής και πατήστε ενημέρωση."
+      }
+    ]
+  },
+  "/video-game-wheels/smash-bros-characters": {
+    "route": "/video-game-wheels/smash-bros-characters",
+    "type": "wheel",
+    "title": "Smash Bros Characters Wheel",
+    "metaDescription": "",
+    "h1": "Smash Bros Characters Wheel",
+    "description": "Τυχαιοποιήστε τον μαχητή σας για Super Smash Bros. Ultimate μάχες.",
+    "options": [
+      "Mario",
+      "Donkey Kong",
+      "Link",
+      "Samus",
+      "Yoshi",
+      "Kirby",
+      "Fox",
+      "Pikachu",
+      "Luigi",
+      "Ness",
+      "Captain Falcon",
+      "Jigglypuff",
+      "Peach",
+      "Bowser",
+      "Zelda Me",
+      "Sheik",
+      "Marth",
+      "Sephiroth",
+      "Sora",
+      "Υποστηρίζονται όλοι οι χαρακτήρες DLC;",
+      "Περιλαμβάνουμε κορυφαίους χαρακτήρες DLC όπως ο Steve και ο Sora. Μπορείτε να προσθέσετε τα υπόλοιπα χειροκίνητα.",
+      "Sora"
+    ],
+    "faqs": [
+      {
+        "q": "Are all DLC characters supported?",
+        "a": "We include top DLC characters like Steve and Sora. You can add the rest manually."
+      }
+    ]
+  },
+  "/video-game-wheels/starter-pokemon": {
+    "route": "/video-game-wheels/starter-pokemon",
+    "type": "wheel",
+    "title": "Starter Pokemon Wheel",
+    "metaDescription": "",
+    "h1": "Starter Pokemon Wheel",
+    "description": "Επιλέξτε ένα τυχαίο αρχικό Pokémon από το Gen 1 έως το Gen 9 για την επόμενη δοκιμαστική σειρά σας.",
+    "options": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Chikorita",
+      "Cyndaquil",
+      "Totodile",
+      "Treecko",
+      "Torchic",
+      "Mudkip",
+      "Turtwig",
+      "Chimchar",
+      "Piplup",
+      "Snivy",
+      "Tepig",
+      "Chenne Froakie",
+      "Rowlet",
+      "Litten",
+      "Popplio",
+      "Grookey",
+      "Scorbunny",
+      "Sobble",
+      "Sprigatito",
+      "Fuecoco",
+      "Quaxly",
+      "Είναι ο Pikachu στη λίστα;",
+      "Μπορείτε να προσθέσετε Pikachu ή Eevee χειροκίνητα εάν παίζετε Yellow/Let's Go!",
+      "Quaxly"
+    ],
+    "faqs": [
+      {
+        "q": "Is Pikachu on the list?",
+        "a": "You can add Pikachu or Eevee manually if you are playing Yellow/Let's Go!"
+      }
+    ]
+  },
+  "/video-game-wheels/valorant-agents": {
+    "route": "/video-game-wheels/valorant-agents",
+    "type": "wheel",
+    "title": "Valorant Agents Wheel",
+    "metaDescription": "",
+    "h1": "Valorant Agents Wheel",
+    "description": "Περιστρέψτε για να επιλέξετε έναν τυχαίο Valorant πράκτορα για να παίξετε στον επόμενο αγώνα σας.",
+    "options": [
+      "Jett",
+      "Raze",
+      "Phoenix",
+      "Reyna",
+      "Yoru",
+      "Neon",
+      "Sage",
+      "Cypher",
+      "Killjoy",
+      "Chamber",
+      "Fade",
+      "Sova",
+      "Breach",
+      "Omen",
+      "Viper",
+      "Astra",
+      "Harbor",
+      "Gökko",
+      "Deadlock",
+      "Iso",
+      "Clove"
+    ],
+    "faqs": [
+      {
+        "q": "_ Είναι ενημερωμένη η λίστα πρακτόρων;",
+        "a": "Ναι, συμπεριλαμβάνουμε πρόσφατους πράκτορες. Μπορείτε να προσθέσετε νέα μέσω του προγράμματος επεξεργασίας."
+      }
+    ]
+  },
+  "/wheel-of-names": {
+    "route": "/wheel-of-names",
+    "type": "wheel",
+    "title": "Τροχός επιλογής τυχαίου ονόματος | Περιστρέψτε τον τροχό των ονομάτων",
+    "metaDescription": "Επιλέξτε ένα τυχαίο όνομα από μια λίστα. Ιδανικό για δασκάλους, κληρώσεις, παιχνίδια και δώρα. Αποθηκεύστε ονόματα και γυρίστε για να κερδίσετε αμέσως.",
+    "h1": "Τροχός επιλογής τυχαίου ονόματος",
+    "description": "Θέλετε να επιλέξετε έναν μαθητή, να επιλέξετε έναν νικητή στην κλήρωση ή να επιλέξετε έναν τυχαίο εθελοντή; Επικολλήστε τη λίστα με τα ονόματα παρακάτω και γυρίστε τον τροχό!",
+    "options": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "Dave",
+      "Eva",
+      "Frank",
+      "Grace"
+    ],
+    "faqs": []
+  },
+  "/yes-no-wheel": {
+    "route": "/yes-no-wheel",
+    "type": "wheel",
+    "title": "Ναι ή Όχι Τροχός | Spin for Instant Answers",
+    "metaDescription": "Περιστρέψτε τον τροχό Ναι ή Όχι για άμεσες, αμερόληπτες απαντήσεις σε οποιαδήποτε ερώτηση. Δωρεάν, διαδραστικό και γρήγορο εργαλείο επιλογής αποφάσεων.",
+    "h1": "Yes or No Wheel Spinner",
+    "description": "Κάντε μια ερώτηση, γυρίστε τον τροχό και λάβετε μια άμεση, αμερόληπτη απάντηση Ναι ή Όχι!",
+    "options": [
+      "Ναι",
+      "Όχι",
+      "Ναι",
+      "Όχι",
+      "Ναι",
+      "Όχι"
+    ],
+    "faqs": []
+  }
+}

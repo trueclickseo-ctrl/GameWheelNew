@@ -1,0 +1,2498 @@
+{
+  "/about": {
+    "route": "/about",
+    "type": "general",
+    "title": "Om GameWheelClub",
+    "metaDescription": "",
+    "h1": "Om GameWheelClub",
+    "description": "Gjør beslutningstaking morsom, rask og helt objektiv.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/farm-animals-wheel": {
+    "route": "/animal-wheels/farm-animals-wheel",
+    "type": "wheel",
+    "title": "Farm Animals Wheel",
+    "metaDescription": "",
+    "h1": "Farm Animals Wheel",
+    "description": "Snurr for å plukke typiske gårds- og gårdsdyr. Utmerket for småbarnslæring.",
+    "options": [
+      "Melkeku",
+      "Ull sau",
+      "Rosa gris",
+      "Galopperende hest",
+      "Klukkende kylling",
+      "Kvakkeand",
+      "Billy Geit",
+      "Fluffy Lama",
+      "Gårdshund"
+    ],
+    "faqs": [
+      {
+        "q": "Er lyder inkludert?",
+        "a": "Spinneren spiller en ren tikkende lyd, lag dyrelyder selv for ekstra moro!"
+      }
+    ]
+  },
+  "/animal-wheels": {
+    "route": "/animal-wheels",
+    "type": "general",
+    "title": "Animal & Nature Randomizer Wheels | GameWheelClub",
+    "metaDescription": "Velg tilfeldige dyr for spill, utdanning og tegninger. Snurr på dyrehjulene for å finne ut hvilket dyr du er, eller velg gårdsskapninger.",
+    "h1": "Dyr og natur",
+    "description": "Velg tilfeldige dyr for spill, utdanning og tegninger. Snurr på dyrehjulene for å finne ut hvilket dyr du er, eller velg gårdsskapninger.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/random-animal-generator": {
+    "route": "/animal-wheels/random-animal-generator",
+    "type": "wheel",
+    "title": "Random Animal Generator Wheel",
+    "metaDescription": "",
+    "h1": "Random Animal Generator Wheel",
+    "description": "Spinn for å få et tilfeldig vilt dyr. Forhåndslastet med majestetiske land- og havdyr.",
+    "options": [
+      "Løve",
+      "Tiger",
+      "Delfin",
+      "Elefant",
+      "kenguru",
+      "Panda",
+      "Pingvin",
+      "Ulv",
+      "Grizzly Bear",
+      "Sjimpanse",
+      "Ørn",
+      "Dovendyr"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg legge til insekter eller dinosaurer?",
+        "a": "Ja, legg til insekter, fugler eller forhistoriske beist i alternativene."
+      }
+    ]
+  },
+  "/animal-wheels/what-animal-are-you": {
+    "route": "/animal-wheels/what-animal-are-you",
+    "type": "wheel",
+    "title": "What Animal Are You Wheel",
+    "metaDescription": "",
+    "h1": "What Animal Are You Wheel",
+    "description": "Oppdag din åndelige dyrepersonlighet med dette morsomme åndedyrhjulet.",
+    "options": [
+      "En klok ugle",
+      "En lojal Golden Retriever",
+      "En leken katt",
+      "En lat panda",
+      "En svevende ørn",
+      "En rask gepard",
+      "En rolig havskilpadde",
+      "En travel bie",
+      "En modig løve"
+    ],
+    "faqs": [
+      {
+        "q": "Er dette basert på vitenskap?",
+        "a": "Nei, dette er et morsomt personlighetsspill designet for underholdning."
+      }
+    ]
+  },
+  "/anime-fandom-wheels/aesthetics-wheel": {
+    "route": "/anime-fandom-wheels/aesthetics-wheel",
+    "type": "wheel",
+    "title": "Estetikkhjul | Spin for Fashion & Room Estetics | GameWheelClub",
+    "metaDescription": "Spinn estetikkhjulet for å velge et tilfeldig stiltema som Cottagecore, Vaporwave eller Dark Academia. Gratis, interaktiv stilvelger.",
+    "h1": "Estetisk hjulspinner",
+    "description": "Usikker på hvilken motestemning du skal prøve neste gang, eller hvordan du skal dekorere rommet ditt? Snurr hjulet for å kreve din tilfeldige estetiske stil!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-characters": {
+    "route": "/anime-fandom-wheels/anime-characters",
+    "type": "wheel",
+    "title": "Anime Characters Wheel | Spinn tilfeldige anime-karakterer | GameWheelClub",
+    "metaDescription": "Spinn det gratis Anime Characters Wheel for å randomisere populære helter og skurker fra toppserier som DBZ, Naruto, One Piece, MHA og Demon Slayer.",
+    "h1": "Anime Characters Wheel",
+    "description": "Avgjør anime-debatter, lag utkast til karaktermatchups, eller velg din neste avatar ved å snurre hjulet!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-to-watch": {
+    "route": "/anime-fandom-wheels/anime-to-watch",
+    "type": "wheel",
+    "title": "Anime to Watch Wheel | Tilfeldig Anime Generator | GameWheelClub",
+    "metaDescription": "Kan",
+    "h1": "Anime to Watch Wheel",
+    "description": "bli overveldet av den enorme overvåkningslisten din? Snurr hjulet og la skjebnen velge din neste anime-serie!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/bfdi-contestants": {
+    "route": "/anime-fandom-wheels/bfdi-contestants",
+    "type": "wheel",
+    "title": "BFDI Contestants Wheel | Battle for Dream Island Randomizer | GameWheelClub",
+    "metaDescription": "Spinn BFDI Contestants Wheel for å velge tilfeldig karakterer fra Battle for Dream Island. Gratis, interaktiv og tilpassbar.",
+    "h1": "BFDI Contestants Wheel",
+    "description": "Spinn for å velge en tilfeldig deltaker fra nettserien Battle for Dream Island!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/cartoon-characters": {
+    "route": "/anime-fandom-wheels/cartoon-characters",
+    "type": "wheel",
+    "title": "Cartoon Characters Wheel | Spin tilfeldige tegneserier | GameWheelClub",
+    "metaDescription": "Spinn Cartoon Characters Wheel for å velge et tilfeldig ikon fra klassiske og moderne animasjonsserier. Gratis, morsom og tilpassbar karaktervelger.",
+    "h1": "Cartoon Characters Wheel",
+    "description": "Spinn for å velge karakterer fra nostalgiske klassikere, Cartoon Network-giganter og Disney-favoritter!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world": {
+    "route": "/anime-fandom-wheels/dandys-world",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Spin the Dandy",
+    "h1": "Dandy's World Character Wheel",
+    "description": "Klarer du ikke å bestemme deg for hvilken toon du skal spille som i ditt neste hageløp? Snurr hjulet for å randomisere ditt valg!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-oc-generator": {
+    "route": "/anime-fandom-wheels/dandys-world-oc-generator",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Spin the Dandy",
+    "h1": "Dandy's World OC Generator Wheel",
+    "description": "Slipp kreativiteten løs! Snurr hjulet for tilfeldig å tildele en arketype, klasserolle eller designbegrensning for din originale Dandy's World-show.",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-trinkets": {
+    "route": "/anime-fandom-wheels/dandys-world-trinkets",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Spin the Dandy",
+    "h1": "Dandy's World Trinkets Wheel",
+    "description": "Usikker på hvilke pyntegjenstander du skal utstyre for neste løpetur? Snurr hjulet for å randomisere belastningen din!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/demon-slayer-characters": {
+    "route": "/anime-fandom-wheels/demon-slayer-characters",
+    "type": "wheel",
+    "title": "Demon Slayer Characters Wheel | Spin Random Demon Slayer | GameWheelClub",
+    "metaDescription": "Spinn Demon Slayer Characters Wheel for å velge en tilfeldig karakter fra Kimetsu no Yaiba. Velg Hashira, Slayers eller Demons umiddelbart.",
+    "h1": "Demon Slayer Characters Wheel",
+    "description": "Spinn for å velge karakterer fra Kimetsu no Yaiba, inkludert kjernedrapere, elitehashiraer og Upper Moon Demons!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/disney-movie-generator": {
+    "route": "/anime-fandom-wheels/disney-movie-generator",
+    "type": "wheel",
+    "title": "Disney Movie Generator Wheel | Spinn en tilfeldig film | GameWheelClub",
+    "metaDescription": "Spinn Disney Movie Generator Wheel for å tilfeldig velge en klassisk eller moderne Disney/Pixar-film for din neste familiefilmkveld. Gratis og interaktiv.",
+    "h1": "Disney Movie Generator Wheel",
+    "description": "Usikker på hvilken Disney-klassiker eller Pixar-mesterverk du skal se? Snurr hjulet og la det velge!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dti-theme-wheel": {
+    "route": "/anime-fandom-wheels/dti-theme-wheel",
+    "type": "wheel",
+    "title": "Kjole for å imponere temahjul | DTI Randomizer | GameWheelClub",
+    "metaDescription": "Spin the Dress To Impress (DTI) Theme Wheel for å tilfeldig velge en motestil eller antrekksutfordring for din neste Roblox-rullebane. Gratis og interaktiv.",
+    "h1": "Dress To Impress (DTI) Theme Wheel",
+    "description": "Lei av standard rullebanekategorier? Snurr hjulet for å få en tilfeldig moteestetikk for din neste modelløkt!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/fnaf-characters": {
+    "route": "/anime-fandom-wheels/fnaf-characters",
+    "type": "wheel",
+    "title": "FNAF Characters Wheel | Spin Random Animatronics | GameWheelClub",
+    "metaDescription": "Spinn FNAF Characters Wheel for å velge en tilfeldig animatronic fra Five Nights at Freddy",
+    "h1": "FNAF Characters Wheel",
+    "description": "Spinn for å velge en tilfeldig animatronic fra Scott Cawthons legendariske skrekkserie!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jjk-cursed-techniques": {
+    "route": "/anime-fandom-wheels/jjk-cursed-techniques",
+    "type": "wheel",
+    "title": "JJK Cursed Techniques Wheel | Spin for Cursed Techniques | GameWheelClub",
+    "metaDescription": "Spinn JJK Cursed Techniques-hjulet for å velge tilfeldig hvilken Jujutsu Kaisen-kraft du vil arve. Gratis, tilpassbar og morsom.",
+    "h1": "JJK Cursed Techniques Wheel",
+    "description": "Hvilken arvelig teknikk går i blodet ditt? Snurr hjulet for å gjøre krav på din legendariske JJK-teknikk!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jujutsu-kaisen-characters": {
+    "route": "/anime-fandom-wheels/jujutsu-kaisen-characters",
+    "type": "wheel",
+    "title": "Jujutsu Kaisen Characters Wheel | Spin Random JJK Sorcerer | GameWheelClub",
+    "metaDescription": "Snurr Jujutsu Kaisen Characters Wheel for å velge tilfeldig ut trollmenn, forbannede ånder eller studentkarakterer. Gratis og interaktiv JJK randomizer.",
+    "h1": "Jujutsu Kaisen Characters Wheel",
+    "description": "Spinn for å velge karakterer fra JJK, inkludert Tokyo Jujutsu High-studenter, elitetrollmenn og Cursed Spirits!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/marvel-superheroes": {
+    "route": "/anime-fandom-wheels/marvel-superheroes",
+    "type": "wheel",
+    "title": "Marvel Superheroes Wheel | Spin Random Avengers | GameWheelClub",
+    "metaDescription": "Spinn Marvel Superheroes Wheel for å velge en helt tilfeldig fra Marvel Universe. Gratis, tilpassbar og perfekt for tegneserie- og MCU-fans.",
+    "h1": "Marvel Superheroes Wheel",
+    "description": "Velg en tilfeldig Avenger, X-Men-medlem eller helt på gatenivå fra det enorme Marvel-universet!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/mha-characters": {
+    "route": "/anime-fandom-wheels/mha-characters",
+    "type": "wheel",
+    "title": "MHA Characters Wheel | Spin Random My Hero Academia Characters | GameWheelClub",
+    "metaDescription": "Spinn MHA Characters Wheel for å velge helter og skurker tilfeldig fra My Hero Academia. Gratis, tilpassbar og rask karaktervelger.",
+    "h1": "MHA Characters Wheel",
+    "description": "Spinn for å velge karakterer fra My Hero Academia, inkludert klasse 1-A helter og League of Villains!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/naruto-characters": {
+    "route": "/anime-fandom-wheels/naruto-characters",
+    "type": "wheel",
+    "title": "Naruto Characters Wheel | Spin Random Naruto Ninja | GameWheelClub",
+    "metaDescription": "Spinn Naruto Characters Wheel for å velge en tilfeldig shinobi fra Konoha eller Akatsuki. Gratis, interaktiv ninjavelger.",
+    "h1": "Naruto Characters Wheel",
+    "description": "Spinn for å velge ninja fra Hidden Leaf, Akatsuki eller historiske shinobi-klaner!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-characters": {
+    "route": "/anime-fandom-wheels/one-piece-characters",
+    "type": "wheel",
+    "title": "One Piece Characters Wheel | Spin Random Pirates | GameWheelClub",
+    "metaDescription": "Spinn One Piece Characters Wheel for å velge en tilfeldig pirat fra Straw Hat-mannskapet, Yonko eller Marines. Gratis, rask og tilpassbar.",
+    "h1": "One Piece Characters Wheel",
+    "description": "Sett seil på Grand Line og snurr hjulet for å velge en tilfeldig karakter fra Eiichiro Odas mesterverk!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-devil-fruits": {
+    "route": "/anime-fandom-wheels/one-piece-devil-fruits",
+    "type": "wheel",
+    "title": "One Piece Devil Fruits Wheel | Spin for Devil Fruits | GameWheelClub",
+    "metaDescription": "Spinn One Piece Devil Fruits Wheel for å velge tilfeldig hvilken Devil Fruit-kraft du vil arve i anime-verdenen. Gratis og tilpassbar.",
+    "h1": "One Piece Devil Fruits Wheel",
+    "description": "Hvilken mystisk frukt vil du spise? Snurr hjulet for å kreve din legendariske piratkraft!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels": {
+    "route": "/anime-fandom-wheels",
+    "type": "general",
+    "title": "Anime & Fandom Character Wheels | GameWheelClub",
+    "metaDescription": "Spinn 19 gratis fandom-avgjørelseshjul. Randomiser animefigurer, Disney-filmer, tegneserieikoner, FNAF-animatronikk og One Piece Devil Fruits.",
+    "h1": "Anime & Fandom Wheels",
+    "description": "Velg din neste overvåkningsliste, avgjør debattkamper, eller velg fandom-karakterer tilfeldig ved å bruke våre forhåndsbygde forhåndsinnstilte alternativer.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/best-icebreaker-games-for-work": {
+    "route": "/blog/best-icebreaker-games-for-work",
+    "type": "general",
+    "title": "Beste Icebreaker Games for Work: Boost Corporate Team Bond",
+    "metaDescription": "Frykter morgensynkroniseringer? Sjekk ut disse raske, energiske isbryterspillene med tilfeldige navnehjul og spinnere for å kickstarte møtene dine.",
+    "h1": "Energiske isbrytere på arbeidsplassen som ikke føles krympende",
+    "description": "Fryktede isbrytere for bedrifter møter moderne tilfeldighet. Finn ut hvordan du starter stand-ups og hybridmøter med høyenergiaktiviteter som bygger ekte forbindelser.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/classroom-incentive-rewards": {
+    "route": "/blog/classroom-incentive-rewards",
+    "type": "general",
+    "title": "Classroom Incentive Rewards: Fair Motivation Systems",
+    "metaDescription": "Gi bort gullstjernene! Lær hvordan du bygger et interaktivt, tilfeldig belønningssystem ved å bruke spinnhjul for å motivere elevene og holde engasjementet høyt.",
+    "h1": "Bygge bedre insentivbelønninger i klasserommet",
+    "description": "Statiske atferdsdiagrammer og klistremerker mister sin effektivitet. Oppdag hvordan å legge til spilldynamikk og tilfeldige belønningsspinnere holder elevene motiverte og atferd positiv.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-generators-help-coding": {
+    "route": "/blog/how-generators-help-coding",
+    "type": "general",
+    "title": "Hvordan tilfeldige generatorer hjelper koding: Utviklertesting og hån",
+    "metaDescription": "Utforsk hvordan tilfeldige generatorer hjelper programvareutviklere med kodetesting, simulering av data, UI/UX-simulering og spillalgoritmedesign.",
+    "h1": "Hvordan tilfeldige generatorer hever koding og testing",
+    "description": "Tilfeldighet er den hemmelige sausen til robust programmering. Lær hvordan utviklere bruker pseudo-tilfeldige generatorer (PRNG-er) for å bygge spenstige systemer, simulere trafikk i den virkelige verden og teste kantsaker.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-to-customize-spin-wheels": {
+    "route": "/blog/how-to-customize-spin-wheels",
+    "type": "general",
+    "title": "Hvordan tilpasse spinnhjul for enhver anledning",
+    "metaDescription": "Lær hvordan du tilpasser spinnhjulene dine med tilpassede farger, etiketter, vektfordeling og lydeffekter for å passe klasserom, fester eller forretningsarrangementer.",
+    "h1": "Hvordan tilpasse spinnhjul for dine behov",
+    "description": "Et generisk hjul kan være kjedelig. Oppdag hvordan finjustering av farger, justering av vekter, valg av lydeffekter og bygging av tematiske paletter løfter arrangementene, kursene og gavene dine.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/math-activities-using-random-generators": {
+    "route": "/blog/math-activities-using-random-generators",
+    "type": "general",
+    "title": "Matematikkaktiviteter ved hjelp av tilfeldige generatorer: interaktive ideer",
+    "metaDescription": "Gjør matematikk interaktiv! Oppdag 6 engasjerende matematikkaktiviteter, sannsynlighetsspill og talløvelser ved å bruke tilfeldige tallgeneratorer og digitale terninger.",
+    "h1": "Matematikkaktiviteter og spill ved bruk av tilfeldige generatorer",
+    "description": "Matte trenger ikke å være en tilskuersport. Oppdag hvordan du gjør aritmetiske øvelser, statistikk og sannsynlighetsteori til aktive, praktiske spill ved hjelp av tilfeldige tallgeneratorer.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog": {
+    "route": "/blog",
+    "type": "general",
+    "title": "GameWheelClub-blogg | Tilfeldige beslutninger, spill og utdanningsinnsikt",
+    "metaDescription": "Les våre siste artikler om tilfeldig beslutningstaking, interaktive klasseromsspillmaler, tidsboksingteknikker og isbryteraktiviteter.",
+    "h1": "Innsikt, veiledninger og produktivitetshack",
+    "description": "Les eksperttips om gamifying av klasserom, implementering av strukturert tidsboksing, organisering av sosiale selskapsspill og oppsett av beslutningsspinnere.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/party-games-for-adults": {
+    "route": "/blog/party-games-for-adults",
+    "type": "general",
+    "title": "Morsomme festspill for voksne: interaktive og tilfeldige ideer",
+    "metaDescription": "Slipp de kjedelige middagssamtalene! Utforsk 8 interaktive og tilfeldige festspill for voksne, inkludert Truth or Dare-spinnere, terningspill og trivia-utfordringer.",
+    "h1": "Oppgrader dine samlinger med festspill for voksne",
+    "description": "Lei av standard brettspill eller vanskelige stille pauser? Lær hvordan du integrerer digitale spinnhjul og tilfeldige generatorer for å arrangere en uforglemmelig spillkveld.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/pomodoro-technique-for-students": {
+    "route": "/blog/pomodoro-technique-for-students",
+    "type": "general",
+    "title": "Pomodoro-teknikk for studenter: Bedre fokusstrategi",
+    "metaDescription": "Lær hvordan Pomodoro-teknikken hjelper elevene med å forbedre fokus, overvinne utsettelse og administrere studietiden med strukturerte intervaller og pauser.",
+    "h1": "The Pomodoro Technique: A Guide for Busy Students",
+    "description": "Sliter du med å studere til eksamen uten å sjekke telefonen hvert femte minutt? Lær hvordan strukturerte studieintervaller kan hjelpe deg med å fokusere, beholde informasjon og redusere utbrenthet.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-for-decision-making": {
+    "route": "/blog/spin-wheels-for-decision-making",
+    "type": "general",
+    "title": "Snurr hjul for beslutningstaking: kurer beslutningslammelse",
+    "metaDescription": "Sliter du med overtenking? Lær hvordan spinnhjul og tilfeldige valggeneratorer forenkler beslutningstaking, fjerner kognitiv belastning og gjør det morsomt å velge.",
+    "h1": "Hvordan Spin Wheels kurerer hverdagslig beslutningslammelse",
+    "description": "Har du noen gang brukt 45 minutter på å bla gjennom Netflix bare for å legge seg uten å se noe? Her er grunnen til at det å overlate avgjørelser med lav innsats til et tilfeldig spinnerhjul er det ultimate produktivitetshacket.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-in-modern-education": {
+    "route": "/blog/spin-wheels-in-modern-education",
+    "type": "general",
+    "title": "Spin Wheels in Modern Education: Gamify Classrooms",
+    "metaDescription": "Øk elevenes engasjement ved å bruke spinnhjul. Utforsk aktive klasseromsideer, gamified quizanmeldelser og rettferdige utvalgsmetoder ved hjelp av digitale spinnerhjul.",
+    "h1": "Spin Wheels in Modern Education: Gamifying the Classroom",
+    "description": "Hvordan en enkel, visuell navnevelger transformerer studentdeltakelse, reduserer testangst og bygger et inkluderende miljø i grunnskole og høyere utdanning.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/time-boxing-to-prevent-burnout": {
+    "route": "/blog/time-boxing-to-prevent-burnout",
+    "type": "general",
+    "title": "Tidsboksing for å forhindre utbrenthet: Daglig planstrategi",
+    "metaDescription": "Lær hvordan tidsboksing hjelper til med å håndtere arbeidsbelastninger, etablere klare grenser for arbeidsliv og forhindre utbrenthet gjennom strukturerte tidsblokker.",
+    "h1": "Hvordan tidsboksing forhindrer profesjonell utbrenthet",
+    "description": "Bløder arbeidstiden ut på kvelden? Oppdag hvordan å sette inn harde tidsbokser for oppgavene dine kan gjenoppbygge sunne grenser, øke produksjonen og gjenopprette tryggheten.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/age-spinner": {
+    "route": "/character-creator/age-spinner",
+    "type": "wheel",
+    "title": "Age Spinner Wheel",
+    "metaDescription": "",
+    "h1": "Age Spinner Wheel",
+    "description": "Velg tilfeldig karakterens alder og utviklingsstadier.",
+    "options": [
+      "Barn (5-10)",
+      "Pre-tenåringer (11-12)",
+      "Tenåring (13-17)",
+      "Ung voksen (18-25)",
+      "voksen (26-45)",
+      "Middelaldrende (46-60)",
+      "Eldre (60+)"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg angi spesifikke tall?",
+        "a": "Ja, skriv bestemte aldersgrupper som \\\"21 år\\\" eller \\\"84 år\\\" for å finjustere."
+      }
+    ]
+  },
+  "/character-creator/boy-or-girl-oc": {
+    "route": "/character-creator/boy-or-girl-oc",
+    "type": "wheel",
+    "title": "Gutt eller jente OC Spinner",
+    "metaDescription": "",
+    "h1": "Gutt eller jente OC Spinner",
+    "description": "Står du fast på å bestemme kjønnsidentiteten til din neste karakter? Snurr på pekeren for å bestemme deg umiddelbart.",
+    "options": [
+      "Gutt",
+      "Jente",
+      "Ikke-binær",
+      "Kjønnsflytende",
+      "Agder"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg legge til egendefinerte kjønnsidentiteter?",
+        "a": "Ja! Bare bruk redigeringspanelet for å legge til, fjerne eller gi nytt navn til alternativene for å matche karakterverdenen din."
+      }
+    ]
+  },
+  "/character-creator/clothing-style": {
+    "route": "/character-creator/clothing-style",
+    "type": "wheel",
+    "title": "Klesstilhjul",
+    "metaDescription": "",
+    "h1": "Klesstilhjul",
+    "description": "Få moteideer og antrekksestetikk for karakterskapere.",
+    "options": [
+      "Uformelt Streetwear",
+      "Viktoriansk gotisk",
+      "Futuristisk Techwear",
+      "Tradisjonell Kimono",
+      "High School Uniform",
+      "Formell smoking/kjole",
+      "Cyberpunk Rebel",
+      "Fantasy Armor"
+    ],
+    "faqs": [
+      {
+        "q": "Hvordan kombinerer jeg stiler?",
+        "a": "Spinn to ganger og kombiner resultatene, som Cyberpunk Victorian!"
+      }
+    ]
+  },
+  "/character-creator/create-an-oc": {
+    "route": "/character-creator/create-an-oc",
+    "type": "wheel",
+    "title": "Lag et OC-hjul",
+    "metaDescription": "",
+    "h1": "Lag et OC-hjul",
+    "description": "Spinn dette hjulet for å generere en tilfeldig bakgrunn, rase eller klasse for din neste originale karakter.",
+    "options": [
+      "Warrior",
+      "Mage",
+      "Thief",
+      "Cleric",
+      "Alf",
+      "Dwarf",
+      "Orc",
+      "Demon",
+      "Angel",
+      "Cyborg",
+      "Alien"
+    ],
+    "faqs": [
+      {
+        "q": "Hvordan kan jeg utvide klassen/rasen som er valgt?",
+        "a": "Når du har valgt en arketype, snurr du hjulene for hår, øyne og klesstil for å bygge ut hele designet."
+      }
+    ]
+  },
+  "/character-creator/eye-color": {
+    "route": "/character-creator/eye-color",
+    "type": "wheel",
+    "title": "Øyefargehjul",
+    "metaDescription": "",
+    "h1": "Øyefargehjul",
+    "description": "Bestem øyenfarge og fantasiirisstiler for din OC umiddelbart.",
+    "options": [
+      "Havblå",
+      "Skoggrønn",
+      "Amber Gold",
+      "Crimson Red",
+      "Hassel",
+      "Mørkebrun",
+      "Ametyst Fiolett",
+      "Heterochromia (blå/grønn)",
+      "Pure Black"
+    ],
+    "faqs": [
+      {
+        "q": "Hvordan representerer jeg glødende fantasiøyne?",
+        "a": "Bare legg til \\\"(Glødende)\\\" til en av fargene i redigeringspanelet."
+      }
+    ]
+  },
+  "/character-creator/gacha-character-generator": {
+    "route": "/character-creator/gacha-character-generator",
+    "type": "wheel",
+    "title": "Gacha Character Generator Wheel",
+    "metaDescription": "",
+    "h1": "Gacha Character Generator Wheel",
+    "description": "Spinn for stylingtemaer, estetikk og motekonsepter for å bygge din neste Gacha Life eller Gacha Club-karakter.",
+    "options": [
+      "Sweet Candy Style",
+      "Dark Goth Style",
+      "Steampunk Style",
+      "Retro Cyberpunk",
+      "Pastell Soft Girl",
+      "Sporty Chic",
+      "Royal Knight"
+    ],
+    "faqs": [
+      {
+        "q": "Fungerer dette for Gacha Club?",
+        "a": "Ja, disse meldingene passer til Gacha Life, Gacha Club og generelle avatarskapere."
+      }
+    ]
+  },
+  "/character-creator/gender-randomizer": {
+    "route": "/character-creator/gender-randomizer",
+    "type": "wheel",
+    "title": "Gender Randomizer Wheel",
+    "metaDescription": "",
+    "h1": "Gender Randomizer Wheel",
+    "description": "Randomiser pronomen, kjønnsidentiteter og presentasjonsstiler.",
+    "options": [
+      "Mann",
+      "Kvinne",
+      "Ikke-binær",
+      "Androgyn",
+      "Genderqueer",
+      "Demiboy",
+      "Demigirl"
+    ],
+    "faqs": [
+      {
+        "q": "Er pronomen forhåndsinnlastet?",
+        "a": "Du kan skrive egendefinerte pronomen ved siden av kjønnene i alternativmenyen."
+      }
+    ]
+  },
+  "/character-creator/hair-color": {
+    "route": "/character-creator/hair-color",
+    "type": "wheel",
+    "title": "Hårfargehjul",
+    "metaDescription": "",
+    "h1": "Hårfargehjul",
+    "description": "Spinn for å velge en tilfeldig hårfarge eller OC hårfarge. Forhåndsfylt med naturlige toner og livlige neonfarger.",
+    "options": [
+      "Brun",
+      "Svart",
+      "Blond",
+      "Ingefær",
+      "Platina Blond",
+      "Neongrønn",
+      "Pastellrosa",
+      "Syrin Lilla",
+      "Cyanblå",
+      "Dyp rød"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg legge til flerfargede stiler?",
+        "a": "Absolutt, skriv \\\"Split Dye (Pink/Blue)\\\" i alternativlisten for tilpassede resultater."
+      }
+    ]
+  },
+  "/character-creator/hair-style": {
+    "route": "/character-creator/hair-style",
+    "type": "wheel",
+    "title": "Hårstilhjul",
+    "metaDescription": "",
+    "h1": "Hårstilhjul",
+    "description": "Velg en tilfeldig frisyre for karakterark, tegninger eller modelldesign.",
+    "options": [
+      "Short Pixie",
+      "Curly Bob",
+      "Long Waves",
+      "Side Undercut",
+      "Twin Pigtails",
+      "High Hestehale",
+      "Messy Bun",
+      "Piky Anime",
+      "Afro Puff",
+      "Dreadlocks"
+    ],
+    "faqs": [
+      {
+        "q": "Passer dette for både mannlige og kvinnelige karakterer?",
+        "a": "Ja, alle stiler er unisex og passer til enhver OC-arketype."
+      }
+    ]
+  },
+  "/character-creator/nationality-generator": {
+    "route": "/character-creator/nationality-generator",
+    "type": "wheel",
+    "title": "Nationality Generator Wheel",
+    "metaDescription": "",
+    "h1": "Nationality Generator Wheel",
+    "description": "Velg tilfeldig nasjonal bakgrunn og statsborgerskap for globale karakterer.",
+    "options": [
+      "amerikansk",
+      "japansk",
+      "britisk",
+      "brasiliansk",
+      "fransk",
+      "tysk",
+      "australsk",
+      "kanadisk",
+      "sørkoreansk",
+      "indisk",
+      "meksikansk",
+      "spansk"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg legge til bestemte regioner?",
+        "a": "Ja, endre hjullisten for å spesifisere byer eller underregioner."
+      }
+    ]
+  },
+  "/character-creator": {
+    "route": "/character-creator",
+    "type": "general",
+    "title": "Character Creator & OC Wheel Generatorer | GameWheelClub",
+    "metaDescription": "Design tilfeldige karakterer, OC-er og avatarer umiddelbart. Spinn for frisyrer, antrekk, øyne, kjønn, hudtoner og gacha-ideer.",
+    "h1": "Character Creator & OC Wheels",
+    "description": "Design tilfeldige karakterer, OC-er og avatarer umiddelbart. Spinn for frisyrer, antrekk, øyne, kjønn, hudtoner og gacha-ideer.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/skin-tone": {
+    "route": "/character-creator/skin-tone",
+    "type": "wheel",
+    "title": "Skin Tone Wheel",
+    "metaDescription": "",
+    "h1": "Skin Tone Wheel",
+    "description": "Velg tilfeldige hudfarger, undertoner og skapningsteksturer.",
+    "options": [
+      "Fair Peach",
+      "Varm beige",
+      "Gylden oliven",
+      "Rik bronse",
+      "Dyp kakao",
+      "Alabaster White",
+      "Pale Grey (Alien/Udead)",
+      "Neon Blue"
+    ],
+    "faqs": [
+      {
+        "q": "Er paletten justerbar?",
+        "a": "Ja, tilpass alle heksede toner eller navn i massetekstområdet."
+      }
+    ]
+  },
+  "/compare/best-random-picker-tools": {
+    "route": "/compare/best-random-picker-tools",
+    "type": "general",
+    "title": "GameWheelClub vs. Wheel of Names vs. Wheel Decider vs. Tiny Decisions | Beste tilfeldige velgerverktøy",
+    "metaDescription": "Les vår omfattende, objektive sammenligning av de beste tilfeldige valgverktøyene: GameWheelClub, Wheel of Names, Wheel Decider og Tiny Decisions. Oppdag den beste spinneren for klasserommet, arrangementet eller hverdagens valg.",
+    "h1": "Beste tilfeldige velgerverktøy sammenlignet",
+    "description": "Står du fast mellom GameWheelClub, Wheel of Names, Wheel Decider og Tiny Decisions? Vi analyserer funksjoner, personvern, styling og UX for å finne det ultimate valghjulet for deg.",
+    "options": [],
+    "faqs": []
+  },
+  "/contact": {
+    "route": "/contact",
+    "type": "general",
+    "title": "Kontakt oss",
+    "metaDescription": "",
+    "h1": "Kontakt oss",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/arrow-spin": {
+    "route": "/creative-wheels/arrow-spin",
+    "type": "wheel",
+    "title": "Pil Spin Wheel",
+    "metaDescription": "",
+    "h1": "Pil Spin Wheel",
+    "description": "Spinn en kompasspeker for å velge en tilfeldig kardinal- eller ordinalretning.",
+    "options": [
+      "Nord ⬆️",
+      "Nordøst ↗️",
+      "Øst ➡️",
+      "Sørøst ↘️",
+      "Sør ⬇️",
+      "Sørvest ↙️",
+      "Vest ⬅️",
+      "Nordvest ↖️"
+    ],
+    "faqs": [
+      {
+        "q": "Fungerer det som et kompass?",
+        "a": "Den plukker retninger matematisk, og fungerer som en tilfeldig retningsguide."
+      }
+    ]
+  },
+  "/creative-wheels/drawing-idea-wheel": {
+    "route": "/creative-wheels/drawing-idea-wheel",
+    "type": "wheel",
+    "title": "Drawing Idea Wheel",
+    "metaDescription": "",
+    "h1": "Drawing Idea Wheel",
+    "description": "Generer rare, søte og morsomme spørsmål for din neste skisse.",
+    "options": [
+      "En katt med en trollhatt",
+      "En futuristisk cyberpunk-kafé",
+      "Et trehus som flyter i verdensrommet",
+      "En middelaldersk ridder som rir på en skilpadde",
+      "En søt drage baker småkaker",
+      "En steampunk-robotblomstbutikk"
+    ],
+    "faqs": [
+      {
+        "q": "Er det bra for utfordringer med hurtigtegning?",
+        "a": "Ja, snurr en melding og still inn en 5-minutters timer!"
+      }
+    ]
+  },
+  "/creative-wheels/movie-picker": {
+    "route": "/creative-wheels/movie-picker",
+    "type": "wheel",
+    "title": "Movie Picker Wheel",
+    "metaDescription": "",
+    "h1": "Movie Picker Wheel",
+    "description": "Finn ut hva du skal se i kveld ved å snurre filmsjangre.",
+    "options": [
+      "Action Blockbuster",
+      "Sci-Fi-thriller",
+      "Comedy Night",
+      "Romantisk drama",
+      "nifs skrekk",
+      "Mind-bending Mystery",
+      "Historisk episk",
+      "Animert klassisk",
+      "Indie-mesterverk"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg legge til spesifikke filmtitler?",
+        "a": "Ja! Erstatt sjangere med dine faktiske overvåkningslistenavn i redigeringsprogrammet."
+      }
+    ]
+  },
+  "/creative-wheels/music-genre-wheel": {
+    "route": "/creative-wheels/music-genre-wheel",
+    "type": "wheel",
+    "title": "Musikksjangerhjul",
+    "metaDescription": "",
+    "h1": "Musikksjangerhjul",
+    "description": "Snurr for å velge hvilken musikkstil du vil spille eller undersøke.",
+    "options": [
+      "Synthwave / Lo-Fi",
+      "Klassisk Rock & Roll",
+      "90-talls Hip Hop",
+      "Neo-klassisk piano",
+      "Moderne Pop",
+      "Smooth Jazz",
+      "Indie Folk & Akustisk",
+      "Heavy Metal / Hard Rock",
+      "Elektronisk dansemusikk"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg legge til bestemte artister?",
+        "a": "Ja, skriv inn dine favorittsangere eller -band i editoren."
+      }
+    ]
+  },
+  "/creative-wheels": {
+    "route": "/creative-wheels",
+    "type": "general",
+    "title": "Beslutningshjul for kreativ og underholdning | GameWheelClub",
+    "metaDescription": "Lås opp kreativ inspirasjon umiddelbart. Spinn for å velge en filmsjanger eller -velger, få tilfeldige tegneideer, snurr en pilpeker eller få TBR-bokmeldinger.",
+    "h1": "Kreativt og underholdning",
+    "description": "Lås opp kreativ inspirasjon umiddelbart. Spinn for å velge en filmsjanger eller -velger, få tilfeldige tegneideer, snurr en pilpeker eller få TBR-bokmeldinger.",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/tbr-prompts": {
+    "route": "/creative-wheels/tbr-prompts",
+    "type": "wheel",
+    "title": "TBR-meldingshjul",
+    "metaDescription": "",
+    "h1": "TBR-prompthjul",
+    "description": "Velg ditt neste valg for boklesing ved å bruke To-Be-Read (TBR)-prompter.",
+    "options": [
+      "En bok med blått omslag",
+      "En bok som ble anbefalt av en venn",
+      "En bok som har stått i hyllen din i over 1 år",
+      "En thriller eller mysterium",
+      "En bok av en kvinnelig forfatter",
+      "En bok med et dyr i"
+    ],
+    "faqs": [
+      {
+        "q": "Støtter den Goodreads-lister?",
+        "a": "Kopier og lim inn titler direkte fra leselistene dine for personlige valg."
+      }
+    ]
+  },
+  "/decision-wheel": {
+    "route": "/decision-wheel",
+    "type": "wheel",
+    "title": "Random Decision Wheel | Snurr valghjulet",
+    "metaDescription": "Legg inn dine egendefinerte valg, snurr beslutningshjulet og løs alternativene umiddelbart. Helt gratis, tilpassbar og objektiv beslutningstaker.",
+    "h1": "Random Decision Wheel",
+    "description": "Kan du ikke velge mellom middagsalternativer, feriesteder eller arbeidsprosjekter? Tilpass skivene og spinn!",
+    "options": [
+      "Ja",
+      "Nei",
+      "Kanskje",
+      "Spør en venn",
+      "Spinn igjen",
+      "Sov på den"
+    ],
+    "faqs": []
+  },
+  "/dice-roller": {
+    "route": "/dice-roller",
+    "type": "dice-roller",
+    "title": "Terningkaster | Kast virtuelle terninger online",
+    "metaDescription": "Kast 1, 2 eller 3 virtuelle terninger umiddelbart. Perfekt for brettspill, statistikk, sannsynlighetsleksjoner og tilfeldige avgjørelser.",
+    "h1": "Virtuell terningkast",
+    "description": "Mistet brettspillterningene dine? Kast opptil tre virtuelle terninger med realistiske prikkoppsett og animasjoner.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/bulk-edit": {
+    "route": "/features/bulk-edit",
+    "type": "general",
+    "title": "Masseredigering og listeimport | GameWheelClub-verktøy",
+    "metaDescription": "Lær hvordan du importerer og redigerer tusenvis av gjenstander umiddelbart. Utforsk strengparsing, CSV-kompatibilitet og liste over sanitære motorer som driver GameWheelClub",
+    "h1": "Masseredigering og listeimportering: Administrere store datasett",
+    "description": "Manuell inntasting er treg. Oppdag hvordan GameWheelClub lar deg lime inn, formatere og rense hundrevis av listeoppføringer fra Excel, Google Sheets eller ren tekst på et enkelt sekund.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/custom-colors": {
+    "route": "/features/custom-colors",
+    "type": "general",
+    "title": "Egendefinerte farger og neobrutalistiske temaer | GameWheelClub",
+    "metaDescription": "Tilpass fargene, typografien og stilen til beslutningshjulene dine. Lær hvordan neobrutalistiske design, tilgjengelig kontrast og CSS-paletter driver GameWheelClubs visuelle verktøy.",
+    "h1": "Egendefinerte farger og neobrutalistiske temaer: Stil dine beslutninger",
+    "description": "Slipp kreativiteten løs. Sett opp egendefinerte farger, bruk retro-forhåndsinnstillinger og dra nytte av tilgjengelige høykontrast-temaer designet for lærere, foredragsholdere og spillere.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/elimination-mode": {
+    "route": "/features/elimination-mode",
+    "type": "general",
+    "title": "Elimineringsmodus | Uttømmende valgutvalg | GameWheelClub",
+    "metaDescription": "Lær hvordan Elimination Mode konverterer standard beslutningshjul til interaktive lotterisystemer og sekvensielle tegnebrett ved å fjerne vinnere på hvert spinn.",
+    "h1": "Elimineringsmodus: Fysikken til uttømmende vinnerutvelgelse",
+    "description": "Eliminer duplikater, velg flere distinkte vinnere, eller avgrens en massiv liste med alternativer ved å bruke vår dynamiske logikk for fjerning av skiver.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/local-storage": {
+    "route": "/features/local-storage",
+    "type": "general",
+    "title": "Lokal lagring og personvern for data | GameWheelClub-funksjoner",
+    "metaDescription": "Lær hvordan GameWheelClub bruker lokal nettleser localStorage for å lagre hjulene, navnene og malene dine offline. Les om vår null-server data personvernarkitektur.",
+    "h1": "Lokal lagring & Offline-First Design: Privacy-First Architecture",
+    "description": "Listene, alternativene og hjulene dine er dine alene. Oppdag hvordan vi lagrer konfigurasjonsdata direkte i nettleseren din, noe som muliggjør null-latency-lasting og fullstendig offline-funksjonalitet.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/sound-effects": {
+    "route": "/features/sound-effects",
+    "type": "general",
+    "title": "Lydeffekter og synthesizere | GameWheelClub",
+    "metaDescription": "Lær hvordan prosessuell lydgenerering og nettleser Web Audio API skaper high-fidelity, interaktive og responsive retrolydeffekter for GameWheelClub-verktøy.",
+    "h1": "Lydeffekter: Teknologien til prosessuell nettlyd",
+    "description": "Oppdag hvordan vi bruker ren matematikk og nettleser-native synthgeneratorer til å lage herlige, taktile klikk- og fanfarelyder som etterligner mekaniske hjul.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/weighted-wheel": {
+    "route": "/features/weighted-wheel",
+    "type": "general",
+    "title": "Vektede beslutningshjul | Sannsynlighetsbaserte spinnere | GameWheelClub",
+    "metaDescription": "Utforsk matematikken og logikken til vektede beslutningshjul. Lær hvordan sannsynlighetsfordeling, kumulative vekter og rulettvalg driver tilpassede valghjul.",
+    "h1": "Vektede beslutningshjul: Matematikken og logikken til tilpasset sannsynlighet",
+    "description": "Ikke alle valg er skapt like. Oppdag hvordan GameWheelClub lar deg tilordne spesifikke vektverdier til gjenstander, og endre sjansebalansen med streng matematisk presisjon.",
+    "options": [],
+    "faqs": []
+  },
+  "/flip-a-coin": {
+    "route": "/flip-a-coin",
+    "type": "flip-a-coin",
+    "title": "Vend en mynt | Online Heads or Tails Generator",
+    "metaDescription": "Vend en virtuell mynt på nettet. En enkel, instant heads or tails beslutningsgenerator med 3D-inspirerte animasjoner.",
+    "h1": "Slipp en mynt på nettet",
+    "description": "Kan du ikke avgjøre et enkelt argument? Vend en virtuell mynt og la sannsynligheten avgjøre hode eller haler umiddelbart!",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/dessert": {
+    "route": "/food-wheels/dessert",
+    "type": "wheel",
+    "title": "Desserthjul",
+    "metaDescription": "",
+    "h1": "Desserthjul",
+    "description": "Snurr for en søt godbitidé. Dekker kaker, paier og bakte kjeks.",
+    "options": [
+      "Sjokoladekake",
+      "Vaniljeis",
+      "Varm eplepai",
+      "Nybakte sjokoladekaker",
+      "Jordbærostkake",
+      "Glaserte smultringer",
+      "Crème Brûlée",
+      "Brownie Sundae"
+    ],
+    "faqs": [
+      {
+        "q": "Er disse oppskriftene?",
+        "a": "Dette er søte dessertkategorier for å inspirere din neste bake- eller bestillingsbeslutning."
+      }
+    ]
+  },
+  "/food-wheels/fast-food-restaurants": {
+    "route": "/food-wheels/fast-food-restaurants",
+    "type": "wheel",
+    "title": "Fast Food Restaurants Wheel",
+    "metaDescription": "",
+    "h1": "Fast Food Restaurants Wheel",
+    "description": "Snurr for å velge mellom populære hurtigmatkjeder for en rask lunsj.",
+    "options": [
+      "McDonalds",
+      "Burger King",
+      "Wendys",
+      "Subway",
+      "Taco Bell",
+      "KFC",
+      "Popeyes",
+      "Chick-fil-A",
+      "Dominos",
+      "Pizza Hut",
+      "Starbucks",
+      "Dunkin"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg tilpasse den til butikker i nærheten?",
+        "a": "Ja, fjern kjeder som ikke er tilgjengelige i byen din."
+      }
+    ]
+  },
+  "/food-wheels/fruit": {
+    "route": "/food-wheels/fruit",
+    "type": "wheel",
+    "title": "Frukthjul",
+    "metaDescription": "",
+    "h1": "Frukthjul",
+    "description": "Snurr for å velge et sunt stykke frukt å spise.",
+    "options": [
+      "Rødt eple",
+      "Banan",
+      "Søt jordbær",
+      "Saftig appelsin",
+      "Blåbær",
+      "Grønne druer",
+      "Vannmelonskive",
+      "Frisk ananas",
+      "Fersken",
+      "Mango"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg legge til tropiske frukter?",
+        "a": "Ja! Legg til dragefrukt, kiwi eller papaya i alternativene."
+      }
+    ]
+  },
+  "/food-wheels": {
+    "route": "/food-wheels",
+    "type": "general",
+    "title": "Food Decider & Dinner Wheel Spinners | GameWheelClub",
+    "metaDescription": "Kan",
+    "h1": "Food Wheels",
+    "description": "Ikke bli enige om lunsj, middag eller snacks? Snurr mathjulene for å velge en tilfeldig restauranttype, hurtigmatkjede, søt dessert eller sunn matbit.",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/snacks": {
+    "route": "/food-wheels/snacks",
+    "type": "wheel",
+    "title": "Snacks Wheel",
+    "metaDescription": "",
+    "h1": "Snacks Wheel",
+    "description": "Velg en tilfeldig sunn matbit eller salt chipspose.",
+    "options": [
+      "Potetgull",
+      "Sjokoladebar",
+      "Epleskiver med peanøttsmør",
+      "Blandede nøtter",
+      "gresk yoghurt",
+      "Popcorn",
+      "pretzels",
+      "ostepinne",
+      "Granolabar"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg legge til diettbegrensninger?",
+        "a": "Ja, legg til keto, vegansk eller glutenfri snacks i menyen."
+      }
+    ]
+  },
+  "/food-wheels/what-to-eat": {
+    "route": "/food-wheels/what-to-eat",
+    "type": "wheel",
+    "title": "What to Eat Wheel",
+    "metaDescription": "",
+    "h1": "What to Eat Wheel",
+    "description": "Løs middagsdebatten umiddelbart ved å velge et tilfeldig matkjøkken.",
+    "options": [
+      "Pizza",
+      "Taco og meksikansk",
+      "Burgere og pommes frites",
+      "Sushi og japansk",
+      "Pasta og italiensk",
+      "Thai karri",
+      "Indisk Masala",
+      "Sunn salat",
+      "Smørbrød og delikatesseforretning"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg legge til lokale restauranter?",
+        "a": "Ja! Bytt ut generiske retter med dine lokale steder i den tilpassede editoren."
+      }
+    ]
+  },
+  "/for-business": {
+    "route": "/for-business",
+    "type": "general",
+    "title": "Tilfeldig beslutningsverktøy for virksomheter | GameWheelClub",
+    "metaDescription": "Forbedre møter og teaminteraksjoner med randomizere og tidtakere. Avgjør programlederrekkefølge, utkast til oppgaver, og vert team-isbrytere.",
+    "h1": "Random Choice Tools for Business",
+    "description": "Avgjør teammøterekkefølgen, utarbeide oppgaver, administrer sprintblokker og bryt isen med raske digitale verktøy.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-events": {
+    "route": "/for-events",
+    "type": "general",
+    "title": "Tilfeldig valgverktøy for arrangementer og fester | GameWheelClub",
+    "metaDescription": "Arranger minneverdige fester, giveaways og sosiale arrangementer. Avgjør gruppespill, snurr etter loddtrekningsvinnere, og velg trivia-emner umiddelbart.",
+    "h1": "Tilfeldig valgverktøy for arrangementer",
+    "description": "Ta med spenning og energi til din neste fest, sosiale treff eller nettlotteri med forhåndsbygde arrangementselgere.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-teachers": {
+    "route": "/for-teachers",
+    "type": "general",
+    "title": "Tilfeldige beslutningsverktøy for lærere | GameWheelClub",
+    "metaDescription": "Oppdag gratisspinnhjul og timerverktøy for klasseromsledelse. Velg tilfeldige elever, velg emner og tildel rettferdig privilegier.",
+    "h1": "Tilfeldig valgverktøy for lærere",
+    "description": "Gamifiser leksjonene dine og gjør deltakelsen 100 % rettferdig. Snurr tilfeldige hjul for å velge frivillige, tildele gruppelag og velg leksjonsemner.",
+    "options": [],
+    "faqs": []
+  },
+  "/games": {
+    "route": "/games",
+    "type": "general",
+    "title": "Random Choice Game Wheels Hub | GameWheelClub",
+    "metaDescription": "Utforsk morsomme, interaktive og forhåndsbygde randomizer-spillhjul. Avgjør teamutkast, fandom-debatter, karakterskaping og festutfordringer umiddelbart.",
+    "h1": "Randomizer Game Wheels",
+    "description": "Interaktive forhåndsinnstilte hjul designet for sport, spilldraft-simulatorer, fandoms, party-isbrytere og kreative randomizers.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/alphabet-wheel": {
+    "route": "/generators/alphabet-wheel",
+    "type": "wheel",
+    "title": "Alphabet Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Alphabet Wheel Spinner",
+    "description": "Snurr for å velge en tilfeldig bokstav fra A til Å.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "faqs": [
+      {
+        "q": "Does it contain foreign characters?",
+        "a": "You can add accents (like É, Ö, Ñ) in the custom menu."
+      }
+    ]
+  },
+  "/generators/color-wheel": {
+    "route": "/generators/color-wheel",
+    "type": "wheel",
+    "title": "Color Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Color Wheel Spinner",
+    "description": "Snurr for å velge en tilfeldig farge hex-kode for design eller valg.",
+    "options": [
+      "Rød (#EF4444)",
+      "Blå (#3B82F6)",
+      "Grønn (#10B981)",
+      "Gul (#F59E0B)",
+      "Lilla (#8B5CF6)",
+      "Rosa (#EC4899)",
+      "Oransje (#F97316)",
+      "Er blågrønn C-SS-farge (#)"
+    ],
+    "faqs": [
+      {
+        "q": "Ja, hex-verdier er oppført ved siden av fargenavn.",
+        "a": "Yes, hex values are listed alongside color names."
+      }
+    ]
+  },
+  "/generators/number-wheel": {
+    "route": "/generators/number-wheel",
+    "type": "wheel",
+    "title": "Number Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Number Wheel Spinner",
+    "description": "Konfigurerbart nummerområde hjul. Erstatter standard spinnervarianter med tilfeldig tall.",
+    "options": [],
+    "faqs": [
+      {
+        "q": "Hvor høyt kan rekkevidden gå?",
+        "a": "Du kan sette den opp til 100 eller høyere, selv om tall under 50 gjengis best på skjermen."
+      }
+    ]
+  },
+  "/generators": {
+    "route": "/generators",
+    "type": "general",
+    "title": "Random Generator Wheels & Math Pickers | GameWheelClub",
+    "metaDescription": "Spinn rene matematiske og utility beslutningsgeneratorer. Inkluderer det tilpassbare tallhjulet, hex-fargegeneratoren, prosenthjulet og alfabetspinneren.",
+    "h1": "Tilfeldige generatorer",
+    "description": "Spin rene matematiske og utility beslutningsgeneratorer. Inkluderer det tilpassbare tallhjulet, hex-fargegeneratoren, prosenthjulet og alfabetspinneren.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/percent-wheel": {
+    "route": "/generators/percent-wheel",
+    "type": "wheel",
+    "title": "Prosent hjulspinn",
+    "metaDescription": "",
+    "h1": "Prosent hjulspinn",
+    "description": "Spinn for å få en tilfeldig prosentverdi mellom 10 % og 100 %.",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+      "50%",
+      "60%",
+      "70%",
+      "80%",
+      "95%",
+      "100%"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg legge til mindre trinn?",
+        "a": "Ja, legg til trinn som \\\"1%\\\", \\\"5%\\\", eller \\\"99%\\\" i redigeringsprogrammet."
+      }
+    ]
+  },
+  "/generators/periodic-table-picker": {
+    "route": "/generators/periodic-table-picker",
+    "type": "wheel",
+    "title": "Periodisk tabellvelger",
+    "metaDescription": "",
+    "h1": "Periodisk tabellvelger",
+    "description": "Spinn for å velge et tilfeldig kjemisk grunnstoff fra det periodiske systemet.",
+    "options": [
+      "Hydrogen (H)",
+      "Helium (He)",
+      "Litium (Li)",
+      "Beryllium (Be)",
+      "Bor (B)",
+      "Karbon (C)",
+      "Nitrogen (N)",
+      "Oksygen (O)",
+      "Fluor (F)",
+      "Neon (Ne)",
+      "Natriumgass (Na) (__g) Natriumgass (",
+      "(__g) er inkludert?"
+    ],
+    "faqs": [
+      {
+        "q": "Ja, helium og neon er inkludert. Legg til flere tunge elementer etter behov.",
+        "a": "Yes, helium and neon are included. Add more heavy elements as needed."
+      }
+    ]
+  },
+  "/geography-wheels/64-country-roulette": {
+    "route": "/geography-wheels/64-country-roulette",
+    "type": "wheel",
+    "title": "64 Country Roulette",
+    "metaDescription": "",
+    "h1": "64 Country Roulette",
+    "description": "Det ultimate 64-lands ruletthjulet for spillutfordringer og braketter.",
+    "options": [
+      "USA",
+      "Canada",
+      "Mexico",
+      "Brasil",
+      "Argentina",
+      "Storbritannia",
+      "Frankrike",
+      "Tyskland",
+      "Italia",
+      "Spania",
+      "Russland",
+      "Egypt",
+      "Sør-Afrika",
+      "Nigeria",
+      "Kenya",
+      "India",
+      "Kina",
+      "Japan",
+      "Sør-Korea",
+      "Australia",
+      "New Zealand",
+      "_ Saudi-Arabia",
+      "Sverige",
+      "_ Sverige",
+      "Nederland",
+      "Sveits",
+      "Polen",
+      "Ukraina",
+      "Vietnam",
+      "Thailand",
+      "Indonesia",
+      "Filippinene",
+      "Colombia",
+      "Peru",
+      "Chile",
+      "Venezuela",
+      "Marokko",
+      "Ghana",
+      "Etiopia",
+      "Pakistan",
+      "Malaysia Bangladesh",
+      "Iran",
+      "_ Irak",
+      "Singapore",
+      "Irak",
+      "Portugal",
+      "Østerrike",
+      "Danmark",
+      "Finland",
+      "Irland",
+      "Belgia",
+      "Tsjekkia",
+      "Ungarn",
+      "Romania",
+      "Cuba",
+      "Jamaica",
+      "Costa Rica",
+      "Panama",
+      "Ecuador",
+      "Bolivia",
+      "Er det vanskelig å lese 64 skiver?",
+      "Den snurrer rent! Du kan bytte listevisning for å dobbeltsjekke det endelige resultatet.",
+      "Ecuador",
+      "Bolivia"
+    ],
+    "faqs": [
+      {
+        "q": "Is it hard to read 64 slices?",
+        "a": "It spins cleanly! You can toggle list views to double-check the final result."
+      }
+    ]
+  },
+  "/geography-wheels/country-wheel": {
+    "route": "/geography-wheels/country-wheel",
+    "type": "wheel",
+    "title": "Country Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Country Wheel Spinner",
+    "description": "Velg en tilfeldig nasjon over hele verden for trivia, spillregioner eller prosjekter.",
+    "options": [
+      "USA",
+      "Japan",
+      "Brasil",
+      "Tyskland",
+      "Australia",
+      "Canada",
+      "India",
+      "Sør-Afrika",
+      "Storbritannia",
+      "Frankrike",
+      "Italia",
+      "Kina",
+      "Egypt",
+      "Mexico",
+      "Russland",
+      "Argentina"
+    ],
+    "faqs": [
+      {
+        "q": "Er alle land inkludert?",
+        "a": "Dette hjulet har et balansert utvalg av store globale nasjoner. Rediger for å legge til et bestemt land."
+      }
+    ]
+  },
+  "/geography-wheels/europe-countries": {
+    "route": "/geography-wheels/europe-countries",
+    "type": "wheel",
+    "title": "Europe Countries Wheel",
+    "metaDescription": "",
+    "h1": "Europe Countries Wheel",
+    "description": "Velg tilfeldig et europeisk land for reiseplaner eller pedagogisk forskning.",
+    "options": [
+      "Storbritannia",
+      "Frankrike",
+      "Tyskland",
+      "Italia",
+      "Spania",
+      "Nederland",
+      "Belgia",
+      "Sveits",
+      "Østerrike",
+      "Sverige",
+      "Norge",
+      "Danmark",
+      "Finland",
+      "Irland",
+      "Portugal",
+      "Hellas",
+      "Polen",
+      "Tsjekkia"
+    ],
+    "faqs": [
+      {
+        "q": "Er mikrostater som Vatikanstaten på det?",
+        "a": "Du kan legge til Monaco, Andorra eller San Marino manuelt i alternativene."
+      }
+    ]
+  },
+  "/geography-wheels": {
+    "route": "/geography-wheels",
+    "type": "general",
+    "title": "Geografi & Country Wheel Spinners | GameWheelClub",
+    "metaDescription": "Spinn for å velge tilfeldige land, amerikanske stater, europeiske nasjoner, eller kjør rulettutfordringen med 64 land. Flott for geografitrivia og reiseplanlegging.",
+    "h1": "Geografihjul",
+    "description": "Spinn for å velge tilfeldige land, amerikanske stater, europeiske nasjoner, eller kjør rulettutfordringen med 64 land. Flott for geografitrivia og reiseplanlegging.",
+    "options": [],
+    "faqs": []
+  },
+  "/geography-wheels/us-states": {
+    "route": "/geography-wheels/us-states",
+    "type": "wheel",
+    "title": "US States Wheel",
+    "metaDescription": "",
+    "h1": "US States Wheel",
+    "description": "Spinn for å velge mellom de 50 delstatene i Amerika tilfeldig.",
+    "options": [
+      "California",
+      "Texas",
+      "Florida",
+      "New York",
+      "Illinois",
+      "Pennsylvania",
+      "Ohio",
+      "Georgia",
+      "North Carolina",
+      "Michigan",
+      "Washington",
+      "Arizona",
+      "Massachusetts",
+      "Virginia",
+      "Colorado",
+      "Tennessee"
+    ],
+    "faqs": [
+      {
+        "q": "Er alle 50 stater forhåndslastet?",
+        "a": "Denne forhåndsinnstillingen inneholder hovedtilstander. Du kan kopiere og lime inn hele listen over 50 tilstander i masseredigeringsboksen på sekunder."
+      }
+    ]
+  },
+  "/guides/classroom-spin-wheel-ideas": {
+    "route": "/guides/classroom-spin-wheel-ideas",
+    "type": "general",
+    "title": "Klasseromspinnhjulsideer: Interaktive undervisningsstrategier",
+    "metaDescription": "Øk elevenes engasjement med 15 kreative ideer med spinnhjul i klasserommet. Lær hvordan du kjører rettferdige navnetrekninger, tildeler oppgaver og gamify leksjoner med tilfeldige hjul.",
+    "h1": "15 kreative klasseromsspinnhjul-ideer",
+    "description": "Gjør passiv lytting til aktiv, energisk deltakelse. Oppdag strukturerte, felttestede spinnhjul-strategier for å gamify leksjoner, fordele jobber og holde hver elev på kanten av setet.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/decision-making-methods": {
+    "route": "/guides/decision-making-methods",
+    "type": "general",
+    "title": "Beslutningsmetoder: Rammer, heuristikk og randomisering",
+    "metaDescription": "Utforsk strukturerte beslutningsrammeverk. Fra Eisenhower Matrix til analytiske modeller og randomiserte utvalgsverktøy, oppdag hvordan du kan overvinne valgtretthet.",
+    "h1": "En mesterklasse i beslutningsmetoder",
+    "description": "Bør du analysere, stole på magefølelsen eller delegere til sannsynlighet? Lær de formelle modellene for valgteori, kognitive skjevheter og hvordan du vet når du skal la en myntflipp avgjøre resultatet.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/how-random-wheels-work": {
+    "route": "/guides/how-random-wheels-work",
+    "type": "general",
+    "title": "Hvordan tilfeldige hjul fungerer: matematikk, algoritmer og fysikk",
+    "metaDescription": "Dykk dypt inn i vitenskapen bak virtuelle spinnhjul. Utforsk Pseudo-Random Number Generators (PRNGs), friksjonsretardasjonsfysikk og algoritmisk rettferdighet.",
+    "h1": "Behind the Spin: How Random Wheels Actually Work",
+    "description": "Har du noen gang lurt på hvordan et virtuelt hjul beregner vinneren sin? Oppdag matematikken til pseudorandom-tallgeneratorer, ligningene for simulert friksjon og programmeringsprinsippene som garanterer et objektivt utvalg.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/icebreaker-games-guide": {
+    "route": "/guides/icebreaker-games-guide",
+    "type": "general",
+    "title": "Icebreaker Games Guide: Team-building & Virtual Meetups",
+    "metaDescription": "Lær hvordan du er vert for høyenergiske isbryterspill. Oppdag kreative spinnere, spørsmålsspørsmål og teambyggingsstrategier for fysiske og virtuelle team.",
+    "h1": "The Ultimate Guide to Icebreaker Games",
+    "description": "Lei av vanskelige stillheter i teammøter eller sosiale arrangementer? Lær vitenskapen om isbryting, hvordan du etablerer en sosial atmosfære under lavt trykk, og hvordan du bruker tilfeldige spillspinnere effektivt.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/productivity-timeboxing": {
+    "route": "/guides/productivity-timeboxing",
+    "type": "general",
+    "title": "Produktivitet Timeboxing: The Ultimate Guide to Time Blocks",
+    "metaDescription": "Lær hvordan du bruker timeboxing og Pomodoro-teknikker for å øke fokus. Combat Parkinson",
+    "h1": "Timeboxing: Conquer Distractions with Strict Limits",
+    "description": "Hvorfor tar en oppgave tre timer når du får en frist på tre timer, men bare tretti minutter når du er presset på tid? Oppdag hvordan du kan utnytte Parkinsons lov og gamified timer-systemer for å gjenvinne kontrollen over dagen din.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/random-giveaway-rules": {
+    "route": "/guides/random-giveaway-rules",
+    "type": "general",
+    "title": "Tilfeldige Giveaway-regler og juridiske retningslinjer",
+    "metaDescription": "Hold deg kompatibel når du kjører online giveaways. Forstå lover om konkurranser, regelen om ikke-kjøp og plattformretningslinjer for rettferdige konkurranser.",
+    "h1": "Hvordan kjøre tilfeldige Giveaways lovlig og rettferdig",
+    "description": "Sweepstakes, konkurranser eller lotterier? Å navigere i lover om kampanjetrekninger er avgjørende for å beskytte merkevaren din og respektere publikum. Lær reglene for overholdelse av tilfeldig utvalg.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/spin-wheel-psychology": {
+    "route": "/guides/spin-wheel-psychology",
+    "type": "general",
+    "title": "The Psychology of Spin Wheels: Suspense, Rewards & Choices",
+    "metaDescription": "Utforsk de psykologiske triggerne bak spinnhjulene. Forstå hvordan beslutningstretthet, forventning og visuelle belønninger gjør randomiserte velgere så engasjerende.",
+    "h1": "Spin Wheel Psychology: Why We Love the Spin",
+    "description": "Hva gjør et roterende hjul med gjenstander så uimotståelig? Oppdag de nevrale mekanismene for forventning, lettelsen ved å avlaste valgene og de gamifiserte designmønstrene som fanger oppmerksomheten vår.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/unbiased-selection-importance": {
+    "route": "/guides/unbiased-selection-importance",
+    "type": "general",
+    "title": "Viktigheten av objektivt utvalg: Rettferdighet og statistikk",
+    "metaDescription": "Oppdag hvorfor objektivt utvalg er avgjørende. Utforsk matematikken om rettferdige valg, kognitive skjevheter i menneskelige velgere og bruksområder i den virkelige verden.",
+    "h1": "Hvorfor objektivt utvalg betyr noe",
+    "description": "Menneskelig valg er full av implisitte kognitive skjevheter. Utforsk hvordan tilfeldig matematikk beskytter statistikk, gjenoppretter rettferdighet, garanterer pedagogisk rettferdighet og bygger tillit.",
+    "options": [],
+    "faqs": []
+  },
+  "/": {
+    "route": "/",
+    "type": "wheel",
+    "title": "Spin the Wheel of Decisions",
+    "metaDescription": "",
+    "h1": "Spin the Wheel of Decisions",
+    "description": "Klarer du ikke å bestemme deg? Legg inn alternativene dine, snurr hjulet og la skjebnen bestemme umiddelbart! Rask, rettferdig og morsom.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/adult-truth-or-dare": {
+    "route": "/party-games/adult-truth-or-dare",
+    "type": "wheel",
+    "title": "Adult Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Adult Truth or Dare Wheel",
+    "description": "Spinn for å velge krydder, modne hemmeligheter og provoserende våger. Aldersbegrenset interstitial inkludert.",
+    "options": [
+      "Sannhet: Hva er din hemmelige fantasi?",
+      "Våg: Gi en sensuell massasje til personen ved siden av deg",
+      "Sannhet: Fortell gruppen ditt mest pinlige romantiske møte",
+      "Våg: Hviske noe provoserende i noens øre"
+    ],
+    "faqs": [
+      {
+        "q": "Krever det påmelding?",
+        "a": "Ingen registrering eller kontoer nødvendig. Vi bruker en enkel aldersverifiseringsport for å beskytte mindreårige."
+      }
+    ]
+  },
+  "/party-games/charades-topics": {
+    "route": "/party-games/charades-topics",
+    "type": "wheel",
+    "title": "Charades Topics Wheel",
+    "metaDescription": "",
+    "h1": "Charades Topics Wheel",
+    "description": "Få morsomme og kreative emner for familie-charades-spill.",
+    "options": [
+      "Etterligne en T-Rex som spiser",
+      "Lat som om du er en glitrende robot",
+      "Spill golf",
+      "Etterligner å lage en pølse",
+      "Lat som om du går på is",
+      "Oppfør deg som en astronaut som flyter"
+    ],
+    "faqs": [
+      {
+        "q": "Er temaene vanskelige?",
+        "a": "De er balanserte for både barn og voksne."
+      }
+    ]
+  },
+  "/party-games/extreme-truth-or-dare": {
+    "route": "/party-games/extreme-truth-or-dare",
+    "type": "wheel",
+    "title": "Extreme Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Extreme Truth or Dare Wheel",
+    "description": "Spinn for svært utfordrende, intensive og sprø sannheter og våger.",
+    "options": [
+      "Sannhet: Har du noen gang jukset på en test?",
+      "Våg: Ring en tilfeldig kontakt og syng gratulerer med dagen",
+      "Sannhet: Hva er din største anger?",
+      "Våg: La gruppen legge ut en historie på Instagramen din"
+    ],
+    "faqs": [
+      {
+        "q": "Er disse trygge å fremføre?",
+        "a": "Ja, de er trygge, men svært underholdende. Hopp alltid over enhver våg du føler deg ukomfortabel med."
+      }
+    ]
+  },
+  "/party-games/funny-dares": {
+    "route": "/party-games/funny-dares",
+    "type": "wheel",
+    "title": "Funny Dares Wheel",
+    "metaDescription": "",
+    "h1": "Funny Dares Wheel",
+    "description": "Få klønete, enkle og morsomme fysiske utfordringer.",
+    "options": [
+      "Snakk med britisk aksent i 3 runder",
+      "Gjør ditt beste kyllinginntrykk",
+      "Balanser en skje på nesen",
+      "Oppfør deg som en drama queen",
+      "Snakk med en potteplante i 1 minutt"
+    ],
+    "faqs": [
+      {
+        "q": "Kan disse vågene gjøres innendørs?",
+        "a": "Ja, alle våger er designet for å utføres trygt inne."
+      }
+    ]
+  },
+  "/party-games": {
+    "route": "/party-games",
+    "type": "general",
+    "title": "Fest- og sosiale spillhjul | GameWheelClub",
+    "metaDescription": "Interaktive hjul for sosiale arrangementer, overnatting og fester. Spinn for sannhets- eller tør-spørsmål, snurr på flasken, karader og morsomme utfordringer.",
+    "h1": "Fest- og sosiale spill",
+    "description": "Interaktive hjul for sosiale arrangementer, overnatting og fester. Spinn for sannhets- eller tør-spørsmål, snurr på flasken, karader og morsomme utfordringer.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/punishment-wheel": {
+    "route": "/party-games/punishment-wheel",
+    "type": "wheel",
+    "title": "Punishment Wheel",
+    "metaDescription": "",
+    "h1": "Punishment Wheel",
+    "description": "Snurr for å tildele dumme gjøremål, tap eller straffer for brettspilltapere.",
+    "options": [
+      "Kjøp snacks til alle",
+      "Ta oppvasken",
+      "Syng en sang valgt av gruppen",
+      "Legg ut en pinlig selfie",
+      "Gjør 20 hoppende knekt",
+      "Snakk kun hviskende neste sving"
+    ],
+    "faqs": [
+      {
+        "q": "Er disse alvorlige?",
+        "a": "Nei, de er muntre og perfekte for vennskapsspill."
+      }
+    ]
+  },
+  "/party-games/questions-wheel": {
+    "route": "/party-games/questions-wheel",
+    "type": "wheel",
+    "title": "Spørsmålshjul",
+    "metaDescription": "",
+    "h1": "Spørsmålshjul",
+    "description": "Snurr for isbryterspørsmål, bli-kjent-emner og samtaleoppfordringer.",
+    "options": [
+      "Hva er din superkraft?",
+      "Hvis du vant $1M",
+      "hva er det første kjøpet?",
+      "Hvor er drømmeferien din?",
+      "Hva er din største frykt?",
+      "Hvem inspirerer deg mest?",
+      "Hva er ditt favoritt barndomsminne?"
+    ],
+    "faqs": [
+      {
+        "q": "Er spørsmålene rene?",
+        "a": "Ja, egnet for bedriftens isbrytere og skoleklasser."
+      }
+    ]
+  },
+  "/party-games/scattergories-letters": {
+    "route": "/party-games/scattergories-letters",
+    "type": "wheel",
+    "title": "Scattergories Letters Wheel",
+    "metaDescription": "",
+    "h1": "Scattergories Letters Wheel",
+    "description": "Spinn for å velge en tilfeldig bokstav for Scattergories og vokabularspill.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "R",
+      "S",
+      "T",
+      "W"
+    ],
+    "faqs": [
+      {
+        "q": "Hvorfor mangler noen bokstaver?",
+        "a": "Vi ekskluderer harde bokstaver (Q, X, Y, Z) for å holde spill morsomme og bevegelige."
+      }
+    ]
+  },
+  "/party-games/song-association": {
+    "route": "/party-games/song-association",
+    "type": "wheel",
+    "title": "Song Association Wheel",
+    "metaDescription": "",
+    "h1": "Song Association Wheel",
+    "description": "Spinn et nøkkelord og prøv å synge en sang som inneholder det ordet på 10 sekunder.",
+    "options": [
+      "Ord: KJÆRLIGHET",
+      "Ord: BRANN",
+      "Ord: HIMMELEN",
+      "Ord: DANS",
+      "Ord: NATT",
+      "Ord: VERDEN",
+      "Ord: BLÅ",
+      "Ord: GLAD",
+      "Ord: GRÅT"
+    ],
+    "faqs": [
+      {
+        "q": "Hva er reglene?",
+        "a": "En spiller har 10 sekunder på seg til å synge minst én linje av en ekte sang som inneholder ordet."
+      }
+    ]
+  },
+  "/party-games/spin-the-bottle": {
+    "route": "/party-games/spin-the-bottle",
+    "type": "wheel",
+    "title": "Spin the Bottle Wheel",
+    "metaDescription": "",
+    "h1": "Spin the Bottle Wheel",
+    "description": "En virtuell spinner som erstatter fysiske flaskeoppsett for klassiske spill.",
+    "options": [
+      "Spiller A",
+      "Spiller B",
+      "Spiller C",
+      "Spiller D",
+      "Spiller E",
+      "Spiller F"
+    ],
+    "faqs": [
+      {
+        "q": "Hvor mange spillere kan spille?",
+        "a": "Støtter opptil 100 spillere. Legg enkelt til navn i alternativlisten."
+      }
+    ]
+  },
+  "/party-games/things-to-do-when-bored": {
+    "route": "/party-games/things-to-do-when-bored",
+    "type": "wheel",
+    "title": "Ting å gjøre når du kjeder deg",
+    "metaDescription": "",
+    "h1": "Ting å gjøre når du kjeder deg",
+    "description": "Spinn for å kurere kjedsomhet med produktive, kreative og fysiske aktivitetsoppfordringer.",
+    "options": [
+      "Les et bokkapittel",
+      "Organiser skrivebordsskuffen",
+      "Lær et 5-minutters korttriks",
+      "Gå en rask spasertur",
+      "Prøv å tegne et selvportrett",
+      "Strekk ut i 10 minutter",
+      "Lytt til et nytt album"
+    ],
+    "faqs": [
+      {
+        "q": "Krever disse forsyninger?",
+        "a": "De fleste aktiviteter er helt gratis og krever null forberedelse."
+      }
+    ]
+  },
+  "/party-games/truth-or-dare": {
+    "route": "/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Truth or Dare Wheel",
+    "description": "Snurr hjulet for å få klassiske Truth or Dare-meldinger for barn, tenåringer og familier.",
+    "options": [
+      "Sannhet: Hva er din største hemmelighet?",
+      "Våg: Gjør 10 pushups",
+      "Sannhet: Hvem er din forelskelse?",
+      "Våg: Spis et rått stykke hvitløk",
+      "Sannhet: Fortell en morsom løgn du fortalte",
+      "Våg: La noen sende meldinger fra telefonen din"
+    ],
+    "faqs": [
+      {
+        "q": "Er det rent for familier?",
+        "a": "Ja, dette hjulet inneholder lette meldinger perfekt for familiesammenkomster."
+      }
+    ]
+  },
+  "/privacy": {
+    "route": "/privacy",
+    "type": "general",
+    "title": "Retningslinjer for personvern",
+    "metaDescription": "",
+    "h1": "Retningslinjer for personvern",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/random-number-generator": {
+    "route": "/random-number-generator",
+    "type": "number-generator",
+    "title": "Tilfeldig tallgenerator | Rask RNG-verktøy",
+    "metaDescription": "Generer enkelt eller flere tilfeldige tall i et hvilket som helst tilpasset område. Gratis, sikker og tilpassbar tilfeldig nummervelger.",
+    "h1": "Random Number Generator",
+    "description": "Velg tilfeldige tall umiddelbart. Angi minimums- og maksimumsgrenser, velg mengde og generer!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/best-teams": {
+    "route": "/sports-wheels/best-teams",
+    "type": "wheel",
+    "title": "Beste idrettslag Wheel Spinner | Legendarisk lagvelger",
+    "metaDescription": "Spinn det beste laghjulet for å velge et legendarisk lag i sportshistorien. Forhåndslastet med 1992 Dream Team, 1996 Chicago Bulls, 1972 Dolphins og mer.",
+    "h1": "Beste idrettslag hjulspinner",
+    "description": "Hvilket lag var virkelig tidenes beste? Snurr hjulet for å tilfeldig velge et legendarisk idrettslag på tvers av basketball, fotball, fotball og baseball.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/college-teams": {
+    "route": "/sports-wheels/college-teams",
+    "type": "wheel",
+    "title": "College Teams hjulspinner | Tilfeldig NCAA-lagvelger",
+    "metaDescription": "Spinn College Teams-hjulet for å tilfeldig velge et topp NCAA-universitetslag. Perfekt for simulering av college-fotball (CFB), basketballbraketter og pick'em-ligaer.",
+    "h1": "College Teams Wheel Spinner",
+    "description": "Velg et tilfeldig universitetslag fra NCAA FBS-divisjonen. Flott for College Football 25 Dynasty valg eller NCAA basketball brakett spådommer!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/fifa-world-cup-2026": {
+    "route": "/sports-wheels/fifa-world-cup-2026",
+    "type": "wheel",
+    "title": "FIFA World Cup 2026 hjulspinner | Tilfeldig landsvelger",
+    "metaDescription": "Snurr hjulet for verdensmesterskapet 2026 for å velge en kvalifisert fotballnasjon tilfeldig. Flott for turneringssveip, gruppespådommer og kampsimuleringer.",
+    "h1": "FIFA World Cup 2026-hjul",
+    "description": "Gjør deg klar for historiens største sportsbegivenhet over hele Nord-Amerika. Snurr hjulet for å velge en kvalifisert nasjon tilfeldig!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/football-players": {
+    "route": "/sports-wheels/football-players",
+    "type": "wheel",
+    "title": "Fotballspillere Wheel Spinner | Tilfeldig fotballstjernevelger",
+    "metaDescription": "Spinn fotballspillerhjulet for å velge en tilfeldig fotballstjerne som Messi, Ronaldo, Mbappé eller Haaland. Perfekt for FC 24/FC 25 utkastutfordringer.",
+    "h1": "Fotballspillere Wheel Spinner",
+    "description": "Snurr for å velge tilfeldig blant verdens mest eliteforbund fotball (fotball) superstjerner. Avgjør debatter, velg FC-mål eller utfordre venner!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/golf-wheel": {
+    "route": "/sports-wheels/golf-wheel",
+    "type": "wheel",
+    "title": "Golf Club Wheel Spinner | Tilfeldig klubbvelgerutfordring",
+    "metaDescription": "Snurr golfhjulet for å velge en golfkølle tilfeldig som Driver, 7-Iron, Pitching Wedge eller Putter. Perfekt for rekkeviddeutfordringer og banespill.",
+    "h1": "Golf Club Wheel Spinner",
+    "description": "Klar til å krydre golftreningen eller utfordre vennene dine på banen? Spinn golfhjulet for å finne ut hvilken kølle du må treffe neste gang!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/mlb-teams": {
+    "route": "/sports-wheels/mlb-teams",
+    "type": "wheel",
+    "title": "MLB Teams hjulspinner | Tilfeldig Major League Baseball Team Picker",
+    "metaDescription": "Spinn MLB Teams Wheel for å velge en baseball-franchise tilfeldig. Perfekt for fantasy-ligaer, baseball-videospill og sluttspillspådommer.",
+    "h1": "MLB Teams Wheel Spinner",
+    "description": "Velg en tilfeldig Major League Baseball-franchise umiddelbart. Ideell for MLB The Show-utfordringer, fantasy-utkastvalg og stadionturer!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-players": {
+    "route": "/sports-wheels/nba-players",
+    "type": "wheel",
+    "title": "NBA Players Wheel Spinner | Tilfeldig NBA-spillervelger",
+    "metaDescription": "Spinn NBA Players Wheel for å velge en tilfeldig aktiv basketball-superstjerne. Perfekt for fantasysport, triviakveld og spillersammenligningsdebatter.",
+    "h1": "NBA Players Wheel Spinner",
+    "description": "Velg tilfeldig mellom de absolutte elitebaskettalentene i NBA i dag. Avgjør sammenligninger, velg spillerfokus eller start debatter.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-teams": {
+    "route": "/sports-wheels/nba-teams",
+    "type": "wheel",
+    "title": "NBA Teams hjulspinner | Tilfeldig NBA-franchisevelger",
+    "metaDescription": "Spinn NBA Teams-hjulet for å velge en tilfeldig profesjonell basketballfranchise. Ideell for NBA 2K-utfordringer, fantasy-utkastvalg og sportstrivia.",
+    "h1": "NBA Teams Wheel Spinner",
+    "description": "Velg en tilfeldig NBA-franchise. Perfekt for pick-up-kamper i NBA 2K, definere kladdeordrelister eller bestemme hvilket lag som skal bygges i karrieremodus.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-players": {
+    "route": "/sports-wheels/nfl-players",
+    "type": "wheel",
+    "title": "NFL Players Wheel Spinner | Tilfeldig NFL-spillervelger",
+    "metaDescription": "Snurr på NFL Players Wheel for å velge en tilfeldig aktiv NFL-stjernefotballspiller. Ideell for fantasiutkast, trivia og teambyggingsutfordringer.",
+    "h1": "NFL Players Wheel Spinner",
+    "description": "Spinn for å velge tilfeldig blant ligaens mest elitespillere. Flott for triviautfordringer, fantasivalg og spillerdebatter!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-positions": {
+    "route": "/sports-wheels/nfl-positions",
+    "type": "wheel",
+    "title": "NFL posisjoner hjulspinner | Tilfeldig fotballposisjonsvelger",
+    "metaDescription": "Spinn NFL Positions-hjulet for å velge en tilfeldig fotballrolle som Quarterback, Running Back, Wide Receiver eller Linebacker. Perfekt for trening og coaching.",
+    "h1": "NFL Positions Wheel Spinner",
+    "description": "Trenger du å tildele vaktlisteposisjoner, sette opp trenerøvelser eller randomisere en utfordring i karrieremodus? Spinn posisjonshjulet for å velge!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-teams": {
+    "route": "/sports-wheels/nfl-teams",
+    "type": "wheel",
+    "title": "NFL Teams hjulspinner | Tilfeldig NFL-lagvelger",
+    "metaDescription": "Spinn NFL Teams-hjulet for å velge en tilfeldig NFL-franchise. Perfekt for utkast til fantasy fotball, velge et lag å spille i Madden eller velge et nytt favorittlag.",
+    "h1": "NFL Teams Wheel Spinner",
+    "description": "Står du fast ved å velge hvilket lag du vil spille med, eller trenger du en objektiv velger for fantasifotballligaen din? Snurr hjulet for å bestemme!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nhl-teams": {
+    "route": "/sports-wheels/nhl-teams",
+    "type": "wheel",
+    "title": "NHL Teams hjulspinner | Tilfeldig NHL-hockeylagvelger",
+    "metaDescription": "Spinn NHL Teams-hjulet for å velge en tilfeldig profesjonell hockeyfranchise. Flott for NHL-videospill, brakettoppsett og trivia.",
+    "h1": "NHL Teams Wheel Spinner",
+    "description": "Velg et tilfeldig profesjonelt NHL-lag umiddelbart. Perfekt for NHL-utfordringer i franchisemodus, utstillingskamper og sluttspill.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels": {
+    "route": "/sports-wheels",
+    "type": "general",
+    "title": "Sportshjulspinnere | GameWheelClub",
+    "metaDescription": "Bla gjennom 12 forhåndslastede sportsavgjørelseshjul, inkludert NFL-lagvelgere, NBA-spillerrandomiserere, VM-braketter og golfkøller.",
+    "h1": "Sports Randomizer Wheels",
+    "description": "Interaktive forhåndskonfigurerte verktøy bygget for fantasy-ligaer, draft pick-simulatorer, utfordringer og lagdebatter.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/brain-break": {
+    "route": "/templates/classroom/brain-break",
+    "type": "wheel",
+    "title": "Classroom Brain Break Wheel | Elevøvelsesideer",
+    "metaDescription": "Snurr på Brain Break-hjulet for å velge raske øvelser for elevene: Stretch, Jumping Jacks, Deep Breaths, Dance eller Doodle.",
+    "h1": "Brain Break Wheel i klasserommet",
+    "description": "Hjelp elevene å fokusere på nytt og lade opp energien i løpet av lange leksjoner. Spinn for en rask aktivitet!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom": {
+    "route": "/templates/classroom",
+    "type": "general",
+    "title": "Klasseromshjulmaler | GameWheelClub",
+    "metaDescription": "Bla gjennom gratis beslutningshjul for lærere. Velg tilfeldige elevgrupper, emner, belønninger eller øvelser i klasserommet.",
+    "h1": "Klasseroms- og undervisningshjul",
+    "description": "Verktøy utviklet spesielt for lærere for å randomisere deltakelse, belønne elevers prestasjoner og styre emneblokker.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/rewards-wheel": {
+    "route": "/templates/classroom/rewards-wheel",
+    "type": "wheel",
+    "title": "Classroom Rewards Wheel | Velger for tilfeldige belønningsideer",
+    "metaDescription": "Snurr på belønningshjulet for å velge tilfeldige premier for studenter: Fritid, klistremerker, linjeledervalg eller ingen leksebeløp.",
+    "h1": "Classroom Rewards Wheel",
+    "description": "Motiver elevene dine. Snurr på belønningshjulet for å velge en premie eller klasseromsprivilegium tilfeldig!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/student-grouping": {
+    "route": "/templates/classroom/student-grouping",
+    "type": "wheel",
+    "title": "Studentgrupperingshjul | Tilfeldig lagvelger",
+    "metaDescription": "Spinn studentgrupperingshjulet. Velg umiddelbart tilfeldige lag eller grupper (gruppe A, gruppe B, gruppe C) for klasseromsprosjekter og spill.",
+    "h1": "Studentgruppering og teamvelgerhjul",
+    "description": "Trenger du å tildele elever tilfeldig til grupper, velge presentasjonsteam eller sette klasseromsplasser? Snurr grupperingshjulet!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/subject-picker": {
+    "route": "/templates/classroom/subject-picker",
+    "type": "wheel",
+    "title": "Emnevelgerhjul | Emnevelger for leksjonsstudier",
+    "metaDescription": "Snurr på emnevelgerhjulet for å randomisere studieemner: matematikk, naturvitenskap, historie, engelsk, kunst og musikk. Flott for leksjonsplanlegging.",
+    "h1": "Emnevelgerhjul",
+    "description": "Velg hvilket emne du vil vurdere neste gang, eller la hjulet randomisere studieblokker under hjemmeundervisning eller time.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dessert-spinner": {
+    "route": "/templates/food/dessert-spinner",
+    "type": "wheel",
+    "title": "Dessert valg hjul | Velger tilfeldig søte godbiter",
+    "metaDescription": "kan",
+    "h1": "Dessert-snurrehjul",
+    "description": "Velg din neste søte godbit uten å være skyldig i å velge. Snurr desserthjulet!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dinner-picker": {
+    "route": "/templates/food/dinner-picker",
+    "type": "wheel",
+    "title": "Middagsplukkerhjul | Hva bør jeg spise til middag?",
+    "metaDescription": "Avgjør middagsdebatten umiddelbart. Snurr middagshjulet som er forhåndslastet med populære måltidsalternativer: Pizza, taco, burgere, pasta, salat og kinesisk.",
+    "h1": "Middagsvelgerhjul",
+    "description": "Står du fast med å bestemme deg for middag? Eliminer matargumenter. Snurr hjulet for å velge et måltidsalternativ umiddelbart.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/drink-decider": {
+    "route": "/templates/food/drink-decider",
+    "type": "wheel",
+    "title": "Drikke Decider Wheel | Hva bør jeg drikke?",
+    "metaDescription": "Snurr på drikkevelgerhjulet som er forhåndslastet med forfriskninger: vann, kaffe, te, brus, juice og smoothies.",
+    "h1": "Drink Decider Wheel",
+    "description": "Trenger du en forfriskning, men kan ikke velge mellom koffein, hydrering eller juice? Snurr på drikkehjulet!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/lunch-ideas": {
+    "route": "/templates/food/lunch-ideas",
+    "type": "wheel",
+    "title": "Lunsjbeslutningshjul | Velger for hurtiglunsjidéer",
+    "metaDescription": "Snurr for å velge et raskt lunsjmåltid: Smørbrød, salater, rester, suppe, wraps eller hurtigmat. Avgjør lunsjpausemenyen umiddelbart.",
+    "h1": "Lunsjidéer Beslutningshjul",
+    "description": "Står du fast midt i en travel arbeidsdag eller studieøkt og prøver å velge lunsj? La hjulet bestemme menyen din.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food": {
+    "route": "/templates/food",
+    "type": "general",
+    "title": "Maler for mat- og serveringshjul | GameWheelClub",
+    "metaDescription": "Bla gjennom gratis beslutningshjul for mat, lunsjvalg, dessertsnurrer og drikkeavgjørelser. Avgjør spisedebattene dine umiddelbart.",
+    "h1": "Mat og servering Decision Wheels",
+    "description": "Avgjøre den eldgamle debatten om \"hva skal vi spise?\" på sekunder ved å bruke våre ferdigbygde matsnurrer.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates": {
+    "route": "/templates",
+    "type": "general",
+    "title": "Decision Wheel Templates Hub | GameWheelClub",
+    "metaDescription": "Bla gjennom dusinvis av gratis forhåndsdefinerte maler for beslutningshjul. Kategorisert etter mat, festspill og klasseromsverktøy.",
+    "h1": "Decision Wheel Maler",
+    "description": "Ikke bygg fra bunnen av. Velg en av våre forhåndskonfigurerte valglister, og begynn å spinne med en gang!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/charades-ideas": {
+    "route": "/templates/party-games/charades-ideas",
+    "type": "wheel",
+    "title": "Charades Ideas Wheel | Velger tilfeldig skuespilleremner",
+    "metaDescription": "Snurr på Charades-hjulet for å få tilfeldige skuespillerideer: filmer, TV-serier, handlinger, dyr og kjente personer. Avgjør temaer for partyspill umiddelbart.",
+    "h1": "Charades Ideas Wheel",
+    "description": "Står du fast og prøver å tenke på noe å spille ut? Snurr hjulet for å velge kategori eller emne umiddelbart!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games": {
+    "route": "/templates/party-games",
+    "type": "general",
+    "title": "Party Games Wheel Maler | GameWheelClub",
+    "metaDescription": "Bla gjennom gratis beslutningshjul for gruppespill, festutfordringer, trivia-emner og sannhets- eller vågekort. Avgjør valg umiddelbart.",
+    "h1": "Festspill og isbrytere",
+    "description": "Få ditt neste sammenkomst-, fest- eller klasseromsspill i bevegelse på sekunder med disse forhåndsbygde malene.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/party-trivia": {
+    "route": "/templates/party-games/party-trivia",
+    "type": "wheel",
+    "title": "Party Trivia Emnehjul | Tilfeldige quizkategorier",
+    "metaDescription": "Snurr på trivia-hjulet for å velge tilfeldige quiz-emner: vitenskap, popkultur, historie, sport og geografi. Perfekt for spillkvelder.",
+    "h1": "Party Trivia Category Wheel",
+    "description": "Avgjør hvilken kategori du vil spille neste gang under familiequiz-kvelder. Spinn triviahjulet!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/truth-or-dare": {
+    "route": "/templates/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Truth or Dare Generator | Random Choice Wheel",
+    "metaDescription": "Spinn Truth or Dare-hjulet for festisbrytere. Velg Truth or Dare tilfeldig og få grupper til å snakke umiddelbart.",
+    "h1": "Truth or Dare Wheel Generator",
+    "description": "Gi liv til din neste fest eller heng ut. Snurr hjulet for å velge mellom sannhet, tør eller dobbel tør!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/would-you-rather": {
+    "route": "/templates/party-games/would-you-rather",
+    "type": "wheel",
+    "title": "Ville du heller hjulet | Tilfeldig festspillvelger",
+    "metaDescription": "Snurr på Would You Rather-hjulet. Få gruppesamtaler i bevegelse med randomiserte hypotetiske spørsmålsvalg.",
+    "h1": "Ville du heller hjulpet",
+    "description": "Avgjør tøffe hypoteser eller velg hvem som svarer hva. Spinn spillehjulet!",
+    "options": [],
+    "faqs": []
+  },
+  "/terms": {
+    "route": "/terms",
+    "type": "general",
+    "title": "Vilkår for bruk",
+    "metaDescription": "",
+    "h1": "Vilkår for bruk",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/timer": {
+    "route": "/timer",
+    "type": "timer",
+    "title": "Online timer | Free Countdown Timer",
+    "metaDescription": "Set minutes and seconds for any countdown. Free, beautiful, and accessible online timer with alarm alerts.",
+    "h1": "Online Countdown Timer",
+    "description": "Angi egendefinerte nedtellingstider for studieøkter, møter eller spill, og motta en tydelig lydalarm når du er ferdig.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/fortnite-challenges": {
+    "route": "/video-game-wheels/fortnite-challenges",
+    "type": "wheel",
+    "title": "Fortnite Challenges Wheel",
+    "metaDescription": "",
+    "h1": "Fortnite Challenges Wheel",
+    "description": "Spin to get a fun challenge to complete during your next battle royale match.",
+    "options": [
+      "Kun pistoler vinner",
+      "Ingen skjoldutfordring",
+      "Første våpen du ser bare",
+      "Ingen byggekamp (nullbygg)",
+      "Lander kun på navngitte steder",
+      "Pasifistløp (ingen drap)",
+      "Kun mytiske våpen",
+      "Skybase-utfordring"
+    ],
+    "faqs": [
+      {
+        "q": "Kan jeg gjøre dette med squads?",
+        "a": "Ja! Challenge your entire squad to follow the selected rule."
+      }
+    ]
+  },
+  "/video-game-wheels/league-of-legends-champions": {
+    "route": "/video-game-wheels/league-of-legends-champions",
+    "type": "wheel",
+    "title": "League of Legends Champions Wheel",
+    "metaDescription": "",
+    "h1": "League of Legends Champions Wheel",
+    "description": "Velg tilfeldig en ligamester for ditt neste utkast eller ARAM-spill.",
+    "options": [
+      "Yasuo",
+      "Ahri",
+      "Lux",
+      "Jinx",
+      "Lee Sin",
+      "Thresh",
+      "Garen",
+      "Teemo",
+      "Ezreal",
+      "Zed",
+      "Katarina",
+      "Akali",
+      "Master Yi",
+      "Darius",
+      "Ashe",
+      "Vayne",
+      "KaiSa",
+      "_ Støtter det ikke?"
+    ],
+    "faqs": [
+      {
+        "q": "You can customize options to group champions by role (Top, Mid, Jungle, ADC, Support).",
+        "a": "You can customize options to group champions by role (Top, Mid, Jungle, ADC, Support)."
+      }
+    ]
+  },
+  "/video-game-wheels/overwatch-2-characters": {
+    "route": "/video-game-wheels/overwatch-2-characters",
+    "type": "wheel",
+    "title": "Overwatch 2 Characters Wheel",
+    "metaDescription": "",
+    "h1": "Overwatch 2 Characters Wheel",
+    "description": "Velg en tilfeldig tank-, skade- eller støttehelt for din neste Overwatch-kamp.",
+    "options": [
+      "Tracer",
+      "Reaper",
+      "Genji",
+      "Hanzo",
+      "Cassidy",
+      "Soldat: 76",
+      "Widowmaker",
+      "Pharah",
+      "Mei",
+      "Bastion",
+      "Junkrat",
+      "Sombra",
+      "Doomfist",
+      "D.Va",
+      "Winston",
+      "ho Reinhardt",
+      "Road Lucia",
+      "_",
+      "Ana",
+      "Kiriko",
+      "Lifeweaver",
+      "Illari",
+      "Juno",
+      "Kan jeg filtrere etter rolle?",
+      "Ja, bare rediger listen slik at den bare inneholder tanker, DPS eller støtte."
+    ],
+    "faqs": [
+      {
+        "q": "Can I filter by role?",
+        "a": "Yes, just edit the list to contain only tanks, DPS, or supports."
+      }
+    ]
+  },
+  "/video-game-wheels": {
+    "route": "/video-game-wheels",
+    "type": "general",
+    "title": "Video Game Randomizer Wheels | GameWheelClub",
+    "metaDescription": "Spinn for å velge spilloppsett, agenter, mestere, typer, utfordringer og spillestiler. Dekker Valorant, LoL, Pokémon, Roblox og Fortnite.",
+    "h1": "Videospillhjul",
+    "description": "Spinn for å velge spilloppsett, agenter, mestere, typer, utfordringer og spillestiler. Dekker Valorant, LoL, Pokémon, Roblox og Fortnite.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/pokemon-types": {
+    "route": "/video-game-wheels/pokemon-types",
+    "type": "wheel",
+    "title": "Pokemon Types Wheel",
+    "metaDescription": "",
+    "h1": "Pokemon Types Wheel",
+    "description": "Spinn for å velge en tilfeldig Pokémon-type. Perfekt for monotype-utfordringsløp.",
+    "options": [
+      "Normal",
+      "Fire",
+      "Water",
+      "Grass",
+      "Electric",
+      "Ice",
+      "Fighting",
+      "Poison",
+      "Ground",
+      "Flying",
+      "Psychic",
+      "Bug",
+      "Rock",
+      "Ghost",
+      "Dragon",
+      "Steel",
+      "Dark",
+      "Fairy"
+    ],
+    "faqs": [
+      {
+        "q": "Are dual types supported?",
+        "a": "Snurr hjulet to ganger for å få en kombinasjon av to skrivemåter."
+      }
+    ]
+  },
+  "/video-game-wheels/rainbow-six-operators": {
+    "route": "/video-game-wheels/rainbow-six-operators",
+    "type": "wheel",
+    "title": "Rainbow Six Operators Wheel",
+    "metaDescription": "",
+    "h1": "Rainbow Six Operators Wheel",
+    "description": "Spinn for å velge en tilfeldig angreps- eller forsvarsoperatør i Siege.",
+    "options": [
+      "Sledge",
+      "Thatcher",
+      "Ask",
+      "Thermite",
+      "Twitch",
+      "Montagne",
+      "Glaz",
+      "Fuze",
+      "Blitz",
+      "IQ",
+      "Buck",
+      "Blackbeard",
+      "Capitao",
+      "Hibana",
+      "Smoke",
+      "Mute",
+      "Castle",
+      "Castle",
+      "_ Doc",
+      "_ Chan",
+      "Jager",
+      "Bandit",
+      "Frost",
+      "Valkyrie",
+      "Caveira",
+      "Ekko",
+      "Skiller det angrep og forsvar?",
+      "Du kan fjerne forsvarere når du er på angrep, eller beholde begge for en full overraskelse."
+    ],
+    "faqs": [
+      {
+        "q": "Does it separate Attack and Defense?",
+        "a": "You can remove defenders when on attack, or keep both for a full surprise."
+      }
+    ]
+  },
+  "/video-game-wheels/roblox-games": {
+    "route": "/video-game-wheels/roblox-games",
+    "type": "wheel",
+    "title": "Roblox Games Wheel",
+    "metaDescription": "",
+    "h1": "Roblox Games Wheel",
+    "description": "Spin to choose a fun Roblox game to play when you are bored.",
+    "options": [
+      "Adopt Me!",
+      "Blox Fruits",
+      "Brookhaven RP",
+      "Tower of Hell",
+      "Murder Mystery 2",
+      "Piggy",
+      "Royale High",
+      "Arsenal",
+      "Pet Simulator 99",
+      "BedWars"
+    ],
+    "faqs": [
+      {
+        "q": "How do I add my favorite games?",
+        "a": "Type the game titles in the option text box and hit update."
+      }
+    ]
+  },
+  "/video-game-wheels/smash-bros-characters": {
+    "route": "/video-game-wheels/smash-bros-characters",
+    "type": "wheel",
+    "title": "Smash Bros Characters Wheel",
+    "metaDescription": "",
+    "h1": "Smash Bros Characters Wheel",
+    "description": "Randomiser fighteren din for Super Smash Bros. Ultimate kamper.",
+    "options": [
+      "Mario",
+      "Donkey Kong",
+      "Link",
+      "Samus",
+      "Yoshi",
+      "Kirby",
+      "Fox",
+      "Pikachu",
+      "Luigi",
+      "Ness",
+      "Captain Falcon",
+      "Jigglypuff",
+      "Peach",
+      "Bowser",
+      "Zelda",
+      "Sheik",
+      "Marth",
+      "Swonic",
+      "__ Steve Sephiroth",
+      "Sora",
+      "Støttes alle DLC-tegn?",
+      "Vi inkluderer topp DLC-karakterer som Steve og Sora. Du kan legge til resten manuelt."
+    ],
+    "faqs": [
+      {
+        "q": "Are all DLC characters supported?",
+        "a": "We include top DLC characters like Steve and Sora. You can add the rest manually."
+      }
+    ]
+  },
+  "/video-game-wheels/starter-pokemon": {
+    "route": "/video-game-wheels/starter-pokemon",
+    "type": "wheel",
+    "title": "Starter Pokémon Wheel",
+    "metaDescription": "",
+    "h1": "Starter Pokémon Wheel",
+    "description": "Velg en tilfeldig starter Pokémon fra Gen 1 til Gen 9 for din neste utfordring.",
+    "options": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Chikorita",
+      "Cyndaquil",
+      "Totodile",
+      "Treecko",
+      "Torchic",
+      "Mudkip",
+      "Turtwig",
+      "Chimchar",
+      "Piplup",
+      "Snivy",
+      "Tepig",
+      "Oshawott",
+      "Fakienekint",
+      "Rowlet",
+      "Litten",
+      "Popplio",
+      "Grookey",
+      "Scorbunny",
+      "Sobble",
+      "Sprigatito",
+      "Fuecoco",
+      "Quaxly",
+      "Er Pikachu på listen?",
+      "Du kan legge til Pikachu eller Eevee manuelt hvis du spiller Yellow/Let's Go!"
+    ],
+    "faqs": [
+      {
+        "q": "Is Pikachu on the list?",
+        "a": "You can add Pikachu or Eevee manually if you are playing Yellow/Let's Go!"
+      }
+    ]
+  },
+  "/video-game-wheels/valorant-agents": {
+    "route": "/video-game-wheels/valorant-agents",
+    "type": "wheel",
+    "title": "Valorant Agents Wheel",
+    "metaDescription": "",
+    "h1": "Valorant Agents Wheel",
+    "description": "Spinn for å velge en tilfeldig Valorant-agent å spille i din neste kamp.",
+    "options": [
+      "Jett",
+      "Raze",
+      "Phoenix",
+      "Reyna",
+      "Yoru",
+      "Neon",
+      "Sage",
+      "Cypher",
+      "Killjoy",
+      "Chamber",
+      "Fade",
+      "Sova",
+      "Breach",
+      "Omen",
+      "Viper",
+      "Astra",
+      "Harbor",
+      "Gekko",
+      "agent oppdatering",
+      "_ Deadlock",
+      "Ja, vi inkluderer nylige agenter. Du kan legge til nye via editoren."
+    ],
+    "faqs": [
+      {
+        "q": "Is the agent list updated?",
+        "a": "Yes, we include recent agents. You can append new ones via the editor."
+      }
+    ]
+  },
+  "/wheel-of-names": {
+    "route": "/wheel-of-names",
+    "type": "wheel",
+    "title": "Tilfeldig navnevelgerhjul | Spin the Wheel of Names",
+    "metaDescription": "Pick a random name out of a list. Perfect for teachers, raffles, games, and giveaways. Lagre navn og spinn for å vinne umiddelbart.",
+    "h1": "Random Name Picker Wheel",
+    "description": "Need to pick a student, choose a raffle winner, or select a random volunteer? Paste your list of names below and spin the wheel!",
+    "options": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "Dave",
+      "Eva",
+      "Frank",
+      "Grace"
+    ],
+    "faqs": []
+  },
+  "/yes-no-wheel": {
+    "route": "/yes-no-wheel",
+    "type": "wheel",
+    "title": "Ja eller nei hjul | Spinn for umiddelbare svar",
+    "metaDescription": "Spinn Ja eller Nei-hjulet for umiddelbare, objektive svar på alle spørsmål. Gratis, interaktiv og rask beslutningsvelger.",
+    "h1": "Ja eller Nei Hjulspinner",
+    "description": "Still et spørsmål, snurr hjulet og få et øyeblikkelig, objektivt Ja eller Nei-svar!",
+    "options": [
+      "Ja",
+      "Nei",
+      "Ja",
+      "Nei",
+      "Ja",
+      "Nei"
+    ],
+    "faqs": []
+  }
+}

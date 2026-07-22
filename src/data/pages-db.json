@@ -1,0 +1,2498 @@
+{
+  "/about": {
+    "route": "/about",
+    "type": "general",
+    "title": "About GameWheelClub",
+    "metaDescription": "",
+    "h1": "About GameWheelClub",
+    "description": "Making decision-making fun, fast, and completely unbiased.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/farm-animals-wheel": {
+    "route": "/animal-wheels/farm-animals-wheel",
+    "type": "wheel",
+    "title": "Farm Animals Wheel",
+    "metaDescription": "",
+    "h1": "Farm Animals Wheel",
+    "description": "Spin to pick typical barnyard and farm animals. Excellent for toddler learning.",
+    "options": [
+      "Dairy Cow",
+      "Woolly Sheep",
+      "Pink Pig",
+      "Galloping Horse",
+      "Clucking Chicken",
+      "Quacking Duck",
+      "Billy Goat",
+      "Fluffy Llama",
+      "Farm Dog"
+    ],
+    "faqs": [
+      {
+        "q": "Are sounds included?",
+        "a": "The spinner plays a clean ticking sound, make the animal noises yourself for extra fun!"
+      }
+    ]
+  },
+  "/animal-wheels": {
+    "route": "/animal-wheels",
+    "type": "general",
+    "title": "Animal & Nature Randomizer Wheels | GameWheelClub",
+    "metaDescription": "Select random animals for games, education, and drawings. Spin the animal wheels to discover what animal you are or pick farm creatures.",
+    "h1": "Animals & Nature",
+    "description": "Select random animals for games, education, and drawings. Spin the animal wheels to discover what animal you are or pick farm creatures.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/random-animal-generator": {
+    "route": "/animal-wheels/random-animal-generator",
+    "type": "wheel",
+    "title": "Random Animal Generator Wheel",
+    "metaDescription": "",
+    "h1": "Random Animal Generator Wheel",
+    "description": "Spin to get a random wild animal. Preloaded with majestic land and sea beasts.",
+    "options": [
+      "Lion",
+      "Tiger",
+      "Dolphin",
+      "Elephant",
+      "Kangaroo",
+      "Panda",
+      "Penguin",
+      "Wolf",
+      "Grizzly Bear",
+      "Chimpanzee",
+      "Eagle",
+      "Sloth"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add insects or dinosaurs?",
+        "a": "Yes, add bugs, birds, or prehistoric beasts in the options."
+      }
+    ]
+  },
+  "/animal-wheels/what-animal-are-you": {
+    "route": "/animal-wheels/what-animal-are-you",
+    "type": "wheel",
+    "title": "What Animal Are You Wheel",
+    "metaDescription": "",
+    "h1": "What Animal Are You Wheel",
+    "description": "Discover your spiritual animal personality with this fun spirit animal wheel.",
+    "options": [
+      "A wise Owl",
+      "A loyal Golden Retriever",
+      "A playful Cat",
+      "A lazy Panda",
+      "A soaring Eagle",
+      "A fast Cheetah",
+      "A calm Sea Turtle",
+      "A busy Bee",
+      "A brave Lion"
+    ],
+    "faqs": [
+      {
+        "q": "Is this based on science?",
+        "a": "No, this is a fun personality game designed for entertainment."
+      }
+    ]
+  },
+  "/anime-fandom-wheels/aesthetics-wheel": {
+    "route": "/anime-fandom-wheels/aesthetics-wheel",
+    "type": "wheel",
+    "title": "Aesthetics Wheel | Spin for Fashion & Room Aesthetics | GameWheelClub",
+    "metaDescription": "Spin the Aesthetics Wheel to pick a random style theme like Cottagecore, Vaporwave, or Dark Academia. Free, interactive style picker.",
+    "h1": "Aesthetics Wheel Spinner",
+    "description": "Unsure what fashion vibe to try next or how to decorate your room? Spin the wheel to claim your random aesthetic style!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-characters": {
+    "route": "/anime-fandom-wheels/anime-characters",
+    "type": "wheel",
+    "title": "Anime Characters Wheel | Spin Random Anime Characters | GameWheelClub",
+    "metaDescription": "Spin the free Anime Characters Wheel to randomize popular heroes and villains from top series like DBZ, Naruto, One Piece, MHA, and Demon Slayer.",
+    "h1": "Anime Characters Wheel",
+    "description": "Settle anime debates, draft character matchups, or pick your next avatar by spinning the wheel!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-to-watch": {
+    "route": "/anime-fandom-wheels/anime-to-watch",
+    "type": "wheel",
+    "title": "Anime to Watch Wheel | Random Anime Generator | GameWheelClub",
+    "metaDescription": "Can",
+    "h1": "Anime to Watch Wheel",
+    "description": "Overwhelmed by your massive watchlist? Spin the wheel and let fate select your next anime series!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/bfdi-contestants": {
+    "route": "/anime-fandom-wheels/bfdi-contestants",
+    "type": "wheel",
+    "title": "BFDI Contestants Wheel | Battle for Dream Island Randomizer | GameWheelClub",
+    "metaDescription": "Spin the BFDI Contestants Wheel to randomly select characters from Battle for Dream Island. Free, interactive, and customizable.",
+    "h1": "BFDI Contestants Wheel",
+    "description": "Spin to select a random contestant from the web series Battle for Dream Island!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/cartoon-characters": {
+    "route": "/anime-fandom-wheels/cartoon-characters",
+    "type": "wheel",
+    "title": "Cartoon Characters Wheel | Spin Random Cartoons | GameWheelClub",
+    "metaDescription": "Spin the Cartoon Characters Wheel to select a random icon from classic and modern animated series. Free, fun, and customizable character picker.",
+    "h1": "Cartoon Characters Wheel",
+    "description": "Spin to select characters from nostalgic classics, Cartoon Network giants, and Disney favorites!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world": {
+    "route": "/anime-fandom-wheels/dandys-world",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Spin the Dandy",
+    "h1": "Dandy&apos;s World Character Wheel",
+    "description": "Can&apos;t decide which toon to play as in your next Garden run? Spin the wheel to randomize your pick!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-oc-generator": {
+    "route": "/anime-fandom-wheels/dandys-world-oc-generator",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Spin the Dandy",
+    "h1": "Dandy&apos;s World OC Generator Wheel",
+    "description": "Unleash your creativity! Spin the wheel to randomly assign an archetype, class role, or design constraint for your original Dandy&apos;s World toon.",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-trinkets": {
+    "route": "/anime-fandom-wheels/dandys-world-trinkets",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Spin the Dandy",
+    "h1": "Dandy&apos;s World Trinkets Wheel",
+    "description": "Unsure which trinkets to equip for your next run? Spin the wheel to randomize your loadout!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/demon-slayer-characters": {
+    "route": "/anime-fandom-wheels/demon-slayer-characters",
+    "type": "wheel",
+    "title": "Demon Slayer Characters Wheel | Spin Random Demon Slayer | GameWheelClub",
+    "metaDescription": "Spin the Demon Slayer Characters Wheel to select a random character from Kimetsu no Yaiba. Pick Hashira, Slayers, or Demons instantly.",
+    "h1": "Demon Slayer Characters Wheel",
+    "description": "Spin to select characters from Kimetsu no Yaiba, including core Slayers, elite Hashiras, and Upper Moon Demons!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/disney-movie-generator": {
+    "route": "/anime-fandom-wheels/disney-movie-generator",
+    "type": "wheel",
+    "title": "Disney Movie Generator Wheel | Spin a Random Movie | GameWheelClub",
+    "metaDescription": "Spin the Disney Movie Generator Wheel to randomly select a classic or modern Disney/Pixar movie for your next family movie night. Free and interactive.",
+    "h1": "Disney Movie Generator Wheel",
+    "description": "Unsure what Disney classic or Pixar masterpiece to watch? Spin the wheel and let it choose!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dti-theme-wheel": {
+    "route": "/anime-fandom-wheels/dti-theme-wheel",
+    "type": "wheel",
+    "title": "Dress To Impress Theme Wheel | DTI Randomizer | GameWheelClub",
+    "metaDescription": "Spin the Dress To Impress (DTI) Theme Wheel to randomly select a fashion style or outfit challenge for your next Roblox runway. Free and interactive.",
+    "h1": "Dress To Impress (DTI) Theme Wheel",
+    "description": "Bored of the standard runway categories? Spin the wheel to claim a random fashion aesthetic for your next modeling session!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/fnaf-characters": {
+    "route": "/anime-fandom-wheels/fnaf-characters",
+    "type": "wheel",
+    "title": "FNAF Characters Wheel | Spin Random Animatronics | GameWheelClub",
+    "metaDescription": "Spin the FNAF Characters Wheel to pick a random animatronic from Five Nights at Freddy",
+    "h1": "FNAF Characters Wheel",
+    "description": "Spin to select a random animatronic from Scott Cawthon&apos;s legendary horror franchise!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jjk-cursed-techniques": {
+    "route": "/anime-fandom-wheels/jjk-cursed-techniques",
+    "type": "wheel",
+    "title": "JJK Cursed Techniques Wheel | Spin for Cursed Techniques | GameWheelClub",
+    "metaDescription": "Spin the JJK Cursed Techniques Wheel to randomly select which Jujutsu Kaisen power you would inherit. Free, customizable, and fun.",
+    "h1": "JJK Cursed Techniques Wheel",
+    "description": "What inherited technique runs in your blood? Spin the wheel to claim your legendary JJK technique!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jujutsu-kaisen-characters": {
+    "route": "/anime-fandom-wheels/jujutsu-kaisen-characters",
+    "type": "wheel",
+    "title": "Jujutsu Kaisen Characters Wheel | Spin Random JJK Sorcerer | GameWheelClub",
+    "metaDescription": "Spin the Jujutsu Kaisen Characters Wheel to randomly select sorcerers, cursed spirits, or student characters. Free and interactive JJK randomizer.",
+    "h1": "Jujutsu Kaisen Characters Wheel",
+    "description": "Spin to select characters from JJK, including Tokyo Jujutsu High students, elite Sorcerers, and Cursed Spirits!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/marvel-superheroes": {
+    "route": "/anime-fandom-wheels/marvel-superheroes",
+    "type": "wheel",
+    "title": "Marvel Superheroes Wheel | Spin Random Avengers | GameWheelClub",
+    "metaDescription": "Spin the Marvel Superheroes Wheel to randomly choose a hero from the Marvel Universe. Free, customizable, and perfect for comic and MCU fans.",
+    "h1": "Marvel Superheroes Wheel",
+    "description": "Select a random Avenger, X-Men member, or street-level hero from the vast Marvel Universe!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/mha-characters": {
+    "route": "/anime-fandom-wheels/mha-characters",
+    "type": "wheel",
+    "title": "MHA Characters Wheel | Spin Random My Hero Academia Characters | GameWheelClub",
+    "metaDescription": "Spin the MHA Characters Wheel to randomly select heroes and villains from My Hero Academia. Free, customizable, and fast character picker.",
+    "h1": "MHA Characters Wheel",
+    "description": "Spin to select characters from My Hero Academia, including Class 1-A heroes and the League of Villains!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/naruto-characters": {
+    "route": "/anime-fandom-wheels/naruto-characters",
+    "type": "wheel",
+    "title": "Naruto Characters Wheel | Spin Random Naruto Ninja | GameWheelClub",
+    "metaDescription": "Spin the Naruto Characters Wheel to choose a random shinobi from Konoha or the Akatsuki. Free, interactive ninja selector.",
+    "h1": "Naruto Characters Wheel",
+    "description": "Spin to select ninja from the Hidden Leaf, Akatsuki, or historical shinobi clans!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-characters": {
+    "route": "/anime-fandom-wheels/one-piece-characters",
+    "type": "wheel",
+    "title": "One Piece Characters Wheel | Spin Random Pirates | GameWheelClub",
+    "metaDescription": "Spin the One Piece Characters Wheel to select a random pirate from the Straw Hat crew, Yonko, or Marines. Free, fast, and customizable.",
+    "h1": "One Piece Characters Wheel",
+    "description": "Set sail on the Grand Line and spin the wheel to select a random character from Eiichiro Oda&apos;s masterpiece!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-devil-fruits": {
+    "route": "/anime-fandom-wheels/one-piece-devil-fruits",
+    "type": "wheel",
+    "title": "One Piece Devil Fruits Wheel | Spin for Devil Fruits | GameWheelClub",
+    "metaDescription": "Spin the One Piece Devil Fruits Wheel to randomly select which Devil Fruit power you would inherit in the world of anime. Free and customizable.",
+    "h1": "One Piece Devil Fruits Wheel",
+    "description": "Which mystical fruit will you consume? Spin the wheel to claim your legendary pirate power!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels": {
+    "route": "/anime-fandom-wheels",
+    "type": "general",
+    "title": "Anime & Fandom Character Wheels | GameWheelClub",
+    "metaDescription": "Spin 19 free fandom decision wheels. Randomize anime characters, Disney movies, cartoon icons, FNAF animatronics, and One Piece Devil Fruits.",
+    "h1": "Anime & Fandom Wheels",
+    "description": "Choose your next watchlist, settle debate matchups, or pick fandom characters randomly using our pre-built preset options.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/best-icebreaker-games-for-work": {
+    "route": "/blog/best-icebreaker-games-for-work",
+    "type": "general",
+    "title": "Best Icebreaker Games for Work: Boost Corporate Team Bond",
+    "metaDescription": "Dread morning syncs? Check out these quick, energetic corporate icebreaker games using random name wheels and spinners to kickstart your meetings.",
+    "h1": "Energetic Workplace Icebreakers that Don&apos;t Feel Cringe",
+    "description": "Dreaded corporate icebreakers, meet modern randomness. Find out how to start stand-ups and hybrid meetings with high-energy activities that build real connections.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/classroom-incentive-rewards": {
+    "route": "/blog/classroom-incentive-rewards",
+    "type": "general",
+    "title": "Classroom Incentive Rewards: Fair Motivation Systems",
+    "metaDescription": "Ditch the gold stars! Learn how to build an interactive, random reward system using spin wheels to motivate students and keep engagement high.",
+    "h1": "Building Better Classroom Incentive Rewards",
+    "description": "Static behavior charts and stickers are losing their effectiveness. Discover how adding game dynamics and random reward spinners keeps students motivated and behavior positive.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-generators-help-coding": {
+    "route": "/blog/how-generators-help-coding",
+    "type": "general",
+    "title": "How Random Generators Help Coding: Dev Testing & Mocking",
+    "metaDescription": "Explore how random generators assist software developers in code testing, mock data creation, UI/UX simulation, and game algorithm design.",
+    "h1": "How Random Generators Elevate Coding and Testing",
+    "description": "Randomness is the secret sauce of robust programming. Learn how developers use pseudo-random generators (PRNGs) to build resilient systems, simulate real-world traffic, and test edge cases.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-to-customize-spin-wheels": {
+    "route": "/blog/how-to-customize-spin-wheels",
+    "type": "general",
+    "title": "How to Customize Spin Wheels for Any Occasion",
+    "metaDescription": "Learn how to customize your spin wheels with custom colors, labels, weight distribution, and sound effects to suit classrooms, parties, or business events.",
+    "h1": "How to Customize Spin Wheels for Your Needs",
+    "description": "A generic wheel can be boring. Discover how tweaking colors, adjusting weights, choosing sound effects, and building thematic palettes elevates your events, classes, and giveaways.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/math-activities-using-random-generators": {
+    "route": "/blog/math-activities-using-random-generators",
+    "type": "general",
+    "title": "Math Activities Using Random Generators: Interactive Ideas",
+    "metaDescription": "Make mathematics interactive! Discover 6 engaging math activities, probability games, and number drills utilizing random number generators and digital dice.",
+    "h1": "Math Activities and Games Using Random Generators",
+    "description": "Math doesn&apos;t have to be a spectator sport. Discover how to turn arithmetic drills, stats, and probability theory into active, hands-on games using random number generators.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog": {
+    "route": "/blog",
+    "type": "general",
+    "title": "GameWheelClub Blog | Random Decisions, Games & Education Insights",
+    "metaDescription": "Read our latest articles on random decision-making, interactive classroom game templates, time-boxing techniques, and party icebreaker activities.",
+    "h1": "Insights, Guides & Productivity Hacks",
+    "description": "Read expert tips on gamifying classrooms, implementing structured time-boxing, organizing social party games, and setting up decision spinners.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/party-games-for-adults": {
+    "route": "/blog/party-games-for-adults",
+    "type": "general",
+    "title": "Fun Party Games for Adults: Interactive & Random Ideas",
+    "metaDescription": "Ditch the boring dinner conversations! Explore 8 interactive and random party games for adults, including Truth or Dare spinners, dice games, and trivia challenges.",
+    "h1": "Level Up Your Gatherings with Adult Party Games",
+    "description": "Tired of standard board games or awkward silent pauses? Learn how to integrate digital spin wheels and random generators to host an unforgettable game night.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/pomodoro-technique-for-students": {
+    "route": "/blog/pomodoro-technique-for-students",
+    "type": "general",
+    "title": "Pomodoro Technique for Students: Better Focus Strategy",
+    "metaDescription": "Learn how the Pomodoro Technique helps students improve focus, beat procrastination, and manage study time with structured intervals and breaks.",
+    "h1": "The Pomodoro Technique: A Guide for Busy Students",
+    "description": "Struggling to study for exams without checking your phone every five minutes? Learn how structured study intervals can help you focus, retain information, and reduce burnout.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-for-decision-making": {
+    "route": "/blog/spin-wheels-for-decision-making",
+    "type": "general",
+    "title": "Spin Wheels for Decision Making: Cure Decision Paralysis",
+    "metaDescription": "Struggling with overthinking? Learn how spin wheels and random choice generators simplify decision-making, remove cognitive load, and make choosing fun.",
+    "h1": "How Spin Wheels Cure Everyday Decision Paralysis",
+    "description": "Ever spent 45 minutes scrolling through Netflix just to go to bed without watching anything? Here is why leaving low-stakes decisions to a random spinner wheel is the ultimate productivity hack.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-in-modern-education": {
+    "route": "/blog/spin-wheels-in-modern-education",
+    "type": "general",
+    "title": "Spin Wheels in Modern Education: Gamify Classrooms",
+    "metaDescription": "Boost student involvement using spin wheels. Explore active classroom ideas, gamified quiz reviews, and fair selection methods using digital spinner wheels.",
+    "h1": "Spin Wheels in Modern Education: Gamifying the Classroom",
+    "description": "How a simple, visual name picker is transforming student participation rates, lowering test anxiety, and building an inclusive environment in K-12 and higher education.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/time-boxing-to-prevent-burnout": {
+    "route": "/blog/time-boxing-to-prevent-burnout",
+    "type": "general",
+    "title": "Time Boxing to Prevent Burnout: Daily Schedule Strategy",
+    "metaDescription": "Learn how time boxing helps manage workloads, establish clear work-life boundaries, and prevent burnout through structured time blocks.",
+    "h1": "How Time Boxing Prevents Professional Burnout",
+    "description": "Do your work hours bleed into your evening? Discover how setting hard time boxes for your tasks can rebuild healthy boundaries, boost output, and restore peace of mind.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/age-spinner": {
+    "route": "/character-creator/age-spinner",
+    "type": "wheel",
+    "title": "Age Spinner Wheel",
+    "metaDescription": "",
+    "h1": "Age Spinner Wheel",
+    "description": "Randomly choose character ages and development stages.",
+    "options": [
+      "Child (5-10)",
+      "Pre-teen (11-12)",
+      "Teenager (13-17)",
+      "Young Adult (18-25)",
+      "Adult (26-45)",
+      "Middle Aged (46-60)",
+      "Elderly (60+)"
+    ],
+    "faqs": [
+      {
+        "q": "Can I set specific numbers?",
+        "a": "Yes, write specific ages like \\\"21 years\\\" or \\\"84 years\\\" to fine-tune."
+      }
+    ]
+  },
+  "/character-creator/boy-or-girl-oc": {
+    "route": "/character-creator/boy-or-girl-oc",
+    "type": "wheel",
+    "title": "Boy or Girl OC Spinner",
+    "metaDescription": "",
+    "h1": "Boy or Girl OC Spinner",
+    "description": "Stuck on deciding the gender identity of your next character? Spin the pointer to decide instantly.",
+    "options": [
+      "Boy",
+      "Girl",
+      "Non-binary",
+      "Genderfluid",
+      "Agender"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add custom gender identities?",
+        "a": "Yes! Simply use the editor panel to add, remove, or rename the options to match your character world."
+      }
+    ]
+  },
+  "/character-creator/clothing-style": {
+    "route": "/character-creator/clothing-style",
+    "type": "wheel",
+    "title": "Clothing Style Wheel",
+    "metaDescription": "",
+    "h1": "Clothing Style Wheel",
+    "description": "Get fashion ideas and outfit aesthetics for character creators.",
+    "options": [
+      "Casual Streetwear",
+      "Victorian Gothic",
+      "Futuristic Techwear",
+      "Traditional Kimono",
+      "High School Uniform",
+      "Formal Tux/Gown",
+      "Cyberpunk Rebel",
+      "Fantasy Armor"
+    ],
+    "faqs": [
+      {
+        "q": "How do I combine styles?",
+        "a": "Spin twice and combine the results, like Cyberpunk Victorian!"
+      }
+    ]
+  },
+  "/character-creator/create-an-oc": {
+    "route": "/character-creator/create-an-oc",
+    "type": "wheel",
+    "title": "Create an OC Wheel",
+    "metaDescription": "",
+    "h1": "Create an OC Wheel",
+    "description": "Spin this wheel to generate a random background, race, or class for your next original character.",
+    "options": [
+      "Warrior",
+      "Mage",
+      "Thief",
+      "Cleric",
+      "Elf",
+      "Dwarf",
+      "Orc",
+      "Demon",
+      "Angel",
+      "Cyborg",
+      "Alien"
+    ],
+    "faqs": [
+      {
+        "q": "How can I expand on the class/race selected?",
+        "a": "Once you select an archetype, spin the hair, eye, and clothing style wheels to build out the full design."
+      }
+    ]
+  },
+  "/character-creator/eye-color": {
+    "route": "/character-creator/eye-color",
+    "type": "wheel",
+    "title": "Eye Color Wheel",
+    "metaDescription": "",
+    "h1": "Eye Color Wheel",
+    "description": "Decide eye shades and fantasy iris styles for your OC instantly.",
+    "options": [
+      "Ocean Blue",
+      "Forest Green",
+      "Amber Gold",
+      "Crimson Red",
+      "Hazel",
+      "Dark Brown",
+      "Amethyst Violet",
+      "Heterochromia (Blue/Green)",
+      "Pure Black"
+    ],
+    "faqs": [
+      {
+        "q": "How do I represent glowing fantasy eyes?",
+        "a": "Simply append \\\"(Glowing)\\\" to any of the colors in the edit panel."
+      }
+    ]
+  },
+  "/character-creator/gacha-character-generator": {
+    "route": "/character-creator/gacha-character-generator",
+    "type": "wheel",
+    "title": "Gacha Character Generator Wheel",
+    "metaDescription": "",
+    "h1": "Gacha Character Generator Wheel",
+    "description": "Spin for styling themes, aesthetics, and fashion concepts to build your next Gacha Life or Gacha Club character.",
+    "options": [
+      "Sweet Candy Style",
+      "Dark Goth Style",
+      "Steampunk Style",
+      "Retro Cyberpunk",
+      "Pastel Soft Girl",
+      "Sporty Chic",
+      "Royal Knight"
+    ],
+    "faqs": [
+      {
+        "q": "Does this work for Gacha Club?",
+        "a": "Yes, these prompts fit Gacha Life, Gacha Club, and general avatar creators."
+      }
+    ]
+  },
+  "/character-creator/gender-randomizer": {
+    "route": "/character-creator/gender-randomizer",
+    "type": "wheel",
+    "title": "Gender Randomizer Wheel",
+    "metaDescription": "",
+    "h1": "Gender Randomizer Wheel",
+    "description": "Randomize pronouns, gender identities, and presentation styles.",
+    "options": [
+      "Male",
+      "Female",
+      "Non-binary",
+      "Androgynous",
+      "Genderqueer",
+      "Demiboy",
+      "Demigirl"
+    ],
+    "faqs": [
+      {
+        "q": "Are pronouns preloaded?",
+        "a": "You can write custom pronouns alongside the genders in the options menu."
+      }
+    ]
+  },
+  "/character-creator/hair-color": {
+    "route": "/character-creator/hair-color",
+    "type": "wheel",
+    "title": "Hair Color Wheel",
+    "metaDescription": "",
+    "h1": "Hair Color Wheel",
+    "description": "Spin to pick a random hair dye or OC hair color. Preloaded with natural tones and vibrant neon dyes.",
+    "options": [
+      "Brown",
+      "Black",
+      "Blonde",
+      "Ginger",
+      "Platinum Blonde",
+      "Neon Green",
+      "Pastel Pink",
+      "Lilac Purple",
+      "Cyan Blue",
+      "Deep Red"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add multi-colored styles?",
+        "a": "Absolutely, write \\\"Split Dye (Pink/Blue)\\\" in the options list for custom results."
+      }
+    ]
+  },
+  "/character-creator/hair-style": {
+    "route": "/character-creator/hair-style",
+    "type": "wheel",
+    "title": "Hair Style Wheel",
+    "metaDescription": "",
+    "h1": "Hair Style Wheel",
+    "description": "Select a random hairstyle for character sheets, drawings, or model designs.",
+    "options": [
+      "Short Pixie",
+      "Curly Bob",
+      "Long Waves",
+      "Side Undercut",
+      "Twin Pigtails",
+      "High Ponytail",
+      "Messy Bun",
+      "Spiky Anime",
+      "Afro Puff",
+      "Dreadlocks"
+    ],
+    "faqs": [
+      {
+        "q": "Is this suitable for both male and female characters?",
+        "a": "Yes, all styles are unisex and fit any OC archetype."
+      }
+    ]
+  },
+  "/character-creator/nationality-generator": {
+    "route": "/character-creator/nationality-generator",
+    "type": "wheel",
+    "title": "Nationality Generator Wheel",
+    "metaDescription": "",
+    "h1": "Nationality Generator Wheel",
+    "description": "Pick random national backgrounds and citizenships for global characters.",
+    "options": [
+      "American",
+      "Japanese",
+      "British",
+      "Brazilian",
+      "French",
+      "German",
+      "Australian",
+      "Canadian",
+      "South Korean",
+      "Indian",
+      "Mexican",
+      "Spanish"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add specific regions?",
+        "a": "Yes, modify the wheel list to specify cities or sub-regions."
+      }
+    ]
+  },
+  "/character-creator": {
+    "route": "/character-creator",
+    "type": "general",
+    "title": "Character Creator & OC Wheel Generators | GameWheelClub",
+    "metaDescription": "Design random characters, OCs, and avatars instantly. Spin for hairstyles, outfits, eyes, genders, skin tones, and gacha ideas.",
+    "h1": "Character Creator & OC Wheels",
+    "description": "Design random characters, OCs, and avatars instantly. Spin for hairstyles, outfits, eyes, genders, skin tones, and gacha ideas.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/skin-tone": {
+    "route": "/character-creator/skin-tone",
+    "type": "wheel",
+    "title": "Skin Tone Wheel",
+    "metaDescription": "",
+    "h1": "Skin Tone Wheel",
+    "description": "Select random skin shades, undertones, and creature textures.",
+    "options": [
+      "Fair Peach",
+      "Warm Beige",
+      "Golden Olive",
+      "Rich Bronze",
+      "Deep Cocoa",
+      "Alabaster White",
+      "Pale Gray (Alien/Undead)",
+      "Neon Blue"
+    ],
+    "faqs": [
+      {
+        "q": "Is the palette adjustable?",
+        "a": "Yes, customize all hex tones or names in the bulk text area."
+      }
+    ]
+  },
+  "/compare/best-random-picker-tools": {
+    "route": "/compare/best-random-picker-tools",
+    "type": "general",
+    "title": "GameWheelClub vs. Wheel of Names vs. Wheel Decider vs. Tiny Decisions | Best Random Picker Tools",
+    "metaDescription": "Read our comprehensive, unbiased comparison of the top random decision picker tools: GameWheelClub, Wheel of Names, Wheel Decider, and Tiny Decisions. Discover the best spinner for your classroom, event, or everyday choices.",
+    "h1": "Best Random Picker Tools compared",
+    "description": "Stuck between GameWheelClub, Wheel of Names, Wheel Decider, and Tiny Decisions? We analyze features, privacy, styling, and UX to find the ultimate choice wheel for you.",
+    "options": [],
+    "faqs": []
+  },
+  "/contact": {
+    "route": "/contact",
+    "type": "general",
+    "title": "Contact Us",
+    "metaDescription": "",
+    "h1": "Contact Us",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/arrow-spin": {
+    "route": "/creative-wheels/arrow-spin",
+    "type": "wheel",
+    "title": "Arrow Spin Wheel",
+    "metaDescription": "",
+    "h1": "Arrow Spin Wheel",
+    "description": "Spin a compass pointer to pick a random cardinal or ordinal direction.",
+    "options": [
+      "North ⬆️",
+      "Northeast ↗️",
+      "East ➡️",
+      "Southeast ↘️",
+      "South ⬇️",
+      "Southwest ↙️",
+      "West ⬅️",
+      "Northwest ↖️"
+    ],
+    "faqs": [
+      {
+        "q": "Does it act as a compass?",
+        "a": "It picks directions mathematically, acting as a random directional guide."
+      }
+    ]
+  },
+  "/creative-wheels/drawing-idea-wheel": {
+    "route": "/creative-wheels/drawing-idea-wheel",
+    "type": "wheel",
+    "title": "Drawing Idea Wheel",
+    "metaDescription": "",
+    "h1": "Drawing Idea Wheel",
+    "description": "Generate weird, cute, and funny prompts for your next sketch.",
+    "options": [
+      "A cat wearing a wizard hat",
+      "A futuristic cyberpunk cafe",
+      "A treehouse floating in space",
+      "A medieval knight riding a turtle",
+      "A cute dragon baking cookies",
+      "A steampunk robot flower shop"
+    ],
+    "faqs": [
+      {
+        "q": "Is it good for speed-drawing challenges?",
+        "a": "Yes, spin a prompt and set a 5-minute timer!"
+      }
+    ]
+  },
+  "/creative-wheels/movie-picker": {
+    "route": "/creative-wheels/movie-picker",
+    "type": "wheel",
+    "title": "Movie Picker Wheel",
+    "metaDescription": "",
+    "h1": "Movie Picker Wheel",
+    "description": "Resolve what to watch tonight by spinning movie genres.",
+    "options": [
+      "Action Blockbuster",
+      "Sci-Fi Thriller",
+      "Comedy Night",
+      "Romantic Drama",
+      "Spooky Horror",
+      "Mind-bending Mystery",
+      "Historical Epic",
+      "Animated Classic",
+      "Indie Masterpiece"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add specific movie titles?",
+        "a": "Yes! Replace genres with your actual watchlist names in the editor."
+      }
+    ]
+  },
+  "/creative-wheels/music-genre-wheel": {
+    "route": "/creative-wheels/music-genre-wheel",
+    "type": "wheel",
+    "title": "Music Genre Wheel",
+    "metaDescription": "",
+    "h1": "Music Genre Wheel",
+    "description": "Spin to pick what music style to play or research.",
+    "options": [
+      "Synthwave / Lo-Fi",
+      "Classic Rock & Roll",
+      "90s Hip Hop",
+      "Neo-Classical Piano",
+      "Modern Pop",
+      "Smooth Jazz",
+      "Indie Folk & Acoustic",
+      "Heavy Metal / Hard Rock",
+      "Electronic Dance Music"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add specific artists?",
+        "a": "Yes, input your favorite singers or bands in the editor."
+      }
+    ]
+  },
+  "/creative-wheels": {
+    "route": "/creative-wheels",
+    "type": "general",
+    "title": "Creative & Entertainment Decision Wheels | GameWheelClub",
+    "metaDescription": "Unlock creative inspiration instantly. Spin to choose a movie genre or picker, get random drawing ideas, spin an arrow pointer, or get TBR book prompts.",
+    "h1": "Creative & Entertainment",
+    "description": "Unlock creative inspiration instantly. Spin to choose a movie genre or picker, get random drawing ideas, spin an arrow pointer, or get TBR book prompts.",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/tbr-prompts": {
+    "route": "/creative-wheels/tbr-prompts",
+    "type": "wheel",
+    "title": "TBR Prompts Wheel",
+    "metaDescription": "",
+    "h1": "TBR Prompts Wheel",
+    "description": "Select your next book reading choice using To-Be-Read (TBR) prompts.",
+    "options": [
+      "A book with a blue cover",
+      "A book that was recommended by a friend",
+      "A book that has been on your shelf over 1 year",
+      "A thriller or mystery",
+      "A book by a female author",
+      "A book with an animal in it"
+    ],
+    "faqs": [
+      {
+        "q": "Does it support Goodreads lists?",
+        "a": "Copy-paste titles directly from your reading lists for personalized picks."
+      }
+    ]
+  },
+  "/decision-wheel": {
+    "route": "/decision-wheel",
+    "type": "wheel",
+    "title": "Random Decision Wheel | Spin the Wheel of Choice",
+    "metaDescription": "Input your custom choices, spin the decision wheel, and resolve options instantly. Completely free, customizable, and unbiased choice maker.",
+    "h1": "Random Decision Wheel",
+    "description": "Can&apos;t choose between dinner options, vacation spots, or work projects? Customize the slices and spin!",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Ask a Friend",
+      "Spin Again",
+      "Sleep On It"
+    ],
+    "faqs": []
+  },
+  "/dice-roller": {
+    "route": "/dice-roller",
+    "type": "dice-roller",
+    "title": "Dice Roller | Roll Virtual Dice Online",
+    "metaDescription": "Roll 1, 2, or 3 virtual dice instantly. Perfect for board games, statistics, probability lessons, and random decisions.",
+    "h1": "Virtual Dice Roller",
+    "description": "Lost your board game dice? Roll up to three virtual dice with realistic dot layouts and animations.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/bulk-edit": {
+    "route": "/features/bulk-edit",
+    "type": "general",
+    "title": "Bulk Edit & List Import | GameWheelClub Tools",
+    "metaDescription": "Learn how to import and edit thousands of items instantly. Explore the string parsing, CSV compatibility, and list sanitation engines driving GameWheelClub",
+    "h1": "Bulk Edit & List Importing: Managing Large Datasets",
+    "description": "Manual input is slow. Discover how GameWheelClub lets you paste, format, and sanitize hundreds of list entries from Excel, Google Sheets, or plain text in a single second.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/custom-colors": {
+    "route": "/features/custom-colors",
+    "type": "general",
+    "title": "Custom Colors & Neobrutalist Themes | GameWheelClub",
+    "metaDescription": "Customize the colors, typography, and styling of your decision wheels. Learn how neobrutalist designs, accessible contrast, and CSS palettes power GameWheelClub visual tools.",
+    "h1": "Custom Colors & Neobrutalist Themes: Styling Your Decisions",
+    "description": "Unleash your creativity. Set up custom colors, apply retro presets, and leverage accessible high-contrast themes designed for teachers, presenters, and gamers.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/elimination-mode": {
+    "route": "/features/elimination-mode",
+    "type": "general",
+    "title": "Elimination Mode | Exhaustive Choice Selection | GameWheelClub",
+    "metaDescription": "Learn how Elimination Mode converts standard decision wheels into interactive raffle systems and sequential drawing boards by removing winners on each spin.",
+    "h1": "Elimination Mode: The Physics of Exhaustive Winner Selection",
+    "description": "Eliminate duplicates, select multiple distinct winners, or narrow down a massive list of options using our dynamic slice-removal logic.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/local-storage": {
+    "route": "/features/local-storage",
+    "type": "general",
+    "title": "Local Storage & Data Privacy | GameWheelClub Features",
+    "metaDescription": "Learn how GameWheelClub uses native browser localStorage to save your wheels, names, and templates offline. Read about our zero-server data privacy architecture.",
+    "h1": "Local Storage & Offline-First Design: Privacy-First Architecture",
+    "description": "Your lists, options, and wheels are yours alone. Discover how we store configuration data directly in your browser, enabling zero-latency loading and complete offline functionality.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/sound-effects": {
+    "route": "/features/sound-effects",
+    "type": "general",
+    "title": "Audio Sound Effects & Synthesizers | GameWheelClub",
+    "metaDescription": "Learn how procedural audio generation and browser Web Audio API create high-fidelity, interactive, and responsive retro sound effects for GameWheelClub tools.",
+    "h1": "Sound Effects: The Technology of Procedural Web Audio",
+    "description": "Discover how we use pure mathematics and browser-native synth generators to craft delightful, tactile clicking and fanfare sounds that mimic mechanical wheels.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/weighted-wheel": {
+    "route": "/features/weighted-wheel",
+    "type": "general",
+    "title": "Weighted Decision Wheels | Probability-Based Spinners | GameWheelClub",
+    "metaDescription": "Explore the mathematics and logic of weighted decision wheels. Learn how probability distribution, cumulative weights, and roulette selection power custom choice wheels.",
+    "h1": "Weighted Decision Wheels: The Math & Logic of Custom Probability",
+    "description": "Not all choices are created equal. Discover how GameWheelClub lets you assign specific weight values to items, shifting the balance of chance with rigorous mathematical precision.",
+    "options": [],
+    "faqs": []
+  },
+  "/flip-a-coin": {
+    "route": "/flip-a-coin",
+    "type": "flip-a-coin",
+    "title": "Flip a Coin | Online Heads or Tails Generator",
+    "metaDescription": "Flip a virtual coin online. A simple, instant heads or tails decision generator with 3D-inspired animations.",
+    "h1": "Flip a Coin Online",
+    "description": "Can&apos;t settle a simple argument? Flip a virtual coin and let probability decide heads or tails instantly!",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/dessert": {
+    "route": "/food-wheels/dessert",
+    "type": "wheel",
+    "title": "Dessert Wheel",
+    "metaDescription": "",
+    "h1": "Dessert Wheel",
+    "description": "Spin for a sweet treat idea. Covers cakes, pies, and baked cookies.",
+    "options": [
+      "Chocolate Cake",
+      "Vanilla Ice Cream",
+      "Warm Apple Pie",
+      "Fresh Baked Chocolate Chip Cookies",
+      "Strawberry Cheesecake",
+      "Glazed Donuts",
+      "Crème Brûlée",
+      "Brownie Sundae"
+    ],
+    "faqs": [
+      {
+        "q": "Are these recipes?",
+        "a": "These are sweet dessert categories to inspire your next baking or ordering decision."
+      }
+    ]
+  },
+  "/food-wheels/fast-food-restaurants": {
+    "route": "/food-wheels/fast-food-restaurants",
+    "type": "wheel",
+    "title": "Fast Food Restaurants Wheel",
+    "metaDescription": "",
+    "h1": "Fast Food Restaurants Wheel",
+    "description": "Spin to pick between popular fast-food chains for a quick lunch.",
+    "options": [
+      "McDonalds",
+      "Burger King",
+      "Wendys",
+      "Subway",
+      "Taco Bell",
+      "KFC",
+      "Popeyes",
+      "Chick-fil-A",
+      "Dominos",
+      "Pizza Hut",
+      "Starbucks",
+      "Dunkin"
+    ],
+    "faqs": [
+      {
+        "q": "Can I customize it to nearby stores?",
+        "a": "Yes, remove chains that aren't available in your city."
+      }
+    ]
+  },
+  "/food-wheels/fruit": {
+    "route": "/food-wheels/fruit",
+    "type": "wheel",
+    "title": "Fruit Wheel",
+    "metaDescription": "",
+    "h1": "Fruit Wheel",
+    "description": "Spin to choose a healthy piece of fruit to eat.",
+    "options": [
+      "Red Apple",
+      "Banana",
+      "Sweet Strawberry",
+      "Juicy Orange",
+      "Blueberries",
+      "Green Grapes",
+      "Watermelon Slice",
+      "Fresh Pineapple",
+      "Peach",
+      "Mango"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add tropical fruits?",
+        "a": "Yes! Add dragonfruit, kiwi, or papaya in the options."
+      }
+    ]
+  },
+  "/food-wheels": {
+    "route": "/food-wheels",
+    "type": "general",
+    "title": "Food Decider & Dinner Wheel Spinners | GameWheelClub",
+    "metaDescription": "Can",
+    "h1": "Food Wheels",
+    "description": "Cant agree on lunch, dinner, or snacks? Spin the Food Wheels to pick a random restaurant type, fast food chain, sweet dessert, or healthy snack.",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/snacks": {
+    "route": "/food-wheels/snacks",
+    "type": "wheel",
+    "title": "Snacks Wheel",
+    "metaDescription": "",
+    "h1": "Snacks Wheel",
+    "description": "Select a random healthy snack or salty chip bag.",
+    "options": [
+      "Potato Chips",
+      "Chocolate Bar",
+      "Apple Slices with Peanut Butter",
+      "Mixed Nuts",
+      "Greek Yogurt",
+      "Popcorn",
+      "Pretzels",
+      "Cheese Stick",
+      "Granola Bar"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add diet restrictions?",
+        "a": "Yes, add keto, vegan, or gluten-free snacks in the menu."
+      }
+    ]
+  },
+  "/food-wheels/what-to-eat": {
+    "route": "/food-wheels/what-to-eat",
+    "type": "wheel",
+    "title": "What to Eat Wheel",
+    "metaDescription": "",
+    "h1": "What to Eat Wheel",
+    "description": "Solve the dinner debate instantly by picking a random food cuisine.",
+    "options": [
+      "Pizza",
+      "Tacos & Mexican",
+      "Burgers & Fries",
+      "Sushi & Japanese",
+      "Pasta & Italian",
+      "Thai Curry",
+      "Indian Masala",
+      "Healthy Salad",
+      "Sandwiches & Deli"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add local restaurants?",
+        "a": "Yes! Replace generic cuisines with your local spots in the custom editor."
+      }
+    ]
+  },
+  "/for-business": {
+    "route": "/for-business",
+    "type": "general",
+    "title": "Random Decision Tools for Business | GameWheelClub",
+    "metaDescription": "Improve meetings and team interactions with randomizers and timers. Settle presenter order, draft tasks, and host team icebreakers.",
+    "h1": "Random Choice Tools for Business",
+    "description": "Settle team meeting order, draft tasks, manage sprint blocks, and break the ice with quick digital utilities.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-events": {
+    "route": "/for-events",
+    "type": "general",
+    "title": "Random Choice Tools for Events & Parties | GameWheelClub",
+    "metaDescription": "Host memorable parties, giveaways, and social events. Settle group games, spin for raffle winners, and choose trivia topics instantly.",
+    "h1": "Random Choice Tools for Events",
+    "description": "Bring excitement and energy to your next party, social meetup, or online raffle with pre-built event selectors.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-teachers": {
+    "route": "/for-teachers",
+    "type": "general",
+    "title": "Random Decision Tools for Teachers | GameWheelClub",
+    "metaDescription": "Discover free spin wheels and timer tools for classroom management. Choose random students, pick subjects, and award privileges fairly.",
+    "h1": "Random Choice Tools for Teachers",
+    "description": "Gamify your lessons and make participation 100% fair. Spin random wheels to pick volunteers, assign group teams, and select lesson topics.",
+    "options": [],
+    "faqs": []
+  },
+  "/games": {
+    "route": "/games",
+    "type": "general",
+    "title": "Random Choice Game Wheels Hub | GameWheelClub",
+    "metaDescription": "Explore fun, interactive, and pre-built randomizer game wheels. Settle team drafts, fandom debates, character creation, and party challenges instantly.",
+    "h1": "Randomizer Game Wheels",
+    "description": "Interactive preset wheels designed for sports, gaming draft simulators, fandoms, party icebreakers, and creative randomizers.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/alphabet-wheel": {
+    "route": "/generators/alphabet-wheel",
+    "type": "wheel",
+    "title": "Alphabet Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Alphabet Wheel Spinner",
+    "description": "Spin to select a random letter from A to Z.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "faqs": [
+      {
+        "q": "Does it contain foreign characters?",
+        "a": "You can add accents (like É, Ö, Ñ) in the custom menu."
+      }
+    ]
+  },
+  "/generators/color-wheel": {
+    "route": "/generators/color-wheel",
+    "type": "wheel",
+    "title": "Color Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Color Wheel Spinner",
+    "description": "Spin to select a random color hex code for designs or choices.",
+    "options": [
+      "Red (#EF4444)",
+      "Blue (#3B82F6)",
+      "Green (#10B981)",
+      "Yellow (#F59E0B)",
+      "Purple (#8B5CF6)",
+      "Pink (#EC4899)",
+      "Orange (#F97316)",
+      "Teal (#14B8A6)"
+    ],
+    "faqs": [
+      {
+        "q": "Are colors CSS-compatible?",
+        "a": "Yes, hex values are listed alongside color names."
+      }
+    ]
+  },
+  "/generators/number-wheel": {
+    "route": "/generators/number-wheel",
+    "type": "wheel",
+    "title": "Number Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Number Wheel Spinner",
+    "description": "Configurable number range wheel. Replaces standard random number spinner variants.",
+    "options": [],
+    "faqs": [
+      {
+        "q": "How high can the range go?",
+        "a": "You can set it up to 100 or higher, though numbers under 50 render best on screen."
+      }
+    ]
+  },
+  "/generators": {
+    "route": "/generators",
+    "type": "general",
+    "title": "Random Generator Wheels & Math Pickers | GameWheelClub",
+    "metaDescription": "Spin pure mathematical and utility decision generators. Includes the customizable number wheel, hex color generator, percent wheel, and alphabet spinner.",
+    "h1": "Random Generators",
+    "description": "Spin pure mathematical and utility decision generators. Includes the customizable number wheel, hex color generator, percent wheel, and alphabet spinner.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/percent-wheel": {
+    "route": "/generators/percent-wheel",
+    "type": "wheel",
+    "title": "Percent Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Percent Wheel Spinner",
+    "description": "Spin to get a random percentage value between 10% and 100%.",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+      "50%",
+      "60%",
+      "70%",
+      "80%",
+      "95%",
+      "100%"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add smaller steps?",
+        "a": "Yes, add steps like \\\"1%\\\", \\\"5%\\\", or \\\"99%\\\" to the editor."
+      }
+    ]
+  },
+  "/generators/periodic-table-picker": {
+    "route": "/generators/periodic-table-picker",
+    "type": "wheel",
+    "title": "Periodic Table Picker",
+    "metaDescription": "",
+    "h1": "Periodic Table Picker",
+    "description": "Spin to select a random chemical element from the periodic table.",
+    "options": [
+      "Hydrogen (H)",
+      "Helium (He)",
+      "Lithium (Li)",
+      "Beryllium (Be)",
+      "Boron (B)",
+      "Carbon (C)",
+      "Nitrogen (N)",
+      "Oxygen (O)",
+      "Fluorine (F)",
+      "Neon (Ne)",
+      "Sodium (Na)",
+      "Magnesium (Mg)"
+    ],
+    "faqs": [
+      {
+        "q": "Are noble gases included?",
+        "a": "Yes, helium and neon are included. Add more heavy elements as needed."
+      }
+    ]
+  },
+  "/geography-wheels/64-country-roulette": {
+    "route": "/geography-wheels/64-country-roulette",
+    "type": "wheel",
+    "title": "64 Country Roulette",
+    "metaDescription": "",
+    "h1": "64 Country Roulette",
+    "description": "The ultimate 64-country roulette wheel for gaming challenges and brackets.",
+    "options": [
+      "USA",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "UK",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "Russia",
+      "Egypt",
+      "South Africa",
+      "Nigeria",
+      "Kenya",
+      "India",
+      "China",
+      "Japan",
+      "South Korea",
+      "Australia",
+      "New Zealand",
+      "Saudi Arabia",
+      "Turkey",
+      "Greece",
+      "Sweden",
+      "Norway",
+      "Netherlands",
+      "Switzerland",
+      "Poland",
+      "Ukraine",
+      "Vietnam",
+      "Thailand",
+      "Indonesia",
+      "Philippines",
+      "Colombia",
+      "Peru",
+      "Chile",
+      "Venezuela",
+      "Morocco",
+      "Ghana",
+      "Ethiopia",
+      "Pakistan",
+      "Bangladesh",
+      "Iran",
+      "Iraq",
+      "Israel",
+      "Singapore",
+      "Malaysia",
+      "New Zealand",
+      "Portugal",
+      "Austria",
+      "Denmark",
+      "Finland",
+      "Ireland",
+      "Belgium",
+      "Czechia",
+      "Hungary",
+      "Romania",
+      "Cuba",
+      "Jamaica",
+      "Costa Rica",
+      "Panama",
+      "Ecuador",
+      "Bolivia"
+    ],
+    "faqs": [
+      {
+        "q": "Is it hard to read 64 slices?",
+        "a": "It spins cleanly! You can toggle list views to double-check the final result."
+      }
+    ]
+  },
+  "/geography-wheels/country-wheel": {
+    "route": "/geography-wheels/country-wheel",
+    "type": "wheel",
+    "title": "Country Wheel Spinner",
+    "metaDescription": "",
+    "h1": "Country Wheel Spinner",
+    "description": "Pick a random nation worldwide for trivia, gaming regions, or projects.",
+    "options": [
+      "United States",
+      "Japan",
+      "Brazil",
+      "Germany",
+      "Australia",
+      "Canada",
+      "India",
+      "South Africa",
+      "United Kingdom",
+      "France",
+      "Italy",
+      "China",
+      "Egypt",
+      "Mexico",
+      "Russia",
+      "Argentina"
+    ],
+    "faqs": [
+      {
+        "q": "Are all countries included?",
+        "a": "This wheel features a balanced selection of major global nations. Edit to add any specific country."
+      }
+    ]
+  },
+  "/geography-wheels/europe-countries": {
+    "route": "/geography-wheels/europe-countries",
+    "type": "wheel",
+    "title": "Europe Countries Wheel",
+    "metaDescription": "",
+    "h1": "Europe Countries Wheel",
+    "description": "Randomly pick an European country for travel plans or educational research.",
+    "options": [
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Belgium",
+      "Switzerland",
+      "Austria",
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland",
+      "Ireland",
+      "Portugal",
+      "Greece",
+      "Poland",
+      "Czechia"
+    ],
+    "faqs": [
+      {
+        "q": "Are microstates like Vatican City on it?",
+        "a": "You can add Monaco, Andorra, or San Marino manually in the options."
+      }
+    ]
+  },
+  "/geography-wheels": {
+    "route": "/geography-wheels",
+    "type": "general",
+    "title": "Geography & Country Wheel Spinners | GameWheelClub",
+    "metaDescription": "Spin to select random countries, US states, European nations, or run the 64-country roulette challenge. Great for geography trivia and travel planning.",
+    "h1": "Geography Wheels",
+    "description": "Spin to select random countries, US states, European nations, or run the 64-country roulette challenge. Great for geography trivia and travel planning.",
+    "options": [],
+    "faqs": []
+  },
+  "/geography-wheels/us-states": {
+    "route": "/geography-wheels/us-states",
+    "type": "wheel",
+    "title": "US States Wheel",
+    "metaDescription": "",
+    "h1": "US States Wheel",
+    "description": "Spin to choose from the 50 states of America randomly.",
+    "options": [
+      "California",
+      "Texas",
+      "Florida",
+      "New York",
+      "Illinois",
+      "Pennsylvania",
+      "Ohio",
+      "Georgia",
+      "North Carolina",
+      "Michigan",
+      "Washington",
+      "Arizona",
+      "Massachusetts",
+      "Virginia",
+      "Colorado",
+      "Tennessee"
+    ],
+    "faqs": [
+      {
+        "q": "Are all 50 states preloaded?",
+        "a": "This preset features major states. You can copy-paste the full list of 50 states in the Bulk Edit box in seconds."
+      }
+    ]
+  },
+  "/guides/classroom-spin-wheel-ideas": {
+    "route": "/guides/classroom-spin-wheel-ideas",
+    "type": "general",
+    "title": "Classroom Spin Wheel Ideas: Interactive Teaching Strategies",
+    "metaDescription": "Boost student engagement with 15 creative classroom spin wheel ideas. Learn how to run fair name draws, assign tasks, and gamify lessons with random wheels.",
+    "h1": "15 Creative Classroom Spin Wheel Ideas",
+    "description": "Turn passive listening into active, energetic participation. Discover structured, field-tested spin wheel strategies to gamify lessons, distribute jobs, and keep every student on the edge of their seat.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/decision-making-methods": {
+    "route": "/guides/decision-making-methods",
+    "type": "general",
+    "title": "Decision-Making Methods: Frameworks, Heuristics & Randomization",
+    "metaDescription": "Explore structured decision-making frameworks. From the Eisenhower Matrix to analytical models and randomized selection tools, discover how to conquer choice fatigue.",
+    "h1": "A Masterclass in Decision-Making Methods",
+    "description": "Should you analyze, trust your gut, or delegate to probability? Learn the formal models of choice theory, cognitive biases, and how to know when to let a coin flip settle the score.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/how-random-wheels-work": {
+    "route": "/guides/how-random-wheels-work",
+    "type": "general",
+    "title": "How Random Wheels Work: Mathematics, Algorithms & Physics",
+    "metaDescription": "Dive deep into the science behind virtual spin wheels. Explore Pseudo-Random Number Generators (PRNGs), friction deceleration physics, and algorithmic fairness.",
+    "h1": "Behind the Spin: How Random Wheels Actually Work",
+    "description": "Ever wondered how a virtual wheel calculates its winner? Discover the mathematics of pseudorandom number generators, the equations of simulated friction, and the programming principles that guarantee an unbiased selection.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/icebreaker-games-guide": {
+    "route": "/guides/icebreaker-games-guide",
+    "type": "general",
+    "title": "Icebreaker Games Guide: Team-Building & Virtual Meetups",
+    "metaDescription": "Learn how to host high-energy icebreaker games. Discover creative spinners, question Prompts, and team-building strategies for physical and virtual teams.",
+    "h1": "The Ultimate Guide to Icebreaker Games",
+    "description": "Tired of awkward silences in team meetings or social events? Learn the science of icebreaking, how to establish a low-pressure social atmosphere, and how to utilize random game spinners effectively.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/productivity-timeboxing": {
+    "route": "/guides/productivity-timeboxing",
+    "type": "general",
+    "title": "Productivity Timeboxing: The Ultimate Guide to Time Blocks",
+    "metaDescription": "Learn how to use timeboxing and Pomodoro techniques to boost focus. Combat Parkinson",
+    "h1": "Timeboxing: Conquer Distractions with Strict Limits",
+    "description": "Why does a task take three hours when you are given a three-hour deadline, but only thirty minutes when you are pressed for time? Discover how to leverage Parkinson&apos;s Law and gamified timer systems to reclaim control over your day.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/random-giveaway-rules": {
+    "route": "/guides/random-giveaway-rules",
+    "type": "general",
+    "title": "Random Giveaway Rules & Legal Compliance Guidelines",
+    "metaDescription": "Stay compliant when running online giveaways. Understand sweepstakes laws, the no-purchase-necessary rule, and platform guidelines for fair contests.",
+    "h1": "How to Run Random Giveaways legally & Fairly",
+    "description": "Sweepstakes, contests, or lotteries? Navigating the laws of promotional draws is essential to protect your brand and respect your audience. Learn the rules of random selection compliance.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/spin-wheel-psychology": {
+    "route": "/guides/spin-wheel-psychology",
+    "type": "general",
+    "title": "The Psychology of Spin Wheels: Suspense, Rewards & Choices",
+    "metaDescription": "Explore the psychological triggers behind spin wheels. Understand how decision fatigue, anticipation, and visual rewards make randomized selectors so engaging.",
+    "h1": "Spin Wheel Psychology: Why We Love the Spin",
+    "description": "What makes a rotating wheel of items so irresistible? Discover the neural mechanisms of anticipation, the relief of offloading choices, and the gamified design patterns that capture our attention.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/unbiased-selection-importance": {
+    "route": "/guides/unbiased-selection-importance",
+    "type": "general",
+    "title": "The Importance of Unbiased Selection: Fairness & Statistics",
+    "metaDescription": "Discover why unbiased selection is crucial. Explore the mathematics of fair choices, cognitive biases in human selectors, and real-world applications of sortition.",
+    "h1": "Why Unbiased Selection Matters",
+    "description": "Human choice is riddled with implicit cognitive biases. Explore how random math protects statistics, restores justice, guarantees educational equity, and builds trust.",
+    "options": [],
+    "faqs": []
+  },
+  "/": {
+    "route": "/",
+    "type": "wheel",
+    "title": "Spin the Wheel of Decisions",
+    "metaDescription": "",
+    "h1": "Spin the Wheel of Decisions",
+    "description": "Can&apos;t make up your mind? Input your options, spin the wheel, and let fate decide instantly! Fast, fair, and fun.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/adult-truth-or-dare": {
+    "route": "/party-games/adult-truth-or-dare",
+    "type": "wheel",
+    "title": "Adult Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Adult Truth or Dare Wheel",
+    "description": "Spin to choose spice, mature secrets, and provocative dares. Age-restricted interstitial included.",
+    "options": [
+      "Truth: What is your secret fantasy?",
+      "Dare: Give a sensual massage to the person next to you",
+      "Truth: Tell the group your most embarrassing romantic encounter",
+      "Dare: Whisper something provocative in someones ear"
+    ],
+    "faqs": [
+      {
+        "q": "Does it require signup?",
+        "a": "No signup or accounts needed. We use a simple age verification gate to protect minors."
+      }
+    ]
+  },
+  "/party-games/charades-topics": {
+    "route": "/party-games/charades-topics",
+    "type": "wheel",
+    "title": "Charades Topics Wheel",
+    "metaDescription": "",
+    "h1": "Charades Topics Wheel",
+    "description": "Get hilarious and creative topics for family charades games.",
+    "options": [
+      "Mimic a T-Rex eating",
+      "Pretend to be a glitching robot",
+      "Act out playing golf",
+      "Mimic cooking a hot dog",
+      "Pretend you are walking on ice",
+      "Act like an astronaut floating"
+    ],
+    "faqs": [
+      {
+        "q": "Are the topics hard?",
+        "a": "They are balanced for both kids and adults to enjoy."
+      }
+    ]
+  },
+  "/party-games/extreme-truth-or-dare": {
+    "route": "/party-games/extreme-truth-or-dare",
+    "type": "wheel",
+    "title": "Extreme Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Extreme Truth or Dare Wheel",
+    "description": "Spin for highly challenging, intensive, and crazy truths and dares.",
+    "options": [
+      "Truth: Have you ever cheated on a test?",
+      "Dare: Call a random contact and sing happy birthday",
+      "Truth: What is your biggest regret?",
+      "Dare: Let the group post a story on your Instagram"
+    ],
+    "faqs": [
+      {
+        "q": "Are these safe to perform?",
+        "a": "Yes, they are safe but highly entertaining. Always skip any dare you feel uncomfortable with."
+      }
+    ]
+  },
+  "/party-games/funny-dares": {
+    "route": "/party-games/funny-dares",
+    "type": "wheel",
+    "title": "Funny Dares Wheel",
+    "metaDescription": "",
+    "h1": "Funny Dares Wheel",
+    "description": "Get goofy, simple, and funny physical challenge dares.",
+    "options": [
+      "Talk in a British accent for 3 rounds",
+      "Do your best chicken impression",
+      "Balance a spoon on your nose",
+      "Act like a drama queen",
+      "Talk to a houseplant for 1 minute"
+    ],
+    "faqs": [
+      {
+        "q": "Can these dares be done indoors?",
+        "a": "Yes, all dares are designed to be performed safely inside."
+      }
+    ]
+  },
+  "/party-games": {
+    "route": "/party-games",
+    "type": "general",
+    "title": "Party & Social Game Wheels | GameWheelClub",
+    "metaDescription": "Interactive wheels for social events, sleepovers, and parties. Spin for Truth or Dare questions, Spin the Bottle, Charades, and funny challenges.",
+    "h1": "Party & Social Games",
+    "description": "Interactive wheels for social events, sleepovers, and parties. Spin for Truth or Dare questions, Spin the Bottle, Charades, and funny challenges.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/punishment-wheel": {
+    "route": "/party-games/punishment-wheel",
+    "type": "wheel",
+    "title": "Punishment Wheel",
+    "metaDescription": "",
+    "h1": "Punishment Wheel",
+    "description": "Spin to assign silly chores, forfeits, or penalties for board game losers.",
+    "options": [
+      "Buy snacks for everyone",
+      "Do the dishes",
+      "Sing a song chosen by the group",
+      "Post an embarrassing selfie",
+      "Do 20 jumping jacks",
+      "Speak only in whispers next turn"
+    ],
+    "faqs": [
+      {
+        "q": "Are these severe?",
+        "a": "No, they are lighthearted and perfect for friendly games."
+      }
+    ]
+  },
+  "/party-games/questions-wheel": {
+    "route": "/party-games/questions-wheel",
+    "type": "wheel",
+    "title": "Questions Wheel",
+    "metaDescription": "",
+    "h1": "Questions Wheel",
+    "description": "Spin for icebreaker questions, get-to-know-you topics, and conversational prompts.",
+    "options": [
+      "What is your superpower?",
+      "If you won $1M",
+      "what is the first purchase?",
+      "Where is your dream vacation?",
+      "What is your biggest fear?",
+      "Who inspires you the most?",
+      "What is your favorite childhood memory?"
+    ],
+    "faqs": [
+      {
+        "q": "Are the questions clean?",
+        "a": "Yes, suitable for corporate icebreakers and school classes."
+      }
+    ]
+  },
+  "/party-games/scattergories-letters": {
+    "route": "/party-games/scattergories-letters",
+    "type": "wheel",
+    "title": "Scattergories Letters Wheel",
+    "metaDescription": "",
+    "h1": "Scattergories Letters Wheel",
+    "description": "Spin to select a random letter for Scattergories and vocabulary games.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "R",
+      "S",
+      "T",
+      "W"
+    ],
+    "faqs": [
+      {
+        "q": "Why are some letters missing?",
+        "a": "We exclude hard letters (Q, X, Y, Z) to keep games fun and moving."
+      }
+    ]
+  },
+  "/party-games/song-association": {
+    "route": "/party-games/song-association",
+    "type": "wheel",
+    "title": "Song Association Wheel",
+    "metaDescription": "",
+    "h1": "Song Association Wheel",
+    "description": "Spin a keyword and try to sing a song containing that word in 10 seconds.",
+    "options": [
+      "Word: LOVE",
+      "Word: FIRE",
+      "Word: HEAVEN",
+      "Word: DANCE",
+      "Word: NIGHT",
+      "Word: WORLD",
+      "Word: BLUE",
+      "Word: HAPPY",
+      "Word: CRY"
+    ],
+    "faqs": [
+      {
+        "q": "What are the rules?",
+        "a": "A player has 10 seconds to sing at least one line of a real song containing the word."
+      }
+    ]
+  },
+  "/party-games/spin-the-bottle": {
+    "route": "/party-games/spin-the-bottle",
+    "type": "wheel",
+    "title": "Spin the Bottle Wheel",
+    "metaDescription": "",
+    "h1": "Spin the Bottle Wheel",
+    "description": "A virtual spinner replacing physical bottle setups for classic games.",
+    "options": [
+      "Player A",
+      "Player B",
+      "Player C",
+      "Player D",
+      "Player E",
+      "Player F"
+    ],
+    "faqs": [
+      {
+        "q": "How many players can play?",
+        "a": "Supports up to 100 players. Add names to the options list easily."
+      }
+    ]
+  },
+  "/party-games/things-to-do-when-bored": {
+    "route": "/party-games/things-to-do-when-bored",
+    "type": "wheel",
+    "title": "Things to Do When Bored Wheel",
+    "metaDescription": "",
+    "h1": "Things to Do When Bored Wheel",
+    "description": "Spin to cure boredom with productive, creative, and physical activity prompts.",
+    "options": [
+      "Read a book chapter",
+      "Organize your desk drawer",
+      "Learn a 5-minute card trick",
+      "Go for a brisk walk",
+      "Try drawing a self-portrait",
+      "Stretch for 10 minutes",
+      "Listen to a new album"
+    ],
+    "faqs": [
+      {
+        "q": "Do these require supplies?",
+        "a": "Most activities are completely free and require zero preparation."
+      }
+    ]
+  },
+  "/party-games/truth-or-dare": {
+    "route": "/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Truth or Dare Wheel",
+    "metaDescription": "",
+    "h1": "Truth or Dare Wheel",
+    "description": "Spin the wheel to get classic Truth or Dare prompts for kids, teens, and families.",
+    "options": [
+      "Truth: What is your biggest secret?",
+      "Dare: Do 10 pushups",
+      "Truth: Who is your crush?",
+      "Dare: Eat a raw piece of garlic",
+      "Truth: Tell a funny lie you told",
+      "Dare: Let someone text from your phone"
+    ],
+    "faqs": [
+      {
+        "q": "Is it clean for families?",
+        "a": "Yes, this wheel contains lighthearted prompts perfect for family gatherings."
+      }
+    ]
+  },
+  "/privacy": {
+    "route": "/privacy",
+    "type": "general",
+    "title": "Privacy Policy",
+    "metaDescription": "",
+    "h1": "Privacy Policy",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/random-number-generator": {
+    "route": "/random-number-generator",
+    "type": "number-generator",
+    "title": "Random Number Generator | Quick RNG Tool",
+    "metaDescription": "Generate single or multiple random numbers in any custom range. Free, secure, and customizable random number picker.",
+    "h1": "Random Number Generator",
+    "description": "Pick random numbers instantly. Set your minimum and maximum limits, select the quantity, and generate!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/best-teams": {
+    "route": "/sports-wheels/best-teams",
+    "type": "wheel",
+    "title": "Best Sports Teams Wheel Spinner | Legendary Team Picker",
+    "metaDescription": "Spin the Best Teams Wheel to pick a legendary team in sports history. Preloaded with the 1992 Dream Team, 1996 Chicago Bulls, 1972 Dolphins, and more.",
+    "h1": "Best Sports Teams Wheel Spinner",
+    "description": "Which squad was truly the greatest of all time? Spin the wheel to randomly select a legendary sports team across basketball, football, soccer, and baseball.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/college-teams": {
+    "route": "/sports-wheels/college-teams",
+    "type": "wheel",
+    "title": "College Teams Wheel Spinner | Random NCAA Team Picker",
+    "metaDescription": "Spin the College Teams Wheel to randomly select a top NCAA university team. Perfect for college football (CFB) simulation, basketball brackets, and pick&apos;em leagues.",
+    "h1": "College Teams Wheel Spinner",
+    "description": "Pick a random university team from the NCAA FBS division. Great for College Football 25 Dynasty choices or NCAA basketball bracket predictions!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/fifa-world-cup-2026": {
+    "route": "/sports-wheels/fifa-world-cup-2026",
+    "type": "wheel",
+    "title": "FIFA World Cup 2026 Wheel Spinner | Random Country Picker",
+    "metaDescription": "Spin the World Cup 2026 Wheel to randomly select a qualified soccer nation. Great for tournament sweeps, group predictions, and match simulations.",
+    "h1": "FIFA World Cup 2026 Wheel",
+    "description": "Get ready for the biggest sporting event in history across North America. Spin the wheel to randomly select a qualifying nation!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/football-players": {
+    "route": "/sports-wheels/football-players",
+    "type": "wheel",
+    "title": "Football Players Wheel Spinner | Random Soccer Star Picker",
+    "metaDescription": "Spin the Football Players Wheel to pick a random world soccer star like Messi, Ronaldo, Mbappé, or Haaland. Perfect for FC 24/FC 25 draft challenges.",
+    "h1": "Football Players Wheel Spinner",
+    "description": "Spin to select randomly from the world&apos;s most elite association football (soccer) superstars. Settle debates, pick FC targets, or challenge friends!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/golf-wheel": {
+    "route": "/sports-wheels/golf-wheel",
+    "type": "wheel",
+    "title": "Golf Club Wheel Spinner | Random Club Picker Challenge",
+    "metaDescription": "Spin the Golf Wheel to randomly pick a golf club like Driver, 7-Iron, Pitching Wedge, or Putter. Perfect for range challenges and course games.",
+    "h1": "Golf Club Wheel Spinner",
+    "description": "Ready to spice up your golf practice or challenge your buddies on the course? Spin the golf wheel to determine which club you must hit next!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/mlb-teams": {
+    "route": "/sports-wheels/mlb-teams",
+    "type": "wheel",
+    "title": "MLB Teams Wheel Spinner | Random Major League Baseball Team Picker",
+    "metaDescription": "Spin the MLB Teams Wheel to randomly select a baseball franchise. Perfect for fantasy leagues, baseball video games, and playoff predictions.",
+    "h1": "MLB Teams Wheel Spinner",
+    "description": "Choose a random Major League Baseball franchise instantly. Ideal for MLB The Show challenges, fantasy draft selections, and stadium road trips!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-players": {
+    "route": "/sports-wheels/nba-players",
+    "type": "wheel",
+    "title": "NBA Players Wheel Spinner | Random NBA Player Picker",
+    "metaDescription": "Spin the NBA Players Wheel to pick a random active basketball superstar. Perfect for fantasy sports, trivia night, and player comparison debates.",
+    "h1": "NBA Players Wheel Spinner",
+    "description": "Decide randomly between the absolute elite basketball talents in the NBA today. Settle comparisons, select player focus, or start debates.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-teams": {
+    "route": "/sports-wheels/nba-teams",
+    "type": "wheel",
+    "title": "NBA Teams Wheel Spinner | Random NBA Franchise Picker",
+    "metaDescription": "Spin the NBA Teams Wheel to pick a random professional basketball franchise. Ideal for NBA 2K challenges, fantasy draft selections, and sports trivia.",
+    "h1": "NBA Teams Wheel Spinner",
+    "description": "Choose a random NBA franchise. Perfect for pick-up matches in NBA 2K, defining draft order lists, or deciding which team to build in career modes.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-players": {
+    "route": "/sports-wheels/nfl-players",
+    "type": "wheel",
+    "title": "NFL Players Wheel Spinner | Random NFL Player Picker",
+    "metaDescription": "Spin the NFL Players Wheel to select a random active star NFL football player. Ideal for fantasy drafts, trivia, and team building challenges.",
+    "h1": "NFL Players Wheel Spinner",
+    "description": "Spin to choose randomly from the league&apos;s most elite players. Great for trivia challenges, fantasy picks, and player debates!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-positions": {
+    "route": "/sports-wheels/nfl-positions",
+    "type": "wheel",
+    "title": "NFL Positions Wheel Spinner | Random Football Position Picker",
+    "metaDescription": "Spin the NFL Positions Wheel to pick a random football role like Quarterback, Running Back, Wide Receiver, or Linebacker. Perfect for training and coaching.",
+    "h1": "NFL Positions Wheel Spinner",
+    "description": "Need to assign roster positions, set up coaching drills, or randomize a career mode challenge? Spin the positions wheel to pick!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-teams": {
+    "route": "/sports-wheels/nfl-teams",
+    "type": "wheel",
+    "title": "NFL Teams Wheel Spinner | Random NFL Team Picker",
+    "metaDescription": "Spin the NFL Teams Wheel to pick a random NFL franchise. Perfect for fantasy football draft orders, choosing a team to play in Madden, or choosing a new favorite team.",
+    "h1": "NFL Teams Wheel Spinner",
+    "description": "Stuck choosing which team to play with or need an unbiased selector for your fantasy football league? Spin the wheel to decide!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nhl-teams": {
+    "route": "/sports-wheels/nhl-teams",
+    "type": "wheel",
+    "title": "NHL Teams Wheel Spinner | Random NHL Hockey Team Picker",
+    "metaDescription": "Spin the NHL Teams Wheel to select a random professional hockey franchise. Great for NHL video games, bracket setups, and trivia.",
+    "h1": "NHL Teams Wheel Spinner",
+    "description": "Pick a random professional NHL team instantly. Perfect for NHL franchise mode challenges, exhibition matches, and playoff brackets.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels": {
+    "route": "/sports-wheels",
+    "type": "general",
+    "title": "Sports Wheel Spinners | GameWheelClub",
+    "metaDescription": "Browse 12 preloaded sports decision wheels including NFL team pickers, NBA player randomizers, World Cup brackets, and golf clubs.",
+    "h1": "Sports Randomizer Wheels",
+    "description": "Interactive preconfigured tools built for fantasy leagues, draft pick simulators, challenges, and team debates.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/brain-break": {
+    "route": "/templates/classroom/brain-break",
+    "type": "wheel",
+    "title": "Classroom Brain Break Wheel | Student Exercise Ideas",
+    "metaDescription": "Spin the Brain Break wheel to choose quick exercises for students: Stretch, Jumping Jacks, Deep Breaths, Dance, or Doodle.",
+    "h1": "Classroom Brain Break Wheel",
+    "description": "Help students refocus and recharge their energy during long lessons. Spin for a quick activity!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom": {
+    "route": "/templates/classroom",
+    "type": "general",
+    "title": "Classroom Wheel Templates | GameWheelClub",
+    "metaDescription": "Browse free decision wheels for teachers. Pick random student groups, subjects, rewards, or classroom brain break exercises.",
+    "h1": "Classroom & Teaching Wheels",
+    "description": "Tools designed specifically for educators to randomize participation, reward student achievements, and direct subject blocks.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/rewards-wheel": {
+    "route": "/templates/classroom/rewards-wheel",
+    "type": "wheel",
+    "title": "Classroom Rewards Wheel | Random Reward Ideas Selector",
+    "metaDescription": "Spin the Rewards wheel to pick random prizes for students: Free Time, Stickers, Line Leader Choice, or No Homework passes.",
+    "h1": "Classroom Rewards Wheel",
+    "description": "Motivate your students. Spin the reward wheel to randomly choose a prize or classroom privilege!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/student-grouping": {
+    "route": "/templates/classroom/student-grouping",
+    "type": "wheel",
+    "title": "Student Grouping Wheel | Random Team Picker",
+    "metaDescription": "Spin the Student Grouping wheel. Instantly select random teams or groups (Group A, Group B, Group C) for classroom projects and games.",
+    "h1": "Student Grouping & Team Picker Wheel",
+    "description": "Need to randomly assign students to groups, pick presenting teams, or set classroom seats? Spin the grouping wheel!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/subject-picker": {
+    "route": "/templates/classroom/subject-picker",
+    "type": "wheel",
+    "title": "Subject Picker Wheel | Lesson Study Topic Selector",
+    "metaDescription": "Spin the Subject Picker wheel to randomize study topics: Math, Science, History, English, Art, and Music. Great for lesson planning.",
+    "h1": "Subject Picker Wheel",
+    "description": "Choose what topic to review next, or let the wheel randomize study blocks during homeschooling or class.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dessert-spinner": {
+    "route": "/templates/food/dessert-spinner",
+    "type": "wheel",
+    "title": "Dessert Choice Wheel | Random Sweet Treats Picker",
+    "metaDescription": "Can",
+    "h1": "Dessert Spinner Wheel",
+    "description": "Choose your next sweet treat without the guilt of choosing. Spin the dessert wheel!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dinner-picker": {
+    "route": "/templates/food/dinner-picker",
+    "type": "wheel",
+    "title": "Dinner Picker Wheel | What Should I Eat for Dinner?",
+    "metaDescription": "Settle the dinner debate instantly. Spin the dinner wheel preloaded with popular meal options: Pizza, Tacos, Burgers, Pasta, Salad, and Chinese.",
+    "h1": "Dinner Picker Wheel",
+    "description": "Stuck deciding on dinner? Eliminate food arguments. Spin the wheel to select a meal option instantly.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/drink-decider": {
+    "route": "/templates/food/drink-decider",
+    "type": "wheel",
+    "title": "Drink Decider Wheel | What Should I Drink?",
+    "metaDescription": "Spin the drink picker wheel preloaded with refreshments: Water, Coffee, Tea, Soda, Juice, and Smoothies.",
+    "h1": "Drink Decider Wheel",
+    "description": "Need a refreshment but can&apos;t pick between caffeine, hydration, or juice? Spin the drink wheel!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/lunch-ideas": {
+    "route": "/templates/food/lunch-ideas",
+    "type": "wheel",
+    "title": "Lunch Decision Wheel | Quick Lunch Ideas Selector",
+    "metaDescription": "Spin to select a quick lunch meal: Sandwiches, Salads, Leftovers, Soup, Wraps, or Fast Food. Settle your lunch break menu instantly.",
+    "h1": "Lunch Ideas Decision Wheel",
+    "description": "Stuck in the middle of a busy workday or study session trying to pick lunch? Let the wheel decide your menu.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food": {
+    "route": "/templates/food",
+    "type": "general",
+    "title": "Food & Dining Wheel Templates | GameWheelClub",
+    "metaDescription": "Browse free decision wheels for food, lunch choices, dessert spinners, and drink deciders. Settle your dining debates instantly.",
+    "h1": "Food & Dining Decision Wheels",
+    "description": "Settle the age-old debate of &quot;what should we eat?&quot; in seconds using our pre-built food spinners.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates": {
+    "route": "/templates",
+    "type": "general",
+    "title": "Decision Wheel Templates Hub | GameWheelClub",
+    "metaDescription": "Browse dozens of free pre-made decision wheel templates. Categorized by Food, Party Games, and Classroom utilities.",
+    "h1": "Decision Wheel Templates",
+    "description": "Don&apos;t build from scratch. Select one of our pre-configured choice lists, and start spinning right away!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/charades-ideas": {
+    "route": "/templates/party-games/charades-ideas",
+    "type": "wheel",
+    "title": "Charades Ideas Wheel | Random Acting Topics Picker",
+    "metaDescription": "Spin the Charades wheel to get random acting ideas: Movies, TV Shows, Actions, Animals, and Famous People. Settle party game topics instantly.",
+    "h1": "Charades Ideas Wheel",
+    "description": "Stuck trying to think of something to act out? Spin the wheel to pick your category or topic instantly!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games": {
+    "route": "/templates/party-games",
+    "type": "general",
+    "title": "Party Games Wheel Templates | GameWheelClub",
+    "metaDescription": "Browse free decision wheels for group games, party challenges, trivia topics, and truth or dare cards. Settle choices instantly.",
+    "h1": "Party Games & Icebreakers",
+    "description": "Get your next get-together, party, or classroom game moving in seconds with these pre-built templates.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/party-trivia": {
+    "route": "/templates/party-games/party-trivia",
+    "type": "wheel",
+    "title": "Party Trivia Topic Wheel | Random Quiz Categories",
+    "metaDescription": "Spin the Trivia wheel to pick random quiz topics: Science, Pop Culture, History, Sports, and Geography. Perfect for game nights.",
+    "h1": "Party Trivia Category Wheel",
+    "description": "Settle which category to play next during family quiz nights. Spin the trivia wheel!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/truth-or-dare": {
+    "route": "/templates/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Truth or Dare Generator | Random Choice Wheel",
+    "metaDescription": "Spin the Truth or Dare wheel for party icebreakers. Select Truth or Dare randomly and get groups talking instantly.",
+    "h1": "Truth or Dare Wheel Generator",
+    "description": "Bring life to your next party or hang out. Spin the wheel to decide between Truth, Dare, or Double Dare!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/would-you-rather": {
+    "route": "/templates/party-games/would-you-rather",
+    "type": "wheel",
+    "title": "Would You Rather Wheel | Random Party Game Picker",
+    "metaDescription": "Spin the Would You Rather wheel. Get group conversations moving with randomized hypothetical question choices.",
+    "h1": "Would You Rather Wheel",
+    "description": "Settle tough hypotheticals or choose who answers what. Spin the game wheel!",
+    "options": [],
+    "faqs": []
+  },
+  "/terms": {
+    "route": "/terms",
+    "type": "general",
+    "title": "Terms of Service",
+    "metaDescription": "",
+    "h1": "Terms of Service",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/timer": {
+    "route": "/timer",
+    "type": "timer",
+    "title": "Online Timer | Free Countdown Timer",
+    "metaDescription": "Set minutes and seconds for any countdown. Free, beautiful, and accessible online timer with alarm alerts.",
+    "h1": "Online Countdown Timer",
+    "description": "Set custom countdown times for study sessions, meetings, or games, and receive a clear audio alarm upon completion.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/fortnite-challenges": {
+    "route": "/video-game-wheels/fortnite-challenges",
+    "type": "wheel",
+    "title": "Fortnite Challenges Wheel",
+    "metaDescription": "",
+    "h1": "Fortnite Challenges Wheel",
+    "description": "Spin to get a fun challenge to complete during your next battle royale match.",
+    "options": [
+      "Pistols Only Win",
+      "No Shield Challenge",
+      "First Weapon You See Only",
+      "No Building Match (Zero Build)",
+      "Land at Named Locations Only",
+      "Pacifist Run (No Kills)",
+      "Mythic Weapons Only",
+      "Skybase Challenge"
+    ],
+    "faqs": [
+      {
+        "q": "Can I do this with squads?",
+        "a": "Yes! Challenge your entire squad to follow the selected rule."
+      }
+    ]
+  },
+  "/video-game-wheels/league-of-legends-champions": {
+    "route": "/video-game-wheels/league-of-legends-champions",
+    "type": "wheel",
+    "title": "League of Legends Champions Wheel",
+    "metaDescription": "",
+    "h1": "League of Legends Champions Wheel",
+    "description": "Randomly choose a League champion for your next draft or ARAM game.",
+    "options": [
+      "Yasuo",
+      "Ahri",
+      "Lux",
+      "Jinx",
+      "Lee Sin",
+      "Thresh",
+      "Garen",
+      "Teemo",
+      "Ezreal",
+      "Zed",
+      "Katarina",
+      "Akali",
+      "Master Yi",
+      "Darius",
+      "Ashe",
+      "Vayne",
+      "KaiSa",
+      "Ekko"
+    ],
+    "faqs": [
+      {
+        "q": "Does it support lanes?",
+        "a": "You can customize options to group champions by role (Top, Mid, Jungle, ADC, Support)."
+      }
+    ]
+  },
+  "/video-game-wheels/overwatch-2-characters": {
+    "route": "/video-game-wheels/overwatch-2-characters",
+    "type": "wheel",
+    "title": "Overwatch 2 Characters Wheel",
+    "metaDescription": "",
+    "h1": "Overwatch 2 Characters Wheel",
+    "description": "Select a random Tank, Damage, or Support hero for your next Overwatch match.",
+    "options": [
+      "Tracer",
+      "Reaper",
+      "Genji",
+      "Hanzo",
+      "Cassidy",
+      "Soldier: 76",
+      "Widowmaker",
+      "Pharah",
+      "Mei",
+      "Bastion",
+      "Junkrat",
+      "Sombra",
+      "Doomfist",
+      "D.Va",
+      "Winston",
+      "Reinhardt",
+      "Roadhog",
+      "Zarya",
+      "Mercy",
+      "Lucio",
+      "Ana",
+      "Kiriko",
+      "Lifeweaver",
+      "Illari",
+      "Juno"
+    ],
+    "faqs": [
+      {
+        "q": "Can I filter by role?",
+        "a": "Yes, just edit the list to contain only tanks, DPS, or supports."
+      }
+    ]
+  },
+  "/video-game-wheels": {
+    "route": "/video-game-wheels",
+    "type": "general",
+    "title": "Video Game Randomizer Wheels | GameWheelClub",
+    "metaDescription": "Spin to pick gaming setups, agents, champions, types, challenges, and play styles. Covers Valorant, LoL, Pokémon, Roblox, and Fortnite.",
+    "h1": "Video Game Wheels",
+    "description": "Spin to pick gaming setups, agents, champions, types, challenges, and play styles. Covers Valorant, LoL, Pokémon, Roblox, and Fortnite.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/pokemon-types": {
+    "route": "/video-game-wheels/pokemon-types",
+    "type": "wheel",
+    "title": "Pokemon Types Wheel",
+    "metaDescription": "",
+    "h1": "Pokemon Types Wheel",
+    "description": "Spin to select a random Pokémon type. Perfect for monotype challenge runs.",
+    "options": [
+      "Normal",
+      "Fire",
+      "Water",
+      "Grass",
+      "Electric",
+      "Ice",
+      "Fighting",
+      "Poison",
+      "Ground",
+      "Flying",
+      "Psychic",
+      "Bug",
+      "Rock",
+      "Ghost",
+      "Dragon",
+      "Steel",
+      "Dark",
+      "Fairy"
+    ],
+    "faqs": [
+      {
+        "q": "Are dual types supported?",
+        "a": "Spin the wheel twice to get a dual-typing combination."
+      }
+    ]
+  },
+  "/video-game-wheels/rainbow-six-operators": {
+    "route": "/video-game-wheels/rainbow-six-operators",
+    "type": "wheel",
+    "title": "Rainbow Six Operators Wheel",
+    "metaDescription": "",
+    "h1": "Rainbow Six Operators Wheel",
+    "description": "Spin to choose a random Attack or Defense operator in Siege.",
+    "options": [
+      "Sledge",
+      "Thatcher",
+      "Ash",
+      "Thermite",
+      "Twitch",
+      "Montagne",
+      "Glaz",
+      "Fuze",
+      "Blitz",
+      "IQ",
+      "Buck",
+      "Blackbeard",
+      "Capitao",
+      "Hibana",
+      "Smoke",
+      "Mute",
+      "Castle",
+      "Pulse",
+      "Doc",
+      "Rook",
+      "Kapkan",
+      "Tachanka",
+      "Jager",
+      "Bandit",
+      "Frost",
+      "Valkyrie",
+      "Caveira",
+      "Echo"
+    ],
+    "faqs": [
+      {
+        "q": "Does it separate Attack and Defense?",
+        "a": "You can remove defenders when on attack, or keep both for a full surprise."
+      }
+    ]
+  },
+  "/video-game-wheels/roblox-games": {
+    "route": "/video-game-wheels/roblox-games",
+    "type": "wheel",
+    "title": "Roblox Games Wheel",
+    "metaDescription": "",
+    "h1": "Roblox Games Wheel",
+    "description": "Spin to choose a fun Roblox game to play when you are bored.",
+    "options": [
+      "Adopt Me!",
+      "Blox Fruits",
+      "Brookhaven RP",
+      "Tower of Hell",
+      "Murder Mystery 2",
+      "Piggy",
+      "Royale High",
+      "Arsenal",
+      "Pet Simulator 99",
+      "BedWars"
+    ],
+    "faqs": [
+      {
+        "q": "How do I add my favorite games?",
+        "a": "Type the game titles in the option text box and hit update."
+      }
+    ]
+  },
+  "/video-game-wheels/smash-bros-characters": {
+    "route": "/video-game-wheels/smash-bros-characters",
+    "type": "wheel",
+    "title": "Smash Bros Characters Wheel",
+    "metaDescription": "",
+    "h1": "Smash Bros Characters Wheel",
+    "description": "Randomize your fighter for Super Smash Bros. Ultimate battles.",
+    "options": [
+      "Mario",
+      "Donkey Kong",
+      "Link",
+      "Samus",
+      "Yoshi",
+      "Kirby",
+      "Fox",
+      "Pikachu",
+      "Luigi",
+      "Ness",
+      "Captain Falcon",
+      "Jigglypuff",
+      "Peach",
+      "Bowser",
+      "Zelda",
+      "Sheik",
+      "Marth",
+      "Mewtwo",
+      "Sonic",
+      "Steve",
+      "Sephiroth",
+      "Sora"
+    ],
+    "faqs": [
+      {
+        "q": "Are all DLC characters supported?",
+        "a": "We include top DLC characters like Steve and Sora. You can add the rest manually."
+      }
+    ]
+  },
+  "/video-game-wheels/starter-pokemon": {
+    "route": "/video-game-wheels/starter-pokemon",
+    "type": "wheel",
+    "title": "Starter Pokemon Wheel",
+    "metaDescription": "",
+    "h1": "Starter Pokemon Wheel",
+    "description": "Pick a random starter Pokémon from Gen 1 to Gen 9 for your next challenge run.",
+    "options": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Chikorita",
+      "Cyndaquil",
+      "Totodile",
+      "Treecko",
+      "Torchic",
+      "Mudkip",
+      "Turtwig",
+      "Chimchar",
+      "Piplup",
+      "Snivy",
+      "Tepig",
+      "Oshawott",
+      "Chespin",
+      "Fennekin",
+      "Froakie",
+      "Rowlet",
+      "Litten",
+      "Popplio",
+      "Grookey",
+      "Scorbunny",
+      "Sobble",
+      "Sprigatito",
+      "Fuecoco",
+      "Quaxly"
+    ],
+    "faqs": [
+      {
+        "q": "Is Pikachu on the list?",
+        "a": "You can add Pikachu or Eevee manually if you are playing Yellow/Let's Go!"
+      }
+    ]
+  },
+  "/video-game-wheels/valorant-agents": {
+    "route": "/video-game-wheels/valorant-agents",
+    "type": "wheel",
+    "title": "Valorant Agents Wheel",
+    "metaDescription": "",
+    "h1": "Valorant Agents Wheel",
+    "description": "Spin to pick a random Valorant agent to play in your next match.",
+    "options": [
+      "Jett",
+      "Raze",
+      "Phoenix",
+      "Reyna",
+      "Yoru",
+      "Neon",
+      "Sage",
+      "Cypher",
+      "Killjoy",
+      "Chamber",
+      "Fade",
+      "Sova",
+      "Breach",
+      "Omen",
+      "Viper",
+      "Astra",
+      "Harbor",
+      "Gekko",
+      "Deadlock",
+      "Iso",
+      "Clove"
+    ],
+    "faqs": [
+      {
+        "q": "Is the agent list updated?",
+        "a": "Yes, we include recent agents. You can append new ones via the editor."
+      }
+    ]
+  },
+  "/wheel-of-names": {
+    "route": "/wheel-of-names",
+    "type": "wheel",
+    "title": "Random Name Picker Wheel | Spin the Wheel of Names",
+    "metaDescription": "Pick a random name out of a list. Perfect for teachers, raffles, games, and giveaways. Save names and spin to win instantly.",
+    "h1": "Random Name Picker Wheel",
+    "description": "Need to pick a student, choose a raffle winner, or select a random volunteer? Paste your list of names below and spin the wheel!",
+    "options": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "Dave",
+      "Eva",
+      "Frank",
+      "Grace"
+    ],
+    "faqs": []
+  },
+  "/yes-no-wheel": {
+    "route": "/yes-no-wheel",
+    "type": "wheel",
+    "title": "Yes or No Wheel | Spin for Instant Answers",
+    "metaDescription": "Spin the Yes or No wheel for instant, unbiased answers to any question. Free, interactive, and fast decision picker.",
+    "h1": "Yes or No Wheel Spinner",
+    "description": "Ask a question, spin the wheel, and get an instant, unbiased Yes or No answer!",
+    "options": [
+      "Yes",
+      "No",
+      "Yes",
+      "No",
+      "Yes",
+      "No"
+    ],
+    "faqs": []
+  }
+}

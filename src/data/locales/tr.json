@@ -1,0 +1,2498 @@
+{
+  "/about": {
+    "route": "/about",
+    "type": "general",
+    "title": "GameWheelClub Hakkında",
+    "metaDescription": "",
+    "h1": "GameWheelClub Hakkında",
+    "description": "Karar almayı eğlenceli, hızlı ve tamamen tarafsız hale getirmek.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/farm-animals-wheel": {
+    "route": "/animal-wheels/farm-animals-wheel",
+    "type": "wheel",
+    "title": "Çiftlik Hayvanları Çarkı",
+    "metaDescription": "",
+    "h1": "Çiftlik Hayvanları Çarkı",
+    "description": "Tipik çiftlik ve çiftlik hayvanlarını seçmek için döndürün. Küçük çocukların öğrenmesi için mükemmel.",
+    "options": [
+      "Süt İneği",
+      "Yünlü Koyun",
+      "Pembe Domuz",
+      "Dörtnala Giden At",
+      "Gıcırdayan Tavuk",
+      "Vakvak Ördek",
+      "Billy Keçi",
+      "Tüylü Lama",
+      "Çiftlik Köpeği"
+    ],
+    "faqs": [
+      {
+        "q": "Sesler dahil mi?",
+        "a": "Döndürücü temiz bir tik-tak sesi çalar, ekstra eğlence için hayvanın kendi sesini çıkarmasını sağlar!"
+      }
+    ]
+  },
+  "/animal-wheels": {
+    "route": "/animal-wheels",
+    "type": "general",
+    "title": "Hayvan ve Doğa Rastgele Seçici Çarklar | GameWheelClub",
+    "metaDescription": "Oyunlar, eğitim ve çizimler için rastgele hayvanları seçin. Hangi hayvan olduğunuzu keşfetmek veya çiftlik yaratıklarını seçmek için hayvan çarklarını döndürün.",
+    "h1": "Hayvanlar ve Doğa",
+    "description": "Oyunlar, eğitim ve çizimler için rastgele hayvanları seçin. Hangi hayvan olduğunuzu keşfetmek veya çiftlik yaratıklarını seçmek için hayvan çarklarını döndürün.",
+    "options": [],
+    "faqs": []
+  },
+  "/animal-wheels/random-animal-generator": {
+    "route": "/animal-wheels/random-animal-generator",
+    "type": "wheel",
+    "title": "Rastgele Hayvan Jeneratör Çarkı",
+    "metaDescription": "",
+    "h1": "Rastgele Hayvan Jeneratör Çarkı",
+    "description": "Rastgele bir vahşi hayvan elde etmek için döndürün. Görkemli kara ve deniz canavarlarıyla önceden yüklenmiştir.",
+    "options": [
+      "Aslan",
+      "Kaplan",
+      "Yunus",
+      "Fil",
+      "Kanguru",
+      "Panda",
+      "Penguen",
+      "Kurt",
+      "Boz Ayı",
+      "Şempanze",
+      "Kartal",
+      "Tembellik"
+    ],
+    "faqs": [
+      {
+        "q": "Böcek veya dinozor ekleyebilir miyim?",
+        "a": "Evet, seçeneklere böcekleri, kuşları veya tarih öncesi canavarları ekleyin."
+      }
+    ]
+  },
+  "/animal-wheels/what-animal-are-you": {
+    "route": "/animal-wheels/what-animal-are-you",
+    "type": "wheel",
+    "title": "Hangi Hayvansın Çark",
+    "metaDescription": "",
+    "h1": "Hangi Hayvansın Çark",
+    "description": "Bu eğlenceli ruh hayvanı çarkıyla ruhsal hayvan kişiliğinizi keşfedin.",
+    "options": [
+      "Bilge bir Baykuş",
+      "Sadık bir Golden Retriever",
+      "Oyuncu bir Kedi",
+      "Tembel bir Panda",
+      "Süzülen bir Kartal",
+      "Hızlı bir Çita",
+      "Sakin bir Deniz Kaplumbağası",
+      "Meşgul bir Arı",
+      "Cesur bir Aslan"
+    ],
+    "faqs": [
+      {
+        "q": "Bu bilime dayalı mı?",
+        "a": "Hayır, bu eğlence amaçlı tasarlanmış eğlenceli bir kişilik oyunudur."
+      }
+    ]
+  },
+  "/anime-fandom-wheels/aesthetics-wheel": {
+    "route": "/anime-fandom-wheels/aesthetics-wheel",
+    "type": "wheel",
+    "title": "Estetik Çarkı | Moda ve Oda Estetiği için Spin | GameWheelClub",
+    "metaDescription": "Cottagecore, Vaporwave veya Dark Academia gibi rastgele bir stil teması seçmek için Estetik Çarkını döndürün. Ücretsiz, etkileşimli stil seçici.",
+    "h1": "Estetik Çark Döndürücü",
+    "description": "Bundan sonra hangi moda havasını deneyeceğinizden veya odanızı nasıl dekore edeceğinizden emin değil misiniz? Rastgele estetik tarzınıza sahip olmak için çarkı döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-characters": {
+    "route": "/anime-fandom-wheels/anime-characters",
+    "type": "wheel",
+    "title": "Anime Karakterleri Çarkı | Döndürme Rastgele Anime Karakterleri | GameWheelClub",
+    "metaDescription": "DBZ, Naruto, One Piece, MHA ve Demon Slayer gibi en iyi serilerden popüler kahramanları ve kötü adamları rastgele seçmek için ücretsiz Anime Karakter Çarkı'nı döndürün.",
+    "h1": "Anime Karakter Çarkı",
+    "description": "_ Anime tartışmalarını halledin, karakter eşleşmelerini tasarlayın veya çarkı çevirerek bir sonraki avatarınızı seçin!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/anime-to-watch": {
+    "route": "/anime-fandom-wheels/anime-to-watch",
+    "type": "wheel",
+    "title": "İzlenecek Anime Çarkı | Rastgele Anime Oluşturucu | GameWheelClub",
+    "metaDescription": "İzlemek için Anime",
+    "h1": "Yapabilir miyim",
+    "description": "Geniş izleme listenizden bunaldınız mı? Çarkı çevirin ve kaderin bir sonraki anime dizinizi seçmesine izin verin!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/bfdi-contestants": {
+    "route": "/anime-fandom-wheels/bfdi-contestants",
+    "type": "wheel",
+    "title": "BFDI Yarışmacılar Çarkı | Dream Island Randomizer Savaşı | GameWheelClub",
+    "metaDescription": "Battle for Dream Island'dan karakterleri rastgele seçmek için BFDI Yarışmacı Çarkı'nı döndürün. Ücretsiz, etkileşimli ve özelleştirilebilir.",
+    "h1": "BFDI Yarışmacı Çarkı",
+    "description": "Battle for Dream Island web serisinden rastgele bir yarışmacı seçmek için döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/cartoon-characters": {
+    "route": "/anime-fandom-wheels/cartoon-characters",
+    "type": "wheel",
+    "title": "Çizgi Film Karakterleri Çarkı | Rastgele Karikatürler Döndür | GameWheelClub",
+    "metaDescription": "Klasik ve modern animasyon serilerinden rastgele bir simge seçmek için Çizgi Film Karakterleri Çarkını döndürün. Ücretsiz, eğlenceli ve özelleştirilebilir karakter seçici.",
+    "h1": "Çizgi Film Karakterleri Çarkı",
+    "description": "Nostaljik klasiklerden, Cartoon Network devlerinden ve Disney favorilerinden karakterler seçmek için döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world": {
+    "route": "/anime-fandom-wheels/dandys-world",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Dandy'yi Döndür",
+    "h1": "_ Dandy'nin Dünya Karakter Çarkı",
+    "description": "Bir sonraki Garden koşunuzda hangi çizgi filmi oynayacağınıza karar veremiyor musunuz? Seçiminizi rastgele hale getirmek için çarkı döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-oc-generator": {
+    "route": "/anime-fandom-wheels/dandys-world-oc-generator",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "_ Dandy'yi Döndürün",
+    "h1": "_ Dandy'nin Dünyası OC Jeneratör Çarkı",
+    "description": "_ Yaratıcılığınızı serbest bırakın! Orijinal Dandy's World çizgi filminize rastgele bir arketip, sınıf rolü veya tasarım kısıtlaması atamak için çarkı döndürün.",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dandys-world-trinkets": {
+    "route": "/anime-fandom-wheels/dandys-world-trinkets",
+    "type": "wheel",
+    "title": "Dandy",
+    "metaDescription": "Dandy'yi Döndürün",
+    "h1": "Dandy'nin Dünya Bibloları Çarkı",
+    "description": "Bir sonraki koşunuzda hangi bibloları donatacağınızdan emin değil misiniz? Ekipmanınızı rastgele hale getirmek için çarkı döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/demon-slayer-characters": {
+    "route": "/anime-fandom-wheels/demon-slayer-characters",
+    "type": "wheel",
+    "title": "İblis Avcısı Karakter Çarkı | Döndür Rastgele Şeytan Avcısı | GameWheelClub",
+    "metaDescription": "Kimetsu no Yaiba'dan rastgele bir karakter seçmek için Demon Slayer Karakter Çarkını döndürün. Hashira'yı, Avcıları veya Şeytanları anında seçin.",
+    "h1": "Demon Slayer Karakter Çarkı",
+    "description": "_ Ana Slayer'lar, elit Hashiralar ve Yukarı Ay Şeytanları dahil Kimetsu no Yaiba'dan karakterleri seçmek için döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/disney-movie-generator": {
+    "route": "/anime-fandom-wheels/disney-movie-generator",
+    "type": "wheel",
+    "title": "Disney Film Oluşturucu Çarkı | Rastgele Bir Film Döndürün | GameWheelClub",
+    "metaDescription": "Ailenizle geçireceğiniz bir sonraki film gecesi için rastgele bir klasik veya modern Disney/Pixar filmi seçmek üzere Disney Movie Generator Wheel'i döndürün. Ücretsiz ve etkileşimli.",
+    "h1": "Disney Movie Generator Wheel",
+    "description": "_ Hangi Disney klasiği veya Pixar şaheserini izleyeceğinizden emin değil misiniz? Çarkı döndürün ve seçmesine izin verin!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/dti-theme-wheel": {
+    "route": "/anime-fandom-wheels/dti-theme-wheel",
+    "type": "wheel",
+    "title": "Tema Çarkını Etkileyecek Elbise | DTI Rastgele Değerlendirici | GameWheelClub",
+    "metaDescription": "Bir sonraki Roblox defileniz için rastgele bir moda stili veya kıyafet mücadelesi seçmek üzere Etkilemek İçin Elbise (DTI) Tema Çarkını döndürün. Ücretsiz ve etkileşimli.",
+    "h1": "Etkilemek İçin Giydir (DTI) Tema Çarkı",
+    "description": "Standart pist kategorilerinden sıkıldınız mı? Bir sonraki modelleme seansınız için rastgele bir moda estetiği talep etmek için çarkı döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/fnaf-characters": {
+    "route": "/anime-fandom-wheels/fnaf-characters",
+    "type": "wheel",
+    "title": "FNAF Karakter Çarkı | Döndürme Rastgele Animatronik | GameWheelClub",
+    "metaDescription": "Five Nights at Freddy'den rastgele bir animatronik seçmek için FNAF Karakter Çarkı'nı döndürün",
+    "h1": "FNAF Karakterler Çarkı",
+    "description": "Scott Cawthon'un efsanevi korku serisinden rastgele bir animatronik seçmek için döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jjk-cursed-techniques": {
+    "route": "/anime-fandom-wheels/jjk-cursed-techniques",
+    "type": "wheel",
+    "title": "JJK Lanetli Teknikler Çarkı | Lanetli Teknikler için Döndürme | GameWheelClub",
+    "metaDescription": "Hangi Jujutsu Kaisen gücünü devralacağınızı rastgele seçmek için JJK Cursed Techniques Wheel'i döndürün. Ücretsiz, özelleştirilebilir ve eğlenceli.",
+    "h1": "JJK Lanetli Teknikler Çarkı",
+    "description": "Kanınızda hangi kalıtsal teknik dolaşıyor? Efsanevi JJK tekniğinizi kullanmak için çarkı çevirin!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/jujutsu-kaisen-characters": {
+    "route": "/anime-fandom-wheels/jujutsu-kaisen-characters",
+    "type": "wheel",
+    "title": "Jujutsu Kaisen Karakter Çarkı | Rastgele Döndür JJK Büyücü | GameWheelClub",
+    "metaDescription": "Büyücüleri, lanetli ruhları veya öğrenci karakterleri rastgele seçmek için Jujutsu Kaisen Karakter Çarkını döndürün. Ücretsiz ve etkileşimli JJK randomizer.",
+    "h1": "Jujutsu Kaisen Karakter Çarkı",
+    "description": "Tokyo Jujutsu Lisesi öğrencileri, elit Büyücüler ve Lanetli Ruhlar dahil olmak üzere JJK'den karakterleri seçmek için döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/marvel-superheroes": {
+    "route": "/anime-fandom-wheels/marvel-superheroes",
+    "type": "wheel",
+    "title": "Marvel Süper Kahramanlar Çarkı | Döndür Rastgele Yenilmezler | GameWheelClub",
+    "metaDescription": "Marvel Evreninden rastgele bir kahraman seçmek için Marvel Süper Kahramanlar Çarkını döndürün. Ücretsiz, özelleştirilebilir ve çizgi roman ve MCU hayranları için mükemmel.",
+    "h1": "Marvel Süper Kahramanlar Çarkı",
+    "description": "_ Geniş Marvel Evreninden rastgele bir İntikamcı, X-Men üyesi veya sokak düzeyinde bir kahraman seçin!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/mha-characters": {
+    "route": "/anime-fandom-wheels/mha-characters",
+    "type": "wheel",
+    "title": "MHA Karakter Çarkı | Rastgele Döndür My Hero Academia Karakterleri | GameWheelClub",
+    "metaDescription": "My Hero Academia'dan kahramanları ve kötü adamları rastgele seçmek için MHA Karakter Çarkını döndürün. Ücretsiz, özelleştirilebilir ve hızlı karakter seçici.",
+    "h1": "MHA Karakter Çarkı",
+    "description": "1. Sınıf kahramanlar ve Kötü Adamlar Birliği de dahil olmak üzere My Hero Academia'dan karakterleri seçmek için döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/naruto-characters": {
+    "route": "/anime-fandom-wheels/naruto-characters",
+    "type": "wheel",
+    "title": "Naruto Karakter Çarkı | Rastgele Döndür Naruto Ninja | GameWheelClub",
+    "metaDescription": "Konoha veya Akatsuki'den rastgele bir şinobi seçmek için Naruto Karakter Çarkı'nı döndürün. Ücretsiz, etkileşimli ninja seçici.",
+    "h1": "Naruto Karakter Çarkı",
+    "description": "Gizli Yaprak, Akatsuki veya tarihi şinobi klanlarından ninja seçmek için döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-characters": {
+    "route": "/anime-fandom-wheels/one-piece-characters",
+    "type": "wheel",
+    "title": "Tek Parça Karakter Çarkı | Döndür Rastgele Korsanlar | GameWheelClub",
+    "metaDescription": "Hasır Şapka mürettebatından, Yonko'dan veya Deniz Piyadelerinden rastgele bir korsan seçmek için Tek Parça Karakter Çarkını döndürün. Ücretsiz, hızlı ve özelleştirilebilir.",
+    "h1": "Tek Parça Karakter Çarkı",
+    "description": "_ Grand Line'da yelken açın ve Eiichiro Oda'nın başyapıtından rastgele bir karakter seçmek için çarkı döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels/one-piece-devil-fruits": {
+    "route": "/anime-fandom-wheels/one-piece-devil-fruits",
+    "type": "wheel",
+    "title": "Tek Parça Şeytan Meyvesi Çarkı | Şeytan Meyveleri için Çevirme | GameWheelClub",
+    "metaDescription": "Anime dünyasında hangi Şeytan Meyvesi gücünü miras alacağınızı rastgele seçmek için Tek Parça Şeytan Meyvesi Çarkı'nı döndürün. Ücretsiz ve özelleştirilebilir.",
+    "h1": "Tek Parça Şeytan Meyvesi Çarkı",
+    "description": "Hangi mistik meyveyi tüketeceksin? Efsanevi korsan gücünüze sahip olmak için çarkı çevirin!",
+    "options": [],
+    "faqs": []
+  },
+  "/anime-fandom-wheels": {
+    "route": "/anime-fandom-wheels",
+    "type": "general",
+    "title": "Anime ve Fandom Karakter Tekerlekleri | GameWheelClub",
+    "metaDescription": "19 ücretsiz fandom karar çarkını döndürün. Anime karakterlerini, Disney filmlerini, çizgi film simgelerini, FNAF animatroniklerini ve Tek Parça Şeytan Meyvelerini rastgele seçin.",
+    "h1": "Anime ve Fandom Wheels",
+    "description": "_ Önceden oluşturulmuş ön ayar seçeneklerimizi kullanarak bir sonraki izleme listenizi seçin, münazara eşleşmelerini belirleyin veya fandom karakterlerini rastgele seçin.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/best-icebreaker-games-for-work": {
+    "route": "/blog/best-icebreaker-games-for-work",
+    "type": "general",
+    "title": "İş İçin En İyi Buzkıran Oyunları: Kurumsal Ekip Bağını Güçlendirin",
+    "metaDescription": "Sabah senkronizasyonlarından mı korkuyorsunuz? Toplantılarınızı başlatmak için rastgele isim çarkları ve çarklar kullanan bu hızlı, enerjik kurumsal buz kırıcı oyunlara göz atın.",
+    "h1": "Utanç Duymayan Enerjik İşyeri Buz Kırıcıları",
+    "description": "Korkutucu kurumsal buz kırıcılar, modern rastlantısallıkla buluşuyor. Gerçek bağlantılar kuran yüksek enerjili etkinliklerle stand-up'lara ve hibrit toplantılara nasıl başlayacağınızı öğrenin.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/classroom-incentive-rewards": {
+    "route": "/blog/classroom-incentive-rewards",
+    "type": "general",
+    "title": "Sınıf Teşvik Ödülleri: Adil Motivasyon Sistemleri",
+    "metaDescription": "Altın yıldızları bir kenara bırakın! Öğrencileri motive etmek ve katılımı yüksek tutmak için dönen çarkları kullanarak etkileşimli, rastgele bir ödül sisteminin nasıl oluşturulacağını öğrenin.",
+    "h1": "Daha İyi Sınıf Teşvik Ödülleri Oluşturmak",
+    "description": "_ Statik davranış çizelgeleri ve çıkartmaları etkinliğini kaybediyor. Oyun dinamikleri ve rastgele ödül çarkları eklemenin öğrencileri nasıl motive ettiğini ve davranışlarını nasıl olumlu tuttuğunu keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-generators-help-coding": {
+    "route": "/blog/how-generators-help-coding",
+    "type": "general",
+    "title": "Rastgele Oluşturucular Kodlamaya Nasıl Yardımcı Olur: Geliştirici Testi ve Alay Etme",
+    "metaDescription": "Rastgele oluşturucuların yazılım geliştiricilere kod testi, sahte veri oluşturma, UI/UX simülasyonu ve oyun algoritması tasarımı konularında nasıl yardımcı olduğunu keşfedin.",
+    "h1": "Rastgele Oluşturucular Kodlamayı ve Test Etmeyi Nasıl Geliştirir",
+    "description": "_ Rastgelelik, sağlam programlamanın gizli sosudur. Geliştiricilerin dayanıklı sistemler oluşturmak, gerçek dünya trafiğini simüle etmek ve uç durumları test etmek için sözde rastgele oluşturucuları (PRNG'ler) nasıl kullandığını öğrenin.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/how-to-customize-spin-wheels": {
+    "route": "/blog/how-to-customize-spin-wheels",
+    "type": "general",
+    "title": "Döndürme Çarklarını Her Duruma Göre Özelleştirme",
+    "metaDescription": "Döndürme çarklarınızı sınıflara, partilere veya iş etkinliklerine uyacak şekilde özel renkler, etiketler, ağırlık dağılımı ve ses efektleriyle nasıl özelleştireceğinizi öğrenin.",
+    "h1": "Döndürme Çarklarını İhtiyaçlarınıza Göre Nasıl Özelleştirirsiniz",
+    "description": "Genel bir çark sıkıcı olabilir. Renkleri değiştirmenin, ağırlıkları ayarlamanın, ses efektlerini seçmenin ve tematik paletler oluşturmanın etkinliklerinizi, sınıflarınızı ve hediyelerinizi nasıl geliştirdiğini keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/math-activities-using-random-generators": {
+    "route": "/blog/math-activities-using-random-generators",
+    "type": "general",
+    "title": "Rastgele Üreteçleri Kullanan Matematik Etkinlikleri: İnteraktif Fikirler",
+    "metaDescription": "Matematiği interaktif hale getirin! Rastgele sayı üreteçlerini ve dijital zarları kullanan 6 ilgi çekici matematik aktivitesini, olasılık oyunlarını ve sayı alıştırmalarını keşfedin.",
+    "h1": "Rastgele Oluşturucular Kullanan Matematik Aktiviteleri ve Oyunlar",
+    "description": "Matematiğin seyircili bir spor olması gerekmez. Rastgele sayı üreteçlerini kullanarak aritmetik alıştırmaları, istatistikleri ve olasılık teorisini nasıl aktif, uygulamalı oyunlara dönüştürebileceğinizi keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog": {
+    "route": "/blog",
+    "type": "general",
+    "title": "GameWheelClub Blogu | Rastgele Kararlar, Oyunlar ve Eğitimle İlgili Bilgiler",
+    "metaDescription": "Rastgele karar verme, etkileşimli sınıf oyunu şablonları, zaman boksu teknikleri ve partideki buzları kıran etkinlikler hakkındaki en son makalelerimizi okuyun.",
+    "h1": "İçgörüler, Kılavuzlar ve Üretkenlik Tüyoları",
+    "description": "_ Sınıfları oyunlaştırma, yapılandırılmış zaman sınırlaması uygulama, sosyal parti oyunlarını organize etme ve karar vericileri oluşturma konusunda uzman ipuçlarını okuyun.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/party-games-for-adults": {
+    "route": "/blog/party-games-for-adults",
+    "type": "general",
+    "title": "Yetişkinler için Eğlenceli Parti Oyunları: İnteraktif ve Rastgele Fikirler",
+    "metaDescription": "Sıkıcı akşam yemeği sohbetlerinden kurtulun! Doğruluk mu Cesaret mi oyunları, zar oyunları ve trivia meydan okumaları da dahil olmak üzere yetişkinlere yönelik 8 etkileşimli ve rastgele parti oyununu keşfedin.",
+    "h1": "Yetişkinlere Yönelik Parti Oyunlarıyla Toplantılarınızın Seviyesini Yükseltin",
+    "description": "Standart masa oyunlarından veya garip sessiz duraklamalardan bıktınız mı? Unutulmaz bir oyun gecesine ev sahipliği yapmak için dijital dönen çarkları ve rastgele oluşturucuları nasıl entegre edeceğinizi öğrenin.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/pomodoro-technique-for-students": {
+    "route": "/blog/pomodoro-technique-for-students",
+    "type": "general",
+    "title": "Öğrenciler için Pomodoro Tekniği: Daha İyi Odaklanma Stratejisi",
+    "metaDescription": "Pomodoro Tekniğinin öğrencilerin odaklanmayı geliştirmelerine, ertelemeyi yenmelerine ve yapılandırılmış aralıklar ve molalarla çalışma süresini yönetmelerine nasıl yardımcı olduğunu öğrenin.",
+    "h1": "Pomodoro Tekniği: Meşgul Öğrenciler İçin Bir Kılavuz",
+    "description": "Her beş dakikada bir telefonunuzu kontrol etmeden sınavlara çalışmakta zorlanıyor musunuz? Yapılandırılmış çalışma aralıklarının odaklanmanıza, bilgileri korumanıza ve tükenmişliği azaltmanıza nasıl yardımcı olabileceğini öğrenin.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-for-decision-making": {
+    "route": "/blog/spin-wheels-for-decision-making",
+    "type": "general",
+    "title": "Karar Vermede Döndürme Çarkları: Karar Felcini Tedavi Edin",
+    "metaDescription": "Aşırı düşünmekle mücadele mi ediyorsunuz? Dönen çarkların ve rastgele seçim oluşturucuların karar almayı nasıl kolaylaştırdığını, bilişsel yükü nasıl ortadan kaldırdığını ve seçim yapmayı nasıl eğlenceli hale getirdiğini öğrenin.",
+    "h1": "Döndürme Çarkları Günlük Karar Felcini Nasıl Tedavi Ediyor",
+    "description": "Hiç hiçbir şey izlemeden yatmak için Netflix'te gezinerek 45 dakika harcadığınız oldu mu? Düşük riskli kararları rastgele bir çarka bırakmanın nihai üretkenlik hilesi olmasının nedeni budur.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/spin-wheels-in-modern-education": {
+    "route": "/blog/spin-wheels-in-modern-education",
+    "type": "general",
+    "title": "Modern Eğitimde Döndürme Çarkları: Sınıfları Oyunlaştırma",
+    "metaDescription": "Döndürme çarklarını kullanarak öğrenci katılımını artırın. Dijital dönen çarkları kullanarak aktif sınıf fikirlerini, oyunlaştırılmış sınav incelemelerini ve adil seçim yöntemlerini keşfedin.",
+    "h1": "Modern Eğitimde Döndürme Çarkları: Sınıfı Oyunlaştırma",
+    "description": "Basit, görsel bir ad seçici, öğrenci katılım oranlarını nasıl dönüştürüyor, sınav kaygısını nasıl azaltıyor ve K-12 ve yüksek öğrenimde kapsayıcı bir ortam oluşturuyor.",
+    "options": [],
+    "faqs": []
+  },
+  "/blog/time-boxing-to-prevent-burnout": {
+    "route": "/blog/time-boxing-to-prevent-burnout",
+    "type": "general",
+    "title": "Tükenmişliği Önlemek için Zaman Boksu: Günlük Program Stratejisi",
+    "metaDescription": "Zaman boksunun iş yüklerini yönetmeye, net iş-yaşam sınırları oluşturmaya ve yapılandırılmış zaman blokları aracılığıyla tükenmişliği önlemeye nasıl yardımcı olduğunu öğrenin.",
+    "h1": "Time Boxing Mesleki Tükenmişliği Nasıl Önler",
+    "description": "Çalışma saatleriniz akşamınıza mı karışıyor? Görevleriniz için zorlu zaman sınırları oluşturmanın sağlıklı sınırları nasıl yeniden oluşturabileceğini, çıktıyı nasıl artırabileceğini ve iç huzurunu nasıl yeniden sağlayabileceğini keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/age-spinner": {
+    "route": "/character-creator/age-spinner",
+    "type": "wheel",
+    "title": "Yaş Döndürücü",
+    "metaDescription": "_",
+    "h1": "Yaş Döndürücü",
+    "description": "Karakter yaşlarını ve gelişim aşamalarını rastgele seçin.",
+    "options": [
+      "Çocuk (5-10)",
+      "Ergenlik Öncesi (11-12)",
+      "Genç (13-17)",
+      "Genç Yetişkin (18-25)",
+      "Yetişkin (26-45)",
+      "Orta Yaşlı (46-60)",
+      "Yaşlı (60+)"
+    ],
+    "faqs": [
+      {
+        "q": "Belirli sayılar belirleyebilir miyim?",
+        "a": "Evet, ince ayar yapmak için \\\"21 yaş\\\" veya \\\"84 yaş\\\" gibi belirli yaşları yazın."
+      }
+    ]
+  },
+  "/character-creator/boy-or-girl-oc": {
+    "route": "/character-creator/boy-or-girl-oc",
+    "type": "wheel",
+    "title": "Erkek veya Kız OC Spinner",
+    "metaDescription": "",
+    "h1": "Erkek veya Kız OC Spinner",
+    "description": "Bir sonraki karakterinizin cinsiyet kimliğine karar vermekte takılıp kaldınız mı? Anında karar vermek için işaretçiyi döndürün.",
+    "options": [
+      "Erkek",
+      "_ Kız",
+      "İkili olmayan",
+      "Cinsiyet Akışkanı",
+      "Ajans"
+    ],
+    "faqs": [
+      {
+        "q": "Özel cinsiyet kimlikleri ekleyebilir miyim?",
+        "a": "Evet! Seçenekleri karakter dünyanıza uyacak şekilde eklemek, kaldırmak veya yeniden adlandırmak için düzenleyici panelini kullanmanız yeterlidir."
+      }
+    ]
+  },
+  "/character-creator/clothing-style": {
+    "route": "/character-creator/clothing-style",
+    "type": "wheel",
+    "title": "Giyim Stili Çarkı",
+    "metaDescription": "",
+    "h1": "_ Giyim Stili Çarkı",
+    "description": "Karakter yaratıcıları için moda fikirleri ve kıyafet estetiği edinin.",
+    "options": [
+      "Gündelik Sokak Stili",
+      "Viktorya Dönemi Gotik",
+      "Fütüristik Teknik Giyim",
+      "Geleneksel Kimono",
+      "Lise Üniforması",
+      "Resmi Smokin/Elbise",
+      "Cyberpunk Asi",
+      "Fantezi Zırh"
+    ],
+    "faqs": [
+      {
+        "q": "Stilleri nasıl birleştiririm?",
+        "a": "İki kez döndürün ve sonuçları Cyberpunk Victorian gibi birleştirin!"
+      }
+    ]
+  },
+  "/character-creator/create-an-oc": {
+    "route": "/character-creator/create-an-oc",
+    "type": "wheel",
+    "title": "Bir OC Çarkı Oluşturun",
+    "metaDescription": "",
+    "h1": "Bir OC Çarkı Oluşturun",
+    "description": "Bir sonraki orijinal karakteriniz için rastgele bir arka plan, ırk veya sınıf oluşturmak için bu çarkı döndürün.",
+    "options": [
+      "Savaşçı",
+      "Büyücü",
+      "Hırsız",
+      "Rahip",
+      "Elf",
+      "Cüce",
+      "Ork",
+      "Şeytan",
+      "Melek",
+      "Cyborg",
+      "Uzaylı"
+    ],
+    "faqs": [
+      {
+        "q": "Seçilen sınıfı/ırkı nasıl genişletebilirim?",
+        "a": "Bir arketip seçtikten sonra, tasarımın tamamını oluşturmak için saç, göz ve giyim stili çarklarını döndürün."
+      }
+    ]
+  },
+  "/character-creator/eye-color": {
+    "route": "/character-creator/eye-color",
+    "type": "wheel",
+    "title": "Göz Rengi Çarkı",
+    "metaDescription": "_",
+    "h1": "Göz Rengi Çarkı",
+    "description": "_ OC'niz için göz tonlarına ve fantastik iris stillerine anında karar verin.",
+    "options": [
+      "Okyanus Mavisi",
+      "Orman Yeşili",
+      "Kehribar Altın",
+      "Kızıl Kırmızı",
+      "Hazel",
+      "Koyu Kahverengi",
+      "Ametist Menekşe",
+      "Heterokromya (Mavi/Yeşil)",
+      "Saf Siyah"
+    ],
+    "faqs": [
+      {
+        "q": "Parlayan fantastik gözleri nasıl temsil ederim?",
+        "a": "Düzenleme panelindeki renklerden herhangi birine \\\"(Parlayan)\\\" ifadesini eklemeniz yeterlidir."
+      }
+    ]
+  },
+  "/character-creator/gacha-character-generator": {
+    "route": "/character-creator/gacha-character-generator",
+    "type": "wheel",
+    "title": "Gacha Karakter Oluşturma Çarkı",
+    "metaDescription": "",
+    "h1": "Gacha Karakter Oluşturma Çarkı",
+    "description": "Bir sonraki Gacha Life veya Gacha Club karakterinizi oluşturmak için temaları, estetiği ve moda konseptlerini şekillendirmek için döndürün.",
+    "options": [
+      "Tatlı Şeker Stili",
+      "Karanlık Gotik Stili",
+      "Steampunk Stili",
+      "Retro Cyberpunk",
+      "Pastel Yumuşak Kız",
+      "Sportif Şık",
+      "Kraliyet Şövalyesi"
+    ],
+    "faqs": [
+      {
+        "q": "Bu Gacha Club için işe yarar mı?",
+        "a": "Evet, bu istemler Gacha Life, Gacha Club ve genel avatar yaratıcılarına uygundur."
+      }
+    ]
+  },
+  "/character-creator/gender-randomizer": {
+    "route": "/character-creator/gender-randomizer",
+    "type": "wheel",
+    "title": "Cinsiyet Rastgeleleştirme Çarkı",
+    "metaDescription": "",
+    "h1": "_ Cinsiyet Rastgeleleştirme Çarkı",
+    "description": "Zamirleri, cinsiyet kimliklerini ve sunum stillerini rastgele hale getirin.",
+    "options": [
+      "Erkek",
+      "Kadın",
+      "İkili olmayan",
+      "Çift cinsiyetli",
+      "Cinsiyetçi",
+      "Yarı erkek",
+      "Yarı kız"
+    ],
+    "faqs": [
+      {
+        "q": "Zamirler önceden yüklenmiş mi?",
+        "a": "Seçenekler menüsünde cinsiyetlerin yanına özel zamirler yazabilirsiniz."
+      }
+    ]
+  },
+  "/character-creator/hair-color": {
+    "route": "/character-creator/hair-color",
+    "type": "wheel",
+    "title": "Saç Rengi Çarkı",
+    "metaDescription": "",
+    "h1": "Saç Rengi Çarkı",
+    "description": "Rastgele bir saç boyası veya OC saç rengi seçmek için döndürün. Doğal tonlar ve canlı neon boyalarla önceden yüklenmiştir.",
+    "options": [
+      "Kahverengi",
+      "Siyah",
+      "Sarışın",
+      "Zencefil",
+      "Platin Sarışın",
+      "Neon Yeşil",
+      "Pastel Pembe",
+      "Lila Mor",
+      "Camgöbeği Mavi",
+      "Koyu Kırmızı"
+    ],
+    "faqs": [
+      {
+        "q": "Çok renkli stiller ekleyebilir miyim?",
+        "a": "Özel sonuçlar için seçenekler listesine mutlaka \\\"Bölünmüş Boya (Pembe/Mavi)\\\" yazın."
+      }
+    ]
+  },
+  "/character-creator/hair-style": {
+    "route": "/character-creator/hair-style",
+    "type": "wheel",
+    "title": "Saç Stili Çarkı",
+    "metaDescription": "",
+    "h1": "Saç Stili Çarkı",
+    "description": "Karakter sayfaları, çizimler veya model tasarımları için rastgele bir saç modeli seçin.",
+    "options": [
+      "Kısa Pixie",
+      "Kıvırcık Bob",
+      "_ Uzun Dalgalar",
+      "Yandan Kesilmiş",
+      "İkiz Pigtailler",
+      "Yüksek At Kuyruğu",
+      "Dağınık Topuz",
+      "Dikenli Anime",
+      "Afro Puff",
+      "Dreadlocks"
+    ],
+    "faqs": [
+      {
+        "q": "Bu hem erkek hem de kadın karakterler için uygun mu?",
+        "a": "Evet, tüm stiller unisex olup her türlü OC modeline uygundur."
+      }
+    ]
+  },
+  "/character-creator/nationality-generator": {
+    "route": "/character-creator/nationality-generator",
+    "type": "wheel",
+    "title": "Uyruk Oluşturma Çarkı",
+    "metaDescription": "",
+    "h1": "_ Uyruk Oluşturma Çarkı",
+    "description": "Küresel karakterler için rastgele ulusal geçmişleri ve vatandaşlıkları seçin.",
+    "options": [
+      "Amerikalı",
+      "Japon",
+      "İngiliz",
+      "Brezilyalı",
+      "Fransız",
+      "Alman",
+      "Avustralyalı",
+      "Kanadalı",
+      "Güney Koreli",
+      "Hintli",
+      "Meksikalı",
+      "İspanyol"
+    ],
+    "faqs": [
+      {
+        "q": "Belirli bölgeler ekleyebilir miyim?",
+        "a": "Evet, şehirleri veya alt bölgeleri belirtmek için tekerlek listesini değiştirin."
+      }
+    ]
+  },
+  "/character-creator": {
+    "route": "/character-creator",
+    "type": "general",
+    "title": "Karakter Oluşturucu ve OC Tekerlek Oluşturucuları | GameWheelClub",
+    "metaDescription": "Rastgele karakterler, OC'ler ve avatarları anında tasarlayın. Saç stilleri, kıyafetler, gözler, cinsiyetler, ten tonları ve gacha fikirleri için döndürün.",
+    "h1": "Karakter Oluşturucu ve OC Wheels",
+    "description": "Rastgele karakterler, OC'ler ve avatarları anında tasarlayın. Saç stilleri, kıyafetler, gözler, cinsiyetler, ten tonları ve gacha fikirleri için döndürün.",
+    "options": [],
+    "faqs": []
+  },
+  "/character-creator/skin-tone": {
+    "route": "/character-creator/skin-tone",
+    "type": "wheel",
+    "title": "Cilt Tonu Çarkı",
+    "metaDescription": "",
+    "h1": "Cilt Tonu Çarkı",
+    "description": "Rastgele cilt tonlarını, alt tonları ve yaratık dokularını seçin.",
+    "options": [
+      "Açık Şeftali",
+      "Sıcak Bej",
+      "Altın Zeytin",
+      "Zengin Bronz",
+      "Derin Kakao",
+      "Kaymaktaşı Beyaz",
+      "Soluk Gri (Uzaylı/Ölümsüz)",
+      "Neon Mavi"
+    ],
+    "faqs": [
+      {
+        "q": "Palet ayarlanabilir mi?",
+        "a": "Evet, toplu metin alanındaki tüm onaltılı tonları veya adları özelleştirin."
+      }
+    ]
+  },
+  "/compare/best-random-picker-tools": {
+    "route": "/compare/best-random-picker-tools",
+    "type": "general",
+    "title": "GameWheelClub vs. İsim Çarkı vs. Çark Karar Veren vs. Küçük Kararlar | En İyi Rastgele Seçici Araçlar",
+    "metaDescription": "En iyi rastgele karar seçme araçlarına ilişkin kapsamlı, tarafsız karşılaştırmamızı okuyun: GameWheelClub, Wheel of Names, Wheel Decider ve Tiny Decisions. Sınıfınız, etkinliğiniz veya günlük seçimleriniz için en iyi döndürücüyü keşfedin.",
+    "h1": "Karşılaştırıldığında En İyi Rastgele Seçici Araçlar",
+    "description": "_ GameWheelClub, Wheel of Names, Wheel Decider ve Tiny Decisions arasında mı kaldınız? Size en uygun seçim çarkını bulmak için özellikleri, gizliliği, stili ve kullanıcı deneyimini analiz ediyoruz.",
+    "options": [],
+    "faqs": []
+  },
+  "/contact": {
+    "route": "/contact",
+    "type": "general",
+    "title": "Bize Ulaşın",
+    "metaDescription": "",
+    "h1": "Bize Ulaşın",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/arrow-spin": {
+    "route": "/creative-wheels/arrow-spin",
+    "type": "wheel",
+    "title": "Ok Döndürme Tekerleği",
+    "metaDescription": "",
+    "h1": "Ok Döndürme Tekerleği",
+    "description": "Rastgele bir ana veya sıra yönü seçmek için pusula işaretçisini döndürün.",
+    "options": [
+      "Kuzey ⬆️",
+      "Kuzeydoğu ↗️",
+      "Doğu ➡️",
+      "_ Güneydoğu ↘️",
+      "Güney ⬇️",
+      "Güneybatı ↙️",
+      "Batı ⬅️",
+      "Kuzeybatı ↖️"
+    ],
+    "faqs": [
+      {
+        "q": "Pusula görevi görür mü?",
+        "a": "Yönleri matematiksel olarak seçer ve rastgele bir yön kılavuzu görevi görür."
+      }
+    ]
+  },
+  "/creative-wheels/drawing-idea-wheel": {
+    "route": "/creative-wheels/drawing-idea-wheel",
+    "type": "wheel",
+    "title": "Çizim Fikir Çarkı",
+    "metaDescription": "_",
+    "h1": "Çizim Fikir Çarkı",
+    "description": "Bir sonraki çiziminiz için tuhaf, sevimli ve komik istemler oluşturun.",
+    "options": [
+      "Sihirbaz şapkası takan bir kedi",
+      "Fütüristik bir siberpunk kafe",
+      "Uzayda yüzen bir ağaç ev",
+      "Kaplumbağaya binen bir ortaçağ şövalyesi",
+      "Kurabiye pişiren sevimli bir ejderha",
+      "Steampunk robot bir çiçekçi"
+    ],
+    "faqs": [
+      {
+        "q": "Hızlı çizim zorluklarına iyi gelir mi?",
+        "a": "Evet, bir istem döndürün ve 5 dakikalık bir zamanlayıcı ayarlayın!"
+      }
+    ]
+  },
+  "/creative-wheels/movie-picker": {
+    "route": "/creative-wheels/movie-picker",
+    "type": "wheel",
+    "title": "Film Seçme Çarkı",
+    "metaDescription": "_",
+    "h1": "_ Film Seçme Çarkı",
+    "description": "_ Film türlerini değiştirerek bu gece ne izleyeceğinize karar verin.",
+    "options": [
+      "Aksiyon Gişe Rekortmeni",
+      "Bilim Kurgu Gerilim",
+      "Komedi Gecesi",
+      "Romantik Dram",
+      "Ürkütücü Korku",
+      "Akıl almaz Gizem",
+      "Tarihi Destan",
+      "Animasyonlu Klasik",
+      "Bağımsız Başyapıt"
+    ],
+    "faqs": [
+      {
+        "q": "Belirli film başlıkları ekleyebilir miyim?",
+        "a": "Evet! Düzenleyicide türleri gerçek izleme listesi adlarınızla değiştirin."
+      }
+    ]
+  },
+  "/creative-wheels/music-genre-wheel": {
+    "route": "/creative-wheels/music-genre-wheel",
+    "type": "wheel",
+    "title": "Müzik Türü Çarkı",
+    "metaDescription": "_",
+    "h1": "_ Müzik Türü Çarkı",
+    "description": "_ Çalınacak veya araştırılacak müzik tarzını seçmek için döndürün.",
+    "options": [
+      "Synthwave / Lo-Fi",
+      "Klasik Rock & Roll",
+      "90'lar Hip Hop",
+      "Neo-Klasik Piyano",
+      "Modern Pop",
+      "Pürüzsüz Caz",
+      "Bağımsız Folk ve Akustik",
+      "Heavy Metal / Hard Rock",
+      "Elektronik Dans Müziği"
+    ],
+    "faqs": [
+      {
+        "q": "Belirli sanatçıları ekleyebilir miyim?",
+        "a": "Evet, en sevdiğiniz şarkıcıları veya grupları düzenleyiciye girin."
+      }
+    ]
+  },
+  "/creative-wheels": {
+    "route": "/creative-wheels",
+    "type": "general",
+    "title": "Yaratıcı ve Eğlence Karar Çarkları | GameWheelClub",
+    "metaDescription": "_ Yaratıcı ilhamın kilidini anında açın. Bir film türü veya seçici seçmek, rastgele çizim fikirleri almak, ok işaretçisini döndürmek veya TBR kitap istemlerini almak için döndürün.",
+    "h1": "Yaratıcılık ve Eğlence",
+    "description": "Yaratıcı ilhamın kilidini anında açın. Bir film türü veya seçici seçmek, rastgele çizim fikirleri almak, ok işaretçisini döndürmek veya TBR kitap istemlerini almak için döndürün.",
+    "options": [],
+    "faqs": []
+  },
+  "/creative-wheels/tbr-prompts": {
+    "route": "/creative-wheels/tbr-prompts",
+    "type": "wheel",
+    "title": "TBR Uyarı Çarkı",
+    "metaDescription": "",
+    "h1": "TBR Uyarı Çarkı",
+    "description": "Okunacak (TBR) istemlerini kullanarak bir sonraki kitap okuma seçiminizi seçin.",
+    "options": [
+      "Mavi kapaklı bir kitap",
+      "Bir arkadaşınızın tavsiye ettiği bir kitap",
+      "1 yıldan fazladır rafınızda duran bir kitap",
+      "Gerilim veya gizem",
+      "Kadın yazarın kitabı",
+      "İçinde hayvan olan bir kitap"
+    ],
+    "faqs": [
+      {
+        "q": "Goodreads listelerini destekliyor mu?",
+        "a": "Kişiselleştirilmiş seçimler için başlıkları doğrudan okuma listenizden kopyalayıp yapıştırın."
+      }
+    ]
+  },
+  "/decision-wheel": {
+    "route": "/decision-wheel",
+    "type": "wheel",
+    "title": "Rastgele Karar Çarkı | Seçim Çarkını Döndürün",
+    "metaDescription": "Özel seçimlerinizi girin, karar çarkını döndürün ve seçenekleri anında çözün. Tamamen ücretsiz, özelleştirilebilir ve tarafsız seçim yapıcı.",
+    "h1": "Rastgele Karar Çarkı",
+    "description": "Akşam yemeği seçenekleri, tatil yerleri veya iş projeleri arasında seçim yapamıyor musunuz? Dilimleri özelleştirin ve döndürün!",
+    "options": [
+      "Evet",
+      "Hayır",
+      "Belki",
+      "Bir Arkadaşınıza Sor",
+      "Tekrar Döndürün",
+      "Üzerinde Uyuyın"
+    ],
+    "faqs": []
+  },
+  "/dice-roller": {
+    "route": "/dice-roller",
+    "type": "dice-roller",
+    "title": "Zar Silindiri | Çevrimiçi Sanal Zar Atın",
+    "metaDescription": "_ Anında 1, 2 veya 3 sanal zar atın. Masa oyunları, istatistikler, olasılık dersleri ve rastgele kararlar için mükemmeldir.",
+    "h1": "Sanal Zar Atma",
+    "description": "Masa oyunu zarlarınızı mı kaybettiniz? Gerçekçi nokta düzenleri ve animasyonlarla üç adede kadar sanal zar atın.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/bulk-edit": {
+    "route": "/features/bulk-edit",
+    "type": "general",
+    "title": "Toplu Düzenleme ve Liste İçe Aktarma | GameWheelClub Araçları",
+    "metaDescription": "Binlerce öğeyi anında nasıl içe aktaracağınızı ve düzenleyeceğinizi öğrenin. GameWheelClub'u çalıştıran dize ayrıştırma, CSV uyumluluğu ve liste temizleme motorlarını keşfedin",
+    "h1": "Toplu Düzenleme ve Liste İçe Aktarma: Büyük Veri Kümelerini Yönetme",
+    "description": "Manuel giriş yavaştır. GameWheelClub'ın Excel'den, Google E-Tablolardan veya düz metinden yüzlerce liste girişini tek bir saniyede yapıştırmanıza, biçimlendirmenize ve temizlemenize nasıl olanak tanıdığını keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/custom-colors": {
+    "route": "/features/custom-colors",
+    "type": "general",
+    "title": "Özel Renkler ve Neobrutalist Temalar | GameWheelClub",
+    "metaDescription": "_ Karar çarklarınızın renklerini, tipografisini ve stilini özelleştirin. Neobrutalist tasarımların, erişilebilir kontrastın ve CSS paletlerinin GameWheelClub görsel araçlarına nasıl güç verdiğini öğrenin.",
+    "h1": "Özel Renkler ve Neobrutalist Temalar: Kararlarınızı Şekillendirin",
+    "description": "Yaratıcılığınızı serbest bırakın. Özel renkler ayarlayın, retro ön ayarları uygulayın ve öğretmenler, sunum yapan kişiler ve oyuncular için tasarlanmış erişilebilir yüksek kontrastlı temalardan yararlanın.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/elimination-mode": {
+    "route": "/features/elimination-mode",
+    "type": "general",
+    "title": "Eliminasyon Modu | Kapsamlı Seçim Seçimi | GameWheelClub",
+    "metaDescription": "_ Eliminasyon Modunun, her dönüşte kazananları eleyerek standart karar çarklarını etkileşimli çekiliş sistemlerine ve sıralı çizim tahtalarına nasıl dönüştürdüğünü öğrenin.",
+    "h1": "Eleme Modu: Kapsamlı Kazanan Seçiminin Fiziği",
+    "description": "Tekrarlananları eleyin, birden fazla farklı kazanan seçin veya dinamik dilim kaldırma mantığımızı kullanarak çok sayıda seçenek listesini daraltın.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/local-storage": {
+    "route": "/features/local-storage",
+    "type": "general",
+    "title": "Yerel Depolama ve Veri Gizliliği | GameWheelClub Özellikleri",
+    "metaDescription": "GameWheelClub'un tekerleklerinizi, adlarınızı ve şablonlarınızı çevrimdışına kaydetmek için yerel tarayıcı localStorage'ı nasıl kullandığını öğrenin. Sıfır sunucu veri gizliliği mimarimiz hakkında bilgi edinin.",
+    "h1": "Yerel Depolama ve Çevrimdışı Öncelikli Tasarım: Gizlilik Öncelikli Mimari",
+    "description": "Listeleriniz, seçenekleriniz ve çarklarınız yalnızca size aittir. Sıfır gecikmeli yükleme ve eksiksiz çevrimdışı işlevsellik sağlayarak yapılandırma verilerini doğrudan tarayıcınızda nasıl sakladığımızı keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/sound-effects": {
+    "route": "/features/sound-effects",
+    "type": "general",
+    "title": "Ses Ses Efektleri ve Sentezleyiciler | GameWheelClub",
+    "metaDescription": "Prosedürel ses oluşturma ve tarayıcı Web Sesi API'sinin GameWheelClub araçları için nasıl yüksek kaliteli, etkileşimli ve duyarlı retro ses efektleri oluşturduğunu öğrenin.",
+    "h1": "Ses Efektleri: Prosedürel Web Sesi Teknolojisi",
+    "description": "_ Mekanik tekerlekleri taklit eden keyifli, dokunsal tıklama ve tantana sesleri oluşturmak için saf matematik ve tarayıcıya özgü sentez oluşturucuları nasıl kullandığımızı keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/features/weighted-wheel": {
+    "route": "/features/weighted-wheel",
+    "type": "general",
+    "title": "Ağırlıklı Karar Çarkları | Olasılığa Dayalı Eğirme Makineleri | GameWheelClub",
+    "metaDescription": "_ Ağırlıklı karar çarklarının matematiğini ve mantığını keşfedin. Olasılık dağılımının, kümülatif ağırlıkların ve rulet seçiminin özel seçim çarklarını nasıl güçlendirdiğini öğrenin.",
+    "h1": "Ağırlıklı Karar Çarkları: Özel Olasılığın Matematiği ve Mantığı",
+    "description": "Tüm seçimler eşit yaratılmamıştır. GameWheelClub'un, şans dengesini kesin matematiksel hassasiyetle değiştirerek öğelere belirli ağırlık değerleri atamanıza nasıl olanak tanıdığını keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/flip-a-coin": {
+    "route": "/flip-a-coin",
+    "type": "flip-a-coin",
+    "title": "Yazı tura çevirin | Çevrimiçi Yazı veya Tura Oluşturucu",
+    "metaDescription": "Çevrimiçi olarak sanal para çevirin. 3D'den ilham alan animasyonlara sahip basit, anlık tura veya yazı karar oluşturucu.",
+    "h1": "Çevrimiçi Yazı-tura Çevirme",
+    "description": "Basit bir tartışmayı çözemiyor musunuz? Sanal bir yazı tura atın ve olasılığın anında yazı veya tura karar vermesine izin verin!",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/dessert": {
+    "route": "/food-wheels/dessert",
+    "type": "wheel",
+    "title": "Tatlı Çarkı",
+    "metaDescription": "",
+    "h1": "Tatlı Çarkı",
+    "description": "Tatlı bir ikram fikri için döndürün. Kekleri, turtaları ve pişmiş kurabiyeleri kapsar.",
+    "options": [
+      "Çikolatalı Kek",
+      "Vanilyalı Dondurma",
+      "Sıcak Elmalı Turta",
+      "Taze Fırından Çikolatalı Kurabiye",
+      "Çilekli Cheesecake",
+      "Sırlanmış Donutlar",
+      "Crème Brûlée",
+      "Brownie Sundae"
+    ],
+    "faqs": [
+      {
+        "q": "Bu tarifler mi?",
+        "a": "Bunlar bir sonraki pişirme veya sipariş kararınıza ilham verecek tatlı tatlı kategorileridir."
+      }
+    ]
+  },
+  "/food-wheels/fast-food-restaurants": {
+    "route": "/food-wheels/fast-food-restaurants",
+    "type": "wheel",
+    "title": "Fast Food Restoran Çarkı",
+    "metaDescription": "",
+    "h1": "Fast Food Restoran Çarkı",
+    "description": "_ Hızlı bir öğle yemeği için popüler fast-food zincirleri arasında seçim yapmak için dönün.",
+    "options": [
+      "McDonalds",
+      "Burger King",
+      "Wendys",
+      "Subway",
+      "Taco Bell",
+      "KFC",
+      "Popeyes",
+      "Chick-fil-A",
+      "Dominos",
+      "Pizza Hut",
+      "Starbucks",
+      "Dunkin"
+    ],
+    "faqs": [
+      {
+        "q": "Yakındaki mağazalara göre özelleştirebilir miyim?",
+        "a": "Evet, şehrinizde bulunmayan zincirleri kaldırın."
+      }
+    ]
+  },
+  "/food-wheels/fruit": {
+    "route": "/food-wheels/fruit",
+    "type": "wheel",
+    "title": "Meyve Çarkı",
+    "metaDescription": "_",
+    "h1": "Meyve Çarkı",
+    "description": "Yemek için sağlıklı bir meyve parçası seçmek için döndürün.",
+    "options": [
+      "Kırmızı Elma",
+      "Muz",
+      "Tatlı Çilek",
+      "Sulu Portakal",
+      "Yaban Mersini",
+      "Yeşil Üzüm",
+      "Karpuz Dilim",
+      "Taze Ananas",
+      "Şeftali",
+      "Mango"
+    ],
+    "faqs": [
+      {
+        "q": "Tropikal meyveler ekleyebilir miyim?",
+        "a": "Evet! Seçeneklere yusufçuk, kivi veya papaya ekleyin."
+      }
+    ]
+  },
+  "/food-wheels": {
+    "route": "/food-wheels",
+    "type": "general",
+    "title": "Yiyecek Karar Verici ve Yemek Çarkı Döndürücüler | GameWheelClub",
+    "metaDescription": "Can",
+    "h1": "Food Wheels",
+    "description": "Öğle yemeği, akşam yemeği veya atıştırmalıklar konusunda anlaşamıyor musunuz? Rastgele bir restoran türü, fast food zinciri, tatlı tatlı veya sağlıklı atıştırmalık seçmek için Yemek Çarklarını döndürün.",
+    "options": [],
+    "faqs": []
+  },
+  "/food-wheels/snacks": {
+    "route": "/food-wheels/snacks",
+    "type": "wheel",
+    "title": "Atıştırmalık Çarkı",
+    "metaDescription": "",
+    "h1": "Atıştırmalık Çarkı",
+    "description": "Rastgele sağlıklı bir atıştırmalık veya tuzlu cips paketi seçin.",
+    "options": [
+      "Patates Cipsi",
+      "Çikolata",
+      "Fıstık Ezmeli Elma Dilimleri",
+      "Karışık Kuruyemiş",
+      "Yunan Yoğurt",
+      "Patlamış Mısır",
+      "Kraker",
+      "Peynirli Çubuk",
+      "Granola Bar"
+    ],
+    "faqs": [
+      {
+        "q": "Diyet kısıtlamaları ekleyebilir miyim?",
+        "a": "Evet, menüye keto, vegan veya glutensiz atıştırmalıklar ekleyin."
+      }
+    ]
+  },
+  "/food-wheels/what-to-eat": {
+    "route": "/food-wheels/what-to-eat",
+    "type": "wheel",
+    "title": "Çark Ne Yenir",
+    "metaDescription": "",
+    "h1": "Çark Ne Yenir",
+    "description": "_ Rastgele bir yemek mutfağı seçerek akşam yemeği tartışmasını anında çözün.",
+    "options": [
+      "Pizza",
+      "Tacos ve Meksika",
+      "Burgerler ve Patates Kızartması",
+      "Suşi ve Japon",
+      "Makarna ve İtalyan",
+      "Thai Curry",
+      "Indian Masala",
+      "Sağlıklı Salata",
+      "Sandviçler ve Şarküteri"
+    ],
+    "faqs": [
+      {
+        "q": "Yerel restoranlar ekleyebilir miyim?",
+        "a": "Evet! Özel düzenleyicide genel mutfakları yerel mekanlarınızla değiştirin."
+      }
+    ]
+  },
+  "/for-business": {
+    "route": "/for-business",
+    "type": "general",
+    "title": "İşletmeler için Rastgele Karar Araçları | GameWheelClub",
+    "metaDescription": "Randomize ediciler ve zamanlayıcılarla toplantıları ve ekip etkileşimlerini geliştirin. Sunum yapan kişinin sırasını belirleyin, görevleri taslak haline getirin ve ev sahibi ekibin buz kırıcılarını belirleyin.",
+    "h1": "İşletmeler için Rastgele Seçim Araçları",
+    "description": "_ Ekip toplantısı düzenini belirleyin, görevlerin taslağını çıkarın, sprint bloklarını yönetin ve hızlı dijital yardımcı programlarla buzları eritin.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-events": {
+    "route": "/for-events",
+    "type": "general",
+    "title": "Etkinlikler ve Partiler için Rastgele Seçim Araçları | GameWheelClub",
+    "metaDescription": "Unutulmaz partilere, hediyelere ve sosyal etkinliklere ev sahipliği yapın. Grup oyunlarını çözün, çekilişi kazananlar için çevirin ve bilgi konularını anında seçin.",
+    "h1": "Etkinlikler için Rastgele Seçim Araçları",
+    "description": "_ Önceden oluşturulmuş etkinlik seçicilerle bir sonraki partinize, sosyal buluşmanıza veya çevrimiçi çekilişinize heyecan ve enerji katın.",
+    "options": [],
+    "faqs": []
+  },
+  "/for-teachers": {
+    "route": "/for-teachers",
+    "type": "general",
+    "title": "Öğretmenler için Rastgele Karar Araçları | GameWheelClub",
+    "metaDescription": "_ Sınıf yönetimi için ücretsiz dönen çarkları ve zamanlayıcı araçlarını keşfedin. Rastgele öğrencileri seçin, konuları seçin ve ayrıcalıkları adil bir şekilde ödüllendirin.",
+    "h1": "Öğretmenler için Rastgele Seçim Araçları",
+    "description": "Derslerinizi oyunlaştırın ve katılımı %100 adil hale getirin. Gönüllüleri seçmek, grup ekipleri atamak ve ders konularını seçmek için rastgele çarkları döndürün.",
+    "options": [],
+    "faqs": []
+  },
+  "/games": {
+    "route": "/games",
+    "type": "general",
+    "title": "Rastgele Seçim Oyun Tekerlekleri Merkezi | GameWheelClub",
+    "metaDescription": "Eğlenceli, etkileşimli ve önceden oluşturulmuş rastgele oyun çarklarını keşfedin. Ekip taslaklarını, fandom tartışmalarını, karakter oluşturmayı ve parti zorluklarını anında çözün.",
+    "h1": "Rastgeleleştirici Oyun Tekerlekleri",
+    "description": "_ Spor, oyun taslak simülatörleri, fandomlar, parti buz kırıcıları ve yaratıcı rastgeleleştiriciler için tasarlanmış etkileşimli önceden ayarlanmış tekerlekler.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/alphabet-wheel": {
+    "route": "/generators/alphabet-wheel",
+    "type": "wheel",
+    "title": "Alfabe Çarkı Döndürücü",
+    "metaDescription": "",
+    "h1": "_ Alfabe Çarkı Döndürücü",
+    "description": "A'dan Z'ye rastgele bir harf seçmek için döndürün.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "faqs": [
+      {
+        "q": "Yabancı karakterler içeriyor mu?",
+        "a": "Özel menüye aksanlar (É, Ö, Ñ gibi) ekleyebilirsiniz."
+      }
+    ]
+  },
+  "/generators/color-wheel": {
+    "route": "/generators/color-wheel",
+    "type": "wheel",
+    "title": "Renk Tekerleği Döndürücü",
+    "metaDescription": "",
+    "h1": "Renk Tekerleği Döndürücü",
+    "description": "Tasarımlar veya seçimler için rastgele bir altıgen renk kodu seçmek üzere döndürün.",
+    "options": [
+      "Kırmızı (#EF4444)",
+      "Mavi (#3B82F6)",
+      "Yeşil (#10B981)",
+      "Sarı (#F59E0B)",
+      "Mor (#8B5CF6)",
+      "Pembe (#EC4899)",
+      "Turuncu (#F97316)",
+      "Deniz mavisi (#14B8A6)"
+    ],
+    "faqs": [
+      {
+        "q": "Renkler CSS uyumlu mu?",
+        "a": "Evet, onaltılık değerler renk adlarının yanında listelenir."
+      }
+    ]
+  },
+  "/generators/number-wheel": {
+    "route": "/generators/number-wheel",
+    "type": "wheel",
+    "title": "Sayı Çarkı Döndürücü",
+    "metaDescription": "",
+    "h1": "Sayı Çarkı Döndürücü",
+    "description": "Yapılandırılabilir sayı aralığı çarkı. Standart rastgele sayı döndürücü varyantlarının yerini alır.",
+    "options": [],
+    "faqs": [
+      {
+        "q": "Menzil ne kadar yükseğe çıkabilir?",
+        "a": "Bunu 100'e veya daha yükseğe ayarlayabilirsiniz, ancak 50'nin altındaki sayılar ekranda en iyi şekilde görüntülenir."
+      }
+    ]
+  },
+  "/generators": {
+    "route": "/generators",
+    "type": "general",
+    "title": "Rastgele Jeneratör Çarkları ve Matematik Seçiciler | GameWheelClub",
+    "metaDescription": "Saf matematiksel ve faydalı karar oluşturucuları döndürün. Özelleştirilebilir sayı çarkını, altıgen renk oluşturucuyu, yüzde çarkını ve alfabe döndürücüyü içerir.",
+    "h1": "Rastgele Oluşturucular",
+    "description": "Saf matematiksel ve faydalı karar oluşturucuları döndürün. Özelleştirilebilir sayı çarkını, altıgen renk oluşturucuyu, yüzde çarkını ve alfabe döndürücüyü içerir.",
+    "options": [],
+    "faqs": []
+  },
+  "/generators/percent-wheel": {
+    "route": "/generators/percent-wheel",
+    "type": "wheel",
+    "title": "Yüzde Çark Döndürücü",
+    "metaDescription": "",
+    "h1": "Yüzde Çark Döndürücü",
+    "description": "%10 ile %100 arasında rastgele bir yüzde değeri elde etmek için döndürün.",
+    "options": [
+      "%10",
+      "%20",
+      "%30",
+      "%40",
+      "%50",
+      "%60",
+      "%70",
+      "%80",
+      "%95",
+      "%100"
+    ],
+    "faqs": [
+      {
+        "q": "Daha küçük adımlar ekleyebilir miyim?",
+        "a": "Evet, düzenleyiciye \\\"%1\\\", \\\"%5\\\" veya \\\"%99\\\" gibi adımlar ekleyin."
+      }
+    ]
+  },
+  "/generators/periodic-table-picker": {
+    "route": "/generators/periodic-table-picker",
+    "type": "wheel",
+    "title": "Periyodik Tablo Seçici",
+    "metaDescription": "",
+    "h1": "Periyodik Tablo Seçici",
+    "description": "Periyodik tablodan rastgele bir kimyasal element seçmek için döndürün.",
+    "options": [
+      "Hidrojen (H)",
+      "Helyum (He)",
+      "Lityum (Li)",
+      "Berilyum (Be)",
+      "Bor (B)",
+      "Karbon (C)",
+      "Azot (N)",
+      "Oksijen (O)",
+      "Flor (F)",
+      "Neon (Ne)",
+      "Sodyum (Na)",
+      "Magnezyum (Mg)"
+    ],
+    "faqs": [
+      {
+        "q": "Soy gazlar dahil mi?",
+        "a": "Evet, helyum ve neon dahildir. Gerektiğinde daha fazla ağır element ekleyin."
+      }
+    ]
+  },
+  "/geography-wheels/64-country-roulette": {
+    "route": "/geography-wheels/64-country-roulette",
+    "type": "wheel",
+    "title": "64 Ülke Ruleti",
+    "metaDescription": "",
+    "h1": "64 Ülke Ruleti",
+    "description": "Oyun mücadeleleri ve eşleşmeler için en iyi 64 ülkeli rulet çarkı.",
+    "options": [
+      "ABD",
+      "Kanada",
+      "Meksika",
+      "Brezilya",
+      "Arjantin",
+      "İngiltere",
+      "Fransa",
+      "Almanya",
+      "İtalya",
+      "İspanya",
+      "Rusya",
+      "Mısır",
+      "Güney Afrika",
+      "Nijerya",
+      "Kenya",
+      "Hindistan",
+      "Çin",
+      "Japonya",
+      "Güney Kore",
+      "Avustralya",
+      "Yeni Zelanda",
+      "Suudi Arabistan",
+      "Türkiye",
+      "Yunanistan",
+      "İsveç",
+      "Norveç",
+      "Hollanda",
+      "İsviçre",
+      "Polonya",
+      "Ukrayna",
+      "Vietnam",
+      "Tayland",
+      "Endonezya",
+      "Filipinler",
+      "Kolombiya",
+      "Peru",
+      "Şili",
+      "Venezüella",
+      "Fas",
+      "Gana",
+      "Etiyopya",
+      "Pakistan",
+      "Bangladeş",
+      "İran",
+      "Irak",
+      "İsrail",
+      "Singapur",
+      "Malezya",
+      "Yeni Zelanda",
+      "Portekiz",
+      "Avusturya",
+      "Danimarka",
+      "Finlandiya",
+      "İrlanda",
+      "Belçika",
+      "Çekya",
+      "Macaristan",
+      "Romanya",
+      "Küba",
+      "Jamaika",
+      "Kosta Rika",
+      "Panama",
+      "Ekvador",
+      "Bolivya"
+    ],
+    "faqs": [
+      {
+        "q": "64 dilim okumak zor mu?",
+        "a": "Temiz bir şekilde dönüyor! Nihai sonucu tekrar kontrol etmek için liste görünümlerini değiştirebilirsiniz."
+      }
+    ]
+  },
+  "/geography-wheels/country-wheel": {
+    "route": "/geography-wheels/country-wheel",
+    "type": "wheel",
+    "title": "Country Wheel Spinner",
+    "metaDescription": "",
+    "h1": "_ Country Wheel Spinner",
+    "description": "Bilgiler, oyun bölgeleri veya projeler için dünya çapında rastgele bir ülke seçin.",
+    "options": [
+      "Amerika Birleşik Devletleri",
+      "Japonya",
+      "Brezilya",
+      "Almanya",
+      "Avustralya",
+      "Kanada",
+      "Hindistan",
+      "Güney Afrika",
+      "Birleşik Krallık",
+      "Fransa",
+      "İtalya",
+      "Çin",
+      "Mısır",
+      "Meksika",
+      "Rusya",
+      "Arjantin"
+    ],
+    "faqs": [
+      {
+        "q": "Tüm ülkeler dahil mi?",
+        "a": "Bu çark, büyük küresel ulusların dengeli bir seçimini sunar. Belirli bir ülkeyi eklemek için düzenleyin."
+      }
+    ]
+  },
+  "/geography-wheels/europe-countries": {
+    "route": "/geography-wheels/europe-countries",
+    "type": "wheel",
+    "title": "Avrupa Ülkeleri Çarkı",
+    "metaDescription": "",
+    "h1": "Avrupa Ülkeleri Çarkı",
+    "description": "Seyahat planları veya eğitim araştırmaları için rastgele bir Avrupa ülkesini seçin.",
+    "options": [
+      "Birleşik Krallık",
+      "Fransa",
+      "Almanya",
+      "İtalya",
+      "İspanya",
+      "Hollanda",
+      "Belçika",
+      "İsviçre",
+      "Avusturya",
+      "İsveç",
+      "Norveç",
+      "Danimarka",
+      "Finlandiya",
+      "İrlanda",
+      "Portekiz",
+      "Yunanistan",
+      "Polonya",
+      "Çekya"
+    ],
+    "faqs": [
+      {
+        "q": "Üzerinde Vatikan Şehri gibi mikro devletler var mı?",
+        "a": "Seçeneklere Monako, Andorra veya San Marino'yu manuel olarak ekleyebilirsiniz."
+      }
+    ]
+  },
+  "/geography-wheels": {
+    "route": "/geography-wheels",
+    "type": "general",
+    "title": "Coğrafya ve Ülke Çarkı Döndürücüler | GameWheelClub",
+    "metaDescription": "Rastgele ülkeleri, ABD eyaletlerini, Avrupa uluslarını seçmek için döndürün veya 64 ülkeli rulet mücadelesini çalıştırın. Coğrafya bilgileri ve seyahat planlaması için harika.",
+    "h1": "Coğrafya Çarkları",
+    "description": "Rastgele ülkeleri, ABD eyaletlerini, Avrupa uluslarını seçmek için döndürün veya 64 ülkeli rulet mücadelesini çalıştırın. Coğrafya bilgileri ve seyahat planlaması için harika.",
+    "options": [],
+    "faqs": []
+  },
+  "/geography-wheels/us-states": {
+    "route": "/geography-wheels/us-states",
+    "type": "wheel",
+    "title": "ABD Eyaletleri Çarkı",
+    "metaDescription": "",
+    "h1": "ABD Eyaletleri Çarkı",
+    "description": "Amerika'nın 50 eyaletinden rastgele birini seçmek için döndürün.",
+    "options": [
+      "Kaliforniya",
+      "Teksas",
+      "Florida",
+      "New York",
+      "Illinois",
+      "Pensilvanya",
+      "Ohio",
+      "Georgia",
+      "Kuzey Carolina",
+      "Michigan",
+      "Washington",
+      "Arizona",
+      "Massachusetts",
+      "Virginia",
+      "Colorado",
+      "Tennessee"
+    ],
+    "faqs": [
+      {
+        "q": "50 eyaletin tümü önceden yüklenmiş mi?",
+        "a": "Bu ön ayar ana durumları içerir. 50 durumun tam listesini Toplu Düzenleme kutusuna saniyeler içinde kopyalayıp yapıştırabilirsiniz."
+      }
+    ]
+  },
+  "/guides/classroom-spin-wheel-ideas": {
+    "route": "/guides/classroom-spin-wheel-ideas",
+    "type": "general",
+    "title": "Sınıf Döndürme Çarkı Fikirleri: İnteraktif Öğretim Stratejileri",
+    "metaDescription": "15 yaratıcı sınıf döndürme çarkı fikriyle öğrenci katılımını artırın. Fuar adı çekilişlerini nasıl gerçekleştireceğinizi, görevleri nasıl atayacağınızı ve rastgele tekerleklerle dersleri nasıl oyunlaştıracağınızı öğrenin.",
+    "h1": "15 Yaratıcı Sınıf Döndürme Fikirleri",
+    "description": "Pasif dinlemeyi aktif, enerjik katılıma dönüştürün. Dersleri oyunlaştırmak, işleri dağıtmak ve her öğrenciyi heyecanlandırmak için yapılandırılmış, sahada test edilmiş döner tekerlek stratejilerini keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/decision-making-methods": {
+    "route": "/guides/decision-making-methods",
+    "type": "general",
+    "title": "Karar Verme Yöntemleri: Çerçeveler, Buluşsal Yöntemler ve Rastgeleleştirme",
+    "metaDescription": "Yapılandırılmış karar verme çerçevelerini keşfedin. Eisenhower Matrisinden analitik modellere ve rastgele seçim araçlarına kadar seçim yorgunluğunun nasıl üstesinden gelineceğini keşfedin.",
+    "h1": "Karar Verme Yöntemlerinde Ustalık Sınıfı",
+    "description": "Analiz etmeli misiniz, iç güdülerinize mi güvenmeli yoksa olasılığa mı yetki vermelisiniz? Seçim teorisinin resmi modellerini, bilişsel önyargıları ve yazı-tura atmanın sonucu belirlemesine ne zaman izin verileceğini nasıl bileceğinizi öğrenin.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/how-random-wheels-work": {
+    "route": "/guides/how-random-wheels-work",
+    "type": "general",
+    "title": "Rastgele Çarklar Nasıl Çalışır: Matematik, Algoritmalar ve Fizik",
+    "metaDescription": "Sanal dönen çarkların ardındaki bilimin derinliklerine dalın. Sözde Rastgele Sayı Üreteçlerini (PRNG'ler), sürtünme yavaşlama fiziğini ve algoritmik adaleti keşfedin.",
+    "h1": "Döndürmenin Arkası: Rastgele Çarklar Aslında Nasıl Çalışır",
+    "description": "Sanal çarkın kazananını nasıl hesapladığını hiç merak ettiniz mi? Sahte rastgele sayı üreteçlerinin matematiğini, benzetilmiş sürtünme denklemlerini ve tarafsız bir seçimi garanti eden programlama ilkelerini keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/icebreaker-games-guide": {
+    "route": "/guides/icebreaker-games-guide",
+    "type": "general",
+    "title": "Buzkıran Oyunları Rehberi: Takım Oluşturma ve Sanal Buluşmalar",
+    "metaDescription": "Yüksek enerjili buzkıran oyunlarına nasıl ev sahipliği yapacağınızı öğrenin. Fiziksel ve sanal ekipler için yaratıcı fikirleri, soru İstemlerini ve ekip oluşturma stratejilerini keşfedin.",
+    "h1": "Buzkıran Oyunları İçin En İyi Kılavuz",
+    "description": "Takım toplantıları veya sosyal etkinliklerdeki garip sessizliklerden bıktınız mı? Buz kırma bilimini, düşük basınçlı bir sosyal atmosferin nasıl oluşturulacağını ve rastgele oyun döndürücülerden nasıl etkili bir şekilde yararlanılacağını öğrenin.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/productivity-timeboxing": {
+    "route": "/guides/productivity-timeboxing",
+    "type": "general",
+    "title": "Üretkenlik Zaman Sınırlaması: Zaman Bloklarına İlişkin Temel Kılavuz",
+    "metaDescription": "Odaklanmayı artırmak için zaman sınırlaması ve Pomodoro tekniklerini nasıl kullanacağınızı öğrenin. Parkinson ile Mücadele",
+    "h1": "Zaman Sınırlama: Katı Sınırlarla Dikkat Dağınıklığının Aşılması",
+    "description": "Size üç saatlik bir süre verildiğinde bir görev neden üç saat sürüyor da, kısıtlı zamanınız olduğunda neden yalnızca otuz dakika sürüyor? Gününüzün kontrolünü yeniden ele almak için Parkinson Yasasından ve oyunlaştırılmış zamanlayıcı sistemlerinden nasıl yararlanacağınızı keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/random-giveaway-rules": {
+    "route": "/guides/random-giveaway-rules",
+    "type": "general",
+    "title": "Rastgele Çekiliş Kuralları ve Yasal Uyumluluk Yönergeleri",
+    "metaDescription": "Çevrimiçi çekilişler gerçekleştirirken uyumlu kalın. Çekiliş yasalarını, satın alma zorunluluğu yok kuralını ve adil yarışmalar için platform kurallarını anlayın.",
+    "h1": "Rastgele Çekilişler Yasal ve Adil Bir Şekilde Nasıl Gerçekleştirilir",
+    "description": "Çekilişler, yarışmalar veya piyangolar? Promosyon çekilişleriyle ilgili yasaları takip etmek, markanızı korumak ve hedef kitlenize saygı duymak için çok önemlidir. Rastgele seçim uyumluluğunun kurallarını öğrenin.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/spin-wheel-psychology": {
+    "route": "/guides/spin-wheel-psychology",
+    "type": "general",
+    "title": "Dönen Çarkların Psikolojisi: Gerilim, Ödüller ve Seçimler",
+    "metaDescription": "Dönen çarkların ardındaki psikolojik tetikleyicileri keşfedin. Karar yorgunluğunun, öngörünün ve görsel ödüllerin rastgele seçicileri nasıl bu kadar ilgi çekici hale getirdiğini anlayın.",
+    "h1": "Döndürme Çarkı Psikolojisi: Döndürmeyi Neden Seviyoruz",
+    "description": "Öğelerden oluşan dönen bir çarkı bu kadar karşı konulmaz kılan şey nedir? Öngörmenin sinirsel mekanizmalarını, boşaltma seçeneklerinin hafifletilmesini ve dikkatimizi çeken oyunlaştırılmış tasarım modellerini keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/guides/unbiased-selection-importance": {
+    "route": "/guides/unbiased-selection-importance",
+    "type": "general",
+    "title": "Tarafsız Seçimin Önemi: Adillik ve İstatistik",
+    "metaDescription": "Tarafsız seçimin neden çok önemli olduğunu keşfedin. Adil seçimlerin matematiğini, seçici insanlardaki bilişsel önyargıları ve sıralamanın gerçek dünyadaki uygulamalarını keşfedin.",
+    "h1": "Tarafsız Seçim Neden Önemlidir",
+    "description": "_ İnsan seçimi örtülü bilişsel önyargılarla doludur. Rastgele matematiğin istatistikleri nasıl koruduğunu, adaleti nasıl geri getirdiğini, eğitimde eşitliği garanti ettiğini ve güven inşa ettiğini keşfedin.",
+    "options": [],
+    "faqs": []
+  },
+  "/": {
+    "route": "/",
+    "type": "wheel",
+    "title": "Karar Çarkını Döndürün",
+    "metaDescription": "",
+    "h1": "Karar Çarkını Döndürün",
+    "description": "Karar veremiyor musunuz? Seçeneklerinizi girin, çarkı çevirin ve kaderin anında karar vermesine izin verin! Hızlı, adil ve eğlenceli.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/adult-truth-or-dare": {
+    "route": "/party-games/adult-truth-or-dare",
+    "type": "wheel",
+    "title": "Yetişkin Doğruluk veya Cesaret Çarkı",
+    "metaDescription": "",
+    "h1": "Yetişkin Doğruluk veya Cesaret Çarkı",
+    "description": "Baharatı, olgun sırları ve kışkırtıcı cesaretleri seçmek için döndürün. Yaş kısıtlamalı geçiş reklamı dahildir.",
+    "options": [
+      "Gerçek: Gizli fantezin nedir?",
+      "Cesaret: Yanınızdaki kişiye şehvetli bir masaj yapın",
+      "Gerçek: Gruba en utanç verici romantik karşılaşmanızı anlatın",
+      "Cesaret: Birinin kulağına kışkırtıcı bir şey fısıldayın"
+    ],
+    "faqs": [
+      {
+        "q": "Kayıt olmayı gerektiriyor mu?",
+        "a": "Kayıt veya hesaba gerek yok. Küçükleri korumak için basit bir yaş doğrulama kapısı kullanıyoruz."
+      }
+    ]
+  },
+  "/party-games/charades-topics": {
+    "route": "/party-games/charades-topics",
+    "type": "wheel",
+    "title": "Sessiz Sinema Konuları Çarkı",
+    "metaDescription": "",
+    "h1": "Sessiz Sinema Konuları Çarkı",
+    "description": "Aile sessiz sinema oyunları için komik ve yaratıcı konular alın.",
+    "options": [
+      "Yemek yiyen bir T-Rex'i taklit edin",
+      "Arızalı bir robot gibi davranın",
+      "Golf oynuyor gibi davranın",
+      "Sosisli sandviç pişirmeyi taklit edin",
+      "Buz üzerinde yürüyormuş gibi yapın",
+      "Yüzen bir astronot gibi davranın"
+    ],
+    "faqs": [
+      {
+        "q": "Konular zor mu?",
+        "a": "Hem çocukların hem de yetişkinlerin keyif alması için dengelidirler."
+      }
+    ]
+  },
+  "/party-games/extreme-truth-or-dare": {
+    "route": "/party-games/extreme-truth-or-dare",
+    "type": "wheel",
+    "title": "Aşırı Doğruluk veya Cesaret Çarkı",
+    "metaDescription": "",
+    "h1": "Aşırı Doğruluk veya Cesaret Çarkı",
+    "description": "Son derece zorlu, yoğun ve çılgın gerçekler ve cesaretler için döndürün.",
+    "options": [
+      "Gerçek: Hiç bir sınavda kopya çektiniz mi?",
+      "Cesaret: Rastgele bir kişiyi arayın ve doğum günün kutlu olsun şarkısını söyleyin",
+      "Gerçek: En büyük pişmanlığınız nedir?",
+      "Cesaret: Grubun Instagram'da bir hikaye yayınlamasına izin verin"
+    ],
+    "faqs": [
+      {
+        "q": "Bunları gerçekleştirmek güvenli mi?",
+        "a": "Evet, güvenlidirler ama son derece eğlencelidirler. Rahatsız olduğunuz her türlü cesareti daima atlayın."
+      }
+    ]
+  },
+  "/party-games/funny-dares": {
+    "route": "/party-games/funny-dares",
+    "type": "wheel",
+    "title": "Komik Cesaret Çarkı",
+    "metaDescription": "",
+    "h1": "Komik Cesaret Çarkı",
+    "description": "Şakacı, basit ve eğlenceli fiziksel meydan okuma cesaretleri edinin.",
+    "options": [
+      "3 tur boyunca İngiliz aksanıyla konuşun",
+      "En iyi tavuk izlenimini verin",
+      "Bir kaşığı burnunuzun üzerinde dengeleyin",
+      "Drama kraliçesi gibi davranın",
+      "Bir ev bitkisiyle 1 dakika konuşun"
+    ],
+    "faqs": [
+      {
+        "q": "Bu cesaretler iç mekanda yapılabilir mi?",
+        "a": "Evet, tüm cesaretler içeride güvenli bir şekilde gerçekleştirilecek şekilde tasarlanmıştır."
+      }
+    ]
+  },
+  "/party-games": {
+    "route": "/party-games",
+    "type": "general",
+    "title": "Parti ve Sosyal Oyun Tekerlekleri | GameWheelClub",
+    "metaDescription": "_ Sosyal etkinlikler, yatıya kalmalar ve partiler için etkileşimli tekerlekler. Doğruluk mu Cesaret mi soruları, Şişeyi Döndür, Sessiz sinema ve komik meydan okumalar için çevir.",
+    "h1": "Parti ve Sosyal Oyunlar",
+    "description": "Sosyal etkinlikler, yatıya kalmalar ve partiler için etkileşimli tekerlekler. Doğruluk mu Cesaret mi soruları, Şişeyi Döndür, Sessiz sinema ve komik meydan okumalar için çevir.",
+    "options": [],
+    "faqs": []
+  },
+  "/party-games/punishment-wheel": {
+    "route": "/party-games/punishment-wheel",
+    "type": "wheel",
+    "title": "Ceza Çarkı",
+    "metaDescription": "_",
+    "h1": "_ Ceza Çarkı",
+    "description": "_ Masa oyunu kaybedenlere aptalca işler, cezalar veya cezalar vermek için döndürün.",
+    "options": [
+      "Herkese atıştırmalık satın alın",
+      "Bulaşıkları yıkayın",
+      "Grup tarafından seçilen bir şarkıyı söyleyin",
+      "Utanç verici bir selfie paylaşın",
+      "20 zıplama hareketi yapın",
+      "Bir sonraki turda yalnızca fısıltıyla konuşun"
+    ],
+    "faqs": [
+      {
+        "q": "Bunlar ciddi mi?",
+        "a": "Hayır, neşelidirler ve dostluk oyunları için mükemmeldirler."
+      }
+    ]
+  },
+  "/party-games/questions-wheel": {
+    "route": "/party-games/questions-wheel",
+    "type": "wheel",
+    "title": "Soru Çarkı",
+    "metaDescription": "",
+    "h1": "Soru Çarkı",
+    "description": "Buz kırıcı sorular, sizi tanıyacak konular ve sohbete dayalı yönlendirmeler için döndürün.",
+    "options": [
+      "Süper gücünüz nedir?",
+      "1 milyon dolar kazanırsanız",
+      "ilk satın alma işleminiz nedir?",
+      "Hayalinizdeki tatil nerede?",
+      "En büyük korkunuz nedir?",
+      "Sana en çok kim ilham veriyor?",
+      "En sevdiğiniz çocukluk anınız nedir?"
+    ],
+    "faqs": [
+      {
+        "q": "Sorular temiz mi?",
+        "a": "Evet, kurumsal buz kırıcılar ve okul dersleri için uygundur."
+      }
+    ]
+  },
+  "/party-games/scattergories-letters": {
+    "route": "/party-games/scattergories-letters",
+    "type": "wheel",
+    "title": "Scattergories Harf Çarkı",
+    "metaDescription": "",
+    "h1": "Scattergories Harf Çarkı",
+    "description": "Scattergories ve kelime oyunları için rastgele bir harf seçmek üzere döndürün.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "R",
+      "S",
+      "T",
+      "W"
+    ],
+    "faqs": [
+      {
+        "q": "_ Neden bazı harfler eksik?",
+        "a": "Oyunları eğlenceli ve hareketli tutmak için sert harfleri (Q, X, Y, Z) hariç tutuyoruz."
+      }
+    ]
+  },
+  "/party-games/song-association": {
+    "route": "/party-games/song-association",
+    "type": "wheel",
+    "title": "Şarkı İlişkilendirme Çarkı",
+    "metaDescription": "_",
+    "h1": "_ Şarkı İlişkilendirme Çarkı",
+    "description": "_ Bir anahtar kelimeyi döndürün ve 10 saniye içinde o kelimeyi içeren bir şarkıyı söylemeye çalışın.",
+    "options": [
+      "Kelime: AŞK",
+      "Kelime: ATEŞ",
+      "Kelime: CENNET",
+      "Kelime: DANS",
+      "Kelime: GECE",
+      "Kelime: DÜNYA",
+      "Kelime: MAVİ",
+      "Kelime: MUTLU",
+      "Kelime: AĞLAMA"
+    ],
+    "faqs": [
+      {
+        "q": "Kurallar nelerdir?",
+        "a": "Bir oyuncunun, kelimeyi içeren gerçek bir şarkının en az bir satırını söylemek için 10 saniyesi vardır."
+      }
+    ]
+  },
+  "/party-games/spin-the-bottle": {
+    "route": "/party-games/spin-the-bottle",
+    "type": "wheel",
+    "title": "Şişe Çarkını Döndürün",
+    "metaDescription": "",
+    "h1": "Şişe Çarkını Döndürün",
+    "description": "Klasik oyunlar için fiziksel şişe düzenlerinin yerini alan sanal bir döndürücü.",
+    "options": [
+      "Oyuncu A",
+      "Oyuncu B",
+      "Oyuncu C",
+      "Oyuncu D",
+      "Oyuncu E",
+      "Oyuncu F"
+    ],
+    "faqs": [
+      {
+        "q": "Kaç oyuncu oynayabilir?",
+        "a": "100 oyuncuya kadar destekler. Seçenekler listesine kolayca ad ekleyin."
+      }
+    ]
+  },
+  "/party-games/things-to-do-when-bored": {
+    "route": "/party-games/things-to-do-when-bored",
+    "type": "wheel",
+    "title": "Canınız Sıkıldığında Yapılması Gerekenler Çark",
+    "metaDescription": "_",
+    "h1": "_ Canınız Sıkıldığında Yapılması Gerekenler Çark",
+    "description": "_ Üretken, yaratıcı ve fiziksel aktivite önerileriyle can sıkıntısını gidermek için döndürün.",
+    "options": [
+      "Bir kitap bölümü okuyun",
+      "Masanızın çekmecesini düzenleyin",
+      "5 dakikalık bir kart numarası öğrenin",
+      "Hızlı bir yürüyüşe çıkın",
+      "Otoportre çizmeyi deneyin",
+      "10 dakika esneyin",
+      "Yeni bir albüm dinleyin"
+    ],
+    "faqs": [
+      {
+        "q": "Bunlar için malzeme gerekiyor mu?",
+        "a": "Çoğu aktivite tamamen ücretsizdir ve sıfır hazırlık gerektirir."
+      }
+    ]
+  },
+  "/party-games/truth-or-dare": {
+    "route": "/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Doğruluk mu Cesaret mi Çarkı",
+    "metaDescription": "_",
+    "h1": "Doğruluk mu Cesaret mi Çarkı",
+    "description": "Çocuklara, gençlere ve ailelere yönelik klasik Doğruluk mu Cesaret mi talimatlarını almak için çarkı döndürün.",
+    "options": [
+      "Gerçek: En büyük sırrınız nedir?",
+      "Cesaret: 10 şınav çek",
+      "Gerçek: Hoşlandığın kişi kim?",
+      "Cesaret: Bir parça çiğ sarımsak yiyin",
+      "Doğruluk: Söylediğiniz komik bir yalanı söyleyin",
+      "Cesaret: Birisinin telefonunuzdan mesaj atmasına izin verin"
+    ],
+    "faqs": [
+      {
+        "q": "Aileler için temiz mi?",
+        "a": "Evet, bu çark aile toplantıları için mükemmel olan neşeli yönlendirmeler içeriyor."
+      }
+    ]
+  },
+  "/privacy": {
+    "route": "/privacy",
+    "type": "general",
+    "title": "Gizlilik Politikası",
+    "metaDescription": "",
+    "h1": "Gizlilik Politikası",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/random-number-generator": {
+    "route": "/random-number-generator",
+    "type": "number-generator",
+    "title": "Rastgele Sayı Üreteci | Hızlı RNG Aracı",
+    "metaDescription": "Herhangi bir özel aralıkta tek veya birden fazla rastgele sayı oluşturun. Ücretsiz, güvenli ve özelleştirilebilir rastgele sayı seçici.",
+    "h1": "Rastgele Sayı Üreteci",
+    "description": "Rastgele sayıları anında seçin. Minimum ve maksimum limitlerinizi belirleyin, miktarı seçin ve oluşturun!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/best-teams": {
+    "route": "/sports-wheels/best-teams",
+    "type": "wheel",
+    "title": "En İyi Spor Takımları Wheel Spinner | Efsanevi Takım Seçici",
+    "metaDescription": "Spor tarihindeki efsanevi bir takımı seçmek için En İyi Takım Çarkı'nı döndürün. 1992 Dream Team, 1996 Chicago Bulls, 1972 Dolphins ve daha fazlası önceden yüklenmiştir.",
+    "h1": "En İyi Spor Takımları Wheel Spinner",
+    "description": "Hangi takım gerçekten tüm zamanların en iyisiydi? Basketbol, ​​futbol, ​​futbol ve beyzbolda efsanevi bir spor takımını rastgele seçmek için çarkı döndürün.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/college-teams": {
+    "route": "/sports-wheels/college-teams",
+    "type": "wheel",
+    "title": "Üniversite Takımları Çark Döndürücü | Rastgele NCAA Takım Seçicisi",
+    "metaDescription": "En iyi NCAA üniversite takımlarından birini rastgele seçmek için Üniversite Takımları Çarkı'nı döndürün. Kolej futbolu (CFB) simülasyonu, basketbol maçları ve seçim ligleri için mükemmeldir.",
+    "h1": "Üniversite Takımları Çarkıfelek",
+    "description": "NCAA FBS bölümünden rastgele bir üniversite takımı seçin. Kolej Futbolu 25 Hanedanı seçimleri veya NCAA basketbol takımı tahminleri için harika!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/fifa-world-cup-2026": {
+    "route": "/sports-wheels/fifa-world-cup-2026",
+    "type": "wheel",
+    "title": "FIFA Dünya Kupası 2026 Çark Döndürücü | Rastgele Ülke Seçici",
+    "metaDescription": "Nitelikli bir futbol ülkesini rastgele seçmek için 2026 Dünya Kupası Çarkı'nı döndürün. Turnuva taramaları, grup tahminleri ve maç simülasyonları için idealdir.",
+    "h1": "FIFA Dünya Kupası 2026 Çarkı",
+    "description": "Kuzey Amerika'da tarihin en büyük spor etkinliğine hazır olun. Nitelikli bir ülkeyi rastgele seçmek için çarkı döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/football-players": {
+    "route": "/sports-wheels/football-players",
+    "type": "wheel",
+    "title": "Futbolcular Çark Döndürücü | Rastgele Futbol Yıldızı Seçici",
+    "metaDescription": "Messi, Ronaldo, Mbappé veya Haaland gibi rastgele bir dünya futbol yıldızını seçmek için Futbolcu Çarkı'nı döndürün. FC 24/FC 25 draft mücadeleleri için mükemmeldir.",
+    "h1": "Futbol Oyuncuları Çarkı Döndürücü",
+    "description": "Dünyanın en seçkin futbol (futbol) yıldızları arasından rastgele seçim yapmak için döndürün. Tartışmaları çözün, FC hedeflerini seçin veya arkadaşlarınıza meydan okuyun!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/golf-wheel": {
+    "route": "/sports-wheels/golf-wheel",
+    "type": "wheel",
+    "title": "Golf Kulübü Çarkı Döndürücü | Rastgele Sopa Seçme Yarışması",
+    "metaDescription": "Driver, 7-Iron, Pitching Wedge veya Putter gibi bir golf sopasını rastgele seçmek için Golf Çarkı'nı döndürün. Menzil mücadeleleri ve parkur oyunları için mükemmeldir.",
+    "h1": "Golf Kulübü Çarkı Döndürücü",
+    "description": "Golf antrenmanınızı renklendirmeye veya sahada arkadaşlarınıza meydan okumaya hazır mısınız? Bir sonraki adımda hangi sopayı vurmanız gerektiğini belirlemek için golf çarkını çevirin!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/mlb-teams": {
+    "route": "/sports-wheels/mlb-teams",
+    "type": "wheel",
+    "title": "MLB Takımları Çark Döndürücü | Rastgele Major League Beyzbol Takımı Seçicisi",
+    "metaDescription": "Rastgele bir beyzbol serisi seçmek için MLB Takım Çarkı'nı döndürün. Fantezi ligler, beyzbol video oyunları ve playoff tahminleri için mükemmeldir.",
+    "h1": "MLB Teams Wheel Spinner",
+    "description": "Anında rastgele bir Major League Baseball serisi seçin. MLB The Show mücadeleleri, fantezi draft seçimleri ve stadyum yolculukları için ideal!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-players": {
+    "route": "/sports-wheels/nba-players",
+    "type": "wheel",
+    "title": "NBA Oyuncuları Çark Döndürücü | Rastgele NBA Oyuncu Seçici",
+    "metaDescription": "Rastgele aktif bir basketbol süperstarını seçmek için NBA Oyuncu Çarkı'nı döndürün. Fantezi sporlar, bilgi gecesi ve oyuncu karşılaştırma tartışmaları için mükemmeldir.",
+    "h1": "NBA Oyuncuları Çarkı Döndürücü",
+    "description": "Bugün NBA'deki mutlak elit basketbol yetenekleri arasında rastgele karar verin. Karşılaştırmaları yapın, oyuncu odağını seçin veya tartışmalar başlatın.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nba-teams": {
+    "route": "/sports-wheels/nba-teams",
+    "type": "wheel",
+    "title": "NBA Takımları Çark Döndürücü | Rastgele NBA Franchise Seçici",
+    "metaDescription": "Rastgele bir profesyonel basketbol serisini seçmek için NBA Takım Çarkı'nı döndürün. NBA 2K mücadeleleri, fantastik draft seçimleri ve sporla ilgili bilgiler için idealdir.",
+    "h1": "NBA Takımları Çarkı Döndürücü",
+    "description": "Rastgele bir NBA takımı seçin. NBA 2K'daki başlangıç ​​maçları, draft sıra listelerini belirlemek veya kariyer modlarında hangi takımın kurulacağına karar vermek için mükemmeldir.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-players": {
+    "route": "/sports-wheels/nfl-players",
+    "type": "wheel",
+    "title": "NFL Oyuncuları Çark Döndürücü | Rastgele NFL Oyuncu Seçici",
+    "metaDescription": "Rastgele aktif bir yıldız NFL futbolcusunu seçmek için NFL Oyuncu Çarkı'nı döndürün. Fantezi taslaklar, önemsiz şeyler ve ekip oluşturma zorlukları için idealdir.",
+    "h1": "NFL Players Wheel Spinner",
+    "description": "Ligin en elit oyuncuları arasından rastgele seçim yapmak için döndürün. Trivia mücadeleleri, fantastik seçimler ve oyuncu tartışmaları için harika!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-positions": {
+    "route": "/sports-wheels/nfl-positions",
+    "type": "wheel",
+    "title": "NFL Pozisyonları Çark Döndürücü | Rastgele Futbol Pozisyonu Seçici",
+    "metaDescription": "_ Oyun Kurucu, Koşan Geri, Geniş Karşılayıcı veya Defans Oyuncusu gibi rastgele bir futbol rolü seçmek için NFL Pozisyon Çarkı'nı döndürün. Eğitim ve koçluk için mükemmeldir.",
+    "h1": "NFL Pozisyonları Çark Döndürücü",
+    "description": "Kadro pozisyonları atamanız, koçluk tatbikatları ayarlamanız veya bir kariyer modu mücadelesini rastgele hale getirmeniz mi gerekiyor? Seçim yapmak için konum çarkını döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nfl-teams": {
+    "route": "/sports-wheels/nfl-teams",
+    "type": "wheel",
+    "title": "NFL Takımları Çark Döndürücü | Rastgele NFL Takım Seçicisi",
+    "metaDescription": "Rastgele bir NFL takımı seçmek için NFL Takım Çarkı'nı döndürün. Fantezi futbol taslak siparişleri, Madden'de oynayacak bir takım seçmek veya yeni bir favori takım seçmek için mükemmeldir.",
+    "h1": "NFL Teams Wheel Spinner",
+    "description": "_ Hangi takımla oynayacağınızı seçmekte takılıp kaldınız mı veya fantezi futbol liginiz için tarafsız bir seçiciye mi ihtiyacınız var? Karar vermek için çarkı döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels/nhl-teams": {
+    "route": "/sports-wheels/nhl-teams",
+    "type": "wheel",
+    "title": "NHL Takımları Çark Döndürücü | Rastgele NHL Hokey Takımı Seçici",
+    "metaDescription": "Rastgele bir profesyonel hokey serisini seçmek için NHL Takım Çarkı'nı döndürün. NHL video oyunları, braket kurulumları ve önemsiz şeyler için idealdir.",
+    "h1": "NHL Takımları Çark Döndürücü",
+    "description": "Anında rastgele bir profesyonel NHL takımı seçin. NHL franchise modu mücadeleleri, gösteri maçları ve play-off eşleşmeleri için mükemmeldir.",
+    "options": [],
+    "faqs": []
+  },
+  "/sports-wheels": {
+    "route": "/sports-wheels",
+    "type": "general",
+    "title": "Spor Çarkı Döndürücüler | GameWheelClub",
+    "metaDescription": "_ NFL takım seçicileri, NBA oyuncu rastgele seçimleri, Dünya Kupası eşleşmeleri ve golf sopaları da dahil olmak üzere önceden yüklenmiş 12 spor karar çarkına göz atın.",
+    "h1": "Spor Rastgeleleştirme Çarkları",
+    "description": "Fantezi ligler, draft seçim simülatörleri, mücadeleler ve takım tartışmaları için oluşturulmuş önceden yapılandırılmış etkileşimli araçlar.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/brain-break": {
+    "route": "/templates/classroom/brain-break",
+    "type": "wheel",
+    "title": "Sınıf Beyin Kırma Çarkı | Öğrenci Egzersiz Fikirleri",
+    "metaDescription": "Öğrencilere yönelik hızlı egzersizleri seçmek için Brain Break çarkını döndürün: Stretch, Jumping Jacks, Deep Breaths, Dance veya Doodle.",
+    "h1": "Sınıfta Beyin Kırma Çarkı",
+    "description": "Öğrencilerin uzun dersler sırasında yeniden odaklanmalarına ve enerjilerini yeniden doldurmalarına yardımcı olun. Hızlı bir aktivite için döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom": {
+    "route": "/templates/classroom",
+    "type": "general",
+    "title": "Sınıf Çarkı Şablonları | GameWheelClub",
+    "metaDescription": "Öğretmenler için ücretsiz karar çarklarına göz atın. Rastgele öğrenci gruplarını, konuları, ödülleri veya sınıfta beyin kırma egzersizlerini seçin.",
+    "h1": "Sınıf ve Öğretim Çarkları",
+    "description": "Katılımı rastgele hale getirmek, öğrenci başarılarını ödüllendirmek ve konu bloklarını yönlendirmek için eğitimciler için özel olarak tasarlanmış araçlar.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/rewards-wheel": {
+    "route": "/templates/classroom/rewards-wheel",
+    "type": "wheel",
+    "title": "Sınıf Ödül Çarkı | Rastgele Ödül Fikirleri Seçici",
+    "metaDescription": "Öğrenciler için rastgele ödüller seçmek üzere Ödül çarkını döndürün: Serbest Zaman, Çıkartmalar, Sıra Lideri Seçimi veya Ev Ödevi Yok geçişleri.",
+    "h1": "Sınıf Ödül Çarkı",
+    "description": "Öğrencilerinizi motive edin. Rastgele bir ödül veya sınıf ayrıcalığı seçmek için ödül çarkını çevirin!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/student-grouping": {
+    "route": "/templates/classroom/student-grouping",
+    "type": "wheel",
+    "title": "Öğrenci Gruplandırma Çarkı | Rastgele Takım Seçici",
+    "metaDescription": "Öğrenci Gruplandırma çarkını döndürün. Sınıf projeleri ve oyunlar için rastgele takımları veya grupları (Grup A, Grup B, Grup C) anında seçin.",
+    "h1": "Öğrenci Gruplaması ve Takım Seçme Çarkı",
+    "description": "_ Öğrencileri rastgele gruplara atamanız, sunum takımlarını seçmeniz veya sınıf koltuklarını ayarlamanız mı gerekiyor? Gruplama çarkını döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/classroom/subject-picker": {
+    "route": "/templates/classroom/subject-picker",
+    "type": "wheel",
+    "title": "Konu Seçici Çark | Ders Çalışması Konu Seçici",
+    "metaDescription": "Çalışma konularını rastgele seçmek için Konu Seçici çarkını döndürün: Matematik, Bilim, Tarih, İngilizce, Sanat ve Müzik. Ders planlaması için harika.",
+    "h1": "Konu Seçme Çarkı",
+    "description": "Bir sonraki konunun hangi konu olduğunu seçin veya evde eğitim veya sınıf sırasında çarkın çalışma bloklarını rastgele seçmesine izin verin.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dessert-spinner": {
+    "route": "/templates/food/dessert-spinner",
+    "type": "wheel",
+    "title": "Tatlı Seçim Çarkı | Rastgele Tatlı İkramları Seçici",
+    "metaDescription": "Kutu",
+    "h1": "Tatlı Döndürme Çarkı",
+    "description": "Seçme suçluluğu olmadan bir sonraki tatlı ikramınızı seçin. Tatlı çarkını döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/dinner-picker": {
+    "route": "/templates/food/dinner-picker",
+    "type": "wheel",
+    "title": "Akşam Yemeği Seçici Çark | Akşam Yemeğinde Ne Yemeliyim?",
+    "metaDescription": "Akşam yemeği tartışmasını anında çözün. Popüler yemek seçenekleriyle önceden yüklenmiş yemek çarkını döndürün: Pizza, Tacos, Burger, Makarna, Salata ve Çin.",
+    "h1": "Akşam Yemeği Seçme Çarkı",
+    "description": "Akşam yemeğine karar vermekte takılıp kaldınız mı? Yiyecek tartışmalarını ortadan kaldırın. Anında bir yemek seçeneği seçmek için çarkı döndürün.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/drink-decider": {
+    "route": "/templates/food/drink-decider",
+    "type": "wheel",
+    "title": "İçecek Karar Verme Çarkı | Ne İçmeliyim?",
+    "metaDescription": "İçecek toplama çarkını önceden doldurulmuş içeceklerle döndürün: Su, Kahve, Çay, Soda, Meyve Suyu ve Smoothie'ler.",
+    "h1": "İçki Karar Verme Çarkı",
+    "description": "Biraz serinlemeye ihtiyacınız var ancak kafein, sıvı alımı veya meyve suyu arasında seçim yapamıyor musunuz? İçecek çarkını döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food/lunch-ideas": {
+    "route": "/templates/food/lunch-ideas",
+    "type": "wheel",
+    "title": "Öğle Yemeği Karar Çarkı | Hızlı Öğle Yemeği Fikirleri Seçici",
+    "metaDescription": "Hızlı bir öğle yemeği seçmek için döndürün: Sandviçler, Salatalar, Artıklar, Çorba, Dürümler veya Fast Food. Öğle yemeği molası menünüzü anında belirleyin.",
+    "h1": "Öğle Yemeği Fikirleri Karar Çarkı",
+    "description": "Yoğun bir iş gününün veya çalışma oturumunun ortasında öğle yemeği seçmeye çalışırken mi takıldınız? Bırakın menünüze çark karar versin.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/food": {
+    "route": "/templates/food",
+    "type": "general",
+    "title": "Yiyecek ve Yemek Çarkı Şablonları | GameWheelClub",
+    "metaDescription": "_ Yiyecek, öğle yemeği seçenekleri, tatlılar ve içeceklere karar verenler için ücretsiz karar çarklarına göz atın. Yemek tartışmalarınızı anında çözün.",
+    "h1": "Yiyecek ve Yeme İçme Karar Çarkları",
+    "description": "Asırlardır süren \"ne yemeliyiz?\" tartışmasını çözün. önceden oluşturulmuş yiyecek döndürücülerimizi kullanarak saniyeler içinde.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates": {
+    "route": "/templates",
+    "type": "general",
+    "title": "Karar Çarkı Şablonları Merkezi | GameWheelClub",
+    "metaDescription": "Önceden hazırlanmış düzinelerce ücretsiz karar çarkı şablonuna göz atın. Yiyecek, Parti Oyunları ve Sınıf hizmetlerine göre sınıflandırılmıştır.",
+    "h1": "Karar Çarkı Şablonları",
+    "description": "Sıfırdan oluşturmayın. Önceden yapılandırılmış seçim listelerimizden birini seçin ve hemen dönmeye başlayın!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/charades-ideas": {
+    "route": "/templates/party-games/charades-ideas",
+    "type": "wheel",
+    "title": "Sessiz Sinema Fikir Çarkı | Rastgele Oyunculuk Konuları Seçici",
+    "metaDescription": "Rastgele oyunculuk fikirleri almak için Sessiz Sinema çarkını döndürün: Filmler, TV Şovları, Aksiyonlar, Hayvanlar ve Ünlü Kişiler. Parti oyunu konularını anında çözün.",
+    "h1": "Sessiz Sessiz Fikir Çarkı",
+    "description": "_ Canlandıracak bir şey bulmaya çalışırken takılıp kaldınız mı? Kategorinizi veya konunuzu anında seçmek için çarkı döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games": {
+    "route": "/templates/party-games",
+    "type": "general",
+    "title": "Parti Oyunları Çarkı Şablonları | GameWheelClub",
+    "metaDescription": "_ Grup oyunları, parti mücadeleleri, bilgi konuları ve doğruluk mu cesaret mi kartları için ücretsiz karar çarklarına göz atın. Seçimleri anında sonuçlandırın.",
+    "h1": "Parti Oyunları ve Buz Kırıcılar",
+    "description": "_ Bu önceden oluşturulmuş şablonlarla bir sonraki buluşma, parti veya sınıf oyununuzu saniyeler içinde harekete geçirin.",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/party-trivia": {
+    "route": "/templates/party-games/party-trivia",
+    "type": "wheel",
+    "title": "Parti Bilgileri Konu Çarkı | Rastgele Sınav Kategorileri",
+    "metaDescription": "Rastgele sınav konularını seçmek için Trivia çarkını döndürün: Bilim, Popüler Kültür, Tarih, Spor ve Coğrafya. Oyun geceleri için mükemmel.",
+    "h1": "Parti Bilgi Yarışması Kategori Çarkı",
+    "description": "Aile bilgi yarışması gecelerinde bir sonraki kategorinin hangi kategoride oynanacağına karar verin. Bilgi çarkını döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/truth-or-dare": {
+    "route": "/templates/party-games/truth-or-dare",
+    "type": "wheel",
+    "title": "Doğruluk mu Cesaret mi Jeneratörü | Rastgele Seçim Çarkı",
+    "metaDescription": "Partinin buz kırıcıları için Doğruluk mu Cesaret mi çarkını döndürün. Rastgele Doğruluk mu Cesaret mi'i seçin ve grupların anında konuşmasını sağlayın.",
+    "h1": "Doğruluk mu Cesaret mi? Çarkı Oluşturucu",
+    "description": "Bir sonraki partinize hayat verin veya takılın. Doğruluk, Cesaret veya Çifte Cesaret arasında seçim yapmak için çarkı döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/templates/party-games/would-you-rather": {
+    "route": "/templates/party-games/would-you-rather",
+    "type": "wheel",
+    "title": "Tekerleği Tercih Eder misiniz | Rastgele Parti Oyunu Seçici",
+    "metaDescription": "İster misin Çarkını döndürün. Rastgele varsayımsal soru seçenekleriyle grup konuşmalarını harekete geçirin.",
+    "h1": "Tekerleği mi tercih edersiniz",
+    "description": "Zorlu varsayımları yerine getirin veya kimin neye cevap vereceğini seçin. Oyun çarkını döndürün!",
+    "options": [],
+    "faqs": []
+  },
+  "/terms": {
+    "route": "/terms",
+    "type": "general",
+    "title": "Hizmet Şartları",
+    "metaDescription": "",
+    "h1": "_ Hizmet Şartları",
+    "description": "",
+    "options": [],
+    "faqs": []
+  },
+  "/timer": {
+    "route": "/timer",
+    "type": "timer",
+    "title": "Çevrimiçi Zamanlayıcı | Ücretsiz Geri Sayım Sayacı",
+    "metaDescription": "Herhangi bir geri sayım için dakikaları ve saniyeleri ayarlayın. Alarm uyarıları içeren ücretsiz, güzel ve erişilebilir çevrimiçi zamanlayıcı.",
+    "h1": "Çevrimiçi Geri Sayım Sayacı",
+    "description": "Çalışma oturumları, toplantılar veya oyunlar için özel geri sayım süreleri ayarlayın ve tamamlandığında net bir sesli alarm alın.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/fortnite-challenges": {
+    "route": "/video-game-wheels/fortnite-challenges",
+    "type": "wheel",
+    "title": "Fortnite Mücadeleleri Çarkı",
+    "metaDescription": "",
+    "h1": "Fortnite Mücadeleleri Çarkı",
+    "description": "Bir sonraki battle royale maçınızda tamamlayacağınız eğlenceli bir mücadele için döndürün.",
+    "options": [
+      "Yalnızca Tabancalar Kazanır",
+      "Kalkan Mücadelesi Yok",
+      "Yalnızca Gördüğünüz İlk Silah",
+      "Bina Maçı Yok (Sıfır Oluşturma)",
+      "Yalnızca Belirtilen Konumlara İnme",
+      "Pasifist Koşusu (Öldürme Yok)",
+      "Yalnızca Efsanevi Silahlar",
+      "Skybase Mücadelesi"
+    ],
+    "faqs": [
+      {
+        "q": "Bunu takımlarla yapabilir miyim?",
+        "a": "Evet! Seçilen kuralı takip etmek için tüm takımınıza meydan okuyun."
+      }
+    ]
+  },
+  "/video-game-wheels/league-of-legends-champions": {
+    "route": "/video-game-wheels/league-of-legends-champions",
+    "type": "wheel",
+    "title": "League of Legends Şampiyonlar Çarkı",
+    "metaDescription": "",
+    "h1": "League of Legends Şampiyonlar Çarkı",
+    "description": "Bir sonraki draftınız veya ARAM oyununuz için rastgele bir Lig şampiyonu seçin.",
+    "options": [
+      "Yasuo",
+      "Ahri",
+      "Lux",
+      "Jinx",
+      "Lee Sin",
+      "Thresh",
+      "Garen",
+      "Teemo",
+      "Ezreal",
+      "Zed",
+      "Katarina",
+      "Akali",
+      "Master Yi",
+      "Darius",
+      "Ashe",
+      "Vayne",
+      "KaiSa",
+      "Ekko"
+    ],
+    "faqs": [
+      {
+        "q": "Koridorları destekliyor mu?",
+        "a": "Şampiyonları role göre (Üst, Orta, Orman, ADC, Destek) gruplamak için seçenekleri özelleştirebilirsiniz."
+      }
+    ]
+  },
+  "/video-game-wheels/overwatch-2-characters": {
+    "route": "/video-game-wheels/overwatch-2-characters",
+    "type": "wheel",
+    "title": "Overwatch 2 Karakter Çarkı",
+    "metaDescription": "",
+    "h1": "Overwatch 2 Karakter Çarkı",
+    "description": "Bir sonraki Overwatch maçınız için rastgele bir Tank, Hasar veya Destek kahramanı seçin.",
+    "options": [
+      "Tracer",
+      "Reaper",
+      "Genji",
+      "Hanzo",
+      "Cassidy",
+      "Soldier: 76",
+      "Widowmaker",
+      "Pharah",
+      "Mei",
+      "Bastion",
+      "Junkrat",
+      "Sombra",
+      "Doomfist",
+      "D.Va",
+      "Winston",
+      "Reinhardt",
+      "Roadhog",
+      "Zarya",
+      "Mercy",
+      "Lucio",
+      "Ana",
+      "Kiriko",
+      "Cankurtaran",
+      "Illari",
+      "Juno"
+    ],
+    "faqs": [
+      {
+        "q": "Role göre filtreleyebilir miyim?",
+        "a": "Evet, listeyi yalnızca tankları, DPS'yi veya destekleri içerecek şekilde düzenleyin."
+      }
+    ]
+  },
+  "/video-game-wheels": {
+    "route": "/video-game-wheels",
+    "type": "general",
+    "title": "Video Oyunu Rastgele Ayarlayıcı Çarklar | GameWheelClub",
+    "metaDescription": "Oyun kurulumlarını, aracıları, şampiyonları, türleri, zorlukları ve oyun tarzlarını seçmek için döndürün. Valorant, LoL, Pokémon, Roblox ve Fortnite'ı kapsar.",
+    "h1": "Video Oyunu Çarkları",
+    "description": "_ Oyun kurulumlarını, aracıları, şampiyonları, türleri, zorlukları ve oyun tarzlarını seçmek için döndürün. Valorant, LoL, Pokémon, Roblox ve Fortnite'ı kapsar.",
+    "options": [],
+    "faqs": []
+  },
+  "/video-game-wheels/pokemon-types": {
+    "route": "/video-game-wheels/pokemon-types",
+    "type": "wheel",
+    "title": "Pokemon Türleri Çarkı",
+    "metaDescription": "",
+    "h1": "Pokemon Türleri Çarkı",
+    "description": "Rastgele bir Pokémon türü seçmek için döndürün. Monotip meydan okuma koşuları için mükemmeldir.",
+    "options": [
+      "Normal",
+      "Ateş",
+      "Su",
+      "Çim",
+      "Elektrik",
+      "Buz",
+      "Dövüş",
+      "Zehir",
+      "Toprak",
+      "Uçma",
+      "Psişik",
+      "Böcek",
+      "Kaya",
+      "Hayalet",
+      "Ejderha",
+      "Çelik",
+      "Karanlık",
+      "Peri"
+    ],
+    "faqs": [
+      {
+        "q": "İkili türler destekleniyor mu?",
+        "a": "İkili yazma kombinasyonu elde etmek için çarkı iki kez döndürün."
+      }
+    ]
+  },
+  "/video-game-wheels/rainbow-six-operators": {
+    "route": "/video-game-wheels/rainbow-six-operators",
+    "type": "wheel",
+    "title": "Rainbow Six Operatör Çarkı",
+    "metaDescription": "",
+    "h1": "Rainbow Six Operatör Çarkı",
+    "description": "Kuşatma'da rastgele bir Saldırı veya Savunma operatörü seçmek için döndürün.",
+    "options": [
+      "Sledge",
+      "Thatcher",
+      "Ash",
+      "Thermite",
+      "Twitch",
+      "Montagne",
+      "Glaz",
+      "Fuze",
+      "Blitz",
+      "IQ",
+      "Buck",
+      "Karasakal",
+      "Capitao",
+      "Hibana",
+      "Duman",
+      "Sessiz",
+      "Kale",
+      "Nabız",
+      "Doc",
+      "Kale",
+      "Kapkan",
+      "Tachanka",
+      "Jager",
+      "Bandit",
+      "Frost",
+      "Valkyrie",
+      "Caveira",
+      "Echo"
+    ],
+    "faqs": [
+      {
+        "q": "Saldırı ve Savunmayı ayırıyor mu?",
+        "a": "Saldırı sırasında savunmacıları kaldırabilir veya tam bir sürpriz için her ikisini de tutabilirsiniz."
+      }
+    ]
+  },
+  "/video-game-wheels/roblox-games": {
+    "route": "/video-game-wheels/roblox-games",
+    "type": "wheel",
+    "title": "Roblox Oyun Çarkı",
+    "metaDescription": "",
+    "h1": "Roblox Oyun Çarkı",
+    "description": "Sıkıldığınızda oynayabileceğiniz eğlenceli bir Roblox oyunu seçmek için döndürün.",
+    "options": [
+      "Beni Evlat Edin!",
+      "Blox Fruits",
+      "Brookhaven RP",
+      "Tower of Hell",
+      "Murder Mystery 2",
+      "Piggy",
+      "Royale High",
+      "Arsenal",
+      "Pet Simulator 99",
+      "BedWars"
+    ],
+    "faqs": [
+      {
+        "q": "Favori oyunlarımı nasıl eklerim?",
+        "a": "Seçenek metin kutusuna oyun başlıklarını yazın ve güncelle tuşuna basın."
+      }
+    ]
+  },
+  "/video-game-wheels/smash-bros-characters": {
+    "route": "/video-game-wheels/smash-bros-characters",
+    "type": "wheel",
+    "title": "Smash Bros Karakter Çarkı",
+    "metaDescription": "",
+    "h1": "Smash Bros Karakter Çarkı",
+    "description": "_ Super Smash Bros. Ultimate savaşları için dövüşçünüzü rastgele seçin.",
+    "options": [
+      "Mario",
+      "Eşek Kong",
+      "Link",
+      "Samus",
+      "Yoshi",
+      "Kirby",
+      "Fox",
+      "Pikachu",
+      "Luigi",
+      "Ness",
+      "Kaptan Falcon",
+      "Jigglypuff",
+      "Şeftali",
+      "Bowser",
+      "Zelda",
+      "Sheik",
+      "Marth",
+      "Mewtwo",
+      "Sonic",
+      "Steve",
+      "Sephiroth",
+      "Sora"
+    ],
+    "faqs": [
+      {
+        "q": "Tüm DLC karakterleri destekleniyor mu?",
+        "a": "Steve ve Sora gibi en iyi DLC karakterlerini dahil ediyoruz. Gerisini manuel olarak ekleyebilirsiniz."
+      }
+    ]
+  },
+  "/video-game-wheels/starter-pokemon": {
+    "route": "/video-game-wheels/starter-pokemon",
+    "type": "wheel",
+    "title": "Başlangıç ​​Pokemon Çarkı",
+    "metaDescription": "_",
+    "h1": "_ Başlangıç ​​Pokemon Çarkı",
+    "description": "_ Bir sonraki mücadele koşunuz için 1. Nesil'den 9. Nesil'e kadar rastgele bir başlangıç ​​Pokémon seçin.",
+    "options": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Chikorita",
+      "Cyndaquil",
+      "Totodile",
+      "Treecko",
+      "Torchic",
+      "Mudkip",
+      "Turtwig",
+      "Chimchar",
+      "Piplup",
+      "Snivy",
+      "Tepig",
+      "Oshawott",
+      "Chespin",
+      "Fennekin",
+      "Froakie",
+      "Rowlet",
+      "Litten",
+      "Popplio",
+      "Grookey",
+      "Scorbunny",
+      "Sobble",
+      "Sprigatito",
+      "Fuecoco",
+      "Quaxly"
+    ],
+    "faqs": [
+      {
+        "q": "Pikachu listede var mı?",
+        "a": "Yellow/Let's Go! oynuyorsanız Pikachu veya Eevee'yi manuel olarak ekleyebilirsiniz."
+      }
+    ]
+  },
+  "/video-game-wheels/valorant-agents": {
+    "route": "/video-game-wheels/valorant-agents",
+    "type": "wheel",
+    "title": "Valorant Ajanlar Çarkı",
+    "metaDescription": "",
+    "h1": "_ Valorant Ajanlar Çarkı",
+    "description": "Bir sonraki maçınızda oynayacak rastgele bir Valorant ajanı seçmek için döndürün.",
+    "options": [
+      "Jett",
+      "Raze",
+      "_ Phoenix",
+      "Reyna",
+      "Yoru",
+      "Neon",
+      "Sage",
+      "Cypher",
+      "Killjoy",
+      "Chamber",
+      "Fade",
+      "Sova",
+      "_ Breach",
+      "_ Omen",
+      "Viper",
+      "Astra",
+      "Harbor",
+      "Gekko",
+      "Deadlock",
+      "Iso",
+      "Clove"
+    ],
+    "faqs": [
+      {
+        "q": "Ajan listesi güncellendi mi?",
+        "a": "Evet, yeni acenteleri dahil ediyoruz. Editör aracılığıyla yenilerini ekleyebilirsiniz."
+      }
+    ]
+  },
+  "/wheel-of-names": {
+    "route": "/wheel-of-names",
+    "type": "wheel",
+    "title": "Rastgele İsim Seçici Çark | İsim Çarkını Döndürün",
+    "metaDescription": "Listeden rastgele bir isim seçin. Öğretmenler, çekilişler, oyunlar ve hediyeler için mükemmeldir. İsimleri kaydedin ve anında kazanmak için döndürün.",
+    "h1": "Rastgele İsim Seçme Çarkı",
+    "description": "Bir öğrenciyi mi, çekiliş kazananını mı yoksa rastgele bir gönüllüyü mü seçmeniz gerekiyor? İsim listenizi aşağıya yapıştırın ve çarkı çevirin!",
+    "options": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "Dave",
+      "Eva",
+      "Frank",
+      "Grace"
+    ],
+    "faqs": []
+  },
+  "/yes-no-wheel": {
+    "route": "/yes-no-wheel",
+    "type": "wheel",
+    "title": "Evet veya Hayır Çarkı | Anında Yanıtlar İçin Döndürün",
+    "metaDescription": "_ Herhangi bir soruya anında, tarafsız yanıtlar vermek için Evet veya Hayır çarkını döndürün. Ücretsiz, etkileşimli ve hızlı karar seçici.",
+    "h1": "Evet veya Hayır Çarkı",
+    "description": "_ Bir soru sorun, çarkı çevirin ve anında, tarafsız Evet veya Hayır yanıtı alın!",
+    "options": [
+      "Evet",
+      "_ Hayır",
+      "Evet",
+      "Hayır",
+      "Evet",
+      "_ Hayır"
+    ],
+    "faqs": []
+  }
+}
