@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const projectRoot = 'd:/Project-PDFverse/SpinVerse';
+const projectRoot = 'd:/Project-GameWheel';
 const outDir = path.join(projectRoot, 'out');
 
 if (!fs.existsSync(outDir)) {
@@ -29,7 +29,7 @@ console.log("Switching back to main branch...");
 execSync('git checkout main', { cwd: projectRoot, stdio: 'inherit' });
 
 // 3. Temporarily copy out/ to a folder outside the project
-const tempOut = 'd:/Project-PDFverse/temp_out';
+const tempOut = 'd:/Project-GameWheel-temp_out';
 if (fs.existsSync(tempOut)) {
   fs.rmSync(tempOut, { recursive: true, force: true });
 }
