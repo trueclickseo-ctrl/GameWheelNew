@@ -77,14 +77,14 @@ export default function IcebreakerGamesGuide() {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
                   <div className="neo-card p-6 bg-white dark:bg-slate-800">
-                    <h4 className="font-bold text-lg mb-2 text-retro-orange">The Curiosity Wheel</h4>
+                    <h3 className="font-bold text-lg mb-2 text-retro-orange">The Curiosity Wheel</h3>
                     <p className="text-sm opacity-90">
                       Populate the wheel with interesting, non-invasive questions: &quot;What was your first concert?&quot; &quot;What&apos;s your absolute favorite kitchen appliance?&quot; or &quot;Would you rather travel 100 years into the past or the future?&quot; Spin the wheel and let the active speaker answer.
                     </p>
                   </div>
                   
                   <div className="neo-card p-6 bg-white dark:bg-slate-800">
-                    <h4 className="font-bold text-lg mb-2 text-retro-blue">Speed Storytelling</h4>
+                    <h3 className="font-bold text-lg mb-2 text-retro-blue">Speed Storytelling</h3>
                     <p className="text-sm opacity-90">
                       Combine a digital wheel with a <Link href="/timer" className="font-bold underline hover:text-retro-orange">Timer</Link>. Spin the wheel to get a topic, and challenge the team member to talk about that topic for exactly 45 seconds without using the words &quot;like&quot; or &quot;um.&quot;
                     </p>

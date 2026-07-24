@@ -31,9 +31,9 @@ export default function Footer({ currentLang = "en" }: FooterProps) {
 
         {/* Use Cases */}
         <div className="flex flex-col gap-3">
-          <h4 className="font-extrabold text-sm uppercase tracking-widest text-retro-navy/55 dark:text-cream/55">
+          <h3 className="font-extrabold text-sm uppercase tracking-widest text-retro-navy/55 dark:text-cream/55">
             Use Cases
-          </h4>
+          </h3>
           <div className="flex flex-col gap-2 text-sm font-bold">
             <a href={`${langPrefix}/for-teachers`} className="hover:text-retro-orange transition-colors">
               For Teachers
@@ -49,9 +49,9 @@ export default function Footer({ currentLang = "en" }: FooterProps) {
 
         {/* Learn & Guides */}
         <div className="flex flex-col gap-3">
-          <h4 className="font-extrabold text-sm uppercase tracking-widest text-retro-navy/55 dark:text-cream/55">
+          <h3 className="font-extrabold text-sm uppercase tracking-widest text-retro-navy/55 dark:text-cream/55">
             {dict.learnHub}
-          </h4>
+          </h3>
           <div className="flex flex-col gap-2 text-sm font-bold">
             <a href={`${langPrefix}/learn`} className="hover:text-retro-orange transition-colors">
               {dict.learnHub}
@@ -70,9 +70,9 @@ export default function Footer({ currentLang = "en" }: FooterProps) {
 
         {/* Recent Articles - always English URLs, blog posts have no localized versions */}
         <div className="flex flex-col gap-3">
-          <h4 className="font-extrabold text-sm uppercase tracking-widest text-retro-navy/55 dark:text-cream/55">
+          <h3 className="font-extrabold text-sm uppercase tracking-widest text-retro-navy/55 dark:text-cream/55">
             Recent Blog
-          </h4>
+          </h3>
           <div className="flex flex-col gap-2 text-sm font-bold">
             <a href="/blog/spin-wheels-for-decision-making" className="hover:text-retro-orange transition-colors">
               Wheels for Decisions

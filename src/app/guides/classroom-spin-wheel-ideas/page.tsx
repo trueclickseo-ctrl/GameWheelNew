@@ -77,28 +77,28 @@ export default function ClassroomSpinWheelIdeas() {
 
                 <div className="space-y-4">
                   <div className="neo-card p-5 bg-white dark:bg-slate-800">
-                    <h4 className="font-bold text-lg text-retro-orange mb-1">A. Cold-Calling & Name Drawing</h4>
+                    <h3 className="font-bold text-lg text-retro-orange mb-1">A. Cold-Calling & Name Drawing</h3>
                     <p className="text-sm opacity-90">
                       Traditional cold-calling can cause anxiety and trigger feelings of bias. By displaying a wheel with all students&apos; names, the selection is visibly impartial. To keep it supportive, let the selected student choose a classmate to &quot;phone a friend&quot; if they need assistance.
                     </p>
                   </div>
 
                   <div className="neo-card p-5 bg-white dark:bg-slate-800">
-                    <h4 className="font-bold text-lg text-retro-mint mb-1">B. Vocabulary & Concepts Drill</h4>
+                    <h3 className="font-bold text-lg text-retro-mint mb-1">B. Vocabulary & Concepts Drill</h3>
                     <p className="text-sm text-retro-navy dark:text-cream opacity-90">
                       Populate the wheel segments with this week&apos;s vocabulary words, historical figures, or mathematical formulas. Spin the wheel, and have the class define the chosen item, write it in a sentence, or explain its significance.
                     </p>
                   </div>
 
                   <div className="neo-card p-5 bg-white dark:bg-slate-800">
-                    <h4 className="font-bold text-lg text-retro-blue mb-1">C. Writing & Storytelling Prompts</h4>
+                    <h3 className="font-bold text-lg text-retro-blue mb-1">C. Writing & Storytelling Prompts</h3>
                     <p className="text-sm opacity-90">
                       Add nouns, settings, emotions, or genres to the wheel. Spin it two or three times to generate a unique combination (e.g., &quot;A detective in a bakery feeling nervous&quot;). Have students write a short paragraph based on the generated prompt.
                     </p>
                   </div>
 
                   <div className="neo-card p-5 bg-white dark:bg-slate-800">
-                    <h4 className="font-bold text-lg text-retro-yellow text-retro-navy mb-1">D. Reward & Prize Distribution</h4>
+                    <h3 className="font-bold text-lg text-retro-yellow text-retro-navy mb-1">D. Reward & Prize Distribution</h3>
                     <p className="text-sm text-retro-navy opacity-90">
                       Fill the wheel with small incentives: &quot;5 minutes of free time,&quot; &quot;Pick your seat for the day,&quot; &quot;First in line for lunch,&quot; or &quot;Homework pass.&quot; Use this as a reward for team victories or outstanding behavior.
                     </p>

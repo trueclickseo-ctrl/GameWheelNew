@@ -103,13 +103,13 @@ export default function BestIcebreakerGamesForWork() {
                 </p>
                 <div className="space-y-4">
                   <div className="neo-card p-4 bg-white dark:bg-slate-800 text-retro-navy dark:text-cream">
-                    <h4 className="font-bold text-lg text-retro-orange">A. The &quot;Two Truths and a Lie&quot; Name Draw</h4>
+                    <h3 className="font-bold text-lg text-retro-orange">A. The &quot;Two Truths and a Lie&quot; Name Draw</h3>
                     <p className="text-sm opacity-95">
                       Spin a <Link href="/wheel-of-names" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link> containing all attendees. The chosen person shares two facts and one lie. The team guesses the lie. Fast, engaging, and reveals fun facts.
                     </p>
                   </div>
                   <div className="neo-card p-4 bg-white dark:bg-slate-800 text-retro-navy dark:text-cream">
-                    <h4 className="font-bold text-lg text-retro-blue">B. Quick-Fire Topic Picker</h4>
+                    <h3 className="font-bold text-lg text-retro-blue">B. Quick-Fire Topic Picker</h3>
                     <p className="text-sm opacity-95">
                       Populate a wheel with simple topics: &quot;First concert you attended,&quot; &quot;Worst haircut you ever had,&quot; or &quot;Your dream travel destination.&quot; Spin the wheel and let a team member answer in under 30 seconds.
                     </p>

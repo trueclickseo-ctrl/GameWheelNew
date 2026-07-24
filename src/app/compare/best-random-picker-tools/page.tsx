@@ -252,19 +252,19 @@ export default function BestRandomPickerToolsPage() {
             <h3 className="text-2xl font-black font-display">The Verdict: Which Tool Should You Choose?</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 font-medium">
               <div className="p-6 neo-card bg-retro-mint/20 text-retro-navy">
-                <h4 className="font-extrabold text-lg mb-2">Best for Educators & Streams</h4>
+                <h3 className="font-extrabold text-lg mb-2">Best for Educators & Streams</h3>
                 <p className="text-sm">
                   <strong>GameWheelClub</strong> takes the crown. Its modern, ad-free interface makes it ideal for projecting in classrooms or live streaming without awkward third-party ads appearing.
                 </p>
               </div>
               <div className="p-6 neo-card bg-retro-yellow/20 text-retro-navy">
-                <h4 className="font-extrabold text-lg mb-2">Best for Image Uploads</h4>
+                <h3 className="font-extrabold text-lg mb-2">Best for Image Uploads</h3>
                 <p className="text-sm">
                   <strong>Wheel of Names</strong> is the best match if you need to upload custom images for each wheel slice or store hundreds of different configurations in the cloud.
                 </p>
               </div>
               <div className="p-6 neo-card bg-retro-orange/20 text-retro-navy">
-                <h4 className="font-extrabold text-lg mb-2">Best for Offline Mobile Use</h4>
+                <h3 className="font-extrabold text-lg mb-2">Best for Offline Mobile Use</h3>
                 <p className="text-sm">
                   <strong>Tiny Decisions</strong> is your best option if you want a dedicated native app on your phone with custom haptic vibration motors and simple pre-made templates.
                 </p>
@@ -298,40 +298,40 @@ export default function BestRandomPickerToolsPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-medium">
             <div className="space-y-2">
-              <h4 className="font-extrabold text-lg flex items-start gap-2">
+              <h3 className="font-extrabold text-lg flex items-start gap-2">
                 <HelpCircle className="w-5 h-5 text-retro-orange flex-shrink-0 mt-1" />
                 Are online spinner wheels truly random?
-              </h4>
+              </h3>
               <p className="text-sm opacity-90 leading-relaxed">
                 Yes. Online random choice wheels utilize JavaScript engines such as `Math.random()`, which interface with the operating system&apos;s entropy pool. This generates pseudorandom numbers that are statistically uniform and unbiased for general choice purposes.
               </p>
             </div>
 
             <div className="space-y-2">
-              <h4 className="font-extrabold text-lg flex items-start gap-2">
+              <h3 className="font-extrabold text-lg flex items-start gap-2">
                 <ShieldCheck className="w-5 h-5 text-retro-mint flex-shrink-0 mt-1" />
                 Is GameWheelClub safe to use in classrooms?
-              </h4>
+              </h3>
               <p className="text-sm opacity-90 leading-relaxed">
                 Absolutely. Because GameWheelClub is completely ad-free, teachers do not have to worry about inappropriate ads loading. Also, because all data stays inside your browser, student names are never uploaded or shared with advertisers.
               </p>
             </div>
 
             <div className="space-y-2">
-              <h4 className="font-extrabold text-lg flex items-start gap-2">
+              <h3 className="font-extrabold text-lg flex items-start gap-2">
                 <Eye className="w-5 h-5 text-retro-blue flex-shrink-0 mt-1" />
                 Do I need to sign up for an account to use these features?
-              </h4>
+              </h3>
               <p className="text-sm opacity-90 leading-relaxed">
                 No account is required to use GameWheelClub or Wheel Decider. You can customize options, adjust configurations, and spin wheels immediately upon landing. Wheel of Names requires an account only if you wish to save configurations to their cloud database.
               </p>
             </div>
 
             <div className="space-y-2">
-              <h4 className="font-extrabold text-lg flex items-start gap-2">
+              <h3 className="font-extrabold text-lg flex items-start gap-2">
                 <Shield className="w-5 h-5 text-retro-orange flex-shrink-0 mt-1" />
                 How do I save my custom wheels in GameWheelClub?
-              </h4>
+              </h3>
               <p className="text-sm opacity-90 leading-relaxed">
                 GameWheelClub automatically saves your active wheel configuration to your browser&apos;s localStorage. When you return or refresh the page, your options will be preserved exactly as you left them, completely offline.
               </p>

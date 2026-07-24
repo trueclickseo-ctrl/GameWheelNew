@@ -123,13 +123,13 @@ export default function MathActivitiesUsingRandomGenerators() {
               <div className="space-y-4 font-sans text-base leading-relaxed text-retro-navy/90 dark:text-cream/90">
                 <div className="space-y-4">
                   <div className="neo-card p-4 bg-white dark:bg-slate-800 text-retro-navy dark:text-cream">
-                    <h4 className="font-bold text-lg text-retro-orange">A. Target Number Battle</h4>
+                    <h3 className="font-bold text-lg text-retro-orange">A. Target Number Battle</h3>
                     <p className="text-sm opacity-95">
                       Generate a random 3-digit target number and 5 single-digit numbers. Students must combine the 5 single-digit numbers using addition, subtraction, multiplication, or division to get as close to the target number as possible in 3 minutes.
                     </p>
                   </div>
                   <div className="neo-card p-4 bg-white dark:bg-slate-800 text-retro-navy dark:text-cream">
-                    <h4 className="font-bold text-lg text-retro-blue">B. Probability Prediction Game</h4>
+                    <h3 className="font-bold text-lg text-retro-blue">B. Probability Prediction Game</h3>
                     <p className="text-sm opacity-95">
                       Set a random number generator between 1 and 100. Ask students to write down whether the next generated number will be odd/even, prime/composite, or higher/lower than 50. Run 10 trials to see who gets the highest score.
                     </p>

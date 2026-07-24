@@ -103,13 +103,13 @@ export default function PartyGamesForAdults() {
                 </p>
                 <div className="space-y-4">
                   <div className="neo-card p-4 bg-white dark:bg-slate-800 text-retro-navy dark:text-cream">
-                    <h4 className="font-bold text-lg text-retro-orange">Digital Truth or Dare</h4>
+                    <h3 className="font-bold text-lg text-retro-orange">Digital Truth or Dare</h3>
                     <p className="text-sm opacity-90">
                       Write dares and thought-provoking truth questions onto a wheel. Spin it to select who gets questioned, or let the player spin to choose their category. This removes the stress of making up questions on the fly.
                     </p>
                   </div>
                   <div className="neo-card p-4 bg-white dark:bg-slate-800 text-retro-navy dark:text-cream">
-                    <h4 className="font-bold text-lg text-retro-blue">Never Have I Ever Spinner</h4>
+                    <h3 className="font-bold text-lg text-retro-blue">Never Have I Ever Spinner</h3>
                     <p className="text-sm opacity-90">
                       Populate a wheel with creative prompts. Spin the wheel to decide the prompt, keeping the game fresh and avoiding repetitive questions.
                     </p>
