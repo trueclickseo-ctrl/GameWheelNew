@@ -1,63 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Send, CheckCircle } from "lucide-react";
 
 export default function ContactPage() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!name || !email || !message) return;
-
-    setIsSubmitting(true);
-    setErrorMessage("");
-
-    try {
-      // Submit via FormSubmit.co AJAX API directly to trueclickseo@gmail.com
-      const response = await fetch("https://formsubmit.co/ajax/trueclickseo@gmail.com", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Accept": "application/json"
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          message,
-          _subject: "New Message from GameWheelClub Contact Form",
-          _captcha: "false",
-          _template: "table"
-        })
-      });
-
-      const data = await response.json();
-      if (response.ok && (data.success === "true" || data.success === true)) {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get("submitted") === "true") {
         setSubmitted(true);
-      } else {
-        // Fallback to mailto if AJAX fails
-        triggerMailtoFallback();
       }
-    } catch (err) {
-      console.error("FormSubmit error:", err);
-      triggerMailtoFallback();
-    } finally {
-      setIsSubmitting(false);
     }
-  };
-
-  const triggerMailtoFallback = () => {
-    const mailtoUrl = `mailto:trueclickseo@gmail.com?subject=GameWheelClub%20Contact&body=Name:%20${encodeURIComponent(name)}%0D%0AEmail:%20${encodeURIComponent(email)}%0D%0AMessage:%20${encodeURIComponent(message)}`;
-    window.location.href = mailtoUrl;
-    setSubmitted(true);
-  };
+  }, []);
 
   return (
     <>
@@ -81,26 +39,25 @@ export default function ContactPage() {
               <p className="font-medium opacity-80">
                 Your message has been received. We will get back to you shortly at trueclickseo@gmail.com.
               </p>
-              <button
+              <a
                 id="send-another-btn"
-                onClick={() => {
-                  setSubmitted(false);
-                  setName("");
-                  setEmail("");
-                  setMessage("");
-                }}
-                className="px-6 py-2 neo-btn bg-retro-blue text-white"
+                href="/contact"
+                className="inline-block px-6 py-2 neo-btn bg-retro-blue text-white font-bold hover:scale-105 transition-transform"
               >
                 Send Another Message
-              </button>
+              </a>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-6">
-              {errorMessage && (
-                <div className="p-3 neo-card bg-retro-orange text-white text-xs font-bold">
-                  {errorMessage}
-                </div>
-              )}
+            <form
+              action="https://formsubmit.co/trueclickseo@gmail.com"
+              method="POST"
+              className="space-y-6"
+            >
+              {/* FormSubmit configuration fields */}
+              <input type="hidden" name="_subject" value="New Message from GameWheelClub Contact Form" />
+              <input type="hidden" name="_next" value="https://gamewheelclub.com/contact/?submitted=true" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
 
               <div className="flex flex-col gap-2">
                 <label htmlFor="contact-name" className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">
@@ -108,10 +65,9 @@ export default function ContactPage() {
                 </label>
                 <input
                   id="contact-name"
+                  name="name"
                   type="text"
                   required
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
                   placeholder="Jane Doe"
                   className="neo-input"
                 />
@@ -123,10 +79,9 @@ export default function ContactPage() {
                 </label>
                 <input
                   id="contact-email"
+                  name="email"
                   type="email"
                   required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="jane@example.com"
                   className="neo-input"
                 />
@@ -138,10 +93,9 @@ export default function ContactPage() {
                 </label>
                 <textarea
                   id="contact-message"
+                  name="message"
                   required
                   rows={4}
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
                   placeholder="Let us know what you think..."
                   className="neo-input resize-none"
                 />
@@ -150,11 +104,10 @@ export default function ContactPage() {
               <button
                 id="contact-submit-btn"
                 type="submit"
-                disabled={isSubmitting}
-                className="w-full py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy font-bold flex items-center justify-center gap-2 hover:scale-102 transition-transform disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy font-bold flex items-center justify-center gap-2 hover:scale-102 transition-transform cursor-pointer"
               >
-                <Send className="w-5 h-5" />
-                {isSubmitting ? "Sending..." : "Send Message"}
+                <Send className="w-5 h-5" aria-hidden="true" />
+                <span>Send Message</span>
               </button>
             </form>
           )}
