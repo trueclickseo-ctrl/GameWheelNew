@@ -112,10 +112,10 @@ export default function NumberGenerator() {
             <button
               onClick={copyToClipboard}
               className="p-1.5 neo-btn bg-white dark:bg-retro-navy hover:scale-105 transition-transform flex items-center gap-1.5 text-xs"
-              aria-label="Copy to clipboard"
+              aria-label="Copy results to clipboard"
             >
-              {copied ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4" />}
-              {copied ? "Copied!" : "Copy"}
+              {copied ? <Check className="w-4 h-4 text-green-500" aria-hidden="true" /> : <Copy className="w-4 h-4" aria-hidden="true" />}
+              <span>{copied ? "Copied!" : "Copy"}</span>
             </button>
           </div>
           <div className="flex flex-wrap gap-2 max-h-[160px] overflow-y-auto p-1">

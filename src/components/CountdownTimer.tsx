@@ -136,7 +136,8 @@ export default function CountdownTimer() {
           className="p-3 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream hover:bg-slate-100 transition-colors"
           aria-label="Reset Timer"
         >
-          <RotateCcw className="w-5 h-5" />
+          <RotateCcw className="w-5 h-5" aria-hidden="true" />
+          <span className="sr-only">Reset Timer</span>
         </button>
 
         <button
@@ -146,7 +147,8 @@ export default function CountdownTimer() {
           aria-label="Toggle Alarm Sound"
           aria-pressed={soundEnabled}
         >
-          {soundEnabled ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
+          {soundEnabled ? <Volume2 className="w-5 h-5" aria-hidden="true" /> : <VolumeX className="w-5 h-5" aria-hidden="true" />}
+          <span className="sr-only">{soundEnabled ? "Disable Sound" : "Enable Sound"}</span>
         </button>
       </div>
     </div>

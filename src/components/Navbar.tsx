@@ -123,7 +123,8 @@ export default function Navbar({ currentLang = "en" }: NavbarProps) {
           aria-expanded={isOpen}
           aria-controls="mobile-navigation-menu"
         >
-          {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {isOpen ? <X className="w-6 h-6" aria-hidden="true" /> : <Menu className="w-6 h-6" aria-hidden="true" />}
+          <span className="sr-only">Toggle Navigation Menu</span>
         </button>
       </div>
 

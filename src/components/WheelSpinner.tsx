@@ -433,8 +433,8 @@ export default function WheelSpinner({
             className="px-8 py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy text-lg flex items-center gap-2 hover:scale-105 transition-transform disabled:opacity-50"
             aria-label="Spin the decision wheel"
           >
-            <RotateCw className={`w-5 h-5 ${isSpinning ? "animate-spin" : ""}`} />
-            {isSpinning ? "Spinning..." : "SPIN!"}
+            <RotateCw className={`w-5 h-5 ${isSpinning ? "animate-spin" : ""}`} aria-hidden="true" />
+            <span>{isSpinning ? "Spinning..." : "SPIN!"}</span>
           </button>
           
           <button
@@ -444,7 +444,8 @@ export default function WheelSpinner({
             aria-label="Toggle Sound"
             aria-pressed={soundEnabled}
           >
-            {soundEnabled ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
+            {soundEnabled ? <Volume2 className="w-5 h-5" aria-hidden="true" /> : <VolumeX className="w-5 h-5" aria-hidden="true" />}
+            <span className="sr-only">{soundEnabled ? "Mute Sound" : "Enable Sound"}</span>
           </button>
 
           <button
@@ -454,7 +455,8 @@ export default function WheelSpinner({
             aria-label="Share via QR Code"
             title="Share via QR Code"
           >
-            <Share2 className="w-5 h-5" />
+            <Share2 className="w-5 h-5" aria-hidden="true" />
+            <span className="sr-only">Share via QR Code</span>
           </button>
         </div>
 
@@ -494,10 +496,11 @@ export default function WheelSpinner({
           <button
             id="add-option-btn"
             type="submit"
-            className="px-4 py-2 neo-btn bg-retro-mint text-retro-navy flex items-center justify-center hover:scale-102 transition-transform"
+            className="px-4 py-2 neo-btn bg-retro-mint text-retro-navy flex items-center justify-center gap-1 hover:scale-102 transition-transform cursor-pointer"
             aria-label="Add option"
           >
-            <Plus className="w-5 h-5" />
+            <Plus className="w-5 h-5" aria-hidden="true" />
+            <span className="font-bold text-sm">Add</span>
           </button>
         </form>
 
@@ -511,10 +514,11 @@ export default function WheelSpinner({
               <span>{opt}</span>
               <button
                 onClick={() => removeOption(idx)}
-                className="text-retro-orange hover:text-red-600 transition-colors"
+                className="text-retro-orange hover:text-red-600 transition-colors p-1"
                 aria-label={`Remove option ${opt}`}
               >
-                <Trash2 className="w-4 h-4" />
+                <Trash2 className="w-4 h-4" aria-hidden="true" />
+                <span className="sr-only">Remove {opt}</span>
               </button>
             </div>
           ))}

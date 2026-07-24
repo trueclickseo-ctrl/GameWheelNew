@@ -27,10 +27,11 @@ export default function ThemeToggle() {
       aria-pressed={theme === "dark"}
     >
       {theme === "light" ? (
-        <Moon className="w-5 h-5" />
+        <Moon className="w-5 h-5" aria-hidden="true" />
       ) : (
-        <Sun className="w-5 h-5" />
+        <Sun className="w-5 h-5" aria-hidden="true" />
       )}
+      <span className="sr-only">Toggle theme</span>
     </button>
   );
 }

@@ -96,7 +96,8 @@ export default function ShareModal({ isOpen, onClose, shareUrl }: ShareModalProp
               className="absolute top-4 right-4 p-1 rounded-md border border-transparent hover:border-retro-navy dark:hover:border-cream transition-colors text-retro-navy dark:text-cream"
               aria-label="Close modal"
             >
-              <X className="w-5 h-5" />
+              <X className="w-5 h-5" aria-hidden="true" />
+              <span className="sr-only">Close modal</span>
             </button>
 
             <h3 id="share-modal-title" className="text-xl font-black font-display text-retro-navy dark:text-cream mt-2 mb-1">
@@ -127,11 +128,12 @@ export default function ShareModal({ isOpen, onClose, shareUrl }: ShareModalProp
 
             {/* Copyable URL fallback */}
             <div className="w-full mb-2">
-              <label className="block text-left text-xs font-black uppercase tracking-wider mb-1.5 text-retro-navy/70 dark:text-cream/70">
+              <label htmlFor="share-link-input" className="block text-left text-xs font-black uppercase tracking-wider mb-1.5 text-retro-navy/70 dark:text-cream/70">
                 Share Link
               </label>
               <div className="flex gap-2">
                 <input
+                  id="share-link-input"
                   type="text"
                   readOnly
                   value={shareUrl}
@@ -144,7 +146,8 @@ export default function ShareModal({ isOpen, onClose, shareUrl }: ShareModalProp
                   aria-label={copied ? "Copied" : "Copy Link"}
                   title="Copy share link"
                 >
-                  {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
+                  {copied ? <Check className="w-4 h-4" aria-hidden="true" /> : <Copy className="w-4 h-4" aria-hidden="true" />}
+                  <span className="sr-only">{copied ? "Copied link" : "Copy share link"}</span>
                 </button>
               </div>
             </div>
