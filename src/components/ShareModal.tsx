@@ -85,6 +85,9 @@ export default function ShareModal({ isOpen, onClose, shareUrl }: ShareModalProp
             initial={{ scale: 0.95, opacity: 0, y: 10 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.95, opacity: 0, y: 10 }}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="share-modal-title"
             className="relative w-full max-w-sm neo-card bg-white dark:bg-retro-navy p-6 flex flex-col items-center text-center z-10"
           >
             {/* Close Button */}
@@ -96,7 +99,7 @@ export default function ShareModal({ isOpen, onClose, shareUrl }: ShareModalProp
               <X className="w-5 h-5" />
             </button>
 
-            <h3 className="text-xl font-black font-display text-retro-navy dark:text-cream mt-2 mb-1">
+            <h3 id="share-modal-title" className="text-xl font-black font-display text-retro-navy dark:text-cream mt-2 mb-1">
               Share Wheel via QR
             </h3>
             <p className="text-xs font-semibold text-retro-navy/70 dark:text-cream/70 mb-6">

@@ -29,9 +29,12 @@ export default function LanguageSwitcher({ currentLang = "en" }: LanguageSwitche
   return (
     <div ref={dropdownRef} className="relative">
       <button
+        id="language-switcher-btn"
         onClick={() => setIsOpen(!isOpen)}
+        aria-expanded={isOpen}
+        aria-haspopup="true"
         className="flex items-center gap-1.5 px-3 py-1.5 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream text-xs font-bold hover:scale-102 transition-transform cursor-pointer"
-        aria-label="Change Language"
+        aria-label="Select Language"
         title="Select Language"
       >
         <Globe className="w-3.5 h-3.5 text-retro-orange" />

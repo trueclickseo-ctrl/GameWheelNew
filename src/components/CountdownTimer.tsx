@@ -87,26 +87,30 @@ export default function CountdownTimer() {
       {!isRunning && (
         <div className="flex gap-4 justify-center items-center">
           <div className="flex flex-col gap-1">
-            <span className="text-xs font-bold uppercase tracking-wider text-retro-navy/60 dark:text-cream/60">Minutes</span>
+            <label htmlFor="minutes-input" className="text-xs font-bold uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">Minutes</label>
             <input
+              id="minutes-input"
               type="number"
               min={0}
               max={99}
               value={minutes}
               onChange={(e) => setMinutes(Math.min(99, Math.max(0, parseInt(e.target.value) || 0)))}
               className="w-20 text-center neo-input text-lg font-bold"
+              aria-label="Minutes"
             />
           </div>
           <span className="font-bold text-2xl mt-4">:</span>
           <div className="flex flex-col gap-1">
-            <span className="text-xs font-bold uppercase tracking-wider text-retro-navy/60 dark:text-cream/60">Seconds</span>
+            <label htmlFor="seconds-input" className="text-xs font-bold uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">Seconds</label>
             <input
+              id="seconds-input"
               type="number"
               min={0}
               max={59}
               value={seconds}
               onChange={(e) => setSeconds(Math.min(59, Math.max(0, parseInt(e.target.value) || 0)))}
               className="w-20 text-center neo-input text-lg font-bold"
+              aria-label="Seconds"
             />
           </div>
         </div>
@@ -115,7 +119,9 @@ export default function CountdownTimer() {
       {/* Control Buttons */}
       <div className="flex gap-4 items-center justify-center mt-2">
         <button
+          id="timer-toggle-btn"
           onClick={handleStartPause}
+          aria-label={isRunning ? "Pause timer" : "Start timer"}
           className={`px-8 py-3 neo-btn text-white dark:text-retro-navy text-lg flex items-center gap-2 hover:scale-105 transition-transform ${
             isRunning ? "bg-retro-orange" : "bg-retro-mint"
           }`}
@@ -125,6 +131,7 @@ export default function CountdownTimer() {
         </button>
 
         <button
+          id="timer-reset-btn"
           onClick={handleReset}
           className="p-3 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream hover:bg-slate-100 transition-colors"
           aria-label="Reset Timer"
@@ -133,9 +140,11 @@ export default function CountdownTimer() {
         </button>
 
         <button
+          id="timer-sound-btn"
           onClick={() => setSoundEnabled(!soundEnabled)}
           className="p-3 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream hover:bg-slate-100 transition-colors"
           aria-label="Toggle Alarm Sound"
+          aria-pressed={soundEnabled}
         >
           {soundEnabled ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
         </button>

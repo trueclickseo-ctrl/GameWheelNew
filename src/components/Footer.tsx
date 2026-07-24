@@ -18,11 +18,13 @@ export default function Footer({ currentLang = "en" }: FooterProps) {
             <img 
               src="/logo.jpg" 
               alt="GameWheelClub Logo" 
+              width={32}
+              height={32}
               className="w-8 h-8 rounded border-2 border-retro-navy dark:border-cream object-cover"
             />
             <span>Game<span className="text-retro-orange">Wheel</span>Club</span>
           </div>
-          <p className="text-sm font-semibold max-w-sm opacity-80 leading-relaxed">
+          <p className="text-sm font-semibold max-w-sm opacity-90 leading-relaxed">
             {dict.heroSubtitle}
           </p>
         </div>

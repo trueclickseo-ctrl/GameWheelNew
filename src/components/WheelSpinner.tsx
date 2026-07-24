@@ -427,23 +427,28 @@ export default function WheelSpinner({
         {/* Action Controls */}
         <div className="flex items-center gap-4 mt-2">
           <button
+            id="spin-button"
             onClick={handleSpin}
             disabled={isSpinning || options.length === 0}
             className="px-8 py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy text-lg flex items-center gap-2 hover:scale-105 transition-transform disabled:opacity-50"
+            aria-label="Spin the decision wheel"
           >
             <RotateCw className={`w-5 h-5 ${isSpinning ? "animate-spin" : ""}`} />
             {isSpinning ? "Spinning..." : "SPIN!"}
           </button>
           
           <button
+            id="sound-toggle-btn"
             onClick={() => setSoundEnabled(!soundEnabled)}
             className="p-3 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream hover:bg-slate-100 transition-colors"
             aria-label="Toggle Sound"
+            aria-pressed={soundEnabled}
           >
             {soundEnabled ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
           </button>
 
           <button
+            id="share-btn"
             onClick={() => setIsShareOpen(true)}
             className="p-3 neo-btn bg-retro-blue text-white dark:text-retro-navy hover:scale-105 transition-transform"
             aria-label="Share via QR Code"
@@ -459,8 +464,10 @@ export default function WheelSpinner({
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             className="mt-6 p-4 neo-card bg-retro-yellow text-retro-navy text-center max-w-sm"
+            role="region"
+            aria-live="polite"
           >
-            <p className="text-xs uppercase font-extrabold tracking-widest text-retro-navy/60">The Winner is</p>
+            <p className="text-xs uppercase font-extrabold tracking-widest text-retro-navy/80">The Winner is</p>
             <h3 className="text-2xl font-black">{winner}</h3>
           </motion.div>
         )}
@@ -475,16 +482,20 @@ export default function WheelSpinner({
         {/* Single Add Form */}
         <form onSubmit={addOption} className="flex gap-2 mb-4">
           <input
+            id="option-input"
             type="text"
             placeholder="Add new option..."
             value={newOption}
             onChange={(e) => setNewOption(e.target.value)}
             className="flex-1 neo-input"
             maxLength={30}
+            aria-label="Add new option"
           />
           <button
+            id="add-option-btn"
             type="submit"
             className="px-4 py-2 neo-btn bg-retro-mint text-retro-navy flex items-center justify-center hover:scale-102 transition-transform"
+            aria-label="Add option"
           >
             <Plus className="w-5 h-5" />
           </button>
@@ -511,10 +522,11 @@ export default function WheelSpinner({
 
         {/* Bulk Input option */}
         <div className="mb-4">
-          <label className="block text-xs font-bold uppercase tracking-wider mb-2 text-retro-navy/70 dark:text-cream/70">
+          <label htmlFor="bulk-edit-textarea" className="block text-xs font-bold uppercase tracking-wider mb-2 text-retro-navy/80 dark:text-cream/80">
             Bulk Edit (one option per line)
           </label>
           <textarea
+            id="bulk-edit-textarea"
             rows={3}
             placeholder="Paste your options here..."
             onChange={(e) => bulkAddOptions(e.target.value)}
@@ -526,13 +538,14 @@ export default function WheelSpinner({
         {/* Manual Speed (Power) Slider */}
         <div className="border-t-2 border-retro-navy/10 dark:border-cream/10 pt-4">
           <div className="flex justify-between items-center mb-1.5">
-            <span className="text-xs font-black uppercase tracking-wider text-retro-navy/70 dark:text-cream/70 flex items-center gap-1.5">
+            <label htmlFor="spin-power-slider" className="text-xs font-black uppercase tracking-wider text-retro-navy/80 dark:text-cream/80 flex items-center gap-1.5">
               <Gauge className="w-4 h-4 text-retro-orange animate-pulse" />
               Manual Spin Power
-            </span>
+            </label>
             <span className="text-sm font-black text-retro-orange">{spinPower}%</span>
           </div>
           <input
+            id="spin-power-slider"
             type="range"
             min="20"
             max="100"
@@ -541,8 +554,9 @@ export default function WheelSpinner({
             onChange={(e) => setSpinPower(Number(e.target.value))}
             disabled={isSpinning}
             className="w-full accent-retro-orange cursor-pointer"
+            aria-label="Manual Spin Power"
           />
-          <div className="flex justify-between text-[10px] font-bold text-retro-navy/40 dark:text-cream/40 mt-1">
+          <div className="flex justify-between text-[10px] font-bold text-retro-navy/60 dark:text-cream/60 mt-1">
             <span>Slow</span>
             <span>Medium</span>
             <span>Turbo</span>

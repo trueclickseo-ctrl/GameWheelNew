@@ -54,11 +54,14 @@ export default function DiceRoller() {
         {[1, 2, 3].map((num) => (
           <button
             key={num}
+            id={`dice-count-${num}-btn`}
             onClick={() => {
               if (isRolling) return;
               setDiceCount(num);
               setDiceValues(Array(num).fill(6));
             }}
+            aria-label={`Select ${num} dice`}
+            aria-pressed={diceCount === num}
             className={`px-4 py-1.5 neo-btn text-sm ${
               diceCount === num ? "bg-retro-blue text-white" : "bg-white dark:bg-retro-navy text-retro-navy dark:text-cream"
             }`}
@@ -76,6 +79,7 @@ export default function DiceRoller() {
             animate={isRolling ? { rotate: [0, 90, 180, 270, 360], scale: [1, 0.9, 1.1, 1] } : {}}
             transition={{ duration: 0.8 }}
             className="w-24 h-24 neo-card bg-cream dark:bg-white text-retro-navy p-3 grid grid-cols-3 grid-rows-3 gap-1 relative shadow-inner"
+            aria-label={`Dice showing ${val}`}
           >
             {getDots(val).map((dot, dotIdx) => (
               <div
@@ -92,15 +96,21 @@ export default function DiceRoller() {
       </div>
 
       <button
+        id="dice-roll-btn"
         onClick={rollDice}
         disabled={isRolling}
+        aria-label="Roll dice"
         className="px-8 py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy text-lg font-black tracking-wide hover:scale-105 transition-transform disabled:opacity-50"
       >
         {isRolling ? "Rolling..." : "ROLL DICE"}
       </button>
 
       {!isRolling && (
-        <div className="mt-2 p-3 neo-card bg-retro-yellow text-retro-navy text-xl font-black w-full">
+        <div
+          role="region"
+          aria-live="polite"
+          className="mt-2 p-3 neo-card bg-retro-yellow text-retro-navy text-xl font-black w-full"
+        >
           Total Score: {total}
         </div>
       )}

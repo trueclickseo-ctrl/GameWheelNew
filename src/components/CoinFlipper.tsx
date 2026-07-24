@@ -67,8 +67,10 @@ export default function CoinFlipper() {
       </div>
 
       <button
+        id="coin-flip-btn"
         onClick={handleFlip}
         disabled={isFlipped}
+        aria-label="Flip coin to decide Heads or Tails"
         className="px-8 py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy text-lg font-black tracking-wide hover:scale-105 transition-transform disabled:opacity-50"
       >
         {isFlipped ? "Flipping..." : "FLIP COIN"}
@@ -78,6 +80,8 @@ export default function CoinFlipper() {
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
+          role="region"
+          aria-live="polite"
           className="mt-2 p-3 neo-card bg-retro-mint text-retro-navy text-xl font-black w-full"
         >
           Result: {result}

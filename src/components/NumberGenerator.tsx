@@ -48,8 +48,9 @@ export default function NumberGenerator() {
     <div className="w-full max-w-lg mx-auto neo-card p-6 md:p-8 bg-white dark:bg-retro-navy flex flex-col gap-6">
       <div className="grid grid-cols-2 gap-4">
         <div className="flex flex-col gap-2">
-          <label className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">Min Value</label>
+          <label htmlFor="min-val-input" className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">Min Value</label>
           <input
+            id="min-val-input"
             type="number"
             value={min}
             onChange={(e) => setMin(parseInt(e.target.value) || 0)}
@@ -57,8 +58,9 @@ export default function NumberGenerator() {
           />
         </div>
         <div className="flex flex-col gap-2">
-          <label className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">Max Value</label>
+          <label htmlFor="max-val-input" className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">Max Value</label>
           <input
+            id="max-val-input"
             type="number"
             value={max}
             onChange={(e) => setMax(parseInt(e.target.value) || 0)}
@@ -69,8 +71,9 @@ export default function NumberGenerator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
         <div className="flex flex-col gap-2">
-          <label className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">Quantity</label>
+          <label htmlFor="quantity-input" className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">Quantity</label>
           <input
+            id="quantity-input"
             type="number"
             value={count}
             min={1}
@@ -94,7 +97,9 @@ export default function NumberGenerator() {
       </div>
 
       <button
+        id="generate-numbers-btn"
         onClick={generateNumbers}
+        aria-label="Generate random numbers"
         className="w-full py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy text-lg font-black hover:scale-102 transition-transform"
       >
         GENERATE NUMBERS

@@ -439,6 +439,183 @@ function HistoryContent() {
 
 // ─── GENERIC CATEGORY CONTENT ───────────────────────────────────────────────
 function CategoryContent({ pathStr, dict, langPrefix }: { pathStr: string; dict: ReturnType<typeof getDictionary>; langPrefix: string }) {
+  // Let's get the specific wheels array for each category path
+  let wheelsList: { name: string; href: string; desc: string }[] = [];
+  let categoryTitle = pathStr.replace(/-/g, " ");
+  let categoryDesc = dict.heroSubtitle;
+
+  if (pathStr === "sports-wheels") {
+    categoryTitle = "Sports Randomizer Wheels";
+    categoryDesc = "Interactive preconfigured tools built for fantasy leagues, draft pick simulators, challenges, and team debates.";
+    wheelsList = [
+      { name: "NFL Teams Wheel", href: "/sports-wheels/nfl-teams", desc: "Spin to pick a random NFL franchise. Great for fantasy draft orders." },
+      { name: "NFL Players Wheel", href: "/sports-wheels/nfl-players", desc: "Select randomly from top active football players in the NFL league." },
+      { name: "NFL Positions Wheel", href: "/sports-wheels/nfl-positions", desc: "Randomly pick positions like quarterback, linebacker, or safety." },
+      { name: "College Teams Wheel", href: "/sports-wheels/college-teams", desc: "Select NCAA college football and basketball divisions randomly." },
+      { name: "Football Players Wheel", href: "/sports-wheels/football-players", desc: "Spin to select world football (soccer) star players randomly." },
+      { name: "NBA Teams Wheel", href: "/sports-wheels/nba-teams", desc: "Choose a random NBA franchise for exhibition games or drafts." },
+      { name: "NBA Players Wheel", href: "/sports-wheels/nba-players", desc: "Spin to select a random active NBA basketball player." },
+      { name: "MLB Teams Wheel", href: "/sports-wheels/mlb-teams", desc: "Pick a random Major League Baseball franchise." },
+      { name: "NHL Teams Wheel", href: "/sports-wheels/nhl-teams", desc: "Settle exhibition matches with a random NHL hockey team." },
+      { name: "Golf Club Wheel", href: "/sports-wheels/golf-wheel", desc: "Spin to decide which club to hit next during practice or challenges." },
+      { name: "FIFA World Cup 2026", href: "/sports-wheels/fifa-world-cup-2026", desc: "Simulate groups or pick countries qualifying for the 2026 tourney." },
+      { name: "Best Sports Teams", href: "/sports-wheels/best-teams", desc: "Pick historically legendary sports teams across multiple disciplines." },
+    ];
+  } else if (pathStr === "character-creator") {
+    categoryTitle = "Character Creator & OC Wheels";
+    categoryDesc = "Design random characters, OCs, and avatars instantly. Spin for hairstyles, outfits, eyes, skin tones, and gacha ideas.";
+    wheelsList = [
+      { name: "Create an OC Wheel", href: "/character-creator/create-an-oc", desc: "Spin this wheel to generate a random background, race, or class for your next original character." },
+      { name: "Boy or Girl OC Spinner", href: "/character-creator/boy-or-girl-oc", desc: "Stuck on deciding the gender identity of your next character? Spin the pointer to decide instantly." },
+      { name: "Gacha Character Generator Wheel", href: "/character-creator/gacha-character-generator", desc: "Spin for styling themes, aesthetics, and fashion concepts to build your next Gacha Life or Gacha Club character." },
+      { name: "Hair Color Wheel", href: "/character-creator/hair-color", desc: "Spin to pick a random hair dye or OC hair color. Preloaded with natural tones and vibrant neon dyes." },
+      { name: "Hair Style Wheel", href: "/character-creator/hair-style", desc: "Select a random hairstyle for character sheets, drawings, or model designs." },
+      { name: "Eye Color Wheel", href: "/character-creator/eye-color", desc: "Decide eye shades and fantasy iris styles for your OC instantly." },
+      { name: "Skin Tone Wheel", href: "/character-creator/skin-tone", desc: "Select random skin shades, undertones, and creature textures." },
+      { name: "Clothing Style Wheel", href: "/character-creator/clothing-style", desc: "Get fashion ideas and outfit aesthetics for character creators." },
+      { name: "Gender Randomizer Wheel", href: "/character-creator/gender-randomizer", desc: "Randomize pronouns, gender identities, and presentation styles." },
+      { name: "Age Spinner Wheel", href: "/character-creator/age-spinner", desc: "Randomly choose character ages and development stages." },
+      { name: "Nationality Generator Wheel", href: "/character-creator/nationality-generator", desc: "Pick random national backgrounds and citizenships for global characters." }
+    ];
+  } else if (pathStr === "anime-fandom-wheels") {
+    categoryTitle = "Anime & Fandom Wheels";
+    categoryDesc = "Choose your next watchlist, settle debate matchups, or pick fandom characters randomly using our pre-built preset options.";
+    wheelsList = [
+      { name: "Anime Characters Wheel", href: "/anime-fandom-wheels/anime-characters", desc: "Select randomly from popular characters across various hit anime series." },
+      { name: "Anime to Watch Wheel", href: "/anime-fandom-wheels/anime-to-watch", desc: "Can't decide what series to binge next? Let this randomizer pick one." },
+      { name: "Cartoon Characters Wheel", href: "/anime-fandom-wheels/cartoon-characters", desc: "Pick random classic and modern cartoon network/Disney characters." },
+      { name: "Disney Movie Generator", href: "/anime-fandom-wheels/disney-movie-generator", desc: "Choose a random Disney or Pixar animated movie for movie night." },
+      { name: "Marvel Superheroes", href: "/anime-fandom-wheels/marvel-superheroes", desc: "Spin to select a random Avenger or Marvel Universe superhero." },
+      { name: "Naruto Characters", href: "/anime-fandom-wheels/naruto-characters", desc: "Randomly pick ninja characters from the Hidden Leaf village." },
+      { name: "One Piece Characters", href: "/anime-fandom-wheels/one-piece-characters", desc: "Spin to pick from the Straw Hat crew and other grand line pirates." },
+      { name: "One Piece Devil Fruits", href: "/anime-fandom-wheels/one-piece-devil-fruits", desc: "Randomly select which Devil Fruit power you would inherit." },
+      { name: "Demon Slayer Characters", href: "/anime-fandom-wheels/demon-slayer-characters", desc: "Pick random demon slayers and hashiras from Kimetsu no Yaiba." },
+      { name: "Jujutsu Kaisen Characters", href: "/anime-fandom-wheels/jujutsu-kaisen-characters", desc: "Select random sorcerers and cursed spirits from JJK." },
+      { name: "JJK Cursed Techniques", href: "/anime-fandom-wheels/jjk-cursed-techniques", desc: "Spin to randomly select a cursed technique power from Jujutsu Kaisen." },
+      { name: "MHA Characters Wheel", href: "/anime-fandom-wheels/mha-characters", desc: "Pick random heroes and villains from My Hero Academia." },
+      { name: "FNAF Characters Wheel", href: "/anime-fandom-wheels/fnaf-characters", desc: "Select animatronics from Five Nights at Freddy's series." },
+      { name: "Dandy's World Wheel", href: "/anime-fandom-wheels/dandys-world", desc: "Randomly choose characters and toons from Dandy's World." },
+      { name: "Dandy's World OC Generator", href: "/anime-fandom-wheels/dandys-world-oc-generator", desc: "Spin to generate random OC design parameters for Dandy's World." },
+      { name: "Dandy's World Trinkets", href: "/anime-fandom-wheels/dandys-world-trinkets", desc: "Randomly pick which trinket items to equip for your next run." },
+      { name: "DTI Theme Wheel", href: "/anime-fandom-wheels/dti-theme-wheel", desc: "Pick a random style theme for Dress To Impress Roblox gameplay." },
+      { name: "BFDI Contestants Wheel", href: "/anime-fandom-wheels/bfdi-contestants", desc: "Select random object show contestants from Battle for Dream Island." },
+      { name: "Aesthetics Wheel", href: "/anime-fandom-wheels/aesthetics-wheel", desc: "Spin to pick a random fashion style or aesthetic theme." }
+    ];
+  } else if (pathStr === "video-game-wheels") {
+    categoryTitle = "Video Game Wheels";
+    categoryDesc = "Spin to pick gaming setups, agents, champions, types, challenges, and play styles. Covers Valorant, LoL, Pokémon, Roblox, and Fortnite.";
+    wheelsList = [
+      { name: "Valorant Agents Wheel", href: "/video-game-wheels/valorant-agents", desc: "Spin to pick a random Valorant agent to play in your next match." },
+      { name: "League of Legends Champions Wheel", href: "/video-game-wheels/league-of-legends-champions", desc: "Randomly choose a League champion for your next draft or ARAM game." },
+      { name: "Roblox Games Wheel", href: "/video-game-wheels/roblox-games", desc: "Spin to choose a fun Roblox game to play when you are bored." },
+      { name: "Smash Bros Characters Wheel", href: "/video-game-wheels/smash-bros-characters", desc: "Randomize your fighter for Super Smash Bros. Ultimate battles." },
+      { name: "Overwatch 2 Characters Wheel", href: "/video-game-wheels/overwatch-2-characters", desc: "Select a random Tank, Damage, or Support hero for your next Overwatch match." },
+      { name: "Rainbow Six Operators Wheel", href: "/video-game-wheels/rainbow-six-operators", desc: "Spin to choose a random Attack or Defense operator in Siege." },
+      { name: "Starter Pokemon Wheel", href: "/video-game-wheels/starter-pokemon", desc: "Pick a random starter Pokémon from Gen 1 to Gen 9 for your next challenge run." },
+      { name: "Pokemon Types Wheel", href: "/video-game-wheels/pokemon-types", desc: "Spin to select a random Pokémon type. Perfect for monotype challenge runs." },
+      { name: "Fortnite Challenges Wheel", href: "/video-game-wheels/fortnite-challenges", desc: "Spin to get a fun challenge to complete during your next battle royale match." }
+    ];
+  } else if (pathStr === "food-wheels") {
+    categoryTitle = "Food Wheels";
+    categoryDesc = "Can't agree on lunch, dinner, or snacks? Spin the Food Wheels to pick a random restaurant type or dish.";
+    wheelsList = [
+      { name: "Dinner Picker", href: "/food-wheels/dinner-picker", desc: "Spin to decide dinner menus and night outings." },
+      { name: "Lunch Ideas", href: "/food-wheels/lunch-ideas", desc: "Pick random mid-day meals and recipes." },
+      { name: "Dessert Spinner", href: "/food-wheels/dessert", desc: "Select sweet options like cake, ice cream, or waffles." },
+      { name: "Snacks Spinner", href: "/food-wheels/snacks", desc: "Decide quick snack options and chips." },
+      { name: "What to Eat Wheel", href: "/food-wheels/what-to-eat", desc: "Spin to pick a random restaurant type or dish." }
+    ];
+  } else if (pathStr === "party-games") {
+    categoryTitle = "Party & Social Games";
+    categoryDesc = "Interactive wheels for social events, sleepovers, and parties. Spin for Truth or Dare, Charades, and funny challenges.";
+    wheelsList = [
+      { name: "Truth or Dare", href: "/party-games/truth-or-dare", desc: "Spin to select classic Truth or Dare items." },
+      { name: "Extreme Truth or Dare", href: "/party-games/extreme-truth-or-dare", desc: "Wild party prompts for close friends." },
+      { name: "Adult Truth or Dare", href: "/party-games/adult-truth-or-dare", desc: "Party choices built for mature groups." },
+      { name: "Funny Dares", href: "/party-games/funny-dares", desc: "Hilarious challenges to make everyone laugh." },
+      { name: "Charades Topics", href: "/party-games/charades-topics", desc: "Get random concepts to act out." },
+      { name: "Questions Wheel", href: "/party-games/questions-wheel", desc: "Fun icebreakers to start conversations." },
+      { name: "Spin the Bottle", href: "/party-games/spin-the-bottle", desc: "Interactive pointer selector for groups." },
+      { name: "Scattergories Letters", href: "/party-games/scattergories-letters", desc: "Spin for a random letter to start game categories." },
+      { name: "Song Association", href: "/party-games/song-association", desc: "Spin for a random word to match songs." },
+      { name: "Things to Do When Bored", href: "/party-games/things-to-do-when-bored", desc: "Instantly pick a fun leisure activity." },
+      { name: "Punishment Wheel", href: "/party-games/punishment-wheel", desc: "Settle game loses with silly challenges." }
+    ];
+  } else if (pathStr === "geography-wheels") {
+    categoryTitle = "Geography Wheels";
+    categoryDesc = "Spin to select random countries, US states, European nations, or run the 64-country roulette challenge.";
+    wheelsList = [
+      { name: "Country Wheel", href: "/geography-wheels/country-wheel", desc: "Spin to select a random country out of hundreds." },
+      { name: "US States", href: "/geography-wheels/us-states", desc: "Pick a random state for trivia or travel." },
+      { name: "Europe Countries", href: "/geography-wheels/europe-countries", desc: "Randomly pick European nation divisions." },
+      { name: "64 Country Roulette", href: "/geography-wheels/64-country-roulette", desc: "Spin 64 select world nations roulette style." }
+    ];
+  } else if (pathStr === "generators") {
+    categoryTitle = "Random Generators";
+    categoryDesc = "Spin pure mathematical and utility decision generators.";
+    wheelsList = [
+      { name: "Number Wheel", href: "/generators/number-wheel", desc: "Spin a customizable numbered dial." },
+      { name: "Color Wheel", href: "/generators/color-wheel", desc: "Settle hex color selections randomly." },
+      { name: "Percent Wheel", href: "/generators/percent-wheel", desc: "Spin probability percentages." },
+      { name: "Alphabet Wheel", href: "/generators/alphabet-wheel", desc: "Randomly choose letters from A to Z." },
+      { name: "Periodic Table Picker", href: "/generators/periodic-table-picker", desc: "Pick random chemical elements." }
+    ];
+  } else if (pathStr === "creative-wheels") {
+    categoryTitle = "Creative & Entertainment";
+    categoryDesc = "Unlock creative inspiration instantly. Spin to choose a movie genre, get random drawing ideas, spin an arrow pointer, or get TBR book prompts.";
+    wheelsList = [
+      { name: "Arrow Spin", href: "/creative-wheels/arrow-spin", desc: "Spin a basic arrow indicator." },
+      { name: "Drawing Idea Wheel", href: "/creative-wheels/drawing-idea-wheel", desc: "Get random sketch prompts." },
+      { name: "Movie Picker", href: "/creative-wheels/movie-picker", desc: "Spin to select random films." },
+      { name: "Music Genre Wheel", href: "/creative-wheels/music-genre-wheel", desc: "Pick music styles for your next playlist." },
+      { name: "TBR Prompts Wheel", href: "/creative-wheels/tbr-prompts", desc: "To-be-read prompts for book lovers." }
+    ];
+  } else if (pathStr === "animal-wheels") {
+    categoryTitle = "Animals & Nature";
+    categoryDesc = "Select random animals for games, education, and drawings.";
+    wheelsList = [
+      { name: "Random Animal Generator", href: "/animal-wheels/random-animal-generator", desc: "Select randomly from hundreds of species." },
+      { name: "Farm Animals Wheel", href: "/animal-wheels/farm-animals-wheel", desc: "Pick classic barnyard animal characters." },
+      { name: "What Animal Are You", href: "/animal-wheels/what-animal-are-you", desc: "Spin to discover your personality animal mascot." }
+    ];
+  }
+
+  // If we have a list of wheels, render a nice grid of cards, otherwise render the generic fallback
+  if (wheelsList.length > 0) {
+    return (
+      <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
+        <section className="text-center mb-12">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full neo-border bg-retro-orange text-white font-bold text-xs uppercase tracking-wider mb-4">
+            <Sparkles className="w-4 h-4" /> Category Hub
+          </div>
+          <h1 className="text-4xl md:text-5xl font-black font-display tracking-tight text-retro-navy dark:text-cream mb-4 capitalize">
+            {categoryTitle}
+          </h1>
+          <p className="text-lg font-medium opacity-90 max-w-2xl mx-auto">
+            {categoryDesc}
+          </p>
+        </section>
+
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
+          {wheelsList.map((w) => (
+            <div key={w.href} className="neo-card p-6 bg-white dark:bg-retro-navy flex flex-col justify-between">
+              <div>
+                <h3 className="text-xl font-bold font-display mb-2">{w.name}</h3>
+                <p className="text-sm opacity-80 mb-6">{w.desc}</p>
+              </div>
+              <a
+                href={`${langPrefix}${w.href}`}
+                className="w-full py-2 neo-btn bg-retro-yellow text-retro-navy text-center text-sm font-bold flex items-center justify-center gap-1.5 hover:scale-102 transition-transform"
+              >
+                Launch Wheel <ChevronRight className="w-4 h-4" />
+              </a>
+            </div>
+          ))}
+        </section>
+      </main>
+    );
+  }
+
   return (
     <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
       <section className="mb-12">

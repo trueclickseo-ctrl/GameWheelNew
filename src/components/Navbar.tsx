@@ -49,6 +49,8 @@ export default function Navbar({ currentLang = "en" }: NavbarProps) {
         <img 
           src="/logo.jpg" 
           alt="GameWheelClub Logo" 
+          width={36}
+          height={36}
           className="w-9 h-9 rounded-md border-2 border-retro-navy dark:border-cream object-cover shadow-sm"
         />
         <span>Game<span className="text-retro-orange">Wheel</span>Club</span>
@@ -63,7 +65,11 @@ export default function Navbar({ currentLang = "en" }: NavbarProps) {
         {/* Tools Dropdown */}
         <div ref={dropdownRef} className="relative">
           <button
+            id="tools-dropdown-btn"
             onClick={() => setDropdownOpen(!dropdownOpen)}
+            aria-expanded={dropdownOpen}
+            aria-haspopup="true"
+            aria-label="Toggle tools menu"
             className="flex items-center gap-1 hover:text-retro-orange transition-colors focus:outline-none cursor-pointer"
           >
             {dict.navTools} <ChevronDown className="w-4 h-4" />
@@ -110,9 +116,12 @@ export default function Navbar({ currentLang = "en" }: NavbarProps) {
         <LanguageSwitcher currentLang={currentLang} />
         <ThemeToggle />
         <button
+          id="mobile-menu-btn"
           onClick={() => setIsOpen(!isOpen)}
           className="p-2 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream cursor-pointer"
-          aria-label="Toggle menu"
+          aria-label="Toggle navigation menu"
+          aria-expanded={isOpen}
+          aria-controls="mobile-navigation-menu"
         >
           {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
@@ -120,7 +129,7 @@ export default function Navbar({ currentLang = "en" }: NavbarProps) {
 
       {/* Mobile Dropdown */}
       {isOpen && (
-        <div className="absolute top-[75px] left-0 w-full bg-cream dark:bg-retro-navy neo-border border-x-0 flex flex-col items-center gap-6 py-6 md:hidden font-semibold max-h-[80vh] overflow-y-auto z-40">
+        <div id="mobile-navigation-menu" className="absolute top-[75px] left-0 w-full bg-cream dark:bg-retro-navy neo-border border-x-0 flex flex-col items-center gap-6 py-6 md:hidden font-semibold max-h-[80vh] overflow-y-auto z-40">
           <a href={homeHref} className="hover:text-retro-orange transition-colors">
             {dict.navHome}
           </a>

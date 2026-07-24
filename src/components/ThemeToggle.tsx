@@ -20,9 +20,11 @@ export default function ThemeToggle() {
 
   return (
     <button
+      id="theme-toggle-btn"
       onClick={toggleTheme}
       className="p-2 neo-btn bg-retro-yellow text-retro-navy dark:bg-retro-blue hover:scale-105 transition-transform"
-      aria-label="Toggle light/dark theme"
+      aria-label="Toggle light or dark theme"
+      aria-pressed={theme === "dark"}
     >
       {theme === "light" ? (
         <Moon className="w-5 h-5" />

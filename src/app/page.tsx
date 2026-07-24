@@ -163,8 +163,8 @@ export default function Home() {
                   1
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg">Enter Your Options</h4>
-                  <p className="text-sm opacity-80">Add options one by one, or paste a list of names/items into the bulk editor.</p>
+                  <h3 className="font-bold text-lg">Enter Your Options</h3>
+                  <p className="text-sm opacity-90">Add options one by one, or paste a list of names/items into the bulk editor.</p>
                 </div>
               </div>
 
@@ -173,8 +173,8 @@ export default function Home() {
                   2
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg">Hit Spin</h4>
-                  <p className="text-sm opacity-80">Click the spin button to set the wheel in motion with retro clicking sound effects.</p>
+                  <h3 className="font-bold text-lg">Hit Spin</h3>
+                  <p className="text-sm opacity-90">Click the spin button to set the wheel in motion with retro clicking sound effects.</p>
                 </div>
               </div>
 
@@ -183,8 +183,8 @@ export default function Home() {
                   3
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg">Get Your Winner</h4>
-                  <p className="text-sm opacity-80">The pointer selects the final option fairly and transparently. No server manipulation.</p>
+                  <h3 className="font-bold text-lg">Get Your Winner</h3>
+                  <p className="text-sm opacity-90">The pointer selects the final option fairly and transparently. No server manipulation.</p>
                 </div>
               </div>
             </div>
