@@ -11,39 +11,42 @@ export default function ContactPage() {
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!name || !email || !message) return;
 
     setIsSubmitting(true);
+    setErrorMessage("");
+
     try {
-      // Submit to Web3Forms (a free form-to-email service for static sites)
-      const response = await fetch("https://api.web3forms.com/submit", {
+      // Submit via FormSubmit.co AJAX API directly to trueclickseo@gmail.com
+      const response = await fetch("https://formsubmit.co/ajax/trueclickseo@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
           "Accept": "application/json"
         },
         body: JSON.stringify({
-          // To receive emails directly, register a free key at https://web3forms.com
-          // and replace the access_key below.
-          access_key: "YOUR_ACCESS_KEY_HERE",
           name,
           email,
           message,
-          subject: "New Message from GameWheelClub Contact Form"
+          _subject: "New Message from GameWheelClub Contact Form",
+          _captcha: "false",
+          _template: "table"
         })
       });
 
       const data = await response.json();
-      if (data.success) {
+      if (response.ok && (data.success === "true" || data.success === true)) {
         setSubmitted(true);
       } else {
-        // Fallback to mailto redirect if submission fails or key is unconfigured
+        // Fallback to mailto if AJAX fails
         triggerMailtoFallback();
       }
     } catch (err) {
+      console.error("FormSubmit error:", err);
       triggerMailtoFallback();
     } finally {
       setIsSubmitting(false);
@@ -76,9 +79,10 @@ export default function ContactPage() {
               <CheckCircle className="w-16 h-16 text-retro-mint mx-auto" />
               <h2 className="text-2xl font-black font-display">Thank You!</h2>
               <p className="font-medium opacity-80">
-                Your message has been received. We will get back to you shortly.
+                Your message has been received. We will get back to you shortly at trueclickseo@gmail.com.
               </p>
               <button
+                id="send-another-btn"
                 onClick={() => {
                   setSubmitted(false);
                   setName("");
@@ -92,11 +96,18 @@ export default function ContactPage() {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
+              {errorMessage && (
+                <div className="p-3 neo-card bg-retro-orange text-white text-xs font-bold">
+                  {errorMessage}
+                </div>
+              )}
+
               <div className="flex flex-col gap-2">
-                <label className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">
+                <label htmlFor="contact-name" className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">
                   Your Name
                 </label>
                 <input
+                  id="contact-name"
                   type="text"
                   required
                   value={name}
@@ -107,10 +118,11 @@ export default function ContactPage() {
               </div>
 
               <div className="flex flex-col gap-2">
-                <label className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">
+                <label htmlFor="contact-email" className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">
                   Your Email
                 </label>
                 <input
+                  id="contact-email"
                   type="email"
                   required
                   value={email}
@@ -121,10 +133,11 @@ export default function ContactPage() {
               </div>
 
               <div className="flex flex-col gap-2">
-                <label className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">
+                <label htmlFor="contact-message" className="font-bold text-sm uppercase tracking-wider text-retro-navy/80 dark:text-cream/80">
                   Message
                 </label>
                 <textarea
+                  id="contact-message"
                   required
                   rows={4}
                   value={message}
@@ -135,6 +148,7 @@ export default function ContactPage() {
               </div>
 
               <button
+                id="contact-submit-btn"
                 type="submit"
                 disabled={isSubmitting}
                 className="w-full py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy font-bold flex items-center justify-center gap-2 hover:scale-102 transition-transform disabled:opacity-50 disabled:cursor-not-allowed"
