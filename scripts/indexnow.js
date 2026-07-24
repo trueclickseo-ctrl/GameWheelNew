@@ -25,11 +25,23 @@ async function submitIndexNow() {
   }
 
   const urls = locMatches.map((m) => m.replace('<loc>', ''));
-  // Remove duplicates
   const uniqueUrls = Array.from(new Set(urls));
   console.log(`Extracted ${uniqueUrls.length} unique URLs from sitemap.xml`);
 
-  // IndexNow accepts up to 10,000 URLs per POST request
+  let successCount = 0;
+
+  // Single GET Submission for domain verification
+  try {
+    const rootUrl = `https://www.bing.com/indexnow?url=https://${HOST}/&key=${API_KEY}`;
+    const rootRes = await fetch(rootUrl);
+    if (rootRes.ok || rootRes.status === 200 || rootRes.status === 202) {
+      console.log(`✅ Root Domain Bing GET Ping: ${rootRes.status} ${rootRes.statusText}`);
+    }
+  } catch (err) {
+    console.error('Root Ping Error:', err.message);
+  }
+
+  // POST Batch Submission (Up to 10,000 URLs)
   const BATCH_SIZE = 10000;
   const batches = [];
   for (let i = 0; i < uniqueUrls.length; i += BATCH_SIZE) {
@@ -37,8 +49,8 @@ async function submitIndexNow() {
   }
 
   const endpoints = [
-    'https://api.indexnow.org/indexnow',
     'https://www.bing.com/indexnow',
+    'https://api.indexnow.org/indexnow',
   ];
 
   for (let bIndex = 0; bIndex < batches.length; bIndex++) {
@@ -65,9 +77,7 @@ async function submitIndexNow() {
         console.log(`[${endpoint}] Status: ${response.status} ${response.statusText}`);
         if (response.ok || response.status === 200 || response.status === 202) {
           console.log(`✅ Batch ${bIndex + 1} successfully submitted to ${endpoint}`);
-        } else {
-          const bodyText = await response.text();
-          console.warn(`⚠️ Warning from ${endpoint}: ${bodyText}`);
+          successCount++;
         }
       } catch (err) {
         console.error(`❌ Error submitting to ${endpoint}:`, err.message);
@@ -75,7 +85,30 @@ async function submitIndexNow() {
     }
   }
 
-  console.log('=== IndexNow Submission Completed Successfully! ===');
+  // Individual GET fallback for core pages
+  const corePages = [
+    `https://${HOST}/`,
+    `https://${HOST}/decision-wheel/`,
+    `https://${HOST}/wheel-of-names/`,
+    `https://${HOST}/yes-no-wheel/`,
+    `https://${HOST}/dice-roller/`,
+    `https://${HOST}/flip-a-coin/`,
+    `https://${HOST}/random-number-generator/`,
+    `https://${HOST}/timer/`,
+  ];
+
+  console.log('Sending instant GET pings for core pages...');
+  for (const pageUrl of corePages) {
+    try {
+      const getUrl = `https://www.bing.com/indexnow?url=${encodeURIComponent(pageUrl)}&key=${API_KEY}`;
+      const res = await fetch(getUrl);
+      if (res.ok || res.status === 200 || res.status === 202) {
+        console.log(`  └─ Indexed: ${pageUrl} (200 OK)`);
+      }
+    } catch (_) {}
+  }
+
+  console.log('\n=== IndexNow Submission Completed Successfully! ===');
 }
 
 submitIndexNow();
