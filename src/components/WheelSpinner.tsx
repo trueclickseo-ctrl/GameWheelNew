@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { RotateCw, Trash2, Plus, Volume2, VolumeX, Share2, Gauge } from "lucide-react";
+import { RotateCw, Trash2, Plus, Volume2, VolumeX, Share2, Gauge, Code } from "lucide-react";
 import ShareModal from "./ShareModal";
 
 interface WheelSpinnerProps {
@@ -20,6 +20,7 @@ export default function WheelSpinner({
   const [winner, setWinner] = useState<string | null>(null);
   const [soundEnabled, setSoundEnabled] = useState(true);
   const [isShareOpen, setIsShareOpen] = useState(false);
+  const [shareModalTab, setShareModalTab] = useState<"qr" | "embed">("qr");
   const [shareUrl, setShareUrl] = useState("");
   const [spinPower, setSpinPower] = useState(60); // 20 to 100
   const [currentSpeed, setCurrentSpeed] = useState(0); // Real-time velocity for speedometer
@@ -28,95 +29,131 @@ export default function WheelSpinner({
   const audioContextRef = useRef<AudioContext | null>(null);
   const rotationRef = useRef(0); // Current angle in degrees
   const animationFrameId = useRef<number | null>(null);
-  // Capture initialOptions once so it never triggers re-renders
   const initialOptionsRef = useRef(initialOptions);
 
+  const openShareModal = (tab: "qr" | "embed") => {
+    setShareModalTab(tab);
+    setIsShareOpen(true);
+  };
+
   // Initialize options from URL query param `d` or localStorage or defaults
-  // useEffect only runs client-side, no need for typeof window check
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const dataParam = params.get("d");
     if (dataParam) {
       try {
-        const decodedJson = decodeURIComponent(
-          escape(atob(dataParam.replace(/-/g, "+").replace(/_/g, "/")))
-        );
-        const parsed = JSON.parse(decodedJson);
+        const decoded = decodeURIComponent(atob(dataParam));
+        const parsed = JSON.parse(decoded);
         if (Array.isArray(parsed) && parsed.length > 0) {
           setOptions(parsed);
           return;
         }
-      } catch (e) {
-        console.error("Failed to decode options from URL:", e);
+      } catch (err) {
+        console.error("Failed to parse URL options:", err);
       }
     }
 
-    const saved = localStorage.getItem(storageKey);
-    if (saved) {
-      try {
+    try {
+      const saved = localStorage.getItem(storageKey);
+      if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) {
           setOptions(parsed);
           return;
         }
-      } catch { /* ignore */ }
+      }
+    } catch (err) {
+      console.error("Failed to load options from localStorage:", err);
     }
+
     setOptions(initialOptionsRef.current);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [storageKey]);
 
-  // Update share URL whenever options change
+  // Persist options & build share URL
   useEffect(() => {
     if (options.length === 0) return;
     try {
-      const baseUrl = window.location.origin + window.location.pathname;
-      const jsonStr = JSON.stringify(options);
-      const base64 = btoa(unescape(encodeURIComponent(jsonStr)))
-        .replace(/\+/g, "-")
-        .replace(/\//g, "_")
-        .replace(/=+$/, "");
-      setShareUrl(`${baseUrl}?d=${base64}`);
-    } catch (e) {
-      console.error("Failed to generate share URL:", e);
-    }
-  }, [options]);
-
-  // Save to localStorage when changed
-  useEffect(() => {
-    if (options.length > 0) {
       localStorage.setItem(storageKey, JSON.stringify(options));
+    } catch (err) {
+      console.error("Failed to save to localStorage:", err);
+    }
+
+    try {
+      const jsonStr = JSON.stringify(options);
+      const base64 = btoa(encodeURIComponent(jsonStr));
+      const baseUrl = window.location.origin + window.location.pathname;
+      setShareUrl(`${baseUrl}?d=${base64}`);
+    } catch (err) {
+      console.error("Failed to generate share URL:", err);
     }
   }, [options, storageKey]);
 
-  // Audio trigger for tick sound
-  const playTickSound = () => {
+  // Web Audio Synthesizer for retro click sounds
+  const playClickSound = (pitchMultiplier = 1) => {
     if (!soundEnabled) return;
     try {
       if (!audioContextRef.current) {
-        audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
+        const AudioCtx = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+        audioContextRef.current = new AudioCtx();
       }
+
       const ctx = audioContextRef.current;
       if (ctx.state === "suspended") {
         ctx.resume();
       }
+
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
-      osc.type = "sine";
-      osc.frequency.setValueAtTime(700, ctx.currentTime);
-      osc.frequency.exponentialRampToValueAtTime(180, ctx.currentTime + 0.05);
-      gain.gain.setValueAtTime(0.12, ctx.currentTime);
-      gain.gain.linearRampToValueAtTime(0.01, ctx.currentTime + 0.05);
+
+      osc.type = "triangle";
+      osc.frequency.setValueAtTime(440 * pitchMultiplier, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(110 * pitchMultiplier, ctx.currentTime + 0.04);
+
+      gain.gain.setValueAtTime(0.3, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.04);
+
       osc.connect(gain);
       gain.connect(ctx.destination);
+
       osc.start();
-      osc.stop(ctx.currentTime + 0.05);
-    } catch (_) {}
+      osc.stop(ctx.currentTime + 0.04);
+    } catch (err) {
+      console.error("Audio error:", err);
+    }
   };
 
-  // Generate a unique color for each option to ensure no repeating colors
-  const getSliceColor = (idx: number, total: number) => {
-    const hue = (idx * 360) / total;
-    return `hsl(${hue}, 80%, 55%)`;
+  // Web Audio Synthesizer for victory fanfare
+  const playFanfare = () => {
+    if (!soundEnabled) return;
+    try {
+      if (!audioContextRef.current) {
+        const AudioCtx = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+        audioContextRef.current = new AudioCtx();
+      }
+
+      const ctx = audioContextRef.current;
+      if (ctx.state === "suspended") ctx.resume();
+
+      const notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+      notes.forEach((freq, idx) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+
+        osc.type = "sine";
+        osc.frequency.setValueAtTime(freq, ctx.currentTime + idx * 0.1);
+
+        gain.gain.setValueAtTime(0.2, ctx.currentTime + idx * 0.1);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + idx * 0.1 + 0.3);
+
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+
+        osc.start(ctx.currentTime + idx * 0.1);
+        osc.stop(ctx.currentTime + idx * 0.1 + 0.3);
+      });
+    } catch (err) {
+      console.error("Fanfare error:", err);
+    }
   };
 
   // Redraw the canvas wheel whenever options or rotation changes
@@ -147,174 +184,153 @@ export default function WheelSpinner({
     // Draw glowing RPM arc outside the gold ring
     ctx.beginPath();
     ctx.arc(center, center, radius + outerRingWidth + 2, 0, 2 * Math.PI);
-    ctx.strokeStyle = "rgba(11, 19, 43, 0.15)"; // Subtle track
-    ctx.lineWidth = 4;
+    ctx.strokeStyle = "rgba(11, 19, 43, 0.15)";
+    ctx.lineWidth = 3;
     ctx.stroke();
 
-    if (currentSpeed > 0) {
-      const speedPercentage = Math.min(100, (currentSpeed / 1000) * 100);
-      let speedColor = "#10B981"; // green
-      if (speedPercentage > 40) speedColor = "#EAB308"; // yellow
-      if (speedPercentage > 75) speedColor = "#EF4444"; // red
-
-      ctx.save();
-      ctx.beginPath();
-      ctx.arc(
-        center,
-        center,
-        radius + outerRingWidth + 2,
-        -Math.PI / 2,
-        -Math.PI / 2 + (speedPercentage / 100) * 2 * Math.PI
-      );
-      ctx.strokeStyle = speedColor;
-      ctx.lineWidth = 4;
-      ctx.lineCap = "round";
-      ctx.shadowColor = speedColor;
-      ctx.shadowBlur = 8;
-      ctx.stroke();
-      ctx.restore();
-    }
-
-    // Draw Casino light bulbs on outer gold ring
-    const numBulbs = Math.max(12, options.length * 2);
-    for (let i = 0; i < numBulbs; i++) {
-      const angle = (i * 2 * Math.PI) / numBulbs + rotationRad;
-      const bulbX = center + (radius + outerRingWidth / 2) * Math.cos(angle);
-      const bulbY = center + (radius + outerRingWidth / 2) * Math.sin(angle);
-      ctx.beginPath();
-      ctx.arc(bulbX, bulbY, 3, 0, 2 * Math.PI);
-      // Alternating lit effect based on angle rotation
-      const isLit = Math.floor(rotationRef.current / 15 + i) % 2 === 0;
-      ctx.fillStyle = isLit ? "#FEE2E2" : "#FEF08A"; // Dynamic Gold/Yellow lights
-      ctx.fill();
-      ctx.strokeStyle = "#0B132B";
-      ctx.lineWidth = 1;
-      ctx.stroke();
-    }
-
-    // Draw slices
+    // Color palette using HSL Golden Ratio distribution
     options.forEach((opt, idx) => {
-      const startAngle = idx * arcSize - Math.PI / 2 + rotationRad;
+      const startAngle = rotationRad + idx * arcSize;
       const endAngle = startAngle + arcSize;
 
-      // Draw Slice
+      const hue = (idx * 137.508) % 360;
+      const fillStyle = `hsl(${hue}, 85%, 62%)`;
+
+      // Draw wedge
       ctx.beginPath();
       ctx.moveTo(center, center);
       ctx.arc(center, center, radius, startAngle, endAngle);
-      ctx.fillStyle = getSliceColor(idx, options.length);
+      ctx.closePath();
+      ctx.fillStyle = fillStyle;
       ctx.fill();
-      ctx.lineWidth = 2;
-      ctx.strokeStyle = "#D97706"; // Gold divider line
+      ctx.lineWidth = 3;
+      ctx.strokeStyle = "#0B132B"; // Retro Navy border
       ctx.stroke();
 
-      // Draw Text
+      // Draw Option Text
       ctx.save();
       ctx.translate(center, center);
       ctx.rotate(startAngle + arcSize / 2);
       ctx.textAlign = "right";
-      ctx.textBaseline = "middle";
-      
-      const fontSize = Math.max(11, Math.min(20, Math.floor(250 / Math.sqrt(options.length))));
-      ctx.font = `900 ${fontSize}px "Arial Black", "Impact", sans-serif`;
-      const text = opt.length > 15 ? opt.substring(0, 13) + "..." : opt;
-      
-      // Outline text
-      ctx.lineJoin = "round";
-      ctx.miterLimit = 2;
-      ctx.strokeStyle = "#FFFFFF";
-      ctx.lineWidth = 3;
-      ctx.strokeText(text, radius - 20, 0);
-      
-      // Fill text
       ctx.fillStyle = "#0B132B";
-      ctx.fillText(text, radius - 20, 0);
+
+      // Responsive font sizing based on length
+      const textRadius = radius - 24;
+      const fontSize = Math.max(14, Math.min(24, Math.floor(600 / options.length)));
+      ctx.font = `900 ${fontSize}px 'Space Grotesk', sans-serif`;
+
+      // Truncate long text cleanly
+      let displayText = opt;
+      if (displayText.length > 18) {
+        displayText = displayText.substring(0, 16) + "...";
+      }
+
+      ctx.fillText(displayText, textRadius, fontSize / 3);
       ctx.restore();
     });
 
-    // Draw inner gold ring
+    // Draw Gold Bulbs along the outer ring
+    const bulbCount = Math.max(12, options.length * 2);
+    for (let b = 0; b < bulbCount; b++) {
+      const bulbAngle = (b * (2 * Math.PI)) / bulbCount + rotationRad;
+      const bx = center + (radius + outerRingWidth / 2) * Math.cos(bulbAngle);
+      const by = center + (radius + outerRingWidth / 2) * Math.sin(bulbAngle);
+
+      ctx.beginPath();
+      ctx.arc(bx, by, 4, 0, 2 * Math.PI);
+      ctx.fillStyle = b % 2 === 0 ? "#FEF08A" : "#FFFFFF"; // Glowing yellow / white bulbs
+      ctx.fill();
+      ctx.lineWidth = 1;
+      ctx.strokeStyle = "#78350F";
+      ctx.stroke();
+    }
+
+    // Draw Center Peg & Hub
     ctx.beginPath();
-    ctx.arc(center, center, 28, 0, 2 * Math.PI);
-    ctx.fillStyle = "#D97706";
+    ctx.arc(center, center, 32, 0, 2 * Math.PI);
+    ctx.fillStyle = "#FAF5EC";
     ctx.fill();
-    ctx.lineWidth = 3;
+    ctx.lineWidth = 5;
     ctx.strokeStyle = "#0B132B";
     ctx.stroke();
 
-    // Center jewel/hub
+    // Inner brass screw
     ctx.beginPath();
     ctx.arc(center, center, 14, 0, 2 * Math.PI);
-    ctx.fillStyle = "#FAF5EC";
+    ctx.fillStyle = "#F59E0B";
     ctx.fill();
-    ctx.lineWidth = 3;
+    ctx.lineWidth = 2;
     ctx.strokeStyle = "#0B132B";
     ctx.stroke();
   };
 
-  // Re-draw on option updates
   useEffect(() => {
     drawWheel();
   }, [options]);
 
+  // Main Spin Physics Engine with dynamic easing
   const handleSpin = () => {
     if (isSpinning || options.length === 0) return;
     setIsSpinning(true);
     setWinner(null);
 
-    // Initial velocity proportional to spin power (degrees per frame)
-    // Plus a small random factor to ensure unpredictable results
-    let velocity = (spinPower / 4) + (Math.random() * 4 - 2);
-    const friction = 0.988; // Deceleration rate
-    const sliceAngle = 360 / options.length;
-    let lastTickAngle = rotationRef.current;
+    // Calculate spin energy based on manual spinPower slider (20 to 100)
+    const baseDegrees = 360 * 5; // Minimum 5 full spins
+    const extraDegrees = (spinPower / 100) * 360 * 5; // Up to 5 additional spins
+    const randomOffset = Math.random() * 360;
+    const totalRotationTarget = rotationRef.current + baseDegrees + extraDegrees + randomOffset;
 
-    const animate = () => {
-      rotationRef.current += velocity;
-      
-      // Keep rotation in bounds [0, 360)
-      if (rotationRef.current >= 360) {
-        rotationRef.current -= 360;
-        lastTickAngle -= 360;
-      }
+    const startRotation = rotationRef.current;
+    const rotationDistance = totalRotationTarget - startRotation;
+    // Spin duration scales from 3s up to 6s depending on power
+    const duration = 3000 + (spinPower / 100) * 3000;
+    const startTime = performance.now();
 
-      // Calculate RPM for speedometer
-      // RPM = (velocity degrees/frame * 60 frames/sec * 60 sec) / 360 degrees = velocity * 10
-      setCurrentSpeed(Math.round(velocity * 10));
+    const sectorAngle = 360 / options.length;
+    let lastSectorIndex = -1;
 
-      // Play tick sound when crossing a slice boundary
-      const currentTickDiff = Math.abs(rotationRef.current - lastTickAngle);
-      if (currentTickDiff >= sliceAngle) {
-        playTickSound();
-        lastTickAngle = rotationRef.current;
-      }
+    const animate = (now: number) => {
+      const elapsed = now - startTime;
+      const progress = Math.min(elapsed / duration, 1);
 
-      // Draw wheel frame
+      // Custom cubic ease-out curve for deceleration physics
+      const easeOut = 1 - Math.pow(1 - progress, 3);
+      const currentRotation = startRotation + rotationDistance * easeOut;
+      rotationRef.current = currentRotation;
+
+      // Calculate instantaneous RPM speed
+      const speedRpm = Math.max(0, Math.round((1 - progress) * (spinPower * 2.5)));
+      setCurrentSpeed(speedRpm);
+
       drawWheel();
 
-      // Apply friction
-      velocity *= friction;
+      // Trigger click sound when passing sector boundaries
+      const pointerAngle = (270 - (currentRotation % 360) + 360) % 360;
+      const currentSectorIndex = Math.floor(pointerAngle / sectorAngle) % options.length;
 
-      if (velocity > 0.05) {
+      if (currentSectorIndex !== lastSectorIndex) {
+        lastSectorIndex = currentSectorIndex;
+        // Pitch shifts higher as speed increases
+        playClickSound(1 + progress * 0.4);
+      }
+
+      if (progress < 1) {
         animationFrameId.current = requestAnimationFrame(animate);
       } else {
-        // Spin finished
         setIsSpinning(false);
         setCurrentSpeed(0);
+        const finalPointerAngle = (270 - (totalRotationTarget % 360) + 360) % 360;
+        const winningIndex = Math.floor(finalPointerAngle / sectorAngle) % options.length;
+        const selectedWinner = options[winningIndex] || options[0];
 
-        // Determine winner: Top pointer is at 270 degrees canvas coordinates
-        // Wheel turns clockwise, so winner slice is offset counter-clockwise
-        const finalRotationOffset = rotationRef.current % 360;
-        const winnerIdx = Math.floor((360 - finalRotationOffset) / sliceAngle) % options.length;
-        const finalWinner = options[winnerIdx < 0 ? winnerIdx + options.length : winnerIdx];
-
-        setWinner(finalWinner);
+        setWinner(selectedWinner);
+        playFanfare();
       }
     };
 
-    // Run animation
     animationFrameId.current = requestAnimationFrame(animate);
   };
 
-  // Cancel any running animations on unmount
   useEffect(() => {
     return () => {
       if (animationFrameId.current) {
@@ -330,133 +346,99 @@ export default function WheelSpinner({
     setNewOption("");
   };
 
-  const removeOption = (idx: number) => {
-    if (options.length <= 2) {
-      alert("You need at least 2 options to spin!");
-      return;
-    }
-    const updated = options.filter((_, i) => i !== idx);
+  const removeOption = (index: number) => {
+    if (options.length <= 1) return;
+    const updated = options.filter((_, i) => i !== index);
     setOptions(updated);
   };
 
-  const bulkAddOptions = (text: string) => {
-    const lines = text
+  const bulkAddOptions = (rawText: string) => {
+    const list = rawText
       .split("\n")
-      .map((line) => line.trim())
-      .filter((line) => line.length > 0);
-    if (lines.length > 0) {
-      setOptions(lines);
-    }
+      .map((s) => s.trim())
+      .filter((s) => s.length > 0);
+    setOptions(list);
   };
 
-  // Speedometer details: calculate needle rotation angle
-  // Map speed (0 to 1000 RPM) to speedometer degrees (-120 to 120 deg)
-  const speedPercentage = Math.min(100, (currentSpeed / 1000) * 100);
-  const needleRotation = -120 + (speedPercentage * 2.4);
-
   return (
-    <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-6 px-4">
-      {/* Wheel Column */}
-      <div className="flex flex-col items-center justify-center relative">
-        {/* Casino themed pointer */}
-        <div className="absolute top-[2px] z-10 w-0 h-0 border-l-[15px] border-r-[15px] border-t-[30px] border-l-transparent border-r-transparent border-t-retro-orange drop-shadow-[0_4px_0_rgba(11,19,43,0.3)]" />
+    <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start py-6 px-4">
+      {/* Spinner & Canvas Column */}
+      <div className="flex flex-col items-center justify-center relative w-full">
+        {/* Pointer Arrow */}
+        <div className="relative w-full max-w-[340px] sm:max-w-[380px] md:max-w-[420px] aspect-square flex items-center justify-center">
+          <div className="absolute top-[-10px] left-1/2 -translate-x-1/2 z-20 drop-shadow-[0_4px_6px_rgba(0,0,0,0.4)]">
+            <div className="w-8 h-10 bg-gradient-to-b from-amber-300 via-yellow-500 to-amber-600 rounded-t-md relative flex items-center justify-center border border-amber-700">
+              <div className="w-0 h-0 border-l-[12px] border-r-[12px] border-t-[18px] border-l-transparent border-r-transparent border-t-amber-600 absolute bottom-[-18px]" />
+              <div className="w-2 h-2 rounded-full bg-white shadow-inner animate-pulse" />
+            </div>
+          </div>
 
-        <div className="relative neo-border bg-white dark:bg-retro-navy p-4 rounded-full aspect-square w-full max-w-[400px] flex items-center justify-center overflow-hidden">
-          <canvas
-            ref={canvasRef}
-            width={380}
-            height={380}
-            className="w-full h-full rounded-full"
-          />
-        </div>
-
-        {/* Real-time Racing Car Speedometer Dial */}
-        <div className="mt-6 flex flex-col items-center w-full max-w-[240px]">
-          <div className="relative w-full h-[120px] overflow-hidden flex justify-center">
-            {/* Speedometer Arc Gauge */}
-            <svg viewBox="0 0 100 50" className="w-full h-full">
-              {/* Dial Track */}
-              <path
-                d="M 10 45 A 40 40 0 0 1 90 45"
-                fill="none"
-                stroke="#E2E8F0"
-                strokeWidth="8"
-                strokeLinecap="round"
-                className="dark:stroke-retro-navy/60"
+          {/* Wheel Frame */}
+          <div className="relative neo-border bg-amber-950 p-3 rounded-full w-full h-full flex items-center justify-center overflow-hidden shadow-2xl">
+            <div className="w-full h-full flex items-center justify-center">
+              <canvas
+                ref={canvasRef}
+                width={800}
+                height={800}
+                className="w-full h-full rounded-full"
               />
-              {/* Dynamic filled arc (Green to Red style) */}
-              <path
-                d="M 10 45 A 40 40 0 0 1 90 45"
-                fill="none"
-                stroke="url(#speed-gradient)"
-                strokeWidth="8"
-                strokeLinecap="round"
-                strokeDasharray="126"
-                strokeDashoffset={126 - (126 * speedPercentage) / 100}
-              />
-              {/* Gradients */}
-              <defs>
-                <linearGradient id="speed-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stopColor="#10B981" /> {/* Green */}
-                  <stop offset="60%" stopColor="#EAB308" /> {/* Yellow */}
-                  <stop offset="100%" stopColor="#EF4444" /> {/* Red */}
-                </linearGradient>
-              </defs>
-              {/* Speed Text */}
-              <text x="50" y="32" textAnchor="middle" className="fill-retro-navy dark:fill-cream font-black text-[9px]">
-                {currentSpeed}
-              </text>
-              <text x="50" y="42" textAnchor="middle" className="fill-retro-navy/60 dark:fill-cream/60 font-bold text-[6px] uppercase tracking-wider">
-                RPM
-              </text>
-            </svg>
-            
-            {/* Speedometer Needle */}
-            <div
-              className="absolute bottom-1 w-[4px] h-[45px] bg-retro-orange origin-bottom rounded-full transition-transform duration-75"
-              style={{
-                transform: `rotate(${needleRotation}deg)`,
-                left: "calc(50% - 2px)",
-              }}
-            />
-            {/* Needle center cap */}
-            <div className="absolute bottom-[-6px] w-[14px] h-[14px] bg-retro-navy dark:bg-cream rounded-full border-2 border-retro-orange" />
+            </div>
           </div>
         </div>
 
-        {/* Action Controls */}
-        <div className="flex items-center gap-4 mt-2">
+        {/* Speedometer indicator while spinning */}
+        {isSpinning && (
+          <div className="mt-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-retro-navy text-retro-yellow font-black text-xs neo-border animate-pulse">
+            <Gauge className="w-4 h-4 text-retro-orange animate-spin" />
+            <span>SPEED: {currentSpeed} RPM</span>
+          </div>
+        )}
+
+        {/* Primary Controls Toolbar */}
+        <div className="flex flex-wrap items-center justify-center gap-3 mt-6">
           <button
             id="spin-button"
             onClick={handleSpin}
             disabled={isSpinning || options.length === 0}
-            className="px-8 py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy text-lg flex items-center gap-2 hover:scale-105 transition-transform disabled:opacity-50"
+            className="px-8 py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy text-lg flex items-center gap-2 hover:scale-105 transition-transform disabled:opacity-50 font-bold cursor-pointer"
             aria-label="Spin the decision wheel"
           >
             <RotateCw className={`w-5 h-5 ${isSpinning ? "animate-spin" : ""}`} aria-hidden="true" />
             <span>{isSpinning ? "Spinning..." : "SPIN!"}</span>
           </button>
-          
+
           <button
             id="sound-toggle-btn"
             onClick={() => setSoundEnabled(!soundEnabled)}
-            className="p-3 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream hover:bg-slate-100 transition-colors"
+            className="p-3 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream hover:bg-slate-100 transition-colors cursor-pointer"
             aria-label="Toggle Sound"
             aria-pressed={soundEnabled}
+            title={soundEnabled ? "Mute Sound" : "Enable Sound"}
           >
             {soundEnabled ? <Volume2 className="w-5 h-5" aria-hidden="true" /> : <VolumeX className="w-5 h-5" aria-hidden="true" />}
             <span className="sr-only">{soundEnabled ? "Mute Sound" : "Enable Sound"}</span>
           </button>
 
           <button
+            id="embed-btn"
+            onClick={() => openShareModal("embed")}
+            className="px-3.5 py-3 neo-btn bg-retro-mint text-retro-navy hover:scale-105 transition-transform flex items-center gap-1.5 font-bold text-sm cursor-pointer"
+            title="Get HTML Embed Code for website"
+            aria-label="Embed Wheel Code"
+          >
+            <Code className="w-5 h-5" aria-hidden="true" />
+            <span>Embed</span>
+          </button>
+
+          <button
             id="share-btn"
-            onClick={() => setIsShareOpen(true)}
-            className="p-3 neo-btn bg-retro-blue text-white dark:text-retro-navy hover:scale-105 transition-transform"
-            aria-label="Share via QR Code"
+            onClick={() => openShareModal("qr")}
+            className="px-3.5 py-3 neo-btn bg-retro-blue text-white dark:text-retro-navy hover:scale-105 transition-transform flex items-center gap-1.5 font-bold text-sm cursor-pointer"
             title="Share via QR Code"
+            aria-label="Share via QR Code"
           >
             <Share2 className="w-5 h-5" aria-hidden="true" />
-            <span className="sr-only">Share via QR Code</span>
+            <span>Share</span>
           </button>
         </div>
 
@@ -474,7 +456,7 @@ export default function WheelSpinner({
           </motion.div>
         )}
       </div>
- 
+
       {/* Editor Column */}
       <div className="neo-card p-6 bg-white dark:bg-retro-navy transition-colors">
         <h2 className="text-xl font-bold font-display mb-4 border-b-3 border-retro-navy dark:border-cream pb-2">
@@ -514,7 +496,7 @@ export default function WheelSpinner({
               <span>{opt}</span>
               <button
                 onClick={() => removeOption(idx)}
-                className="text-retro-orange hover:text-red-600 transition-colors p-1"
+                className="text-retro-orange hover:text-red-600 transition-colors p-1 cursor-pointer"
                 aria-label={`Remove option ${opt}`}
               >
                 <Trash2 className="w-4 h-4" aria-hidden="true" />
@@ -566,11 +548,28 @@ export default function WheelSpinner({
             <span>Turbo</span>
           </div>
         </div>
+
+        {/* Dedicated Embed Wheel Box */}
+        <div className="border-t-2 border-retro-navy/10 dark:border-cream/10 pt-4 mt-4 text-center">
+          <label className="block text-xs font-black uppercase tracking-wider mb-2 text-retro-navy/80 dark:text-cream/80">
+            Embed Wheel on Your Site
+          </label>
+          <button
+            id="get-embed-code-btn"
+            onClick={() => openShareModal("embed")}
+            className="w-full py-2.5 neo-btn bg-retro-mint text-retro-navy font-bold flex items-center justify-center gap-2 hover:scale-102 transition-transform cursor-pointer text-xs"
+          >
+            <Code className="w-4 h-4" aria-hidden="true" />
+            <span>Get Embed Code (&lt;iframe&gt;)</span>
+          </button>
+        </div>
       </div>
+
       <ShareModal
         isOpen={isShareOpen}
         onClose={() => setIsShareOpen(false)}
         shareUrl={shareUrl}
+        defaultTab={shareModalTab}
       />
     </div>
   );

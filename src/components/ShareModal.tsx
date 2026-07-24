@@ -1,22 +1,29 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { X, Copy, Check, QrCode, Code, Link2 } from "lucide-react";
+import { X, Copy, Check, QrCode, Code } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface ShareModalProps {
   isOpen: boolean;
   onClose: () => void;
   shareUrl: string;
+  defaultTab?: "qr" | "embed";
 }
 
-export default function ShareModal({ isOpen, onClose, shareUrl }: ShareModalProps) {
-  const [activeTab, setActiveTab] = useState<"qr" | "embed">("qr");
+export default function ShareModal({ isOpen, onClose, shareUrl, defaultTab = "qr" }: ShareModalProps) {
+  const [activeTab, setActiveTab] = useState<"qr" | "embed">(defaultTab);
   const [qrSvg, setQrSvg] = useState<string>("");
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [copiedLink, setCopiedLink] = useState<boolean>(false);
   const [copiedEmbed, setCopiedEmbed] = useState<boolean>(false);
   const [iframeHeight, setIframeHeight] = useState<number>(650);
+
+  useEffect(() => {
+    if (isOpen) {
+      setActiveTab(defaultTab);
+    }
+  }, [isOpen, defaultTab]);
 
   // Compute embed URL from shareUrl
   const getEmbedUrl = () => {
@@ -133,6 +140,7 @@ export default function ShareModal({ isOpen, onClose, shareUrl }: ShareModalProp
             {/* Navigation Tabs */}
             <div className="flex border-2 border-retro-navy dark:border-cream rounded-lg p-1 bg-cream dark:bg-retro-navy/40 w-full mb-6 gap-1">
               <button
+                id="tab-qr-link"
                 onClick={() => setActiveTab("qr")}
                 className={`flex-1 py-2 px-3 rounded text-xs font-black uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors cursor-pointer ${
                   activeTab === "qr"
@@ -144,6 +152,7 @@ export default function ShareModal({ isOpen, onClose, shareUrl }: ShareModalProp
                 <span>QR & Link</span>
               </button>
               <button
+                id="tab-embed-code"
                 onClick={() => setActiveTab("embed")}
                 className={`flex-1 py-2 px-3 rounded text-xs font-black uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors cursor-pointer ${
                   activeTab === "embed"

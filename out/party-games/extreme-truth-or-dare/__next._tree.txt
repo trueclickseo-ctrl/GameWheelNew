@@ -1,5 +1,5 @@
-:HL["/_next/static/chunks/0zvdm_ch8-38u.css","style"]
+:HL["/_next/static/chunks/0-z_chn_0mopz.css","style"]
 :HL["/_next/static/media/0c89a48fa5027cee-s.p.2cyn07wtgehh0.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/logo.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"party-games","param":null,"prefetchHints":0,"slots":{"children":{"name":"extreme-truth-or-dare","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"N0tCSIsnwqxZSaHrByf0J"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"party-games","param":null,"prefetchHints":0,"slots":{"children":{"name":"extreme-truth-or-dare","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"umMdlO5sLSqnF9QmNjUt7"}
