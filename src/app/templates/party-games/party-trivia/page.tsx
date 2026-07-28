@@ -4,6 +4,9 @@ import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/templates/party-games/party-trivia/",
+  },
   title: "Party Trivia Topic Wheel | Random Quiz Categories",
   description: "Spin the Trivia wheel to pick random quiz topics: Science, Pop Culture, History, Sports, and Geography. Perfect for game nights.",
 };
@@ -17,9 +20,9 @@ export default function PartyTriviaPage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/party-games" className="hover:text-retro-orange">Party Games</Link>
+          <Link href="/templates/party-games/" className="hover:text-retro-orange">Party Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Party Trivia</span>
         </div>
@@ -48,7 +51,7 @@ export default function PartyTriviaPage() {
                 A randomized category spinner wheel keeps the game fair and unbiased. Slices represent distinct subjects like science, geography, literature, and music.
               </p>
               <p>
-                For generating random scores or team numbers, check out the <Link href="/random-number-generator" className="text-retro-orange underline font-bold">Number Generator</Link> or pick team sizes with <Link href="/dice-roller" className="text-retro-blue underline font-bold">Dice Roller</Link>.
+                For generating random scores or team numbers, check out the <Link href="/random-number-generator/" className="text-retro-orange underline font-bold">Number Generator</Link> or pick team sizes with <Link href="/dice-roller/" className="text-retro-blue underline font-bold">Dice Roller</Link>.
               </p>
             </div>
           </div>
@@ -60,7 +63,7 @@ export default function PartyTriviaPage() {
             <ul className="list-disc pl-6 space-y-2 font-semibold text-sm">
               <li>Add custom categories specific to your group.</li>
               <li>Include specialized &quot;Double Points&quot; or &quot;Lose a Turn&quot; slices.</li>
-              <li>Limit answering times using our <Link href="/timer" className="text-retro-orange underline font-bold">Timer</Link>.</li>
+              <li>Limit answering times using our <Link href="/timer/" className="text-retro-orange underline font-bold">Timer</Link>.</li>
             </ul>
           </div>
         </section>

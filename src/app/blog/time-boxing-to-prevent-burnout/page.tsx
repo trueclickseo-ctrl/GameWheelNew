@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { Hourglass, ShieldAlert, CheckSquare, Sparkles, Smile, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/blog/time-boxing-to-prevent-burnout/",
+  },
   title: "Time Boxing to Prevent Burnout: Daily Schedule Strategy",
   description: "Learn how time boxing helps manage workloads, establish clear work-life boundaries, and prevent burnout through structured time blocks.",
 };
@@ -26,12 +29,12 @@ export default function TimeBoxingToPreventBurnout() {
       "name": "GameWheelClub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://gamewheelclub.com/logo.png"
+        "url": "https://www.gamewheelclub.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://gamewheelclub.com/blog/time-boxing-to-prevent-burnout"
+      "@id": "https://www.gamewheelclub.com/blog/time-boxing-to-prevent-burnou/t"
     }
   };
 
@@ -50,7 +53,7 @@ export default function TimeBoxingToPreventBurnout() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -125,7 +128,7 @@ export default function TimeBoxingToPreventBurnout() {
                   The most powerful aspect of time boxing is scheduling your downtime. You create a hard boundary. If your work day closes at 5:30 PM, you create a timebox for evening relaxation or exercise, helping you disconnect completely.
                 </p>
                 <p>
-                  Use a digital <Link href="/timer" className="font-bold underline hover:text-retro-blue">Timer</Link> to mark the beginning and end of each block. Treating the timer alarm as a cue to switch tasks builds clean habits over time.
+                  Use a digital <Link href="/timer/" className="font-bold underline hover:text-retro-blue">Timer</Link> to mark the beginning and end of each block. Treating the timer alarm as a cue to switch tasks builds clean habits over time.
                 </p>
               </div>
             </section>
@@ -170,13 +173,13 @@ export default function TimeBoxingToPreventBurnout() {
                 Set timers, choose priority tasks, and organize your workdays.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/timer" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/timer/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Daily Timer <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/decision-wheel" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/decision-wheel/" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Decision Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/yes-no-wheel" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/yes-no-wheel/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Yes or No Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

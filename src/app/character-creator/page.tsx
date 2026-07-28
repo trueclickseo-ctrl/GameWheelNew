@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/character-creator/",
+  },
   title: "Character Creator & OC Wheel Generators | GameWheelClub",
   description: "Design random characters, OCs, and avatars instantly. Spin for hairstyles, outfits, eyes, genders, skin tones, and gacha ideas.",
 };
@@ -30,7 +33,7 @@ export default function charactercreatorHubPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Character Creator & OC Wheels</span>
         </div>

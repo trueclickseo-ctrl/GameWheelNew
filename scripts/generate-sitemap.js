@@ -4,7 +4,7 @@ const path = require('path');
 const projectRoot = path.resolve(__dirname, '..');
 const appDir = path.join(projectRoot, 'src/app');
 const sitemapPath = path.join(projectRoot, 'public/sitemap.xml');
-const domain = 'https://gamewheelclub.com';
+const domain = 'https://www.gamewheelclub.com';
 
 // Languages (no English prefix, no Hindi)
 const LANG_CODES = [

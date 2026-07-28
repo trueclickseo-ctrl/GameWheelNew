@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Hash, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/random-number-generator/",
+  },
   title: "Random Number Generator | Quick RNG Tool",
   description: "Generate single or multiple random numbers in any custom range. Free, secure, and customizable random number picker.",
 };
@@ -46,7 +49,7 @@ export default function NumberGeneratorPage() {
                 You can toggle **Allow Duplicates** if you want the generator to allow the same number to appear multiple times in your list.
               </p>
               <p>
-                If you need visual randomizers, try rolling simulated dice with our <Link href="/dice-roller" className="text-retro-blue underline font-bold">Dice Roller</Link> or pick names using the <Link href="/wheel-of-names" className="text-retro-orange underline font-bold">Wheel of Names</Link>.
+                If you need visual randomizers, try rolling simulated dice with our <Link href="/dice-roller/" className="text-retro-blue underline font-bold">Dice Roller</Link> or pick names using the <Link href="/wheel-of-names/" className="text-retro-orange underline font-bold">Wheel of Names</Link>.
               </p>
             </div>
           </div>

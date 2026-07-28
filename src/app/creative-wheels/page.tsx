@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/creative-wheels/",
+  },
   title: "Creative & Entertainment Decision Wheels | GameWheelClub",
   description: "Unlock creative inspiration instantly. Spin to choose a movie genre or picker, get random drawing ideas, spin an arrow pointer, or get TBR book prompts.",
 };
@@ -24,7 +27,7 @@ export default function creativewheelsHubPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Creative & Entertainment</span>
         </div>

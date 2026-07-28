@@ -1,10 +1,16 @@
-"use client";
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 import { ArrowLeft, Play, Sparkles, HelpCircle } from "lucide-react";
+
+export const metadata = {
+  title: "Random Animal Generator Wheel | GameWheelClub",
+  description: "Spin to get a random wild animal. Preloaded with majestic land and sea beasts.",
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/animal-wheels/random-animal-generator/",
+  },
+};
 
 export default function RandomAnimalGeneratorWheelPage() {
 
@@ -16,16 +22,16 @@ export default function RandomAnimalGeneratorWheelPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/animal-wheels" className="hover:text-retro-orange">Animals & Nature</Link>
+          <Link href="/animal-wheels/" className="hover:text-retro-orange">Animals & Nature</Link>
           <span>/</span>
           <span className="text-retro-orange">Random Animal Generator</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/animal-wheels"
+          href="/animal-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Animals & Nature
@@ -63,7 +69,7 @@ export default function RandomAnimalGeneratorWheelPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [What Animal Are You Wheel](/animal-wheels/what-animal-are-you), [Farm Animals Wheel](/animal-wheels/farm-animals-wheel) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [What Animal Are You Wheel](/animal-wheels/what-animal-are-you), [Farm Animals Wheel](/animal-wheels/farm-animals-wheel) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

@@ -1,6 +1,14 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+export const metadata = {
+  title: "Privacy Policy | GameWheelClub",
+  description: "Read the Privacy Policy of GameWheelClub. Learn about our commitment to privacy, data protection, and cookie-free client-side operations.",
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/privacy/",
+  },
+};
+
 export default function PrivacyPage() {
   return (
     <>

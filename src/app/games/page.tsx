@@ -16,6 +16,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/games/",
+  },
   title: "Random Choice Game Wheels Hub | GameWheelClub",
   description: "Explore fun, interactive, and pre-built randomizer game wheels. Settle team drafts, fandom debates, character creation, and party challenges instantly.",
 };

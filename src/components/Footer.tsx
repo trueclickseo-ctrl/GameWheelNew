@@ -74,16 +74,16 @@ export default function Footer({ currentLang = "en" }: FooterProps) {
             Recent Blog
           </h3>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <a href="/blog/spin-wheels-for-decision-making" className="hover:text-retro-orange transition-colors">
+            <a href="/blog/spin-wheels-for-decision-making/" className="hover:text-retro-orange transition-colors">
               Wheels for Decisions
             </a>
-            <a href="/blog/party-games-for-adults" className="hover:text-retro-orange transition-colors">
+            <a href="/blog/party-games-for-adults/" className="hover:text-retro-orange transition-colors">
               Party Games
             </a>
-            <a href="/blog/spin-wheels-in-modern-education" className="hover:text-retro-orange transition-colors">
+            <a href="/blog/spin-wheels-in-modern-education/" className="hover:text-retro-orange transition-colors">
               Classroom Incentive
             </a>
-            <a href="/blog/time-boxing-to-prevent-burnout" className="hover:text-retro-orange transition-colors">
+            <a href="/blog/time-boxing-to-prevent-burnout/" className="hover:text-retro-orange transition-colors">
               Avoid Burnout
             </a>
           </div>

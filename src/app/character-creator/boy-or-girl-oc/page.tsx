@@ -1,10 +1,16 @@
-"use client";
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 import { ArrowLeft, Play, Sparkles, HelpCircle } from "lucide-react";
+
+export const metadata = {
+  title: "Boy or Girl OC Spinner | GameWheelClub",
+  description: "Stuck on deciding the gender identity of your next character? Spin the pointer to decide instantly.",
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/character-creator/boy-or-girl-oc/",
+  },
+};
 
 export default function BoyorGirlOCSpinnerPage() {
 
@@ -16,16 +22,16 @@ export default function BoyorGirlOCSpinnerPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/character-creator" className="hover:text-retro-orange">Character Creator & OC Wheels</Link>
+          <Link href="/character-creator/" className="hover:text-retro-orange">Character Creator & OC Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">Boy or Girl OC Spinner</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/character-creator"
+          href="/character-creator/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Character Creator & OC Wheels
@@ -63,7 +69,7 @@ export default function BoyorGirlOCSpinnerPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Create an OC Wheel](/character-creator/create-an-oc), [Gacha Character Generator Wheel](/character-creator/gacha-character-generator), [Hair Color Wheel](/character-creator/hair-color) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Create an OC Wheel](/character-creator/create-an-oc), [Gacha Character Generator Wheel](/character-creator/gacha-character-generator), [Hair Color Wheel](/character-creator/hair-color) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

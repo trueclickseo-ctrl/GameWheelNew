@@ -5,6 +5,9 @@ import Link from "next/link";
 import { HelpCircle, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/yes-no-wheel/",
+  },
   title: "Yes or No Wheel | Spin for Instant Answers",
   description: "Spin the Yes or No wheel for instant, unbiased answers to any question. Free, interactive, and fast decision picker.",
 };
@@ -48,7 +51,7 @@ export default function YesNoWheelPage() {
                 Our wheel is configured with repeating Yes and No options to provide a balanced visual representation while maintaining a perfect **50/50 probability** split.
               </p>
               <p>
-                If you prefer a coin flip, check out our virtual <Link href="/flip-a-coin" className="text-retro-blue underline font-bold">Flip a Coin</Link> tool, or construct multi-option boards with the <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link>.
+                If you prefer a coin flip, check out our virtual <Link href="/flip-a-coin/" className="text-retro-blue underline font-bold">Flip a Coin</Link> tool, or construct multi-option boards with the <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link>.
               </p>
             </div>
           </div>

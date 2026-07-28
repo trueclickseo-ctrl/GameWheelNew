@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Briefcase, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/for-business/",
+  },
   title: "Random Decision Tools for Business | GameWheelClub",
   description: "Improve meetings and team interactions with randomizers and timers. Settle presenter order, draft tasks, and host team icebreakers.",
 };
@@ -42,15 +45,15 @@ export default function ForBusinessPage() {
 
           <h2 className="text-2xl font-black font-display pt-4">Business Meeting Utilities</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <Link href="/timer" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/timer/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Sprint Timer</span>
               <span className="text-xs font-semibold opacity-85">Keep brainstorming and meetings on schedule.</span>
             </Link>
-            <Link href="/wheel-of-names" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/wheel-of-names/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Presenter Picker</span>
               <span className="text-xs font-semibold opacity-85">Pick meeting speakers randomly and fairly.</span>
             </Link>
-            <Link href="/decision-wheel" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/decision-wheel/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Task Allocator</span>
               <span className="text-xs font-semibold opacity-85">Randomly distribute minor team chore tasks.</span>
             </Link>
@@ -58,10 +61,10 @@ export default function ForBusinessPage() {
 
           <h2 className="text-2xl font-black font-display pt-4">Icebreaker Templates</h2>
           <div className="flex flex-wrap gap-4 pt-2">
-            <Link href="/templates/party-games/party-trivia" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
+            <Link href="/templates/party-games/party-trivia/" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
               Team Trivia Topic Wheel
             </Link>
-            <Link href="/templates/party-games/would-you-rather" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
+            <Link href="/templates/party-games/would-you-rather/" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
               Would You Rather Spinner
             </Link>
           </div>

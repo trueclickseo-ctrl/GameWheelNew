@@ -4,6 +4,9 @@ import Link from "next/link";
 import { BookOpen, ChevronRight, Calendar } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/blog/",
+  },
   title: "GameWheelClub Blog | Random Decisions, Games & Education Insights",
   description: "Read our latest articles on random decision-making, interactive classroom game templates, time-boxing techniques, and party icebreaker activities.",
 };

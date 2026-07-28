@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Cpu, ArrowLeft, Brain, Shield, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/learn/science-of-decision-making/",
+  },
   title: "Science of Decision Making & PRNG Algorithms | GameWheelClub",
   description: "Explore the computer science of Pseudorandom Number Generators (PRNGs), Web Crypto APIs, decision fatigue psychology, and anxiety reduction.",
 };
@@ -15,7 +18,7 @@ export default function ScienceOfDecisionMakingPage() {
 
       <main className="flex-1 max-w-4xl mx-auto w-full py-12 px-6">
         {/* Back Link */}
-        <Link href="/learn" className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-wider text-retro-orange mb-6 hover:underline">
+        <Link href="/learn/" className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-wider text-retro-orange mb-6 hover:underline">
           <ArrowLeft className="w-4 h-4" /> Back to Learn Hub
         </Link>
 

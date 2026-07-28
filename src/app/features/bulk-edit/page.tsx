@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Edit3, FileSpreadsheet, List, Clipboard, ArrowRight, ShieldCheck, HelpCircle } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/features/bulk-edit/",
+  },
   title: "Bulk Edit & List Import | GameWheelClub Tools",
   description: "Learn how to import and edit thousands of items instantly. Explore the string parsing, CSV compatibility, and list sanitation engines driving GameWheelClub's Bulk Editor.",
 };
@@ -54,7 +57,7 @@ export default function BulkEditFeature() {
             Many decision wheel websites force users to add options one by one, clicking a button, waiting for the UI to update, and then typing the next entry. For single choices like &quot;Red or Blue,&quot; this works. But when handling massive class rosters, prize lists, or product categories, it is a tedious bottleneck.
           </p>
           <p className="font-medium leading-relaxed">
-            GameWheelClub incorporates a full-featured text area bulk editor inside the <Link href="/wheel-of-names" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Wheel of Names</Link> and the <Link href="/decision-wheel" className="font-bold underline decoration-retro-mint hover:text-retro-mint">Decision Wheel</Link>. Users can open a simple box, copy a column from a spreadsheet program, paste it, and watch the wheel rebuild instantly.
+            GameWheelClub incorporates a full-featured text area bulk editor inside the <Link href="/wheel-of-names/" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Wheel of Names</Link> and the <Link href="/decision-wheel/" className="font-bold underline decoration-retro-mint hover:text-retro-mint">Decision Wheel</Link>. Users can open a simple box, copy a column from a spreadsheet program, paste it, and watch the wheel rebuild instantly.
           </p>
         </section>
 
@@ -160,7 +163,7 @@ export default function BulkEditFeature() {
                 Is there a limit to how many items I can paste into the Bulk Editor?
               </h3>
               <p className="text-sm opacity-90 leading-relaxed pl-7">
-                While the parser can process lists up to 10,000 items, we recommend keeping the wheel slice count under 500 for optimal rendering and text legibility. For lists larger than 500, we recommend using our <Link href="/random-number-generator" className="font-bold underline hover:text-retro-blue">Random Number Generator</Link> to index the items instead of spinning a visual wheel.
+                While the parser can process lists up to 10,000 items, we recommend keeping the wheel slice count under 500 for optimal rendering and text legibility. For lists larger than 500, we recommend using our <Link href="/random-number-generator/" className="font-bold underline hover:text-retro-blue">Random Number Generator</Link> to index the items instead of spinning a visual wheel.
               </p>
             </div>
             <hr className="border-retro-navy/10 dark:border-cream/10" />
@@ -193,10 +196,10 @@ export default function BulkEditFeature() {
             Open the bulk editor, drop your Excel roster, and run your giveaway or classroom event without manual entry friction.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/wheel-of-names" className="neo-btn px-6 py-3 bg-retro-mint text-retro-navy hover:bg-opacity-90">
+            <Link href="/wheel-of-names/" className="neo-btn px-6 py-3 bg-retro-mint text-retro-navy hover:bg-opacity-90">
               Roster Wheel of Names
             </Link>
-            <Link href="/decision-wheel" className="neo-btn px-6 py-3 bg-retro-blue text-retro-navy hover:bg-opacity-90">
+            <Link href="/decision-wheel/" className="neo-btn px-6 py-3 bg-retro-blue text-retro-navy hover:bg-opacity-90">
               Bulk Edit Decision Wheel
             </Link>
           </div>

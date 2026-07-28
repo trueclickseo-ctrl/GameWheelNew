@@ -4,6 +4,9 @@ import Link from "next/link";
 import { BookOpen, History, Calculator, Cpu, Sparkles, GraduationCap, ArrowRight } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/learn/",
+  },
   title: "Learn Hub — History, Math, Science & Probability of Decision Wheels | GameWheelClub",
   description: "Explore the history of random selection, the mathematics of probability, decision fatigue science, and our interactive Wheel Game Encyclopedia.",
 };

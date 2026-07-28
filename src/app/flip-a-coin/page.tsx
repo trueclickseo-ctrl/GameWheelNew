@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Coins, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/flip-a-coin/",
+  },
   title: "Flip a Coin | Online Heads or Tails Generator",
   description: "Flip a virtual coin online. A simple, instant heads or tails decision generator with 3D-inspired animations.",
 };
@@ -46,7 +49,7 @@ export default function FlipACoinPage() {
                 Our generator uses a randomized rotation sequence to simulate the physics of a tossed coin, rendering the result completely transparently.
               </p>
               <p>
-                For questions that require more than two options, try our customizable <Link href="/wheel-of-names" className="text-retro-orange underline font-bold">Wheel of Names</Link> or the versatile <Link href="/decision-wheel" className="text-retro-blue underline font-bold">Decision Wheel</Link>.
+                For questions that require more than two options, try our customizable <Link href="/wheel-of-names/" className="text-retro-orange underline font-bold">Wheel of Names</Link> or the versatile <Link href="/decision-wheel/" className="text-retro-blue underline font-bold">Decision Wheel</Link>.
               </p>
             </div>
           </div>

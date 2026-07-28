@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/anime-fandom-wheels/demon-slayer-characters/",
+  },
   title: "Demon Slayer Characters Wheel | Spin Random Demon Slayer | GameWheelClub",
   description: "Spin the Demon Slayer Characters Wheel to select a random character from Kimetsu no Yaiba. Pick Hashira, Slayers, or Demons instantly.",
 };
@@ -28,9 +31,9 @@ export default function DemonSlayerCharactersWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">Demon Slayer Characters</span>
         </div>
@@ -66,7 +69,7 @@ export default function DemonSlayerCharactersWheelPage() {
                 This interactive <strong>Demon Slayer Characters Wheel</strong> offers an instant and unbiased way to randomize character selection. Preloaded with major figures like Giyu, Shinobu, Inosuke, and the demon king Muzan himself, you can kick off any fan activity with zero setup.
               </p>
               <p>
-                You can easily customize the wheel to include other Hashiras (like Tengen or Sanemi) or specific Lower and Upper Moon demons. If you want to make an entirely customized board from scratch, check out our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily customize the wheel to include other Hashiras (like Tengen or Sanemi) or specific Lower and Upper Moon demons. If you want to make an entirely customized board from scratch, check out our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

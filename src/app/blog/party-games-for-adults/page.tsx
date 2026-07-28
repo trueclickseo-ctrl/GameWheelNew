@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { Users, PartyPopper, Flame, HelpCircle, CheckCircle, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/blog/party-games-for-adults/",
+  },
   title: "Fun Party Games for Adults: Interactive & Random Ideas",
   description: "Ditch the boring dinner conversations! Explore 8 interactive and random party games for adults, including Truth or Dare spinners, dice games, and trivia challenges.",
 };
@@ -26,12 +29,12 @@ export default function PartyGamesForAdults() {
       "name": "GameWheelClub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://gamewheelclub.com/logo.png"
+        "url": "https://www.gamewheelclub.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://gamewheelclub.com/blog/party-games-for-adults"
+      "@id": "https://www.gamewheelclub.com/blog/party-games-for-adult/s"
     }
   };
 
@@ -50,7 +53,7 @@ export default function PartyGamesForAdults() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -133,7 +136,7 @@ export default function PartyGamesForAdults() {
               </h2>
               <div className="space-y-4 font-sans text-base leading-relaxed text-retro-navy/90 dark:text-cream/90">
                 <p>
-                  If you want to inject some fast-paced competition, combine spin wheels with a multi-die roller. Utilizing a <Link href="/dice-roller" className="font-bold underline hover:text-retro-pink">Dice Roller</Link>, players can roll to determine the number of points, the duration of a challenge, or which player they must team up with.
+                  If you want to inject some fast-paced competition, combine spin wheels with a multi-die roller. Utilizing a <Link href="/dice-roller/" className="font-bold underline hover:text-retro-pink">Dice Roller</Link>, players can roll to determine the number of points, the duration of a challenge, or which player they must team up with.
                 </p>
                 <p>
                   By creating a dynamic list of team challenges on a spinner, you keep players guessing. No two game nights will ever be the same because the randomizer guarantees a unique flow of events.
@@ -149,7 +152,7 @@ export default function PartyGamesForAdults() {
               <div className="space-y-4 font-sans text-base leading-relaxed text-retro-navy/90 dark:text-cream/90">
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Use a tablet or mirror your laptop to the living room TV so everyone can see.</li>
-                  <li>Mix up the groups by spinning a <Link href="/wheel-of-names" className="font-bold underline hover:text-retro-blue">name picker wheel</Link> to assign teams.</li>
+                  <li>Mix up the groups by spinning a <Link href="/wheel-of-names/" className="font-bold underline hover:text-retro-blue">name picker wheel</Link> to assign teams.</li>
                   <li>Keep refreshments close and keep the gameplay rounds short (10-15 minutes max).</li>
                 </ul>
               </div>
@@ -183,13 +186,13 @@ export default function PartyGamesForAdults() {
                 Jumpstart your party with instant game templates ready to spin and roll.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/templates/party-games" className="neo-btn bg-retro-pink text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/party-games/" className="neo-btn bg-retro-pink text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Party Game Templates <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/dice-roller" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/dice-roller/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Dice Roller Tool <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/wheel-of-names" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/wheel-of-names/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Wheel of Names <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

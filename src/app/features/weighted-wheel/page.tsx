@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Scale, Compass, Percent, Calculator, BookOpen, AlertCircle, HelpCircle } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/features/weighted-wheel/",
+  },
   title: "Weighted Decision Wheels | Probability-Based Spinners | GameWheelClub",
   description: "Explore the mathematics and logic of weighted decision wheels. Learn how probability distribution, cumulative weights, and roulette selection power custom choice wheels.",
 };
@@ -57,7 +60,7 @@ export default function WeightedWheelFeature() {
             A <strong>weighted decision wheel</strong> alters this equation by associating a numerical value, or &quot;weight,&quot; with each option. The angular width of each slice is proportional to its weight relative to the sum of all weights on the wheel. Consequently, an option with a weight of 10 is ten times more likely to be selected than an option with a weight of 1, occupying ten times the visual space and probability surface.
           </p>
           <p className="font-medium leading-relaxed">
-            Our core tools, including the <Link href="/decision-wheel" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Decision Wheel</Link> and the custom <Link href="/wheel-of-names" className="font-bold underline decoration-retro-mint hover:text-retro-mint">Wheel of Names</Link>, fully support weighted calculations. This makes it possible to model complex scenarios, classroom grading structures, or interactive events with a single spin.
+            Our core tools, including the <Link href="/decision-wheel/" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Decision Wheel</Link> and the custom <Link href="/wheel-of-names/" className="font-bold underline decoration-retro-mint hover:text-retro-mint">Wheel of Names</Link>, fully support weighted calculations. This makes it possible to model complex scenarios, classroom grading structures, or interactive events with a single spin.
           </p>
         </section>
 
@@ -166,7 +169,7 @@ export default function WeightedWheelFeature() {
             <div className="flex gap-4">
               <span className="w-8 h-8 rounded-full bg-retro-navy text-cream flex items-center justify-center font-bold text-sm">1</span>
               <p className="flex-1">
-                Navigate to our core <Link href="/decision-wheel" className="font-bold underline hover:text-retro-orange">Decision Wheel</Link>.
+                Navigate to our core <Link href="/decision-wheel/" className="font-bold underline hover:text-retro-orange">Decision Wheel</Link>.
               </p>
             </div>
             <div className="flex gap-4">
@@ -251,10 +254,10 @@ export default function WeightedWheelFeature() {
             Set up custom odds, build your weighted values list, and see how the mathematical distribution handles your options in real-time.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/decision-wheel" className="neo-btn px-6 py-3 bg-retro-orange text-retro-navy hover:bg-opacity-90">
+            <Link href="/decision-wheel/" className="neo-btn px-6 py-3 bg-retro-orange text-retro-navy hover:bg-opacity-90">
               Go to Decision Wheel
             </Link>
-            <Link href="/wheel-of-names" className="neo-btn px-6 py-3 bg-retro-mint text-retro-navy hover:bg-opacity-90">
+            <Link href="/wheel-of-names/" className="neo-btn px-6 py-3 bg-retro-mint text-retro-navy hover:bg-opacity-90">
               Try Wheel of Names
             </Link>
           </div>

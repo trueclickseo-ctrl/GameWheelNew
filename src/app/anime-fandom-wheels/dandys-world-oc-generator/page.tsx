@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/anime-fandom-wheels/dandys-world-oc-generator/",
+  },
   title: "Dandy's World OC Generator Wheel | Spin OC Archetypes | GameWheelClub",
   description: "Spin the Dandy's World OC Generator Wheel to randomly determine design parameters, roles, and stats for your custom original toon character.",
 };
@@ -28,9 +31,9 @@ export default function DandysWorldOcGeneratorWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">Dandy&apos;s World OC Generator</span>
         </div>
@@ -66,7 +69,7 @@ export default function DandysWorldOcGeneratorWheelPage() {
                 Our <strong>Dandy&apos;s World OC Generator Wheel</strong> is designed to overcome this by injecting random design constraints. Preloaded with core character roles and stats like Extractor, Distractor, Support, Stealth, and Main, it forces you to think about how your toon would actually play in-game.
               </p>
               <p>
-                You can easily add new design constraints (like &quot;Animal Theme,&quot; &quot;Household Object Theme,&quot; or &quot;Retro Colors&quot;) directly to the wheel options. For creating generic custom generators, visit our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily add new design constraints (like &quot;Animal Theme,&quot; &quot;Household Object Theme,&quot; or &quot;Retro Colors&quot;) directly to the wheel options. For creating generic custom generators, visit our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

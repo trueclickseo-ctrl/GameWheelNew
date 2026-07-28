@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Palette, Eye, Contrast, LayoutGrid, Heart, Sparkles, HelpCircle } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/features/custom-colors/",
+  },
   title: "Custom Colors & Neobrutalist Themes | GameWheelClub",
   description: "Customize the colors, typography, and styling of your decision wheels. Learn how neobrutalist designs, accessible contrast, and CSS palettes power GameWheelClub visual tools.",
 };
@@ -54,7 +57,7 @@ export default function CustomColorsFeature() {
             Neobrutalism in digital interface design breaks away from the quiet, minimalist layouts of the past decade. By using pure colors, sharp black shadows, and thick lines, it channels the aesthetic of early retro computing and print design.
           </p>
           <p className="font-medium leading-relaxed">
-            When applied to decision tools like the <Link href="/decision-wheel" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Decision Wheel</Link> or <Link href="/yes-no-wheel" className="font-bold underline decoration-retro-orange hover:text-retro-orange">Yes or No Wheel</Link>, this style translates to immediate usability. We replace modern gradients with solid blocks of color separated by dark borders. This prevents colors from blending together when the wheel is spinning fast, keeping the slices distinct and reducing eye strain.
+            When applied to decision tools like the <Link href="/decision-wheel/" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Decision Wheel</Link> or <Link href="/yes-no-wheel/" className="font-bold underline decoration-retro-orange hover:text-retro-orange">Yes or No Wheel</Link>, this style translates to immediate usability. We replace modern gradients with solid blocks of color separated by dark borders. This prevents colors from blending together when the wheel is spinning fast, keeping the slices distinct and reducing eye strain.
           </p>
         </section>
 
@@ -121,7 +124,7 @@ export default function CustomColorsFeature() {
             <div className="flex gap-4">
               <span className="w-8 h-8 rounded-full bg-retro-navy text-cream flex items-center justify-center font-bold text-sm">1</span>
               <p className="flex-1">
-                Go to the <Link href="/decision-wheel" className="font-bold underline hover:text-retro-orange">Decision Wheel</Link> or the <Link href="/wheel-of-names" className="font-bold underline hover:text-retro-mint">Wheel of Names</Link>.
+                Go to the <Link href="/decision-wheel/" className="font-bold underline hover:text-retro-orange">Decision Wheel</Link> or the <Link href="/wheel-of-names/" className="font-bold underline hover:text-retro-mint">Wheel of Names</Link>.
               </p>
             </div>
             <div className="flex gap-4">
@@ -196,10 +199,10 @@ export default function CustomColorsFeature() {
             Open the custom spinner panel, select a retro template or define your own colors, and make your decision wheel unique.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/decision-wheel" className="neo-btn px-6 py-3 bg-retro-orange text-retro-navy hover:bg-opacity-90">
+            <Link href="/decision-wheel/" className="neo-btn px-6 py-3 bg-retro-orange text-retro-navy hover:bg-opacity-90">
               Style a Decision Wheel
             </Link>
-            <Link href="/wheel-of-names" className="neo-btn px-6 py-3 bg-retro-mint text-retro-navy hover:bg-opacity-90">
+            <Link href="/wheel-of-names/" className="neo-btn px-6 py-3 bg-retro-mint text-retro-navy hover:bg-opacity-90">
               Custom Name Spinner
             </Link>
           </div>

@@ -4,6 +4,9 @@ import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/templates/food/lunch-ideas/",
+  },
   title: "Lunch Decision Wheel | Quick Lunch Ideas Selector",
   description: "Spin to select a quick lunch meal: Sandwiches, Salads, Leftovers, Soup, Wraps, or Fast Food. Settle your lunch break menu instantly.",
 };
@@ -17,9 +20,9 @@ export default function LunchIdeasPage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/food" className="hover:text-retro-orange">Food</Link>
+          <Link href="/templates/food/" className="hover:text-retro-orange">Food</Link>
           <span>/</span>
           <span className="text-retro-orange">Lunch Ideas</span>
         </div>
@@ -48,7 +51,7 @@ export default function LunchIdeasPage() {
                 Our <strong>Lunch Ideas Wheel</strong> is pre-populated with standard quick options like sandwiches, leftovers, wraps, and salads. It helps busy office workers and students make decisions fast so they can focus on eating and relaxing.
               </p>
               <p>
-                For binary choices, you can also spin our <Link href="/yes-no-wheel" className="text-retro-orange underline font-bold">Yes or No Wheel</Link> or flip a coin on <Link href="/flip-a-coin" className="text-retro-blue underline font-bold">Flip a Coin</Link>.
+                For binary choices, you can also spin our <Link href="/yes-no-wheel/" className="text-retro-orange underline font-bold">Yes or No Wheel</Link> or flip a coin on <Link href="/flip-a-coin/" className="text-retro-blue underline font-bold">Flip a Coin</Link>.
               </p>
             </div>
           </div>

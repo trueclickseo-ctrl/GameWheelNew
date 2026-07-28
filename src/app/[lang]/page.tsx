@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: LocalizedPageProps) {
     title: `${dict.heroTitle} | GameWheelClub ${langObj?.nativeName || ""}`,
     description: dict.heroSubtitle,
     alternates: {
-      canonical: `https://gamewheelclub.com/${lang}/`,
+      canonical: `https://www.gamewheelclub.com/${lang}/`,
     },
   };
 }

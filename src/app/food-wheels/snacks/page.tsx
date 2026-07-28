@@ -1,10 +1,16 @@
-"use client";
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 import { ArrowLeft, Play, Sparkles, HelpCircle } from "lucide-react";
+
+export const metadata = {
+  title: "Snacks Wheel | GameWheelClub",
+  description: "Select a random healthy snack or salty chip bag.",
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/food-wheels/snacks/",
+  },
+};
 
 export default function SnacksWheelPage() {
 
@@ -16,16 +22,16 @@ export default function SnacksWheelPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/food-wheels" className="hover:text-retro-orange">Food Wheels</Link>
+          <Link href="/food-wheels/" className="hover:text-retro-orange">Food Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">Snacks</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/food-wheels"
+          href="/food-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Food Wheels
@@ -63,7 +69,7 @@ export default function SnacksWheelPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [What to Eat Wheel](/food-wheels/what-to-eat), [Fast Food Restaurants Wheel](/food-wheels/fast-food-restaurants), [Dessert Wheel](/food-wheels/dessert) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [What to Eat Wheel](/food-wheels/what-to-eat), [Fast Food Restaurants Wheel](/food-wheels/fast-food-restaurants), [Dessert Wheel](/food-wheels/dessert) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

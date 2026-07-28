@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Database, ShieldAlert, Cpu, HardDrive, Share2, HelpCircle, WifiOff } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/features/local-storage/",
+  },
   title: "Local Storage & Data Privacy | GameWheelClub Features",
   description: "Learn how GameWheelClub uses native browser localStorage to save your wheels, names, and templates offline. Read about our zero-server data privacy architecture.",
 };
@@ -68,7 +71,7 @@ export default function LocalStorageFeature() {
             </li>
           </ul>
           <p className="font-medium leading-relaxed">
-            This architectural design is implemented across all our key tools. For example, your settings in the <Link href="/wheel-of-names" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Wheel of Names</Link> are retrieved locally. Similarly, user configuration settings on the <Link href="/decision-wheel" className="font-bold underline decoration-retro-mint hover:text-retro-mint">Decision Wheel</Link> load instantly.
+            This architectural design is implemented across all our key tools. For example, your settings in the <Link href="/wheel-of-names/" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Wheel of Names</Link> are retrieved locally. Similarly, user configuration settings on the <Link href="/decision-wheel/" className="font-bold underline decoration-retro-mint hover:text-retro-mint">Decision Wheel</Link> load instantly.
           </p>
         </section>
 
@@ -207,10 +210,10 @@ try {
             Open the name selector wheel or the custom choice spinner and know that your sensitive lists remain completely local, safe, and secure.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/wheel-of-names" className="neo-btn px-6 py-3 bg-retro-mint text-retro-navy hover:bg-opacity-90">
+            <Link href="/wheel-of-names/" className="neo-btn px-6 py-3 bg-retro-mint text-retro-navy hover:bg-opacity-90">
               Roster Name Spinner
             </Link>
-            <Link href="/decision-wheel" className="neo-btn px-6 py-3 bg-retro-blue text-retro-navy hover:bg-opacity-90">
+            <Link href="/decision-wheel/" className="neo-btn px-6 py-3 bg-retro-blue text-retro-navy hover:bg-opacity-90">
               Try Decision Wheel
             </Link>
           </div>

@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Check, X, ArrowUpRight, HelpCircle, Award, Sparkles, Shield, Eye, ShieldCheck, Zap } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/compare/best-random-picker-tools/",
+  },
   title: "GameWheelClub vs. Wheel of Names vs. Wheel Decider vs. Tiny Decisions | Best Random Picker Tools",
   description: "Read our comprehensive, unbiased comparison of the top random decision picker tools: GameWheelClub, Wheel of Names, Wheel Decider, and Tiny Decisions. Discover the best spinner for your classroom, event, or everyday choices.",
 };
@@ -185,7 +188,7 @@ export default function BestRandomPickerToolsPage() {
                 <li><strong>Fully Responsive Layout:</strong> It is designed to look stunning and operate smoothly across desktop monitors, tablets, and smartphones alike.</li>
               </ul>
               <p>
-                GameWheelClub makes it easy to switch tools with direct links to its core engines. For instance, teachers and raffle hosts can use the specialized <Link href="/wheel-of-names" className="text-retro-blue underline font-bold">Random Name Picker Wheel</Link> or resolve quick binary options with the dedicated <Link href="/yes-no-wheel" className="text-retro-orange underline font-bold">Yes or No Decision Wheel</Link>.
+                GameWheelClub makes it easy to switch tools with direct links to its core engines. For instance, teachers and raffle hosts can use the specialized <Link href="/wheel-of-names/" className="text-retro-blue underline font-bold">Random Name Picker Wheel</Link> or resolve quick binary options with the dedicated <Link href="/yes-no-wheel/" className="text-retro-orange underline font-bold">Yes or No Decision Wheel</Link>.
               </p>
             </div>
           </div>
@@ -283,7 +286,7 @@ export default function BestRandomPickerToolsPage() {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
             <Link
-              href="/decision-wheel"
+              href="/decision-wheel/"
               className="px-6 py-3 neo-btn bg-retro-yellow text-retro-navy hover:scale-105 transition-transform text-center font-bold inline-flex items-center justify-center gap-2"
             >
               Start GameWheelClub <ArrowUpRight className="w-5 h-5" />

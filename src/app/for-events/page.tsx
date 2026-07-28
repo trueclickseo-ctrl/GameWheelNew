@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Sparkles, Calendar } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/for-events/",
+  },
   title: "Random Choice Tools for Events & Parties | GameWheelClub",
   description: "Host memorable parties, giveaways, and social events. Settle group games, spin for raffle winners, and choose trivia topics instantly.",
 };
@@ -42,19 +45,19 @@ export default function ForEventsPage() {
 
           <h2 className="text-2xl font-black font-display pt-4">Essential Event Templates</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/templates/party-games/truth-or-dare" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/templates/party-games/truth-or-dare/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Truth or Dare Wheel</span>
               <span className="text-xs font-semibold opacity-85">The ultimate classic party icebreaker game.</span>
             </Link>
-            <Link href="/templates/party-games/charades-ideas" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/templates/party-games/charades-ideas/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Charades Category Picker</span>
               <span className="text-xs font-semibold opacity-85">Randomly choose topic categories for acting out.</span>
             </Link>
-            <Link href="/templates/food/dinner-picker" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/templates/food/dinner-picker/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Dinner Decision Wheel</span>
               <span className="text-xs font-semibold opacity-85">Settle group meal disputes and pick dinner spots.</span>
             </Link>
-            <Link href="/templates/party-games/would-you-rather" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/templates/party-games/would-you-rather/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Would You Rather Spinner</span>
               <span className="text-xs font-semibold opacity-85">Generate fun hypothetical prompts for groups.</span>
             </Link>
@@ -62,13 +65,13 @@ export default function ForEventsPage() {
 
           <h2 className="text-2xl font-black font-display pt-4">More Randomizer Tools</h2>
           <div className="flex flex-wrap gap-4 pt-2">
-            <Link href="/wheel-of-names" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
+            <Link href="/wheel-of-names/" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
               Custom Name Picker
             </Link>
-            <Link href="/flip-a-coin" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
+            <Link href="/flip-a-coin/" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
               Flip a Coin
             </Link>
-            <Link href="/dice-roller" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
+            <Link href="/dice-roller/" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
               Dice Roller
             </Link>
           </div>

@@ -28,11 +28,11 @@ export default function ShareModal({ isOpen, onClose, shareUrl, defaultTab = "qr
   // Compute embed URL from shareUrl
   const getEmbedUrl = () => {
     try {
-      if (!shareUrl) return "https://gamewheelclub.com/embed";
+      if (!shareUrl) return "https://www.gamewheelclub.com/embed";
       const url = new URL(shareUrl);
       return `${url.origin}/embed${url.search}`;
     } catch {
-      return "https://gamewheelclub.com/embed";
+      return "https://www.gamewheelclub.com/embed";
     }
   };
 

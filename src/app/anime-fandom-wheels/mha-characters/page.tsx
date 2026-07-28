@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/anime-fandom-wheels/mha-characters/",
+  },
   title: "MHA Characters Wheel | Spin Random My Hero Academia Characters | GameWheelClub",
   description: "Spin the MHA Characters Wheel to randomly select heroes and villains from My Hero Academia. Free, customizable, and fast character picker.",
 };
@@ -28,9 +31,9 @@ export default function MhaCharactersWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">MHA Characters</span>
         </div>
@@ -66,7 +69,7 @@ export default function MhaCharactersWheelPage() {
                 Our <strong>MHA Characters Wheel</strong> provides a quick, interactive way to select characters randomly. Preloaded with central figures like Bakugo, Todoroki, All Might, and Toga, it serves as the perfect springboard for fan debates, cosplay ideas, and gaming challenges.
               </p>
               <p>
-                You can easily add new characters (like Kirishima, Eraser Head, or Endeavor) directly into the option list on the page. For creating completely custom decision boards, check out our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily add new characters (like Kirishima, Eraser Head, or Endeavor) directly into the option list on the page. For creating completely custom decision boards, check out our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

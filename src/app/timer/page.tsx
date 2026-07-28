@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Timer, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/timer/",
+  },
   title: "Online Timer | Free Countdown Timer",
   description: "Set minutes and seconds for any countdown. Free, beautiful, and accessible online timer with alarm alerts.",
 };
@@ -46,7 +49,7 @@ export default function TimerPage() {
                 Our timer is designed with a clear, high-contrast digital display, making it visible from across a classroom or meeting room.
               </p>
               <p>
-                If you need to make random choices while timing, try spinning the <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or pick names using the <Link href="/wheel-of-names" className="text-retro-blue underline font-bold">Wheel of Names</Link>.
+                If you need to make random choices while timing, try spinning the <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or pick names using the <Link href="/wheel-of-names/" className="text-retro-blue underline font-bold">Wheel of Names</Link>.
               </p>
             </div>
           </div>

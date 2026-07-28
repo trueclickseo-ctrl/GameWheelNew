@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Calculator, ArrowLeft, BookOpen, CheckCircle2 } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/learn/math-behind-random-wheels/",
+  },
   title: "The Math Behind Random Wheels — Probability & Equations | GameWheelClub",
   description: "Learn the mathematical principles governing decision wheels: uniform probability distributions, weighted probabilities, expected value, and Pascal-Fermat correspondence.",
 };
@@ -15,7 +18,7 @@ export default function MathBehindRandomWheelsPage() {
 
       <main className="flex-1 max-w-4xl mx-auto w-full py-12 px-6">
         {/* Back Link */}
-        <Link href="/learn" className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-wider text-retro-orange mb-6 hover:underline">
+        <Link href="/learn/" className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-wider text-retro-orange mb-6 hover:underline">
           <ArrowLeft className="w-4 h-4" /> Back to Learn Hub
         </Link>
 

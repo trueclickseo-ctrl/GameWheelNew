@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Trophy, ArrowLeft, Disc, Play, Shield } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/sports-wheels/nhl-teams/",
+  },
   title: "NHL Teams Wheel Spinner | Random NHL Hockey Team Picker",
   description: "Spin the NHL Teams Wheel to select a random professional hockey franchise. Great for NHL video games, bracket setups, and trivia.",
 };
@@ -32,16 +35,16 @@ export default function NHLTeamsWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/sports-wheels" className="hover:text-retro-orange">Sports Wheels</Link>
+          <Link href="/sports-wheels/" className="hover:text-retro-orange">Sports Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">NHL Teams</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/sports-wheels"
+          href="/sports-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Sports Wheels
@@ -78,7 +81,7 @@ export default function NHLTeamsWheelPage() {
                 The <strong>NHL Teams Wheel</strong> features prominent clubs like the Edmonton Oilers, Florida Panthers, Colorado Avalanche, and Vegas Golden Knights. You can customize the wheel to include only Eastern or Western Conference teams, or narrow down the selection to your favorite division.
               </p>
               <p>
-                For custom decisions outside of hockey, feel free to use our <Link href="/decision-wheel" className="text-retro-mint underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games" className="text-retro-orange underline font-bold">Games Page</Link>.
+                For custom decisions outside of hockey, feel free to use our <Link href="/decision-wheel/" className="text-retro-mint underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Page</Link>.
               </p>
             </div>
           </div>

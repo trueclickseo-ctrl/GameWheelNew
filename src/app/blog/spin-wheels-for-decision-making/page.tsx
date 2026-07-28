@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { HelpCircle, Sparkles, Scale, Lightbulb, Compass, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/blog/spin-wheels-for-decision-making/",
+  },
   title: "Spin Wheels for Decision Making: Cure Decision Paralysis",
   description: "Struggling with overthinking? Learn how spin wheels and random choice generators simplify decision-making, remove cognitive load, and make choosing fun.",
 };
@@ -26,12 +29,12 @@ export default function SpinWheelsForDecisionMaking() {
       "name": "GameWheelClub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://gamewheelclub.com/logo.png"
+        "url": "https://www.gamewheelclub.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://gamewheelclub.com/blog/spin-wheels-for-decision-making"
+      "@id": "https://www.gamewheelclub.com/blog/spin-wheels-for-decision-makin/g"
     }
   };
 
@@ -50,7 +53,7 @@ export default function SpinWheelsForDecisionMaking() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -99,7 +102,7 @@ export default function SpinWheelsForDecisionMaking() {
               </h2>
               <div className="space-y-4 font-sans text-base leading-relaxed text-retro-navy/90 dark:text-cream/90">
                 <p>
-                  How do we combat this fatigue without resorting to a monotone wardrobe? The answer is structured randomization. By offloading low-impact choices to an unbiased digital tool like a <Link href="/decision-wheel" className="font-bold underline hover:text-retro-orange">decision wheel</Link>, you preserve your mental bandwidth for things that actually matter.
+                  How do we combat this fatigue without resorting to a monotone wardrobe? The answer is structured randomization. By offloading low-impact choices to an unbiased digital tool like a <Link href="/decision-wheel/" className="font-bold underline hover:text-retro-orange">decision wheel</Link>, you preserve your mental bandwidth for things that actually matter.
                 </p>
                 <p>
                   Spinning a wheel is not about abdicating control; it is about recognizing when all available options are equally acceptable. If you are choosing between eating sushi, tacos, or Thai food, there is no wrong answer. A spin wheel simply picks one path instantly, letting you move forward without hesitation.
@@ -122,7 +125,7 @@ export default function SpinWheelsForDecisionMaking() {
               </h2>
               <div className="space-y-4 font-sans text-base leading-relaxed text-retro-navy/90 dark:text-cream/90">
                 <p>
-                  There is a fascinating psychological phenomenon that occurs when you spin a decision wheel or use a <Link href="/yes-no-wheel" className="font-bold underline hover:text-retro-blue">Yes-No Wheel</Link>. The exact moment the wheel begins to slow down, you will often find yourself hoping for a specific outcome.
+                  There is a fascinating psychological phenomenon that occurs when you spin a decision wheel or use a <Link href="/yes-no-wheel/" className="font-bold underline hover:text-retro-blue">Yes-No Wheel</Link>. The exact moment the wheel begins to slow down, you will often find yourself hoping for a specific outcome.
                 </p>
                 <p>
                   If you input sushi, tacos, and Thai, and you notice your heart sinking as the wheel slows down on sushi, your subconscious is telling you exactly what you actually want: you wanted Thai food. The spinner acts as a mirror to your true desires, helping you make a conscious, confident decision even if you decide to override the wheel&apos;s output!
@@ -175,13 +178,13 @@ export default function SpinWheelsForDecisionMaking() {
                 Put an end to debates. Start making decisions instantly with our pre-built decision models.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/decision-wheel" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/decision-wheel/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Decision Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/yes-no-wheel" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/yes-no-wheel/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Yes or No Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/food" className="neo-btn bg-retro-pink text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/food/" className="neo-btn bg-retro-pink text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Food Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

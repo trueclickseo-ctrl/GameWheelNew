@@ -4,6 +4,9 @@ import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/templates/classroom/brain-break/",
+  },
   title: "Classroom Brain Break Wheel | Student Exercise Ideas",
   description: "Spin the Brain Break wheel to choose quick exercises for students: Stretch, Jumping Jacks, Deep Breaths, Dance, or Doodle.",
 };
@@ -17,9 +20,9 @@ export default function BrainBreakPage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/classroom" className="hover:text-retro-orange">Classroom</Link>
+          <Link href="/templates/classroom/" className="hover:text-retro-orange">Classroom</Link>
           <span>/</span>
           <span className="text-retro-orange">Brain Break</span>
         </div>
@@ -48,7 +51,7 @@ export default function BrainBreakPage() {
                 Slices include simple actions: stretching, deep breaths, water breaks, or a quick dance party. Spin to pick one randomly to add anticipation.
               </p>
               <p>
-                To track the duration of your breaks, pair this with our <Link href="/timer" className="text-retro-orange underline font-bold">Timer</Link> tool, or roll dice using the <Link href="/dice-roller" className="text-retro-blue underline font-bold">Dice Roller</Link>.
+                To track the duration of your breaks, pair this with our <Link href="/timer/" className="text-retro-orange underline font-bold">Timer</Link> tool, or roll dice using the <Link href="/dice-roller/" className="text-retro-blue underline font-bold">Dice Roller</Link>.
               </p>
             </div>
           </div>

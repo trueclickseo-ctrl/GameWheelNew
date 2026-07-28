@@ -41,7 +41,7 @@ export default function ContactPage() {
               </p>
               <a
                 id="send-another-btn"
-                href="/contact"
+                href="/contact/"
                 className="inline-block px-6 py-2 neo-btn bg-retro-blue text-white font-bold hover:scale-105 transition-transform"
               >
                 Send Another Message
@@ -55,7 +55,7 @@ export default function ContactPage() {
             >
               {/* FormSubmit configuration fields */}
               <input type="hidden" name="_subject" value="New Message from GameWheelClub Contact Form" />
-              <input type="hidden" name="_next" value="https://gamewheelclub.com/contact/?submitted=true" />
+              <input type="hidden" name="_next" value="https://www.gamewheelclub.com/contact/?submitted=true" />
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
 

@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { Shield, Target, Activity, Award, UserCheck, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/guides/unbiased-selection-importance/",
+  },
   title: "The Importance of Unbiased Selection: Fairness & Statistics",
   description: "Discover why unbiased selection is crucial. Explore the mathematics of fair choices, cognitive biases in human selectors, and real-world applications of sortition.",
 };
@@ -83,7 +86,7 @@ export default function UnbiasedSelectionImportance() {
                   Without random selection, researchers introduce confounding variables. For example, if a doctor unconsciously assigns healthier patients to a new experimental drug, the drug will appear more effective than it actually is.
                 </p>
                 <p>
-                  Similarly, in financial auditing, inspectors must verify records without predictable patterns. If companies know exactly which files are likely to be inspected (e.g., only high-value invoices), they can easily hide fraud in other areas. Using a secure <Link href="/random-number-generator" className="font-bold underline hover:text-retro-orange">Random Number Generator</Link> to pull samples ensures that every record has an equal chance of audit, keeping organizations transparent and compliant.
+                  Similarly, in financial auditing, inspectors must verify records without predictable patterns. If companies know exactly which files are likely to be inspected (e.g., only high-value invoices), they can easily hide fraud in other areas. Using a secure <Link href="/random-number-generator/" className="font-bold underline hover:text-retro-orange">Random Number Generator</Link> to pull samples ensures that every record has an equal chance of audit, keeping organizations transparent and compliant.
                 </p>
               </div>
             </section>
@@ -126,7 +129,7 @@ export default function UnbiasedSelectionImportance() {
                   In everyday life, random selection builds trust. In a classroom, when a teacher uses a digital wheel to call on students, it eliminates any perception of favoritism. The student who sits in the back row has the exact same probability of being chosen as the student sitting in the front row.
                 </p>
                 <p>
-                  This simple, transparent mechanism is easy to implement. By setting up <Link href="/templates/classroom" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link> or list randomizers, anyone can introduce fairness to their classroom, team meetings, or family game nights, ensuring that every voice is valued equally.
+                  This simple, transparent mechanism is easy to implement. By setting up <Link href="/templates/classroom/" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link> or list randomizers, anyone can introduce fairness to their classroom, team meetings, or family game nights, ensuring that every voice is valued equally.
                 </p>
               </div>
             </section>
@@ -161,10 +164,10 @@ export default function UnbiasedSelectionImportance() {
                 Generate random numbers or select names with mathematically guaranteed, browser-secured fairness.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/random-number-generator" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/random-number-generator/" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Number Generator <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/classroom" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/classroom/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Classroom Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

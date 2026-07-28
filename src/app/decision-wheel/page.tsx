@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/decision-wheel/",
+  },
   title: "Random Decision Wheel | Spin the Wheel of Choice",
   description: "Input your custom choices, spin the decision wheel, and resolve options instantly. Completely free, customizable, and unbiased choice maker.",
 };
@@ -51,7 +54,7 @@ export default function DecisionWheelPage() {
                 By leaving your final option to the spin of a wheel, you can overcome decision paralysis. Our tool works entirely in your browser, meaning it is fast and secure.
               </p>
               <p>
-                For binary choices, you can use our dedicated <Link href="/yes-no-wheel" className="text-retro-orange underline font-bold">Yes or No Wheel</Link>, or flip a coin with <Link href="/flip-a-coin" className="text-retro-blue underline font-bold">Flip a Coin</Link>.
+                For binary choices, you can use our dedicated <Link href="/yes-no-wheel/" className="text-retro-orange underline font-bold">Yes or No Wheel</Link>, or flip a coin with <Link href="/flip-a-coin/" className="text-retro-blue underline font-bold">Flip a Coin</Link>.
               </p>
             </div>
           </div>

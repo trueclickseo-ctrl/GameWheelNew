@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { Award, Gift, Sparkles, Smile, GraduationCap, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/blog/classroom-incentive-rewards/",
+  },
   title: "Classroom Incentive Rewards: Fair Motivation Systems",
   description: "Ditch the gold stars! Learn how to build an interactive, random reward system using spin wheels to motivate students and keep engagement high.",
 };
@@ -26,12 +29,12 @@ export default function ClassroomIncentiveRewards() {
       "name": "GameWheelClub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://gamewheelclub.com/logo.png"
+        "url": "https://www.gamewheelclub.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://gamewheelclub.com/blog/classroom-incentive-rewards"
+      "@id": "https://www.gamewheelclub.com/blog/classroom-incentive-reward/s"
     }
   };
 
@@ -50,7 +53,7 @@ export default function ClassroomIncentiveRewards() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -102,7 +105,7 @@ export default function ClassroomIncentiveRewards() {
                   A random reward wheel works by listing several desirable privileges, small prizes, or incentives on a spinner. When a student or team accomplishes a goal, they spin the wheel to pick their prize.
                 </p>
                 <p>
-                  Using a <Link href="/decision-wheel" className="font-bold underline hover:text-retro-orange">Decision Wheel</Link> or name picker creates anticipation. Students often care more about the experience of spinning the wheel than the physical value of the reward itself. It builds a sense of achievement and positive reinforcement.
+                  Using a <Link href="/decision-wheel/" className="font-bold underline hover:text-retro-orange">Decision Wheel</Link> or name picker creates anticipation. Students often care more about the experience of spinning the wheel than the physical value of the reward itself. It builds a sense of achievement and positive reinforcement.
                 </p>
               </div>
             </section>
@@ -140,7 +143,7 @@ export default function ClassroomIncentiveRewards() {
               </h2>
               <div className="space-y-4 font-sans text-base leading-relaxed text-retro-navy/90 dark:text-cream/90">
                 <p>
-                  Introduce the reward spinner early in the school year. Store templates of your reward choices using <Link href="/templates/classroom" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link> so they are ready to load and spin when a student demonstrates outstanding effort or kindness.
+                  Introduce the reward spinner early in the school year. Store templates of your reward choices using <Link href="/templates/classroom/" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link> so they are ready to load and spin when a student demonstrates outstanding effort or kindness.
                 </p>
               </div>
             </section>
@@ -173,13 +176,13 @@ export default function ClassroomIncentiveRewards() {
                 Set up custom reward wheels and name selectors using classroom setups.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/decision-wheel" className="neo-btn bg-retro-pink text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/decision-wheel/" className="neo-btn bg-retro-pink text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Decision Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/wheel-of-names" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/wheel-of-names/" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Wheel of Names <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/classroom" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/classroom/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Class Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

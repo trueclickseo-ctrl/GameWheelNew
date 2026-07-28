@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/anime-fandom-wheels/cartoon-characters/",
+  },
   title: "Cartoon Characters Wheel | Spin Random Cartoons | GameWheelClub",
   description: "Spin the Cartoon Characters Wheel to select a random icon from classic and modern animated series. Free, fun, and customizable character picker.",
 };
@@ -28,9 +31,9 @@ export default function CartoonCharactersWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">Cartoon Characters</span>
         </div>
@@ -66,7 +69,7 @@ export default function CartoonCharactersWheelPage() {
                 This interactive <strong>Cartoon Characters Wheel</strong> makes choosing cartoon icons instant and completely randomized. With options from legendary eras including classic Looney Tunes, the golden era of Cartoon Network, and Disney channel favorites, you can bring an element of surprise to any activity.
               </p>
               <p>
-                You can easily customize the entry list to include your own childhood favorites or remove characters you aren&apos;t familiar with. Want to make a custom wheel from scratch? Head over to our main <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily customize the entry list to include your own childhood favorites or remove characters you aren&apos;t familiar with. Want to make a custom wheel from scratch? Head over to our main <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

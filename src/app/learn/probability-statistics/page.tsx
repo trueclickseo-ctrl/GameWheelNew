@@ -4,6 +4,9 @@ import Link from "next/link";
 import { GraduationCap, ArrowLeft, Download, FileText, CheckCircle2, Award } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/learn/probability-statistics/",
+  },
   title: "Probability & Statistics Education Hub — Formulas & Chi-Square Test | GameWheelClub",
   description: "Comprehensive teaching resource for probability theory, mathematical formulas, Chi-Square goodness-of-fit testing, and classroom lesson plans.",
 };
@@ -35,7 +38,7 @@ export default function ProbabilityStatisticsPage() {
         />
 
         {/* Back Link */}
-        <Link href="/learn" className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-wider text-retro-orange mb-6 hover:underline">
+        <Link href="/learn/" className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-wider text-retro-orange mb-6 hover:underline">
           <ArrowLeft className="w-4 h-4" /> Back to Learn Hub
         </Link>
 
@@ -153,7 +156,7 @@ export default function ProbabilityStatisticsPage() {
 
           {/* Cross Link */}
           <div className="flex justify-between items-center pt-4">
-            <Link href="/for-teachers" className="text-xs font-black uppercase tracking-wider text-retro-blue hover:underline flex items-center gap-1">
+            <Link href="/for-teachers/" className="text-xs font-black uppercase tracking-wider text-retro-blue hover:underline flex items-center gap-1">
               <FileText className="w-4 h-4" /> View Teacher Use Case Page
             </Link>
           </div>

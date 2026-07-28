@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Dices, ChevronRight } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/templates/party-games/",
+  },
   title: "Party Games Wheel Templates | GameWheelClub",
   description: "Browse free decision wheels for group games, party challenges, trivia topics, and truth or dare cards. Settle choices instantly.",
 };
@@ -23,7 +26,7 @@ export default function PartyGamesCategoryPage() {
       <main className="flex-1 max-w-4xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
           <span className="text-retro-orange">Party Games</span>
         </div>

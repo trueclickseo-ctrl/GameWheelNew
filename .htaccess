@@ -1,6 +1,35 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  
+
+  # 1. Redirect direct external requests to /out/... to their clean canonical equivalent
+  # A. For assets (images, CSS, JS, etc.) - strip /out/ but preserve no-trailing-slash
+  RewriteCond %{THE_REQUEST} \s/out/([^?\s]+\.(?:png|jpg|jpeg|gif|svg|ico|css|js|json|xml|txt|webmanifest|woff|woff2|mp3|wav)) [NC]
+  RewriteRule ^out/(.*)$ https://www.gamewheelclub.com/$1 [R=301,L,NE]
+
+  # B. For /out/index.html or /out/index - redirect to homepage root /
+  RewriteCond %{THE_REQUEST} \s/out/index(?:\.html)? [NC]
+  RewriteRule ^out/index(?:\.html)?$ https://www.gamewheelclub.com/ [R=301,L,NE]
+
+  # C. For page paths/HTML - strip /out/ and .html, and standardize with a trailing slash
+  RewriteCond %{THE_REQUEST} \s/out/ [NC]
+  RewriteRule ^out/(.*?)/?(?:\.html)?$ https://www.gamewheelclub.com/$1/ [R=301,L,NE]
+
+  # 2. Redirect to HTTPS + WWW + Trailing Slash if trailing slash is missing (and not a physical file/asset/html)
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} !^www\.gamewheelclub\.com$ [NC,OR]
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|jpeg|gif|svg|ico|json|xml|txt|webmanifest|woff|woff2|mp3|wav|html)$ [NC]
+  RewriteRule ^(.*?[^/])$ https://www.gamewheelclub.com/$1/ [R=301,L]
+
+  # 3. Redirect to HTTPS + WWW if trailing slash is present, but protocol or host is wrong
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} !^www\.gamewheelclub\.com$ [NC]
+  RewriteCond %{REQUEST_URI} /$
+  RewriteRule ^(.*)$ https://www.gamewheelclub.com/$1 [R=301,L]
+
+  # 4. Internal rewrites (clean URL routing to the physical static export directory)
   # Ensure we don't loop indefinitely
   RewriteCond %{REQUEST_URI} !^/out/
   

@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Trophy, ArrowLeft, Star, Heart, Flame } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/sports-wheels/nba-players/",
+  },
   title: "NBA Players Wheel Spinner | Random NBA Player Picker",
   description: "Spin the NBA Players Wheel to pick a random active basketball superstar. Perfect for fantasy sports, trivia night, and player comparison debates.",
 };
@@ -30,16 +33,16 @@ export default function NBAPlayersWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/sports-wheels" className="hover:text-retro-orange">Sports Wheels</Link>
+          <Link href="/sports-wheels/" className="hover:text-retro-orange">Sports Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">NBA Players</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/sports-wheels"
+          href="/sports-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Sports Wheels
@@ -76,7 +79,7 @@ export default function NBAPlayersWheelPage() {
                 Our <strong>NBA Players Wheel</strong> is preloaded with MVP candidates and champions like LeBron James, Stephen Curry, Nikola Jokić, Giannis Antetokounmpo, and Luka Dončić. It offers a mathematically fair option selector for sports broadcasters, trivia hosts, and dedicated fans.
               </p>
               <p>
-                If you are looking to make custom selections, feel free to use our <Link href="/decision-wheel" className="text-retro-blue underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games" className="text-retro-orange underline font-bold">Games Page</Link> to check out other sports wheels.
+                If you are looking to make custom selections, feel free to use our <Link href="/decision-wheel/" className="text-retro-blue underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Page</Link> to check out other sports wheels.
               </p>
             </div>
           </div>

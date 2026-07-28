@@ -19,7 +19,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "GameWheelClub | Decidable Fun with Random Decision Wheels",
   description: "Spin custom decision wheels, generate random numbers, roll dice, and make random choices instantly. Fast, accessible, and neobrutalist-designed decision tools.",
-  metadataBase: new URL("https://gamewheelclub.com"),
+  metadataBase: new URL("https://www.gamewheelclub.com"),
   icons: {
     icon: "/logo.jpg",
     apple: "/logo.jpg",

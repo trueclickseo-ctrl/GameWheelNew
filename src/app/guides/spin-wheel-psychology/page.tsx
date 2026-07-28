@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { Brain, Sparkles, Smile, Flame, Trophy, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/guides/spin-wheel-psychology/",
+  },
   title: "The Psychology of Spin Wheels: Suspense, Rewards & Choices",
   description: "Explore the psychological triggers behind spin wheels. Understand how decision fatigue, anticipation, and visual rewards make randomized selectors so engaging.",
 };
@@ -56,7 +59,7 @@ export default function SpinWheelPsychology() {
                   At the heart of the spin wheel&apos;s appeal lies a fundamental neurotransmitter: dopamine. Commonly misunderstood as the chemical of pleasure, dopamine is actually the molecule of anticipation and motivation. It is released not when we receive a reward, but during the search and wait for it.
                 </p>
                 <p>
-                  When you press &quot;Spin&quot; on a tool like the <Link href="/decision-wheel" className="font-bold underline hover:text-retro-orange">Decision Wheel</Link>, a gap between action and outcome is created. During those 4 to 8 seconds of rotation, the brain enters a state of high arousal. Will it land on the jackpot? Will it pick your name? Will it choose pizza or salad? The uncertainty triggers a spike in dopamine, focusing your attention entirely on the screen.
+                  When you press &quot;Spin&quot; on a tool like the <Link href="/decision-wheel/" className="font-bold underline hover:text-retro-orange">Decision Wheel</Link>, a gap between action and outcome is created. During those 4 to 8 seconds of rotation, the brain enters a state of high arousal. Will it land on the jackpot? Will it pick your name? Will it choose pizza or salad? The uncertainty triggers a spike in dopamine, focusing your attention entirely on the screen.
                 </p>
                 <p>
                   This reward-prediction error model is well documented in behavioral psychology. When the outcome is uncertain, our brains pay closer attention to learn patterns. The visual slowing of the wheel stretches this anticipation to its absolute limit, transforming a mundane choice into a thrilling, micro-gamified event.
@@ -110,7 +113,7 @@ export default function SpinWheelPsychology() {
                   <li><strong>The Auditory Clicker:</strong> The click sound rate is mapped directly to the rotation speed. As the clicks slow down, our heart rate and focus align with the rhythm.</li>
                 </ul>
                 <p>
-                  These elements are widely utilized in templates like <Link href="/templates/party-games" className="font-bold underline hover:text-retro-blue">Party Games Templates</Link>, where the collective focus of the room is drawn entirely to the screen, building shared energy and instant laughter.
+                  These elements are widely utilized in templates like <Link href="/templates/party-games/" className="font-bold underline hover:text-retro-blue">Party Games Templates</Link>, where the collective focus of the room is drawn entirely to the screen, building shared energy and instant laughter.
                 </p>
               </div>
             </section>
@@ -164,10 +167,10 @@ export default function SpinWheelPsychology() {
                 Save your mental energy and let the wheel choose. Give it a spin today!
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/decision-wheel" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/decision-wheel/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Decision Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/party-games" className="neo-btn bg-retro-yellow text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/party-games/" className="neo-btn bg-retro-yellow text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Party Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

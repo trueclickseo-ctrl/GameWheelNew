@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { Timer, Brain, CheckCircle, HelpCircle, GraduationCap, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/blog/pomodoro-technique-for-students/",
+  },
   title: "Pomodoro Technique for Students: Better Focus Strategy",
   description: "Learn how the Pomodoro Technique helps students improve focus, beat procrastination, and manage study time with structured intervals and breaks.",
 };
@@ -26,12 +29,12 @@ export default function PomodoroTechniqueForStudents() {
       "name": "GameWheelClub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://gamewheelclub.com/logo.png"
+        "url": "https://www.gamewheelclub.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://gamewheelclub.com/blog/pomodoro-technique-for-students"
+      "@id": "https://www.gamewheelclub.com/blog/pomodoro-technique-for-student/s"
     }
   };
 
@@ -50,7 +53,7 @@ export default function PomodoroTechniqueForStudents() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -126,7 +129,7 @@ export default function PomodoroTechniqueForStudents() {
                 </p>
                 <ul className="list-decimal pl-6 space-y-2">
                   <li><strong>Pick Your Task:</strong> Choose one specific project, chore, or assignment to work on.</li>
-                  <li><strong>Set a Timer:</strong> Launch a digital <Link href="/timer" className="font-bold underline hover:text-retro-blue">Timer</Link> for 25 minutes.</li>
+                  <li><strong>Set a Timer:</strong> Launch a digital <Link href="/timer/" className="font-bold underline hover:text-retro-blue">Timer</Link> for 25 minutes.</li>
                   <li><strong>Work Until the Alarm:</strong> Turn off your phone notifications and focus solely on the task.</li>
                   <li><strong>Take a Short Break:</strong> Rest for 5 minutes (stretch, get water, walk around).</li>
                   <li><strong>Repeat:</strong> After four sessions, take a longer 20-30 minute break.</li>
@@ -174,13 +177,13 @@ export default function PomodoroTechniqueForStudents() {
                 Track your study blocks and manage your study sessions with our visual tools.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/timer" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/timer/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Pomodoro Timer <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/random-number-generator" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/random-number-generator/" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Number Generator <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/decision-wheel" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/decision-wheel/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Decision Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

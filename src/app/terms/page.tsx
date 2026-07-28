@@ -1,6 +1,14 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+export const metadata = {
+  title: "Terms of Service | GameWheelClub",
+  description: "Read the Terms of Service for GameWheelClub. Understand the rules, guidelines, and disclaimers for using our decision-making tools.",
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/terms/",
+  },
+};
+
 export default function TermsPage() {
   return (
     <>

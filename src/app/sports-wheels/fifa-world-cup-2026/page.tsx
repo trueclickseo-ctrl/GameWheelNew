@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Trophy, ArrowLeft, Globe, Flag, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/sports-wheels/fifa-world-cup-2026/",
+  },
   title: "FIFA World Cup 2026 Wheel Spinner | Random Country Picker",
   description: "Spin the World Cup 2026 Wheel to randomly select a qualified soccer nation. Great for tournament sweeps, group predictions, and match simulations.",
 };
@@ -34,16 +37,16 @@ export default function FIFAWorldCup2026Page() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/sports-wheels" className="hover:text-retro-orange">Sports Wheels</Link>
+          <Link href="/sports-wheels/" className="hover:text-retro-orange">Sports Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">FIFA World Cup 2026</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/sports-wheels"
+          href="/sports-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Sports Wheels
@@ -80,7 +83,7 @@ export default function FIFAWorldCup2026Page() {
                 Our <strong>FIFA World Cup 2026 Wheel</strong> is preloaded with prominent qualified and qualifying powerhouse nations including the three hosts, defending champions Argentina, and heavyweight challengers France, England, Brazil, and Spain. You can customize the entries to set up group sweepstakes or select teams for EA Sports FC matchups.
               </p>
               <p>
-                For regular choices or other sports categories, check out our general <Link href="/decision-wheel" className="text-retro-blue underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games" className="text-retro-orange underline font-bold">Games Page</Link>.
+                For regular choices or other sports categories, check out our general <Link href="/decision-wheel/" className="text-retro-blue underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Page</Link>.
               </p>
             </div>
           </div>

@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Utensils, Dices, GraduationCap, ChevronRight } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/templates/",
+  },
   title: "Decision Wheel Templates Hub | GameWheelClub",
   description: "Browse dozens of free pre-made decision wheel templates. Categorized by Food, Party Games, and Classroom utilities.",
 };

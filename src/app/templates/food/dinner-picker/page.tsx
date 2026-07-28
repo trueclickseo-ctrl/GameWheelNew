@@ -4,6 +4,9 @@ import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/templates/food/dinner-picker/",
+  },
   title: "Dinner Picker Wheel | What Should I Eat for Dinner?",
   description: "Settle the dinner debate instantly. Spin the dinner wheel preloaded with popular meal options: Pizza, Tacos, Burgers, Pasta, Salad, and Chinese.",
 };
@@ -18,9 +21,9 @@ export default function DinnerPickerPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/food" className="hover:text-retro-orange">Food</Link>
+          <Link href="/templates/food/" className="hover:text-retro-orange">Food</Link>
           <span>/</span>
           <span className="text-retro-orange">Dinner Picker</span>
         </div>
@@ -49,7 +52,7 @@ export default function DinnerPickerPage() {
                 Our <strong>Dinner Picker Wheel</strong> takes the effort out of meal planning. By preloading standard favorites like pizza, sushi, and tacos, the spinner provides a quick, unbiased outcome. If someone complains about the winning selection, it immediately reveals what they *actually* wanted to eat instead!
               </p>
               <p>
-                Want to make a completely custom decision? Navigate to our core <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or pick names for chores using the <Link href="/wheel-of-names" className="text-retro-blue underline font-bold">Wheel of Names</Link>.
+                Want to make a completely custom decision? Navigate to our core <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or pick names for chores using the <Link href="/wheel-of-names/" className="text-retro-blue underline font-bold">Wheel of Names</Link>.
               </p>
             </div>
           </div>

@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/anime-fandom-wheels/anime-to-watch/",
+  },
   title: "Anime to Watch Wheel | Random Anime Generator | GameWheelClub",
   description: "Can't decide what anime to watch next? Spin the Anime to Watch Wheel to get a random recommended series instantly. Free and easy decision maker.",
 };
@@ -28,9 +31,9 @@ export default function AnimeToWatchWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">Anime to Watch</span>
         </div>
@@ -66,7 +69,7 @@ export default function AnimeToWatchWheelPage() {
                 Our <strong>Anime to Watch Wheel</strong> solves this exact problem. By loading it with top-tier anime recommendations—ranging from shonen giants to dark psychological thrillers—you can eliminate decision fatigue instantly. Let a simple click determine your next cinematic adventure.
               </p>
               <p>
-                Want to fine-tune the wheel to only include specific genres (like romance, isekai, or sports anime)? Use the edit panel on the wheel to tailor the list to your mood. For other general decision-making needs, feel free to use the <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or browse our complete collection at <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Wheels</Link>.
+                Want to fine-tune the wheel to only include specific genres (like romance, isekai, or sports anime)? Use the edit panel on the wheel to tailor the list to your mood. For other general decision-making needs, feel free to use the <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or browse our complete collection at <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Wheels</Link>.
               </p>
             </div>
           </div>

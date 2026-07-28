@@ -1,10 +1,16 @@
-"use client";
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 import { ArrowLeft, Play, Sparkles, HelpCircle } from "lucide-react";
+
+export const metadata = {
+  title: "Periodic Table Picker | GameWheelClub",
+  description: "Spin to select a random chemical element from the periodic table.",
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/generators/periodic-table-picker/",
+  },
+};
 
 export default function PeriodicTablePickerPage() {
 
@@ -16,16 +22,16 @@ export default function PeriodicTablePickerPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/generators" className="hover:text-retro-orange">Random Generators</Link>
+          <Link href="/generators/" className="hover:text-retro-orange">Random Generators</Link>
           <span>/</span>
           <span className="text-retro-orange">Periodic Table Picker</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/generators"
+          href="/generators/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Random Generators
@@ -63,7 +69,7 @@ export default function PeriodicTablePickerPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Color Wheel Spinner](/generators/color-wheel), [Number Wheel Spinner](/generators/number-wheel), [Percent Wheel Spinner](/generators/percent-wheel) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Color Wheel Spinner](/generators/color-wheel), [Number Wheel Spinner](/generators/number-wheel), [Percent Wheel Spinner](/generators/percent-wheel) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

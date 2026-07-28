@@ -4,6 +4,9 @@ import Link from "next/link";
 import { BookOpen, ArrowLeft, Search, Bookmark } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/learn/encyclopedia/",
+  },
   title: "Wheel Game Encyclopedia & Terminology Glossary | GameWheelClub",
   description: "Comprehensive A-Z glossary of decision wheel terminology, sortition, PRNG algorithms, weighted options, and random seed mechanics.",
 };
@@ -62,7 +65,7 @@ export default function EncyclopediaPage() {
       "@type": "DefinedTerm",
       "name": item.term,
       "description": item.definition,
-      "inDefinedTermSet": "https://gamewheelclub.com/learn/encyclopedia",
+      "inDefinedTermSet": "https://www.gamewheelclub.com/learn/encyclopedia",
     })),
   };
 
@@ -78,7 +81,7 @@ export default function EncyclopediaPage() {
         />
 
         {/* Back Link */}
-        <Link href="/learn" className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-wider text-retro-orange mb-6 hover:underline">
+        <Link href="/learn/" className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-wider text-retro-orange mb-6 hover:underline">
           <ArrowLeft className="w-4 h-4" /> Back to Learn Hub
         </Link>
 

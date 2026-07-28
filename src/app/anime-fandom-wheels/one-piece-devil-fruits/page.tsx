@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/anime-fandom-wheels/one-piece-devil-fruits/",
+  },
   title: "One Piece Devil Fruits Wheel | Spin for Devil Fruits | GameWheelClub",
   description: "Spin the One Piece Devil Fruits Wheel to randomly select which Devil Fruit power you would inherit in the world of anime. Free and customizable.",
 };
@@ -26,9 +29,9 @@ export default function OnePieceDevilFruitsWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">One Piece Devil Fruits</span>
         </div>
@@ -64,7 +67,7 @@ export default function OnePieceDevilFruitsWheelPage() {
                 This <strong>One Piece Devil Fruits Wheel</strong> is configured with legendary Devil Fruits such as the Gum-Gum Fruit, Flame-Flame Fruit, Tremor-Tremor Fruit, and the versatile Op-Op Fruit. Spin the wheel to determine what power you would inherit if you were a pirate in the Grand Line.
               </p>
               <p>
-                You can easily add other Devil Fruits (like the Chop-Chop Fruit or the Dark-Dark Fruit) to the list. If you want to make an entirely customized board, check out our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or head back to the <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom category</Link>.
+                You can easily add other Devil Fruits (like the Chop-Chop Fruit or the Dark-Dark Fruit) to the list. If you want to make an entirely customized board, check out our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or head back to the <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom category</Link>.
               </p>
             </div>
           </div>

@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { Calculator, Dices, Percent, HelpCircle, GraduationCap, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/blog/math-activities-using-random-generators/",
+  },
   title: "Math Activities Using Random Generators: Interactive Ideas",
   description: "Make mathematics interactive! Discover 6 engaging math activities, probability games, and number drills utilizing random number generators and digital dice.",
 };
@@ -26,12 +29,12 @@ export default function MathActivitiesUsingRandomGenerators() {
       "name": "GameWheelClub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://gamewheelclub.com/logo.png"
+        "url": "https://www.gamewheelclub.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://gamewheelclub.com/blog/math-activities-using-random-generators"
+      "@id": "https://www.gamewheelclub.com/blog/math-activities-using-random-generator/s"
     }
   };
 
@@ -50,7 +53,7 @@ export default function MathActivitiesUsingRandomGenerators() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -87,7 +90,7 @@ export default function MathActivitiesUsingRandomGenerators() {
                   Mathematics is often viewed by students as abstract and rigid. Rote drills and worksheets, while useful for practice, can quickly disengage young learners. Gamification changes this dynamic by introducing goals, competition, and uncertainty.
                 </p>
                 <p>
-                  By utilizing digital math tools like a <Link href="/random-number-generator" className="font-bold underline hover:text-retro-blue">Random Number Generator</Link> or digital dice, teachers can generate equations, numbers, and variables dynamically on a projector screen, keeping the class alert and engaged.
+                  By utilizing digital math tools like a <Link href="/random-number-generator/" className="font-bold underline hover:text-retro-blue">Random Number Generator</Link> or digital dice, teachers can generate equations, numbers, and variables dynamically on a projector screen, keeping the class alert and engaged.
                 </p>
               </div>
             </section>
@@ -102,7 +105,7 @@ export default function MathActivitiesUsingRandomGenerators() {
                   Probability and statistics are best understood when students can see theory in action. Instead of reading about rolling a die 100 times, you can show it live.
                 </p>
                 <p>
-                  Using a multi-dice roller like our <Link href="/dice-roller" className="font-bold underline hover:text-retro-orange">Dice Roller</Link>, you can roll several dice simultaneously and track the frequencies of the sums. Students can calculate the theoretical probability of rolling a sum of 7 vs. a sum of 12, then run 50 rolls on screen to compare empirical data with theory. This instantly bridges the gap between formulas and reality.
+                  Using a multi-dice roller like our <Link href="/dice-roller/" className="font-bold underline hover:text-retro-orange">Dice Roller</Link>, you can roll several dice simultaneously and track the frequencies of the sums. Students can calculate the theoretical probability of rolling a sum of 7 vs. a sum of 12, then run 50 rolls on screen to compare empirical data with theory. This instantly bridges the gap between formulas and reality.
                 </p>
               </div>
             </section>
@@ -178,13 +181,13 @@ export default function MathActivitiesUsingRandomGenerators() {
                 Generate values, roll dice, and configure classroom templates instantly.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/random-number-generator" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/random-number-generator/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Number Generator <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/dice-roller" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/dice-roller/" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Dice Roller <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/classroom" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/classroom/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Class Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

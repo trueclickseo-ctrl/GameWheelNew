@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { Settings, Sparkles, Palette, Volume2, CheckCircle2, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/blog/how-to-customize-spin-wheels/",
+  },
   title: "How to Customize Spin Wheels for Any Occasion",
   description: "Learn how to customize your spin wheels with custom colors, labels, weight distribution, and sound effects to suit classrooms, parties, or business events.",
 };
@@ -26,12 +29,12 @@ export default function HowToCustomizeSpinWheels() {
       "name": "GameWheelClub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://gamewheelclub.com/logo.png"
+        "url": "https://www.gamewheelclub.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://gamewheelclub.com/blog/how-to-customize-spin-wheels"
+      "@id": "https://www.gamewheelclub.com/blog/how-to-customize-spin-wheel/s"
     }
   };
 
@@ -50,7 +53,7 @@ export default function HowToCustomizeSpinWheels() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -102,7 +105,7 @@ export default function HowToCustomizeSpinWheels() {
                   Not all options are created equal. Sometimes, you want one choice to have a higher chance of being picked. This is where options weighing comes into play. By increasing the frequency or size of a specific item, you manipulate its probability.
                 </p>
                 <p>
-                  On the <Link href="/wheel-of-names" className="font-bold underline hover:text-retro-blue">Wheel of Names</Link>, you can insert duplicates of a name to give a person a double chance of winning, or create unique prize ratios. This is excellent for fundraisers or raffle events where some prizes are more common than others.
+                  On the <Link href="/wheel-of-names/" className="font-bold underline hover:text-retro-blue">Wheel of Names</Link>, you can insert duplicates of a name to give a person a double chance of winning, or create unique prize ratios. This is excellent for fundraisers or raffle events where some prizes are more common than others.
                 </p>
               </div>
             </section>
@@ -176,13 +179,13 @@ export default function HowToCustomizeSpinWheels() {
                 Put your list in, choose your look, and spin the wheel for a custom decision.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/decision-wheel" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/decision-wheel/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Decision Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/wheel-of-names" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/wheel-of-names/" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Wheel of Names <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Browse Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

@@ -30,16 +30,16 @@ export default function AdultTruthorDareWheelPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/party-games" className="hover:text-retro-orange">Party & Social Games</Link>
+          <Link href="/party-games/" className="hover:text-retro-orange">Party & Social Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Adult Truth or Dare</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/party-games"
+          href="/party-games/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Party & Social Games
@@ -52,7 +52,7 @@ export default function AdultTruthorDareWheelPage() {
             <p className="text-sm font-semibold mb-6">This page contains content suitable only for mature audiences (18+). Click verify to proceed.</p>
             <div className="flex gap-4 justify-center">
               <button onClick={verifyAge} className="px-6 py-3 neo-btn bg-retro-mint font-bold hover:scale-105 transition-transform">I am 18+</button>
-              <Link href="/games" className="px-6 py-3 neo-btn bg-white hover:scale-105 transition-transform">Go Back</Link>
+              <Link href="/games/" className="px-6 py-3 neo-btn bg-white hover:scale-105 transition-transform">Go Back</Link>
             </div>
           </div>
         ) : (
@@ -89,7 +89,7 @@ export default function AdultTruthorDareWheelPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Truth or Dare Wheel](/party-games/truth-or-dare), [Extreme Truth or Dare Wheel](/party-games/extreme-truth-or-dare), [Spin the Bottle Wheel](/party-games/spin-the-bottle) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Truth or Dare Wheel](/party-games/truth-or-dare), [Extreme Truth or Dare Wheel](/party-games/extreme-truth-or-dare), [Spin the Bottle Wheel](/party-games/spin-the-bottle) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

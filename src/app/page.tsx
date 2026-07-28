@@ -7,16 +7,16 @@ export const metadata = {
   title: "GameWheelClub — Free Random Decision Wheel Spinner",
   description: "Spin the decision wheel to make instant, fair, and unbiased choices. Free, zero-cookie, client-side random choice generator for names, yes-no, raffles, and classrooms.",
   alternates: {
-    canonical: "https://gamewheelclub.com",
+    canonical: "https://www.gamewheelclub.com/",
   },
   openGraph: {
     title: "GameWheelClub — Free Random Decision Wheel Spinner",
     description: "Spin the decision wheel to make instant, fair, and unbiased choices. Free, zero-cookie, client-side random choice generator.",
-    url: "https://gamewheelclub.com",
+    url: "https://www.gamewheelclub.com/",
     siteName: "GameWheelClub",
     images: [
       {
-        url: "https://gamewheelclub.com/icon.jpg",
+        url: "https://www.gamewheelclub.com/icon.jpg",
         width: 1200,
         height: 630,
         alt: "GameWheelClub Decision Wheel",
@@ -29,7 +29,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "GameWheelClub — Free Random Decision Wheel Spinner",
     description: "Spin the decision wheel to make instant, fair, and unbiased choices. Free, zero-cookie, client-side random choice generator.",
-    images: ["https://gamewheelclub.com/icon.jpg"],
+    images: ["https://www.gamewheelclub.com/icon.jpg"],
   },
 };
 
@@ -47,7 +47,7 @@ export default function Home() {
         "priceCurrency": "USD",
       },
       "description": "Free browser-based decision-wheel utility for fair, unbiased choices.",
-      "url": "https://gamewheelclub.com",
+      "url": "https://www.gamewheelclub.com/",
     },
     {
       "@context": "https://schema.org",

@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Compass, ChevronRight } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/anime-fandom-wheels/",
+  },
   title: "Anime & Fandom Character Wheels | GameWheelClub",
   description: "Spin 19 free fandom decision wheels. Randomize anime characters, Disney movies, cartoon icons, FNAF animatronics, and One Piece Devil Fruits.",
 };
@@ -38,7 +41,7 @@ export default function AnimeFandomCategoryPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Anime & Fandom</span>
         </div>

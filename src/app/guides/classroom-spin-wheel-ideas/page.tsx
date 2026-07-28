@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { GraduationCap, Award, Users, BookOpen, Lightbulb, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/guides/classroom-spin-wheel-ideas/",
+  },
   title: "Classroom Spin Wheel Ideas: Interactive Teaching Strategies",
   description: "Boost student engagement with 15 creative classroom spin wheel ideas. Learn how to run fair name draws, assign tasks, and gamify lessons with random wheels.",
 };
@@ -56,7 +59,7 @@ export default function ClassroomSpinWheelIdeas() {
                   Maintaining student focus is one of the most persistent hurdles in modern education. With digital distractions at an all-time high, educators need dynamic, interactive tools to hook students&apos; attention. Gamification—the integration of game mechanics into non-game contexts—has proven to be an exceptionally effective strategy.
                 </p>
                 <p>
-                  A digital decision wheel, such as the <Link href="/wheel-of-names" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link>, serves as a low-barrier, high-impact gamification tool. It introduces elements of suspense, visual reward, and absolute fairness into daily routines.
+                  A digital decision wheel, such as the <Link href="/wheel-of-names/" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link>, serves as a low-barrier, high-impact gamification tool. It introduces elements of suspense, visual reward, and absolute fairness into daily routines.
                 </p>
                 <p>
                   When students see their names or topics rotating on a brightly colored board, the classroom environment transforms instantly. The visual and auditory cues signal that a fun, interactive moment is taking place, making even routine tasks like homework review or vocabulary drills feel like a live gameshow.
@@ -147,7 +150,7 @@ export default function ClassroomSpinWheelIdeas() {
                 <ul className="list-disc pl-6 space-y-2">
                   <li><strong>Remove Names Post-Selection:</strong> If you are cold-calling on students to answer questions, check the option to remove names after they are picked. This prevents the same student from being called twice in a row and ensures everyone gets a turn.</li>
                   <li><strong>Keep it Fast:</strong> Don&apos;t let the spin animation run too long. A 3-to-4 second spin is usually ideal to maintain pacing without losing momentum.</li>
-                  <li><strong>Pre-save Lists:</strong> Save your rosters or activity configurations as templates. Utilizing <Link href="/templates/classroom" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link> saves precious transition time during lessons.</li>
+                  <li><strong>Pre-save Lists:</strong> Save your rosters or activity configurations as templates. Utilizing <Link href="/templates/classroom/" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link> saves precious transition time during lessons.</li>
                 </ul>
               </div>
             </section>
@@ -182,10 +185,10 @@ export default function ClassroomSpinWheelIdeas() {
                 Instantly populate a classroom roster and spin to pick your first student helper!
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/wheel-of-names" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/wheel-of-names/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Wheel of Names <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/classroom" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/classroom/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Classroom Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

@@ -6,6 +6,9 @@ import { Metadata } from "next";
 import { Cpu, Scale, Settings, Activity, Compass, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/guides/how-random-wheels-work/",
+  },
   title: "How Random Wheels Work: Mathematics, Algorithms & Physics",
   description: "Dive deep into the science behind virtual spin wheels. Explore Pseudo-Random Number Generators (PRNGs), friction deceleration physics, and algorithmic fairness.",
 };
@@ -81,7 +84,7 @@ export default function HowRandomWheelsWork() {
                   <strong>True Random Number Generators (TRNGs):</strong> These generators capture physical noise from physical processes—such as radioactive decay, thermal fluctuations in semiconductors, or atmospheric noise—and convert it into numbers. TRNGs are completely unpredictable because they rely on the chaotic nature of the physical universe.
                 </p>
                 <p>
-                  For a decision-making tool like the <Link href="/wheel-of-names" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link>, a high-quality PRNG is perfectly sufficient. To ensure high levels of fairness, advanced wheels can utilize the Web Cryptography API (<code>window.crypto.getRandomValues</code>), which grabs entropy from the operating system&apos;s underlying hardware noise. This guarantees that your raffle, name selection, or dinner decision is secure against manipulation.
+                  For a decision-making tool like the <Link href="/wheel-of-names/" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link>, a high-quality PRNG is perfectly sufficient. To ensure high levels of fairness, advanced wheels can utilize the Web Cryptography API (<code>window.crypto.getRandomValues</code>), which grabs entropy from the operating system&apos;s underlying hardware noise. This guarantees that your raffle, name selection, or dinner decision is secure against manipulation.
                 </p>
               </div>
             </section>
@@ -133,7 +136,7 @@ export default function HowRandomWheelsWork() {
                   To achieve this computationally, the algorithm first selects a random number \(R\) between 0 and 1. It then multiplies \(R\) by 360 to find the landing angle. By dividing 360 by the number of segments, the code determines which index corresponds to that angle. Crucially, the landing spot within a specific slice is also randomized to prevent the pointer from constantly landing exactly in the middle of a slice, which would look unnatural.
                 </p>
                 <p>
-                  In custom templates such as <Link href="/templates/classroom" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link>, maintaining this exact probability distribution is what allows educators to distribute tasks, call on students, or hand out rewards with absolute impartiality.
+                  In custom templates such as <Link href="/templates/classroom/" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link>, maintaining this exact probability distribution is what allows educators to distribute tasks, call on students, or hand out rewards with absolute impartiality.
                 </p>
               </div>
             </section>
@@ -168,10 +171,10 @@ export default function HowRandomWheelsWork() {
                 Put these algorithms to the test with our live, client-side tools. Zero delays, zero bias.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/wheel-of-names" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/wheel-of-names/" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Wheel of Names <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/classroom" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/classroom/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Classroom Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

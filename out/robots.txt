@@ -2,33 +2,43 @@
 
 User-agent: *
 Allow: /
+Disallow: /out/
 
 # Explicitly Allow AI Agents & LLM Crawlers
 User-agent: GPTBot
 Allow: /
+Disallow: /out/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /out/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /out/
 
 User-agent: Claude-Web
 Allow: /
+Disallow: /out/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /out/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /out/
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /out/
 
 User-agent: CCBot
 Allow: /
+Disallow: /out/
 
 User-agent: Bytespider
 Allow: /
+Disallow: /out/
 
-Sitemap: https://gamewheelclub.com/sitemap.xml
+Sitemap: https://www.gamewheelclub.com/sitemap.xml

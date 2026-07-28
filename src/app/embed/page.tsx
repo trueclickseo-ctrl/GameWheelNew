@@ -56,7 +56,7 @@ function EmbedWheelContent() {
       <footer className="mt-4 pt-2 text-center text-xs font-bold opacity-80 border-t border-retro-navy/10 dark:border-cream/10 w-full max-w-2xl flex items-center justify-center gap-1">
         <span>Powered by</span>
         <a
-          href="https://gamewheelclub.com"
+          href="https://www.gamewheelclub.com"
           target="_blank"
           rel="noopener noreferrer"
           className="text-retro-orange hover:underline font-extrabold"

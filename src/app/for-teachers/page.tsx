@@ -4,6 +4,9 @@ import Link from "next/link";
 import { GraduationCap, Sparkles } from "lucide-react";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.gamewheelclub.com/for-teachers/",
+  },
   title: "Random Decision Tools for Teachers | GameWheelClub",
   description: "Discover free spin wheels and timer tools for classroom management. Choose random students, pick subjects, and award privileges fairly.",
 };
@@ -45,19 +48,19 @@ export default function ForTeachersPage() {
             Skip the setup. Use our custom teacher-designed templates to start your class instantly:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/templates/classroom/rewards-wheel" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/templates/classroom/rewards-wheel/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Rewards Selector</span>
               <span className="text-xs font-semibold opacity-85">Give students privileges like seat choice or extra recess.</span>
             </Link>
-            <Link href="/templates/classroom/student-grouping" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/templates/classroom/student-grouping/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Student Grouping Wheel</span>
               <span className="text-xs font-semibold opacity-85">Instantly split classrooms into fair project teams.</span>
             </Link>
-            <Link href="/templates/classroom/subject-picker" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/templates/classroom/subject-picker/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Subject Picker Wheel</span>
               <span className="text-xs font-semibold opacity-85">Choose which study block to focus on next.</span>
             </Link>
-            <Link href="/templates/classroom/brain-break" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
+            <Link href="/templates/classroom/brain-break/" className="p-4 rounded neo-border hover:bg-cream/40 dark:hover:bg-slate-800 transition-colors flex flex-col justify-between">
               <span className="font-black text-lg block mb-1">Brain Break Spinner</span>
               <span className="text-xs font-semibold opacity-85">Get students moving with random exercise break ideas.</span>
             </Link>
@@ -65,13 +68,13 @@ export default function ForTeachersPage() {
 
           <h2 className="text-2xl font-black font-display pt-4">More Utility Tools</h2>
           <div className="flex flex-wrap gap-4 pt-2">
-            <Link href="/wheel-of-names" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
+            <Link href="/wheel-of-names/" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
               Custom Name Picker
             </Link>
-            <Link href="/timer" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
+            <Link href="/timer/" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
               Classroom Timer
             </Link>
-            <Link href="/random-number-generator" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
+            <Link href="/random-number-generator/" className="px-4 py-2 neo-btn bg-retro-yellow text-retro-navy text-sm">
               Math RNG
             </Link>
           </div>
