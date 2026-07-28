@@ -19,7 +19,6 @@
   RewriteCond %{HTTP_HOST} !^www\.gamewheelclub\.com$ [NC,OR]
   RewriteCond %{REQUEST_URI} !/$
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|jpeg|gif|svg|ico|json|xml|txt|webmanifest|woff|woff2|mp3|wav|html)$ [NC]
   RewriteRule ^(.*?[^/])$ https://www.gamewheelclub.com/$1/ [R=301,L]
 
