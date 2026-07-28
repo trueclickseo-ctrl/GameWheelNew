@@ -14,6 +14,14 @@
   RewriteCond %{THE_REQUEST} \s/out/ [NC]
   RewriteRule ^out/(.*?)/?(?:\.html)?$ https://www.gamewheelclub.com/$1/ [R=301,L,NE]
 
+  # 1.5. Redirect direct external requests for index.html or *.html to their clean canonical equivalent
+  RewriteCond %{THE_REQUEST} \s/index\.html [NC]
+  RewriteRule ^index\.html$ https://www.gamewheelclub.com/ [R=301,L,NE]
+
+  RewriteCond %{THE_REQUEST} \s/([^?\s]+)\.html [NC]
+  RewriteRule ^(.*)\.html$ https://www.gamewheelclub.com/$1/ [R=301,L,NE]
+
+
   # 2. Redirect to HTTPS + WWW + Trailing Slash if trailing slash is missing (and not a physical file/asset/html)
   RewriteCond %{HTTPS} off [OR]
   RewriteCond %{HTTP_HOST} !^www\.gamewheelclub\.com$ [NC,OR]
