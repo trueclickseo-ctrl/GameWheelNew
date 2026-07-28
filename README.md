@@ -1,6 +1,6 @@
-# SpinVerse
+# GameWheelClub
 
-SpinVerse is a fast, lightweight, and accessible random-decision tools website (spin wheels, generators, pickers) built with Next.js (App Router), TypeScript, and Tailwind CSS.
+GameWheelClub is a fast, lightweight, and accessible random-decision tools website (spin wheels, generators, pickers) built with Next.js (App Router), TypeScript, and Tailwind CSS.
 
 ## Technology Stack
 
@@ -32,7 +32,7 @@ Hostinger Business Plan supports hosting Next.js Node.js apps. Follow these step
 1. **Hostinger Panel Setup**:
    - Go to your Hostinger hPanel -> **Websites** -> **Node.js**.
    - Click **Create Web App**.
-   - Set the App Name to `spinverse`.
+   - Set the App Name to `gamewheelclub`.
    - Select the desired Node.js version (v20+ recommended).
    - Set the Document Root pointing to your domain directory.
 

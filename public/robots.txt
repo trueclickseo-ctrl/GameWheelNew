@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /out/
 
-Sitemap: https://spinverse.com/sitemap.xml
+Sitemap: https://www.gamewheelclub.com/sitemap.xml

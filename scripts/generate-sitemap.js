@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const projectRoot = 'd:/Project-PDFverse/SpinVerse';
+const projectRoot = 'd:/Project-GameWheel';
 const appDir = path.join(projectRoot, 'src/app');
 const sitemapPath = path.join(projectRoot, 'public/sitemap.xml');
 
@@ -44,13 +44,13 @@ let xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
 `;
 
 for (const route of allRoutes) {
-  // Normalize routes
-  const cleanRoute = route === '/' ? '' : route;
+  // Normalize routes to use trailing slashes to match Next.js trailingSlash: true configuration
+  const cleanRoute = route === '/' ? '/' : `${route}/`;
   const priority = route === '/' ? '1.0' : (route.split('/').length > 2 ? '0.7' : '0.8');
   const changefreq = route === '/' ? 'daily' : (route.split('/').length > 2 ? 'monthly' : 'weekly');
 
   xmlContent += `  <url>
-    <loc>https://spinverse.com${cleanRoute}</loc>
+    <loc>https://www.gamewheelclub.com${cleanRoute}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>

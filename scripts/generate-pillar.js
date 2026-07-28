@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const projectRoot = 'd:/Project-PDFverse/SpinVerse';
+const projectRoot = 'd:/Project-GameWheel';
 const appDir = path.join(projectRoot, 'src/app');
 
 const categories = {
