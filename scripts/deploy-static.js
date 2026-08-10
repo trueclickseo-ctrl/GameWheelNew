@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const projectRoot = 'd:/Project-GameWheel';
+const projectRoot = path.resolve(__dirname, '..');
 const outDir = path.join(projectRoot, 'out');
 
 if (!fs.existsSync(outDir)) {
