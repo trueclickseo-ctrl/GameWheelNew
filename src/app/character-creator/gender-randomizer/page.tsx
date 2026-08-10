@@ -16,16 +16,16 @@ export default function GenderRandomizerWheelPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/character-creator" className="hover:text-retro-orange">Character Creator & OC Wheels</Link>
+          <Link href="/character-creator/" className="hover:text-retro-orange">Character Creator & OC Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">Gender Randomizer</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/character-creator"
+          href="/character-creator/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Character Creator & OC Wheels
@@ -46,7 +46,7 @@ export default function GenderRandomizerWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Male","Female","Non-binary","Androgynous","Genderqueer","Demiboy","Demigirl"]} storageKey="gamewheelclub-character-creator-gender-randomizer" />
+          <WheelSpinner initialOptions={["Male","Female","Non-binary","Androgynous","Genderqueer","Demiboy","Demigirl"]} storageKey="spinverse-character-creator-gender-randomizer" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}
@@ -63,7 +63,7 @@ export default function GenderRandomizerWheelPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Create an OC Wheel](/character-creator/create-an-oc), [Boy or Girl OC Spinner](/character-creator/boy-or-girl-oc), [Gacha Character Generator Wheel](/character-creator/gacha-character-generator) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Create an OC Wheel](/character-creator/create-an-oc/), [Boy or Girl OC Spinner](/character-creator/boy-or-girl-oc/), [Gacha Character Generator Wheel](/character-creator/gacha-character-generator/) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

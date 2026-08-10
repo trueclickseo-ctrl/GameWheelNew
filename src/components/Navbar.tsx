@@ -17,13 +17,13 @@ export default function Navbar({ currentLocale = "en" }: { currentLocale?: strin
   const localePrefix = currentLocale === "en" ? "" : `/${currentLocale}`;
 
   const tools = [
-    { name: "Wheel of Names", href: `${localePrefix}/wheel-of-names` },
-    { name: "Decision Wheel", href: `${localePrefix}/decision-wheel` },
-    { name: "Yes or No Wheel", href: `${localePrefix}/yes-no-wheel` },
-    { name: "Number Generator", href: `${localePrefix}/random-number-generator` },
-    { name: "Flip a Coin", href: `${localePrefix}/flip-a-coin` },
-    { name: "Dice Roller", href: `${localePrefix}/dice-roller` },
-    { name: "Timer", href: `${localePrefix}/timer` },
+    { name: "Wheel of Names", href: `${localePrefix}/wheel-of-names/` },
+    { name: "Decision Wheel", href: `${localePrefix}/decision-wheel/` },
+    { name: "Yes or No Wheel", href: `${localePrefix}/yes-no-wheel/` },
+    { name: "Number Generator", href: `${localePrefix}/random-number-generator/` },
+    { name: "Flip a Coin", href: `${localePrefix}/flip-a-coin/` },
+    { name: "Dice Roller", href: `${localePrefix}/dice-roller/` },
+    { name: "Timer", href: `${localePrefix}/timer/` },
   ];
 
   // Click away listener for desktop dropdowns
@@ -84,16 +84,16 @@ export default function Navbar({ currentLocale = "en" }: { currentLocale?: strin
           )}
         </div>
 
-        <a href={`${localePrefix}/games`} className="hover:text-retro-orange transition-colors">
+        <a href={`${localePrefix}/games/`} className="hover:text-retro-orange transition-colors">
           {t.games}
         </a>
-        <a href={`${localePrefix}/templates`} className="hover:text-retro-orange transition-colors">
+        <a href={`${localePrefix}/templates/`} className="hover:text-retro-orange transition-colors">
           {t.templates}
         </a>
-        <a href={`${localePrefix}/about`} className="hover:text-retro-orange transition-colors">
+        <a href={`${localePrefix}/about/`} className="hover:text-retro-orange transition-colors">
           {t.about}
         </a>
-        <a href={`${localePrefix}/contact`} className="hover:text-retro-orange transition-colors">
+        <a href={`${localePrefix}/contact/`} className="hover:text-retro-orange transition-colors">
           {t.contact}
         </a>
 
@@ -136,16 +136,16 @@ export default function Navbar({ currentLocale = "en" }: { currentLocale?: strin
             ))}
           </div>
 
-          <a href={`${localePrefix}/games`} className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/games/`} className="hover:text-retro-orange transition-colors">
             {t.games}
           </a>
-          <a href={`${localePrefix}/templates`} className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/templates/`} className="hover:text-retro-orange transition-colors">
             {t.templates}
           </a>
-          <a href={`${localePrefix}/about`} className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/about/`} className="hover:text-retro-orange transition-colors">
             {t.about}
           </a>
-          <a href={`${localePrefix}/contact`} className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/contact/`} className="hover:text-retro-orange transition-colors">
             {t.contact}
           </a>
         </div>

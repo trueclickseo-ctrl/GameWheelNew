@@ -118,7 +118,7 @@ export default function RandomGiveawayRules() {
                   Once your entries are collected, you must draw a winner fairly. Picking a winner behind closed doors can lead to accusations of favoritism or fraud. To prevent this, many brands stream their draws live or upload screen recordings of the selection process.
                 </p>
                 <p>
-                  Using a digital randomizer tool like the <Link href="/wheel-of-names" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link> provides a clear, visual validation of fairness. You simply paste your list of entrants, click spin, and let the unbiased browser-side algorithm choose the winner.
+                  Using a digital randomizer tool like the <Link href="/wheel-of-names/" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link> provides a clear, visual validation of fairness. You simply paste your list of entrants, click spin, and let the unbiased browser-side algorithm choose the winner.
                 </p>
                 <p>
                   Ensure you record the screen or host a live stream during the draw. This provides a transparent audit trail, protecting your reputation and reassuring your community that the winner was selected fairly.
@@ -179,10 +179,10 @@ export default function RandomGiveawayRules() {
                 Ready to draw your winner? Paste your participant list and let the wheel choose!
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/wheel-of-names" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/wheel-of-names/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Wheel of Names <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/party-games" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/party-games/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Party Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

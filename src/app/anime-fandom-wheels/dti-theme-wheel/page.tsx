@@ -28,9 +28,9 @@ export default function DtiThemeWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">DTI Theme Wheel</span>
         </div>
@@ -66,7 +66,7 @@ export default function DtiThemeWheelPage() {
                 Our <strong>DTI Theme Wheel</strong> is preloaded with popular aesthetics ranging from classic Goth and preppy Old Money to futurist Cyberpunk and retro Y2K. This interactive spinner ensures you always have a fun styling theme at the click of a button.
               </p>
               <p>
-                You can easily add new themes or edit the layout to match the exact season updates. If you want to make an entirely customized list from scratch, use our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily add new themes or edit the layout to match the exact season updates. If you want to make an entirely customized list from scratch, use our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

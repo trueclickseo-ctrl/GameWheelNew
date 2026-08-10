@@ -16,16 +16,16 @@ export default function CountryRoulettePage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/geography-wheels" className="hover:text-retro-orange">Geography Wheels</Link>
+          <Link href="/geography-wheels/" className="hover:text-retro-orange">Geography Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">64 Country Roulette</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/geography-wheels"
+          href="/geography-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Geography Wheels
@@ -46,7 +46,7 @@ export default function CountryRoulettePage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["USA","Canada","Mexico","Brazil","Argentina","UK","France","Germany","Italy","Spain","Russia","Egypt","South Africa","Nigeria","Kenya","India","China","Japan","South Korea","Australia","New Zealand","Saudi Arabia","Turkey","Greece","Sweden","Norway","Netherlands","Switzerland","Poland","Ukraine","Vietnam","Thailand","Indonesia","Philippines","Colombia","Peru","Chile","Venezuela","Morocco","Ghana","Ethiopia","Pakistan","Bangladesh","Iran","Iraq","Israel","Singapore","Malaysia","New Zealand","Portugal","Austria","Denmark","Finland","Ireland","Belgium","Czechia","Hungary","Romania","Cuba","Jamaica","Costa Rica","Panama","Ecuador","Bolivia"]} storageKey="gamewheelclub-geography-wheels-64-country-roulette" />
+          <WheelSpinner initialOptions={["USA","Canada","Mexico","Brazil","Argentina","UK","France","Germany","Italy","Spain","Russia","Egypt","South Africa","Nigeria","Kenya","India","China","Japan","South Korea","Australia","New Zealand","Saudi Arabia","Turkey","Greece","Sweden","Norway","Netherlands","Switzerland","Poland","Ukraine","Vietnam","Thailand","Indonesia","Philippines","Colombia","Peru","Chile","Venezuela","Morocco","Ghana","Ethiopia","Pakistan","Bangladesh","Iran","Iraq","Israel","Singapore","Malaysia","New Zealand","Portugal","Austria","Denmark","Finland","Ireland","Belgium","Czechia","Hungary","Romania","Cuba","Jamaica","Costa Rica","Panama","Ecuador","Bolivia"]} storageKey="spinverse-geography-wheels-64-country-roulette" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}
@@ -63,7 +63,7 @@ export default function CountryRoulettePage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Country Wheel Spinner](/geography-wheels/country-wheel), [US States Wheel](/geography-wheels/us-states), [Europe Countries Wheel](/geography-wheels/europe-countries) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Country Wheel Spinner](/geography-wheels/country-wheel/), [US States Wheel](/geography-wheels/us-states/), [Europe Countries Wheel](/geography-wheels/europe-countries/) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

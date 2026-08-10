@@ -32,16 +32,16 @@ export default function CollegeTeamsWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/sports-wheels" className="hover:text-retro-orange">Sports Wheels</Link>
+          <Link href="/sports-wheels/" className="hover:text-retro-orange">Sports Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">College Teams</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/sports-wheels"
+          href="/sports-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Sports Wheels
@@ -78,7 +78,7 @@ export default function CollegeTeamsWheelPage() {
                 The <strong>College Teams Wheel</strong> includes top-tier schools such as Alabama, Georgia, Ohio State, Michigan, Texas, and Notre Dame. It provides a fun, unbiased way to decide which school to lead in EA Sports College Football Dynasty mode or who to support during Bowl Season and March Madness.
               </p>
               <p>
-                To generate random decisions on other topics, check out our general <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games" className="text-retro-blue underline font-bold">Games Page</Link> for additional options.
+                To generate random decisions on other topics, check out our general <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games/" className="text-retro-blue underline font-bold">Games Page</Link> for additional options.
               </p>
             </div>
           </div>

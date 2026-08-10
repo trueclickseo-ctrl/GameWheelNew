@@ -4,23 +4,23 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Character Creator & OC Wheel Generators | GameWheelClub",
+  title: "Character Creator & OC Wheel Generators | SpinVerse",
   description: "Design random characters, OCs, and avatars instantly. Spin for hairstyles, outfits, eyes, genders, skin tones, and gacha ideas.",
 };
 
 export default function charactercreatorHubPage() {
   const wheels = [
-    { name: "Create an OC Wheel", href: "/character-creator/create-an-oc", desc: "Spin this wheel to generate a random background, race, or class for your next original character." },
-    { name: "Boy or Girl OC Spinner", href: "/character-creator/boy-or-girl-oc", desc: "Stuck on deciding the gender identity of your next character? Spin the pointer to decide instantly." },
-    { name: "Gacha Character Generator Wheel", href: "/character-creator/gacha-character-generator", desc: "Spin for styling themes, aesthetics, and fashion concepts to build your next Gacha Life or Gacha Club character." },
-    { name: "Hair Color Wheel", href: "/character-creator/hair-color", desc: "Spin to pick a random hair dye or OC hair color. Preloaded with natural tones and vibrant neon dyes." },
-    { name: "Hair Style Wheel", href: "/character-creator/hair-style", desc: "Select a random hairstyle for character sheets, drawings, or model designs." },
-    { name: "Eye Color Wheel", href: "/character-creator/eye-color", desc: "Decide eye shades and fantasy iris styles for your OC instantly." },
-    { name: "Skin Tone Wheel", href: "/character-creator/skin-tone", desc: "Select random skin shades, undertones, and creature textures." },
-    { name: "Clothing Style Wheel", href: "/character-creator/clothing-style", desc: "Get fashion ideas and outfit aesthetics for character creators." },
-    { name: "Gender Randomizer Wheel", href: "/character-creator/gender-randomizer", desc: "Randomize pronouns, gender identities, and presentation styles." },
-    { name: "Age Spinner Wheel", href: "/character-creator/age-spinner", desc: "Randomly choose character ages and development stages." },
-    { name: "Nationality Generator Wheel", href: "/character-creator/nationality-generator", desc: "Pick random national backgrounds and citizenships for global characters." }
+    { name: "Create an OC Wheel", href: "/character-creator/create-an-oc/", desc: "Spin this wheel to generate a random background, race, or class for your next original character." },
+    { name: "Boy or Girl OC Spinner", href: "/character-creator/boy-or-girl-oc/", desc: "Stuck on deciding the gender identity of your next character? Spin the pointer to decide instantly." },
+    { name: "Gacha Character Generator Wheel", href: "/character-creator/gacha-character-generator/", desc: "Spin for styling themes, aesthetics, and fashion concepts to build your next Gacha Life or Gacha Club character." },
+    { name: "Hair Color Wheel", href: "/character-creator/hair-color/", desc: "Spin to pick a random hair dye or OC hair color. Preloaded with natural tones and vibrant neon dyes." },
+    { name: "Hair Style Wheel", href: "/character-creator/hair-style/", desc: "Select a random hairstyle for character sheets, drawings, or model designs." },
+    { name: "Eye Color Wheel", href: "/character-creator/eye-color/", desc: "Decide eye shades and fantasy iris styles for your OC instantly." },
+    { name: "Skin Tone Wheel", href: "/character-creator/skin-tone/", desc: "Select random skin shades, undertones, and creature textures." },
+    { name: "Clothing Style Wheel", href: "/character-creator/clothing-style/", desc: "Get fashion ideas and outfit aesthetics for character creators." },
+    { name: "Gender Randomizer Wheel", href: "/character-creator/gender-randomizer/", desc: "Randomize pronouns, gender identities, and presentation styles." },
+    { name: "Age Spinner Wheel", href: "/character-creator/age-spinner/", desc: "Randomly choose character ages and development stages." },
+    { name: "Nationality Generator Wheel", href: "/character-creator/nationality-generator/", desc: "Pick random national backgrounds and citizenships for global characters." }
   ];
 
   return (
@@ -30,7 +30,7 @@ export default function charactercreatorHubPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Character Creator & OC Wheels</span>
         </div>

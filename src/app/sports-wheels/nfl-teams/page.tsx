@@ -32,16 +32,16 @@ export default function NFLTeamsWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/sports-wheels" className="hover:text-retro-orange">Sports Wheels</Link>
+          <Link href="/sports-wheels/" className="hover:text-retro-orange">Sports Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">NFL Teams</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/sports-wheels"
+          href="/sports-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Sports Wheels
@@ -78,7 +78,7 @@ export default function NFLTeamsWheelPage() {
                 This spinner is preloaded with popular, competitive teams from both the NFC and AFC—including the Kansas City Chiefs, San Francisco 49ers, Philadelphia Eagles, and Buffalo Bills. If you want to customize the list to include all 32 franchises, or narrow it down to just your local rivals, you can easily add or remove options right in the spinner menu.
               </p>
               <p>
-                For custom decisions outside of football, try our general <Link href="/decision-wheel" className="text-retro-blue underline font-bold">Decision Wheel</Link> or browse the full directory of options on the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link>.
+                For custom decisions outside of football, try our general <Link href="/decision-wheel/" className="text-retro-blue underline font-bold">Decision Wheel</Link> or browse the full directory of options on the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link>.
               </p>
             </div>
           </div>

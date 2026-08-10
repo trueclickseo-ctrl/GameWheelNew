@@ -4,17 +4,17 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Random Generator Wheels & Math Pickers | GameWheelClub",
+  title: "Random Generator Wheels & Math Pickers | SpinVerse",
   description: "Spin pure mathematical and utility decision generators. Includes the customizable number wheel, hex color generator, percent wheel, and alphabet spinner.",
 };
 
 export default function generatorsHubPage() {
   const wheels = [
-    { name: "Color Wheel Spinner", href: "/generators/color-wheel", desc: "Spin to select a random color hex code for designs or choices." },
-    { name: "Number Wheel Spinner", href: "/generators/number-wheel", desc: "Configurable number range wheel. Replaces standard random number spinner variants." },
-    { name: "Percent Wheel Spinner", href: "/generators/percent-wheel", desc: "Spin to get a random percentage value between 10% and 100%." },
-    { name: "Alphabet Wheel Spinner", href: "/generators/alphabet-wheel", desc: "Spin to select a random letter from A to Z." },
-    { name: "Periodic Table Picker", href: "/generators/periodic-table-picker", desc: "Spin to select a random chemical element from the periodic table." }
+    { name: "Color Wheel Spinner", href: "/generators/color-wheel/", desc: "Spin to select a random color hex code for designs or choices." },
+    { name: "Number Wheel Spinner", href: "/generators/number-wheel/", desc: "Configurable number range wheel. Replaces standard random number spinner variants." },
+    { name: "Percent Wheel Spinner", href: "/generators/percent-wheel/", desc: "Spin to get a random percentage value between 10% and 100%." },
+    { name: "Alphabet Wheel Spinner", href: "/generators/alphabet-wheel/", desc: "Spin to select a random letter from A to Z." },
+    { name: "Periodic Table Picker", href: "/generators/periodic-table-picker/", desc: "Spin to select a random chemical element from the periodic table." }
   ];
 
   return (
@@ -24,7 +24,7 @@ export default function generatorsHubPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Random Generators</span>
         </div>

@@ -9,7 +9,7 @@ const categories = {
     name: 'Character Creator & OC Wheels',
     icon: 'User',
     bgColor: 'bg-retro-orange',
-    href: '/character-creator',
+    href: '/character-creator/',
     desc: 'Design random characters, OCs, and avatars instantly. Spin for hairstyles, outfits, eyes, genders, skin tones, and gacha ideas.',
     title: 'Character Creator & OC Wheel Generators | SpinVerse',
     description: 'Design random characters, OCs, and avatars instantly. Spin for hairstyles, outfits, eyes, genders, skin tones, and gacha ideas.',
@@ -130,7 +130,7 @@ const categories = {
     name: 'Video Game Wheels',
     icon: 'Gamepad2',
     bgColor: 'bg-retro-blue',
-    href: '/video-game-wheels',
+    href: '/video-game-wheels/',
     desc: 'Spin to pick gaming setups, agents, champions, types, challenges, and play styles. Covers Valorant, LoL, Pokémon, Roblox, and Fortnite.',
     title: 'Video Game Randomizer Wheels | SpinVerse',
     description: 'Spin to pick gaming setups, agents, champions, types, challenges, and play styles. Covers Valorant, LoL, Pokémon, Roblox, and Fortnite.',
@@ -213,7 +213,7 @@ const categories = {
     name: 'Party & Social Games',
     icon: 'PartyPopper',
     bgColor: 'bg-retro-mint',
-    href: '/party-games',
+    href: '/party-games/',
     desc: 'Interactive wheels for social events, sleepovers, and parties. Spin for Truth or Dare questions, Spin the Bottle, Charades, and funny challenges.',
     title: 'Party & Social Game Wheels | SpinVerse',
     description: 'Interactive wheels for social events, sleepovers, and parties. Spin for Truth or Dare questions, Spin the Bottle, Charades, and funny challenges.',
@@ -313,7 +313,7 @@ const categories = {
     name: 'Food Wheels',
     icon: 'Utensils',
     bgColor: 'bg-retro-orange',
-    href: '/food-wheels',
+    href: '/food-wheels/',
     desc: 'Can\'t agree on lunch, dinner, or snacks? Spin the Food Wheels to pick a random restaurant type, fast food chain, sweet dessert, or healthy snack.',
     title: 'Food Decider & Dinner Wheel Spinners | SpinVerse',
     description: 'Can\'t agree on lunch, dinner, or snacks? Spin the Food Wheels to pick a random restaurant type, fast food chain, sweet dessert, or healthy snack.',
@@ -364,7 +364,7 @@ const categories = {
     name: 'Geography Wheels',
     icon: 'Globe',
     bgColor: 'bg-retro-blue',
-    href: '/geography-wheels',
+    href: '/geography-wheels/',
     desc: 'Spin to select random countries, US states, European nations, or run the 64-country roulette challenge. Great for geography trivia and travel planning.',
     title: 'Geography & Country Wheel Spinners | SpinVerse',
     description: 'Spin to select random countries, US states, European nations, or run the 64-country roulette challenge. Great for geography trivia and travel planning.',
@@ -407,7 +407,7 @@ const categories = {
     name: 'Random Generators',
     icon: 'Cpu',
     bgColor: 'bg-retro-yellow',
-    href: '/generators',
+    href: '/generators/',
     desc: 'Spin pure mathematical and utility decision generators. Includes the customizable number wheel, hex color generator, percent wheel, and alphabet spinner.',
     title: 'Random Generator Wheels & Math Pickers | SpinVerse',
     description: 'Spin pure mathematical and utility decision generators. Includes the customizable number wheel, hex color generator, percent wheel, and alphabet spinner.',
@@ -459,7 +459,7 @@ const categories = {
     name: 'Creative & Entertainment',
     icon: 'Sparkles',
     bgColor: 'bg-retro-orange',
-    href: '/creative-wheels',
+    href: '/creative-wheels/',
     desc: 'Unlock creative inspiration instantly. Spin to choose a movie genre or picker, get random drawing ideas, spin an arrow pointer, or get TBR book prompts.',
     title: 'Creative & Entertainment Decision Wheels | SpinVerse',
     description: 'Unlock creative inspiration instantly. Spin to choose a movie genre or picker, get random drawing ideas, spin an arrow pointer, or get TBR book prompts.',
@@ -510,7 +510,7 @@ const categories = {
     name: 'Animals & Nature',
     icon: 'Rabbit',
     bgColor: 'bg-retro-mint',
-    href: '/animal-wheels',
+    href: '/animal-wheels/',
     desc: 'Select random animals for games, education, and drawings. Spin the animal wheels to discover what animal you are or pick farm creatures.',
     title: 'Animal & Nature Randomizer Wheels | SpinVerse',
     description: 'Select random animals for games, education, and drawings. Spin the animal wheels to discover what animal you are or pick farm creatures.',
@@ -548,14 +548,14 @@ function generateWheelPageCode(categoryKey, wheel, categoryInfo) {
   const siblingLinks = categoryInfo.wheels
     .filter(w => w.slug !== wheel.slug)
     .slice(0, 3)
-    .map(w => `[${w.name}](/${categoryKey}/${w.slug})`)
+    .map(w => `[${w.name}](/${categoryKey}/${w.slug}/)`)
     .join(', ');
 
   const breadcrumbs = `
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/${categoryKey}" className="hover:text-retro-orange">${categoryInfo.name}</Link>
+          <Link href="/${categoryKey}/" className="hover:text-retro-orange">${categoryInfo.name}</Link>
           <span>/</span>
           <span className="text-retro-orange">${wheel.name.replace(' Wheel', '')}</span>
         </div>`;
@@ -589,7 +589,7 @@ function generateWheelPageCode(categoryKey, wheel, categoryInfo) {
             <p className="text-sm font-semibold mb-6">This page contains content suitable only for mature audiences (18+). Click verify to proceed.</p>
             <div className="flex gap-4 justify-center">
               <button onClick={verifyAge} className="px-6 py-3 neo-btn bg-retro-mint font-bold hover:scale-105 transition-transform">I am 18+</button>
-              <Link href="/games" className="px-6 py-3 neo-btn bg-white hover:scale-105 transition-transform">Go Back</Link>
+              <Link href="/games/" className="px-6 py-3 neo-btn bg-white hover:scale-105 transition-transform">Go Back</Link>
             </div>
           </div>
         ) : (
@@ -665,7 +665,7 @@ ${ageGateState}${customControls}
 
         {/* Back Link */}
         <Link
-          href="/${categoryKey}"
+          href="/${categoryKey}/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to ${categoryInfo.name}
@@ -703,7 +703,7 @@ ${ageGateState}${customControls}
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as ${siblingLinks || '[Games Hub](/games)'} or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as ${siblingLinks || '[Games Hub](/games/)'} or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>
@@ -778,7 +778,7 @@ ${ageGateState}${customControls}
 // Helper function to generate category page (hub page)
 function generateCategoryHubCode(categoryKey, categoryInfo) {
   const wheelLinks = categoryInfo.wheels.map(w => {
-    return `    { name: ${JSON.stringify(w.name)}, href: ${JSON.stringify('/' + categoryKey + '/' + w.slug)}, desc: ${JSON.stringify(w.desc)} }`;
+    return `    { name: ${JSON.stringify(w.name)}, href: ${JSON.stringify('/' + categoryKey + '/' + w.slug + '/')}, desc: ${JSON.stringify(w.desc)} }`;
   }).join(',\n');
 
   const code = `import Navbar from "@/components/Navbar";
@@ -803,7 +803,7 @@ ${wheelLinks}
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
           <span className="text-retro-orange">${categoryInfo.name}</span>
         </div>

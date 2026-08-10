@@ -17,9 +17,9 @@ export default function WouldYouRatherPage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/party-games" className="hover:text-retro-orange">Party Games</Link>
+          <Link href="/templates/party-games/" className="hover:text-retro-orange">Party Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Would You Rather</span>
         </div>
@@ -48,7 +48,7 @@ export default function WouldYouRatherPage() {
                 This digital wheel helps keep matches moving during party nights, dinners, or classroom breaks.
               </p>
               <p>
-                To generate random numbers for trivia scoring, try our <Link href="/random-number-generator" className="text-retro-orange underline font-bold">Number Generator</Link> or pick team captains using the <Link href="/wheel-of-names" className="text-retro-blue underline font-bold">Wheel of Names</Link>.
+                To generate random numbers for trivia scoring, try our <Link href="/random-number-generator/" className="text-retro-orange underline font-bold">Number Generator</Link> or pick team captains using the <Link href="/wheel-of-names/" className="text-retro-blue underline font-bold">Wheel of Names</Link>.
               </p>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function WouldYouRatherPage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 font-semibold text-sm">
               <li>Input two extreme scenarios (e.g. &quot;fly or tele-transport&quot;).</li>
-              <li>Add time constraints using our <Link href="/timer" className="text-retro-orange underline font-bold">Timer</Link> tool.</li>
+              <li>Add time constraints using our <Link href="/timer/" className="text-retro-orange underline font-bold">Timer</Link> tool.</li>
               <li>Include punishment tasks for people who refuse to answer!</li>
             </ul>
           </div>

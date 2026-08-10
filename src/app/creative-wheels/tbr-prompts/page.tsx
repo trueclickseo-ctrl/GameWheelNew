@@ -16,16 +16,16 @@ export default function TBRPromptsWheelPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/creative-wheels" className="hover:text-retro-orange">Creative & Entertainment</Link>
+          <Link href="/creative-wheels/" className="hover:text-retro-orange">Creative & Entertainment</Link>
           <span>/</span>
           <span className="text-retro-orange">TBR Prompts</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/creative-wheels"
+          href="/creative-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Creative & Entertainment
@@ -46,7 +46,7 @@ export default function TBRPromptsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["A book with a blue cover","A book that was recommended by a friend","A book that has been on your shelf over 1 year","A thriller or mystery","A book by a female author","A book with an animal in it"]} storageKey="gamewheelclub-creative-wheels-tbr-prompts" />
+          <WheelSpinner initialOptions={["A book with a blue cover","A book that was recommended by a friend","A book that has been on your shelf over 1 year","A thriller or mystery","A book by a female author","A book with an animal in it"]} storageKey="spinverse-creative-wheels-tbr-prompts" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}
@@ -63,7 +63,7 @@ export default function TBRPromptsWheelPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Movie Picker Wheel](/creative-wheels/movie-picker), [Drawing Idea Wheel](/creative-wheels/drawing-idea-wheel), [Arrow Spin Wheel](/creative-wheels/arrow-spin) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Movie Picker Wheel](/creative-wheels/movie-picker/), [Drawing Idea Wheel](/creative-wheels/drawing-idea-wheel/), [Arrow Spin Wheel](/creative-wheels/arrow-spin/) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

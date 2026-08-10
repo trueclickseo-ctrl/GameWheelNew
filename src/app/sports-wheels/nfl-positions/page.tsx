@@ -32,16 +32,16 @@ export default function NFLPositionsWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/sports-wheels" className="hover:text-retro-orange">Sports Wheels</Link>
+          <Link href="/sports-wheels/" className="hover:text-retro-orange">Sports Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">NFL Positions</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/sports-wheels"
+          href="/sports-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Sports Wheels
@@ -78,7 +78,7 @@ export default function NFLPositionsWheelPage() {
                 Our <strong>NFL Positions Wheel</strong> lets you randomly pick one of these core positions. This is highly useful for high school or youth football practices to keep training sessions fresh, or for esports enthusiasts playing Madden Superstar mode who want to leave their career path up to fate.
               </p>
               <p>
-                If you are looking to randomize non-sports options, try our general <Link href="/decision-wheel" className="text-retro-yellow underline font-bold">Decision Wheel</Link> or view our collections on the <Link href="/games" className="text-retro-mint underline font-bold">Games Page</Link>.
+                If you are looking to randomize non-sports options, try our general <Link href="/decision-wheel/" className="text-retro-yellow underline font-bold">Decision Wheel</Link> or view our collections on the <Link href="/games/" className="text-retro-mint underline font-bold">Games Page</Link>.
               </p>
             </div>
           </div>

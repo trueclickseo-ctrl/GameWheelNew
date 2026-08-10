@@ -17,9 +17,9 @@ export default function DrinkDeciderPage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/food" className="hover:text-retro-orange">Food</Link>
+          <Link href="/templates/food/" className="hover:text-retro-orange">Food</Link>
           <span>/</span>
           <span className="text-retro-orange">Drink Decider</span>
         </div>
@@ -48,7 +48,7 @@ export default function DrinkDeciderPage() {
                 The <strong>Drink Decider Wheel</strong> is a simple utility to pick your next cup. It includes balanced options to promote hydration (like water) while keeping coffee and smoothies on the table.
               </p>
               <p>
-                For other randomized selection games, try the <Link href="/dice-roller" className="text-retro-orange underline font-bold">Dice Roller</Link> or pick names using our <Link href="/wheel-of-names" className="text-retro-blue underline font-bold">Wheel of Names</Link>.
+                For other randomized selection games, try the <Link href="/dice-roller/" className="text-retro-orange underline font-bold">Dice Roller</Link> or pick names using our <Link href="/wheel-of-names/" className="text-retro-blue underline font-bold">Wheel of Names</Link>.
               </p>
             </div>
           </div>

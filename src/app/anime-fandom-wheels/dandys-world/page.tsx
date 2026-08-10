@@ -28,9 +28,9 @@ export default function DandysWorldWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">Dandy&apos;s World</span>
         </div>
@@ -66,7 +66,7 @@ export default function DandysWorldWheelPage() {
                 Our <strong>Dandy&apos;s World Character Wheel</strong> helps players break the monotony of playing the same toon. It is preloaded with popular toons like Dandy, Goob, Poppy, and Glisten. A single spin selects your next character randomly, adding a fun element of challenge to your lobbies.
               </p>
               <p>
-                You can easily customize the wheel to include other toons or remove those you haven&apos;t unlocked yet. If you want to make an entirely customized list from scratch, use our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily customize the wheel to include other toons or remove those you haven&apos;t unlocked yet. If you want to make an entirely customized list from scratch, use our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

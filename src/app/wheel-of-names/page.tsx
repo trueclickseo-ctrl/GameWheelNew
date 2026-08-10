@@ -48,7 +48,7 @@ export default function WheelOfNamesPage() {
                 Once your list is set, click the central **SPIN** button. The wheel will rotate with a retro ticking sound effect and announce the randomly selected winner.
               </p>
               <p>
-                Want to make another decision? Check out our <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or resolve quick queries with the <Link href="/yes-no-wheel" className="text-retro-blue underline font-bold">Yes or No Wheel</Link>.
+                Want to make another decision? Check out our <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or resolve quick queries with the <Link href="/yes-no-wheel/" className="text-retro-blue underline font-bold">Yes or No Wheel</Link>.
               </p>
             </div>
           </div>
@@ -79,13 +79,13 @@ export default function WheelOfNamesPage() {
           <h3 className="font-extrabold text-lg mb-2">Try Our Other Choice Tools!</h3>
           <p className="text-sm font-semibold mb-4 opacity-90">We have custom generators for all kinds of decisions.</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/random-number-generator" className="px-4 py-2 neo-btn bg-white hover:scale-105 transition-transform text-sm">
+            <Link href="/random-number-generator/" className="px-4 py-2 neo-btn bg-white hover:scale-105 transition-transform text-sm">
               Number Generator
             </Link>
-            <Link href="/flip-a-coin" className="px-4 py-2 neo-btn bg-white hover:scale-105 transition-transform text-sm">
+            <Link href="/flip-a-coin/" className="px-4 py-2 neo-btn bg-white hover:scale-105 transition-transform text-sm">
               Flip a Coin
             </Link>
-            <Link href="/dice-roller" className="px-4 py-2 neo-btn bg-white hover:scale-105 transition-transform text-sm">
+            <Link href="/dice-roller/" className="px-4 py-2 neo-btn bg-white hover:scale-105 transition-transform text-sm">
               Dice Roller
             </Link>
           </div>

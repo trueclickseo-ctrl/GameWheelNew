@@ -50,7 +50,7 @@ export default function SpinWheelsInModernEducation() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -87,7 +87,7 @@ export default function SpinWheelsInModernEducation() {
                   Today&apos;s educators are facing a challenge: competing with the quick, colorful stimulation of modern digital media. Traditional lectures struggle to hold student attention for 50 minutes. Pedagogical research consistently shows that active learning—where students participate rather than listen passively—leads to vastly superior comprehension and retention.
                 </p>
                 <p>
-                  Integrating gamification devices like a <Link href="/wheel-of-names" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link> bridges this gap. It takes mundane routines and frames them as games, instantly raising engagement levels.
+                  Integrating gamification devices like a <Link href="/wheel-of-names/" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link> bridges this gap. It takes mundane routines and frames them as games, instantly raising engagement levels.
                 </p>
               </div>
             </section>
@@ -139,7 +139,7 @@ export default function SpinWheelsInModernEducation() {
               </h2>
               <div className="space-y-4 font-sans text-base leading-relaxed text-retro-navy/90 dark:text-cream/90">
                 <p>
-                  To make the most of these tools, set up pre-saved rosters using <Link href="/templates/classroom" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link> before the class starts. You can toggle options like automatically removing a student&apos;s name once chosen, so everyone gets an equal opportunity to participate.
+                  To make the most of these tools, set up pre-saved rosters using <Link href="/templates/classroom/" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link> before the class starts. You can toggle options like automatically removing a student&apos;s name once chosen, so everyone gets an equal opportunity to participate.
                 </p>
               </div>
             </section>
@@ -172,13 +172,13 @@ export default function SpinWheelsInModernEducation() {
                 Start drawing names and gamifying reviews with our optimized classroom templates.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/wheel-of-names" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/wheel-of-names/" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Wheel of Names <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/classroom" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/classroom/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Class Templates <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/yes-no-wheel" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/yes-no-wheel/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Yes or No Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

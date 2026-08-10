@@ -133,7 +133,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-6 pt-6 border-t border-retro-navy/10 dark:border-cream/10 text-center">
-            <Link href="/blog/science-and-history-of-spin-wheels" className="neo-btn bg-retro-yellow text-retro-navy px-6 py-3 font-bold text-sm inline-flex items-center gap-2 hover:scale-105 transition-transform">
+            <Link href="/blog/science-and-history-of-spin-wheels/" className="neo-btn bg-retro-yellow text-retro-navy px-6 py-3 font-bold text-sm inline-flex items-center gap-2 hover:scale-105 transition-transform">
               Explore Our Wheel Math & History Encyclopedia <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

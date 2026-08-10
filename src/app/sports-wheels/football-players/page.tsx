@@ -30,16 +30,16 @@ export default function FootballPlayersWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/sports-wheels" className="hover:text-retro-orange">Sports Wheels</Link>
+          <Link href="/sports-wheels/" className="hover:text-retro-orange">Sports Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">Football Players</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/sports-wheels"
+          href="/sports-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Sports Wheels
@@ -76,7 +76,7 @@ export default function FootballPlayersWheelPage() {
                 Our <strong>Football Players Wheel</strong> provides an interactive way to randomly pick one of these world-class stars. Use it to select your next target in Ultimate Team, randomize career mode player choices, or organize draft challenges.
               </p>
               <p>
-                If you are looking to randomize non-sports options, try our general <Link href="/decision-wheel" className="text-retro-mint underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games" className="text-retro-blue underline font-bold">Games Page</Link> for additional options.
+                If you are looking to randomize non-sports options, try our general <Link href="/decision-wheel/" className="text-retro-mint underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games/" className="text-retro-blue underline font-bold">Games Page</Link> for additional options.
               </p>
             </div>
           </div>

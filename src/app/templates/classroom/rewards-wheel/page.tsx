@@ -17,9 +17,9 @@ export default function RewardsWheelPage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/classroom" className="hover:text-retro-orange">Classroom</Link>
+          <Link href="/templates/classroom/" className="hover:text-retro-orange">Classroom</Link>
           <span>/</span>
           <span className="text-retro-orange">Rewards Wheel</span>
         </div>
@@ -48,7 +48,7 @@ export default function RewardsWheelPage() {
                 Our pre-built rewards include simple privileges that don&apos;t cost money, like being the line leader, choosing a seat for the day, or earning free study time.
               </p>
               <p>
-                To pick which student gets to spin, try the <Link href="/wheel-of-names" className="text-retro-orange underline font-bold">Wheel of Names</Link> or resolve quick binary prompts with the <Link href="/yes-no-wheel" className="text-retro-blue underline font-bold">Yes or No Wheel</Link>.
+                To pick which student gets to spin, try the <Link href="/wheel-of-names/" className="text-retro-orange underline font-bold">Wheel of Names</Link> or resolve quick binary prompts with the <Link href="/yes-no-wheel/" className="text-retro-blue underline font-bold">Yes or No Wheel</Link>.
               </p>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function RewardsWheelPage() {
             <ul className="list-disc pl-6 space-y-2 font-semibold text-sm">
               <li>Input tangibles like candy or homework passes.</li>
               <li>Include classroom roles (e.g. board eraser, plant waterer).</li>
-              <li>Set timed rewards using our <Link href="/timer" className="text-retro-orange underline font-bold">Timer</Link> tool.</li>
+              <li>Set timed rewards using our <Link href="/timer/" className="text-retro-orange underline font-bold">Timer</Link> tool.</li>
             </ul>
           </div>
         </section>

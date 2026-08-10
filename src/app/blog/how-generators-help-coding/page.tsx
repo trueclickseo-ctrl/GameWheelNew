@@ -50,7 +50,7 @@ export default function HowGeneratorsHelpCoding() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -102,7 +102,7 @@ export default function HowGeneratorsHelpCoding() {
                   One of the most common daily uses for generators is creating mock data. Before an application goes live, developers need to test it with thousands of users, orders, or data points to see how it scales.
                 </p>
                 <p>
-                  Instead of writing mock data by hand, scripts use random generators to spin up names, email addresses, ages, and order prices. If you need a quick range of numbers or test vectors during manual testing, a simple <Link href="/random-number-generator" className="font-bold underline hover:text-retro-pink">Random Number Generator</Link> is a handy utility to have open in your browser tab.
+                  Instead of writing mock data by hand, scripts use random generators to spin up names, email addresses, ages, and order prices. If you need a quick range of numbers or test vectors during manual testing, a simple <Link href="/random-number-generator/" className="font-bold underline hover:text-retro-pink">Random Number Generator</Link> is a handy utility to have open in your browser tab.
                 </p>
               </div>
             </section>
@@ -125,7 +125,7 @@ export default function HowGeneratorsHelpCoding() {
                   Imagine playing a game where enemies spawn at the exact same location, loot drops are always identical, and cards are dealt in the same order. Games would quickly become boring and solved.
                 </p>
                 <p>
-                  Randomness makes games replayable. Game developers use random number generators to compute critical hits, select loot grades, and shuffle decks. Web tools like the <Link href="/dice-roller" className="font-bold underline hover:text-retro-blue">Dice Roller</Link> replicate this exact logic visually, showing how basic probability seeds game development algorithms.
+                  Randomness makes games replayable. Game developers use random number generators to compute critical hits, select loot grades, and shuffle decks. Web tools like the <Link href="/dice-roller/" className="font-bold underline hover:text-retro-blue">Dice Roller</Link> replicate this exact logic visually, showing how basic probability seeds game development algorithms.
                 </p>
               </div>
             </section>
@@ -170,13 +170,13 @@ export default function HowGeneratorsHelpCoding() {
                 Test ranges, simulate rolls, or choose testing options with our visual generators.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/random-number-generator" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/random-number-generator/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Number Generator <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/dice-roller" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/dice-roller/" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Dice Roller Tool <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/decision-wheel" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/decision-wheel/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Decision Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

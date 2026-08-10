@@ -28,9 +28,9 @@ export default function AnimeCharactersWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">Anime Characters</span>
         </div>
@@ -66,7 +66,7 @@ export default function AnimeCharactersWheelPage() {
                 Whether you are setting up a hypothetical crossover battle, looking for a cosplay idea, drawing fanart, or running an anime trivia challenge, this interactive tool makes character selection effortless. By clicking spin, the generator uses a fair, browser-based algorithm to pick one of the options with absolute randomness.
               </p>
               <p>
-                Want to make your own custom list? You can edit the options directly on the wheel to add characters from your favorite niche series. For creating completely custom decision boards, check out our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Category</Link> page to explore other presets.
+                Want to make your own custom list? You can edit the options directly on the wheel to add characters from your favorite niche series. For creating completely custom decision boards, check out our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Category</Link> page to explore other presets.
               </p>
             </div>
           </div>

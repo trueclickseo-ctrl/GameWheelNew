@@ -4,23 +4,23 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Party & Social Game Wheels | GameWheelClub",
+  title: "Party & Social Game Wheels | SpinVerse",
   description: "Interactive wheels for social events, sleepovers, and parties. Spin for Truth or Dare questions, Spin the Bottle, Charades, and funny challenges.",
 };
 
 export default function partygamesHubPage() {
   const wheels = [
-    { name: "Truth or Dare Wheel", href: "/party-games/truth-or-dare", desc: "Spin the wheel to get classic Truth or Dare prompts for kids, teens, and families." },
-    { name: "Extreme Truth or Dare Wheel", href: "/party-games/extreme-truth-or-dare", desc: "Spin for highly challenging, intensive, and crazy truths and dares." },
-    { name: "Adult Truth or Dare Wheel", href: "/party-games/adult-truth-or-dare", desc: "Spin to choose spice, mature secrets, and provocative dares. Age-restricted interstitial included." },
-    { name: "Spin the Bottle Wheel", href: "/party-games/spin-the-bottle", desc: "A virtual spinner replacing physical bottle setups for classic games." },
-    { name: "Charades Topics Wheel", href: "/party-games/charades-topics", desc: "Get hilarious and creative topics for family charades games." },
-    { name: "Scattergories Letters Wheel", href: "/party-games/scattergories-letters", desc: "Spin to select a random letter for Scattergories and vocabulary games." },
-    { name: "Questions Wheel", href: "/party-games/questions-wheel", desc: "Spin for icebreaker questions, get-to-know-you topics, and conversational prompts." },
-    { name: "Funny Dares Wheel", href: "/party-games/funny-dares", desc: "Get goofy, simple, and funny physical challenge dares." },
-    { name: "Song Association Wheel", href: "/party-games/song-association", desc: "Spin a keyword and try to sing a song containing that word in 10 seconds." },
-    { name: "Things to Do When Bored Wheel", href: "/party-games/things-to-do-when-bored", desc: "Spin to cure boredom with productive, creative, and physical activity prompts." },
-    { name: "Punishment Wheel", href: "/party-games/punishment-wheel", desc: "Spin to assign silly chores, forfeits, or penalties for board game losers." }
+    { name: "Truth or Dare Wheel", href: "/party-games/truth-or-dare/", desc: "Spin the wheel to get classic Truth or Dare prompts for kids, teens, and families." },
+    { name: "Extreme Truth or Dare Wheel", href: "/party-games/extreme-truth-or-dare/", desc: "Spin for highly challenging, intensive, and crazy truths and dares." },
+    { name: "Adult Truth or Dare Wheel", href: "/party-games/adult-truth-or-dare/", desc: "Spin to choose spice, mature secrets, and provocative dares. Age-restricted interstitial included." },
+    { name: "Spin the Bottle Wheel", href: "/party-games/spin-the-bottle/", desc: "A virtual spinner replacing physical bottle setups for classic games." },
+    { name: "Charades Topics Wheel", href: "/party-games/charades-topics/", desc: "Get hilarious and creative topics for family charades games." },
+    { name: "Scattergories Letters Wheel", href: "/party-games/scattergories-letters/", desc: "Spin to select a random letter for Scattergories and vocabulary games." },
+    { name: "Questions Wheel", href: "/party-games/questions-wheel/", desc: "Spin for icebreaker questions, get-to-know-you topics, and conversational prompts." },
+    { name: "Funny Dares Wheel", href: "/party-games/funny-dares/", desc: "Get goofy, simple, and funny physical challenge dares." },
+    { name: "Song Association Wheel", href: "/party-games/song-association/", desc: "Spin a keyword and try to sing a song containing that word in 10 seconds." },
+    { name: "Things to Do When Bored Wheel", href: "/party-games/things-to-do-when-bored/", desc: "Spin to cure boredom with productive, creative, and physical activity prompts." },
+    { name: "Punishment Wheel", href: "/party-games/punishment-wheel/", desc: "Spin to assign silly chores, forfeits, or penalties for board game losers." }
   ];
 
   return (
@@ -30,7 +30,7 @@ export default function partygamesHubPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Party & Social Games</span>
         </div>

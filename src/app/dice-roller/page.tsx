@@ -42,7 +42,7 @@ export default function DiceRollerPage() {
                 When rolling multiple dice, the sum distribution forms a bell curve. For example, rolling two dice has a peak probability of rolling a **7** (16.67% chance) because it has the most combinations (1+6, 2+5, 3+4, etc.).
               </p>
               <p>
-                Need to generate larger random integers? Check out our <Link href="/random-number-generator" className="text-retro-orange underline font-bold">Number Generator</Link> or pick names with the <Link href="/wheel-of-names" className="text-retro-blue underline font-bold">Wheel of Names</Link>.
+                Need to generate larger random integers? Check out our <Link href="/random-number-generator/" className="text-retro-orange underline font-bold">Number Generator</Link> or pick names with the <Link href="/wheel-of-names/" className="text-retro-blue underline font-bold">Wheel of Names</Link>.
               </p>
             </div>
           </div>

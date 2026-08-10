@@ -16,16 +16,16 @@ export default function SongAssociationWheelPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/party-games" className="hover:text-retro-orange">Party & Social Games</Link>
+          <Link href="/party-games/" className="hover:text-retro-orange">Party & Social Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Song Association</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/party-games"
+          href="/party-games/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Party & Social Games
@@ -46,7 +46,7 @@ export default function SongAssociationWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Word: LOVE","Word: FIRE","Word: HEAVEN","Word: DANCE","Word: NIGHT","Word: WORLD","Word: BLUE","Word: HAPPY","Word: CRY"]} storageKey="gamewheelclub-party-games-song-association" />
+          <WheelSpinner initialOptions={["Word: LOVE","Word: FIRE","Word: HEAVEN","Word: DANCE","Word: NIGHT","Word: WORLD","Word: BLUE","Word: HAPPY","Word: CRY"]} storageKey="spinverse-party-games-song-association" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}
@@ -63,7 +63,7 @@ export default function SongAssociationWheelPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Truth or Dare Wheel](/party-games/truth-or-dare), [Extreme Truth or Dare Wheel](/party-games/extreme-truth-or-dare), [Adult Truth or Dare Wheel](/party-games/adult-truth-or-dare) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Truth or Dare Wheel](/party-games/truth-or-dare/), [Extreme Truth or Dare Wheel](/party-games/extreme-truth-or-dare/), [Adult Truth or Dare Wheel](/party-games/adult-truth-or-dare/) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

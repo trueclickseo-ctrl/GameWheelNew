@@ -27,9 +27,9 @@ export default function JjkCursedTechniquesWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">JJK Cursed Techniques</span>
         </div>
@@ -65,7 +65,7 @@ export default function JjkCursedTechniquesWheelPage() {
                 Our <strong>JJK Cursed Techniques Wheel</strong> lets you randomly assign an inherited technique to yourself or your friends. Preloaded with iconic techniques from elite sorcerers and cursed spirits, this browser-based randomizer is the perfect tool for fandom debates and gaming nights.
               </p>
               <p>
-                You can easily add new techniques (like Straw Doll Technique, Boogie Woogie, or Idle Death Gamble) directly into the option list. For completely custom lists, visit our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily add new techniques (like Straw Doll Technique, Boogie Woogie, or Idle Death Gamble) directly into the option list. For completely custom lists, visit our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

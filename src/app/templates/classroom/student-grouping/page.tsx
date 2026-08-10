@@ -17,9 +17,9 @@ export default function StudentGroupingPage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/classroom" className="hover:text-retro-orange">Classroom</Link>
+          <Link href="/templates/classroom/" className="hover:text-retro-orange">Classroom</Link>
           <span>/</span>
           <span className="text-retro-orange">Student Grouping</span>
         </div>
@@ -48,7 +48,7 @@ export default function StudentGroupingPage() {
                 Slices indicate standard group names (Group A, Group B, etc.) so that teachers can quickly spin to decide order or group assignments.
               </p>
               <p>
-                To select specific individual students, try our customizable <Link href="/wheel-of-names" className="text-retro-orange underline font-bold">Wheel of Names</Link> or pick random numbers with the <Link href="/random-number-generator" className="text-retro-blue underline font-bold">Number Generator</Link>.
+                To select specific individual students, try our customizable <Link href="/wheel-of-names/" className="text-retro-orange underline font-bold">Wheel of Names</Link> or pick random numbers with the <Link href="/random-number-generator/" className="text-retro-blue underline font-bold">Number Generator</Link>.
               </p>
             </div>
           </div>

@@ -16,16 +16,16 @@ export default function ThingstoDoWhenBoredWheelPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/party-games" className="hover:text-retro-orange">Party & Social Games</Link>
+          <Link href="/party-games/" className="hover:text-retro-orange">Party & Social Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Things to Do When Bored</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/party-games"
+          href="/party-games/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Party & Social Games
@@ -46,7 +46,7 @@ export default function ThingstoDoWhenBoredWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Read a book chapter","Organize your desk drawer","Learn a 5-minute card trick","Go for a brisk walk","Try drawing a self-portrait","Stretch for 10 minutes","Listen to a new album"]} storageKey="gamewheelclub-party-games-things-to-do-when-bored" />
+          <WheelSpinner initialOptions={["Read a book chapter","Organize your desk drawer","Learn a 5-minute card trick","Go for a brisk walk","Try drawing a self-portrait","Stretch for 10 minutes","Listen to a new album"]} storageKey="spinverse-party-games-things-to-do-when-bored" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}
@@ -63,7 +63,7 @@ export default function ThingstoDoWhenBoredWheelPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Truth or Dare Wheel](/party-games/truth-or-dare), [Extreme Truth or Dare Wheel](/party-games/extreme-truth-or-dare), [Adult Truth or Dare Wheel](/party-games/adult-truth-or-dare) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Truth or Dare Wheel](/party-games/truth-or-dare/), [Extreme Truth or Dare Wheel](/party-games/extreme-truth-or-dare/), [Adult Truth or Dare Wheel](/party-games/adult-truth-or-dare/) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

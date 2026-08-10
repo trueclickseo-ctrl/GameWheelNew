@@ -16,16 +16,16 @@ export default function EuropeCountriesWheelPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/geography-wheels" className="hover:text-retro-orange">Geography Wheels</Link>
+          <Link href="/geography-wheels/" className="hover:text-retro-orange">Geography Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">Europe Countries</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/geography-wheels"
+          href="/geography-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Geography Wheels
@@ -46,7 +46,7 @@ export default function EuropeCountriesWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["United Kingdom","France","Germany","Italy","Spain","Netherlands","Belgium","Switzerland","Austria","Sweden","Norway","Denmark","Finland","Ireland","Portugal","Greece","Poland","Czechia"]} storageKey="gamewheelclub-geography-wheels-europe-countries" />
+          <WheelSpinner initialOptions={["United Kingdom","France","Germany","Italy","Spain","Netherlands","Belgium","Switzerland","Austria","Sweden","Norway","Denmark","Finland","Ireland","Portugal","Greece","Poland","Czechia"]} storageKey="spinverse-geography-wheels-europe-countries" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}
@@ -63,7 +63,7 @@ export default function EuropeCountriesWheelPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Country Wheel Spinner](/geography-wheels/country-wheel), [64 Country Roulette](/geography-wheels/64-country-roulette), [US States Wheel](/geography-wheels/us-states) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Country Wheel Spinner](/geography-wheels/country-wheel/), [64 Country Roulette](/geography-wheels/64-country-roulette/), [US States Wheel](/geography-wheels/us-states/) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

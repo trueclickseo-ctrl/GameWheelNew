@@ -4,17 +4,17 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Creative & Entertainment Decision Wheels | GameWheelClub",
+  title: "Creative & Entertainment Decision Wheels | SpinVerse",
   description: "Unlock creative inspiration instantly. Spin to choose a movie genre or picker, get random drawing ideas, spin an arrow pointer, or get TBR book prompts.",
 };
 
 export default function creativewheelsHubPage() {
   const wheels = [
-    { name: "Movie Picker Wheel", href: "/creative-wheels/movie-picker", desc: "Resolve what to watch tonight by spinning movie genres." },
-    { name: "Drawing Idea Wheel", href: "/creative-wheels/drawing-idea-wheel", desc: "Generate weird, cute, and funny prompts for your next sketch." },
-    { name: "Arrow Spin Wheel", href: "/creative-wheels/arrow-spin", desc: "Spin a compass pointer to pick a random cardinal or ordinal direction." },
-    { name: "TBR Prompts Wheel", href: "/creative-wheels/tbr-prompts", desc: "Select your next book reading choice using To-Be-Read (TBR) prompts." },
-    { name: "Music Genre Wheel", href: "/creative-wheels/music-genre-wheel", desc: "Spin to pick what music style to play or research." }
+    { name: "Movie Picker Wheel", href: "/creative-wheels/movie-picker/", desc: "Resolve what to watch tonight by spinning movie genres." },
+    { name: "Drawing Idea Wheel", href: "/creative-wheels/drawing-idea-wheel/", desc: "Generate weird, cute, and funny prompts for your next sketch." },
+    { name: "Arrow Spin Wheel", href: "/creative-wheels/arrow-spin/", desc: "Spin a compass pointer to pick a random cardinal or ordinal direction." },
+    { name: "TBR Prompts Wheel", href: "/creative-wheels/tbr-prompts/", desc: "Select your next book reading choice using To-Be-Read (TBR) prompts." },
+    { name: "Music Genre Wheel", href: "/creative-wheels/music-genre-wheel/", desc: "Spin to pick what music style to play or research." }
   ];
 
   return (
@@ -24,7 +24,7 @@ export default function creativewheelsHubPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Creative & Entertainment</span>
         </div>

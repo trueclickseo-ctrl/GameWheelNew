@@ -50,7 +50,7 @@ export default function BestIcebreakerGamesForWork() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -105,7 +105,7 @@ export default function BestIcebreakerGamesForWork() {
                   <div className="neo-card p-4 bg-white dark:bg-slate-800 text-retro-navy dark:text-cream">
                     <h4 className="font-bold text-lg text-retro-orange">A. The &quot;Two Truths and a Lie&quot; Name Draw</h4>
                     <p className="text-sm opacity-95">
-                      Spin a <Link href="/wheel-of-names" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link> containing all attendees. The chosen person shares two facts and one lie. The team guesses the lie. Fast, engaging, and reveals fun facts.
+                      Spin a <Link href="/wheel-of-names/" className="font-bold underline hover:text-retro-orange">Wheel of Names</Link> containing all attendees. The chosen person shares two facts and one lie. The team guesses the lie. Fast, engaging, and reveals fun facts.
                     </p>
                   </div>
                   <div className="neo-card p-4 bg-white dark:bg-slate-800 text-retro-navy dark:text-cream">
@@ -136,7 +136,7 @@ export default function BestIcebreakerGamesForWork() {
                   Hybrid and remote work models present unique communication challenges. Remote participants often feel left out or find it difficult to jump into the flow of conversation. Sharing your screen with a colorful, clicking name spinner balances the playing field.
                 </p>
                 <p>
-                  Whether it is determining the order of project updates, or deciding who gets the final word on a debate, using tools like <Link href="/flip-a-coin" className="font-bold underline hover:text-retro-blue">Flip a Coin</Link> or name pickers keeps the structure interactive and completely transparent.
+                  Whether it is determining the order of project updates, or deciding who gets the final word on a debate, using tools like <Link href="/flip-a-coin/" className="font-bold underline hover:text-retro-blue">Flip a Coin</Link> or name pickers keeps the structure interactive and completely transparent.
                 </p>
               </div>
             </section>
@@ -181,13 +181,13 @@ export default function BestIcebreakerGamesForWork() {
                 Spin name lists or flip coins to run high-tempo and engaging meeting setups.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/wheel-of-names" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/wheel-of-names/" className="neo-btn bg-retro-orange text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Wheel of Names <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/party-games" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/party-games/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Team Icebreakers <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/flip-a-coin" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/flip-a-coin/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Flip a Coin Tool <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

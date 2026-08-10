@@ -59,7 +59,7 @@ export default function DecisionMakingMethods() {
                   The mistake most people make is treating all choices with the same level of cognitive gravity. Applying a heavy analytical framework to a low-stakes decision results in analysis paralysis—spending hours debating dinner options, leaving you drained and exhausted before facing truly important choices.
                 </p>
                 <p>
-                  Effective decision-makers categorize their decisions. High-stakes choices require analytical structures, medium-stakes benefit from collaborative or intuitive frameworks, and low-stakes decisions are best automated or delegated to random chance tools like <Link href="/flip-a-coin" className="font-bold underline hover:text-retro-orange">Flip a Coin</Link> to preserve mental energy.
+                  Effective decision-makers categorize their decisions. High-stakes choices require analytical structures, medium-stakes benefit from collaborative or intuitive frameworks, and low-stakes decisions are best automated or delegated to random chance tools like <Link href="/flip-a-coin/" className="font-bold underline hover:text-retro-orange">Flip a Coin</Link> to preserve mental energy.
                 </p>
               </div>
             </section>
@@ -110,7 +110,7 @@ export default function DecisionMakingMethods() {
                   In modern cognitive science, randomization serves as a circuit breaker for the brain. When you have two equivalent alternatives—such as deciding what restaurant to order from—your brain can enter an infinite loop of evaluation. Neither option is objectively better than the other, so logic fails to find an answer.
                 </p>
                 <p>
-                  By spinning a wheel, rolling a die, or using <Link href="/flip-a-coin" className="font-bold underline hover:text-retro-blue">Flip a Coin</Link>, you force an external resolution. An interesting byproduct is the &quot;instinct check&quot;: the second the coin lands on heads, if you feel a wave of disappointment, you immediately realize that you actually wanted tails. Thus, random tools can act as mirrors to clarify your true desires.
+                  By spinning a wheel, rolling a die, or using <Link href="/flip-a-coin/" className="font-bold underline hover:text-retro-blue">Flip a Coin</Link>, you force an external resolution. An interesting byproduct is the &quot;instinct check&quot;: the second the coin lands on heads, if you feel a wave of disappointment, you immediately realize that you actually wanted tails. Thus, random tools can act as mirrors to clarify your true desires.
                 </p>
               </div>
             </section>
@@ -128,7 +128,7 @@ export default function DecisionMakingMethods() {
                 <ol className="list-decimal pl-6 space-y-3">
                   <li><strong>Is the impact long-term (&gt; 6 months)?</strong> Use the Analytical Rational Model. Do the research.</li>
                   <li><strong>Does the decision affect multiple stakeholders?</strong> Use the Vroom-Yetton framework. Consult the team.</li>
-                  <li><strong>Are the consequences minor, and are the options equally weighted?</strong> Delegate it. Load up our <Link href="/templates/food" className="font-bold underline hover:text-retro-orange">Food Templates</Link>, populate the options, spin, and move on with your day.</li>
+                  <li><strong>Are the consequences minor, and are the options equally weighted?</strong> Delegate it. Load up our <Link href="/templates/food/" className="font-bold underline hover:text-retro-orange">Food Templates</Link>, populate the options, spin, and move on with your day.</li>
                 </ol>
                 <p>
                   Mastering the art of decision-making isn&apos;t just about making the right choices; it&apos;s about spending the right amount of energy on the choices you make.
@@ -166,10 +166,10 @@ export default function DecisionMakingMethods() {
                 Facing a quick heads-or-tails dilemma or deciding what to eat? Use our targeted decision aids.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/flip-a-coin" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/flip-a-coin/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Flip a Coin <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/food" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/food/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Food Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

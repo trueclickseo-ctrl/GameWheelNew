@@ -30,9 +30,9 @@ export default function OnePieceCharactersWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">One Piece Characters</span>
         </div>
@@ -68,7 +68,7 @@ export default function OnePieceCharactersWheelPage() {
                 Our <strong>One Piece Characters Wheel</strong> helps you randomize character selection for any fan activity. Whether you are running a podcast, arranging battle matchups, picking cosplay options, or playing a trivia game, this interactive wheel yields a completely random choice instantly.
               </p>
               <p>
-                You can easily add new pirates, marines, or revolutionary army members by editing the inputs on the wheel. For setting up generic, custom-themed selection boards, use our main <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily add new pirates, marines, or revolutionary army members by editing the inputs on the wheel. For setting up generic, custom-themed selection boards, use our main <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

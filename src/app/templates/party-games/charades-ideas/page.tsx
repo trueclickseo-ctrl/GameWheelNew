@@ -17,9 +17,9 @@ export default function CharadesIdeasPage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/party-games" className="hover:text-retro-orange">Party Games</Link>
+          <Link href="/templates/party-games/" className="hover:text-retro-orange">Party Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Charades Ideas</span>
         </div>
@@ -45,10 +45,10 @@ export default function CharadesIdeasPage() {
                 <strong>Charades</strong> requires players to quickly think of recognizable movies, books, or animals to mimic. When players freeze up, it ruins the flow of the match.
               </p>
               <p>
-                Our <strong>Charades Ideas Wheel</strong> solves this by instantly choosing categories or direct prompts. Add a countdown using our <Link href="/timer" className="text-retro-orange underline font-bold">Timer</Link> to make rounds competitive.
+                Our <strong>Charades Ideas Wheel</strong> solves this by instantly choosing categories or direct prompts. Add a countdown using our <Link href="/timer/" className="text-retro-orange underline font-bold">Timer</Link> to make rounds competitive.
               </p>
               <p>
-                For other random games, try rolling simulated dice with our <Link href="/dice-roller" className="text-retro-blue underline font-bold">Dice Roller</Link> or pick teams using the <Link href="/wheel-of-names" className="text-retro-orange underline font-bold">Wheel of Names</Link>.
+                For other random games, try rolling simulated dice with our <Link href="/dice-roller/" className="text-retro-blue underline font-bold">Dice Roller</Link> or pick teams using the <Link href="/wheel-of-names/" className="text-retro-orange underline font-bold">Wheel of Names</Link>.
               </p>
             </div>
           </div>

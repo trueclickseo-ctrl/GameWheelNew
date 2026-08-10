@@ -33,16 +33,16 @@ export default function GolfWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/sports-wheels" className="hover:text-retro-orange">Sports Wheels</Link>
+          <Link href="/sports-wheels/" className="hover:text-retro-orange">Sports Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">Golf Wheel</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/sports-wheels"
+          href="/sports-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Sports Wheels
@@ -79,7 +79,7 @@ export default function GolfWheelPage() {
                 The <strong>Golf Club Wheel</strong> contains a full set of clubs including the Driver, woods, irons, wedges, and the putter. It is a fantastic tool for driving range challenges where you must hit whatever club the wheel lands on, forcing you to adjust your stance, swing speed, and target.
               </p>
               <p>
-                To generate random decisions on other topics, check out our general <Link href="/decision-wheel" className="text-retro-yellow underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games" className="text-retro-orange underline font-bold">Games Page</Link> for additional options.
+                To generate random decisions on other topics, check out our general <Link href="/decision-wheel/" className="text-retro-yellow underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Page</Link> for additional options.
               </p>
             </div>
           </div>

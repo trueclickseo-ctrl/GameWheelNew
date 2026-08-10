@@ -17,9 +17,9 @@ export default function DessertSpinnerPage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/food" className="hover:text-retro-orange">Food</Link>
+          <Link href="/templates/food/" className="hover:text-retro-orange">Food</Link>
           <span>/</span>
           <span className="text-retro-orange">Dessert Spinner</span>
         </div>
@@ -48,7 +48,7 @@ export default function DessertSpinnerPage() {
                 Our <strong>Dessert Spinner Wheel</strong> makes treat time even more enjoyable by introducing an element of surprise. Spin the wheel to decide between ice cream, cake, pie, and cookies.
               </p>
               <p>
-                For larger lists, try customizing our <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or resolve quick binary prompts with the <Link href="/yes-no-wheel" className="text-retro-blue underline font-bold">Yes or No Wheel</Link>.
+                For larger lists, try customizing our <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or resolve quick binary prompts with the <Link href="/yes-no-wheel/" className="text-retro-blue underline font-bold">Yes or No Wheel</Link>.
               </p>
             </div>
           </div>

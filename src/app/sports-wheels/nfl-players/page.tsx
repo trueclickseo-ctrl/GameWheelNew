@@ -30,16 +30,16 @@ export default function NFLPlayersWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/sports-wheels" className="hover:text-retro-orange">Sports Wheels</Link>
+          <Link href="/sports-wheels/" className="hover:text-retro-orange">Sports Wheels</Link>
           <span>/</span>
           <span className="text-retro-orange">NFL Players</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/sports-wheels"
+          href="/sports-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Sports Wheels
@@ -76,7 +76,7 @@ export default function NFLPlayersWheelPage() {
                 This selector features top-tier talent like Patrick Mahomes, Lamar Jackson, Josh Allen, Christian McCaffrey, and Justin Jefferson. Our randomizing algorithm ensures that every single spin is completely unbiased and fair.
               </p>
               <p>
-                To explore other randomizers, you can visit our <Link href="/decision-wheel" className="text-retro-blue underline font-bold">Decision Wheel</Link> or head back to the <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> to check out other sports categories.
+                To explore other randomizers, you can visit our <Link href="/decision-wheel/" className="text-retro-blue underline font-bold">Decision Wheel</Link> or head back to the <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> to check out other sports categories.
               </p>
             </div>
           </div>

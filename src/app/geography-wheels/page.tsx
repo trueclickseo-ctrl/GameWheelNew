@@ -4,16 +4,16 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Geography & Country Wheel Spinners | GameWheelClub",
+  title: "Geography & Country Wheel Spinners | SpinVerse",
   description: "Spin to select random countries, US states, European nations, or run the 64-country roulette challenge. Great for geography trivia and travel planning.",
 };
 
 export default function geographywheelsHubPage() {
   const wheels = [
-    { name: "Country Wheel Spinner", href: "/geography-wheels/country-wheel", desc: "Pick a random nation worldwide for trivia, gaming regions, or projects." },
-    { name: "64 Country Roulette", href: "/geography-wheels/64-country-roulette", desc: "The ultimate 64-country roulette wheel for gaming challenges and brackets." },
-    { name: "US States Wheel", href: "/geography-wheels/us-states", desc: "Spin to choose from the 50 states of America randomly." },
-    { name: "Europe Countries Wheel", href: "/geography-wheels/europe-countries", desc: "Randomly pick an European country for travel plans or educational research." }
+    { name: "Country Wheel Spinner", href: "/geography-wheels/country-wheel/", desc: "Pick a random nation worldwide for trivia, gaming regions, or projects." },
+    { name: "64 Country Roulette", href: "/geography-wheels/64-country-roulette/", desc: "The ultimate 64-country roulette wheel for gaming challenges and brackets." },
+    { name: "US States Wheel", href: "/geography-wheels/us-states/", desc: "Spin to choose from the 50 states of America randomly." },
+    { name: "Europe Countries Wheel", href: "/geography-wheels/europe-countries/", desc: "Randomly pick an European country for travel plans or educational research." }
   ];
 
   return (
@@ -23,7 +23,7 @@ export default function geographywheelsHubPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Geography Wheels</span>
         </div>

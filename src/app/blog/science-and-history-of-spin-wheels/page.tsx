@@ -50,7 +50,7 @@ export default function ScienceAndHistoryOfSpinWheels() {
             Home
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
-          <Link href="/blog" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
+          <Link href="/blog/" className="text-sm font-bold uppercase tracking-wider text-retro-navy/85 dark:text-cream/85 hover:underline">
             Blog
           </Link>
           <span className="mx-2 text-retro-navy/50 dark:text-cream/50">/</span>
@@ -183,10 +183,10 @@ export default function ScienceAndHistoryOfSpinWheels() {
                 Experience dynamic color rendering and physics-based easing directly on our interactive tools.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/yes-no-wheel" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/yes-no-wheel/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Yes or No Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/wheel-of-names" className="neo-btn bg-retro-pink text-white text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/wheel-of-names/" className="neo-btn bg-retro-pink text-white text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Wheel of Names <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

@@ -16,16 +16,16 @@ export default function ColorWheelSpinnerPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/generators" className="hover:text-retro-orange">Random Generators</Link>
+          <Link href="/generators/" className="hover:text-retro-orange">Random Generators</Link>
           <span>/</span>
           <span className="text-retro-orange">Color Spinner</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/generators"
+          href="/generators/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Random Generators
@@ -46,7 +46,7 @@ export default function ColorWheelSpinnerPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Red (#EF4444)","Blue (#3B82F6)","Green (#10B981)","Yellow (#F59E0B)","Purple (#8B5CF6)","Pink (#EC4899)","Orange (#F97316)","Teal (#14B8A6)"]} storageKey="gamewheelclub-generators-color-wheel" />
+          <WheelSpinner initialOptions={["Red (#EF4444)","Blue (#3B82F6)","Green (#10B981)","Yellow (#F59E0B)","Purple (#8B5CF6)","Pink (#EC4899)","Orange (#F97316)","Teal (#14B8A6)"]} storageKey="spinverse-generators-color-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}
@@ -63,7 +63,7 @@ export default function ColorWheelSpinnerPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Number Wheel Spinner](/generators/number-wheel), [Percent Wheel Spinner](/generators/percent-wheel), [Alphabet Wheel Spinner](/generators/alphabet-wheel) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Number Wheel Spinner](/generators/number-wheel/), [Percent Wheel Spinner](/generators/percent-wheel/), [Alphabet Wheel Spinner](/generators/alphabet-wheel/) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

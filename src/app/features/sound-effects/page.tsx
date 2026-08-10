@@ -54,7 +54,7 @@ export default function SoundEffectsFeature() {
             In digital product design, feedback loops confirm actions and build anticipation. When you spin a decision wheel, the visual movement is half the experience; the sound of the spinner ticking builds the emotional tension. The speed of the clicks matches the angular velocity of the wheel: fast at first, then slowly dragging to a stop, concluding with a celebratory chime.
           </p>
           <p className="font-medium leading-relaxed">
-            We use these auditory cues across all our primary tools. For example, in the <Link href="/timer" className="font-bold underline decoration-retro-orange hover:text-retro-orange">Timer</Link>, synthetic countdown beeps alert you as time runs out. In the <Link href="/dice-roller" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Dice Roller</Link>, a rumbling rolling noise mimics dice bouncing in a cup.
+            We use these auditory cues across all our primary tools. For example, in the <Link href="/timer/" className="font-bold underline decoration-retro-orange hover:text-retro-orange">Timer</Link>, synthetic countdown beeps alert you as time runs out. In the <Link href="/dice-roller/" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Dice Roller</Link>, a rumbling rolling noise mimics dice bouncing in a cup.
           </p>
         </section>
 
@@ -204,10 +204,10 @@ osc.stop(ctx.currentTime + 0.015);`}
             Spin the wheel, flip a coin, or set up a countdown to hear the procedural synth engine adapt to your interactions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/decision-wheel" className="neo-btn px-6 py-3 bg-retro-orange text-retro-navy hover:bg-opacity-90">
+            <Link href="/decision-wheel/" className="neo-btn px-6 py-3 bg-retro-orange text-retro-navy hover:bg-opacity-90">
               Spin Decision Wheel
             </Link>
-            <Link href="/timer" className="neo-btn px-6 py-3 bg-retro-blue text-retro-navy hover:bg-opacity-90">
+            <Link href="/timer/" className="neo-btn px-6 py-3 bg-retro-blue text-retro-navy hover:bg-opacity-90">
               Launch Countdown Timer
             </Link>
           </div>

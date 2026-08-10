@@ -17,9 +17,9 @@ export default function TruthOrDarePage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/party-games" className="hover:text-retro-orange">Party Games</Link>
+          <Link href="/templates/party-games/" className="hover:text-retro-orange">Party Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Truth or Dare</span>
         </div>
@@ -48,7 +48,7 @@ export default function TruthOrDarePage() {
                 Our wheel is configured with repeating slices of Truth and Dare, along with a high-stakes &quot;Double Dare&quot; segment, to make game nights unpredictable.
               </p>
               <p>
-                To randomly choose which player spins the wheel next, use our <Link href="/wheel-of-names" className="text-retro-orange underline font-bold">Wheel of Names</Link>, or settle quick debates with <Link href="/flip-a-coin" className="text-retro-blue underline font-bold">Flip a Coin</Link>.
+                To randomly choose which player spins the wheel next, use our <Link href="/wheel-of-names/" className="text-retro-orange underline font-bold">Wheel of Names</Link>, or settle quick debates with <Link href="/flip-a-coin/" className="text-retro-blue underline font-bold">Flip a Coin</Link>.
               </p>
             </div>
           </div>

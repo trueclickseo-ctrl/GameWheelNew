@@ -17,9 +17,9 @@ export default function SubjectPickerPage() {
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
-          <Link href="/templates/classroom" className="hover:text-retro-orange">Classroom</Link>
+          <Link href="/templates/classroom/" className="hover:text-retro-orange">Classroom</Link>
           <span>/</span>
           <span className="text-retro-orange">Subject Picker</span>
         </div>
@@ -48,7 +48,7 @@ export default function SubjectPickerPage() {
                 Slices show standard subject blocks: Math, Science, History, Art, and Music. Spin the wheel to decide which topic the students will study next.
               </p>
               <p>
-                To generate random test numbers, use our <Link href="/random-number-generator" className="text-retro-orange underline font-bold">Number Generator</Link> or time exams using the <Link href="/timer" className="text-retro-blue underline font-bold">Timer</Link>.
+                To generate random test numbers, use our <Link href="/random-number-generator/" className="text-retro-orange underline font-bold">Number Generator</Link> or time exams using the <Link href="/timer/" className="text-retro-blue underline font-bold">Timer</Link>.
               </p>
             </div>
           </div>

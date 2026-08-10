@@ -50,7 +50,7 @@ htmlFiles.forEach(filePath => {
     cleanPath = cleanPath + '/';
   }
 
-  // Squeeze multiple slashes
+  // Squeeze multiple slashes from path
   const canonicalPath = cleanPath.replace(/\/+/g, '/');
   const canonicalUrl = `${canonicalDomain}${canonicalPath}`;
 
@@ -76,23 +76,19 @@ htmlFiles.forEach(filePath => {
     try {
       let data = JSON.parse(jsonContent);
       
-      // Recursive helper to update any url/@id fields to standard canonicals
       function updateUrls(obj) {
         if (!obj || typeof obj !== 'object') return;
         
         for (let key in obj) {
           if (typeof obj[key] === 'string') {
-            // If it's a domain reference without www or trailing slash, clean it up
             if (obj[key].includes('gamewheelclub.com') || obj[key].includes('spinverse.com')) {
-              let urlVal = obj[key]
-                .replace(/https?:\/\/(www\.)?(gamewheelclub\.com|spinverse\.com)/gi, canonicalDomain);
-              
-              // Ensure paths (excluding file extensions) end with trailing slash
-              if (!path.extname(urlVal) && !urlVal.endsWith('/')) {
+              let urlVal = obj[key].replace(/https?:\/\/(www\.)?(gamewheelclub\.com|spinverse\.com)/gi, '');
+              const ext = path.extname(urlVal.split('?')[0].split('#')[0]);
+              if (!ext && !urlVal.endsWith('/')) {
                 urlVal = urlVal + '/';
               }
-              urlVal = urlVal.replace(/\/+/g, '/').replace('https:/', 'https://');
-              obj[key] = urlVal;
+              urlVal = urlVal.replace(/\/+/g, '/');
+              obj[key] = `${canonicalDomain}${urlVal}`;
             }
           } else if (typeof obj[key] === 'object') {
             updateUrls(obj[key]);
@@ -103,45 +99,44 @@ htmlFiles.forEach(filePath => {
       updateUrls(data);
       return `<script type="application/ld+json">${JSON.stringify(data, null, 2)}</script>`;
     } catch (e) {
-      // If parsing fails, fall back to string replacement
-      let cleanJson = jsonContent
-        .replace(/https?:\/\/(www\.)?(gamewheelclub\.com|spinverse\.com)\/([^"'\s]*)/gi, (m, www, dom, p) => {
-          let cleanPath = p;
-          if (cleanPath && !cleanPath.endsWith('/') && !cleanPath.includes('.')) {
-            cleanPath += '/';
-          }
-          let urlVal = `${canonicalDomain}/${cleanPath}`;
-          return urlVal.replace(/\/+/g, '/').replace('https:/', 'https://');
-        });
-      return `<script type="application/ld+json">${cleanJson}</script>`;
+      return match;
     }
   });
 
-  // 4. Do global replacements on clean paths in href attributes to ensure internal links are standard
-  // Find any href="/path" or href="https://gamewheelclub.com/path" that do not end in trailing slash and are not files
-  content = content.replace(/(href|src)=["'](\/[^"'\s]*)["']/gi, (match, attr, val) => {
-    // Ignore internal next assets, hash anchors, mailto, etc.
-    if (val.startsWith('/_next') || val.includes('#') || val.includes('.') || val === '/' || val.startsWith('/out/')) {
+  // 4. Safely update href attributes for internal website page routes
+  content = content.replace(/href=["'](\/[^"'\s]*)["']/gi, (match, val) => {
+    // Skip next assets, out folder, mailto, etc.
+    if (val.startsWith('/_next') || val.startsWith('/out/') || val === '/') {
       return match;
     }
-    // Append trailing slash if missing
-    let cleaned = val;
-    if (!cleaned.endsWith('/')) {
-      cleaned = cleaned + '/';
+
+    let [mainPath, queryAndHash] = val.split(/([?#].*)/);
+    queryAndHash = queryAndHash || '';
+
+    if (mainPath.includes('.')) {
+      return match;
     }
-    cleaned = cleaned.replace(/\/+/g, '/');
-    return `${attr}="${cleaned}"`;
+
+    if (mainPath !== '/' && !mainPath.endsWith('/') && !mainPath.includes('.')) {
+      mainPath += '/';
+    }
+    mainPath = mainPath.replace(/\/+/g, '/');
+    let fullUrl = `${canonicalDomain}${mainPath}${queryAndHash}`;
+    return `href="${fullUrl}"`;
   });
 
   // Also replace absolute domain links in hrefs
-  content = content.replace(/(href)=["']https?:\/\/(www\.)?(gamewheelclub\.com|spinverse\.com)(\/[^"'\s]*)?["']/gi, (match, attr, www, dom, p) => {
-    let cleanPath = p || '/';
-    if (cleanPath !== '/' && !cleanPath.endsWith('/') && !cleanPath.includes('.')) {
-      cleanPath += '/';
+  content = content.replace(/href=["']https?:\/\/(www\.)?(gamewheelclub\.com|spinverse\.com)(\/[^"'\s]*)?["']/gi, (match, www, dom, p) => {
+    let rawPath = p || '/';
+    let [mainPath, queryAndHash] = rawPath.split(/([?#].*)/);
+    queryAndHash = queryAndHash || '';
+
+    if (mainPath !== '/' && !mainPath.endsWith('/') && !mainPath.includes('.')) {
+      mainPath += '/';
     }
-    let urlVal = `${canonicalDomain}${cleanPath}`;
-    urlVal = urlVal.replace(/\/+/g, '/').replace('https:/', 'https://');
-    return `${attr}="${urlVal}"`;
+    mainPath = mainPath.replace(/\/+/g, '/');
+    let urlVal = `${canonicalDomain}${mainPath}${queryAndHash}`;
+    return `href="${urlVal}"`;
   });
 
   fs.writeFileSync(filePath, content, 'utf8');

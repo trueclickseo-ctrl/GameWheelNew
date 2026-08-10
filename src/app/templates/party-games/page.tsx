@@ -23,7 +23,7 @@ export default function PartyGamesCategoryPage() {
       <main className="flex-1 max-w-4xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/templates" className="hover:text-retro-orange">Templates</Link>
+          <Link href="/templates/" className="hover:text-retro-orange">Templates</Link>
           <span>/</span>
           <span className="text-retro-orange">Party Games</span>
         </div>

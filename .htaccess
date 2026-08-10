@@ -16,6 +16,9 @@
   RewriteCond %{THE_REQUEST} \s/out/([^?\s]+)\s [NC]
   RewriteRule ^out/(.*)$ https://www.gamewheelclub.com/$1 [R=301,L]
 
+  # --- Specific Legacy Route Redirects ---
+  RewriteRule ^hu/timer/?$ https://www.gamewheelclub.com/timer/ [R=301,L]
+
   # --- Unified Canonicalization Rules ---
   
   # 1. Non-file requests (no extension) missing trailing slash, or on HTTP, or on non-www

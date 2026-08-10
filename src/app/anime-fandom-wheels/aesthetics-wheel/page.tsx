@@ -28,9 +28,9 @@ export default function AestheticsWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">Aesthetics Wheel</span>
         </div>
@@ -66,7 +66,7 @@ export default function AestheticsWheelPage() {
                 Our <strong>Aesthetics Wheel</strong> helps you step out of your comfort zone by randomly selecting a style layout. Preloaded with the internet&apos;s most popular trends, this interactive generator is the perfect tool for fashion makeovers, room designs, or creative content.
               </p>
               <p>
-                You can easily add new styles (like Steampunk, Y2K, Royalcore, or Goblincore) directly to the wheel options. For creating custom multi-option boards, check out our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily add new styles (like Steampunk, Y2K, Royalcore, or Goblincore) directly to the wheel options. For creating custom multi-option boards, check out our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

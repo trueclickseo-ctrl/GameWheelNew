@@ -4,17 +4,17 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Food Decider & Dinner Wheel Spinners | GameWheelClub",
+  title: "Food Decider & Dinner Wheel Spinners | SpinVerse",
   description: "Can't agree on lunch, dinner, or snacks? Spin the Food Wheels to pick a random restaurant type, fast food chain, sweet dessert, or healthy snack.",
 };
 
 export default function foodwheelsHubPage() {
   const wheels = [
-    { name: "What to Eat Wheel", href: "/food-wheels/what-to-eat", desc: "Solve the dinner debate instantly by picking a random food cuisine." },
-    { name: "Fast Food Restaurants Wheel", href: "/food-wheels/fast-food-restaurants", desc: "Spin to pick between popular fast-food chains for a quick lunch." },
-    { name: "Snacks Wheel", href: "/food-wheels/snacks", desc: "Select a random healthy snack or salty chip bag." },
-    { name: "Dessert Wheel", href: "/food-wheels/dessert", desc: "Spin for a sweet treat idea. Covers cakes, pies, and baked cookies." },
-    { name: "Fruit Wheel", href: "/food-wheels/fruit", desc: "Spin to choose a healthy piece of fruit to eat." }
+    { name: "What to Eat Wheel", href: "/food-wheels/what-to-eat/", desc: "Solve the dinner debate instantly by picking a random food cuisine." },
+    { name: "Fast Food Restaurants Wheel", href: "/food-wheels/fast-food-restaurants/", desc: "Spin to pick between popular fast-food chains for a quick lunch." },
+    { name: "Snacks Wheel", href: "/food-wheels/snacks/", desc: "Select a random healthy snack or salty chip bag." },
+    { name: "Dessert Wheel", href: "/food-wheels/dessert/", desc: "Spin for a sweet treat idea. Covers cakes, pies, and baked cookies." },
+    { name: "Fruit Wheel", href: "/food-wheels/fruit/", desc: "Spin to choose a healthy piece of fruit to eat." }
   ];
 
   return (
@@ -24,7 +24,7 @@ export default function foodwheelsHubPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
           <span className="text-retro-orange">Food Wheels</span>
         </div>

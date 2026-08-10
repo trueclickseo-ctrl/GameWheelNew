@@ -57,7 +57,7 @@ export default function EliminationModeFeature() {
             However, many scenarios demand <strong>sampling without replacement</strong>. In this model, once an option is selected, it is removed from the pool of active candidates. Subsequent selections are made exclusively from the remaining items. On a spinner wheel, this manifests as a dynamic visual event: the winning wedge disappears, the circle shifts and recalibrates, and the wheel adapts to its new configuration.
           </p>
           <p className="font-medium leading-relaxed">
-            This mechanic is particularly powerful for selecting drawing orders, classroom chores, group presentations, or raffle prizes. Using our <Link href="/wheel-of-names" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Wheel of Names</Link> tool, you can enable elimination mode to run smooth multi-stage drawings without manual entry changes.
+            This mechanic is particularly powerful for selecting drawing orders, classroom chores, group presentations, or raffle prizes. Using our <Link href="/wheel-of-names/" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Wheel of Names</Link> tool, you can enable elimination mode to run smooth multi-stage drawings without manual entry changes.
           </p>
         </section>
 
@@ -225,10 +225,10 @@ export default function EliminationModeFeature() {
             Set up your names list and spin. Watch slices pop off the wheel and the remaining slices grow larger in real-time.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/wheel-of-names" className="neo-btn px-6 py-3 bg-retro-mint text-retro-navy hover:bg-opacity-90">
+            <Link href="/wheel-of-names/" className="neo-btn px-6 py-3 bg-retro-mint text-retro-navy hover:bg-opacity-90">
               Spin Wheel of Names
             </Link>
-            <Link href="/decision-wheel" className="neo-btn px-6 py-3 bg-retro-blue text-retro-navy hover:bg-opacity-90">
+            <Link href="/decision-wheel/" className="neo-btn px-6 py-3 bg-retro-blue text-retro-navy hover:bg-opacity-90">
               Go to Decision Wheel
             </Link>
           </div>

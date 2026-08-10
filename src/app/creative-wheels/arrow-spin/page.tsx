@@ -16,16 +16,16 @@ export default function ArrowSpinWheelPage() {
         {/* Breadcrumbs */}
         
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/creative-wheels" className="hover:text-retro-orange">Creative & Entertainment</Link>
+          <Link href="/creative-wheels/" className="hover:text-retro-orange">Creative & Entertainment</Link>
           <span>/</span>
           <span className="text-retro-orange">Arrow Spin</span>
         </div>
 
         {/* Back Link */}
         <Link
-          href="/creative-wheels"
+          href="/creative-wheels/"
           className="inline-flex items-center gap-2 text-sm font-bold mb-6 hover:text-retro-orange transition-colors"
         >
           <ArrowLeft className="w-4 h-4" /> Back to Creative & Entertainment
@@ -46,7 +46,7 @@ export default function ArrowSpinWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["North ⬆️","Northeast ↗️","East ➡️","Southeast ↘️","South ⬇️","Southwest ↙️","West ⬅️","Northwest ↖️"]} storageKey="gamewheelclub-creative-wheels-arrow-spin" />
+          <WheelSpinner initialOptions={["North ⬆️","Northeast ↗️","East ➡️","Southeast ↘️","South ⬇️","Southwest ↙️","West ⬅️","Northwest ↖️"]} storageKey="spinverse-creative-wheels-arrow-spin" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}
@@ -63,7 +63,7 @@ export default function ArrowSpinWheelPage() {
                 This spinner is preloaded with popular options to get you started. If you want to customize the list, or narrow it down to just your personal choices, you can easily add, remove, or edit options right in the spinner menu.
               </p>
               <p>
-                Explore other tools in this category such as [Movie Picker Wheel](/creative-wheels/movie-picker), [Drawing Idea Wheel](/creative-wheels/drawing-idea-wheel), [TBR Prompts Wheel](/creative-wheels/tbr-prompts) or check out the main <Link href="/games" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
+                Explore other tools in this category such as [Movie Picker Wheel](/creative-wheels/movie-picker/), [Drawing Idea Wheel](/creative-wheels/drawing-idea-wheel/), [TBR Prompts Wheel](/creative-wheels/tbr-prompts/) or check out the main <Link href="/games/" className="text-retro-orange underline font-bold">Games Hub</Link> directory.
               </p>
             </div>
           </div>

@@ -28,9 +28,9 @@ export default function MarvelSuperheroesWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">Marvel Superheroes</span>
         </div>
@@ -66,7 +66,7 @@ export default function MarvelSuperheroesWheelPage() {
                 Our <strong>Marvel Superheroes Wheel</strong> is designed to pick a random hero instantly. It is preloaded with iconic figures like Wolverine, Captain America, and Thor to get you started immediately. 
               </p>
               <p>
-                You can easily add your own niche characters (like Moon Knight, Daredevil, or Deadpool) directly into the wheel. For creating custom multi-option boards, check out our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily add your own niche characters (like Moon Knight, Daredevil, or Deadpool) directly into the wheel. For creating custom multi-option boards, check out our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

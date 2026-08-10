@@ -59,7 +59,7 @@ export default function ProductivityTimeboxing() {
                   Timeboxing is a productivity method that turns Parkinson&apos;s Law into an advantage. Instead of working on a task until it is completed, you allocate a fixed, inflexible block of time—a &quot;timebox&quot;—to that specific task. When the timebox expires, you stop immediately, review your progress, and transition to the next block.
                 </p>
                 <p>
-                  This framework creates a healthy level of urgency. It stops you from over-polishing details, encourages you to ignore minor distractions, and forces you to focus on the core value of your project. Using a reliable countdown tool like our client-side <Link href="/timer" className="font-bold underline hover:text-retro-orange">Timer</Link> makes these timeboxes visual and binding.
+                  This framework creates a healthy level of urgency. It stops you from over-polishing details, encourages you to ignore minor distractions, and forces you to focus on the core value of your project. Using a reliable countdown tool like our client-side <Link href="/timer/" className="font-bold underline hover:text-retro-orange">Timer</Link> makes these timeboxes visual and binding.
                 </p>
               </div>
             </section>
@@ -107,7 +107,7 @@ export default function ProductivityTimeboxing() {
                   You can bypass this initial friction by gamifying your list. Enter your tasks into a spinner wheel, click spin, and let the wheel select your first focus block. By committing to work on whatever the wheel chooses for just one Pomodoro cycle, you overcome the initial inertia of starting.
                 </p>
                 <p>
-                  This strategy is highly effective in classrooms, home offices, and collaborative sprint planning. Utilizing pre-saved boards like <Link href="/templates/classroom" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link> allows teachers and teams to pick subjects, tasks, or presenters in a fun, high-energy format.
+                  This strategy is highly effective in classrooms, home offices, and collaborative sprint planning. Utilizing pre-saved boards like <Link href="/templates/classroom/" className="font-bold underline hover:text-retro-blue">Classroom Templates</Link> allows teachers and teams to pick subjects, tasks, or presenters in a fun, high-energy format.
                 </p>
               </div>
             </section>
@@ -162,10 +162,10 @@ export default function ProductivityTimeboxing() {
                 Ready to block out distractions? Spin a task and kick off your countdown timer right now!
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/timer" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/timer/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Timer Tool <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/classroom" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/classroom/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Classroom Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

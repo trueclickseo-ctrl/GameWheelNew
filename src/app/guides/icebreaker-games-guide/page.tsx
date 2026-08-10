@@ -59,7 +59,7 @@ export default function IcebreakerGamesGuide() {
                   Psychologists refer to the &quot;affective filter&quot;—a mental screen that can block learning and authentic connection when anxiety is high. To lower this barrier, we must shift the environment from formal and evaluative to playful and creative. Playing games triggers the release of endorphins, which helps individuals relax and feel more connected to those around them.
                 </p>
                 <p>
-                  A digital randomizer, such as our client-side <Link href="/decision-wheel" className="font-bold underline hover:text-retro-orange">Decision Wheel</Link>, is highly effective for this shift. It introduces a shared focal point. By placing the attention on a spinning visual interface, participants are relieved of individual scrutiny, allowing them to relax and engage naturally.
+                  A digital randomizer, such as our client-side <Link href="/decision-wheel/" className="font-bold underline hover:text-retro-orange">Decision Wheel</Link>, is highly effective for this shift. It introduces a shared focal point. By placing the attention on a spinning visual interface, participants are relieved of individual scrutiny, allowing them to relax and engage naturally.
                 </p>
               </div>
             </section>
@@ -86,7 +86,7 @@ export default function IcebreakerGamesGuide() {
                   <div className="neo-card p-6 bg-white dark:bg-slate-800">
                     <h4 className="font-bold text-lg mb-2 text-retro-blue">Speed Storytelling</h4>
                     <p className="text-sm opacity-90">
-                      Combine a digital wheel with a <Link href="/timer" className="font-bold underline hover:text-retro-orange">Timer</Link>. Spin the wheel to get a topic, and challenge the team member to talk about that topic for exactly 45 seconds without using the words &quot;like&quot; or &quot;um.&quot;
+                      Combine a digital wheel with a <Link href="/timer/" className="font-bold underline hover:text-retro-orange">Timer</Link>. Spin the wheel to get a topic, and challenge the team member to talk about that topic for exactly 45 seconds without using the words &quot;like&quot; or &quot;um.&quot;
                     </p>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ export default function IcebreakerGamesGuide() {
               </h2>
               <div className="space-y-4 font-sans text-base leading-relaxed text-retro-navy/90 dark:text-cream/90">
                 <p>
-                  Preparing your icebreakers is simple. Open our <Link href="/templates/party-games" className="font-bold underline hover:text-retro-blue">Party Games Templates</Link>, choose a pre-formatted template, customize it with your team&apos;s specific details, and share your screen over Zoom or Teams. Incorporating sound effects and a colorful visual spinner guarantees a highly interactive experience for your next team gathering.
+                  Preparing your icebreakers is simple. Open our <Link href="/templates/party-games/" className="font-bold underline hover:text-retro-blue">Party Games Templates</Link>, choose a pre-formatted template, customize it with your team&apos;s specific details, and share your screen over Zoom or Teams. Incorporating sound effects and a colorful visual spinner guarantees a highly interactive experience for your next team gathering.
                 </p>
               </div>
             </section>
@@ -166,10 +166,10 @@ export default function IcebreakerGamesGuide() {
                 Create a customized wheel for your event or use our curated templates to start immediately.
               </p>
               <div className="flex flex-col gap-2">
-                <Link href="/decision-wheel" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/decision-wheel/" className="neo-btn bg-retro-blue text-cream text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Decision Wheel <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link href="/templates/party-games" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
+                <Link href="/templates/party-games/" className="neo-btn bg-retro-mint text-retro-navy text-center py-2 text-sm flex items-center justify-center gap-2 hover:bg-opacity-90">
                   Party Templates <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

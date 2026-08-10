@@ -27,9 +27,9 @@ export default function DandysWorldTrinketsWheelPage() {
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
-          <Link href="/games" className="hover:text-retro-orange">Games</Link>
+          <Link href="/games/" className="hover:text-retro-orange">Games</Link>
           <span>/</span>
-          <Link href="/anime-fandom-wheels" className="hover:text-retro-orange">Anime & Fandom</Link>
+          <Link href="/anime-fandom-wheels/" className="hover:text-retro-orange">Anime & Fandom</Link>
           <span>/</span>
           <span className="text-retro-orange">Dandy&apos;s World Trinkets</span>
         </div>
@@ -65,7 +65,7 @@ export default function DandysWorldTrinketsWheelPage() {
                 Our <strong>Dandy&apos;s World Trinkets Wheel</strong> is designed for players who want to challenge themselves. By forcing a random equipment layout, you must adapt your survival strategies based on whichever gear lands.
               </p>
               <p>
-                You can easily add new trinkets or remove items you haven&apos;t unlocked yet in the game store. If you want to make an entirely customized lists from scratch, use our primary <Link href="/decision-wheel" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
+                You can easily add new trinkets or remove items you haven&apos;t unlocked yet in the game store. If you want to make an entirely customized lists from scratch, use our primary <Link href="/decision-wheel/" className="text-retro-orange underline font-bold">Decision Wheel</Link> or return to the main <Link href="/anime-fandom-wheels/" className="text-retro-blue underline font-bold">Anime & Fandom Hub</Link>.
               </p>
             </div>
           </div>

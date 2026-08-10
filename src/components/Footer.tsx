@@ -26,22 +26,22 @@ export default function Footer({ currentLocale = "en" }: { currentLocale?: strin
             Wheel Games
           </h4>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <a href={`${localePrefix}/food-wheels`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/food-wheels/`} className="hover:text-retro-orange transition-colors">
               Food Wheels
             </a>
-            <a href={`${localePrefix}/sports-wheels`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/sports-wheels/`} className="hover:text-retro-orange transition-colors">
               Sports Wheels
             </a>
-            <a href={`${localePrefix}/anime-fandom-wheels`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/anime-fandom-wheels/`} className="hover:text-retro-orange transition-colors">
               Anime & Fandom
             </a>
-            <a href={`${localePrefix}/character-creator`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/character-creator/`} className="hover:text-retro-orange transition-colors">
               Character Creator
             </a>
-            <a href={`${localePrefix}/video-game-wheels`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/video-game-wheels/`} className="hover:text-retro-orange transition-colors">
               Video Games
             </a>
-            <a href={`${localePrefix}/games`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/games/`} className="hover:text-retro-orange transition-colors">
               Browse All
             </a>
           </div>
@@ -53,13 +53,13 @@ export default function Footer({ currentLocale = "en" }: { currentLocale?: strin
             Use Cases
           </h4>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <a href={`${localePrefix}/for-teachers`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/for-teachers/`} className="hover:text-retro-orange transition-colors">
               For Teachers
             </a>
-            <a href={`${localePrefix}/for-business`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/for-business/`} className="hover:text-retro-orange transition-colors">
               For Business
             </a>
-            <a href={`${localePrefix}/for-events`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/for-events/`} className="hover:text-retro-orange transition-colors">
               For Events
             </a>
           </div>
@@ -71,16 +71,16 @@ export default function Footer({ currentLocale = "en" }: { currentLocale?: strin
             Guides & Info
           </h4>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <a href={`${localePrefix}/guides/how-random-wheels-work`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/guides/how-random-wheels-work/`} className="hover:text-retro-orange transition-colors">
               How Wheels Work
             </a>
-            <a href={`${localePrefix}/guides/spin-wheel-psychology`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/guides/spin-wheel-psychology/`} className="hover:text-retro-orange transition-colors">
               Wheel Psychology
             </a>
-            <a href={`${localePrefix}/features/weighted-wheel`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/features/weighted-wheel/`} className="hover:text-retro-orange transition-colors">
               Weighted Wheels
             </a>
-            <a href={`${localePrefix}/features/elimination-mode`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/features/elimination-mode/`} className="hover:text-retro-orange transition-colors">
               Elimination Mode
             </a>
           </div>
@@ -92,16 +92,16 @@ export default function Footer({ currentLocale = "en" }: { currentLocale?: strin
             Recent Blog
           </h4>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <a href={`${localePrefix}/blog/spin-wheels-for-decision-making`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/blog/spin-wheels-for-decision-making/`} className="hover:text-retro-orange transition-colors">
               Wheels for Decisions
             </a>
-            <a href={`${localePrefix}/blog/party-games-for-adults`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/blog/party-games-for-adults/`} className="hover:text-retro-orange transition-colors">
               Party Games
             </a>
-            <a href={`${localePrefix}/blog/spin-wheels-in-modern-education`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/blog/spin-wheels-in-modern-education/`} className="hover:text-retro-orange transition-colors">
               Classroom Incentive
             </a>
-            <a href={`${localePrefix}/blog/time-boxing-to-prevent-burnout`} className="hover:text-retro-orange transition-colors">
+            <a href={`${localePrefix}/blog/time-boxing-to-prevent-burnout/`} className="hover:text-retro-orange transition-colors">
               Avoid Burnout
             </a>
           </div>
@@ -114,16 +114,16 @@ export default function Footer({ currentLocale = "en" }: { currentLocale?: strin
         </p>
 
         <div className="flex gap-6 text-xs font-semibold">
-          <a href={`${localePrefix}/about`} className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/about/`} className="hover:text-retro-orange transition-colors">
             About Us
           </a>
-          <a href={`${localePrefix}/contact`} className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/contact/`} className="hover:text-retro-orange transition-colors">
             Contact
           </a>
-          <a href={`${localePrefix}/privacy`} className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/privacy/`} className="hover:text-retro-orange transition-colors">
             Privacy Policy
           </a>
-          <a href={`${localePrefix}/terms`} className="hover:text-retro-orange transition-colors">
+          <a href={`${localePrefix}/terms/`} className="hover:text-retro-orange transition-colors">
             Terms of Service
           </a>
         </div>
