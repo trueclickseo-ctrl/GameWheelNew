@@ -2,7 +2,9 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
-import { RotateCw, Trash2, Plus, Volume2, VolumeX, Share2 } from "lucide-react";
+import { RotateCw, Trash2, Plus, Volume2, VolumeX } from "lucide-react";
+import SpinResultModal from "./SpinResultModal";
+import SpinHistory from "./SpinHistory";
 
 interface WheelSpinnerProps {
   initialOptions?: string[];
@@ -26,6 +28,7 @@ export default function WheelSpinner({
   const [newOption, setNewOption] = useState("");
   const [isSpinning, setIsSpinning] = useState(false);
   const [winner, setWinner] = useState<string | null>(null);
+  const [showModal, setShowModal] = useState(false);
   const [soundEnabled, setSoundEnabled] = useState(true);
   const [bulkText, setBulkText] = useState("");
   const [spinSpeed, setSpinSpeed] = useState<"slow" | "medium" | "fast" | "instant">("medium");
@@ -337,6 +340,7 @@ export default function WheelSpinner({
 
     rotationRef.current = finalRotation;
     setWinner(finalWinner);
+    setShowModal(true);
     setIsSpinning(false);
   };
 
@@ -369,139 +373,152 @@ export default function WheelSpinner({
   };
 
   return (
-    <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-6 px-4">
-      {/* Wheel Column */}
-      <div className="flex flex-col items-center justify-center relative w-full">
-        {/* Responsive Aspect-Square Container for the entire wheel and pointer */}
-        <div className="relative w-full max-w-[340px] sm:max-w-[380px] md:max-w-[420px] aspect-square flex items-center justify-center">
-          {/* Pointer */}
-          <div className="absolute top-[-10px] left-1/2 -translate-x-1/2 z-20 drop-shadow-[0_4px_6px_rgba(0,0,0,0.4)]">
-            <div className="w-8 h-10 bg-gradient-to-b from-amber-300 via-yellow-500 to-amber-600 rounded-t-md relative flex items-center justify-center border border-amber-700">
-              <div className="w-0 h-0 border-l-[12px] border-r-[12px] border-t-[18px] border-l-transparent border-r-transparent border-t-amber-600 absolute bottom-[-18px]" />
-              <div className="w-2 h-2 rounded-full bg-white shadow-inner animate-pulse" />
+    <>
+      <SpinResultModal
+        winner={showModal ? winner : null}
+        onClose={() => setShowModal(false)}
+        onSpinAgain={handleSpin}
+      />
+
+      <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start py-6 px-4">
+        {/* Wheel Column */}
+        <div className="flex flex-col items-center justify-center relative w-full">
+          {/* Responsive Aspect-Square Container for the entire wheel and pointer */}
+          <div className="relative w-full max-w-[340px] sm:max-w-[380px] md:max-w-[420px] aspect-square flex items-center justify-center">
+            {/* Pointer */}
+            <div className="absolute top-[-10px] left-1/2 -translate-x-1/2 z-20 drop-shadow-[0_4px_6px_rgba(0,0,0,0.4)]">
+              <div className="w-8 h-10 bg-gradient-to-b from-amber-300 via-yellow-500 to-amber-600 rounded-t-md relative flex items-center justify-center border border-amber-700">
+                <div className="w-0 h-0 border-l-[12px] border-r-[12px] border-t-[18px] border-l-transparent border-r-transparent border-t-amber-600 absolute bottom-[-18px]" />
+                <div className="w-2 h-2 rounded-full bg-white shadow-inner animate-pulse" />
+              </div>
             </div>
-          </div>
 
-          {/* Wheel wrapper */}
-          <div className="relative neo-border bg-amber-950 p-3 rounded-full w-full h-full flex items-center justify-center overflow-hidden shadow-2xl">
-            <motion.div
-              animate={controls}
-              className="w-full h-full flex items-center justify-center"
-              style={{ originX: 0.5, originY: 0.5 }}
-            >
-              <canvas
-                ref={canvasRef}
-                width={800}
-                height={800}
-                className="w-full h-full rounded-full"
-              />
-            </motion.div>
-          </div>
-        </div>
-
-        {/* Action Controls */}
-        <div className="flex items-center gap-4 mt-6">
-          <button
-            onClick={handleSpin}
-            disabled={isSpinning || options.length === 0}
-            className="px-8 py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy text-lg flex items-center gap-2 hover:scale-105 transition-transform disabled:opacity-50"
-          >
-            <RotateCw className={`w-5 h-5 ${isSpinning ? "animate-spin" : ""}`} />
-            {isSpinning ? "Spinning..." : "SPIN!"}
-          </button>
-          
-          <button
-            onClick={() => setSoundEnabled(!soundEnabled)}
-            className="p-3 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream hover:bg-slate-100 transition-colors cursor-pointer"
-            aria-label="Toggle Sound"
-          >
-            {soundEnabled ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
-          </button>
-
-          <select
-            value={spinSpeed}
-            onChange={(e) => setSpinSpeed(e.target.value as any)}
-            className="p-3 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream font-bold text-sm focus:outline-none cursor-pointer"
-            aria-label="Spin Speed"
-          >
-            <option value="slow">🐢 Slow</option>
-            <option value="medium">⚡ Med</option>
-            <option value="fast">🚀 Fast</option>
-            <option value="instant">💥 Instant</option>
-          </select>
-        </div>
-
-        {/* Winner Announcement */}
-        {winner && (
-          <motion.div
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            className="mt-6 p-4 neo-card bg-retro-yellow text-retro-navy text-center max-w-sm"
-          >
-            <p className="text-xs uppercase font-extrabold tracking-widest text-retro-navy/60">The Winner is</p>
-            <h3 className="text-2xl font-black">{winner}</h3>
-          </motion.div>
-        )}
-      </div>
-
-      {/* Editor Column */}
-      <div className="neo-card p-6 bg-white dark:bg-retro-navy transition-colors">
-        <h2 className="text-xl font-bold font-display mb-4 border-b-3 border-retro-navy dark:border-cream pb-2">
-          Wheel Options
-        </h2>
-
-        {/* Single Add Form */}
-        <form onSubmit={addOption} className="flex gap-2 mb-4">
-          <input
-            type="text"
-            placeholder="Add new option..."
-            value={newOption}
-            onChange={(e) => setNewOption(e.target.value)}
-            className="flex-1 neo-input"
-            maxLength={30}
-          />
-          <button
-            type="submit"
-            className="px-4 py-2 neo-btn bg-retro-mint text-retro-navy flex items-center justify-center hover:scale-102 transition-transform"
-          >
-            <Plus className="w-5 h-5" />
-          </button>
-        </form>
-
-        {/* List of current options */}
-        <div className="mb-4 border-2 border-retro-navy dark:border-cream rounded-lg p-2 bg-cream dark:bg-retro-navy/40">
-          {options.map((opt, idx) => (
-            <div
-              key={idx}
-              className="flex justify-between items-center bg-white dark:bg-retro-navy border border-retro-navy/20 dark:border-cream/20 rounded px-3 py-2 mb-1 text-sm font-semibold"
-            >
-              <span>{opt}</span>
-              <button
-                onClick={() => removeOption(idx)}
-                className="text-retro-orange hover:text-red-600 transition-colors"
-                aria-label={`Remove option ${opt}`}
+            {/* Wheel wrapper */}
+            <div className="relative neo-border bg-amber-950 p-3 rounded-full w-full h-full flex items-center justify-center overflow-hidden shadow-2xl">
+              <motion.div
+                animate={controls}
+                className="w-full h-full flex items-center justify-center"
+                style={{ originX: 0.5, originY: 0.5 }}
               >
-                <Trash2 className="w-4 h-4" />
-              </button>
+                <canvas
+                  ref={canvasRef}
+                  width={800}
+                  height={800}
+                  className="w-full h-full rounded-full"
+                />
+              </motion.div>
             </div>
-          ))}
+          </div>
+
+          {/* Action Controls */}
+          <div className="flex items-center gap-4 mt-6">
+            <button
+              onClick={handleSpin}
+              disabled={isSpinning || options.length === 0}
+              className="px-8 py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy text-lg flex items-center gap-2 hover:scale-105 transition-transform disabled:opacity-50 cursor-pointer"
+            >
+              <RotateCw className={`w-5 h-5 ${isSpinning ? "animate-spin" : ""}`} />
+              {isSpinning ? "Spinning..." : "SPIN!"}
+            </button>
+            
+            <button
+              onClick={() => setSoundEnabled(!soundEnabled)}
+              className="p-3 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream hover:bg-slate-100 transition-colors cursor-pointer"
+              aria-label="Toggle Sound"
+            >
+              {soundEnabled ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
+            </button>
+
+            <select
+              value={spinSpeed}
+              onChange={(e) => setSpinSpeed(e.target.value as any)}
+              className="p-3 neo-btn bg-white dark:bg-retro-navy text-retro-navy dark:text-cream font-bold text-sm focus:outline-none cursor-pointer"
+              aria-label="Spin Speed"
+            >
+              <option value="slow">🐢 Slow</option>
+              <option value="medium">⚡ Med</option>
+              <option value="fast">🚀 Fast</option>
+              <option value="instant">💥 Instant</option>
+            </select>
+          </div>
+
+          {/* Winner Announcement */}
+          {winner && (
+            <motion.div
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              className="mt-6 p-4 neo-card bg-retro-yellow text-retro-navy text-center max-w-sm"
+            >
+              <p className="text-xs uppercase font-extrabold tracking-widest text-retro-navy/60">The Winner is</p>
+              <h3 className="text-2xl font-black">{winner}</h3>
+            </motion.div>
+          )}
         </div>
 
-        {/* Bulk Input option */}
-        <div>
-          <label className="block text-xs font-bold uppercase tracking-wider mb-2 text-retro-navy/70 dark:text-cream/70">
-            Bulk Edit (one option per line)
-          </label>
-          <textarea
-            id="bulk-editor-textarea"
-            rows={3}
-            placeholder="Paste your options here..."
-            onChange={handleBulkChange}
-            value={bulkText}
-            className="w-full neo-input text-sm resize-none"
-          />
+        {/* Right Column: Options & Results History */}
+        <div className="flex flex-col gap-2">
+          <div className="neo-card p-6 bg-white dark:bg-retro-navy transition-colors">
+            <h2 className="text-xl font-bold font-display mb-4 border-b-3 border-retro-navy dark:border-cream pb-2">
+              Wheel Options
+            </h2>
+
+            {/* Single Add Form */}
+            <form onSubmit={addOption} className="flex gap-2 mb-4">
+              <input
+                type="text"
+                placeholder="Add new option..."
+                value={newOption}
+                onChange={(e) => setNewOption(e.target.value)}
+                className="flex-1 neo-input"
+                maxLength={30}
+              />
+              <button
+                type="submit"
+                className="px-4 py-2 neo-btn bg-retro-mint text-retro-navy flex items-center justify-center hover:scale-102 transition-transform cursor-pointer"
+              >
+                <Plus className="w-5 h-5" />
+              </button>
+            </form>
+
+            {/* List of current options */}
+            <div className="mb-4 border-2 border-retro-navy dark:border-cream rounded-lg p-2 bg-cream dark:bg-retro-navy/40 max-h-48 overflow-y-auto">
+              {options.map((opt, idx) => (
+                <div
+                  key={idx}
+                  className="flex justify-between items-center bg-white dark:bg-retro-navy border border-retro-navy/20 dark:border-cream/20 rounded px-3 py-2 mb-1 text-sm font-semibold"
+                >
+                  <span>{opt}</span>
+                  <button
+                    onClick={() => removeOption(idx)}
+                    className="text-retro-orange hover:text-red-600 transition-colors cursor-pointer"
+                    aria-label={`Remove option ${opt}`}
+                  >
+                    <Trash2 className="w-4 h-4" />
+                  </button>
+                </div>
+              ))}
+            </div>
+
+            {/* Bulk Input option */}
+            <div>
+              <label className="block text-xs font-bold uppercase tracking-wider mb-2 text-retro-navy/70 dark:text-cream/70">
+                Bulk Edit (one option per line)
+              </label>
+              <textarea
+                id="bulk-editor-textarea"
+                rows={3}
+                placeholder="Paste your options here..."
+                onChange={handleBulkChange}
+                value={bulkText}
+                className="w-full neo-input text-sm resize-none"
+              />
+            </div>
+          </div>
+
+          {/* Results History Panel */}
+          <SpinHistory storageKey={storageKey} newWinner={winner} />
         </div>
       </div>
-    </div>
+    </>
   );
 }
