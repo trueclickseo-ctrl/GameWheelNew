@@ -76,6 +76,9 @@ if (gitignoreContent) {
   fs.writeFileSync(gitignorePath, gitignoreContent, 'utf8');
 }
 
+// 6b. Ensure .nojekyll exists in root for GitHub Pages / static servers
+fs.writeFileSync(path.join(projectRoot, '.nojekyll'), '# Disable Jekyll\n', 'utf8');
+
 // 7. Commit and force push to main
 console.log("Committing and force pushing static files to main branch...");
 execSync('git add -A', { cwd: projectRoot, stdio: 'inherit' });
