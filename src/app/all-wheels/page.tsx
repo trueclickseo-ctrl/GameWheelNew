@@ -39,6 +39,14 @@ export default function AllWheelsPage() {
       count: "19 Wheels",
     },
     {
+      name: "Character Wheels",
+      description: "Spin random character design decision wheels for OCs, fanfiction, D&D, worldbuilding, and avatar generator challenges.",
+      href: "/character-wheels",
+      icon: User,
+      bgColor: "bg-retro-orange",
+      count: "1 Wheel",
+    },
+    {
       name: "Character Creator & OC Wheels",
       description: "Design random characters, OCs, and avatars instantly. Spin for hairstyles, outfits, eyes, genders, and gacha ideas.",
       href: "/character-creator",

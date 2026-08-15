@@ -20,6 +20,7 @@ export default function Navbar({ currentLocale = "en" }: { currentLocale?: strin
     { name: "Wheel of Names", href: `${localePrefix}/wheel-of-names/` },
     { name: "Decision Wheel", href: `${localePrefix}/decision-wheel/` },
     { name: "Yes or No Wheel", href: `${localePrefix}/yes-no-wheel/` },
+    { name: "Character Wheels", href: `${localePrefix}/character-wheels/` },
     { name: "Number Generator", href: `${localePrefix}/random-number-generator/` },
     { name: "Flip a Coin", href: `${localePrefix}/flip-a-coin/` },
     { name: "Dice Roller", href: `${localePrefix}/dice-roller/` },
