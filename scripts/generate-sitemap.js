@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const projectRoot = 'd:/Project-GameWheel';
+const projectRoot = path.resolve(__dirname, '..');
 const appDir = path.join(projectRoot, 'src/app');
 const sitemapPath = path.join(projectRoot, 'public/sitemap.xml');
 

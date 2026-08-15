@@ -66,56 +66,97 @@ export default function FootballPlayersWheelPage() {
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16 border-t-3 border-retro-navy dark:border-cream pt-12">
           <div>
             <h2 className="text-2xl md:text-3xl font-black font-display mb-6 text-retro-navy dark:text-cream">
-              Why Use the World Soccer Star Picker?
+              Settle the GOAT Debate (Or At Least Pick a Player)
             </h2>
             <div className="prose dark:prose-invert font-medium text-base space-y-4">
               <p>
-                Soccer, or football as it is known globally, features some of the most talented athletes on the planet. From generational icons like Lionel Messi and Cristiano Ronaldo to modern goal-scoring machines like Kylian Mbappé and Erling Haaland, football fans are always debating who rules the pitch.
+                Every football fan has an opinion on who&apos;s actually the best — and that&apos;s exactly the problem when you&apos;re building a draft squad, picking a fantasy captain, or just trying to end an argument in the group chat. This wheel makes the call for you: load it up with Messi, Ronaldo, Mbappé, Haaland, or whoever&apos;s on your shortlist, spin, and go with what you get.
               </p>
               <p>
-                Our <strong>Football Players Wheel</strong> provides an interactive way to randomly pick one of these world-class stars. Use it to select your next target in Ultimate Team, randomize career mode player choices, or organize draft challenges.
+                No app to download, no account, no clutter. Type in names, hit spin, done.
               </p>
               <p>
-                If you are looking to randomize non-sports options, try our general <Link href="/decision-wheel/" className="text-retro-mint underline font-bold">Decision Wheel</Link> or return to the main <Link href="/games/" className="text-retro-blue underline font-bold">Games Page</Link> for additional options.
+                Need a plain decision-maker instead? Try the <Link href="/decision-wheel/" className="text-retro-mint underline font-bold">Decision Wheel</Link>, or head back to <Link href="/games/" className="text-retro-blue underline font-bold">all the games</Link>.
               </p>
             </div>
           </div>
 
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-black font-display mb-6 text-retro-navy dark:text-cream">
-              Fun Game Modes & Challenges
+              How People Actually Use This
             </h2>
             <div className="grid grid-cols-1 gap-4">
               <div className="neo-card p-4 bg-retro-mint text-retro-navy">
                 <h3 className="font-bold text-lg mb-1 flex items-center gap-2">
                   <Target className="w-5 h-5 flex-shrink-0" />
-                  FC 24/FC 25 Ultimate Team Draft Challenge
+                  Breaking a draft tie.
                 </h3>
                 <p className="text-sm font-semibold opacity-90">
-                  Spin the wheel before starting a draft to select your captain, or determine which player you must build your hybrid squad chemistry around.
+                  FC Ultimate Team drafts move fast, and picking your captain can turn into ten minutes of second-guessing. If you&apos;re stuck between two strikers for your first pick — or you&apos;d rather build around a genuinely random player than the same favorite every time — spin instead of overthinking it.
                 </p>
               </div>
 
               <div className="neo-card p-4 bg-retro-yellow text-retro-navy">
                 <h3 className="font-bold text-lg mb-1 flex items-center gap-2">
                   <Star className="w-5 h-5 flex-shrink-0" />
-                  Fantasy League Captain Picker
+                  Fantasy captain, decided in three seconds.
                 </h3>
                 <p className="text-sm font-semibold opacity-90">
-                  Stuck between selecting two superstars for your fantasy squad? Add them to the wheel and let a random spin settle your captain armband dilemma!
+                  Torn between two big names for the armband this gameweek? Add both to the wheel, spin, and stop staring at last week&apos;s stats.
                 </p>
               </div>
 
               <div className="neo-card p-4 bg-retro-blue text-white">
                 <h3 className="font-bold text-lg mb-1 flex items-center gap-2">
                   <HelpCircle className="w-5 h-5 flex-shrink-0" />
-                  Career Mode Challenges
+                  The &quot;sign anyone&quot; Career Mode challenge.
                 </h3>
                 <p className="text-sm font-semibold opacity-90">
-                  Choose a player at random, review their stats or team, and embark on a manager campaign to sign that player to your club no matter the cost!
+                  Spin for a random player — any club, any price tag — and try to actually sign them in Career Mode. It&apos;s a good way to break out of buying the same three players every save.
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="neo-card p-8 bg-white dark:bg-retro-navy mb-12">
+          <h2 className="text-2xl md:text-3xl font-black font-display text-retro-navy dark:text-cream border-b-3 border-retro-navy dark:border-cream pb-3 mb-6 text-center">
+            FAQ
+          </h2>
+          <div className="space-y-6 font-medium">
+            {[
+              {
+                q: "Can I add my own players to the wheel?",
+                a: "Yes. Type a name into the options box, or paste a full list at once using Bulk Edit — one name per line.",
+              },
+              {
+                q: "Does the wheel favor certain players?",
+                a: "No. Every option on the wheel has an equal, genuinely random chance, no matter the order they're added in or how many times you've spun before.",
+              },
+              {
+                q: "Can I use this for other sports, not just football?",
+                a: "Yes — swap in any names you want. It works for any list of players, teams, or picks you're trying to randomize.",
+              },
+              {
+                q: "Is there a limit to how many players I can add?",
+                a: "No hard limit. You can load a full squad, a whole league, or just two names for a quick tiebreak.",
+              },
+              {
+                q: "Can I embed this wheel on my own site?",
+                a: "Yes — use the \"Get Embed Code\" button above the wheel to get an iframe you can paste straight into your page.",
+              },
+            ].map((faq, idx) => (
+              <div key={idx}>
+                <h3 className="text-lg font-black flex items-center gap-2 mb-2 text-retro-navy dark:text-cream">
+                  <HelpCircle className="w-5 h-5 flex-shrink-0 text-retro-orange" />
+                  {faq.q}
+                </h3>
+                <p className="text-sm opacity-90 leading-relaxed pl-7 text-retro-navy dark:text-cream">
+                  {faq.a}
+                </p>
+              </div>
+            ))}
           </div>
         </section>
       </main>
