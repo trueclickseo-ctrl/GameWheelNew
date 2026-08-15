@@ -13,6 +13,7 @@ export const UI_TRANSLATIONS: Record<string, Record<string, string>> = {
     home: "Home",
     tools: "Tools",
     games: "Games",
+    allWheels: "All Wheels",
     templates: "Templates",
     about: "About",
     contact: "Contact",

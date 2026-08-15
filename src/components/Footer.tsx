@@ -41,6 +41,9 @@ export default function Footer({ currentLocale = "en" }: { currentLocale?: strin
             <a href={`${localePrefix}/video-game-wheels/`} className="hover:text-retro-orange transition-colors">
               Video Games
             </a>
+            <a href={`${localePrefix}/all-wheels/`} className="hover:text-retro-orange transition-colors">
+              All Wheels
+            </a>
             <a href={`${localePrefix}/games/`} className="hover:text-retro-orange transition-colors">
               Browse All
             </a>

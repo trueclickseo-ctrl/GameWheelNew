@@ -87,6 +87,9 @@ export default function Navbar({ currentLocale = "en" }: { currentLocale?: strin
         <a href={`${localePrefix}/games/`} className="hover:text-retro-orange transition-colors">
           {t.games}
         </a>
+        <a href={`${localePrefix}/all-wheels/`} className="hover:text-retro-orange transition-colors">
+          {t.allWheels || "All Wheels"}
+        </a>
         <a href={`${localePrefix}/templates/`} className="hover:text-retro-orange transition-colors">
           {t.templates}
         </a>
@@ -96,8 +99,6 @@ export default function Navbar({ currentLocale = "en" }: { currentLocale?: strin
         <a href={`${localePrefix}/contact/`} className="hover:text-retro-orange transition-colors">
           {t.contact}
         </a>
-
-
 
         <ThemeToggle />
       </nav>
@@ -138,6 +139,9 @@ export default function Navbar({ currentLocale = "en" }: { currentLocale?: strin
 
           <a href={`${localePrefix}/games/`} className="hover:text-retro-orange transition-colors">
             {t.games}
+          </a>
+          <a href={`${localePrefix}/all-wheels/`} className="hover:text-retro-orange transition-colors">
+            {t.allWheels || "All Wheels"}
           </a>
           <a href={`${localePrefix}/templates/`} className="hover:text-retro-orange transition-colors">
             {t.templates}
