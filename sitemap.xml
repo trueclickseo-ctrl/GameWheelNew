@@ -13,6 +13,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.gamewheelclub.com/all-wheels/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.gamewheelclub.com/animal-wheels/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
