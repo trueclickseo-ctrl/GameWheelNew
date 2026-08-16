@@ -96,19 +96,19 @@ export default function Home() {
       <section className="text-center mb-12">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full neo-border bg-retro-yellow text-retro-navy font-bold text-xs uppercase tracking-wider mb-4 animate-bounce">
           <Sparkles className="w-4 h-4" />
-          Decision Making Made Easy
+          Random Name Picker & Choice Spinner
         </div>
         <h1 className="text-4xl md:text-6xl font-black font-display tracking-tight text-retro-navy dark:text-cream mb-4">
-          Spin the Wheel of Decisions
+          Wheel of Names & Random Decision Spinner
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto font-medium opacity-90 leading-relaxed">
-          Stuck on a choice? Enter your list, hit spin, and let our custom spinner wheel pick a random winner transparently. Beautiful, retro, and 100% client-side.
+          Need to pick a random name out of a list or settle a choice? Enter your options, spin the wheel, and select a winner transparently. Fast, retro, and 100% client-side.
         </p>
       </section>
 
       {/* Wheel Spinner Section */}
       <section className="mb-16">
-        <WheelSpinner initialOptions={["Yes", "No"]} storageKey="gamewheelclub-wheel-home" />
+        <WheelSpinner initialOptions={["Alice", "Bob", "Charlie", "Dave", "Eva", "Frank", "Grace"]} storageKey="gamewheelclub-wheel-home-v2" />
       </section>
 
       {/* Popular Wheels Grid Section */}
