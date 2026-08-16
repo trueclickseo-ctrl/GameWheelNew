@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { Dices, ChevronRight } from "lucide-react";
 
@@ -18,7 +16,7 @@ export default function PartyGamesCategoryPage() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-4xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
@@ -59,7 +57,7 @@ export default function PartyGamesCategoryPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

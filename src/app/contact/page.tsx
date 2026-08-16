@@ -1,8 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { Send, CheckCircle } from "lucide-react";
 
 export default function ContactPage() {
@@ -58,7 +56,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-xl mx-auto w-full py-12 px-6">
         <section className="text-center mb-8">
@@ -147,7 +145,7 @@ export default function ContactPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

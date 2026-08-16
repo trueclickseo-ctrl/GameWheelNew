@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { Palette, Eye, Contrast, LayoutGrid, Heart, Sparkles, HelpCircle } from "lucide-react";
 
@@ -12,7 +10,7 @@ export const metadata: Metadata = {
 export default function CustomColorsFeature() {
   return (
     <>
-      <Navbar />
+      
       
       <main className="flex-1 max-w-5xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs & Header */}
@@ -206,7 +204,7 @@ export default function CustomColorsFeature() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { Briefcase, Sparkles } from "lucide-react";
 
@@ -11,7 +9,7 @@ export const metadata = {
 export default function ForBusinessPage() {
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-4xl mx-auto w-full py-12 px-6">
         <section className="text-center mb-12">
@@ -68,7 +66,7 @@ export default function ForBusinessPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

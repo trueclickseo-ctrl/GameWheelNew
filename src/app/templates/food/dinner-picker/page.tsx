@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 
@@ -13,7 +11,7 @@ export default function DinnerPickerPage() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
@@ -67,7 +65,7 @@ export default function DinnerPickerPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

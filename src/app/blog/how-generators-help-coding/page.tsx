@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { Metadata } from "next";
 import { Code2, Cpu, Database, Flame, Terminal, ArrowRight } from "lucide-react";
@@ -41,7 +39,7 @@ export default function HowGeneratorsHelpCoding() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Navbar />
+      
       
       <main className="flex-1 max-w-5xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
@@ -185,7 +183,7 @@ export default function HowGeneratorsHelpCoding() {
         </div>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

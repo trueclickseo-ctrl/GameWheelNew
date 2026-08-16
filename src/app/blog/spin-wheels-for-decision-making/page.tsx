@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { Metadata } from "next";
 import { HelpCircle, Sparkles, Scale, Lightbulb, Compass, ArrowRight } from "lucide-react";
@@ -41,7 +39,7 @@ export default function SpinWheelsForDecisionMaking() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Navbar />
+      
       
       <main className="flex-1 max-w-5xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
@@ -190,7 +188,7 @@ export default function SpinWheelsForDecisionMaking() {
         </div>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

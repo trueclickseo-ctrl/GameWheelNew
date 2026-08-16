@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import NumberGenerator from "@/components/NumberGenerator";
 import Link from "next/link";
 import { Hash, Sparkles } from "lucide-react";
@@ -12,7 +10,7 @@ export const metadata = {
 export default function NumberGeneratorPage() {
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <section className="text-center mb-12">
@@ -73,7 +71,7 @@ export default function NumberGeneratorPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

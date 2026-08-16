@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { Volume2, Music, Waves, Radio, Settings, HelpCircle, AlertCircle } from "lucide-react";
 
@@ -12,7 +10,7 @@ export const metadata: Metadata = {
 export default function SoundEffectsFeature() {
   return (
     <>
-      <Navbar />
+      
       
       <main className="flex-1 max-w-5xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs & Header */}
@@ -214,7 +212,7 @@ osc.stop(ctx.currentTime + 0.015);`}
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

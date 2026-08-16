@@ -1,12 +1,10 @@
 import Link from "next/link";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { HelpCircle } from "lucide-react";
 
 export default function NotFound() {
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 flex flex-col items-center justify-center text-center py-20 px-6 max-w-xl mx-auto">
         <div className="p-6 rounded-full neo-border bg-retro-orange text-retro-navy mb-6 animate-bounce">
@@ -31,7 +29,7 @@ export default function NotFound() {
         </Link>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

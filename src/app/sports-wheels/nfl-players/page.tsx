@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 import { Trophy, ArrowLeft, Users, Zap, HelpCircle } from "lucide-react";
@@ -25,7 +23,7 @@ export default function NFLPlayersWheelPage() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
@@ -120,7 +118,7 @@ export default function NFLPlayersWheelPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

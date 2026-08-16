@@ -1,10 +1,8 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 export default function TermsPage() {
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-4xl mx-auto w-full py-12 px-6">
         <section className="text-center mb-8">
@@ -38,7 +36,7 @@ export default function TermsPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

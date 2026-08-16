@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
@@ -25,7 +23,7 @@ export default function partygamesHubPage() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
@@ -66,7 +64,7 @@ export default function partygamesHubPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

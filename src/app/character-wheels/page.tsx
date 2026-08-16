@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { User, ChevronRight } from "lucide-react";
 
@@ -19,7 +17,7 @@ export default function CharacterWheelsCategoryPage() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
@@ -60,7 +58,7 @@ export default function CharacterWheelsCategoryPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

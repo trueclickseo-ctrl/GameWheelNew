@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { Check, X, ArrowUpRight, HelpCircle, Award, Sparkles, Shield, Eye, ShieldCheck, Zap } from "lucide-react";
 
@@ -58,7 +56,7 @@ export default function BestRandomPickerToolsPage() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         {/* Schema Insertion */}
@@ -340,7 +338,7 @@ export default function BestRandomPickerToolsPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

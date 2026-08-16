@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import WheelSpinner from "@/components/WheelSpinner";
 import Link from "next/link";
 
@@ -13,7 +11,7 @@ export default function DessertSpinnerPage() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <div className="flex gap-2 text-xs font-bold uppercase tracking-wider mb-6 opacity-75">
@@ -66,7 +64,7 @@ export default function DessertSpinnerPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

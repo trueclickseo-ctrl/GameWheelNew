@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { BookOpen, ChevronRight, Calendar } from "lucide-react";
 
@@ -91,7 +89,7 @@ export default function BlogIndexPage() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="flex-1 max-w-6xl mx-auto w-full py-12 px-6">
         <section className="text-center mb-12">
@@ -135,7 +133,7 @@ export default function BlogIndexPage() {
         </section>
       </main>
 
-      <Footer />
+      
     </>
   );
 }

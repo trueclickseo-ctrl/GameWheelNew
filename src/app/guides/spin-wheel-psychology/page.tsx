@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import { Metadata } from "next";
 import { Brain, Sparkles, Smile, Flame, Trophy, ArrowRight } from "lucide-react";
@@ -13,7 +11,7 @@ export const metadata: Metadata = {
 export default function SpinWheelPsychology() {
   return (
     <>
-      <Navbar />
+      
       
       <main className="flex-1 max-w-5xl mx-auto w-full py-12 px-6">
         {/* Breadcrumbs */}
@@ -176,7 +174,7 @@ export default function SpinWheelPsychology() {
         </div>
       </main>
 
-      <Footer />
+      
     </>
   );
 }
