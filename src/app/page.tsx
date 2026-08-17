@@ -27,14 +27,14 @@ export default function Home() {
     },
     {
       title: "NFL Teams Wheel",
-      route: "/sports-wheels/nfl-teams-wheel/",
+      route: "/sports-wheels/nfl-teams/",
       category: "Sports Wheels",
       emoji: "⚽",
       description: "Pick a random NFL team for fantasy drafts, Madden challenges, or game day picks.",
     },
     {
       title: "What to Eat for Lunch",
-      route: "/food-wheels/what-to-eat-for-lunch/",
+      route: "/food-wheels/what-to-eat/",
       category: "Food Wheels",
       emoji: "🍕",
       description: "Can't agree on food? Spin to randomly choose meal ideas, fast food, or restaurants.",
@@ -55,7 +55,7 @@ export default function Home() {
     },
     {
       title: "Truth or Dare Wheel",
-      route: "/party-games/truth-or-dare-wheel/",
+      route: "/party-games/truth-or-dare/",
       category: "Party Games",
       emoji: "🎉",
       description: "Interactive party wheel packed with fun prompts for sleepovers, events, and icebreakers.",
